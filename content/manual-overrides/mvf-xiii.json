@@ -1,0 +1,44 @@
+{
+  "edition": "XIII",
+  "year": 2022,
+  "last_updated": "2026-04-17",
+  "overrides": [
+    {
+      "path": "editorial.author",
+      "original": "Juan Pablo Aguirre",
+      "value": "Alejandro Yamgotchian",
+      "reason": "HTML schema.org metadata named Juan Pablo Aguirre as article author — he is the site admin, not the editorial writer. Actual author is Alejandro Yamgotchian.",
+      "source": "manual"
+    },
+    {
+      "path": "sections[name=Muestra Informativa de Cortometrajes].films[title=Gualicho].director",
+      "original": "",
+      "value": "Damián Mastroleo",
+      "reason": "Director missing from source HTML. Provided by user.",
+      "source": "manual"
+    },
+    {
+      "path": "sections[name=Competencia Iberoamericana de Largometrajes].films[slug=jacinto].poster",
+      "original": "",
+      "value": "/media/archive/XIII/films/jacinto.jpg",
+      "reason": "Poster URL found in source HTML (data-src attribute, line 852). Downloaded from external source and stored locally.",
+      "source": "external_url",
+      "source_url": "https://www.montevideofan.com/wp-content/uploads/2023/05/AficheJacinto.jpg"
+    },
+    {
+      "path": "sections[name=Competencia Iberoamericana de Largometrajes].films[slug=jacinto].trailer_url",
+      "original": null,
+      "value": "https://www.youtube.com/embed/nt4gUsP1xfk",
+      "reason": "YouTube embed found in source HTML (line ~860, iframe data-src). Missed in initial extraction pass, corrected in review.",
+      "source": "raw_html"
+    },
+    {
+      "path": "edition.dates",
+      "original": null,
+      "value": "2022",
+      "reason": "Exact festival dates not found in source HTML. Year-only placeholder used.",
+      "source": "manual",
+      "flag": "incomplete — exact dates need to be sourced"
+    }
+  ]
+}
