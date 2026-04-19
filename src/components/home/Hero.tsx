@@ -22,7 +22,7 @@ export default function Hero({ edition }: HeroProps) {
       })}`
     : null;
 
-  const visualSrc = edition?.poster || edition?.key_visual;
+  const visualSrc = "/media/home/featured/awards-01.jpg";
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-void">
