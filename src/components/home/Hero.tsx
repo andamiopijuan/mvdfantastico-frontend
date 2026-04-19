@@ -22,7 +22,7 @@ export default function Hero({ edition }: HeroProps) {
       })}`
     : null;
 
-  const visualSrc = edition?.key_visual || edition?.poster;
+  const visualSrc = edition?.poster || edition?.key_visual;
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-void">
