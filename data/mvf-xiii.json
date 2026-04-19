@@ -1,0 +1,1022 @@
+{
+  "edition": {
+    "number": 13,
+    "roman": "XIII",
+    "year": 2022,
+    "title": "Montevideo Fantástico XIII",
+    "dates": "2022",
+    "poster": "/media/archive/XIII/poster.jpg",
+    "venues": [
+      "Cine Arte SODRE",
+      "Centro Cultural Artesano (Peñarol)",
+      "Centro Cultural Terminal Goes",
+      "Centro Cultural La Experimental (Malvín)",
+      "Centro Salesiano Aires Puros",
+      "Casa INJU",
+      "3Dori Café"
+    ]
+  },
+  "editorial": {
+    "title": "Los premios del Montevideo Fantástico XIII",
+    "author": "Alejandro Yamgotchian",
+    "content": [
+      "Y finalmente culminó la 13a. edición del Montevideo Fantástico, hecha por segunda vez en dos partes para poder exhibir todos los muy buenos materiales recibidos y de numerosas partes del mundo durante la pandemia.",
+      "Ochenta trabajos integraron la sección de cortometrajes, entre la Competencia Oficial, la Latinoamericana y la Uruguaya, además de la Muestra Informativa, y unos 26 largometrajes dieron forma a la Competencia Internacional y las Novedades. Más de 100 películas en total fueron exhibidas por todo Montevideo y en un 90% de las funciones con entrada libre. Y más de 3.000 personas nos acompañaron en las distintas exhibiciones. Fue la edición con mayor asistencia de la historia del festival.",
+      "Estamos enormemente agradecidos a Cine Arte SODRE, Centro Cultural Artesano (Peñarol), Centro Cultural Terminal Goes, Centro Cultural La Experimental (Malvín), Centro Salesiano Aires Puros, Casa INJU (Instituto Nacional de la Juventud) y 3Dori Café (Soriano y Río Negro) por cedernos sus respectivas salas/espacios para la realización de esta exitosa edición del festival, un evento tan independiente como las películas que recibimos y que siempre hemos difundido con la mejor de las intenciones, para dar a conocer ese cine distinto, talentoso y con absoluta libertad creativa.",
+      "A continuación los dejamos con todos los ganadores de esta 13a. edición. Muchísimas gracias a todo el público asistente, a los distribuidores cinematográficos locales que nos apoyaron en el sorteo de entradas para cines de estreno, a los encargados de las salas, a los jurados, a todos los que nos apoyaron tanto en el mundo real como también en el virtual."
+    ]
+  },
+  "awards": [
+    {
+      "section": "Competencia Oficial de Largometrajes",
+      "jury": "Federico Cardoso, Mónica Talamás, Andrés Montañéz",
+      "awards": [
+        {
+          "name": "Mejor Película",
+          "film": "Alien Outbreak / Brote alienígena",
+          "country": "Reino Unido",
+          "year": 2020,
+          "director": "Neil Rowe",
+          "citation": "Por su destaque en mostrar una historia con tensión, suspenso y terror. Generando un ambiente de pánico, dando un nuevo enfoque a la invasión alienígena aprovechando recursos, locaciones y un excelente uso de efectos."
+        },
+        {
+          "name": "Mejor Director",
+          "recipient": "Hyun Yang Choi",
+          "film": "El sótano / The Basement",
+          "country": "Corea del Sur",
+          "year": 2020,
+          "citation": "Por lograr una coherencia narrativa y técnica en la cual se nota un único hilo conductor en la actuación, fotografía, arte, diseño de sonido y montaje que colaboran como uno para dar soporte a la historia."
+        },
+        {
+          "name": "Mejor Guión",
+          "recipient": "Agustín Rubio",
+          "film": "La desvida",
+          "country": "España",
+          "year": 2020,
+          "citation": "Por su trabajo en contar una historia de manera fluida a lo largo de distintos tiempos narrativos hasta llegar a su desenlace."
+        },
+        {
+          "name": "Mejor Actor",
+          "recipient": "Julio Perillán",
+          "film": "La desvida",
+          "citation": "Por mostrar un gran abanico de emociones."
+        },
+        {
+          "name": "Mejor Actriz",
+          "recipient": "Marta Megías",
+          "film": "Nikolina",
+          "country": "España",
+          "year": 2020,
+          "citation": "Por su vestir a un personaje con emociones y reacciones convincentes que apoya a la historia."
+        },
+        {
+          "name": "Mención Especial",
+          "film": "Alien Outbreak",
+          "citation": "Al excelente uso de efectos especiales."
+        },
+        {
+          "name": "Mención Especial",
+          "film": "La alquimia del espíritu",
+          "country": "EE.UU.",
+          "year": 2021,
+          "director": "Steve Balderson",
+          "citation": "A la fuerte propuesta fotográfica y a la banda sonora."
+        },
+        {
+          "name": "Mención Especial",
+          "film": "NEMM: Super Tuber",
+          "country": "Argentina",
+          "year": 2021,
+          "director": "David León Sofía",
+          "citation": "Por mostrar una historia arriesgada, valiente y fuera de lo común."
+        },
+        {
+          "name": "Mejor Película Iberoamericana",
+          "film": "Jacinto",
+          "country": "España",
+          "year": 2021,
+          "director": "Javi Camino",
+          "citation": "Una película que de menor no tiene nada; una comedia negrísima que también es un drama agudo; inteligente y donde pesan del mismo modo la labor de su protagonista como el impulso cada vez más creciente de un atento realizador."
+        }
+      ]
+    },
+    {
+      "section": "Competencia Oficial de Cortometrajes",
+      "jury": "Comité de Preselección del Festival",
+      "awards": [
+        {
+          "name": "Mejor Cortometraje",
+          "film": "El hilo azul del destino / The Blue Thread of Destiny",
+          "country": "Hong Kong",
+          "year": 2020,
+          "director": "Julie Misaki",
+          "citation": "Por su excelente forma de tratar temas complejos, y de una forma tan acertada, como los celos, la culpa, la locura y las repercusiones de todo esto en la vida, logrando enganchar al espectador de manera inmediata, con una muy cuidada fotografía y un guión con varios giros a pesar de su corta duración, siendo todo esto sostenido por la brillante interpretación de su protagonista."
+        },
+        {
+          "name": "Mejor Corto Latinoamericano",
+          "film": "Donde la luz no llega",
+          "country": "Perú",
+          "year": 2020,
+          "director": "Sebastián Plasencia",
+          "citation": "Por la ambientación que genera una tensión permanente, siendo una historia muy sencilla y compleja a la vez, que habla de lo difícil que puede ser tomar responsabilidades de forma tan temprana. Por sus efectos especiales que, sin mostrar en exceso, logran asustar en gran forma, y unas actuaciones muy sólidas por parte de los dos niños protagonistas."
+        },
+        {
+          "name": "Mejor Animación",
+          "film": "Prueba de fuerza / Strength Test",
+          "country": "China",
+          "year": 2021,
+          "director": "Lilai Jin, Yixuan Liu, Leyi Shen"
+        },
+        {
+          "name": "Premio Revelación",
+          "recipient": "Liang Yu Chen",
+          "film": "100% Chica",
+          "country": "Taiwán",
+          "year": 2020
+        },
+        {
+          "name": "Mejor Director",
+          "recipient": "Pal Gustavsen",
+          "film": "Ahora, duerme / Sleep Now",
+          "country": "Noruega",
+          "year": 2021
+        },
+        {
+          "name": "Mejor Guión",
+          "recipient": "Maysaa Almumin",
+          "film": "Bint Wardan / J'ai Le Cafard",
+          "country": "Kuwait",
+          "year": 2020
+        },
+        {
+          "name": "Mejor Fotografía",
+          "recipient": "Enrique Bueno",
+          "film": "Manzanas podridas",
+          "country": "España",
+          "year": 2021,
+          "director": "Luma Rajeh"
+        },
+        {
+          "name": "Mejor Diseño de Producción",
+          "recipient": "Fran Olmedo Longeri",
+          "film": "Corazones extraños / Strange Hearts",
+          "country": "Chile",
+          "year": 2020
+        },
+        {
+          "name": "Mejor Cortometraje Uruguayo",
+          "film": "El agua te arrepentirá",
+          "year": 2021,
+          "director": "Marco Bentancor"
+        },
+        {
+          "name": "Mención Uruguaya – Mejor Cortometraje de Ciencia Ficción",
+          "film": "La última despedida del Sr. Pérez",
+          "year": 2021,
+          "director": "Marcelo Fabani"
+        },
+        {
+          "name": "Mención Uruguaya – Mejor Producción",
+          "film": "Radetzky",
+          "year": 2021,
+          "director": "Raúl Pierri"
+        },
+        {
+          "name": "Mención Uruguaya – Mejor Dirección Artística",
+          "recipient": "Fabiola Gatti",
+          "film": "Hambre de libertad",
+          "year": 2021,
+          "director": "Tomás Marichal Urban"
+        }
+      ]
+    },
+    {
+      "section": "Premios del Público",
+      "awards": [
+        {
+          "name": "Mejor Película",
+          "film": "Nikolina",
+          "country": "España",
+          "year": 2021,
+          "director": "Eva Libertad, Nuria Muñóz"
+        },
+        {
+          "name": "Mejor Largometraje Latinoamericano",
+          "film": "El cementerio de las almas perdidas",
+          "country": "Brasil",
+          "year": 2020,
+          "director": "Rodrigo Aragão"
+        },
+        {
+          "name": "Mejor Cortometraje",
+          "film": "#BestSelfieEver",
+          "country": "Chile",
+          "year": 2020,
+          "director": "Inti Carrizo-Ortiz"
+        },
+        {
+          "name": "Mejor Cortometraje Uruguayo",
+          "film": "Lasciate Ogni Speranza",
+          "year": 2020,
+          "director": "Juan Carlos Mullin"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Competencia Internacional de Largometrajes",
+      "type": "features",
+      "films": [
+        {
+          "slug": "alien-outbreak",
+          "title": "Alien Outbreak / Brote alienígena",
+          "country": "Reino Unido",
+          "year": 2020,
+          "duration": 85,
+          "director": "Neil Rowe",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Una pequeña comunidad rural es asediada por una presencia alienígena, propagándose el pánico suicida masivo entre sus habitantes. Los oficiales Zoe y Patrick intentan salvarlos de la extinción.",
+          "review": "A lo largo de cuatro meses de filmación se aprovecharon apenas 17 días para hacer la película. Un puñado de personas estuvo detrás de la misma, aunque parezca que fue hecha por más gente. También un bajísimo presupuesto que llevó al aquí director, guionista, editor y creador de efectos especiales británico Neil Rowe, a hacer gala no solo de esta última especialidad, sino también de su destreza narrativa en esta simple historia a la que hay que interpretar (más que deducir) sin explicaciones; tan solo viendo la suerte de sus personajes y lo que dejan entrever los protagonistas. La esposa del director Amanda Rowe es en la vida real agente de policía y aquí es productora, encargada de locaciones y casting, y hasta compuso la banda sonora. Se nota que el director Rowe es un ávido fan de John Carpenter. Pueden verse varias influencias, desde Asalto al Precinto 13 (que también tenía fuertes connotaciones de algunos westerns de Howard Hawks) hasta la remake de El enigma de otro mundo, con personajes desconcertados, perdidos y a veces mostrando de qué están realmente hechos ante algo inusitado.",
+          "credits": "Guion y Dirección: Neil Rowe. Con Katherine Drake, Ritchie Crane, Philip Alexander Baker, Michael Terry, Ian Rowe. Duración: 85 minutos."
+        },
+        {
+          "slug": "la-alquimia-del-espiritu",
+          "title": "La alquimia del espíritu (Alchemy of the Spirit)",
+          "country": "Estados Unidos",
+          "year": 2021,
+          "duration": 91,
+          "director": "Steve Balderson",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "El gran artista estadounidense Oliver Black (Xander Berkeley) se despierta y descubre que su esposa Evelyn (Sarah Clarke) ha muerto en su cama durante la noche. Rebosantes de realismo mágico, entramos en un mundo en el que se revelan los conceptos erróneos de nuestra creencia en una realidad sólida. El espacio y el tiempo se doblan para desafiar al espectador con lo que es real, lo que es ilusión y lo que está más allá…",
+          "review": "Una película artística, sí; también un poema de amor visual y sobrenatural que explora los misterios que trascienden nuestro universo físico y abre una puerta a una dimensión diferente, de visiones irreales, donde en última instancia, tras la muerte, hay una evolución de la vida que expande la conciencia, la serenidad y la paz interior.",
+          "credits": "Dirección: Steve Balderson. Guión: SB, Elizabeth Spear. Con Xander Berkeley, Sarah Clarke, Mink Stole, Whip Hubley, Jule Selbo. Duración: 91 minutos."
+        },
+        {
+          "slug": "la-cancion-del-mar",
+          "title": "La canción del mar (Le Chant de la Mer / Kan ar Mor)",
+          "country": "Francia",
+          "year": 2020,
+          "duration": 75,
+          "director": "Pierre-André Le Leuch",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "En un pequeño pueblo de la costa celta, una vieja leyenda ronda a los habitantes. Los jóvenes desaparecen en el mar. ¿Es obra del diablo? ¿O de una criatura malvada del mundo antiguo? León y sus amigos deciden investigar, aunque eso signifique bajar al abismo.",
+          "review": "Después de estudiar Literatura y Cine, el aquí debutante francés Pierre-André Le Leuch decidió unir sus dos pasiones y adaptar al cine uno de los cuentos celtas más antiguos: \"La sumersión de la ciudad de Ys\", ciudad que fue tragada por el océano a causa de una princesa condenada. Un viaje por el mundo celta que parece deambular por la clásica Dimensión Desconocida. Espectaculares imágenes y una muy buena banda sonora acompañan. Premiada en Francia, Italia, Estados Unidos, India, Reino Unido y Rusia.",
+          "credits": "Guion y Dirección: Pierre-André Le Leuch. Con Bethan Siân, Talwyn Baudu, Azenor Kallag, Elfed Wyn Jones, Nely Van Seventer. Duración: 75 minutos."
+        },
+        {
+          "slug": "la-desvida",
+          "title": "La desvida",
+          "country": "España",
+          "year": 2020,
+          "duration": 87,
+          "director": "Agustín Rubio",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Alex y Natalia Dunn forman una exitosa pareja, típicamente actual: seguidores de la teoría del decrecimiento, residen en un pueblo de la España vacía, desde donde han cosechado un notable éxito mundial como autores de cuentos infantiles. Pero todo se hunde para ellos cuando pierden a Jonah, su único hijo, a punto de cumplir los diez años. Cinco semanas después de la fatídica tarde en que el estado del niño se agravó y salieron de casa con lo puesto, regresan por primera vez al que fue su hogar, con propósitos distintos: Natalia, empaquetar lo básico y seguir adelante por su cuenta; Alex, convencerla para que reconsidere esa decisión. Pero el hallazgo de un mensaje de Jonah, que los invita a embarcarse en un juego de pistas, trastoca sus planes y pone a prueba sus nervios. Lo que sigue es un descenso a los infiernos de unos padres en su lucha desesperada, irracional, por arrebatar a su hijo de las garras de la muerte.",
+          "review": "Filmada casi enteramente dentro de una casa, los mensajes misteriosos que va descubriendo la pareja no quedan al servicio de una película de fantasmas, sino de cómo terminó afectando a los padres esa gran pérdida. Las posibles causas de la muerte, las responsabilidades de uno y otro, la propia separación y quizás la posibilidad de reconciliarse y empezar de nuevo, el hecho de saber dónde está realmente parado cada uno, con sus dudas, certezas y sentimientos de culpa es lo que va imponiéndose durante prácticamente todo un trabajo que parece ignorar casi por completo el terror y lo sobrenatural, aunque al final termina demostrando y con sutil contundencia todo lo contrario. Ópera prima de Agustín Rubio, premiada en España.",
+          "credits": "Guión y Dirección: Agustín Rubio. Con Julio Perillán, Tábata Cerezo, Telmo Yago, Sarah Martin. Duración: 87 minutos."
+        },
+        {
+          "slug": "nemm-super-tuber",
+          "title": "NEMM: Súper Tuber",
+          "country": "Argentina",
+          "year": 2021,
+          "duration": 88,
+          "director": "David León Sofía",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "\"A veces siento culpa, pero después veo a estos cabrones… y se me pasa\", indica el tráiler de la película. Y es que, si de 5.000.000 de delitos anuales que se cometen en Argentina, tan solo un 0.8% llega a una condena de cumplimiento efectivo, \"hace falta un superhéroe real\", indica el afiche original. Un adulto cansado de la rutina y las deudas es sorprendido por el personaje del título, quien le hace una en principio peligrosa propuesta para que lo ayude pero que quizás también lo pueda salvar al protagonista.",
+          "review": "El nuevo trabajo del director y guionista (también productor y actor principal) David León Sofía, quien ya sorprendiera con la terrorífica y multipremiada Sin señal (2014), se vuelca ahora a una comedia con intriga y suspenso, muy bien escrita y pensada, y que no dejará indiferente a casi nadie. La tan ansiada difusión y aprobación en Internet al momento de subir videos no pasa tanto aquí por hacerse famoso sino por hacer justicia y a su manera.",
+          "credits": "Guión y Dirección: David León Sofía. Con DLS, Leo \"Canario\" Dionisi, Juan Manuel Simón, Roberto Aníbal Orozco, Darío Amílcar Sotuyo. Duración: 88 minutos."
+        },
+        {
+          "slug": "nikolina",
+          "title": "Nikolina",
+          "country": "España",
+          "year": 2020,
+          "duration": 73,
+          "director": "Eva Libertad & Nuria Muñóz",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Leo es una camarera al frente de un solitario bar. Yuri, un ente atrapado en un cuadro. Leo está viva y sólo quiere que la dejen en paz. Yuri está muerto y necesita a Leo para saldar una deuda con el pasado. Los dos están atrapados en el \"Nikolina\".",
+          "review": "Comedia con fantasma, filmada en apenas 11 días, con un limitado presupuesto, y escrita y dirigida por dos realizadoras de Murcia, aquí en su ópera prima de largometraje. La película transcurre casi en su totalidad en el bar del título, donde una desilusionada mujer, sin proyecto de vida sólido, intenta cumplir con una misión que quizás le permita también ayudarse a sí misma. El film maneja muy bien las situaciones de humor, saca buen partido de la fotografía y la edición (un lugar cerrado donde siempre parecen descubrirse nuevos espacios), y tiene, en especial, a una notable protagonista (Marta Megías) que a veces termina adueñándose de una película que recuerda a la entrañable La dama y el fantasma (1943) de Joseph Mankiewicz.",
+          "credits": "Dirección: Eva Libertad & Nuria Muñóz. Guión: EL y NM, basado en historia de Diego De León. Con Marta Megías, Juan Alberto López, Alberto García Tormo, Pedro Ángel Roca, Luisa Ferrer. Duración: 73 minutos."
+        },
+        {
+          "slug": "el-sotano",
+          "title": "El sótano / The Basement (지하실)",
+          "country": "Corea del Sur",
+          "year": 2020,
+          "duration": 94,
+          "director": "Hyun Yang Choi",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Pan-Gyo, que es el Silicon Valley surcoreano, fue atacado por una bomba nuclear desde Corea del Norte. El protagonista, empresario, decidió esconderse en el sótano de su casa (a prueba de bombas) durante dos semanas, junto toda su familia y de acuerdo con las instrucciones del gobierno, ante el peligro por la radiación y la lluvia negra. De ahí en más comenzará la lucha por la supervivencia, con escasez de alimentos y sin saber lo que está pasando en el mundo exterior.",
+          "review": "Según el joven director Hyun Yang Choi, aquí en su ópera prima (filmada en plena pandemia), la película intenta ser una metáfora de la vida de la clase media cuando intenta sobrevivir frente a un riesgo de extinción. Quizás el cambio más trascendental no es el que pueda estar afuera, luego del bombardeo nuclear, sino el que se produce durante el encierro, en el lugar del título.",
+          "credits": "Dirección: Hyun Yang Choi. Guion: Junseong Hong, Jieun Lee, HYC. Con Cheolhui Lee, Seongeun Kwak, Seoyeong Parque. Duración: 94 minutos."
+        }
+      ]
+    },
+    {
+      "name": "Competencia Iberoamericana de Largometrajes",
+      "type": "features",
+      "films": [
+        {
+          "slug": "el-amigo-visible",
+          "title": "El amigo visible",
+          "country": "Argentina",
+          "year": 2020,
+          "duration": 71,
+          "director": "Cristian Bidone",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Juan tiene 50 años, problemas de tartamudez, sufre de discapacidad visual, en su trabajo tiene un jefe abusivo, nunca tuvo novia ni pareja, y no tiene amigos. Pero todo se complica aún más cuando muere su madre.",
+          "review": "Película de suspenso y terror independiente, con elementos fantásticos, sencilla y sólida en todos sus aspectos, con sugestivos climas y que encuentra un buen soporte en la actuación de su protagonista, Claudio Santorelli. El director Cristian Bidone se graduó en 2013 de la carrera de «Diseño de Imagen y Sonido» de la Universidad de Buenos Aires. Desde entonces ha trabajado en cortometrajes, videoclips, webseries y largometrajes.",
+          "credits": "Guión y Dirección: Cristian Bidone. Con Claudio Santorelli, Gerardo Tassan, Ana Luzarth, Roberto Cuba, María Manuela González. Duración: 71 minutos."
+        },
+        {
+          "slug": "bella",
+          "title": "Bella",
+          "country": "Argentina",
+          "year": 2021,
+          "duration": 65,
+          "director": "Laura Dariomerlo",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "En un remoto pueblo rural donde rige la ley de los más poderosos, una joven maestra es brutalmente violada y desaparecida. Su padre, furioso por la indiferencia de la justicia, contrata a dos asesinas para vengarla.",
+          "review": "La realizadora Laura Dariomerlo es cineasta egresada de la carrera de Dirección de Cine de la escuela de Elíseo Subiela, además de escritora, bailarina y actriz. Bella es su cuarto largometraje. \"Me propuse hacer una road movie, un western moderno, pop, sobre mujeres pistoleras vengadoras. Que represente la furia de las mujeres contra la violencia machista de manera poderosa, voraz. Me interesó hacerlo con pureza formal, pero en un formato moderno y actual. Con estética clipera que deja atrás el naturalismo y que se apoya en la música como base de una narración psicoemocional. Balancear la fuerza de los personajes con un arraigo fuerte en elementos del mundo femenino, pero llevado a un nivel expresionista. La moda como elemento preponderante y definitivo en el carácter de las protagonistas, en contraste con el universo masculino, inmerso en una ominosa pátina de violencia, y en una atmósfera de estética cruenta.\"",
+          "credits": "Guion y Dirección: Laura Dariomerlo. Con LD, Lucila Francos, Guillermo Pfening, Claudio Rissi, Marcelo Melingo. Duración: 65 minutos."
+        },
+        {
+          "slug": "el-cementerio-de-las-almas-perdidas",
+          "title": "El cementerio de las almas perdidas (O Cemitério das Almas Perdidas)",
+          "country": "Brasil",
+          "year": 2020,
+          "duration": 94,
+          "director": "Rodrigo Aragão",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Corrompido por el poder del Libro Negro de Cipriano, un jesuita y sus seguidores inician un reinado de horror en el Brasil colonial, hasta que son condenados a vivir para siempre atrapados bajo las tumbas de un cementerio. Ahora, siglos después, están listos para liberarse y esparcir su maldad por todo el mundo.",
+          "review": "Rodrigo Aragão es ya un viejo conocido del festival, recordado especialmente por su trilogía de eco-terror tropical, iniciada con Mud Zombies (2008), seguida por La noche del Chupacabras (2011) y cerrada por Mar negro (2013), siempre con el colapso ambiental de fondo y con la impresionante gama de efectos especiales y de maquillaje. Los efectos digitales son mínimos, y su pasión por los primeros trabajos de Sam Raimi y Peter Jackson es permanente. Tampoco falta el buen humor ni los sutiles guiños a clásicos del género.",
+          "credits": "Guion y Dirección: Rodrigo Aragão. Con Carol Aragão, Renato Chocair, Diego Garcias, Francisco Gaspar, Markus Konká. Duración: 94 minutos."
+        },
+        {
+          "slug": "ecos",
+          "title": "Ecos",
+          "country": "España",
+          "year": 2020,
+          "duration": 88,
+          "director": "Tommy Llorens",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Ecos es una película de amor, de un amor sincero, de un amor silente, de un amor a la deriva, de un amor naciente, de un amor moribundo, de un amor sin miedos. Esos seis amores coinciden en un momento y un lugar, el 22/02/2022 en la isla de La Palma. En una tarde sin final.",
+          "review": "No solo enmarcaríamos esta llamativa ópera prima del español Tommy Llorens (también músico y dramaturgo, abogado y criminólogo) dentro de la ciencia ficción solamente por el tiempo en que se ubica, sino también por esa \"tarde sin final\" anunciada en la sinopsis y que se revela en el último suspiro de la película. Asoma no tanto como un film coral sino más bien de encuentros casuales durante 88 minutos y entre sus personajes principales, que deambulan tristes, desconcertados, a corazón abierto, y por otro lado algo excéntricos y a la ligera, como si nada hubiera ocurrido ni fuera a suceder, a veces demostrando más dolor por los dramas y tragedias del pasado que por lo que vendrá. Premiada en Argentina, Turquía y Ucrania. Presupuesto total: 100 dólares…",
+          "credits": "Guión y Dirección: Tommy Llorens. Con Jordi Vilches, Andrea Martós, Nieves Bravo, Lorenza Machín, Lamberto Guerra. Duración: 88 minutos."
+        },
+        {
+          "slug": "jacinto",
+          "title": "Jacinto",
+          "country": "España",
+          "year": 2021,
+          "duration": 95,
+          "director": "Javi Camino",
+          "poster": "/media/archive/XIII/films/jacinto.jpg",
+          "trailer_url": "https://www.youtube.com/embed/nt4gUsP1xfk",
+          "synopsis": "Jacinto es un niño de nueve años encerrado en el cuerpo de un hombre de cerca de 50. Vive con sus ancianos padres en Mallou, un pueblo en ruínas en el medio de las montañas de Lugo. Son los tres únicos habitantes que quedan. Lejos de un mundo moderno, entre casas de piedra derrumbadas y castaños, Jacinto ha fabricado un mundo de fantasía en el que es el rey absoluto. Pero todo ese pequeño mundo se rompe con la llegada de una nueva pareja de vecinas: Alex y Ana, dos oscuras artistas black metaleras venidas desde Suecia en busca de un lugar tranquilo y sin distracciones donde poder grabar el nuevo disco de su banda \"Tardigrades\". Los mundos de ambas familias no podrían ser más diferentes, y no tardan en darse los primeros roces y problemas. Jacinto tiene muy claro que Mallou es demasiado pequeño para los cinco. Igual que en las películas, tiene que elaborar un plan para hacer desaparecer a las recién llegadas y traer la paz a su familia.",
+          "review": "El humor negro, los personajes exóticos, los contrastes de costumbres, intereses económicos que resquebrajan viejas relaciones, y la búsqueda incesante de la fama y de llamar la atención a como dé lugar corren al mismo tiempo que un drama que va creciendo con el paso de los minutos, el del personaje del título: bueno, tímido, creyente, que no puede hablar por un hecho que lo impresionó en el pasado, y cuya inocencia siempre es objeto de burla y manipulación. Todo en un remoto lugar donde supuestamente nunca pasa nada. Tercer largometraje del joven realizador Javi Camino, quien se define como \"un niño que hace películas\". Periodista y coleccionista de cine, decidió abandonar sus estudios en Psicología para dedicarse de lleno a filmar. Trabajó como cartero para poder comprarse su primera cámara filmadora, con la que hizo su primer corto en 2008. También ha hecho videoclips para reconocidas bandas musicales, y trabajó como editor para la televisión.",
+          "credits": "Guión y Dirección: Javi Camino. Con Pedro Brandaríz, Anxela Baltar, Corinna Rautenberg, Juanma Buitorón, Pilar Miguélez. Duración: 95 minutos."
+        },
+        {
+          "slug": "pandemonium",
+          "title": "Pandemonium",
+          "country": "México",
+          "year": 2020,
+          "duration": 80,
+          "director": "Emmanuel Panizzo",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Un grupo de amigos viaja a una isla abandonada para conocer la verdad de un viejo video donde unas personas desaparecen en misteriosas circunstancias. De repente comienzan a vivir situaciones extrañas hasta que tienen que salvar sus vidas.",
+          "review": "Buena apuesta mexicana de found footage que incluso tuvo que ser suspendida de a ratos durante la filmación, por los extraños fenómenos que ocurrieron en plena madrugada con el equipo y los actores. El esquema se inscribe un poco en la línea de El Proyecto Blair Witch y al mismo tiempo apuesta por un terror implícito que se va haciendo cada vez más gráfico y claustrofóbico. Hay buenos apuntes de libreto y también en lo que a actuaciones se refiere, dando un poco más de vivacidad y tensión al relato. El director mexicano Emmanuel Panizzo es también productor teatral.",
+          "credits": "Guion y Dirección: Emmanuel Panizzo. Con Tavo del Valle, Lorena Barrera, Esteban Uscanga, Eva Pérez del Alto, Víctor Jiménez. Duración: 80 minutos."
+        },
+        {
+          "slug": "punk-horror",
+          "title": "Punk Horror",
+          "country": "España",
+          "year": 2021,
+          "duration": 62,
+          "director": "David González Rudiez",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Lucas es un inadaptado que, tratando de juntar suficiente dinero para pagarle a su arrendador, sigue los pasos de un amigo desaparecido, encuentra un libro poderoso y viaja al borde del multiverso, donde moran los Dioses Exiliados…",
+          "review": "\"Una aventura cósmica de baja fidelidad\", según David González Rudiez, multipremiado realizador español independiente de vasta y reconocida experiencia, aquí mezclando comedia, fantasía y terror con casi nada de recursos, un humor sutil, y especialmente mucho ingenio y creatividad. Muy buena actuación de su protagonista, David Huertas.",
+          "credits": "Guión y Dirección: David González Rudiez. Con David Huertas, Carlos Algaba, Marta Reig, Jesús Soria, María G. Petri. Duración: 62 minutos."
+        },
+        {
+          "slug": "urubu",
+          "title": "Urubú",
+          "country": "Brasil / España",
+          "year": 2019,
+          "duration": 89,
+          "director": "Alejandro Ibáñez Nauta",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Tomás, un fotógrafo y ornitólogo venido a menos, intenta relanzar su carrera viajando a un remoto lugar de la selva amazónica para fotografiar al urubú albino, un exótico pájaro del que no hay registro en libertad. Hasta allí arrastra a su familia: Eva, su mujer, con una relación casi rota, que trata de recuperar al hombre del que se enamoró. Y Andrea, su hija, una autómata preadolescente absorbida por las nuevas tecnologías. Fotografiar al urubú pasa a ser secundario cuando la familia se adentra en un territorio secreto y misterioso. Entrar en ese mundo tendrá graves consecuencias. Un entorno paradisíaco se convierte en un terrible escenario. Un peligro acecha y les fuerza a luchar para no perder aquello que más quieren.",
+          "review": "El trabajo está dedicado a Narciso Ibáñez Serrador. Y las referencias a ¿Quién puede matar a un niño? (1976) están más que implícitas. El director de esta película (Alejandro Ibáñez Nauta) es el hijo de Chicho, y optó por rendirle tributo a su padre (\"es una carta de amor hacia él\") con esta historia que se terminó de filmar días después del fallecimiento del creador de Historias para no dormir. Chicho llegó a ver el tráiler más algunas escenas e intuyó que la película que estaba haciendo su hijo iba por buen camino. Más allá de un metraje que pudo haberse acortado perfectamente, filmó muy rápido, con escaso presupuesto y contra varios obstáculos (lluvias torrenciales, las púas de las palmeras, picaduras de insectos) en un contexto peligroso, aunque no tan desconocido, ya que Alejandro había hecho documentales en el Amazonas. Si bien dio prioridad a la parte visual, estética, la película se guarda momentos de buen suspenso y terror, sin necesidad de caer en truculencias, imponiendo un sello propio y dejando algunos hechos librados a la imaginación del espectador.",
+          "credits": "Dirección: Alejandro Ibáñez Nauta. Guión: Carlos Bianchi, Alejandro Heredia, AIN. Con Carlos Urrutia, Clarice Alves, José Carabias, AIA, Jullie D'Arrigo. Duración: 89 minutos."
+        }
+      ]
+    },
+    {
+      "name": "Novedades",
+      "type": "features",
+      "films": [
+        {
+          "slug": "aspiradoras-sobreexcitadas-de-marte",
+          "title": "Aspiradoras sobreexcitadas de Marte (Oversexed Rugsuckers from Mars)",
+          "country": "Estados Unidos",
+          "year": 1989,
+          "duration": 84,
+          "director": "Michael Paul Girard",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Diminutos seres de Marte utilizan la Tierra como laboratorio para probar nuevas formas de vida. Regresan después de diez millones de años solo para descubrir que el experimento humano es un completo fracaso. Deciden emparejar a un humano con una aspiradora para crear una especie que sea mejor limpiando lo que ensucia, pero un error de programación de un marciano borracho envía al electrodoméstico mutado a una ola salvaje de violaciones, asesinatos y malos modales en general.",
+          "review": "La película fue producida en 1988 y estrenada un año después. Con el paso de los años fue adquiriendo status de culto. Era la ópera prima del estadounidense Michael Paul Girard (también músico y director de teatro), quien en ese momento estaba sin hogar, sin trabajo, viviendo en una camioneta y con tan solo 1.000 dólares que destinó a la compra de una cámara usada. Con la ayuda de sus amigos terminó haciendo esta delirante comedia que increíblemente le permitió hacer toda su obra posterior. \"Qué viaje tan largo y extraño ha sido\". Toda una auténtica novedad para el festival.",
+          "credits": "Guion y Dirección: Michael Paul Girard. Con Dick Monda, Jean Stewart, Billy Bob Rhoads, Bill Monsour, Lynne Guini. Duración: 84 minutos."
+        },
+        {
+          "slug": "historias-del-despues",
+          "title": "Historias del después (Narrativas do Pós / Stories from Afterwards)",
+          "country": "Brasil",
+          "year": 2021,
+          "duration": 58,
+          "director": "Graubi García, Jairo Neto",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Rodada en medio de la cuarentena y la agitación política en la ciudad más grande de América Latina, y editada con una intensa investigación, esta película entrevista a escritores, filósofos y politólogos que plantean reflexiones sobre posibles escenarios de un mundo pospandemia.",
+          "review": "«El documental traza una línea narrativa que parte desde los principios del pensamiento científico, desde obras que predecían (o no) el futuro, hasta los desafíos de crear historias en un mundo en constante transformación, con enemigos visibles e invisibles, entre políticas negacionistas del gobierno de Bolsonaro y tecnologías disruptivas», comentaban sus realizadores, Graubi García y Jairo Neto, quienes habían estado presentando otro trabajo (mediometraje) en la pasada edición del Montevideo Fantástico (2019). Ambos realizadores cuentan con antecedentes de documental para Discovery Channel y también en el campo de la publicidad (Globo Play, Netflix, entre otras compañías).",
+          "credits": "Guion y Dirección: Graubi García, Jairo Neto. Duración: 58 minutos."
+        },
+        {
+          "slug": "kalpavigyan-un-viaje-especulativo",
+          "title": "Kalpavigyan: Un viaje especulativo (Kalpavigyan: A Speculative Journey)",
+          "country": "India",
+          "year": 2021,
+          "duration": 81,
+          "director": "Arunava Gangopadhyay",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Esta es la primera película documental sobre la historia de Bangla Kalpavigyan y sobre la ciencia ficción india. Comenzando con los primeros trabajos de escritoras como Rokeya Sakhawat Hussain (Begum Rokeya) y el modo especulativo en Bengala, y terminando con el pionero webzine Kalpabiswa, la película traza el arco histórico de Kalpavigyan a lo largo de un siglo del género. El enfoque principal apunta a las revistas de género de las décadas de 1960 y 1980 publicadas en Kolkata, y los escritores y editores que iniciaron el movimiento dándole forma a través de estas revistas, mientras se intercalan también reflexiones críticas de investigadores y académicos especialistas en la materia.",
+          "review": "La figura de Adrish Bardhan, editor de la primera revista bengalí de ciencia ficción, 'Aschorjo', ocupa un lugar preponderante en el film, al igual que importantes escritores como Satyajit Ray, Premendra Mitra y Leela Majumdar. El trabajo se sumerge en las particularidades de las decisiones editoriales, las preocupaciones políticas y las historias personales que hicieron que la magia de Kalpavigyan sucediera en medio de realidades editoriales a menudo pobres y sombrías. Pero también arroja una cálida luz sobre la tensión liberadora de la utopía especulativa que da forma y continúa dando forma al género como una discusión continua entre fanáticos, críticos y escritores.",
+          "credits": "Dirección: Arunava Gangopadhyay. Guion: Bodhisattva Chattopadhyay, AG. Duración: 81 minutos."
+        },
+        {
+          "slug": "lo-inevitable",
+          "title": "Lo inevitable",
+          "country": "Argentina",
+          "year": 2021,
+          "duration": 72,
+          "director": "Fercks Castellani",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Una familia religiosa se refugia en una antigua casa de campo, las últimas horas antes del anunciado Juicio Final. Pero la aparición inesperada de un intruso, que dice ser \"un salvador\", pone en riesgo su fe y su destino.",
+          "review": "Según su joven realizador argentino, Fercks Castellani, \"la película se sumerge en lo más profundo de los lazos de una familia influenciada por el poder de un culto religioso. Habla de los excesos, la violencia y la corrupción de estos grupos a principios de los años ´50. Esas personas esconden secretos y obsesiones que guardan bajo llave, al igual que la familia que elijo retratar. El escenario es el apocalipsis. El fin de los tiempos. El Juicio Final. Pero en contraposición a la oscuridad, hay algo de esperanza en uno de los personajes, que elige seguir adelante y sobrevivir.\"",
+          "credits": "Guion y Dirección: Fercks Castellani. Con Juana Viale, Luciano Cáceres, Daryna Butryk, Javier Godino, Carlos Portaluppi. Duración: 72 minutos."
+        },
+        {
+          "slug": "el-psicopata-cronica-de-un-caso-sin-resolver",
+          "title": "El psicópata: Crónica de un caso sin resolver",
+          "country": "Costa Rica",
+          "year": 2020,
+          "duration": 84,
+          "director": "Estefani Céspedes",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "La película trata sobre el caso del primer asesino en serie conocido en Costa Rica y sus crímenes entre 1985 y 1995 (dejando 19 víctimas mortales), un caso que afectó profundamente la historia costarricense moderna, un caso que nunca se resolvió y se ha olvidado por las nuevas generaciones en dicho país. Países como Costa Rica, que son conocidos por su naturaleza (playas, volcanes, selva tropical, animales exóticos) también tuvo asesinos en serie, que asustaron a la gente hasta el punto de que no salían de sus casas después del atardecer. Todo esto en una Centroamérica efervescente. Muertes quedaron grabadas en las mentes de los costarricenses y causas por las que el asesino nunca fue encontrado.",
+          "review": "",
+          "credits": "Guion y Dirección: Estefani Céspedes. Duración: 84 minutos."
+        },
+        {
+          "slug": "la-rosa-de-sangre",
+          "title": "La rosa de sangre (Rose of Blood / La Rose de Sang)",
+          "country": "Francia",
+          "year": 2018,
+          "duration": 100,
+          "director": "Klaudia Lanka",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "En el siglo XIX, Wladislas es el último vampiro. Solo durante casi 200 años, sueña con volver a ser humano porque le pesa la soledad. Apoyado por Tobiec, su fiel servidor, contrata a una joven campesina, Lucyllia, de la cual termina perdidamente enamorado ¿Será el amor el camino para volver a ser un simple mortal?",
+          "review": "No es una película de terror; estamos ante un drama, una historia romántica, donde la directora francesa Klaudia Lanka, que viene del teatro, se la jugó de manera autodidacta y muy humildemente a hacer esta ópera prima que apuesta a una narración que no se diluye en escenas terroríficas ni efectos especiales, sino que se concentra en uno de los sentimientos más universales. ¿Puede el amor llegar a ser tan o más inmortal que el vampirismo? \"A través del mito vampírico, quisiera demostrar que el amor -íntegro y sincero- es más poderoso que la muerte, que las diferencias de edad, de entorno u otros supuestos obstáculos inherentes a la condición humana. El vampiro se convierte entonces, no en la figura de la inmortalidad, sino en la de la búsqueda de lo absoluto y la pureza, a través de emociones propias de la humanidad y, por lo tanto, de las criaturas mortales.\"",
+          "credits": "Guion y Dirección: Klaudia Lanka. Con Julien Belon, Jennifer Brigant, Philippe Bataille, Fran V., Benjamin Lhommas. Duración: 100 minutos."
+        },
+        {
+          "slug": "la-sabiduria",
+          "title": "La Sabiduría",
+          "country": "Argentina",
+          "year": 2019,
+          "duration": 92,
+          "director": "Eduardo Pinto",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Después de una fiesta de música electrónica, tres mujeres, Mara, Tini y Luz deciden pasar un fin de semana en una antigua estancia en medio del campo. Pero lo que parecía una estancia feliz se convierte en una oscura pesadilla cuando participan en un ritual nocturno con los indígenas y los peones. Un viaje a la inmensurable llanura pampeana inicia otro viaje en el tiempo, hasta el momento en que se construyó esa estancia, cuando las mujeres eran despreciadas y los indígenas perseguidos. Tres jóvenes que están solas pero empoderadas y armadas, luchando por sus vidas en el campo y enfrentando la violencia más primitiva de nuestra historia.",
+          "review": "\"La Sabiduría es un viaje hacia la llanura pampeana, hacia el corazón de la provincia de Buenos Aires, pero también es un viaje en el tiempo, un viaje al desierto del tiempo. Tres jóvenes mujeres se toman un fin de semana y se instalan en una estancia donde todo parece detenido en el siglo XIX. La película es una cruda reflexión sobre el machismo y el racismo en nuestra sociedad. El racismo lo vivimos a día, no sólo en Argentina, también en el mundo. El originario, la barbarie, es discriminado a diario por la civilización occidental europea. La Sabiduría es una pesadilla que se repite históricamente en nuestro país donde las mujeres desaparecen ante la mirada cómplice de la sociedad.\", afirmaba el realizador argentino-portugués Eduardo Pinto (Palermo Hollywood, exhibida en el Sundance, 2005, entre otros galardonados trabajos). Premiada en Chile y México.",
+          "credits": "Dirección: Eduardo Pinto. Guion: Diego Fleischer, María Eugenia Marazzi, EP. Con Sofía Gala Castiglione, Analía Couceyro, Paloma Contreras, Daniel Fanego, Juan Palomino. Duración: 92 minutos."
+        },
+        {
+          "slug": "urpus-leyendas-de-terror",
+          "title": "Urpus: Leyendas de terror",
+          "country": "Argentina",
+          "year": 2021,
+          "duration": 62,
+          "director": "Mariana Catanzaro, María José Celiz Sayah, Ruth Gómez, Ayi Turzi, Georgina Zanardi",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Cinco niños se aventuran en el bosque en búsqueda de los cuatro muñecos malditos, con la ayuda de un libro, pero en el camino algo inesperado sucederá, algo que les cambiará la vida para siempre.",
+          "review": "Cinco leyendas de terror, dirigidas por cinco directoras (argentinas); una de ellas, Georgina Zanardi, había estado presente en pasadas ediciones del festival, donde también pudieron exhibirse trabajos de otras realizadoras aquí reunidas. La película llevó tres años de producción.",
+          "credits": "Dirección: Mariana Catanzaro, María José Celiz Sayah, Ruth Gómez, Ayi Turzi, Georgina Zanardi. Duración: 62 minutos."
+        }
+      ]
+    },
+    {
+      "name": "Muestra Informativa de Largometrajes",
+      "type": "features",
+      "films": [
+        {
+          "slug": "despertar",
+          "title": "Despertar",
+          "country": "Chile",
+          "year": 2021,
+          "duration": 98,
+          "director": "Sebastián Palacios Brockhaus",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Hace cuatro milenios ellos perdieron la batalla. Ahora están de regreso para reclamar el fruto de su creación. Pero como en aquel entonces algunos se levantarán a favor de la humanidad. Aún son solo amigos, pero pronto tomarán un camino que puede llevarlos a la muerte. De ellos depende el futuro de toda la especie humana. Cuando todo está en tu contra, la unión de quienes te aman puede ser la clave. Cuando levantes la vista hacia el cielo y veas su reflejo en tu interior es probable que al fin logres comprender aquel antiguo plan maestro. Solo entonces sabrás hacia dónde te guía este camino. Solo entonces nuestro planeta tendrá una esperanza. No importa lo que hayas creído. No importa lo que te contaron sobre nuestros orígenes. Solo concéntrate y siente. No eres como los demás. Descubre de qué y para qué estás hecho. Esto no es ficción, es historia. Esta noche llega el momento de despertar.",
+          "review": "Ópera prima del chileno Sebastián Palacios Brockhaus, creada de manera espontánea e improvisadamente, sin la existencia de guion técnico ni literario. Solo una persona de todo el elenco contaba con conocimientos audiovisuales previos. Sin embargo, todos debieron realizar labores técnicas y de producción, además de actuar. Y el resultado final no deja de ser muy interesante. A la implacable honestidad de su director (que se anuncia desde el primer plano de la película) se suma esta historia que con muy pocos recursos logra bastante, ya no hablando de disimular la falta de presupuesto o trabajadores profesionales dentro de la producción, sino también respecto al camino elegido por los guionistas, el de una historia de ciencia ficción sencilla, reflexiva, humana, por encima de grandes despliegues y envases suntuosos. La travesía valió la pena.",
+          "credits": "Dirección: Sebastián Palacios Brockhaus. Guión: Diego Palacios Brockhaus, SPB. Con SPB, Paula Cruz Barros, Bryan Morales Flor, Martín Bezanilla Cruz, Eloísa Palacios Vegas. Duración: 98 minutos."
+        },
+        {
+          "slug": "la-ultima-fase",
+          "title": "La última fase",
+          "country": "Argentina / Estados Unidos / Uruguay",
+          "year": 2020,
+          "duration": 80,
+          "director": "Gabriel Díaz",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Laura Pereira empieza una búsqueda desesperada por encontrar a su padre desaparecido de forma misteriosa. Mientras intenta encontrar respuestas, comienza a sentir la amenaza de una figura que desde las sombras le pisa los talones. Con la aparición de Francisco, un prestigioso ufólogo, descubrirá que la desaparición de su padre y los extraños sucesos que está viviendo, podrían tener una explicación relacionada al fenómeno ovni. Del director uruguayo Gabriel Díaz (El Noctámbulo).",
+          "review": "",
+          "credits": "Guion y Dirección: Gabriel Díaz. Con Sol Masid, Claudio Santorelli, Claudio Martín, Fernando Pardo, Alejandro Alvariño. Duración: 80 minutos."
+        },
+        {
+          "slug": "victima-del-amor",
+          "title": "Víctima del amor (Victim of Love)",
+          "country": "Dinamarca",
+          "year": 2019,
+          "duration": 94,
+          "director": "Jesper Isaksen",
+          "poster": "",
+          "trailer_url": null,
+          "synopsis": "Charly está buscando a su novia estadounidense, Amy, quien desapareció en circunstancias misteriosas durante una estadía de vacaciones en un hotel en Copenhague. Unos meses después, Charly decide volver a visitar el hotel para finalmente resolver el misterio de una vez por todas. Sin embargo, la investigación de Charly se descarrila rápidamente por una misteriosa y bella joven, Felicija, y también por su propio juicio gradualmente fallido que lo lleva a una pesadilla fantasmagórica.",
+          "review": "Ópera prima del danés Jesper Isaksen, quien dirigió más de 20 videos musicales y supo ser semifinalista con uno de sus primeros cortometrajes en un concurso mundial organizado por Michael Fassbender y los hermanos Tony y Ridley Scott. Thriller de terror psicológico \"denso, sangriento, pero elegante. Aposté por un universo de terror y suspenso altamente estilizado, intenso, inquietante y hermoso\". Muy buena actuación de su protagonista, Rudi Køhnke. Ganadora de varios premios internacionales.",
+          "credits": "Guion y Dirección: Jesper Isaksen. Con Rudi Køhnke, Siff Andersson, Louise Cho, Sabrina Ferguen, Paw Terndrup. Duración: 94 minutos."
+        }
+      ]
+    },
+    {
+      "name": "Competencia Oficial de Cortometrajes",
+      "type": "shorts",
+      "films": [
+        {
+          "title": "100% Chica",
+          "director": "Chen Liang Yu",
+          "country": "Taiwán",
+          "duration": 3,
+          "synopsis": "La diferencia entre hombres y mujeres crea el campo de batalla más difícil del mundo. Los aparatos de cocina mágicos intentan hacer un poco de magia para luchar por una vida pacífica y dulce.",
+          "credits": "Dirección: Chen Liang Yu."
+        },
+        {
+          "title": "Adam In Aeternum",
+          "director": "Pedro Jaén R.",
+          "country": "España",
+          "duration": 15,
+          "synopsis": "Dejando a sus espaldas miles de kilómetros y una historia desgarradora, un extenuado viajero llega al confín del mundo en pos de su obsesión y su destino: enfrentar y destruir al demonio que provocó su desgracia. Hace mucho tiempo, muy lejos.",
+          "credits": "Dirección: Pedro Jaén R."
+        },
+        {
+          "title": "Ahora, duerme / Sleep Now",
+          "director": "Pal Gustavsen",
+          "country": "Noruega",
+          "duration": 7,
+          "synopsis": "Un padre está metiendo a su hijo pequeño en la cama. Mientras el niño trata de conciliar el sueño, ocurren eventos misteriosos que desdibujan las líneas entre la ficción y la realidad y hacen que el niño se enfrente a un pasado trágico. Ahora duerme / Sleep Now es una historia oscura sobre la pérdida, el dolor y la culpa.",
+          "credits": "Dirección: Pal Gustavsen."
+        },
+        {
+          "title": "Bint Wardan / J'ai Le Cafard",
+          "director": "Maysaa Almumin",
+          "country": "Kuwait",
+          "duration": 14,
+          "synopsis": "Una mujer desanimada lucha por mantener las apariencias frente a sus alegres y motivados colegas de la oficina. Un encuentro con una cucaracha moribunda en el baño de la oficina se convierte en una amistad absurda, convirtiéndose en la compañía reconfortante que necesita hasta que se da cuenta de los efectos destructivos en su vida.",
+          "credits": "Dirección: Maysaa Almumin."
+        },
+        {
+          "title": "Carmesí",
+          "director": "Miguel Varela",
+          "country": "España",
+          "duration": 3,
+          "synopsis": "Nora, una reconocida actriz, está en un bar con Lucía, su mejor amiga, cuando un joven se acerca a ella para intentar conquistarla. Sin embargo, Nora guarda un oscuro secreto en lo más profundo de su mente.",
+          "credits": "Dirección: Miguel Varela."
+        },
+        {
+          "title": "La chica del extraño secreto",
+          "director": "Anaís Medina Seoane, Tony Navarro Hernández",
+          "country": "España",
+          "duration": 15,
+          "synopsis": "Drama de estética pop con toques de thriller psicológico y fantasía que narra la historia de Eva, una misteriosa bibliotecaria que se topa con Gabriel, un ferviente admirador que parece conocer todos y cada uno de los secretos que ella esconde. Tras aceptar una cita con él, Eva empezará a vivir una sucesión de perturbadoras situaciones que la harán dudar de las intenciones del enigmático Gabriel.",
+          "credits": "Dirección: Anaís Medina Seoane, Tony Navarro Hernández."
+        },
+        {
+          "title": "Ella y la oscuridad",
+          "director": "Daniel Romero",
+          "country": "España",
+          "duration": 13,
+          "synopsis": "Una limpiadora afronta una profunda depresión tras la muerte de su hija. En una de sus carreras nocturnas para combatir el insomnio, siente que alguien la observa desde la oscuridad de un callejón.",
+          "credits": "Dirección: Daniel Romero."
+        },
+        {
+          "title": "Familiar",
+          "director": "David Ellison",
+          "country": "Reino Unido",
+          "duration": 10,
+          "synopsis": "Es 1942, en los oscuros bosques de Pensilvania, Richard Mason es el familiar de una horrible y antigua criatura vampírica que vive en las entrañas de una mansión aislada. Cada día debe traer una nueva víctima para que se alimente y tolere su maltrato físico y mental.",
+          "credits": "Dirección: David Ellison."
+        },
+        {
+          "title": "Grooming: El lado oscuro de la red",
+          "director": "Francisco Yélamos Martín",
+          "country": "España",
+          "duration": 9,
+          "synopsis": "Una niña de 13 años necesitada de afecto, establece contacto con alguien a través de una misteriosa caja donde guarda sus propios deseos anotados. Su curiosidad la llevará a conocer a la persona que está al otro lado de ese portal.",
+          "credits": "Dirección: Francisco Yélamos Martín."
+        },
+        {
+          "title": "Hamelin",
+          "director": "Silvia Conesa",
+          "country": "España",
+          "duration": 9,
+          "synopsis": "En un futuro no muy lejano, una pareja acomodada, Juan y Clara contratan los servicios de \"YouCare\", una empresa que educa a tu hijo por ti en tu propio hogar de una manera cómoda y sencilla; tan solo debes apretar un botón cada vez que tu hijo se esté portando mal. Sin embargo, las consecuencias para su hijo Rubén, no serán como ellos las hubieran deseado.",
+          "credits": "Dirección: Silvia Conesa."
+        },
+        {
+          "title": "H.E.N.R.I.",
+          "director": "Ryan Singh",
+          "country": "Canadá",
+          "duration": 7,
+          "synopsis": "Después de la trágica pérdida de su padre, Simon, de 7 años, recurre al comunicador de Inteligencia Artificial de su hogar para buscar respuestas, mientras su madre Mary-Anne y su hermana gemela Simone intentan reajustarse a su nueva realidad.",
+          "credits": "Dirección: Ryan Singh."
+        },
+        {
+          "title": "El hilo azul del destino / The Blue Thread of Destiny / Aoi Ito",
+          "director": "Julie Misaki",
+          "country": "Hong Kong",
+          "duration": 8,
+          "synopsis": "En Japón, dicen que el 'hilo rojo' conecta a dos personas con un destino determinado. Los gemelos Ao y Aoi, como sus nombres derivan de 'azul', también creen en esto. Su vida se ve amenazada por un nuevo amante de la hermana Aoi, que comienza a vivir con los gemelos.",
+          "credits": "Dirección: Julie Misaki."
+        },
+        {
+          "title": "Homo Cell Sapiens",
+          "director": "Jaebin Han",
+          "country": "Corea del Sur",
+          "duration": 14,
+          "synopsis": "Alumnas liceales lucen perdidas por su adicción a los smartphones, hasta que aparece un primitivo profesor que intenta salvarlas.",
+          "credits": "Dirección: Jaebin Han."
+        },
+        {
+          "title": "Inhumano",
+          "director": "Iñigo Acha",
+          "country": "España",
+          "duration": 6,
+          "synopsis": "Aguarda oculto en la oscuridad, no percibes su presencia y para cuando quieres darte cuenta, ya es tarde, estás en sus manos… ¡Te ha atrapado!",
+          "credits": "Dirección: Iñigo Acha."
+        },
+        {
+          "title": "Manzanas podridas",
+          "director": "Luma Rajeh",
+          "country": "España",
+          "duration": 12,
+          "synopsis": "En el futuro, un virus creado por la poderosa corporación: Aznavian Industries, acaba con la mayoría de la población mundial. Por un misterioso motivo, Rocío y Pablo siguen vivos. Durante una fuerte discusión, descubrirán si su supervivencia es fruto de la suerte, o si, por el contrario, todo forma parte de un macabro plan ideado por el malvado líder de la corporación, el Doctor Aznavian.",
+          "credits": "Dirección: Luma Rajeh."
+        },
+        {
+          "title": "Moostro",
+          "director": "Sergio Beltrán",
+          "country": "Argentina / Chile / España / México",
+          "duration": 14,
+          "synopsis": "Vita, de 7 años, escucha extraños ruidos en el entretecho que despiertan su curiosidad. Debido a su insistencia su madre sube a revisar. Luego ella baja con una extraña herida desde el entretecho, Vita carente de miedo decide subir a enfrentar al Moostro. La cruda verdad de este suceso puede demorar años en ser descubierta.",
+          "credits": "Dirección: Sergio Beltrán."
+        },
+        {
+          "title": "No apto para menores",
+          "director": "Daniel Noblom",
+          "country": "España",
+          "duration": 6,
+          "synopsis": "¿Un niño triste porque le han roto su muñeco favorito o un hombre que quiere venganza por el brutal asesinato de un viejo amigo? Todo depende del punto de vista…",
+          "credits": "Dirección: Daniel Noblom."
+        },
+        {
+          "title": "Prueba de fuerza / Strength Test",
+          "director": "Shen Leyi, Jin Lilai, Liu Yixuan",
+          "country": "China",
+          "duration": 4,
+          "synopsis": "¡En el metro, dos filas de cadáveres colgaban de las manijas, mientras pequeños y desagradables robots de reparación se pavoneaban!",
+          "credits": "Dirección: Shen Leyi, Jin Lilai, Liu Yixuan."
+        },
+        {
+          "title": "El renacimiento",
+          "director": "Paul Jerndal",
+          "country": "Suecia",
+          "duration": 10,
+          "synopsis": "Hanna Alström interpreta a una joven frágil que vive en una cabaña remota. Allí suele armar un rompecabezas con la misteriosa niña Bella. Esta vez es un rompecabezas de la vida y discuten el miedo a dejarla ir. Al final, Hanna se ve obligada a tratar de superar su miedo a crecer.",
+          "credits": "Dirección: Paul Jerndal."
+        },
+        {
+          "title": "Sísifo",
+          "director": "Markel Goikoetxea Markaida",
+          "country": "España",
+          "duration": 9,
+          "synopsis": "El eco de un disparo lejano detiene su huída. La curiosidad le empuja hasta el lugar de la detonación y encuentra a un hombre inerte yaciendo a los pies de un niño. Se le hace todo tan familiar…",
+          "credits": "Dirección: Markel Goikoetxea Markaida."
+        },
+        {
+          "title": "Snowball",
+          "director": "Jorge Cañada",
+          "country": "España",
+          "duration": 12,
+          "synopsis": "Natan vive atrapado en un bucle infinito que transcurre entre su piso en lo alto de una torre en Londres y el laberinto de calles y pasarelas de hormigón que hay debajo de su casa. Sus únicos compañeros en este viaje son su hermano Bob —que vive con él arriba, en su piso— y Eva —su expareja, a la que acaba de encontrar en la calle, y que le ha pedido que vuelvan juntos—. Natan sueña con recuperar el amor de su vida y acabar con la nostalgia de un pasado confuso. Bob, que vive encerrado en su piso, y que parece conocer el futuro con la misma certeza que uno habla del pasado, tratará de ayudar a su hermano a conseguirlo. Natan y Bob son dos gemelos idénticos. Empieza así un juego de espejos que abre al espectador multitud de interpretaciones, todas ellas válidas, todas inconclusas.",
+          "credits": "Dirección: Jorge Cañada."
+        },
+        {
+          "title": "Sucesión",
+          "director": "Carlos Cobos Aroca, Martí Brussosa Ventura",
+          "country": "España",
+          "duration": 15,
+          "synopsis": "Javier, un hombre traumatizado por la reciente muerte de su hija, llega a lo que fue su antigua casa después de recibir una inesperada invitación de Laura, su ex-mujer. Él encuentra la casa vacía, y solo los recuerdos del pasado acompañarán al hombre a sucumbir ante las visiones que poco a poco le irán haciendo dudar entre lo que es o no real.",
+          "credits": "Dirección: Carlos Cobos Aroca, Martí Brussosa Ventura."
+        },
+        {
+          "title": "Ten cuidado con lo que dices / Be Careful What You Say",
+          "director": "Buğra Mert Alkayalar",
+          "country": "Turquía",
+          "duration": 17,
+          "synopsis": "A veces, la vida humana puede cambiar con una pequeña palabra. Un artista de doblaje no presta atención a lo que dice en el estudio a medianoche, y despierta algo inimaginable. Se encontrará inmerso en un gran horror.",
+          "credits": "Dirección: Buğra Mert Alkayalar."
+        },
+        {
+          "title": "Tenebras Animarum",
+          "director": "Jorge Porté",
+          "country": "España",
+          "duration": 14,
+          "synopsis": "Cappi es una espiritista-medium que vive de timar a gente para ganar dinero. Para ello, cuenta con la ayuda de un esbirro tenebroso, Alhazred, de dudosos métodos e intenciones. Un poderoso y milenario libro mantiene a Alhazred bajo su control, pero el ansia de dinero y poder puede hacer romper el frágil equilibrio con el más allá y traer a este mundo fuerzas malignas y poderosas que el hombre creía olvidadas.",
+          "credits": "Dirección: Jorge Porté."
+        },
+        {
+          "title": "Unas cuantas bestias",
+          "director": "Daniel Calavera",
+          "country": "España",
+          "duration": 15,
+          "synopsis": "Manu, un joven albañil, egocéntrico e inconsciente, viaja una tarde hasta la apartada casa del pueblo donde el amor de su vida, Isabel, vivía de pequeña junto a su hermana y su fallecida madre. Empeñado en recuperar la única fotografía que las hermanas conservan junto a su madre para dar una sorpresa a Isabel por su cumpleaños, Manu se verá envuelto en una espiral de emociones, sorpresas y furia en el interior de la casa abandonada, lugar de la acción.",
+          "credits": "Dirección: Daniel Calavera."
+        }
+      ]
+    },
+    {
+      "name": "Competencia Latinoamericana de Cortometrajes",
+      "type": "shorts",
+      "films": [
+        {
+          "title": "Aquí espantan: El monstruo de las cosquillas",
+          "director": "Joshua Gutiérrez",
+          "country": "México",
+          "duration": 5,
+          "synopsis": "Juanjo & Philiberto han terminado de ver una película de terror y creen que el Monstruo de las Cosquillas está en su casa listo para atacarlos, pero realmente… ¿qué habrá del otro lado de la puerta?",
+          "credits": "Dirección: Joshua Gutiérrez."
+        },
+        {
+          "title": "#BestSelfieEver",
+          "director": "Inti Carrizo-Ortiz",
+          "country": "Chile",
+          "duration": 6,
+          "synopsis": "Una mujer solitaria de la Era Digital emprende un viaje en pleno Armagedón hacia un destino insospechado. Una historia corta de ciencia ficción moderna filmada íntegramente en Tokio, Kioto e Hiroshima, Japón.",
+          "credits": "Dirección: Inti Carrizo-Ortiz."
+        },
+        {
+          "title": "Cacería",
+          "director": "Ariel Sanna",
+          "country": "Argentina",
+          "duration": 11,
+          "synopsis": "Abril, de 45 años, descubre que el asesino de su hija es un asesino serial, que no para de matar mujeres parecidas a su hija. Esto la sumerge en años de obsesión por intentar frenar y encontrar al macabro asesino. Por su parte, el asesino no frena su placer de buscar seguir y matar chicas. Estos dos caminos indefectiblemente, se van a cruzar.",
+          "credits": "Dirección: Ariel Sanna."
+        },
+        {
+          "title": "El campo sangriento",
+          "director": "Vicente Campos Yanine",
+          "country": "Chile",
+          "duration": 15,
+          "synopsis": "Esta es la historia de un crimen. En una recóndita casa en las afueras del pequeño pueblo de Pencahue vive Lidia Morales, una mujer de 40 años dueña de un pequeño local donde vende empanadas, ingresos que le han permitido ahorrar dinero en secreto. Mes a mes, escondiéndolo en un tarro de chocolate instantáneo, junta sus ganancias para poder postular a un fondo concursable que le permita buscar nuevos rumbos y salir de ahí. Pero Roberto, su vanidoso y arrogante esposo siempre la ha devaluado y vive arruinándole sus planes. Un día, tras un confuso malentendido, Lidia asesina accidentalmente a su aprovechador esposo, teniendo que pasar por torpes e inverosímiles adversidades para deshacerse no sólo del ahora putrefacto cadáver de su esposo, sino que también de su antigua y aprisionada vida.",
+          "credits": "Dirección: Vicente Campos Yanine."
+        },
+        {
+          "title": "Consume",
+          "director": "Bruno Gradaschi",
+          "country": "Argentina",
+          "duration": 13,
+          "synopsis": "En un lugar donde todos viven en sus puestos de trabajo y solo se alimentan de un jugo que se les provee en latas por un dispenser. Los trabajadores no son más que un número. Mediante un trabajo incomprensible y alienante intentan lograr una marca que les permita ascender de categoría y dejar el box donde trabajan para acceder a una mejor vida. 079, así lo conocemos, fracasa en sus intentos por sumar puntos y ve cada vez más lejos la posibilidad de un ascenso, hasta que decide robarle los puntos necesarios al trabajador del box vecino.",
+          "credits": "Dirección: Bruno Gradaschi."
+        },
+        {
+          "title": "Corazones extraños / Strange Hearts",
+          "director": "Fran Olmedo-Longeri",
+          "country": "Chile",
+          "duration": 6,
+          "synopsis": "Un joven solitario muere por un error del destino. Cuando vuelve a la vida pero sin un corazón que late, el destino debe corregir su error dándole otra oportunidad de amar.",
+          "credits": "Dirección: Fran Olmedo-Longeri."
+        },
+        {
+          "title": "Cuando corro",
+          "director": "Ana Luz Furth",
+          "country": "Argentina",
+          "duration": 13,
+          "synopsis": "Luz está aburrida de la monotonía de su vida. El único momento que disfruta es cuando sale a correr. Un encuentro casual y sorpresivo pareciera venir a dar otro color a su rutina.",
+          "credits": "Dirección: Ana Luz Furth."
+        },
+        {
+          "title": "Donde la luz no llega",
+          "director": "Sebastián Plasencia",
+          "country": "Perú",
+          "duration": 15,
+          "synopsis": "Samuel, un joven de 13 años, se queda solo una noche en su casa y debe cuidar a su hermano menor, Andrés, mientras su mamá está trabajando. Sin embargo, durante la noche ocurre un apagón debido a un atentado terrorista, ocasionando que Andrés tenga un ataque de asma, así Samuel deba ir al segundo piso a recuperar un inhalador nuevo mientras vence su miedo a la oscuridad.",
+          "credits": "Dirección: Sebastián Plasencia."
+        },
+        {
+          "title": "Frecuencias",
+          "director": "Annafranca Ostrovsky",
+          "country": "Argentina",
+          "duration": 14,
+          "synopsis": "Julio de 1976. En una isla del Delta del Tigre, viven Maria Inés, una maestra, y Esteban, un escritor y periodista interesado en el fenómeno OVNI. Una noche, después de intentarlo durante mucho tiempo, Esteban consigue hacer contacto a través de su transmisor de radio y aparece en el año 2019 en Buenos Aires. Su sorpresa, además de conocer el futuro y sus nuevos habitantes, es cuando descubre algo y desesperado vuelve a buscar a María Inés.",
+          "credits": "Dirección: Annafranca Ostrovsky."
+        },
+        {
+          "title": "Luciferum",
+          "director": "Martín de la Cruz",
+          "country": "Argentina",
+          "duration": 14,
+          "synopsis": "Daniela en un intento desesperado de comunicarse con su madre fallecida, decide recurrir al tablero de la ouija, sin imaginar que en ese momento pondría su vida y la de sus amigos en peligro tras invocar a varios espíritus malignos.",
+          "credits": "Dirección: Martín de la Cruz."
+        },
+        {
+          "title": "El poeta en la luna",
+          "director": "Sol Martínez",
+          "country": "Argentina",
+          "duration": 12,
+          "synopsis": "El poeta en la Luna, inspirado en el cine de fantasía y ciencia ficción de los años 50´s, cuenta la historia de un niño, Serguéi, que por su esfuerzo y valor llega a convertirse en cosmonauta de la Unión Soviética. Designado para viajar a la Luna con la misión de llevar las obras completas del poeta Alexander Pushkin, se revelará ante sus ojos un secreto que hará poner en duda todas sus creencias.",
+          "credits": "Dirección: Sol Martínez."
+        },
+        {
+          "title": "Reinas del bosque",
+          "director": "Mariano Oliveros",
+          "country": "Argentina",
+          "duration": 12,
+          "synopsis": "Una mujer acaba de cometer un impensado acto para una madre. En su desesperación, intenta hacer desaparecer el cuerpo. Lo lleva a un apartado bosque en el medio de la nada para enterrarlo. Pero el bosque tiene sus guardianas y ella acaba de traspasar sus dominios.",
+          "credits": "Dirección: Mariano Oliveros."
+        },
+        {
+          "title": "El regalo del Diablo",
+          "director": "Pablo A. De La Barra",
+          "country": "Venezuela",
+          "duration": 13,
+          "synopsis": "Erick escribe mensajes sin respuesta a Sandra, mientras Satanás le observa. Esa noche Satanás deja un anillo en la puerta de Erick. A la mañana siguiente Erick revisa el móvil de Sandra, donde encuentra una conversación que le hace sospechar de un encuentro que tendrá lugar ese mismo día. Erick descubre que el anillo le hace invisible y decide ir a espiar a su amada.",
+          "credits": "Dirección: Pablo A. De La Barra."
+        },
+        {
+          "title": "Salpicón",
+          "director": "Marcos Muñóz Flores",
+          "country": "México",
+          "duration": 8,
+          "synopsis": "Un hombre atrapado en un baño público está luchando entre una diarrea feroz y ser atrapado por zombis.",
+          "credits": "Dirección: Marcos Muñóz Flores."
+        }
+      ]
+    },
+    {
+      "name": "Cortometrajes Uruguayos en Competencia",
+      "type": "shorts",
+      "films": [
+        {
+          "title": "El agua te arrepentirá",
+          "director": "Marco Bentancor",
+          "country": "Uruguay",
+          "duration": 15,
+          "synopsis": "Un hombre gravemente herido yace en un bote a la deriva. Está solo en la naturaleza salvaje del río, acechado por una criatura acuática que amenaza con quitarle la vida. El hombre guarda un secreto que pronto emergerá del agua.",
+          "credits": "Guion y Dirección: Marco Bentancor. Con Gustavo Suárez, Alfonsina Carrocio, Rafael Soliwoda."
+        },
+        {
+          "title": "Biografía de un actor",
+          "director": "Santiago Reboiras",
+          "country": "Uruguay",
+          "duration": 15,
+          "synopsis": "Lenno Britos es un actor uruguayo que triunfó en Hollywood, y vuelve a su país natal en busca en oportunidades, aunque se encuentra con sorpresas.",
+          "credits": "Guion y Dirección: Santiago Reboiras."
+        },
+        {
+          "title": "Confinado",
+          "director": "Diego Nieto, Adrián Sosa",
+          "country": "Uruguay",
+          "duration": 8,
+          "synopsis": "Un hombre confinado en extrañas circunstancias pierde algo más que su salud.",
+          "credits": "Dirección: Diego Nieto, Adrián Sosa. Guion: Rodrigo Guillenea."
+        },
+        {
+          "title": "Enebro",
+          "director": "Germán Sandin",
+          "country": "Uruguay",
+          "duration": 1,
+          "synopsis": "Un ritual de brujas en luna llena.",
+          "credits": "Guion y Dirección: Germán Sandin."
+        },
+        {
+          "title": "Hambre de libertad",
+          "director": "Tomás Marichal Urban",
+          "country": "Uruguay",
+          "duration": 8,
+          "synopsis": "En un futuro distópico donde el canibalismo es ilegal, una mujer intentará hacer lo que sea necesario para salvar a su hermano.",
+          "credits": "Dirección: Tomás Marichal Urban. Guion: Kevin Santos. Con Carolina Morales Mittermayer, Nicolás Moreno, Matías Doro Altan."
+        },
+        {
+          "title": "Lasciate Ogni Speranza",
+          "director": "Juan Carlos Mullin",
+          "country": "Uruguay",
+          "duration": 6,
+          "synopsis": "En los umbrales del silencio y la luz surgirán tus peores miedos.",
+          "credits": "Dirección: Juan Carlos Mullin. Guion: Martín González Bidondo. Con MGB, Nancy Karpeitschik, Jenny Galván."
+        },
+        {
+          "title": "Radetzky",
+          "director": "Raúl Pierri",
+          "country": "Uruguay",
+          "duration": 21,
+          "synopsis": "Dos trabajadores que están renovando una vieja casa en Montevideo se encuentran con el fantasma de un mayordomo, que asesinó a sangre fría a sus empleadores y luego se suicidó.",
+          "credits": "Guion y Dirección: Raúl Pierri. Con Hugo Giachino, Diego De Gregorio, Patricia Cean."
+        },
+        {
+          "title": "La última despedida del Sr. Pérez",
+          "director": "Marcelo Fabani",
+          "country": "Uruguay",
+          "duration": 14,
+          "synopsis": "En su cumpleaños número 50, se despierta ansioso y va directo a su computadora a revisar su correo electrónico; espera con ansias los cálidos deseos de cumpleaños de su hija. Sin embargo, no sabe que es el último día de su vida.",
+          "credits": "Guion y Dirección: Marcelo Fabani. Con Sofía Bruno, MF, Silvia Bruno."
+        }
+      ]
+    },
+    {
+      "name": "Muestra Informativa de Cortometrajes",
+      "type": "shorts-catalog",
+      "films": [
+        { "title": "9", "director": "Mizuho Otagiri", "country": "Japón", "duration": 5 },
+        { "title": "Ahí fuera", "director": "David Ontoria", "country": "España", "duration": 12 },
+        { "title": "Algoritmo", "director": "Yuri Aguilar", "country": "España", "duration": 3 },
+        { "title": "La bestia humana", "director": "Javier Campo, Lucio Cruces", "country": "España", "duration": 1 },
+        { "title": "Cena de Navidad", "director": "Roberto Casañas", "country": "España", "duration": 13 },
+        { "title": "La comunión de las rosas", "director": "Lucas Scalco", "country": "Brasil", "duration": 15 },
+        { "title": "Dark Lens", "director": "Christophe Lenoir", "country": "Francia", "duration": 3 },
+        { "title": "Dioses", "director": "Sitoh Ortega", "country": "España", "duration": 6 },
+        { "title": "Exorcismos", "director": "José Luis Ordóñez", "country": "España", "duration": 10 },
+        { "title": "Gualicho", "director": "Damián Mastroleo", "country": "Argentina", "duration": 4 },
+        { "title": "¿Hola?", "director": "Luis Carvajal", "country": "España", "duration": 6 },
+        { "title": "Mamá", "director": "Carlos Aceituno", "country": "España", "duration": 15 },
+        { "title": "Mare", "director": "Guille Vázquez", "country": "España", "duration": 7 },
+        { "title": "Monte Bravo", "director": "Noelia Muíño", "country": "España / Estados Unidos", "duration": 13 },
+        { "title": "La matanza del Babyface", "director": "Miguel Varela", "country": "España", "duration": 4 },
+        { "title": "Mudmonster", "director": "O. B. De Alessi", "country": "Italia", "duration": 25 },
+        { "title": "Nanny", "director": "Dani Zarandieta", "country": "España", "duration": 6 },
+        { "title": "Nébula", "director": "Borja Ros Espejo", "country": "España", "duration": 10 },
+        { "title": "Not an Easy Situation", "director": "Irene Alonso Vieito", "country": "España", "duration": 13 },
+        { "title": "Ocultos", "director": "Francisco Fernández", "country": "España", "duration": 4 },
+        { "title": "Oh, Baby!", "director": "Logan Fry", "country": "Estados Unidos", "duration": 1 },
+        { "title": "Ojos negros / Olhos De Carvão", "director": "Raquel Álvarez", "country": "Brasil", "duration": 12 },
+        { "title": "Ramiro", "director": "Bibiana De La Hoz R.", "country": "Colombia", "duration": 11 },
+        { "title": "El retroceso / The Receder", "director": "Raymon Hilkman", "country": "Países Bajos", "duration": 7 },
+        { "title": "La pelota / La Balle", "director": "Alexandre Peix", "country": "Francia", "duration": 3 },
+        { "title": "El pozo / The Well", "director": "Neal Dahnd", "country": "República Checa", "duration": 12 },
+        { "title": "Re-Animal", "director": "Rubén Garcerá", "country": "España", "duration": 13 },
+        { "title": "Retratos", "director": "Gabriel Musco", "country": "Argentina", "duration": 7 },
+        { "title": "S13p15a", "director": "Jesús Loniego", "country": "España", "duration": 1 },
+        { "title": "Salvando a papá", "director": "Aarón Sánchez Rubio", "country": "Cuba", "duration": 6 },
+        { "title": "Tekenchu", "director": "Carlos Matienzo Serment", "country": "México", "duration": 9 },
+        { "title": "La última cena", "director": "Beatriz González Viéitez, Miguel Hernández", "country": "España", "duration": 10 }
+      ]
+    }
+  ]
+}
