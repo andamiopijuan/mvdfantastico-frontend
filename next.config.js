@@ -3,7 +3,6 @@ const createNextIntlPlugin = require('next-intl/plugin');
 const withNextIntl = createNextIntlPlugin('./src/i18n/config.ts');
 
 const nextConfig = {
-  output: 'export',
   trailingSlash: true,
   images: {
     // Disable Next.js image optimization for API-sourced media.
