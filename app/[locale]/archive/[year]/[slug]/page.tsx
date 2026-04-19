@@ -1,2 +1,0 @@
-﻿// EN alias: /[locale]/archive/[year]/[slug] → same content as /[locale]/archivo/[year]/[slug]
-export { default, generateMetadata, generateStaticParams, dynamicParams } from "../../../archivo/[year]/[slug]/page";
