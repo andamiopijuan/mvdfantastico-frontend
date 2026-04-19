@@ -1,0 +1,431 @@
+{
+  "edition": {
+    "number": 14,
+    "roman": "XIV",
+    "year": 2023,
+    "title": "Montevideo Fantástico XIV",
+    "dates": "26 de agosto — 10 de setiembre de 2023",
+    "poster": "/media/archive/XIV/poster.jpg",
+    "venues": [
+      "Centro Cultural Artesano",
+      "Centro Cultural Terminal Goes",
+      "Sala Lazaroff",
+      "Sala Camacuá",
+      "Centro Cultural La Experimental",
+      "Auditorio Nelly Goitiño",
+      "Florencio Sánchez"
+    ]
+  },
+  "editorial": {
+    "title": "Los premios del festival",
+    "author": "Alejandro Yamgotchian",
+    "content": [
+      "El pasado domingo 10 de setiembre culminó la 14a. edición del Montevideo Fantástico, con la ceremonia de entrega de premios en Sala Camacuá. Bajo la conducción de Jimmy Castilhos el público disfrutó de tres horas inolvidables, donde varios directores nacionales y extranjeros obtuvieron sus respectivos galardones, menciones y reconocimientos. También hubo saludos a distancia, con videos desde Argentina, España, Estonia e Italia. Ha sido la edición de mayor duración (dos semanas) y cantidad de salas (8), tanto en la capital uruguaya como en el interior del país.",
+      "Los espectadores, entre fanáticos, curiosos y aficionados, volvieron a responder de muy buena manera, demostrando el interés por ver un cine de terror, fantasía y ciencia ficción diferente, propuestas hechas con mucho sacrificio y con absoluta libertad creativa. Recibimos la visita de los argentinos Axel Gaibisso (director de Control Zeta) y Martín Rispau (protagonista de Me encontrarás en lo profundo del abismo), y contamos, además, con la presencia de numerosos realizadores uruguayos, entre ellos Enrique Martínez (Bosque Demente), Miguel Torena (Alguien me vigila) y Ricardo Islas (Caza nocturna), quien vino nuevamente desde Chicago (y como en la primera edición del festival, en 2005) para presentar su más reciente trabajo.",
+      "Casi 20 largometrajes y cerca de 100 cortos, además de charlas, presentaciones y homenajes, dieron forma a esta nueva edición, que al mismo tiempo sigue apostando a la tarea de formar espectadores dentro del género fantástico y en un evento donde la mayoría de las películas no suelen encontrar con facilidad canales de distribución, tanto en cines como en plataformas.",
+      "Agradecemos de todo corazón a los que asistieron (prácticamente todas las exhibiciones y actividades se realizaron con entrada libre y gratuita), a las entidades que nos apoyaron, a productores, realizadores, gestores, a todos los que nos siguen apoyando año tras año en esta propuesta anual que nos lleva meses de trabajo pero que continúa dejando huellas. ¡Nos vemos en la 15a. edición! (2024).",
+      "A continuación, los ganadores del festival:"
+    ]
+  },
+  "awards": [
+    {
+      "section": "Competencia Oficial de Largometrajes",
+      "jury": "Mónica Talamás, Andrés Montañez y Federico Cardozo",
+      "awards": [
+        { "name": "Mejor Película / Best Feature Film", "film": "La paradoja de Antares", "country": "España", "year": 2022, "director": "Luis Tinoco", "citation": "Una historia de ciencia ficción conmovedora, fantástica y humana que hace reflexionar sobre la condición humana tanto a nivel personal como histórico." },
+        { "name": "Mejor Película Iberoamericana / Best Ibero American Feature Film", "film": "Herederas", "country": "España", "year": 2022, "director": "Carlos Marbán", "citation": "Por su sólida propuesta terrorífica a partir de un oscuro secreto familiar que lleva a sus integrantes a un aterrador espiral, a un infierno que parece no tener fin." },
+        { "name": "Mejor Director / Best Director", "recipient": "Luis Tinoco", "film": "La paradoja de Antares", "citation": "Por realizar una película empática y sintética, aprovechando al máximo los recursos, produciendo una historia con un ritmo excelente y un mensaje enfocado." },
+        { "name": "Mejor Guión / Best Script", "recipient": "Gabriel Musco", "film": "Recuerdos del mal", "country": "Argentina", "year": 2022, "director": "Gabriel Musco", "citation": "Por aportar una historia renovadora en su concepto, añadiendo un nuevo capítulo en el género de terror." },
+        { "name": "Mejor Actriz / Best Actress", "recipient": "Rosanna Fedele", "film": "Malleus", "country": "Italia", "year": 2022, "director": "Andrés Rafael Zabala", "citation": "A Rosanna Fedele por desenvolverse dentro de un personaje fantástico con naturalidad y humanidad manteniendo el drama y la tensión de la historia." },
+        { "name": "Mejor Actor / Best Actor", "recipient": "Martín Rispau", "film": "Me encontrarás en lo profundo del abismo", "country": "Argentina", "year": 2022, "director": "Matías Xavier Rispau", "citation": "A Martín Rispau por dar una interpretación que transmite el terror y angustia del entorno post apocalíptico." },
+        { "name": "Mención Especial – Villano / Special Mention – Villain", "recipient": "Ricardo Islas, como Crowley", "film": "Caza Nocturna", "country": "Estados Unidos", "year": 2023, "director": "Ricardo Islas", "citation": "Crowley se presenta como un antagonista implacable que hasta último momento nos dejará en vilo, expectantes del desenlace de la historia. Ricardo Islas interpreta de manera perversa a un villano que no necesita decir una palabra para provocar el miedo en sus adversarios." },
+        { "name": "Mención Actor de Reparto / Best Supporting Actor", "recipient": "Jaume de Sanz", "film": "La paradoja de Antares" },
+        { "name": "Mención Dirección de Arte / Special Mention – Art Direction", "film": "La paradoja de Antares", "citation": "En un espacio reducido `La paradoja de Antares´ logra detallar todas las sutilezas de las madrigueras científicas de una estación de radiotelescopio. Desde pequeñas luces cálidas y frías pantallas, mezclando el mundo digital y el análogo, al terrestre y al extraterrestre, que encierran a la científica en su propio mundo." },
+        { "name": "Mención Dirección de Fotografía / Special Mention – Cinematography", "film": "Me encontrarás en lo profundo del abismo", "citation": "La dirección de fotografía de `Me encontrarás en lo profundo del abismo´ juega entre luces y sombras para revelar al espectador lo necesario y suficiente del mundo y sus habitantes. Haciendo un uso impactante de claroscuros así también como paletas de colores que apoyan el leitmotiv de cada escena." },
+        { "name": "Mención Efectos Especiales y Criaturas / Special Mention – FX & Creatures", "film": "Me encontrarás en lo profundo del abismo", "citation": "Mediante el correcto empleo de diversas técnicas en efectos especiales \"Me encontrarás en lo profundo del abismo\" nos logra transportar a un mundo post-apocalíptico verosímil y aterrador, dando el sustento necesario para cuajar de forma natural las terroríficas criaturas que lo habitan." },
+        { "name": "Mención Maquillaje / Special Mention – Make Up", "film": "Malleus" },
+        { "name": "Premio del Público a Mejor Película / Audience Choice Award for Best Feature Film", "film": "Bosque demente", "country": "Uruguay", "year": 2019, "director": "Enrique Martínez" },
+        { "name": "Premio del Público a Mejor Película Iberoamericana", "film": "Alguien me vigila", "country": "Uruguay", "year": 2022, "director": "Miguel Torena" }
+      ]
+    },
+    {
+      "section": "Competencia Oficial de Cortometrajes",
+      "jury": "Virginia Díaz Frutos, Andrés Larramendi y Bruno Otheguy",
+      "awards": [
+        { "name": "Mejor Cortometraje / Best Short Film", "film": "Escape", "country": "Rusia", "year": 2020, "director": "Alexander Gavrilov", "citation": "Por lograr transmitir a través de la ciencia ficción un mensaje muy claro que interpela al espectador y lo deja cuestionando qué es lo importante de la vida." },
+        { "name": "Mejor Cortometraje Iberoamericano / Best Iberoamerican Short Film", "film": "S.O.S: Hogar Temporal", "country": "Colombia", "year": 2020, "director": "Ángela Tobón Ospina", "citation": "Por llevar lo humano al terreno fantástico, a través de una historia narrada con gran calidad cinematográfica." },
+        { "name": "Mejor Cortometraje Uruguayo / Best Uruguayan Short Film", "film": "Hora del Té", "recipient": "Rossana Bossio, Javier Cabezudo", "year": 2022, "citation": "Por cumplir con la premisa esencial del género, utilizando recursos narrativos efectivos dentro de un marco fotográfico de gran nivel." },
+        { "name": "Mejor Dirección / Best Director", "recipient": "Mónica de Almeida", "film": "Mira lo que has hecho / Look What You´ve Done", "country": "Suiza", "year": 2020, "citation": "Por ofrecernos una historia tensa, con mucha atención al detalle y un final inesperado." },
+        { "name": "Mejor Guión / Best Script", "recipient": "Pierre Marie Charbonnier, Simon Pierrat", "film": "Vestigio / Vestige", "country": "Francia", "year": 2019, "director": "Pierre Marie Charbonnier, Simon Pierrat", "citation": "En el breve corto logra con creces su cometido. ¿Se puede asustar en 2 minutos? Sí, Vestigio lo logra." },
+        { "name": "Mejor Actriz / Best Actress", "recipient": "Daniela Soca", "film": "El visitante", "country": "Uruguay", "year": 2023, "director": "Lucía Nieto Salazar", "citation": "En los diferentes momentos del cortometraje, la actriz logra su cometido al trasladar sus miedos y angustias a quien la esté mirando, sentimos su dolor a través de la pantalla." },
+        { "name": "Mejor Actor / Best Actor", "recipient": "Julio Casado", "film": "Entambado", "country": "México", "year": 2020, "director": "Humberto Flores", "citation": "Por ofrecernos con convincente solidez una amplia gama de emociones que componen al difícil personaje en corto tiempo: frialdad, tristeza, amor y maldad." },
+        { "name": "Mención Puesta en Escena / Special Mention – Staging", "film": "Arapuca: Trampa para pájaros", "country": "Brasil", "year": 2023, "director": "Joel Caetano" },
+        { "name": "Mención Edición / Special Mention – Edition", "film": "Fantasmática", "country": "Uruguay", "year": 2022, "director": "Sebastián Bugna" },
+        { "name": "Mención Escenario Agobiante / Special Mention – Overwhelming Scenario", "film": "El visitante" },
+        { "name": "Mención Actriz / Special Mention – Actress", "recipient": "Raquel Pardo", "film": "El Teatro de las Bestias", "country": "Argentina", "year": 2023, "director": "Florencia Cofone" },
+        { "name": "Mención Revelación / Special Mention – Revelation", "recipient": "Lysandre Robic", "film": "Bajo la Espuma / Under the Lather", "country": "Francia", "year": 2020, "director": "Oliver Brand" },
+        { "name": "Mención Promoción contra la violencia de género / Special Mention – Promotion against gender violence", "film": "Rong", "country": "Indonesia", "year": 2019, "director": "Indira Imán" },
+        { "name": "Mención Voz en Off / Best Voice-over", "recipient": "Jorge Esmoris", "film": "Hobby", "country": "Uruguay", "year": 2021, "director": "Gabriel Pandule" },
+        { "name": "Premio del Público a Mejor Cortometraje del Festival / Audience Choice Award for Best Short Film", "film": "La penumbra", "country": "España", "year": 2020, "director": "Dani Viqueira" },
+        { "name": "Premio del Público a Mejor Cortometraje Iberoamericano / Audience Choice Award for Best Ibero American Short Film", "film": "Entambado", "country": "México", "year": 2020, "director": "Humberto Flores" },
+        { "name": "Premio del Público a Mejor Cortometraje Uruguayo / Audience Choice Award for Best Uruguayan Short Film (premio compartido)", "film": "Desconocido (2022) – Dirección: Nicolás Medina // Filo Molusco: Clarkanus (2023) – Dirección: Daniel Muniz" }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Competencia Oficial de Largometrajes",
+      "type": "features",
+      "films": [
+        {
+          "slug": "alicia-en-tierras-lejanas",
+          "title": "Alicia en Tierras Lejanas",
+          "country": "Brasil",
+          "year": 2021,
+          "duration": 76,
+          "director": "Daniel Leite Almeida",
+          "poster": "/media/archive/XIV/films/alicia-en-tierras-lejanas.jpg",
+          "trailer_url": "https://www.youtube.com/embed/YMDlxU7ahUc",
+          "synopsis": "Libremente inspirado en \"Alicia en el País de las Maravillas\" de Lewis Carroll, y \"Pedagogía del Oprimido\" de Paulo Freire. Alice dos Anjos es una niña que vive en el interior nororiental y que, tras correr detrás de una cabra negra vestida de traje y corbata en la parte trasera del patio trasero de su abuela, es transportada a un lugar mágico, lleno de alocados personajes que se convierten en tus nuevos amigos. Luego se unirá a ellos en la lucha contra un coronel influyente que, en nombre del progreso ciego y el poder centralizado, quiere despojar a las comunidades tradicionales de tierras para construir una planta hidroeléctrica. Mientras Alice se une a sus amigos para luchar contra la opresión, se encontrará en un viaje de autodescubrimiento y conciencia social.",
+          "review": "La clásica obra de Lewis Carroll se muda ahora al Nordeste de Brasil, más precisamente al fondo de la casa de la abuela de la protagonista, sin despliegues ambiciosos y sí centrándose en temas sociales latentes que van desde la educación y llegan hasta el medio ambiente. El joven realizador brasilero Daniel Leite Almeida logra una muy original adaptación, centrada en su curiosa protagonista y al mismo tiempo en ese mundo alternativo que refleja una realidad brasilera de la que niña parece querer escapar.",
+          "credits": "Alice Dos Anjos – Guión y Dirección: Daniel Leite Almeida. Con Tiffanie Costa, Fernando Alves Pinto, Cris Magalhães, Vicka Matos. Duración: 76 minutos."
+        },
+        {
+          "slug": "caza-nocturna",
+          "title": "Caza Nocturna",
+          "country": "Estados Unidos",
+          "year": 2022,
+          "duration": 93,
+          "director": "Ricardo Islas",
+          "poster": "/media/archive/XIV/films/caza-nocturna.jpg",
+          "trailer_url": "https://www.youtube.com/embed/p5FWcNoSY08",
+          "synopsis": "Una glamorosa sesión de fotos termina con una joven modelo asesinada por un fotógrafo trastornado que parece esconder motivos siniestros. A la mañana siguiente, un trabajador de la ciudad encuentra dos cuerpos en un callejón detrás del estudio fotográfico: la modelo y el fotógrafo. Chicago tiene un nuevo enemigo, un asesino imparable que se aprovecha de sus víctimas por la noche. Las autoridades no están muy interesadas en esclarecer este misterioso doble asesinato que simplemente se suma a las ya conflictivas estadísticas de una ciudad violenta. Para ellos, esto es más de lo mismo. Sin embargo, Pilar y Shelley, una extraña pareja de intrépidos reporteros, parecen saberlo mejor. Han descubierto que este no es un asesino común y terminar su reinado de terror recaerá completamente sobre sus hombros. Como si luchar contra un monstruo sediento de sangre no fuera suficiente, Pilar y Shelley también tendrán que enfrentarse a la censura y la represión de un sistema hostil que simplemente no está interesado en resolver una crisis que parece beneficiar su status quo.",
+          "review": "La vuelta del uruguayo Ricardo Islas (Plenilunio, Mala sangre, Para matar a un asesino) al festival, quien con el paso ya no de los años sino de las décadas sigue manteniendo la firmeza en su pulso narrativo, entre presupuestos limitados, violencia con toques de comedia y crítica social, y permanentes guiños a clásicos del terror de los ´80.",
+          "credits": "Night Hunt – Guión y Dirección: Ricardo Islas. Con Mónica Ochoa, Adilene Martínez, RI, Tiffany J. Curtis, Simeon Henderson. Duración: 93 minutos."
+        },
+        {
+          "slug": "malleus",
+          "title": "Malleus",
+          "country": "Italia",
+          "year": 2022,
+          "duration": 92,
+          "director": "Andrés Rafael Zabala",
+          "poster": "/media/archive/XIV/films/malleus.jpg",
+          "trailer_url": "https://www.youtube.com/embed/8ILi0siC9kk",
+          "synopsis": "Bea sufre un traumatismo craneal después de sobrevivir a un ataque que mató a su marido. Mientras trata de arreglárselas, ve lentamente su casa vacía: los recaudadores de impuestos entran y salen, llevándose lentamente las pertenencias de ella y de su esposo muerto. Al mismo tiempo empiezan a aparecer en su propia casa los fantasmas de las víctimas asesinadas por la persona que mató al esposo de Bea y la golpeó a ella en la cabeza. Bea lucha por recordar, hasta que queda claro que los asesinatos y los impuestos están conectados. Y decide enfrentarse a todo.",
+          "review": "Thriller psicológico de origen italiano, dirigido por el argentino Andrés Rafael Zabala, donde las deudas pendientes de la protagonista (aquí también coguionista y cuyo personaje queda sin empleo por la lesión) terminan asustando mucho más que los fantasmas. Otra película prácticamente filmada en un par de habitaciones donde su realizador logra con muy pocos elementos una historia llamativa y bastante original. \"Malleus es una película independiente sobre un gran problema en Italia: un sistema impositivo incorrecto. Toda la historia, todos los personajes están sufriendo de una forma u otra del injusto sistema tributario. Aquí intenté unir el cine de género con el cine de autor.",
+          "credits": "Dirección: Andrés Rafael Zabala. Guion: Rossana Fedele, ARZ. Con RF, Massimiliano Graziuso, Francesco Polizzi, Giulia Sanna, Marco Vincis. Duración: 92 minutos."
+        },
+        {
+          "slug": "me-encontraras-en-lo-profundo-del-abismo",
+          "title": "Me encontrarás en lo profundo del abismo",
+          "country": "Argentina",
+          "year": 2022,
+          "duration": 104,
+          "director": "Matías Xavier Rispau",
+          "poster": "/media/archive/XIV/films/me-encontraras-en-lo-profundo-del-abismo.jpg",
+          "trailer_url": "https://www.youtube.com/embed/e3mc6YIXH9c",
+          "synopsis": "Llegaron desde el cielo, instalando la noche perpetua. Luego, el diluvio, que cambiaría a la humanidad para siempre. Mientras a lo lejos destellan explosiones, en la ciudad la lluvia no da tregua. Bajo el diluvio, un hombre intenta escapar, pero el problema es hacia dónde. Recorriendo edificios abandonados en busca de agua y alimento, Bannon rastrilla latas y cajas vacías, pero todo lo que encuentra son gritos desgarradores y la amenaza permanente de ellos, los demonios que bajaron del cielo. En su odisea por salir de la zona condenada, deberá poner a prueba su conciencia y redimirse de los fantasmas del pasado.",
+          "review": "Ciencia ficción apocalíptica, un bicho raro que cada tanto tiempo suele aparecer en el cine independiente latinoamericano. Para este caso (Argentina) no se sabe muy bien cuál es el lugar donde transcurre la historia. Quizás poco importe la zona geográfica pero sí lo que pueda pasar con la raza humana y en especial dentro de un desconcertado protagonista que irá descubriendo inesperados elementos en su asfixiante entorno y también otros internos, de sí mismo, mientras lucha contra varios obstáculos para sobrevivir.",
+          "credits": "Dirección: Matías Xavier Rispau. Guión: Boris C. Q., MXR. Con Martín Rispau, Germán Baudino, Chucho Fernández, Demian Salomón, Paula Brasca. Duración: 104 minutos."
+        },
+        {
+          "slug": "la-paradoja-de-antares",
+          "title": "La paradoja de Antares",
+          "country": "España",
+          "year": 2022,
+          "duration": 96,
+          "director": "Luis Tinoco Pineda",
+          "poster": "/media/archive/XIV/films/la-paradoja-de-antares.jpg",
+          "trailer_url": "https://www.youtube.com/embed/Az8L6c5FwkE",
+          "synopsis": "Alexandra, científica de guardia de un radiotelescopio, recibe una señal que podría responder a una de las grandes preguntas de la humanidad. Solo tiene un par de horas para verificarla, pero un inesperado problema familiar le obligará a librar una lucha interna en una carrera contra reloj para desvelar uno de los mayores misterios del universo.",
+          "review": "Ciencia ficción entre cuatro paredes, en una permanente carrera contra el tiempo y obstáculos que aparecen en el momento menos pensado y que ponen en grandes dilemas a la notable protagonista de la película. Detrás de ese sostén también hay otro, y es el director español Luis Tinoco, quien ya sorprendiera en el festival con su cortometraje Caronte, y que aquí plantea una historia que va mucho más allá del lugar de trabajo de la protagonista y con un ingenio que sobresale dentro de los contados casos de buena ciencia ficción iberoamericana que cada tanto aparecen.",
+          "credits": "Guión y Dirección: Luis Tinoco Pineda. Con Andrea Trepat, Aleida Torrent, Jaume de Sans, David Ramírez. Duración: 96 minutos."
+        },
+        {
+          "slug": "recuerdos-del-mal",
+          "title": "Recuerdos del mal",
+          "country": "Argentina",
+          "year": 2022,
+          "duration": 86,
+          "director": "Gabriel Musco",
+          "poster": "/media/archive/XIV/films/recuerdos-del-mal.jpg",
+          "trailer_url": "https://www.youtube.com/embed/dTms-WRcVI8",
+          "synopsis": "Cuando una joven enfermera sospecha que la amnesia que sufre la anciana que cuida podría estar siendo provocada, decide investigar y pronto comienza experimentar sucesos aterradores contra los que deberá luchar para descubrir la verdad.",
+          "review": "Segundo largometraje de Gabriel Musco (El oscuro lugar donde habitan), aquí apostando a un sólido ejercicio de terror sobrenatural, con muy buenos planos y sobresaltos, hecho prácticamente en dos habitaciones, lejos del mundanal ruido, y que raya alto en dirección, fotografía y hasta en su banda sonora.",
+          "credits": "Guión y Dirección: Gabriel Musco. Con Sofia Langoni, Marta Quarleri, Silvina Diez, Lucas Martínez Foresi, Juan Lucero. Duración: 86 minutos."
+        }
+      ]
+    },
+    {
+      "name": "Competencia Iberoamericana de Largometrajes",
+      "type": "features",
+      "films": [
+        {
+          "slug": "alguien-me-vigila",
+          "title": "Alguien me vigila",
+          "country": "Uruguay",
+          "year": 2022,
+          "duration": 151,
+          "director": "Miguel Torena",
+          "poster": "/media/archive/XIV/films/alguien-me-vigila.jpg",
+          "trailer_url": "https://www.youtube.com/embed/Bt1A4COHltU",
+          "synopsis": "Luego de sufrir un acontecimiento traumático en su vida, Virginia Rivero (Jimena Ramos) es impulsada por su psiquiatra (Enrique Micol) a llevar una terapia trascendental: regresar a la casa de su madre y superar miedos y fobias, durante siete días. En el transcurso de ese tiempo, la realidad se torna extraña para Virginia, cuestionando qué es real y qué es una simple alucinación. Su camino se cruzará con el del detective Héctor Ferrara (Rafael \"Tata\" Nuñez), quien a su vez investiga una misteriosa desaparición que lo tendrá en vilo.",
+          "review": "Con sus 37 años, Miguel Torena ya es un viejo conocido del festival, donde se han exhibido varios de sus cortos y también dos largos (La lista de la muerte, La sospecha). En su nuevo largometraje (que iba a ser un corto) despliega nuevamente su predilección por el cine de suspenso y acción, esta vez jugado mucho más al diálogo, con momentos vibrantes y varios personajes sospechosos. Se nota el gran esfuerzo realizado por Torena (aquí también guionista, productor, editor, iluminador, trabajando también en maquillaje de efectos, maquetismo y fotografía). El presupuesto fue de apenas… 500 dólares.",
+          "credits": "Guión y Dirección: Miguel Torena. Con Jimena Ramos, Rafael \"Tata\" Núñez, Jorge Sugo, Esteban Recano, Enrique Gayo. Duración: 151 minutos."
+        },
+        {
+          "slug": "control-zeta",
+          "title": "Control Zeta",
+          "country": "Argentina",
+          "year": 2023,
+          "duration": 104,
+          "director": "Axel E. Gaibisso",
+          "poster": "/media/archive/XIV/films/control-zeta.jpg",
+          "trailer_url": "https://www.youtube.com/embed/I9H9fX-30OY",
+          "synopsis": "En un futuro próximo, los delitos y accidentes han desaparecido gracias a la invención de teléfonos especiales con los que es posible llamar al pasado. Sin embargo, la paz de este mundo utópico se verá comprometida por la aparición de un metódico asesino que parece haber descubierto el único defecto de este sistema.",
+          "review": "Lo poco que se ha visto de ciencia ficción argentina en festivales, casi siempre da en el blanco, y para este caso del debutante Axel E. Gaibisso, con bastante energía, ya que lejos de ser algo autoral, este joven realizador parte de un planteo muy interesante dotándolo de acción, misterio y mucho dinamismo. Un thriller movido, hecho con apenas con 7.000 dólares, donde la tecnología supuestamente ideal se verá desafiada y cuestionada.",
+          "credits": "Guión y Dirección: Axel E. Gaibisso. Con Guillermo Farisco, Karen Medina, María Abadi, Sofía Elliot, Marian Farías Gómez. Duración: 104 minutos."
+        },
+        {
+          "slug": "dark-girls",
+          "title": "Dark Girls",
+          "country": "España",
+          "year": 2022,
+          "duration": 65,
+          "director": "Allan J. Arcal, Bel Armenteros, Carlos Marbán, Toni O. Prats",
+          "poster": "/media/archive/XIV/films/dark-girls.jpg",
+          "trailer_url": "https://www.youtube.com/embed/8Bhlf5vZ0_I",
+          "synopsis": "Nicole es una monitora entusiasta que llega por primera vez al campamento \"Dark Girls\", un grupo de Girl Scouts que se dedican a inventar espeluznantes historias de terror todas las noches. Con la llegada de la nueva monitora, algo extraño está a punto de interrumpir su realidad, convirtiendo cada historia de ficción en un simple juego de niños. El que sobreviva a ese campamento… nada volverá a asustarlo.",
+          "review": "Cuatro cortos unidos con bastante originalidad por fragmentos básicamente animados que dan forma a la historia del título original, entre brujas, fantasmas, muertos vivos y algo de humor negro.",
+          "credits": "Dirección: Allan J. Arcal, Bel Armenteros, Carlos Marbán, Toni O. Prats, con la colaboración de Igna L. Vacas. Guión: Allan J. Arcal. Con Anna Coll Miller, Anastasia Russo, Alma J. Cerezo, Aitana Roleytana, Sara Belmonte. Duración: 65 minutos."
+        },
+        {
+          "slug": "herederas",
+          "title": "Herederas",
+          "country": "España",
+          "year": 2020,
+          "duration": 79,
+          "director": "Carlos Marbán",
+          "poster": "/media/archive/XIV/films/herederas.jpg",
+          "trailer_url": "https://www.youtube.com/embed/ZpzQB47wkgM",
+          "synopsis": "Tras la muerte de su marido César, Elena y su hija Celia afrontan una nueva etapa en sus vidas. Una noche Celia sufre un accidente estando sola en casa. A partir de ese momento, Elena afrontará las consecuencias de sus terribles actos.",
+          "review": "La perfecta vida de una familia cambia drásticamente a partir de dos inesperados sucesos, debatiéndose entre la tristeza, el dolor y la desesperación. El trabajo entra como en un espiral cuyo infierno parece no tener fin. \"Con esta película, cuya historia camina sobre la fina línea de la moral y la muerte, tuve el deseo de adentrarme poco a poco en el público, en el epicentro del descubrimiento de un oscuro secreto escondido en las entrañas de una oficina olvidada por nuestros protagonistas\", comentaba su realizador.",
+          "credits": "Guión y Dirección: Carlos Marbán. Con Anna Coll Miller, Alma J. Cerezo, Jordi Rubio, Patricia Fuertes, Irene Mayo. Duración: 79 minutos."
+        },
+        {
+          "slug": "el-origen-de-las-princesas",
+          "title": "El origen de las princesas",
+          "country": "México",
+          "year": 2022,
+          "duration": 79,
+          "director": "Adrián González Camargo",
+          "poster": "/media/archive/XIV/films/el-origen-de-las-princesas.jpg",
+          "trailer_url": "https://www.youtube.com/embed/TWf8Uh0h8XE",
+          "synopsis": "Tamara enseña a su hija Emilia a ser bruja. En un accidente, Emilia muere. Tamara tiene que encontrar al elegido para poder perpetuarse o de lo contrario será la última de su especie. Tamara encuentra a Sebastián, un enfermero de un hospital psiquiátrico. Para convencerlo y poder perpetuarse, le contará dos historias.",
+          "review": "Tercer largometraje del director (y docente) michoacano, Adrián González Camargo, aquí en un trabajo que se nutre un poco de la vieja escuela de género más para sugerir que para mostrar el terror en sí, manejando muy bien la tensión, el suspenso y contando, además, con una muy buena actriz protagónica. \"Mis historias son parte de una continua exploración sobre la fortaleza humana frente a diferentes adversidades, casi siempre naturales.\"",
+          "credits": "Guión y Dirección: Adrián González Camargo. Con Tsanda Janini A., Uma Dariana T. A., Francisco Pita, Josué Nunez, Alejandro Sosa. Duración: 79 minutos."
+        },
+        {
+          "slug": "los-turistas",
+          "title": "Los turistas: Una temporada en el infierno",
+          "country": "Argentina",
+          "year": 2023,
+          "duration": 83,
+          "director": "Gaby Smiths",
+          "poster": "/media/archive/XIV/films/los-turistas.jpg",
+          "trailer_url": "https://www.youtube.com/embed/dFhik0UIam0",
+          "synopsis": "Un grupo de amigos se va de vacaciones a un pueblo en medio del bosque. Todo parece salir según lo planeado hasta que deciden asistir a un espectáculo de terror callejero que cambiará sus vidas para siempre.",
+          "review": "Slasher que remite a algunos clásicos de culto (El loco de la motosierra, Carnaval del terror), rodado en Mar de las Pampas, Mar Azul, Gral. Madariaga y Pinamar) y que al mismo tiempo plantea un tema interesante: la demanda del turista frente a la muchas veces dura y oculta realidad de los residentes permanentes en lugares veraniegos. Ópera prima del director Gaby Smiths, quien cuenta con larga trayectoria en videoclips para famosas bandas argentinas (Ataque77, Las Pelotas, La Beriso, Violadores) y del hemisferio norte (Jethro Tull, Pixies), además de en publicidades, documentales y programas de TV.",
+          "credits": "Dirección: Gaby Smiths. Guión: Mechi Pérez. Con Nanny Cogorno, Facundo Vrdoljak, Pablo Cordero Jaure, Juan Manuel Soto, Sofía Soler. Duración: 83 minutos."
+        }
+      ]
+    },
+    {
+      "name": "Novedades",
+      "type": "features",
+      "films": [
+        {
+          "slug": "bosque-demente",
+          "title": "Bosque demente",
+          "country": "Uruguay",
+          "year": 2022,
+          "duration": 43,
+          "director": "Enrique Martínez",
+          "poster": "/media/archive/XIV/films/bosque-demente.jpg",
+          "trailer_url": "https://www.youtube.com/embed/x3z6qwOhCnQ",
+          "synopsis": "Un grupo de amigos junto a algunos familiares van a pasar la jornada al bosque del título, y en determinado momento se pierden, quedando a merced de extrañas fuerzas sobrenaturales.",
+          "review": "Enrique Martínez es un director uruguayo que estudió cine en el extranjero y que en su vuelta a Uruguay siguió filmando películas a puro pulmón. Lo hace con tanta pasión y esfuerzo que las limitaciones presupuestales y técnicas pasan a segundo plano, cuando él mismo juega con situaciones y personajes que deambulan entre asesinos, hechiceras, fantasmas y seres extravagantes a plena luz del día. No es la típica película ultraindependiente para festejarla entre amigos, sino un trabajo donde se nota el intento de hacer cine a como dé lugar, que logra fluir y en ocasiones con momentos bizarros y bastante humor.",
+          "credits": "Guión y Dirección: Enrique Martínez. Con Diego Montemurro, Maite Vizozo, Manuel Del Río, Ximena Hernández, Luz Marina Díaz. Duración: 43 minutos."
+        },
+        {
+          "slug": "melchor-el-boticario",
+          "title": "Melchor: El boticario",
+          "country": "Estonia",
+          "year": 2022,
+          "duration": 97,
+          "director": "Elmo Nüganen",
+          "poster": "/media/archive/XIV/films/melchor-el-boticario.jpg",
+          "trailer_url": "https://www.youtube.com/embed/EYHiQ-oPUDY",
+          "synopsis": "En la Tallin medieval, el famoso caballero de la Orden que liberó el Mar Báltico de los piratas es asesinado. Le cortan la cabeza al héroe y le llenan la boca de monedas. Falta la cadena de oro que compró el mismo día. El Sheriff ordena a Melchor, que puede hablar con los muertos, que investigue el crimen. El inteligente joven descubre que el caballero asesinado estaba buscando a un misterioso «Prisionero de Tallinn» y las pistas conducen al monasterio dominicano. Se desata una terrible serie de crímenes: cualquiera que entre en contacto con este secreto está en peligro. Al mismo tiempo, el boticario tiene dudas sobre su aprendiz, quien parece estar escondiendo algo…",
+          "review": "Thriller medieval que da comienzo a una trilogía centrada en el personaje del título, basada en la obra literaria de Indrek Hargla, que aquí aparece como coguionista. El director de cine y teatro estonio Elmo Nüganen logra una película que brilla en fotografía, montaje y autenticidad en reconstrucción de época, mientras la historia y sus enigmáticos personajes evocan en cierta forma a la recordada El nombre de la rosa.",
+          "credits": "Apteeker Melchior – Dirección: Elmo Nüganen. Guion: Hindrek Hargla, Olle Mirme, EM. Con Märten Vetsaviir, Maarja Johanna Mägi, Franz Malmsten, Henessi Schmidt, Sten Zupping. Duración: 97 minutos."
+        },
+        {
+          "slug": "melchor-el-boticario-el-fantasma",
+          "title": "Melchor: El boticario – El fantasma",
+          "country": "Estonia",
+          "year": 2022,
+          "duration": 89,
+          "director": "Elmo Nüganen",
+          "poster": "/media/archive/XIV/films/melchor-el-boticario-el-fantasma.jpg",
+          "trailer_url": "https://www.youtube.com/embed/iEProiLuJFA",
+          "synopsis": "En las calles de la Tallin medieval, un vigilante nocturno es asustado por un terrible fantasma: la hija trágicamente ahogada de un rico comerciante. Por la mañana, el guardia muere al caer desde una torre alta y varias personas más pierden la vida en accidentes sospechosos. Melchior comienza a investigar estos hechos y sus caminos se cruzan con una prostituta, un sacerdote, un artista extranjero y un hereje loco. Las pistas lo llevan al Convento de Pirita, cuyas lúgubres bóvedas esconden un peligroso secreto enterrado en el olvido. Al mismo tiempo, Melchior está preocupado por la pregunta de por qué su amada Keterlyn rompe repentinamente su compromiso…",
+          "review": "Un toque relativamente sobrenatural se suma a esta segunda parte de la trilogía de Melchor, ahora con más presencia y personalidad, aunque manteniendo su perfil bajo y moviéndose, como siempre, con bastante astucia e inteligencia en otro misterioso caso.",
+          "credits": "Apteeker Melchior – Viirastus – Dirección: Elmo Nüganen. Guion: Hindrek Hargla, Olle Mirme, EM. Con Märten Metsaviir, Maarja Johanna Mägi, Marko Matvere, Raivo Trass, Alo Körve. Duración: 89 minutos."
+        },
+        {
+          "slug": "nosferatu-criatura-de-las-tinieblas",
+          "title": "Nosferatu: Criatura de las tinieblas",
+          "country": "Francia",
+          "year": 2023,
+          "duration": 69,
+          "director": "Gérard Signeur",
+          "poster": "/media/archive/XIV/films/nosferatu-criatura-de-las-tinieblas.jpg",
+          "trailer_url": "https://www.youtube.com/embed/qzvm6rp3ATY",
+          "synopsis": "En 1835, un agente inmobiliario, experto en ciencias ocultas, encargó a su joven empleado, Louis Verneau, la venta de una antigua casa en Tours para un extraño conde que vivía en un castillo perdido. El Conde es en realidad un vampiro. A su llegada a Tours, se desató en la ciudad una deslumbrante epidemia de peste. Alice, la esposa del joven empleado, se sacrificará para detener la epidemia, mientras que su amigo médico encontrará científicamente la verdadera causa de esta enfermedad.",
+          "review": "Modesta, precisa, sin grandes ambiciones, el trabajo denota cierta esencia teatral, recorre el patrimonio francés a través de pueblos y monumentos, no apuesta a escenas fuertes ni de violencia, y hasta mantiene un espíritu didáctico para esas nuevas generaciones que aún no vieron la obra maestra de Murnau ni tampoco se adentraron a explorar clásicos del género dentro del cine mudo.",
+          "credits": "Nosferatu: Créature Des Ténèbres – Dirección: Gérard Signeur. Guión: GS, inspirado en la película Nosferatu, de F. W. Murnau. Con Andrea Poupard, Juliette Perfetto, Philippe Seigneurin, GS, Sylvain Rougeron. Duración: 69 minutos."
+        }
+      ]
+    },
+    {
+      "name": "Homenajes: 40 años de \"El Ascensor\"",
+      "type": "features",
+      "films": [
+        {
+          "slug": "el-ascensor",
+          "title": "El Ascensor",
+          "country": "Holanda (Países Bajos)",
+          "year": 1983,
+          "duration": 95,
+          "director": "Dick Maas",
+          "poster": "/media/archive/XIV/films/el-ascensor.jpg",
+          "trailer_url": "https://www.youtube.com/embed/1Ro1EUIdZs8",
+          "synopsis": "Cuatro personas quedan atrapadas en un ascensor, durante una noche tormentosa y en un moderno edificio de oficinas, terminando hospitalizadas cuando casi se asfixian al fallar repentinamente el aire acondicionado. El mecánico que manda la compañía para arreglarlo no encuentra nada extraño en él. Pero a partir de ese momento el comportamiento de la máquina comienza a ser cada vez más errático y peligroso, mientras la policía piensa que se trata tan solo de simples accidentes.",
+          "review": "Un clásico del terror, producido en Holanda (hoy Países Bajos), que acaba de cumplir sus 40 años y que el Festival aprovecha para recordarlo. El director y guionista Dick Maas, que también hizo la banda sonora en dos días y con tan solo un par de sintetizadores, logra climas tremendos de suspenso y terror, y al mismo tiempo una historia que no ha perdido su vigencia en absoluto, cuando pone en el tapete el tema de las máquinas versus su creador, el hombre. Ópera prima de Maas, ganadora de varios premios internacionales, con buenos efectos especiales (para el limitado presupuesto con que se contaba), una esmerada fotografía, y hasta con los propios actores haciendo sus escenas de riesgo. La película tuvo una remake en 2001, hecha por el mismo realizador y con Naomi Watts en el reparto antes de hacerse famosa en El camino de los sueños (2001) de David Lynch. El propio director Maas nos dio su beneplácito para exhibir la película en su 40º aniversario.",
+          "credits": "De Lift – Holanda (Países Bajos), 1983 – Guión y Dirección: Dick Maas. Con Hubb Stapel, Willeke van Ammelrooy, Josine van Dalsum, Piet Römer, Hans Veerman. Duración: 95 minutos."
+        }
+      ]
+    },
+    {
+      "name": "Competencia Oficial de Cortometrajes",
+      "type": "shorts",
+      "films": [
+        { "title": "La 44a. cámara del Shaolin", "director": "Jon Truei", "country": "Estados Unidos", "duration": 15, "synopsis": "Un maestro de kung fu travieso y amante de las bromas crea un entrenamiento falso para un adolescente crédulo que cree en mitos fantásticos sobre las artes marciales.", "credits": "Dirección: Jon Truei (2022)" },
+        { "title": "Abandonado / Abandoned", "director": "Martin Vrede Nielsen", "country": "Dinamarca", "duration": 12, "synopsis": "Un hombre cansado se dirige a través del bosque con su equipaje y una misión, pero su mente y su conciencia le juegan una mala pasada y hacen que el viaje sea agotador.", "credits": "Dirección: Martin Vrede Nielsen (2020)" },
+        { "title": "Adoración anormal / Abnormal Adoration", "director": "Mingyuan Ye", "country": "Estados Unidos", "duration": 2, "synopsis": "La historia gira en torno a una chica zombie, Susan, que se ha enamorado de un chico monstruo, Allen, que parece no prestarle atención. Cuando Susan descubre que Allen ama a las chicas de las portadas de las revistas, decide cambiar para adaptarse a lo que a Allen le gustaría.", "credits": "Dirección: Mingyuan Ye (2023)" },
+        { "title": "Arapuca: Trampa para pájaros", "director": "Joel Caetano", "country": "Brasil", "duration": 20, "synopsis": "En \"Arapuca\" seguimos el día a día de Marcos, un hombre que regresa a su antiguo hogar para cuidar a su padre, un anciano que se encuentra en un estado avanzado de una enfermedad degenerativa que le impide ver con claridad la realidad alrededor de él. Marcos es incapaz de comunicarse con su padre y esa invisibilidad lo va corrompiendo poco a poco, principalmente porque le impide encontrar respuestas a algo que lo ha inquietado durante mucho tiempo en la relación entre ambos.", "credits": "Dirección: Joel Caetano (2023)" },
+        { "title": "Asedio", "director": "Tomás Lazarowski", "country": "Argentina", "duration": 15, "synopsis": "Tras un crimen múltiple en una universidad, un fiscal y una madre acuden al lugar sin saber que ambos son la misma persona.", "credits": "Dirección: Tomás Lazarowski (2022)" },
+        { "title": "Bajo la espuma / Under the Lather / Sousse la Mousse", "director": "Ollivier Briand", "country": "Francia", "duration": 14, "synopsis": "Iván, de cinco años, es obligado a bañarse por su niñera. Una vez en el agua, descubre con horror, escondida bajo la espuma, una espantosa criatura a la que tendrá que enfrentarse…", "credits": "Dirección: Ollivier Briand (2020)" },
+        { "title": "El barbero", "director": "Sergiy Pudich", "country": "Ucrania", "duration": 8, "synopsis": "Un rudo motoquero llega a la barbería cuando ya estaba cerrada, pero aun así el barbero accedió a hacer el último corte…", "credits": "Dirección: Sergiy Pudich (2020)" },
+        { "title": "Cascada", "director": "Marcos Muñoz Flores", "country": "México", "duration": 6, "synopsis": "Luego de una fuerte pelea, Lidia apuñala a su novio, al verlo ensangrentado se arrodilla para pedir perdón.", "credits": "Dirección: Marcos Muñoz Flores (2022)" },
+        { "title": "Codicia & Gore / Greed & Gore", "director": "Adam Kirkey", "country": "Canadá", "duration": 15, "synopsis": "Cinco delincuentes eligen la casa segura equivocada para esconderse después de robar un banco.", "credits": "Dirección: Adam Kirkey (2023)" },
+        { "title": "Coleccionismo", "director": "Marcos Gualda", "country": "España", "duration": 14, "synopsis": "Marita Carbone es una anciana aristócrata en decadencia. Para mitigar su soledad, colecciona cosas absurdas. Un día, dos mormones interrumpen la paz de su hogar. «Coleccionismo» es una comedia negra que reflexiona sobre la compulsión consumista, el sentimiento religioso y la incapacidad para amar.", "credits": "Dirección: Marcos Gualda (2022)" },
+        { "title": "Corte cruel / Unkind Cut", "director": "Marc G. Pitre", "country": "Estados Unidos", "duration": 14, "synopsis": "Una consulta de vasectomía sale mal cuando un paciente inseguro se enfrenta a un médico peculiar y a un personal médico agresivo que no quiere que permanezca intacto.", "credits": "Dirección: Marc G. Pitre (2023)" },
+        { "title": "Criaturas del viento / Creatures of the Wind", "director": "Josué A. Martínez", "country": "Indonesia", "duration": 8, "synopsis": "Cuando Jaylah se despierta en medio del bosque, una niña misteriosa la guía a través de un viaje desconocido e inolvidable.", "credits": "Dirección: Josué A. Martínez (2020)" },
+        { "title": "El día que te maté", "director": "Edu Escudero", "country": "España", "duration": 9, "synopsis": "¿Te imaginas que un día alguien se sentara frente a ti y te contara, detalle a detalle, su plan para asesinarte?", "credits": "Dirección: Edu Escudero (2020)" },
+        { "title": "Edén", "director": "Jon Espié", "country": "España", "duration": 15, "synopsis": "Adam vive encerrado en una habitación totalmente blanca y cada día \"la voz\" un aparato robótico que está en la pared, le hace preguntas sobre sus sueños. Un día una hormiga desencadenará una serie de eventos que cambiarán por completo su vida y le harán cuestionarse y enfrentarse por primera vez a toda su realidad.", "credits": "Dirección: Jon Espié (2021)" },
+        { "title": "Entambado", "director": "Humberto Flores", "country": "México", "duration": 15, "synopsis": "Un hombre despierta atrapado dentro de un tambo de metal. Torturado y con poco tiempo, se ve obligado a escudriñar en su memoria, esperando encontrar la razón por la que está ahí y tal vez, su salvación.", "credits": "Dirección: Humberto Flores (2020)" },
+        { "title": "Entre Marte y la Tierra", "director": "Diego Marzuil", "country": "Argentina", "duration": 11, "synopsis": "En las vacaciones de Navidad, una misteriosa fuerza extraterrestre irrumpe en la vida de una pareja suburbana al borde del divorcio. Sin embargo, ninguno de ellos nota esta presencia sobrenatural, por lo que este ente tendrá que convivir con ellos en este hogar gris, triste y sin vida, observando como su relación finalmente se desintegra.", "credits": "Dirección: Diego Marzuil (2022)" },
+        { "title": "Escapar / Escape", "director": "Alexander Gavrilov", "country": "Rusia", "duration": 15, "synopsis": "El exitoso empresario Vadim regresa de un viaje de negocios a su casa de campo, donde lo esperan su amada esposa Ksenia y su hija Ira. Su vida se ve perfecta: se aman, viven en prosperidad y completa armonía. Pero un día su idilio se arruina y nunca más podrán volver a estar juntos. Incapaz de aceptar lo inevitable, uno de los cónyuges se pierde en sus recuerdos felices, prefiriéndolos a la dura realidad.", "credits": "Dirección: Alexander Gavrilov (2020)" },
+        { "title": "EXO-226", "director": "Denai Gracie", "country": "Australia", "duration": 5, "synopsis": "Raela Corp Deep Space Mining Logistics está supervisando la extracción de un compuesto; EXO226, en un planeta lejano. Pero cuando las operaciones mineras desentierran algo más que el complejo, el científico jefe Verittay y el militar Mathison deben evadir a una criatura devoradora de humanos mientras intentan llevar el suero de regreso a la Tierra y salvar a la humanidad.", "credits": "Dirección: Denai Gracie (2023)" },
+        { "title": "El faro", "director": "Luis Ángel Esparza, Mauricio Esparza", "country": "Perú", "duration": 18, "synopsis": "Una copiosa neblina ha atacado la caleta costera en la que vive Agatha (12), evitando que su padre, un humilde pescador, vuelva a casa. Al verse incapaz de cuidarla, su madre la echa. Entonces, Agatha decide prender el antiguo faro para mostrarle a su padre el camino de vuelta, el camino de los pescadores perdidos.", "credits": "Dirección: Luis Ángel Esparza, Mauricio Esparza (2022)" },
+        { "title": "Fecha límite / Deadline", "director": "Idan Gilboa", "country": "Israel", "duration": 13, "synopsis": "Comedia negra de animación stop-motion que explora el equilibrio de poder entre la burocracia, la muerte y la devoción felina de los ancianos. En el centro hay una historia de una valiente amistad y solidaridad entre dos señoras mayores asqueadas por el desprecio y la falta de respeto de la sociedad.", "credits": "Dirección: Idan Gilboa (2023)" },
+        { "title": "La habitación blanca", "director": "Carlos Moriana", "country": "España", "duration": 12, "synopsis": "Almudena no ha superado la muerte de su hija y tiene sueños recurrentes donde la encierran en una extraña habitación blanca.", "credits": "Dirección: Carlos Moriana (2019)" },
+        { "title": "Hueso viejo", "director": "Alberto Armas", "country": "España", "duration": 12, "synopsis": "Julio juega inocentemente por el campo y tropieza con un pequeño huesito, enterrado hace mucho tiempo. Lo que no sabe es que ese hallazgo desencadenará una pesadilla para él y su familia.", "credits": "Dirección: Alberto Armas (2020)" },
+        { "title": "Hydra", "director": "Andrey Ivanov", "country": "Rusia", "duration": 7, "synopsis": "San Petersburgo es hermosa cuando hay sol. La ciudad es a la vez maravillosa y terrible. Nada presagiaba problemas. Dos holgazanes en plena pubertad han decidido grabar un vídeo para Internet, filmando \"levantes\" en plena vía pública, algo que se hace muy popular en línea. Pero una patrulla de policía y luego un monstruo cambiarán los planes.", "credits": "Dirección: Andrey Ivanov (2020)" },
+        { "title": "Los invitados", "director": "Franco Maldonado", "country": "Argentina", "duration": 12, "synopsis": "Viviendo temporalmente en la casa de su amiga, Sofía es acechada por un ser sobrenatural que busca imponer su autoridad.", "credits": "Dirección: Franco Maldonado (2022)" },
+        { "title": "IVI ELV", "director": "Luigi Scarpa", "country": "Italia", "duration": 11, "synopsis": "Un hombre recupera la conciencia en algún lugar desconocido y claustrofóbico. Aturdido y confundido, comienza a vagar por oscuros pasillos, pero una serie de visiones lo obligarán a enfrentarse a una realidad mucho peor.", "credits": "Dirección: Luigi Scarpa (2022)" },
+        { "title": "El ladrón de orbes", "director": "Aarón Wang", "country": "Argentina", "duration": 7, "synopsis": "Ariadna se encuentra con un sujeto extraño llamado Ruiz que afirma que le ha robado algo valioso. Mientras intenta descubrir la esencia de lo que sea que fue robado, comienza a revelar un mundo que es difícil de comprender. Ruiz no solo revela paso a paso la naturaleza de sus actividades, sino que también revela una rara condición que lo hace ejecutar esas actividades.", "credits": "Dirección: Aarón Wang (2022)" },
+        { "title": "Más espeso que la sangre", "director": "Joaquín Campos Astroza", "country": "Chile", "duration": 13, "synopsis": "Jonathan es un vampiro que buscando alejarse de su adicción a la sangre, decide vivir a las afueras de la ciudad, en un pueblo llamado Curacaví, trabajando como mecánico. Lamentablemente, su adicción no le permite sociabilizar con personas y hará brotar su lado salvaje cuando conozca a dos nuevos clientes en su taller. Armando, un ladrón de poca monta y Carmen, una geógrafa que estudia la crisis hídrica del pueblo.", "credits": "Dirección: Joaquín Campos Astroza (2023)" },
+        { "title": "Mientras tanto / Meantime", "director": "Guillaume Scaillet", "country": "Francia", "duration": 13, "synopsis": "Marc, un joven citadino, se adentra en el campo donde se queda solo en una casa solitaria. Él está esperando a su novia Louise, quien se supone que vendrá y se reunirá con él pronto, pero ella llega tarde. A Marc le gusta mantenerse en forma y se obsesiona con la rutina diaria saludable que se ha impuesto, pero el silencio se hace cada vez más pesado y Louise aún no ha llegado. En la angustiosa calma que lo rodea, Marc poco a poco va cayendo presa del asalto de todo tipo de sonidos que habitualmente ignora y que no suele escuchar.", "credits": "Dirección: Guillaume Scaillet (2022)" },
+        { "title": "Mira lo que has hecho / Look What You´ve Done / Regarde Ce Que Tu As Fait!", "director": "Mónica De Almeida", "country": "Suiza", "duration": 10, "synopsis": "Jacob se enfrenta a sus actos atroces. Mientras Kendra, una psicóloga, intenta que tome conciencia de los mismo, Jacob niega su responsabilidad y reclama su inocencia. Describe la presencia de un extraño que lo sigue a todas partes y que actúa por su cuenta. La discusión entre Jacob y Kendra generará cierta controversia. A través de la mente de la psicóloga racional que enunciará la teoría de la esquizofrenia, Jacob nos hará dudar de nosotros mismos y abrirá la cuestión de la existencia de una fuerza malévola que lo manipula.", "credits": "Dirección: Mónica De Almeida (2020)" },
+        { "title": "Momma, Don´t Go / Mamá, no te vayas", "director": "Rafael De León Jr.", "country": "Estados Unidos", "duration": 6, "synopsis": "Una madre y su hija luchan por sobrevivir a un mortal allanamiento de morada.", "credits": "Dirección: Rafael De León Jr. (2019)" },
+        { "title": "La muerte ofrece la vida: Los últimos momentos de Vincent Van Gogh / Death Offers Life – The Last moments of Vincent Van Gogh", "director": "Saheer Abbas", "country": "India", "duration": 8, "synopsis": "La historia es el relato ficticio de los últimos cinco minutos del aclamado pintor Vincent Van Gogh, quien fue un fracaso en su vida. La muerte que ha venido a llevárselo le hace dos ofertas: una la rechaza, pero hay otra que termina aceptándola y con gracia.", "credits": "Dirección: Saheer Abbas (2019)" },
+        { "title": "No hay fantasmas", "director": "Nacho Solana", "country": "España", "duration": 15, "synopsis": "Andrea es una joven con un oficio particular. Cuando alguien siente ciertos fenómenos paranormales en su casa, solo ella puede dar una explicación. Pero Andrea siempre insiste en cada visita: No hay fantasmas. Son los ecos de alguien que una vez estuvo entre nosotros.", "credits": "Dirección: Nacho Solana (2022)" },
+        { "title": "La nueva", "director": "Iván Villamel", "country": "España", "duration": 15, "synopsis": "María es la nueva profesora que llega a un antiguo colegio religioso. En su primer día, tendrá que enseñar a un grupo de adolescentes rebeldes que forman parte de una clase de castigo. Un suceso inesperado convertirá el aula en un auténtico infierno. No saberte la lección te puede costar la vida.", "credits": "Dirección: Iván Villamel (2022)" },
+        { "title": "El padrastro", "director": "José Casas", "country": "España", "duration": 11, "synopsis": "Robert es un atractivo caballero que está a punto de vivir el peor día de su idílica vida.", "credits": "Dirección: José Casas (2023)" },
+        { "title": "La penumbra", "director": "Dani Viqueira", "country": "España", "duration": 15, "synopsis": "Laura estudia para la tesis de su especialidad médica. No tiene tiempo para la hipocondría de su marido. Ni para las peleas de sus hijos. Pero cuando todo se vuelve oscuro y Laura entra en la penumbra, el tiempo es todo lo que tendrá.", "credits": "Dirección: Dani Viqueira (2020)" },
+        { "title": "Petición 1001 / Petition 1001", "director": "Anastasia Pastori", "country": "Rusia", "duration": 15, "synopsis": "Angel Vlad es el principal empleado del departamento de salvación de almas de la oficina celestial. En su cumpleaños, se convierte en humano y rescata a una joven, por costumbre. ¿Aprenderá lo que es ser verdaderamente un humano?", "credits": "Dirección: Anastasia Pastori (2020)" },
+        { "title": "Pieles / Skins", "director": "Jaiden Reese", "country": null, "duration": 14, "synopsis": "\"Me inspiré mucho para capturar los sentimientos de enamoramiento y desamor de una manera única con este cortometraje, contextualizándolos en el género de terror. Quería expresar el sentimiento de que el amor es algo que «alcanza», ya que llega tanto dentro como fuera de los personajes durante el ritual que realiza la pareja protagónica.\"", "credits": "Dirección: Jaiden Reese (2023)" },
+        { "title": "El regalo del Diablo", "director": "Pablo A. De La Barra", "country": "Venezuela", "duration": 13, "synopsis": "Erick escribe mensajes sin respuesta a Sandra, mientras Satanás le observa. Esa noche Satanás deja un anillo en la puerta de Erick. A la mañana siguiente Erick revisa el móvil de Sandra, donde encuentra una conversación que le hace sospechar de un encuentro que tendrá lugar ese mismo día. Erick descubre que el anillo le hace invisible y decide ir a espiar a su amada.", "credits": "Dirección: Pablo A. De La Barra (2020)" },
+        { "title": "Rong", "director": "Indira Iman", "country": "Indonesia", "duration": 13, "synopsis": "A altas horas de la noche en Yakarta, una mujer camina sola hacia su casa y se convierte en el blanco de acoso de un hombre. Justo cuando está a punto de agredirla, las cosas toman un giro inesperado cuando el cazador de repente se convierte en el cazado.", "credits": "Dirección: Indira Iman (2019)" },
+        { "title": "Roque", "director": "Banni Leclerc", "country": "España", "duration": 17, "synopsis": "Roque, completamente solo en la piscina de alto rendimiento, habiéndose consagrado como el hombre más rápido del mundo, decide abandonarlo todo. Está convencido de que que olvidar la usurpación de su inocencia ha sido siempre una meta paralela para su verdadera realización personal. El recuentro con Don Braulio, el hombre que abusó de él siendo un niño, se ha convertido en su única obsesión. Ya solo necesita comprobar que es lo que siente hacia él tras 15 años sin verle. El rostro del perdón se hace cada día más y más difuso dentro de su cabeza.", "credits": "Dirección: Banni Leclerc (2023)" },
+        { "title": "Sileo", "director": "Demeter Lorant", "country": "Hungría", "duration": 8, "synopsis": "Un robot, después de trabajar durante años en una fábrica y ser reparado y sustituido poco a poco, se da cuenta de que no quiere perder su identidad y se propone encontrar a su creador.", "credits": "Dirección: Demeter Lorant (2023)" },
+        { "title": "S.O.S.: Hogar temporal", "director": "Ángela Tobón Ospina", "country": "Colombia", "duration": 20, "synopsis": "Aurelio (72) es el salvavidas en un mundo paralelo donde están las personas en coma. Esther (67) llega a la piscina y se une a un grupo de personas que se entrenan para una competencia. Quien gane volverá a la vida con sus seres queridos.", "credits": "Dirección: Ángela Tobón Ospina (2020)" },
+        { "title": "El Sorprendente Sánchez", "director": "Giorgio Rossentino", "country": "México", "duration": 9, "synopsis": "El día a día de Sánchez, un joven fanático de los cómics, que trabaja en un call center. Un día su vida cambia cuando encuentra un anuncio en el que se buscan superhéroes, por lo que Sánchez tendrá que salir de su monótona cotidianidad, y mientras lo hace descubrirá lo súper que puede llegar a ser.", "credits": "Dirección: Giorgio Rossentino (2020)" },
+        { "title": "The Taxi Dead", "director": "Simon Lahm", "country": "Alemania", "duration": 15, "synopsis": "Un joven llamado Paul intenta sobrevivir a un apocalipsis zombi en Baviera. Junto con su taxista, Karl, tiene que luchar contra varios ataques de zombis. Y Paul tiene prisa porque su novia lo espera.", "credits": "Dirección: Simon Lahm (2020)" },
+        { "title": "Teatro de las bestias", "director": "Florencia Cofone", "country": "Argentina", "duration": 14, "synopsis": "Un peluquero y una actriz de teatro se preparan para la gran presentación en el Teatro de las Bestias, que definirá sus enrarecidos destinos.", "credits": "Dirección: Florencia Cofone (2023)" },
+        { "title": "Uno de los suyos / One of Their Own", "director": "Allen Colombo", "country": "Estados Unidos", "duration": 4, "synopsis": "Trabajo que combina bricolaje animación de captura de movimiento con acción en vivo neorrealista para contar la historia de un niño digital que se mete en problemas tratando de encajar con los niños humanos.", "credits": "Dirección: Allen Colombo (2019)" },
+        { "title": "Vestigio / Vestige", "director": "Pierre Marie Charbonnier, Simon Pierrat", "country": "Francia", "duration": 2, "synopsis": "Dos hombres de mudanzas entran en una vieja casa abandonada. Uno de ellos va a encontrar un extraño álbum de fotos de otra generación…", "credits": "Dirección: Pierre Marie Charbonnier, Simon Pierrat (2019)" },
+        { "title": "Zombiosis", "director": "Cris Gambín, Tony Pinel", "country": "España", "duration": 8, "synopsis": "Cuando vives con la muerte, es más fácil perder la cabeza que mantener la fe.", "credits": "Dirección: Cris Gambín, Tony Pinel (2018)" }
+      ]
+    },
+    {
+      "name": "Cortometrajes Uruguayos en Competencia",
+      "type": "shorts",
+      "films": [
+        { "title": "Desconocido", "director": "Nicolás Medina", "country": "Uruguay", "duration": 15, "synopsis": "Guillermo viaja al campo para cuidar a Héctor, su padre enfermo, durante tres noches. A su llegada, Guillermo se encuentra con que el estado de Héctor cambia en la noche, en la que, a su vez, algo que viene del cielo parece acercarse.", "credits": "Dirección: Nicolás Medina (2022)" },
+        { "title": "La familia luchadora", "director": "Pablo Praino", "country": "Uruguay", "duration": 2, "synopsis": "Animación, donde un monstruo invade el vecindario y la familia del título va planificando cómo derrotarlo.", "credits": "Dirección: Pablo Praino (2023)" },
+        { "title": "Fantasmástica", "director": "Sebastián Bugna", "country": "Uruguay", "duration": 15, "synopsis": "Un misterioso personaje enmascarado y paranoico huye tras ser atormentado por fantasmagóricas alucinaciones. Pero terminará atrapado en un laberinto oscuro y surrealista que lo confronta consigo mismo. ¿Cómo son los fantasmas de hoy?", "credits": "Dirección: Sebastián Bugna (2022)" },
+        { "title": "Filo Molusco: Clarkanus", "director": "Daniel Muniz", "country": "Uruguay", "duration": 5, "synopsis": "Clarkanus es un hombre bien vestido que se adentra en un pasaje desolado. Allí inicia un ritual que consiste en bailar, además de un grito de auxilio a través del código Morse. Cuando termina el ritual, notamos una figura extraña que acecha en las sombras. Esta presencia sobrenatural sigue el rastro de Clarkanus y encuentra una pista espantosa que dejó atrás.", "credits": "Dirección: Daniel Muniz (2023)" },
+        { "title": "Hobby", "director": "Gabriel Pandule", "country": "Uruguay", "duration": 21, "synopsis": "Un asesino serial conduce su automóvil fuera de la ciudad, entierra el cadáver de una mujer en un lugar distante y un fenómeno paranormal se hace presente: la difunta le anuncia un terrible presagio.", "credits": "Dirección: Gabriel Pandule (2021)" },
+        { "title": "Hora del té", "director": "Rossana Bossio, Javier Cabezudo", "country": "Uruguay", "duration": 10, "synopsis": "Ana y Laura, dos amigas, toman el té. El cotidiano ritual es repetido una y otra vez de manera monstruosa, revelando en el último instante un vínculo inconfesable entre ellas.", "credits": "Dirección: Rossana Bossio, Javier Cabezudo (2022)" },
+        { "title": "Hotel Stories", "director": "Tomás Marichal Urban", "country": "Uruguay", "duration": 17, "synopsis": "Los hoteles son lugares enigmáticos; cada habitación cuenta una historia. En esta película seguiremos los pasos de un recepcionista en su primera noche de trabajo. A medida que pasan las horas, poco a poco irá descubriendo a sus misteriosos huéspedes. Un hotel donde nada es lo que parece.", "credits": "Dirección: Tomás Marichal Urban (2022)" },
+        { "title": "El karma de la quinta", "director": "Juan Pablo Bornio", "country": "Uruguay", "duration": 10, "synopsis": "Dos detectives llegan a una casa de campo para resolver un caso, pero al encontrar el cuerpo de la víctima, la detective llamada Ivanna, se da cuenta de que su conexión con ese lugar es mayor de lo que jamás imaginó. Conoce la casa de campo, porque iba allí a jugar cuando era niña. En aquel entonces, el parque estaba abandonado y las leyendas que se escondían en su entorno parecían volver a la vida. Ahora, comienza a comprender que su regreso a la casa de campo, más de 20 años después de sus obras de teatro infantiles, no parece ser una casualidad.", "credits": "Dirección: Juan Pablo Bornio (2022)" },
+        { "title": "Lilith", "director": "Enrique Gayo, Fernando Lemos Oxley", "country": "Uruguay", "duration": 18, "synopsis": "La trascendencia del amor más allá de lo sobrenatural.", "credits": "Dirección: Enrique Gayo, Fernando Lemos Oxley (2021)" },
+        { "title": "Ruidos", "director": "Jonathan Westerley", "country": "Uruguay", "duration": 8, "synopsis": "Mónica recibe una llamada de su hijo quien le advierte que no irá a casa esa noche. Luego de asegurar todas las ventanas se va a dormir. En medio de la noche un ruido la despierta haciendo sonar la alarma.", "credits": "Dirección: Jonathan Westerley (2023)" },
+        { "title": "El secuestro de Laura Silverman", "director": "Eduardo Granadsztejn", "country": "Uruguay", "duration": 3, "synopsis": "El caso de una niña desaparecida llevará un detective privado a un viaje al más profundo de los abismos, donde la verdad puede llegar a trascender al mismísimo tiempo.", "credits": "Dirección: Eduardo Granadsztejn (2022)" },
+        { "title": "Las señales", "director": "Miguel Torena", "country": "Uruguay", "duration": 3, "synopsis": "Cortometraje que aborda de manera sutil pero directa la temática del suicidio.", "credits": "Dirección: Miguel Torena (2022)" },
+        { "title": "El visitante", "director": "Lucía Nieto Salazar", "country": "Uruguay", "duration": 11, "synopsis": "Helena trabaja sola como casera en una gran residencia lejos de la ciudad. Está prevista la llegada de un visitante. El invitado se presenta antes de lo esperado. Su comportamiento insinúa que está ocultando algo, pero no es el único… Helena también está ocultando algo.", "credits": "Dirección: Lucía Nieto Salazar (2023)" }
+      ]
+    },
+    {
+      "name": "Muestra Informativa de Cortometrajes",
+      "type": "shorts-catalog",
+      "films": [
+        { "title": "16/8", "director": "Sasha Paracels", "country": "Rusia", "duration": 7 },
+        { "title": "Bloodshed", "director": "Paolo Mancini, Daniel Watchorn", "country": "Canadá", "duration": 13 },
+        { "title": "Cada 75 minutos / Every 75 minutes", "director": "Borja A. Ortiz", "country": "España", "duration": 7 },
+        { "title": "Cambiante", "director": "Luis Fernando Flores", "country": "México", "duration": 6 },
+        { "title": "ChickenQueen Paradise", "director": "Ken Blindenbacher", "country": "Suiza", "duration": 6 },
+        { "title": "La comunión de las rosas", "director": "Lucas Scalco", "country": "Brasil", "duration": 15 },
+        { "title": "El confesionario", "director": "Omalik Rosado", "country": "Puerto Rico", "duration": 11 },
+        { "title": "DeMente", "director": "Guillermo Cabot", "country": "España", "duration": 9 },
+        { "title": "Desde el bosque", "director": "Matías Ballistreri", "country": "Argentina", "duration": 7 },
+        { "title": "El Electrishman y las tres Elfas", "director": "Fabián Joest", "country": "España", "duration": 14 },
+        { "title": "Insert Coin", "director": "Marçal Olivé", "country": "España", "duration": 9 },
+        { "title": "Kein", "director": "Manu Quiroga", "country": "España", "duration": 15 },
+        { "title": "Una llama en medio de nosotros / A Flame in Our Midst", "director": "Elvert Bañares", "country": "Filipinas", "duration": 10 },
+        { "title": "Loop", "director": "Juan Francisco Pérez Villalba", "country": "Colombia", "duration": 8 },
+        { "title": "Meat Lovers / Amantes de la carne", "director": "Daniel Stebbins", "country": "Estados Unidos", "duration": 4 },
+        { "title": "Método Zombie", "director": "Pablo Olewski", "country": "España", "duration": 7 },
+        { "title": "El niño y el cuervo / The Boy and the Crow", "director": "Tudor Om", "country": "Rumania", "duration": 3 },
+        { "title": "Okupa", "director": "Carlos Polo", "country": "España", "duration": 9 },
+        { "title": "Osito", "director": "Sergio González \"Suko\", Alberto Enrique Pons", "country": "España", "duration": 11 },
+        { "title": "El pacto", "director": "Rafael Fort", "country": "España", "duration": 13 },
+        { "title": "Petrichor", "director": "Gustavo Silva", "country": "Portugal", "duration": 5 },
+        { "title": "La primera vigilia", "director": "Felipe Otaño", "country": "Argentina", "duration": 6 },
+        { "title": "Puntos de daño", "director": "Jonathan Antonio", "country": "México", "duration": 3 },
+        { "title": "Réquiem por los vivos", "director": "Jaroslaw Gogolin", "country": "Reino Unido", "duration": 6 },
+        { "title": "Restauración / Restoration", "director": "Sean Bernardini", "country": "Estados Unidos", "duration": 8 },
+        { "title": "Sacrificio", "director": "Aldo Apango Ortiz", "country": "México", "duration": 12 },
+        { "title": "Ratón de biblioteca", "director": "Javier Yáñez Sanz", "country": "España", "duration": 14 },
+        { "title": "Tártaro", "director": "Jerónimo García Castela", "country": "España", "duration": 10 },
+        { "title": "Valle de almas / Vão Das Almas", "director": "Santiago Dellape, Edileuza Penha De Souza", "country": "Brasil", "duration": 15 },
+        { "title": "Las viajantes", "director": "Davi Mello", "country": "Brasil", "duration": 11 }
+      ]
+    }
+  ]
+}
