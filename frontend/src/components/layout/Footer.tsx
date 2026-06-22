@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
@@ -22,7 +24,7 @@ export default function Footer() {
                 className="h-10 w-auto object-contain mb-3"
               />
             </Link>
-            <p className="font-sans text-[9px] tracking-[0.2em] uppercase text-text-muted/60 font-light">
+            <p className="font-sans text-[9px] tracking-[0.2em] uppercase text-white/60 font-light">
               Festival Internacional de Cine Fantástico · Uruguay
             </p>
           </div>
@@ -32,14 +34,14 @@ export default function Footer() {
             {[
               ["home", `/${locale}`],
               ["edition", `/${locale}/${locale === "es" ? "edicion" : "edition"}`],
-              ["archive", `/${locale}/archivo`],
-              ["about", `/${locale}/acerca`],
-              ["contact", `/${locale}/contacto`],
+              ["archive", `/${locale}/${locale === "es" ? "archivo" : "archive"}`],
+              ["about", `/${locale}/${locale === "es" ? "acerca" : "about"}`],
+              ["contact", `/${locale}/${locale === "es" ? "contacto" : "contact"}`],
             ].map(([key, href]) => (
               <Link
                 key={key}
                 href={href}
-                className="font-sans text-[10px] tracking-widest uppercase text-text-muted hover:text-text-primary transition-colors font-medium"
+                className="font-sans text-[10px] tracking-widest uppercase text-white/75 hover:text-white transition-colors font-medium"
               >
                 {t(key as Parameters<typeof t>[0])}
               </Link>
@@ -53,7 +55,7 @@ export default function Footer() {
                 href="https://www.instagram.com/mvdfantastico/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 font-sans text-[11px] tracking-widest uppercase text-text-muted hover:text-plasma transition-colors"
+                className="flex items-center gap-1.5 font-sans text-[11px] tracking-widest uppercase text-white/75 hover:text-plasma transition-colors"
                 aria-label="Instagram"
               >
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5 shrink-0" aria-hidden="true">
@@ -67,7 +69,7 @@ export default function Footer() {
                 href="https://x.com/montevideofan"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 font-sans text-[11px] tracking-widest uppercase text-text-muted hover:text-plasma transition-colors"
+                className="flex items-center gap-1.5 font-sans text-[11px] tracking-widest uppercase text-white/75 hover:text-plasma transition-colors"
                 aria-label="X"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-3.5 h-3.5 shrink-0" aria-hidden="true">
@@ -79,7 +81,7 @@ export default function Footer() {
                 href="https://www.facebook.com/FestivalMontevideoFantastico/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 font-sans text-[11px] tracking-widest uppercase text-text-muted hover:text-plasma transition-colors"
+                className="flex items-center gap-1.5 font-sans text-[11px] tracking-widest uppercase text-white/75 hover:text-plasma transition-colors"
                 aria-label="Facebook"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-3.5 h-3.5 shrink-0" aria-hidden="true">
@@ -88,7 +90,7 @@ export default function Footer() {
                 Facebook
               </a>
             </div>
-            <p className="font-sans text-[10px] tracking-wider text-text-muted font-light">
+            <p className="font-sans text-[10px] tracking-wider text-white/55 font-light">
               © {new Date().getFullYear()} Montevideo Fantástico
             </p>
           </div>

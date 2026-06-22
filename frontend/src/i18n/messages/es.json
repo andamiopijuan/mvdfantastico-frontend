@@ -2,6 +2,7 @@
   "nav": {
     "home": "Inicio",
     "edition": "Festival",
+    "jury": "Jurado",
     "archive": "Archivo",
     "about": "Acerca de",
     "contact": "Contacto"
@@ -13,7 +14,7 @@
       "cta_current": "Ver edición actual",
       "cta_archive": "Ediciones anteriores",
       "cta_festival": "Ver el festival",
-      "description": "Montevideo Fantástico es un festival de cine de género hecho en Montevideo.\n\nDesde 2005 programa largometrajes, mediometrajes y cortos de terror, fantasía y ciencia ficción, con foco en producciones independientes que circulan poco o directamente no llegan a salas.\n\nLas funciones se reparten en distintos espacios de la ciudad y el público vota cada película. Ese cruce entre programación y respuesta directa de la gente es parte central del festival."
+      "description": "Montevideo Fantástico es un festival de cine dedicado al terror, la ciencia ficción y la fantasía, con foco en producciones independientes que raramente acceden a las salas comerciales o a las grandes plataformas de streaming.\n\nDesde 2005, el festival acerca largometrajes, mediometrajes y cortometrajes a múltiples espacios culturales de Montevideo y el interior del país. La entrada es gratuita en la gran mayoría de sus funciones, y el público ocupa un lugar central en la propuesta: vota y califica las películas que se exhiben, y sus elecciones se traducen en premiaciones que los realizadores valoran especialmente.\n\nEsa interacción entre las películas y quienes las ven es uno de los pilares del festival."
     },
     "highlight": {
       "label": "Edición en cartel",
@@ -24,7 +25,9 @@
     "archive_preview": {
       "label": "Filmoteca",
       "title": "Ediciones anteriores",
-      "view_all": "Ediciones anteriores"
+      "view_all": "Ediciones anteriores",
+      "wip": "El archivo completo del festival se encuentra en proceso de construcción. Las ediciones anteriores se irán incorporando progresivamente como parte de un trabajo de recuperación y organización del material histórico.",
+      "wip_label": "Archivo en construcción"
     },
     "social": {
       "eyebrow": "Comunidad",
@@ -44,6 +47,9 @@
     "venues_heading": "SEDES",
     "venues_confirmed": "Con programación confirmada",
     "venues_pending_heading": "Programación a confirmar",
+    "view_map": "Ver en mapa",
+    "reserve_whatsapp": "Reservar por WhatsApp",
+    "reserve_email": "Reservar por mail",
     "works_heading": "OBRAS PARTICIPANTES",
     "screenings_heading": "PROGRAMACIÓN",
     "awards_heading": "PREMIADOS",
@@ -53,14 +59,30 @@
     "map_link": "Ver en mapa",
     "catalog_pdf": "Catálogo PDF",
     "obras_count": "obras",
-    "sedes_count": "sedes",
+    "sedes_count": "Sedes confirmadas",
+    "view_jury": "Ver jurado",
+    "jury_route": "jurado",
     "funciones_count": "funciones",
     "program_tbd": "Programación a confirmar.",
     "special_events_heading": "EVENTOS ESPECIALES",
     "awards_ceremony_title": "Entrega de Premios",
     "awards_ceremony_venue": "Centro Cultural Artesano",
     "awards_ceremony_date": "28 de junio de 2026",
-    "awards_ceremony_desc": "Ceremonia de cierre y entrega de premios de la XVI edición del festival."
+    "awards_ceremony_desc": "Ceremonia de cierre y entrega de premios de la XVI edición del festival.",
+    "free_entry_badge": "Entrada Gratuita",
+    "free_entry_note": "Todas las funciones son con entrada gratuita. Algunas requieren reserva previa.",
+    "free_entry_short": "Entrada gratuita",
+    "free_entry_with_reservation": "Entrada gratuita con reserva previa",
+    "all_screenings_label": "Todas las funciones",
+    "schedule_tbd_note": "Programación específica a confirmar",
+    "title_singular": "título",
+    "title_plural": "títulos",
+    "poster_soon": "Afiche próximamente",
+    "schedule_updating": "Programación en actualización",
+    "schedule_updating_desc": "Los films de la edición se anuncian de forma progresiva. Seguínos en redes sociales para recibir cada anuncio en tiempo real.",
+    "montevideo_heading": "Montevideo",
+    "interior_heading": "Interior del país",
+    "show_past_screenings": "Ver funciones anteriores"
   },
   "archive": {
     "title": "Archivo de Ediciones",
@@ -71,7 +93,9 @@
     "explore": "Ediciones anteriores",
     "edition_number": "Edición {number}",
     "view_edition": "Ver Edición",
-    "back_link": "← Ediciones anteriores"
+    "back_link": "← Ediciones anteriores",
+    "wip": "El archivo completo del festival se encuentra en proceso de construcción. Las ediciones anteriores se irán incorporando progresivamente como parte de un trabajo de recuperación y organización del material histórico.",
+    "wip_label": "Archivo en construcción"
   },
   "acerca": {
     "label": "Festival",
@@ -84,7 +108,12 @@
     "history_text": "",
     "identity_heading": "IDENTIDAD",
     "identity_text": "Cuenta con secciones dedicadas a cortometrajes y largometrajes en competencia, así como exposiciones, muestras paralelas donde se exhiben clásicos, homenajes a distintas figuras del género y charlas presentadas por especialistas.\n\nEn cada función el público vota las películas. Esa dinámica define el resultado de cada edición y es parte central de la experiencia del festival.",
-    "team_heading": "EQUIPO"
+    "team_heading": "EQUIPO",
+    "team_core_heading": "Equipo",
+    "team_selection_heading": "Equipo de selección",
+    "role_director": "Dirección y programación",
+    "role_producer": "Producción y organización",
+    "role_coordinator": "Coordinación de salas"
   },
   "contact": {
     "title": "Contacto",
@@ -99,7 +128,12 @@
     "email_invalid": "El email no es válido.",
     "message_required": "El mensaje es requerido.",
     "name_placeholder": "Tu nombre",
-    "message_placeholder": "Tu mensaje..."
+    "message_placeholder": "Tu mensaje...",
+    "eyebrow": "Contacto",
+    "description": "Para consultas sobre acreditaciones, prensa o información general, escribínos directamente o encontranos en redes.",
+    "email_direct": "Email directo",
+    "social_label": "Redes sociales",
+    "social_heading": "Redes"
   },
   "common": {
     "loading": "Cargando...",
@@ -107,7 +141,9 @@
     "language": "Idioma"
   },
   "video": {
-    "heading": "ÚLTIMA ENTREGA DE PREMIOS",
-    "label": "Video"
+    "heading": "GALERÍA — ENTREGA DE PREMIOS",
+    "label": "Video",
+    "eyebrow": "Galería",
+    "description": "Imágenes de ediciones del festival. La documentación continúa creciendo con cada nueva edición."
   }
 }

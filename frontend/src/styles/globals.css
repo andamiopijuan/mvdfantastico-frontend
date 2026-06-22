@@ -9,12 +9,24 @@
 
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
     @apply bg-void text-text-primary antialiased;
     font-family: var(--font-sans);
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    overflow-x: hidden;
+  }
+
+  /* Mobile — slightly smaller base, more open line-height for readability */
+  @media (max-width: 640px) {
+    body {
+      font-size: 1rem;
+      line-height: 1.85;
+    }
   }
 
   /* Film grain overlay — cinematic texture */
@@ -51,7 +63,7 @@
   }
 
   .section-padding {
-    @apply py-16 md:py-24;
+    @apply py-10 md:py-20;
   }
 
   /* Sharp editorial card — no rounded corners */
@@ -98,7 +110,7 @@
 
   .nav-link {
     @apply text-text-secondary hover:text-text-primary transition-colors duration-200
-           text-xs font-sans font-medium tracking-widest uppercase;
+           text-[0.9375rem] font-sans font-medium tracking-widest uppercase;
   }
 
   .nav-link-active {

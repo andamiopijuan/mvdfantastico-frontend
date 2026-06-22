@@ -61,7 +61,7 @@ export default function SocialLinks() {
 
   return (
     <section
-      className="section-padding"
+      className="pt-5 pb-8 md:pt-6 md:pb-10"
       style={{
         borderTop: "2px solid rgba(0,212,255,0.35)",
         background: "linear-gradient(180deg, rgba(0,212,255,0.04) 0%, transparent 60%)",
@@ -69,8 +69,8 @@ export default function SocialLinks() {
     >
       <div className="container-wide">
         {/* Section header */}
-        <div className="mb-10">
-          <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-plasma mb-3 font-medium">
+        <div className="mb-2">
+          <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-plasma mb-1 font-medium">
             {t("eyebrow")}
           </p>
           <h2
@@ -89,48 +89,34 @@ export default function SocialLinks() {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-between gap-6 py-6 text-text-secondary hover:text-text-primary transition-colors duration-200"
+              className="group flex items-center gap-4 py-3 text-white/75 hover:text-text-primary transition-colors duration-200"
             >
-              {/* Left: icon + name + handle */}
-              <div className="flex items-center gap-5">
-                <span className="text-text-muted group-hover:text-plasma transition-colors duration-200 scale-110 origin-left">
-                  {icon}
-                </span>
-                <span
-                  className="font-display leading-none text-text-primary"
-                  style={{ fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
-                >
-                  {platform}
-                </span>
-                <span className="font-sans text-[11px] tracking-widest uppercase text-text-muted hidden sm:block">
-                  {handle}
-                </span>
-              </div>
-
-              {/* Right: external arrow */}
-              <span className="font-sans text-[11px] tracking-widest uppercase text-text-muted group-hover:text-plasma transition-colors duration-200 flex items-center gap-1.5">
-                <span className="hidden sm:inline">{handle}</span>
-                <svg
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  className="w-4 h-4 shrink-0 sm:hidden"
-                  aria-hidden="true"
-                >
-                  <path d="M3 13L13 3M7 3h6v6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <svg
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  className="w-4 h-4 shrink-0 hidden sm:block"
-                  aria-hidden="true"
-                >
-                  <path d="M3 13L13 3M7 3h6v6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
+              {/* Icon */}
+              <span className="text-white/80 group-hover:text-plasma transition-colors duration-200 shrink-0">
+                {icon}
               </span>
+              {/* Platform name */}
+              <span
+                className="font-display leading-none text-text-primary w-32 shrink-0"
+                style={{ fontSize: "clamp(1.25rem, 2.5vw, 1.75rem)" }}
+              >
+                {platform}
+              </span>
+              {/* Handle */}
+              <span className="font-sans text-[11px] tracking-widest uppercase text-white/75 flex-1">
+                {handle}
+              </span>
+              {/* External arrow */}
+              <svg
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                className="w-4 h-4 shrink-0 text-text-muted group-hover:text-plasma transition-colors duration-200"
+                aria-hidden="true"
+              >
+                <path d="M3 13L13 3M7 3h6v6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
             </a>
           ))}
         </div>

@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "edition": "Festival",
+    "jury": "Jury",
     "archive": "Archive",
     "about": "About",
     "contact": "Contact"
@@ -11,7 +12,7 @@
       "eyebrow": "International Fantastic Film Festival · Montevideo, Uruguay",
       "tagline": "Horror · Fantasy · Science Fiction",
       "cta_current": "View current edition",
-      "cta_archive": "Past editions",
+      "cta_archive": "Previous editions",
       "cta_festival": "View the festival",
       "description": "Montevideo Fantástico is a genre film festival based in Montevideo.\n\nSince 2005 it has programmed feature films, medium-length films, and shorts in horror, fantasy, and science fiction, with a focus on independent productions that get little distribution or never reach cinemas.\n\nScreenings take place at various venues across the city, and the audience votes on every film. That intersection of programming and direct audience response is central to the festival."
     },
@@ -24,7 +25,9 @@
     "archive_preview": {
       "label": "Filmoteca",
       "title": "Past editions",
-      "view_all": "Past editions"
+      "view_all": "Previous editions",
+      "wip": "The full festival archive is currently under construction. Previous editions will be incorporated progressively as part of ongoing work to recover and organise historical materials.",
+      "wip_label": "Archive in progress"
     },
     "social": {
       "eyebrow": "Community",
@@ -44,6 +47,9 @@
     "venues_heading": "VENUES",
     "venues_confirmed": "Confirmed schedule",
     "venues_pending_heading": "Schedule to be confirmed",
+    "view_map": "View on map",
+    "reserve_whatsapp": "Reserve via WhatsApp",
+    "reserve_email": "Book via email",
     "works_heading": "PARTICIPATING WORKS",
     "screenings_heading": "SCHEDULE",
     "awards_heading": "AWARD WINNERS",
@@ -53,14 +59,30 @@
     "map_link": "View map",
     "catalog_pdf": "PDF Catalogue",
     "obras_count": "works",
-    "sedes_count": "venues",
+    "sedes_count": "Confirmed venues",
+    "view_jury": "View jury",
+    "jury_route": "jury",
     "funciones_count": "screenings",
     "program_tbd": "Programme to be confirmed.",
     "special_events_heading": "SPECIAL EVENTS",
     "awards_ceremony_title": "Awards Ceremony",
     "awards_ceremony_venue": "Centro Cultural Artesano",
     "awards_ceremony_date": "June 28, 2026",
-    "awards_ceremony_desc": "Closing ceremony and awards presentation for the XVI edition of the festival."
+    "awards_ceremony_desc": "Closing ceremony and awards presentation for the XVI edition of the festival.",
+    "free_entry_badge": "Free Entry",
+    "free_entry_note": "All screenings are free. Some require prior reservation.",
+    "free_entry_short": "Free entry",
+    "free_entry_with_reservation": "Free entry with prior reservation",
+    "all_screenings_label": "All screenings",
+    "schedule_tbd_note": "Screenings to be confirmed",
+    "title_singular": "title",
+    "title_plural": "titles",
+    "poster_soon": "Poster coming soon",
+    "schedule_updating": "Programme coming soon",
+    "schedule_updating_desc": "Films are announced progressively. Follow us on social media to receive each announcement in real time.",
+    "montevideo_heading": "Montevideo",
+    "interior_heading": "Rest of Uruguay",
+    "show_past_screenings": "Show past screenings"
   },
   "archive": {
     "title": "Editions Archive",
@@ -68,10 +90,12 @@
     "heading": "ALL EDITIONS",
     "label": "Archive",
     "current_label": "Current",
-    "explore": "Past editions",
+    "explore": "Previous editions",
     "edition_number": "Edition {number}",
     "view_edition": "View Edition",
-    "back_link": "← Past editions"
+    "back_link": "← Past editions",
+    "wip": "The full festival archive is currently under construction. Previous editions will be incorporated progressively as part of ongoing work to recover and organise historical materials.",
+    "wip_label": "Archive in progress"
   },
   "acerca": {
     "label": "Festival",
@@ -83,8 +107,13 @@
     "history_heading": "HISTORY",
     "history_text": "",
     "identity_heading": "IDENTITY",
-    "identity_text": "The festival is organised into category competitions, and at each screening the audience votes on the films.\n\nThat dynamic determines the result of each edition and is central to the experience.",
-    "team_heading": "TEAM"
+    "identity_text": "The festival features competitive sections for short films and feature films, alongside exhibitions, parallel programmes showcasing classics, tributes to genre figures, and talks by specialists.\n\nAt each screening the audience votes on the films. That dynamic defines the result of each edition and is central to the experience of the festival.",
+    "team_heading": "TEAM",
+    "team_core_heading": "Team",
+    "team_selection_heading": "Selection team",
+    "role_director": "Direction and programming",
+    "role_producer": "Production & organization",
+    "role_coordinator": "Venue coordination"
   },
   "contact": {
     "title": "Contact",
@@ -99,7 +128,12 @@
     "email_invalid": "Email is not valid.",
     "message_required": "Message is required.",
     "name_placeholder": "Your name",
-    "message_placeholder": "Your message..."
+    "message_placeholder": "Your message...",
+    "eyebrow": "Contact",
+    "description": "For enquiries about accreditations, press, or general information, write to us directly or find us on social media.",
+    "email_direct": "Direct email",
+    "social_label": "Social media",
+    "social_heading": "Find us"
   },
   "common": {
     "loading": "Loading...",
@@ -107,7 +141,9 @@
     "language": "Language"
   },
   "video": {
-    "heading": "LAST AWARDS CEREMONY",
-    "label": "Video"
+    "heading": "GALLERY — AWARDS CEREMONY",
+    "label": "Video",
+    "eyebrow": "Gallery",
+    "description": "Images from past festival editions. Documentation continues to grow with each new edition."
   }
 }

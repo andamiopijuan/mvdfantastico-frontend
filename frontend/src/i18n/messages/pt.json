@@ -2,6 +2,7 @@
   "nav": {
     "home": "Início",
     "edition": "Festival",
+    "jury": "Júri",
     "archive": "Arquivo",
     "about": "Sobre",
     "contact": "Contato"
@@ -24,7 +25,9 @@
     "archive_preview": {
       "label": "Filmoteca",
       "title": "Edições anteriores",
-      "view_all": "Edições anteriores"
+      "view_all": "Edições anteriores",
+      "wip": "O arquivo completo do festival está em processo de construção. As edições anteriores serão incorporadas progressivamente como parte de um trabalho de recuperação e organização do material histórico.",
+      "wip_label": "Arquivo em construção"
     },
     "social": {
       "eyebrow": "Comunidade",
@@ -44,6 +47,9 @@
     "venues_heading": "LOCAIS",
     "venues_confirmed": "Com programação confirmada",
     "venues_pending_heading": "Programação a confirmar",
+    "view_map": "Ver no mapa",
+    "reserve_whatsapp": "Reservar pelo WhatsApp",
+    "reserve_email": "Reservar por e-mail",
     "works_heading": "OBRAS PARTICIPANTES",
     "screenings_heading": "PROGRAMAÇÃO",
     "awards_heading": "PREMIADOS",
@@ -53,14 +59,30 @@
     "map_link": "Ver no mapa",
     "catalog_pdf": "Catálogo PDF",
     "obras_count": "obras",
-    "sedes_count": "locais",
+    "sedes_count": "Locais confirmados",
+    "view_jury": "Ver júri",
+    "jury_route": "juri",
     "funciones_count": "sessões",
     "program_tbd": "Programação a confirmar.",
     "special_events_heading": "EVENTOS ESPECIAIS",
     "awards_ceremony_title": "Entrega de Prêmios",
     "awards_ceremony_venue": "Centro Cultural Artesano",
     "awards_ceremony_date": "28 de junho de 2026",
-    "awards_ceremony_desc": "Cerimônia de encerramento e entrega de prêmios da XVI edição do festival."
+    "awards_ceremony_desc": "Ceriônia de encerramento e entrega de prêmios da XVI edição do festival.",
+    "free_entry_badge": "Entrada Gratuita",
+    "free_entry_note": "Todas as sessões são gratuitas. Algumas exigem reserva prévia.",
+    "free_entry_short": "Entrada gratuita",
+    "free_entry_with_reservation": "Entrada gratuita com reserva prévia",
+    "all_screenings_label": "Todas as sessões",
+    "schedule_tbd_note": "Sessões a confirmar",
+    "title_singular": "título",
+    "title_plural": "títulos",
+    "poster_soon": "Cartaz em breve",
+    "schedule_updating": "Programação em atualização",
+    "schedule_updating_desc": "Os filmes da edição são anunciados progressivamente. Siga-nos nas redes sociais para receber cada anúncio em tempo real.",
+    "montevideo_heading": "Montevidéu",
+    "interior_heading": "Interior do país",
+    "show_past_screenings": "Ver funções anteriores"
   },
   "archive": {
     "title": "Arquivo de Edições",
@@ -71,7 +93,9 @@
     "explore": "Edições anteriores",
     "edition_number": "Edição {number}",
     "view_edition": "Ver Edição",
-    "back_link": "← Edições anteriores"
+    "back_link": "← Edições anteriores",
+    "wip": "O arquivo completo do festival está em processo de construção. As edições anteriores serão incorporadas progressivamente como parte de um trabalho de recuperação e organização do material histórico.",
+    "wip_label": "Arquivo em construção"
   },
   "acerca": {
     "label": "Festival",
@@ -83,8 +107,13 @@
     "history_heading": "HISTÓRIA",
     "history_text": "",
     "identity_heading": "IDENTIDADE",
-    "identity_text": "O festival se organiza em competições por categorias e em cada sessão o público vota nos filmes.\n\nEssa dinâmica define o resultado de cada edição e é parte central da experiência.",
-    "team_heading": "EQUIPE"
+    "identity_text": "O festival conta com seções competitivas de curtas e longas-metragens, além de exposições, mostras paralelas com clássicos, homenagens a figuras do gênero e palestras com especialistas.\n\nEm cada sessão o público vota nos filmes. Essa dinâmica define o resultado de cada edição e é parte central da experiência do festival.",
+    "team_heading": "EQUIPE",
+    "team_core_heading": "Equipe",
+    "team_selection_heading": "Equipe de seleção",
+    "role_director": "Direção e programação",
+    "role_producer": "Produção e organização",
+    "role_coordinator": "Coordenação de salas"
   },
   "contact": {
     "title": "Contato",
@@ -99,7 +128,12 @@
     "email_invalid": "O email não é válido.",
     "message_required": "A mensagem é obrigatória.",
     "name_placeholder": "Seu nome",
-    "message_placeholder": "Sua mensagem..."
+    "message_placeholder": "Sua mensagem...",
+    "eyebrow": "Contato",
+    "description": "Para consultas sobre credenciamento, imprensa ou informações gerais, escreva-nos diretamente ou encontre-nos nas redes sociais.",
+    "email_direct": "E-mail direto",
+    "social_label": "Redes sociais",
+    "social_heading": "Encontre-nos"
   },
   "common": {
     "loading": "Carregando...",
@@ -107,7 +141,9 @@
     "language": "Idioma"
   },
   "video": {
-    "heading": "ÚLTIMA ENTREGA DE PRÊMIOS",
-    "label": "Vídeo"
+    "heading": "GALERIA — ENTREGA DE PRÊMIOS",
+    "label": "Vídeo",
+    "eyebrow": "Galeria",
+    "description": "Imagens de edições do festival. A documentação cresce a cada nova edição."
   }
 }
