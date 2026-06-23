@@ -51,6 +51,9 @@ export interface Venue {
   description: string;
   capacity: number | null;
   map_url: string;
+  whatsapp?: string;
+  email?: string;
+  image?: string;
   order: number;
 }
 
