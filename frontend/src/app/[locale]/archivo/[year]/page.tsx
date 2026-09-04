@@ -136,6 +136,41 @@ type FeatureFilm = { slug: string; title: string; country: string; year: number;
 type ShortFilm = { title: string; country: string | null; duration: number; director: string; synopsis?: string; };
 type CatalogFilm = { title: string; director?: string; country: string | null; duration: number | null; };
 
+function isRealLegacyFilmRecord(record: unknown): record is Record<string, any> {
+  if (!record || typeof record !== "object") return false;
+
+  const film = record as Record<string, any>;
+  const slug = typeof film.slug === "string" ? film.slug.trim() : "";
+  const title = typeof film.title === "string" ? film.title.trim() : "";
+
+  if (!slug || !title) return false;
+
+  const realSignals = [
+    film.director,
+    film.country,
+    film.poster,
+    film.synopsis,
+    film.review,
+    film.duration,
+    film.runtime,
+    film.year,
+    film.original_title,
+    film.trailer_url,
+    film.trailer,
+    film.image,
+    film.still,
+    film.credits,
+  ];
+
+  return realSignals.some((value) => {
+    if (typeof value === "string") return value.trim().length > 0;
+    if (typeof value === "number") return Number.isFinite(value);
+    if (Array.isArray(value)) return value.length > 0;
+    if (value && typeof value === "object") return true;
+    return false;
+  });
+}
+
 function JsonFeatureCard({ film, locale, year = 2017 }: { film: FeatureFilm; locale: string; year?: number }) {
   return (
     <Link href={`/${locale}/archivo/${year}/${film.slug}`} className="block group focus:outline-none focus-visible:ring-1 focus-visible:ring-plasma">
@@ -175,11 +210,11 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const sections: any[] = data.sections ?? [];
 
-  // Build award poster map from feature films in this edition
+  // Build award poster map from real feature films in this edition
   const awardPosterMap = new Map<string, string>();
   for (const sec of sections) {
     if (sec.type === "features" && Array.isArray(sec.films)) {
-      for (const f of sec.films as FeatureFilm[]) {
+      for (const f of (sec.films as FeatureFilm[]).filter(isRealLegacyFilmRecord)) {
         if (!f.poster) continue;
         awardPosterMap.set(f.title.toLowerCase(), f.poster);
         if (f.title.includes(" / ")) {
@@ -192,8 +227,12 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
   const getAwardPoster = (filmName?: string): string | null =>
     filmName ? (awardPosterMap.get(filmName.toLowerCase()) ?? null) : null;
 
-  const featureCount = sections.filter((s) => s.type === "features").reduce((n, s) => n + (s.films?.length ?? 0), 0);
-  const shortsCount = sections.filter((s) => s.type === "shorts").reduce((n, s) => n + (s.films?.length ?? 0), 0);
+  const featureCount = sections
+    .filter((s) => s.type === "features")
+    .reduce((n, s) => n + (Array.isArray(s.films) ? s.films.filter(isRealLegacyFilmRecord).length : 0), 0);
+  const shortsCount = sections
+    .filter((s) => s.type === "shorts")
+    .reduce((n, s) => n + (Array.isArray(s.films) ? s.films.filter(isRealLegacyFilmRecord).length : 0), 0);
 
   return (
     <div className="container-wide section-padding pb-24">
@@ -293,11 +332,12 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
       {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
       {sections.map((section: any) => {
         if (section.type === "features") {
+          const realFilms = Array.isArray(section.films) ? section.films.filter(isRealLegacyFilmRecord) : [];
           return (
             <section key={section.name} className="mb-16">
               <h2 className="font-display text-2xl text-white mb-6 border-b border-white/20 pb-4">{section.name}</h2>
               <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-                {(section.films ?? []).map((film: FeatureFilm) => <JsonFeatureCard key={film.slug} film={film} locale={locale} year={year} />)}
+                {realFilms.map((film: FeatureFilm) => <JsonFeatureCard key={film.slug} film={film} locale={locale} year={year} />)}
               </div>
             </section>
           );

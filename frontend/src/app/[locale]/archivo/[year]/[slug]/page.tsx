@@ -26,12 +26,47 @@ type FeatureFilm = {
   review: string | null;
 };
 
+function isRealLegacyFilmRecord(record: unknown): record is Record<string, any> {
+  if (!record || typeof record !== "object") return false;
+
+  const film = record as Record<string, any>;
+  const slug = typeof film.slug === "string" ? film.slug.trim() : "";
+  const title = typeof film.title === "string" ? film.title.trim() : "";
+
+  if (!slug || !title) return false;
+
+  const realSignals = [
+    film.director,
+    film.country,
+    film.poster,
+    film.synopsis,
+    film.review,
+    film.duration,
+    film.runtime,
+    film.year,
+    film.original_title,
+    film.trailer_url,
+    film.trailer,
+    film.image,
+    film.still,
+    film.credits,
+  ];
+
+  return realSignals.some((value) => {
+    if (typeof value === "string") return value.trim().length > 0;
+    if (typeof value === "number") return Number.isFinite(value);
+    if (Array.isArray(value)) return value.length > 0;
+    if (value && typeof value === "object") return true;
+    return false;
+  });
+}
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function findFilmInLegacyJson(legacyJson: Record<string, any>, slug: string): { film: FeatureFilm; sectionTitle: string } | null {
   const sections = legacyJson.sections ?? [];
   for (const section of sections) {
     if (section.type === "features" && Array.isArray(section.films)) {
-      const film = (section.films as FeatureFilm[]).find((f) => f.slug === slug);
+      const film = (section.films as FeatureFilm[]).filter(isRealLegacyFilmRecord).find((f) => f.slug === slug);
       if (film) return { film, sectionTitle: section.name as string };
     }
   }
