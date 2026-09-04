@@ -141,6 +141,121 @@ function normalizeLegacyFilmTitle(value?: string | null): string {
   return value.toLowerCase().replace(/\s+/g, " ").trim();
 }
 
+function normalizeLegacySignatureValue(value: unknown): string {
+  if (typeof value === "string") return value.toLowerCase().replace(/\s+/g, " ").trim();
+  if (typeof value === "number" || typeof value === "boolean") return String(value);
+  if (Array.isArray(value)) return value.map((item) => normalizeLegacySignatureValue(item)).filter(Boolean).join(" || ");
+  if (value && typeof value === "object") {
+    return Object.values(value as Record<string, unknown>)
+      .map((item) => normalizeLegacySignatureValue(item))
+      .filter(Boolean)
+      .join(" || ");
+  }
+  return "";
+}
+
+function getLegacySectionSignature(section: unknown): string | null {
+  if (!section || typeof section !== "object") return null;
+
+  const entry = section as Record<string, any>;
+  const sectionType = normalizeLegacySignatureValue(entry.type ?? "");
+  const sectionName = normalizeLegacySignatureValue(entry.name ?? entry.title ?? "");
+
+  const parts: string[] = [
+    `type:${sectionType}`,
+    `name:${sectionName}`,
+  ];
+
+  if (Array.isArray(entry.films)) {
+    const filmSignature = entry.films
+      .map((film: unknown) => {
+        if (!film || typeof film !== "object") return "";
+        const filmEntry = film as Record<string, any>;
+        const slug = normalizeLegacySignatureValue(filmEntry.slug ?? "");
+        const title = normalizeLegacySignatureValue(filmEntry.title ?? "");
+        const director = normalizeLegacySignatureValue(filmEntry.director ?? "");
+        const country = normalizeLegacySignatureValue(filmEntry.country ?? "");
+        const synopsis = normalizeLegacySignatureValue(filmEntry.synopsis ?? "");
+        const review = normalizeLegacySignatureValue(filmEntry.review ?? "");
+        return [slug, title, director, country, synopsis, review].filter(Boolean).join("::");
+      })
+      .filter(Boolean)
+      .sort();
+
+    if (filmSignature.length > 0) parts.push(`films:${filmSignature.join(";;")}`);
+  }
+
+  if (Array.isArray(entry.awards)) {
+    const awardSignature = entry.awards
+      .map((award: unknown) => {
+        if (!award || typeof award !== "object") return "";
+        const awardEntry = award as Record<string, any>;
+        const awardName = normalizeLegacySignatureValue(awardEntry.name ?? "");
+        const recipient = normalizeLegacySignatureValue(awardEntry.recipient ?? "");
+        const film = normalizeLegacySignatureValue(awardEntry.film ?? awardEntry.title ?? "");
+        const title = normalizeLegacySignatureValue(awardEntry.title ?? "");
+        const citation = normalizeLegacySignatureValue(awardEntry.citation ?? "");
+        return [awardName, recipient, film, title, citation].filter(Boolean).join("::");
+      })
+      .filter(Boolean)
+      .sort();
+
+    if (awardSignature.length > 0) parts.push(`awards:${awardSignature.join(";;")}`);
+  }
+
+  if (Array.isArray(entry.categories)) {
+    const categorySignature = entry.categories
+      .map((category: unknown) => {
+        if (!category || typeof category !== "object") return "";
+        const categoryEntry = category as Record<string, any>;
+        const categoryName = normalizeLegacySignatureValue(categoryEntry.name ?? "");
+        const filmTitles = Array.isArray(categoryEntry.films)
+          ? categoryEntry.films
+              .map((film: unknown) => {
+                if (!film || typeof film !== "object") return "";
+                const filmEntry = film as Record<string, any>;
+                return normalizeLegacySignatureValue(filmEntry.title ?? filmEntry.name ?? "");
+              })
+              .filter(Boolean)
+              .sort()
+          : [];
+        return [categoryName, ...filmTitles].filter(Boolean).join("::");
+      })
+      .filter(Boolean)
+      .sort();
+
+    if (categorySignature.length > 0) parts.push(`categories:${categorySignature.join(";;")}`);
+  }
+
+  for (const field of ["text", "html", "content", "description", "summary", "synopsis", "review", "citation", "jury"]) {
+    if (field in entry && entry[field] !== undefined && entry[field] !== null) {
+      const normalizedValue = normalizeLegacySignatureValue(entry[field]);
+      if (normalizedValue) parts.push(`${field}:${normalizedValue}`);
+    }
+  }
+
+  return parts.join("|");
+}
+
+function getUniqueLegacySections(sections: any[]): any[] {
+  const unique: any[] = [];
+  const seen = new Set<string>();
+
+  for (const section of sections) {
+    const signature = getLegacySectionSignature(section);
+    if (!signature) {
+      unique.push(section);
+      continue;
+    }
+
+    if (seen.has(signature)) continue;
+    seen.add(signature);
+    unique.push(section);
+  }
+
+  return unique;
+}
+
 function isRealLegacyFilmRecord(record: unknown): record is Record<string, any> {
   if (!record || typeof record !== "object") return false;
 
@@ -214,12 +329,13 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
   const awards: any[] = data.awards ?? [];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const sections: any[] = data.sections ?? [];
+  const uniqueSections = getUniqueLegacySections(sections);
 
   // Build legacy film lookup map from real feature films in this edition.
   const awardPosterMap = new Map<string, string>();
   const awardFilmLookup = new Map<string, { slug: string; poster?: string }>();
 
-  for (const sec of sections) {
+  for (const sec of uniqueSections) {
     if (sec.type !== "features" || !Array.isArray(sec.films)) continue;
 
     for (const f of (sec.films as FeatureFilm[]).filter(isRealLegacyFilmRecord)) {
@@ -259,10 +375,10 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
     return normalized ? awardFilmLookup.get(normalized) ?? null : null;
   };
 
-  const featureCount = sections
+  const featureCount = uniqueSections
     .filter((s) => s.type === "features")
     .reduce((n, s) => n + (Array.isArray(s.films) ? s.films.filter(isRealLegacyFilmRecord).length : 0), 0);
-  const shortsCount = sections
+  const shortsCount = uniqueSections
     .filter((s) => s.type === "shorts")
     .reduce((n, s) => n + (Array.isArray(s.films) ? s.films.filter(isRealLegacyFilmRecord).length : 0), 0);
 
@@ -409,7 +525,7 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
 
       {/* Film sections */}
       {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-      {sections.map((section: any) => {
+      {uniqueSections.map((section: any) => {
         if (section.type === "features") {
           const realFilms = Array.isArray(section.films) ? section.films.filter(isRealLegacyFilmRecord) : [];
           return (
