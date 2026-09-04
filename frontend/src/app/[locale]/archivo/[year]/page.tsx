@@ -136,6 +136,11 @@ type FeatureFilm = { slug: string; title: string; country: string; year: number;
 type ShortFilm = { title: string; country: string | null; duration: number; director: string; synopsis?: string; };
 type CatalogFilm = { title: string; director?: string; country: string | null; duration: number | null; };
 
+function normalizeLegacyFilmTitle(value?: string | null): string {
+  if (typeof value !== "string") return "";
+  return value.toLowerCase().replace(/\s+/g, " ").trim();
+}
+
 function isRealLegacyFilmRecord(record: unknown): record is Record<string, any> {
   if (!record || typeof record !== "object") return false;
 
@@ -210,22 +215,49 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const sections: any[] = data.sections ?? [];
 
-  // Build award poster map from real feature films in this edition
+  // Build legacy film lookup map from real feature films in this edition.
   const awardPosterMap = new Map<string, string>();
+  const awardFilmLookup = new Map<string, { slug: string; poster?: string }>();
+
   for (const sec of sections) {
-    if (sec.type === "features" && Array.isArray(sec.films)) {
-      for (const f of (sec.films as FeatureFilm[]).filter(isRealLegacyFilmRecord)) {
-        if (!f.poster) continue;
-        awardPosterMap.set(f.title.toLowerCase(), f.poster);
-        if (f.title.includes(" / ")) {
-          for (const part of f.title.split(" / ")) awardPosterMap.set(part.trim().toLowerCase(), f.poster);
+    if (sec.type !== "features" || !Array.isArray(sec.films)) continue;
+
+    for (const f of (sec.films as FeatureFilm[]).filter(isRealLegacyFilmRecord)) {
+      if (!f.title || !f.slug) continue;
+
+      const titleVariants = new Set<string>();
+      titleVariants.add(f.title.trim());
+      if (f.title.includes(" / ")) {
+        for (const part of f.title.split(" / ")) {
+          const trimmed = part.trim();
+          if (trimmed) titleVariants.add(trimmed);
         }
-        if (f.title.includes(" (")) awardPosterMap.set(f.title.split(" (")[0].trim().toLowerCase(), f.poster);
+      }
+      if (f.title.includes(" (")) {
+        const trimmed = f.title.split(" (")[0].trim();
+        if (trimmed) titleVariants.add(trimmed);
+      }
+
+      for (const variant of titleVariants) {
+        const normalized = normalizeLegacyFilmTitle(variant);
+        if (!normalized) continue;
+        if (f.poster) awardPosterMap.set(normalized, f.poster);
+        awardFilmLookup.set(normalized, { slug: f.slug, poster: f.poster || undefined });
       }
     }
   }
-  const getAwardPoster = (filmName?: string): string | null =>
-    filmName ? (awardPosterMap.get(filmName.toLowerCase()) ?? null) : null;
+
+  const getAwardPoster = (filmName?: string): string | null => {
+    if (!filmName) return null;
+    const normalized = normalizeLegacyFilmTitle(filmName);
+    return normalized ? (awardPosterMap.get(normalized) ?? null) : null;
+  };
+
+  const getAwardFilmMatch = (filmName?: string | null) => {
+    if (!filmName) return null;
+    const normalized = normalizeLegacyFilmTitle(filmName);
+    return normalized ? awardFilmLookup.get(normalized) ?? null : null;
+  };
 
   const featureCount = sections
     .filter((s) => s.type === "features")
@@ -289,41 +321,88 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
           <h2 className="font-display text-3xl text-white mb-8 border-b border-white/20 pb-4">Premios</h2>
           <div className="space-y-12">
             {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-            {awards.map((block: any, bi: number) => (
-              <div key={bi}>
-                <h3 className="font-display text-xl text-white mb-3">{block.section}</h3>
-                {block.jury && (
-                  <p className="text-sm text-text-secondary mb-6">
-                    <span className="text-text-muted text-xs uppercase tracking-widest mr-2">Jurado:</span>{block.jury}
-                  </p>
-                )}
-                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                  {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-                  {(block.awards ?? []).map((a: any, ai: number) => {
-                    const awardPoster = getAwardPoster(a.film);
-                    return (
-                      <div key={ai} className="flex gap-5 items-start p-5" style={{ border: "1px solid rgba(0,212,255,0.10)" }}>
-                        {awardPoster && (
-                          <div className="flex-shrink-0 w-24 overflow-hidden" style={{ border: "1px solid rgba(0,212,255,0.18)" }}>
-                            <Image src={awardPoster} alt={a.film ?? ""} width={96} height={144} style={{ width: "100%", height: "auto", display: "block", objectFit: "contain" }} />
-                          </div>
-                        )}
-                        <div className="flex-1 min-w-0">
-                          <p className="text-[10px] uppercase tracking-widest text-plasma mb-3">{a.name}</p>
-                          {a.recipient ? (
-                            <><p className="text-white font-display text-xl leading-tight mb-1">{a.recipient}</p>{a.film && <p className="text-sm text-text-muted italic mb-2">{a.film}</p>}</>
-                          ) : (
-                            a.film && <p className="text-white font-display text-xl leading-tight mb-2">{a.film}</p>
+            {awards.map((block: any, bi: number) => {
+              if (!block || typeof block !== "object") return null;
+
+              const validAwards = Array.isArray(block.awards)
+                ? block.awards.filter((entry: any) => entry && typeof entry === "object")
+                : [];
+
+              if (validAwards.length === 0) return null;
+
+              const blockTitle = typeof block.section === "string" && block.section.trim().length > 0 ? block.section.trim() : null;
+
+              return (
+                <div key={bi}>
+                  {blockTitle && <h3 className="font-display text-xl text-white mb-3">{blockTitle}</h3>}
+                  {block.jury && (
+                    <p className="text-sm text-text-secondary mb-6">
+                      <span className="text-text-muted text-xs uppercase tracking-widest mr-2">Jurado:</span>{block.jury}
+                    </p>
+                  )}
+                  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                    {validAwards.map((a: any, ai: number) => {
+                      if (!a || typeof a !== "object") return null;
+
+                      const awardName = typeof a.name === "string" ? a.name.trim() : "";
+                      const awardRecipient = typeof a.recipient === "string" ? a.recipient.trim() : "";
+                      const awardFilmText = typeof a.film === "string" ? a.film.trim() : "";
+                      const awardTitleText = typeof a.title === "string" ? a.title.trim() : "";
+                      const awardCountry = typeof a.country === "string" ? a.country.trim() : "";
+                      const awardDirector = typeof a.director === "string" ? a.director.trim() : "";
+                      const awardCitation = typeof a.citation === "string" ? a.citation.trim() : "";
+
+                      if (!awardName && !awardRecipient && !awardFilmText && !awardTitleText && !awardCitation) return null;
+
+                      const awardFilmMatch = getAwardFilmMatch(awardFilmText || awardTitleText);
+                      const derivedFilmText = awardFilmText || awardTitleText;
+
+                      const awardPoster = getAwardPoster(awardFilmText || awardTitleText);
+
+                      return (
+                        <div key={ai} className="flex gap-5 items-start p-5" style={{ border: "1px solid rgba(0,212,255,0.10)" }}>
+                          {awardPoster && (
+                            <div className="flex-shrink-0 w-24 overflow-hidden" style={{ border: "1px solid rgba(0,212,255,0.18)" }}>
+                              <Image src={awardPoster} alt={derivedFilmText || awardName || ""} width={96} height={144} style={{ width: "100%", height: "auto", display: "block", objectFit: "contain" }} />
+                            </div>
                           )}
-                          {(a.country || a.director) && <p className="text-sm text-text-muted mb-3">{a.country ?? ""}{a.director ? ` · Dir. ${a.director}` : ""}</p>}
-                          {a.citation && <p className="text-sm text-text-secondary leading-relaxed mt-3 italic border-t border-white/10 pt-3">{a.citation}</p>}
+                          <div className="flex-1 min-w-0">
+                            {awardName && <p className="text-[10px] uppercase tracking-widest text-plasma mb-3">{awardName}</p>}
+                            {awardRecipient ? (
+                              <>
+                                <p className="text-white font-display text-xl leading-tight mb-1">{awardRecipient}</p>
+                                {derivedFilmText && (
+                                  awardFilmMatch ? (
+                                    <Link href={`/${locale}/archivo/${year}/${awardFilmMatch.slug}`} className="text-sm text-text-muted italic mb-2 inline-block hover:text-plasma transition-colors">
+                                      {derivedFilmText}
+                                    </Link>
+                                  ) : (
+                                    <p className="text-sm text-text-muted italic mb-2">{derivedFilmText}</p>
+                                  )
+                                )}
+                              </>
+                            ) : (
+                              derivedFilmText && (
+                                awardFilmMatch ? (
+                                  <Link href={`/${locale}/archivo/${year}/${awardFilmMatch.slug}`} className="text-white font-display text-xl leading-tight mb-2 block hover:text-plasma transition-colors">
+                                    {derivedFilmText}
+                                  </Link>
+                                ) : (
+                                  <p className="text-white font-display text-xl leading-tight mb-2">{derivedFilmText}</p>
+                                )
+                              )
+                            )}
+                            {(awardCountry || awardDirector) && <p className="text-sm text-text-muted mb-3">{awardCountry ?? ""}{awardDirector ? ` · Dir. ${awardDirector}` : ""}</p>}
+                            {awardCitation && <p className="text-sm text-text-secondary leading-relaxed mt-3 italic border-t border-white/10 pt-3">{awardCitation}</p>}
+                          </div>
                         </div>
-                      </div>
-                    );
-                  })}
+                      );
+                    })}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </section>
       )}
