@@ -1,4 +1,11 @@
-﻿import { redirect } from "next/navigation";
+export function generateStaticParams() {
+  return [
+    { locale: "es" },
+    { locale: "en" },
+    { locale: "pt" },
+  ];
+}
+import { redirect } from "next/navigation";
 
 interface PageProps {
   params: { locale: string };

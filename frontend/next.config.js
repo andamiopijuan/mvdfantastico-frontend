@@ -3,6 +3,12 @@ const createNextIntlPlugin = require('next-intl/plugin');
 const withNextIntl = createNextIntlPlugin('./src/i18n/config.ts');
 
 const nextConfig = {
+  staticPageGenerationTimeout: 180,
+  // output: 'export' is only needed for `next build` (static export / Netlify zip).
+  // In `next dev` it breaks HMR for dynamic routes that have generateStaticParams,
+  // so we enable it only when NODE_ENV is production (i.e. during a real build).
+  output: process.env.NODE_ENV === 'production' ? 'export' : undefined,
+  trailingSlash: true,
   images: {
     // Disable Next.js image optimization for API-sourced media.
     // The optimizer runs server-side inside Docker and cannot reach
@@ -30,6 +36,11 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'montevideofan.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'nuevo.montevideofan.com',
         pathname: '/**',
       },
     ],

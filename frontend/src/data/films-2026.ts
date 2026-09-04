@@ -28,6 +28,10 @@ export interface Film2026 {
   /** Local trailer file relative to /public, e.g. /media/films/2026/trailers/slug-trailer.mp4 */
   trailer?: string;
   original_title?: string;
+  /** Localized title for English UI; falls back to `title` when absent. */
+  title_en?: string;
+  /** Localized title for Portuguese UI; falls back to `title` when absent. */
+  title_pt?: string;
 }
 
 export type FilmCategory =
@@ -93,6 +97,12 @@ export function getFilmFestivalNote(film: Film2026, locale: string): string {
   if (locale === "en" && film.festival_note_en) return film.festival_note_en;
   if (locale === "pt" && film.festival_note_pt) return film.festival_note_pt;
   return film.festival_note;
+}
+
+export function getFilmTitle(film: Film2026, locale: string): string {
+  if (locale === "en" && film.title_en) return film.title_en;
+  if (locale === "pt" && film.title_pt) return film.title_pt;
+  return film.title;
 }
 
 export const CATEGORY_ORDER: FilmCategory[] = [

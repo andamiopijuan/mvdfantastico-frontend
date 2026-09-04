@@ -2,6 +2,14 @@ import { getPartners } from "@/lib/api";
 import Image from "next/image";
 import type { Metadata } from "next";
 
+export function generateStaticParams() {
+  return [
+    { locale: "es" },
+    { locale: "en" },
+    { locale: "pt" },
+  ];
+}
+
 export const metadata: Metadata = { title: "Comunidad" };
 
 export default async function CommunityPage() {

@@ -1,3 +1,7 @@
+export async function generateStaticParams() {
+  return [];
+}
+
 import { getWorkById } from "@/lib/api";
 import Image from "next/image";
 import Link from "next/link";

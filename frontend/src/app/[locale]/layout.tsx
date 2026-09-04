@@ -1,4 +1,5 @@
 import { NextIntlClientProvider, useMessages } from "next-intl";
+import { setRequestLocale } from "next-intl/server";
 import { locales } from "@/i18n/config";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -29,6 +30,7 @@ export default function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  setRequestLocale(locale);
   const messages = useMessages();
 
   return (

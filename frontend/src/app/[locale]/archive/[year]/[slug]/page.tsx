@@ -1,4 +1,9 @@
-﻿import { redirect } from "next/navigation";
+﻿
+export async function generateStaticParams() {
+  return [];
+}
+
+import { redirect } from "next/navigation";
 
 interface PageProps {
   params: { locale: string; year: string; slug: string };

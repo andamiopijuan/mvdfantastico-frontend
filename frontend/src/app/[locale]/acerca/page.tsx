@@ -1,18 +1,78 @@
-import { getTeamMembers } from "@/lib/api";
 import Image from "next/image";
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export const metadata: Metadata = { title: "Acerca del Festival — Montevideo Fantástico" };
 
-export default async function AcercaPage() {
+export function generateStaticParams() {
+  return [
+    { locale: "es" },
+    { locale: "en" },
+    { locale: "pt" },
+  ];
+}
+
+// Static team data — photos live in public/media/about/
+const INSTAGRAM_HANDLES: Record<string, string> = {
+  "Alejandro Yamgotchian": "aleyamgocine",
+  "Juan Pablo Aguirre": "wilmar_everton",
+  "Patricia Curbelo": "patri_curb",
+  "Enrique Puig": "enriquepuigf",
+  "Federico Cardozo": "ffromhell",
+  "Bruno Otheguy": "bmotheguy",
+  "Pablo Saldivia": "pablo.sandor",
+};
+
+const TEAM_ROLES_I18N: Record<string, Record<string, string>> = {
+  es: {
+    "Alejandro Yamgotchian": "Dirección y programación",
+    "Juan Pablo Aguirre": "Producción, organización y sitio web",
+    "Patricia Curbelo": "Producción, organización y coordinación de salas",
+    "Enrique Puig": "Selección",
+    "Federico Cardozo": "Selección",
+    "Bruno Otheguy": "Selección",
+    "Pablo Saldivia": "Selección",
+    selectionSuffix: "— Cortometrajes y mediometrajes",
+  },
+  en: {
+    "Alejandro Yamgotchian": "Direction and programming",
+    "Juan Pablo Aguirre": "Production, organization and website",
+    "Patricia Curbelo": "Production, organization and venue coordination",
+    "Enrique Puig": "Selection",
+    "Federico Cardozo": "Selection",
+    "Bruno Otheguy": "Selection",
+    "Pablo Saldivia": "Selection",
+    selectionSuffix: "— short films and medium-length films",
+  },
+  pt: {
+    "Alejandro Yamgotchian": "Direção e programação",
+    "Juan Pablo Aguirre": "Produção, organização e site",
+    "Patricia Curbelo": "Produção, organização e coordenação de salas",
+    "Enrique Puig": "Seleção",
+    "Federico Cardozo": "Seleção",
+    "Bruno Otheguy": "Seleção",
+    "Pablo Saldivia": "Seleção",
+    selectionSuffix: "— curtas e médias-metragens",
+  },
+};
+
+const TEAM_CORE = [
+  { name: "Alejandro Yamgotchian", role: "Dirección y programación",                    photo: "/media/about/Alejandro Yamgotchian.jpg" },
+  { name: "Juan Pablo Aguirre",    role: "Producción, organización y sitio web",         photo: "/media/about/Juan Pablo Aguirre.jpg" },
+  { name: "Patricia Curbelo",      role: "Producción, organización y coordinación",      photo: "/media/about/Patricia Curbelo.jpg" },
+];
+
+const TEAM_SELECTION = [
+  { name: "Enrique Puig",     role: "Selección",  photo: "/media/about/Enrique Puig.jpg" },
+  { name: "Federico Cardozo", role: "Selección",  photo: "/media/about/Federico Cardozo.jpg" },
+  { name: "Bruno Otheguy",    role: "Selección",  photo: "/media/about/Bruno Otheguy.jpg" },
+  { name: "Pablo Saldivia",   role: "Selección",  photo: "/media/about/Pablo Saldivia.jpg" },
+];
+
+export default async function AcercaPage({ params }: { params: { locale: string } }) {
+  setRequestLocale(params.locale);
   const t = await getTranslations("acerca");
-  let members: Awaited<ReturnType<typeof getTeamMembers>> = [];
-  try {
-    members = await getTeamMembers();
-  } catch {
-    // no team members
-  }
+  const teamRoles = TEAM_ROLES_I18N[params.locale] ?? TEAM_ROLES_I18N.es;
 
   return (
     <div className="container-wide section-padding">
@@ -74,77 +134,79 @@ export default async function AcercaPage() {
         )}
       </div>
 
-      {/* Team — always rendered, shows structure even without full data */}
+      {/* Team */}
       <section className="mt-20 max-w-4xl">
         <h2 className="font-display text-3xl text-white mb-10 border-l-4 border-nova pl-5">
           {t("team_heading")}
         </h2>
 
-        {members.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-            {members.map((member) => (
-              <div
-                key={member.id}
-                className="group text-center"
-                style={{ border: "1px solid rgba(0,212,255,0.07)" }}
-              >
-                <div className="relative overflow-hidden" style={{ aspectRatio: "1/1" }}>
-                  {member.photo ? (
-                    <Image
-                      src={member.photo}
-                      alt={member.name}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  ) : (
-                    <div
-                      className="absolute inset-0 flex items-center justify-center"
-                      style={{ background: "radial-gradient(ellipse at 50% 50%, rgba(162,89,247,0.12) 0%, transparent 70%)" }}
-                    >
-                      <span className="font-display text-3xl" style={{ color: "rgba(0,212,255,0.2)" }}>
-                        {member.name.charAt(0)}
-                      </span>
-                    </div>
-                  )}
-                </div>
-                <div className="p-3">
-                  <p className="text-text-primary text-sm font-medium">{member.name}</p>
-                  <p className="text-text-secondary text-xs mt-0.5">{member.role}</p>
-                </div>
+        {/* Core team */}
+        <p className="font-sans text-xs uppercase tracking-widest font-semibold mb-6"
+          style={{ color: "rgba(0,212,255,0.70)" }}>
+          {t("team_core_heading")}
+        </p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 mb-12">
+          {TEAM_CORE.map((member) => (
+            <div
+              key={member.name}
+              className="group"
+              style={{ border: "1px solid rgba(0,212,255,0.10)" }}
+            >
+              <div className="relative overflow-hidden" style={{ aspectRatio: "1/1" }}>
+                <Image
+                  src={member.photo}
+                  alt={member.name}
+                  fill
+                  className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 640px) 50vw, 33vw"
+                />
               </div>
-            ))}
-          </div>
-        ) : (
-          /* Structural fallback — role list when no member records exist */
-          <div className="grid gap-px" style={{ border: "1px solid rgba(0,212,255,0.08)" }}>
-            {[
-              { role: "Dirección", desc: "Dirección general del festival" },
-              { role: "Producción", desc: "Coordinación y producción ejecutiva" },
-              { role: "Programación", desc: "Selección y curaduría de films" },
-              { role: "Preselección", desc: "Evaluación y preselección de envíos" },
-              { role: "Comunicación", desc: "Prensa y redes sociales" },
-            ].map(({ role, desc }) => (
-              <div
-                key={role}
-                className="flex items-center gap-6 px-6 py-5"
-                style={{ borderBottom: "1px solid rgba(0,212,255,0.06)" }}
-              >
-                <div
-                  className="w-10 h-10 flex-shrink-0 flex items-center justify-center"
-                  style={{ background: "rgba(0,212,255,0.05)", border: "1px solid rgba(0,212,255,0.12)" }}
-                >
-                  <span className="font-display text-xs text-plasma">
-                    {role.charAt(0)}
-                  </span>
-                </div>
-                <div>
-                  <p className="text-white text-sm font-medium">{role}</p>
-                  <p className="text-text-muted text-xs mt-0.5">{desc}</p>
-                </div>
+              <div className="p-4">
+                <p className="text-white text-sm font-semibold leading-snug">{member.name}</p>
+                <p className="text-text-secondary text-xs mt-1 leading-relaxed">{teamRoles[member.name] ?? member.role}</p>
+                {INSTAGRAM_HANDLES[member.name] && (
+                  <a href={`https://instagram.com/${INSTAGRAM_HANDLES[member.name]}`} target="_blank" rel="noopener noreferrer" className="font-sans text-sm mt-1 block hover:text-plasma transition-colors" style={{ color: "rgba(0,212,255,0.65)" }}>
+                    @{INSTAGRAM_HANDLES[member.name]}
+                  </a>
+                )}
               </div>
-            ))}
-          </div>
-        )}
+            </div>
+          ))}
+        </div>
+
+        {/* Selection team */}
+        <p className="font-sans text-xs uppercase tracking-widest font-semibold mb-6"
+          style={{ color: "rgba(0,212,255,0.70)" }}>
+          {t("team_selection_heading")} {teamRoles.selectionSuffix as string}
+        </p>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-5">
+          {TEAM_SELECTION.map((member) => (
+            <div
+              key={member.name}
+              className="group"
+              style={{ border: "1px solid rgba(0,212,255,0.08)" }}
+            >
+              <div className="relative overflow-hidden" style={{ aspectRatio: "1/1" }}>
+                <Image
+                  src={member.photo}
+                  alt={member.name}
+                  fill
+                  className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 640px) 50vw, 25vw"
+                />
+              </div>
+              <div className="p-3">
+                <p className="text-white text-sm font-semibold leading-snug">{member.name}</p>
+                <p className="text-text-secondary text-xs mt-0.5">{teamRoles[member.name] ?? member.role}</p>
+                {INSTAGRAM_HANDLES[member.name] && (
+                  <a href={`https://instagram.com/${INSTAGRAM_HANDLES[member.name]}`} target="_blank" rel="noopener noreferrer" className="font-sans text-sm mt-1 block hover:text-plasma transition-colors" style={{ color: "rgba(0,212,255,0.65)" }}>
+                    @{INSTAGRAM_HANDLES[member.name]}
+                  </a>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
     </div>
   );

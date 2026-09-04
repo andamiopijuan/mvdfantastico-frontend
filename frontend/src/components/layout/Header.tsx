@@ -26,12 +26,9 @@ export default function Header() {
 
   const isActive = (href: string) => pathname === href;
 
-  const jurySlug = locale === "es" ? "jurado" : locale === "pt" ? "juri" : "jury";
-
   const links = [
     { href: `/${locale}`, label: t("home") },
     { href: `/${locale}/${locale === "es" ? "edicion" : "edition"}`, label: t("edition") },
-    { href: `/${locale}/${jurySlug}`, label: t("jury") },
     { href: `/${locale}/${locale === "es" ? "archivo" : "archive"}`, label: t("archive") },
     { href: `/${locale}/${locale === "es" ? "acerca" : "about"}`, label: t("about") },
     { href: `/${locale}/${locale === "es" ? "contacto" : "contact"}`, label: t("contact") },
