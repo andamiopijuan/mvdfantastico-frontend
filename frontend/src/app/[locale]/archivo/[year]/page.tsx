@@ -334,10 +334,10 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
 
               return (
                 <div key={bi}>
-                  {blockTitle && <h3 className="font-display text-xl text-white mb-3">{blockTitle}</h3>}
+                  {blockTitle && <h3 className="font-display text-xl sm:text-2xl text-white mb-3">{blockTitle}</h3>}
                   {block.jury && (
                     <p className="text-sm text-text-secondary mb-6">
-                      <span className="text-text-muted text-xs uppercase tracking-widest mr-2">Jurado:</span>{block.jury}
+                      <span className="text-text-muted text-sm uppercase tracking-[0.18em] mr-2">Jurado:</span>{block.jury}
                     </p>
                   )}
                   <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -368,7 +368,7 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
                             </div>
                           )}
                           <div className="flex-1 min-w-0">
-                            {awardName && <p className="text-[10px] uppercase tracking-widest text-plasma mb-3">{awardName}</p>}
+                            {awardName && <p className="text-sm sm:text-base uppercase tracking-[0.18em] text-plasma mb-3 font-medium">{awardName}</p>}
                             {awardRecipient ? (
                               <>
                                 <p className="text-white font-display text-xl leading-tight mb-1">{awardRecipient}</p>
@@ -449,7 +449,7 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
                   {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                   {section.categories.map((cat: any, ci: number) => (
                     <div key={ci}>
-                      <h3 className="text-[10px] uppercase tracking-widest text-plasma mb-4">{cat.name}</h3>
+                      <h3 className="text-sm sm:text-base uppercase tracking-[0.18em] text-plasma mb-4 font-medium">{cat.name}</h3>
                       <div className="divide-y divide-white/10">
                         {(cat.films ?? []).map((film: CatalogFilm & { director?: string }, i: number) => (
                           <div key={i} className="py-2.5 flex flex-wrap items-baseline gap-x-3 gap-y-0.5">
