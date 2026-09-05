@@ -354,7 +354,7 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
         if (trimmed) titleVariants.add(trimmed);
       }
 
-      for (const variant of titleVariants) {
+      for (const variant of Array.from(titleVariants)) {
         const normalized = normalizeLegacyFilmTitle(variant);
         if (!normalized) continue;
         if (f.poster) awardPosterMap.set(normalized, f.poster);
