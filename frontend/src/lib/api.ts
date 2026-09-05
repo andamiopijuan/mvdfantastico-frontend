@@ -24,9 +24,38 @@ const API_BASE =
 const PUBLIC_MEDIA_BASE =
   process.env.NEXT_PUBLIC_MEDIA_URL ?? "http://localhost:8000";
 
+function normalizeMediaUrl(value: string | null | undefined): string | null | undefined {
+  if (!value) return value;
+
+  if (value.startsWith("/media/")) {
+    return value;
+  }
+
+  const normalizedBase = PUBLIC_MEDIA_BASE.trim();
+  const replacements = [
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
+    "http://backend:8000",
+    "https://localhost:8000",
+    "https://127.0.0.1:8000",
+    "https://backend:8000",
+  ];
+
+  for (const prefix of replacements) {
+    if (value.startsWith(`${prefix}/media/`)) {
+      return `${normalizedBase}${value.slice(prefix.length)}`;
+    }
+  }
+
+  if (value.includes("/media/")) {
+    return value.replace(/^https?:\/\/[^/]+/, normalizedBase || "");
+  }
+
+  return value;
+}
+
 function rewriteMediaUrl(url: string | null | undefined): string {
-  if (!url) return url as string;
-  return url.replace(/^https?:\/\/backend:\d+/, PUBLIC_MEDIA_BASE);
+  return normalizeMediaUrl(url) as string;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -36,8 +65,12 @@ function rewriteMediaUrls(obj: any): any {
   const result: Record<string, unknown> = {};
   for (const key of Object.keys(obj)) {
     const val = obj[key];
-    if ((key === "poster" || key === "key_visual" || key === "still" || key === "image") && typeof val === "string") {
-      result[key] = rewriteMediaUrl(val);
+    if (typeof val === "string") {
+      if (val.includes("/media/") || key === "poster" || key === "key_visual" || key === "still" || key === "image") {
+        result[key] = rewriteMediaUrl(val);
+      } else {
+        result[key] = val;
+      }
     } else if (val && typeof val === "object") {
       result[key] = rewriteMediaUrls(val);
     } else {
