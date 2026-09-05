@@ -22,6 +22,9 @@ export const metadata: Metadata = {
 // Year?edition: 2005=I, 2007=II, 2008=III, 2009=IV, 2010=V, 2011=VI,
 // 2012=VII, 2013=VIII, 2015=IX, 2017=X, 2018=XI, 2019=XII,
 // 2022=XIII, 2023=XIV, 2024=XV, 2026=XVI
+const NO_EDITION_YEARS = new Set<number>([2025]);
+const isAllowedArchiveYear = (year: number) => !NO_EDITION_YEARS.has(year);
+
 const ALL_EDITIONS: EditionSummary[] = [
   { id: 16, name: "Montevideo Fantástico XVI",  number: 16, year: 2026, slug: "xvi",  start_date: "2026-05-08", end_date: "2026-06-28", status: "past", is_current: false, poster: "/media/archive/XVI/poster.jpg",   work_count: 0, has_legacy: true },
   { id: 15, name: "Montevideo Fantástico XV",   number: 15, year: 2024, slug: "xv",   start_date: "2024-05-01", end_date: "2024-06-30", status: "past", is_current: false, poster: "/media/archive/XV/poster.jpg",    work_count: 0, has_legacy: true },
@@ -95,18 +98,20 @@ export default async function ArchivePage({ params }: { params: { locale: string
   const t = await getTranslations("archive");
   const locale = params.locale;
 
-  // Use static list as base; enrich with API data if available
-  let editions: EditionSummary[] = ALL_EDITIONS;
+  // Use static list as base; enrich with API data if available while excluding unsupported years.
+  let editions: EditionSummary[] = ALL_EDITIONS.filter((edition) => isAllowedArchiveYear(edition.year));
   try {
     const res = await getEditions();
-    const apiByYear = new Map(res.results.map((e) => [e.year, e]));
-    editions = ALL_EDITIONS.map((e) => (apiByYear.get(e.year) ?? e));
-    // Also include any API-only editions not in the static list (e.g. future editions)
-    res.results.forEach((e) => {
-      if (!editions.find((s) => s.year === e.year)) {
-        editions = [e, ...editions];
-      }
-    });
+    const apiByYear = new Map(res.results.filter((e) => isAllowedArchiveYear(Number(e.year))).map((e) => [e.year, e]));
+    editions = ALL_EDITIONS.filter((edition) => isAllowedArchiveYear(edition.year)).map((e) => (apiByYear.get(e.year) ?? e));
+    // Also include any API-only editions not in the static list (e.g. future editions), but never render invalid archive years.
+    res.results
+      .filter((e) => isAllowedArchiveYear(Number(e.year)))
+      .forEach((e) => {
+        if (!editions.find((s) => s.year === e.year)) {
+          editions = [e, ...editions];
+        }
+      });
     editions.sort((a, b) => b.year - a.year);
   } catch {
     // API unavailable — use static list

@@ -20,15 +20,19 @@ import type {
 } from "@/lib/types";
 import { SECTION_LABELS } from "@/lib/types";
 
+const NO_EDITION_YEARS = new Set<number>([2025]);
+const BLOCKED_DYNAMIC_YEARS = new Set<number>([2025, 2026]);
+const isAllowedDynamicYear = (year: number) => !BLOCKED_DYNAMIC_YEARS.has(year);
+
 export async function generateStaticParams() {
   try {
     const res = await getEditions();
     return res.results
-      .filter((e) => e.has_legacy || e.is_current)
+      .filter((e) => (e.has_legacy || e.is_current) && isAllowedDynamicYear(Number(e.year)) && !NO_EDITION_YEARS.has(Number(e.year)))
       .map((e) => ({ year: String(e.year) }));
   } catch {
-    // Fallback to known years if API is unavailable during build
-    return [2017, 2022, 2023, 2024, 2026].map((y) => ({ year: String(y) }));
+    // Fallback to known years if API is unavailable during build; keep unsupported years excluded.
+    return [2017, 2022, 2023, 2024].map((y) => ({ year: String(y) }));
   }
 }
 export const dynamicParams = true;
@@ -602,6 +606,11 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
 export default async function EditionArchivePage({ params }: PageProps) {
   const year = parseInt(params.year, 10);
   const locale = params.locale;
+
+  if (BLOCKED_DYNAMIC_YEARS.has(year) || NO_EDITION_YEARS.has(year)) {
+    notFound();
+  }
+
   setRequestLocale(params.locale);
   const t = await getTranslations("archive");
   const te = await getTranslations("edition");
