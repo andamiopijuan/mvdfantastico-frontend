@@ -10,7 +10,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import type {
   WorkSummary,
   WorkSection,
@@ -602,6 +602,7 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
 export default async function EditionArchivePage({ params }: PageProps) {
   const year = parseInt(params.year, 10);
   const locale = params.locale;
+  setRequestLocale(params.locale);
   const t = await getTranslations("archive");
   const te = await getTranslations("edition");
 

@@ -1,13 +1,46 @@
-export async function generateStaticParams() {
-  return [];
-}
-
-import { getWorkById } from "@/lib/api";
+import { getEditions, getWorkById, getWorksForEdition } from "@/lib/api";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SECTION_LABELS } from "@/lib/types";
+
+const STATIC_LOCALES = ["es", "en", "pt"] as const;
+
+export async function generateStaticParams() {
+  const params: Array<{ locale: string; id: string }> = [];
+  const seen = new Set<string>();
+
+  const addParam = (locale: string, id: number | string) => {
+    const normalizedId = String(id).trim();
+    if (!normalizedId) return;
+    const key = `${locale}:${normalizedId}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    params.push({ locale, id: normalizedId });
+  };
+
+  try {
+    const editions = await getEditions();
+    const years = editions.results
+      .map((edition) => edition.year)
+      .filter((year): year is number => typeof year === "number");
+
+    for (const year of years) {
+      const works = await getWorksForEdition(year).catch(() => ({ results: [] }));
+      for (const work of works.results) {
+        if (typeof work?.id !== "number") continue;
+        for (const locale of STATIC_LOCALES) {
+          addParam(locale, work.id);
+        }
+      }
+    }
+  } catch {
+    // Keep build-time params available only from the live API data source when available.
+  }
+
+  return params;
+}
 
 interface PageProps {
   params: { locale: string; id: string };
@@ -24,6 +57,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function WorkDetailPage({ params }: PageProps) {
   const { locale, id } = params;
+  setRequestLocale(locale);
   const t = await getTranslations("archive");
 
   let work;
