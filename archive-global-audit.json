@@ -1,0 +1,194 @@
+{
+    "status":  "CLOSED",
+    "validated_at":  "2026-09-07",
+    "scope":  {
+                  "real_editions":  [
+                                        2005,
+                                        2007,
+                                        2008,
+                                        2009,
+                                        2010,
+                                        2011,
+                                        2012,
+                                        2013,
+                                        2015,
+                                        2017,
+                                        2018,
+                                        2019,
+                                        2022,
+                                        2023,
+                                        2024,
+                                        2026
+                                    ],
+                  "excluded_years":  [
+                                         2025
+                                     ],
+                  "excluded_reason":  "Malformed/placeholder duplicate record; not a real festival edition"
+              },
+    "summary":  {
+                    "manual_research_remaining":  0,
+                    "batch_fixes_remaining":  0,
+                    "all_real_editions_past":  true,
+                    "all_real_editions_is_current_false":  true,
+                    "api_http_200_all":  true,
+                    "backend_compile_pass":  true,
+                    "frontend_typescript_pass":  true,
+                    "git_diff_check_pass":  true
+                },
+    "editions":  [
+                     {
+                         "year":  2005,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  20,
+                         "structured_venues":  1,
+                         "legacy_sections":  3
+                     },
+                     {
+                         "year":  2007,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  14,
+                         "structured_venues":  0,
+                         "legacy_sections":  3
+                     },
+                     {
+                         "year":  2008,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  16,
+                         "structured_venues":  0,
+                         "legacy_sections":  4
+                     },
+                     {
+                         "year":  2009,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  29,
+                         "structured_venues":  2,
+                         "legacy_sections":  5
+                     },
+                     {
+                         "year":  2010,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  14,
+                         "structured_venues":  0,
+                         "legacy_sections":  3
+                     },
+                     {
+                         "year":  2011,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  21,
+                         "structured_venues":  0,
+                         "legacy_sections":  5
+                     },
+                     {
+                         "year":  2012,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  16,
+                         "structured_venues":  0,
+                         "legacy_sections":  4
+                     },
+                     {
+                         "year":  2013,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  73,
+                         "structured_venues":  1,
+                         "legacy_sections":  8
+                     },
+                     {
+                         "year":  2015,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  13,
+                         "structured_venues":  0,
+                         "legacy_sections":  4
+                     },
+                     {
+                         "year":  2017,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  23,
+                         "structured_venues":  0,
+                         "legacy_sections":  5
+                     },
+                     {
+                         "year":  2018,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  16,
+                         "structured_venues":  0,
+                         "legacy_sections":  4
+                     },
+                     {
+                         "year":  2019,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  17,
+                         "structured_venues":  0,
+                         "legacy_sections":  3
+                     },
+                     {
+                         "year":  2022,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  22,
+                         "structured_venues":  0,
+                         "legacy_sections":  8
+                     },
+                     {
+                         "year":  2023,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  108,
+                         "structured_venues":  7,
+                         "legacy_sections":  7
+                     },
+                     {
+                         "year":  2024,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  97,
+                         "structured_venues":  2,
+                         "legacy_sections":  7
+                     },
+                     {
+                         "year":  2026,
+                         "status":  "past",
+                         "is_current":  false,
+                         "structured_works":  0,
+                         "structured_venues":  11,
+                         "legacy_sections":  0
+                     }
+                 ],
+    "resolved":  {
+                     "2005":  "Full historical reconstruction completed",
+                     "2009":  "Venue anomaly confirmed false positive",
+                     "2013":  "Manual research completed; 73 works and normalized legacy archive",
+                     "2017":  "Legacy JSON confirmed authoritative; apparent missing shorts was false positive",
+                     "2022":  "Legacy JSON confirmed authoritative; structured Works intentionally partial",
+                     "2023":  "108 structured works and 7 venues restored",
+                     "2024":  "97 structured works and 2 venues restored",
+                     "2026":  "Edition completed; lifecycle normalized to past"
+                 },
+    "frontend":  {
+                     "fallback_dates_synchronized":  true,
+                     "legacy_labels_i18n":  [
+                                                "es",
+                                                "en",
+                                                "pt"
+                                            ],
+                     "film_breadcrumb_i18n":  true,
+                     "archive_alias_routes_validated":  true
+                 },
+    "required_backend_files":  [
+                                   "backend/seed_archive_full.py",
+                                   "backend/archive_payload_2013.py",
+                                   "backend/archive_payload_2023_2024.py"
+                               ],
+    "conclusion":  "No historical edition currently requires manual research or batch remediation."
+}

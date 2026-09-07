@@ -324,7 +324,7 @@ function JsonFeatureCard({ film, locale, year = 2017 }: { film: FeatureFilm; loc
 // ── Legacy Edition Renderer ──────────────────────────────────────────────────
 // Renders an edition page from legacy_json stored in the DB.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { data: Record<string, any>; locale: string; year: number; backHref: string; backLabel: string }) {
+function LegacyEditionRenderer({ data, locale, year, backHref, backLabel, featuresLabel, competitionShortsLabel, venuesLabel }: { data: Record<string, any>; locale: string; year: number; backHref: string; backLabel: string; featuresLabel: string; competitionShortsLabel: string; venuesLabel: string }) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const ed = data.edition ?? {} as Record<string, any>;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -410,12 +410,12 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel }: { da
           <p className="text-xl text-text-secondary mb-1">{ed.title}</p>
           {ed.dates && <p className="text-sm text-text-tertiary mb-6">{ed.dates}</p>}
           <div className="flex flex-wrap gap-6 text-sm text-text-secondary mb-6">
-            {featureCount > 0 && <span><strong className="text-white font-display text-2xl">{featureCount}</strong>{" "}largometrajes</span>}
-            {shortsCount > 0 && <span><strong className="text-white font-display text-2xl">{shortsCount}</strong>{" "}cortometrajes en competencia</span>}
+            {featureCount > 0 && <span><strong className="text-white font-display text-2xl">{featureCount}</strong>{" "}{featuresLabel}</span>}
+            {shortsCount > 0 && <span><strong className="text-white font-display text-2xl">{shortsCount}</strong>{" "}{competitionShortsLabel}</span>}
           </div>
           {Array.isArray(ed.venues) && ed.venues.length > 0 && (
             <div>
-              <p className="text-[10px] uppercase tracking-widest text-plasma mb-2">Sedes</p>
+              <p className="text-[10px] uppercase tracking-widest text-plasma mb-2">{venuesLabel}</p>
               <ul className="text-sm text-text-secondary space-y-0.5">
                 {(ed.venues as string[]).map((v) => <li key={v}>{v}</li>)}
               </ul>
@@ -629,6 +629,9 @@ export default async function EditionArchivePage({ params }: PageProps) {
         year={year}
         backHref={`/${locale}/archivo`}
         backLabel={t("back_link")}
+        featuresLabel={te("features_count")}
+        competitionShortsLabel={te("competition_shorts_count")}
+        venuesLabel={te("venues_heading")}
       />
     );
   }

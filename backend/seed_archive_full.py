@@ -6,13 +6,19 @@ Run:
   docker exec mvdfantastico-backend-1 python /app/seed_archive_full.py
 """
 import os
+import re
 import django
+from datetime import date
+from django.db import transaction
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
 django.setup()
 
 from apps.editions.models import Edition
+from apps.venues.models import Venue
 from apps.works.models import Work
+from archive_payload_2023_2024 import ARCHIVE_2023, ARCHIVE_2024
+from archive_payload_2013 import ARCHIVE_2013
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Helpers
@@ -47,40 +53,254 @@ def upsert_work(edition, **fields):
 
 e = get_edition(2005)
 if e:
-    e.description_es = (
-        "Primera edición del festival, celebrada en 2005. Primer encuentro de cine fantástico, "
-        "de terror y ciencia ficción independiente de Uruguay, con películas de España, Argentina, "
-        "Alemania, Canadá y Estados Unidos."
-    )
-    e.description_en = (
-        "First edition of the festival, held in 2005. Uruguay's first independent fantasy, horror "
-        "and science fiction film gathering, with films from Spain, Argentina, Germany, Canada and USA."
-    )
-    e.save()
+    with transaction.atomic():
+        Work.objects.filter(edition=e).delete()
+        Venue.objects.filter(edition=e).delete()
 
-    works_i = [
+        e.name = "Montevideo Fantástico I"
+        e.number = 1
+        e.start_date = "2005-08-29"
+        e.end_date = "2005-09-01"
+        e.status = Edition.Status.PAST
+        e.is_current = False
+        e.poster = "archive/I/poster.jpg"
+        e.description_es = (
+            "Primera edición del festival, celebrada del 29 de agosto al 1 de septiembre de 2005. "
+            "Primer encuentro de cine fantástico, de terror y ciencia ficción independiente de Uruguay, "
+            "en el complejo Hoyts Alfabeta, con películas de España, Argentina, Alemania, Canadá, "
+            "Estados Unidos y Uruguay."
+        )
+        e.description_en = (
+            "First edition of the festival, held August 29–September 1, 2005 at Hoyts Alfabeta. "
+            "Uruguay's first independent fantasy, horror and science fiction film gathering, with films "
+            "from Spain, Argentina, Germany, Canada, United States and Uruguay."
+        )
+        e.save()
+
+        venue, _ = Venue.objects.get_or_create(
+            edition=e,
+            name="Hoyts Alfabeta",
+            defaults={
+                "address": "",
+                "description": "",
+                "order": 1,
+            },
+        )
+        print(f"Venue 2005: {venue}")
+
+    feature_works = [
         dict(title="Darkness", director="Jaume Balagueró", country="España",
-             production_year=2002, runtime=102, type="feature", section="competition_int",
-             synopsis_es="Una familia americana se muda a una antigua mansión española donde ocurrieron rituales ocultos."),
+             production_year=2002, runtime=102, type="feature", section="panorama",
+             participation_status="selected", still="archive/I/films/darkness.jpg",
+             synopsis_es="La historia se centra en una familia y la mansión donde vive, un lugar en el que se esconde un secreto siniestro, un mal capaz de manifestarse solamente en la oscuridad, una fuerza que se mantuvo agazapada, en silencio, y que ahora ha vuelto a despertar."),
         dict(title="Habitaciones para turistas", director="Adrián García Bogliano", country="Argentina",
-             production_year=2004, runtime=80, type="feature", section="competition_int",
-             synopsis_es="Dos chicas piden alojamiento en una mansión en la que vive una siniestra familia."),
+             production_year=2004, runtime=94, type="feature", section="panorama",
+             participation_status="selected", still="archive/I/films/habitaciones-para-turistas.jpg",
+             synopsis_es="Cinco jóvenes mujeres se ven varadas en un pequeño y aislado pueblo rural, al perder el transporte que las iba a llevar de ese punto de escala a otra localidad. Como consecuencia deben pasar la noche en el lugar. Ahí es cuando aparece un hombre que gentilmente les ofrece su casa para que se queden a dormir y luego prosigan. Pero cuando cae la noche comienzan a suceder extrañas desapariciones y una serie de asesinatos inexplicables. La amenaza entre las sombras tiene una causa."),
         dict(title="Night Fangs", director="Ricardo Islas", country="EEUU",
-             production_year=2005, runtime=90, type="feature", section="competition_int",
-             synopsis_es="Vampiros en la ciudad de Nueva York."),
+             production_year=2005, runtime=98, type="feature", section="panorama",
+             participation_status="selected", still="archive/I/films/night-fangs.jpg",
+             synopsis_es="Una pareja de lesbianas intenta llegar a la eterna juventud, a través de una serie de rituales que van practicando con las distintas víctimas de turno. Una de ellas, que nunca había tenido relaciones sexuales, despierta la compasión de una de las protagonistas pero también los celos de su amante. De ahí en más surgen otras derivaciones que implican a un grupo de jóvenes y su profesor escéptico, quien los ayudará a develar el paradero de la joven virgen, ahora desaparecida debido a la invocación de un antiguo mal."),
         dict(title="Rojo Sangre", director="Christian Molina", country="España",
-             production_year=2004, runtime=90, type="feature", section="competition_int",
-             synopsis_es="Un actor que nunca logró el éxito decide tomarse la justicia por su mano."),
+             production_year=2004, runtime=89, type="feature", section="panorama",
+             participation_status="selected", still="archive/I/films/rojo-sangre.jpg",
+             synopsis_es="Un veterano actor que tuvo su tiempo de gloria y que, luego de estar inactivo durante largo tiempo, anda buscando trabajo. El tema es que los veteranos del negocio lo han olvidado y los directores jóvenes, con poder, grandes cargos y responsabilidades, jamás oyeron hablar de él. Peor se pone la cosa cuando este actor comprueba que cualquier artista mediocre triunfa, y que los valores humanos están devaluados, por lo que decide salir a matar, usando sus dotes actorales y transformándose en los personajes que interpreta. Pero de pronto aparece lo inesperado: el gran trabajo anhelado; solo que viene de alguien muy especial."),
         dict(title="The Final Cut", director="Omar Naïm", country="Alemania/Canadá",
-             production_year=2004, runtime=95, type="feature", section="competition_int",
-             synopsis_es="Un montador de memorias descubre un oscuro secreto en los recuerdos de un hombre fallecido."),
+             production_year=2004, runtime=95, type="feature", section="panorama",
+             participation_status="selected", still="archive/I/films/the-final-cut.jpg",
+             synopsis_es="La historia toma lugar en un mundo donde los microchips pueden ser implantados en una persona, apenas nace, de modo tal que cuando muere queden registradas todas sus vivencias. Ahí es cuando aparece «el editor», una persona al servicio de una poderosa corporación que puede seleccionar todo lo visto por el fallecido con el fin de armar un conjunto de imágenes (la «rememoria») para que la vean sus seres más queridos, ya sea en funerales o con el fin de que los allegados las guarden para siempre como recuerdo. El problema es que hay una organización opuesta a esta tecnología (y por ende a la empresa que maneja todo el negocio), cuyo líder persigue tenazmente al paranoico protagonista, un editor que de niño sufrió una experiencia traumática, pero en el que, de todas maneras, muchos confían respecto a su criterio de selección de imágenes."),
         dict(title="Sangre en La Mondiola", director="Guzmán Vila", country="Uruguay",
-             production_year=2005, runtime=70, type="feature", section="competition_nat",
-             synopsis_es="Película nacional de terror fantástico."),
+             production_year=2005, runtime=65, type="feature", section="panorama",
+             participation_status="selected",
+             synopsis_es="Un asesino serial, hincha de Banfield, un policía corrupto y mal hablado, y un vampiro que intenta seguir las pistas del primero aprovechando la amistad que tiene con el segundo; todos deambulando por el tranquilo barrio montevideano del título, que ya no será el mismo."),
     ]
-    for w in works_i:
+    for w in feature_works:
         upsert_work(e, **w)
-    print(f"Edition I (2005): {len(works_i)} works seeded.")
+
+    short_medium = [
+        dict(title="84715", director="Guillermo Carbonell", country="Uruguay",
+             production_year=2003, runtime=3, type="short", section="panorama",
+             participation_status="selected",
+             synopsis_es="Un hombre comienza a ver el número del título con demasiada frecuencia, apenas sale de su casa. Y cuando uno sueña o ve seguido una cifra generalmente es tentado por el juego…"),
+        dict(title="Argentina bizarra", director="Gustavo Mendoza", country="Argentina",
+             production_year=1997, runtime=15, type="short", section="panorama",
+             participation_status="selected",
+             synopsis_es="Un medular panorama del cine bizarro argentino, a través de testimonios, que van desde Isabel Sarli, pasan por Alberto Olmedo y llegan al legendario Narciso Ibáñez Menta."),
+        dict(title="El Carcaj de Cupido", director="Atom Egoyan", country="Canadá",
+             production_year=1987, runtime=45, type="medium", section="panorama",
+             participation_status="selected",
+             synopsis_es="Se trata de uno de los primeros trabajos de Atom Egoyan para la televisión, perteneciente a la serie Friday the 13th, que nada tiene que ver con la interminable saga del asesino Jason Voorhees de Martes 13. Esta fue una serie norteamericana que duró unos tres años (1987-1990) y que se ha convertido en objeto de culto, dado que ahí no solo Egoyan sino también realizadores como David Cronenberg o guionistas como Brian Helgeland llegaron a participar. Los capítulos giraban alrededor de una casa de antigüedades heredada por dos primos hermanos y un experto en la materia que siempre estaban tras casos sobrenaturales, como consecuencia de la maldición satánica de los distintos objetos, algunos dentro y la gran mayoría fuera de la tienda. Este mediometraje fue hecho en Canadá y estrenado en TV en octubre de 1987; cuenta la historia de una misteriosa estatua de Cupido que cae en manos de un excéntrico joven, poco exitoso en el amor, que descubre que la misma le da el poder de enamorar a la mujer que desea. Pero hay algo más... y no es nada bueno."),
+        dict(title="El martillo: Crónica de un mito", director="Daniel de la Vega", country="Argentina",
+             production_year=2003, runtime=15, type="short", section="panorama",
+             participation_status="selected",
+             synopsis_es="En Buenos Aires una de las leyendas urbanas que se hizo famosa fue la del «hombre del martillo». ¿Pero existió en realidad? Esa incógnita es trasladada a la calle, con entrevistas a personas del barrio, policías, conocidos periodistas y supuestos testigos y conocedores del popular asesino. Premio a Mejor Cortometraje en Sitges 2003."),
+        dict(title="La mirada alterada", director="Diego Blanco, Guillermo Carbonell, Inés Grah, Vivián Honigsberg, Lucía Jacob, Inés Peñagaricano", country="Uruguay",
+             production_year=1998, runtime=35, type="medium", section="panorama",
+             participation_status="selected",
+             synopsis_es="Un documental sobre Ricardo Islas producido en 1998 y que evoca su etapa en Uruguay, a través de la participación de críticos, periodistas, personalidades del quehacer artístico nacional, familiares y compañeros, aparte del propio Islas. También hay declaraciones sobre qué fue lo que pasó durante el rodaje de la polémica Miedo silencioso, trabajo que marcó un quiebre en la carrera del director coloniense y a su vez el comienzo de su nueva etapa en Estados Unidos. El trabajo conforma una visión bastante sensata, equilibrada e imparcial respecto a un artista que tiene sus cosas para decir."),
+        dict(title="La última cena", director="Daniel de la Vega", country="Argentina",
+             production_year=1999, runtime=7, type="short", section="panorama",
+             participation_status="selected",
+             synopsis_es="La presencia de una mujer en la morgue más la resurrección de algunos cadáveres en el lugar forman parte en realidad de una terrible pesadilla. Pero cuando la protagonista despierta… el sueño sigue. Premio del Público a Mejor Corto Argentino en el XXXVII Festival de Mar del Plata."),
+        dict(title="Oscura noche", director="Federico Peretti", country="Argentina",
+             production_year=2004, runtime=8, type="short", section="panorama",
+             participation_status="selected",
+             synopsis_es="Un trabajo que intenta reflejar muchas de las miserias humanas con las que nos encontramos a diario y a las que probablemente les prestemos muy poca atención, por pensar que no son ajenas. Premio a Mejor Cortometraje en el Tercer Encuentro de Cortos de Punta del Este (2004)."),
+        dict(title="Postdata", director="Laura Báez", country="Uruguay",
+             production_year=2004, runtime=11, type="short", section="panorama",
+             participation_status="selected",
+             synopsis_es="Una muchacha se levanta; en la casa no hay nadie; se siente extraña; en la calle nadie la ve; pasan al lado de ella sin notarla. Camina por Maldonado y cuando vuelve a su casa se da cuenta lo que había pasado la noche anterior: en la puerta hay una ambulancia, está la policía, y sus padres están llorando…"),
+    ]
+    for w in short_medium:
+        upsert_work(e, **w)
+
+    special_screenings = [
+        dict(title="El mosquito", director="Roxana Ukmar", country="Uruguay",
+             production_year=2003, runtime=7, type="short", section="special",
+             participation_status="special_screening",
+             synopsis_es=""),
+        dict(title="La galleta", director="Maximiliano Contenti", country="Uruguay",
+             production_year=2003, runtime=4, type="short", section="special",
+             participation_status="special_screening",
+             synopsis_es=""),
+        dict(title="Les escaliers fruitiers", director="Maximiliano Contenti", country="Uruguay",
+             production_year=2005, runtime=1, type="short", section="special",
+             participation_status="special_screening",
+             synopsis_es=""),
+        dict(title="Las tres de Kung-Fu", director="Pablo Praino", country="Uruguay",
+             production_year=2004, runtime=10, type="short", section="special",
+             participation_status="special_screening",
+             synopsis_es=""),
+        dict(title="RedRat", director="Guillermo Kloetzer", country="Uruguay",
+             production_year=2004, runtime=20, type="short", section="special",
+             participation_status="special_screening",
+             synopsis_es=""),
+        dict(title="Romeo contra la muzzarella lisérgica asesina", director="Manuel Facal", country="Uruguay",
+             production_year=2005, runtime=13, type="short", section="special",
+             participation_status="special_screening",
+             synopsis_es=""),
+    ]
+    for w in special_screenings:
+        upsert_work(e, **w)
+
+    legacy = e.legacy_json or {}
+    if not isinstance(legacy, dict):
+        legacy = {}
+    legacy.setdefault("edition", {})
+    legacy["edition"].update({
+        "year": 2005,
+        "roman": "I",
+        "title": "Montevideo Fantástico I",
+        "number": 1,
+        "dates": "del lunes 29 de agosto al jueves 1 de setiembre de 2005",
+        "venues": ["Hoyts Alfabeta"],
+        "poster": "archive/I/poster.jpg",
+    })
+    legacy.setdefault("sections", [])
+
+    cleaned_sections = []
+    for section in legacy["sections"]:
+        section_name = str(section.get("name", "")).lower()
+        section_type = str(section.get("type", "")).lower()
+        is_short_section = "short" in section_name or "short" in section_type or "mediometrajes" in section_name
+        films = []
+        for film in section.get("films", []):
+            title = str(film.get("title", "")).strip()
+            title_l = title.lower()
+            if "84715" in title_l and not is_short_section:
+                continue
+            if title_l.startswith("cortos y mediometrajes") or "short and medium length films" in title_l:
+                title = "84715"
+            film["title"] = title
+            films.append(film)
+        section["films"] = films
+        cleaned_sections.append(section)
+    legacy["sections"] = cleaned_sections
+
+    short_section = None
+    for section in legacy["sections"]:
+        name = str(section.get("name", "")).lower()
+        section_type = str(section.get("type", "")).lower()
+        if "short" in name or "short" in section_type or "mediometrajes" in name:
+            short_section = section
+            break
+    if short_section is None:
+        short_section = {"name": "CORTOS Y MEDIOMETRAJES / SHORT AND MEDIUM LENGTH FILMS", "type": "shorts", "films": []}
+        legacy["sections"].append(short_section)
+
+    short_section.setdefault("films", [])
+    cleaned_short_films = []
+    seen_84715 = False
+    for film in short_section["films"]:
+        title = str(film.get("title", "")).strip()
+        title_l = title.lower()
+        if title_l in {"cortos y mediometrajes / short and medium length films 84715", "short and medium length films 84715", "84715"}:
+            if not seen_84715:
+                film["title"] = "84715"
+                cleaned_short_films.append(film)
+                seen_84715 = True
+            continue
+        if "84715" in title_l and not seen_84715:
+            film["title"] = "84715"
+            cleaned_short_films.append(film)
+            seen_84715 = True
+            continue
+        cleaned_short_films.append(film)
+    short_section["films"] = cleaned_short_films
+
+    if not any(str(film.get("title", "")).strip().lower() == "84715" for film in short_section["films"]):
+        short_section["films"].append({
+            "year": 2003,
+            "title": "84715",
+            "poster": None,
+            "review": None,
+            "country": "Uruguay",
+            "credits": "",
+            "director": "Guillermo Carbonell",
+            "duration": 3,
+            "synopsis": "Un hombre comienza a ver el número del título con demasiada frecuencia, apenas sale de su casa. Y cuando uno sueña o ve seguido una cifra generalmente es tentado por el juego…",
+            "trailer_url": None,
+        })
+
+    if "el carcaj de cupido" not in {str(f.get("title", "")).strip().lower() for f in short_section["films"]}:
+        short_section["films"].append({
+            "year": 1987,
+            "title": "El Carcaj de Cupido",
+            "poster": None,
+            "review": None,
+            "country": "Canadá",
+            "credits": "",
+            "director": "Atom Egoyan",
+            "duration": 45,
+            "synopsis": "Se trata de uno de los primeros trabajos de Atom Egoyan para la televisión, perteneciente a la serie Friday the 13th, que nada tiene que ver con la interminable saga del asesino Jason Voorhees de Martes 13. Esta fue una serie norteamericana que duró unos tres años (1987-1990) y que se ha convertido en objeto de culto, dado que ahí no solo Egoyan sino también realizadores como David Cronenberg o guionistas como Brian Helgeland llegaron a participar. Los capítulos giraban alrededor de una casa de antigüedades heredada por dos primos hermanos y un experto en la materia que siempre estaban tras casos sobrenaturales, como consecuencia de la maldición satánica de los distintos objetos, algunos dentro y la gran mayoría fuera de la tienda. Este mediometraje fue hecho en Canadá y estrenado en TV en octubre de 1987; cuenta la historia de una misteriosa estatua de Cupido que cae en manos de un excéntrico joven, poco exitoso en el amor, que descubre que la misma le da el poder de enamorar a la mujer que desea. Pero hay algo más... y no es nada bueno.",
+            "trailer_url": None,
+        })
+
+    special_section = None
+    for section in legacy["sections"]:
+        name = str(section.get("name", "")).upper()
+        section_type = str(section.get("type", "")).lower()
+        if "SPECIAL" in name or section_type == "special":
+            special_section = section
+            break
+    if special_section is None:
+        special_section = {"name": "SPECIAL URUGUAYAN SCREENINGS", "type": "special", "films": []}
+        legacy["sections"].append(special_section)
+    special_titles = {str(f.get("title", "")).strip().lower() for f in special_section.get("films", [])}
+    for title, payload in {
+        "El mosquito": {"year": 2003, "poster": None, "review": None, "country": "Uruguay", "credits": "", "director": "Roxana Ukmar", "duration": 7, "synopsis": "", "trailer_url": None},
+        "La galleta": {"year": 2003, "poster": None, "review": None, "country": "Uruguay", "credits": "", "director": "Maximiliano Contenti", "duration": 4, "synopsis": "", "trailer_url": None},
+        "Les escaliers fruitiers": {"year": 2005, "poster": None, "review": None, "country": "Uruguay", "credits": "", "director": "Maximiliano Contenti", "duration": 1, "synopsis": "", "trailer_url": None},
+        "Las tres de Kung-Fu": {"year": 2004, "poster": None, "review": None, "country": "Uruguay", "credits": "", "director": "Pablo Praino", "duration": 10, "synopsis": "", "trailer_url": None},
+        "RedRat": {"year": 2004, "poster": None, "review": None, "country": "Uruguay", "credits": "", "director": "Guillermo Kloetzer", "duration": 20, "synopsis": "", "trailer_url": None},
+        "Romeo contra la muzzarella lisérgica asesina": {"year": 2005, "poster": None, "review": None, "country": "Uruguay", "credits": "", "director": "Manuel Facal", "duration": 13, "synopsis": "", "trailer_url": None},
+    }.items():
+        if title.lower() not in special_titles:
+            special_section.setdefault("films", []).append({"title": title, **payload})
+
+    e.legacy_json = legacy
+    e.save()
+    print(f"Edition I (2005): {len(feature_works) + len(short_medium) + len(special_screenings)} works seeded.")
 else:
     print("Edition 2005 not found — skipping.")
 
@@ -101,6 +321,7 @@ if e:
         "14 features, 24 shorts, 13 countries. "
         "Best Film: The Last Horror Movie (UK, Julian Richards)."
     )
+    e.status = Edition.Status.PAST
     e.save()
 
     works_ii = [
@@ -477,6 +698,7 @@ if e:
         "Best Iberoamerican: Goretech (Argentina, Germán Magariños). "
         "Audience: Topos and Ballena Blanca (Argentina)."
     )
+    e.status = Edition.Status.PAST
     e.save()
 
     works_vii = [
@@ -542,82 +764,247 @@ else:
 
 e = get_edition(2013)
 if e:
-    e.description_es = (
-        "Octava edición, 9–15 de diciembre de 2013, Cine Universitario. "
-        "Más de 20 largometrajes, 50 cortometrajes, 16 países, 6 días, 2 salas. "
-        "Mejor Película y Mejor Guión: El Cosmonauta (España/Letonia/Rusia, Nicolás Alcalá). "
-        "Mejor Director: David León Sofía (Sin Señal). "
-        "Mejor Actor: Zaid Baqaeen (When Time Becomes a Woman). "
-        "Mejor Actriz: Jasna Kohoutova (Chimères/Quimeras). "
-        "Mejor Iberoamericana: Volver a Morir (Colombia, Miguel Urrutia)."
-    )
-    e.description_en = (
-        "Eighth edition, December 9–15, 2013, Cine Universitario. "
-        "20+ features, 50+ shorts, 16 countries, 6 days, 2 screens. "
-        "Best Film & Best Screenplay: El Cosmonauta (Spain/Latvia/Russia, Nicolás Alcalá). "
-        "Best Director: David León Sofía (Sin Señal). "
-        "Best Actor: Zaid Baqaeen (When Time Becomes a Woman). "
-        "Best Actress: Jasna Kohoutova (Chimères/Quimeras). "
-        "Best Iberoamerican: Volver a Morir (Colombia, Miguel Urrutia)."
-    )
-    e.save()
+    def _norm_title_2013(value):
+        import unicodedata
+        value = unicodedata.normalize("NFKD", str(value or ""))
+        value = "".join(ch for ch in value if not unicodedata.combining(ch))
+        value = value.casefold()
+        return re.sub(r"[^a-z0-9]+", "", value)
 
-    works_viii = [
-        dict(title="El Cosmonauta", director="Nicolás Alcalá", country="España/Letonia/Rusia",
-             production_year=2013, runtime=96, type="feature", section="competition_int",
-             synopsis_es="Un cosmonauta soviético es enviado al espacio y regresa cambiado, con algo desconocido adherido a él. Producida de forma colaborativa a través de internet."),
-        dict(title="Chimères (Quimeras)", director="Olivier Beguin", country="Suiza",
-             production_year=2013, runtime=79, type="feature", section="competition_int",
-             synopsis_es="Un hombre necesita transfusiones de sangre de vampiro para sobrevivir."),
-        dict(title="Sin Señal", director="David León Sofía", country="Argentina",
-             production_year=2012, runtime=68, type="feature", section="competition_int",
-             synopsis_es="Terror argentino de David León Sofía."),
-        dict(title="When Time Becomes a Woman", director="Ahmad Alyaseer", country="Jordania",
-             production_year=2012, runtime=73, type="feature", section="competition_int",
-             synopsis_es="Drama de terror jordano."),
-        dict(title="Buscando la Esfera del Poder", director="Tetsuo Lumière", country="Argentina",
-             production_year=2013, runtime=110, type="feature", section="competition_int",
-             synopsis_es="Ciencia ficción argentina de Tetsuo Lumière."),
-        dict(title="Frankenstein No Asusta en Colombia", director="Erik Zúñiga", country="Colombia",
-             production_year=2013, runtime=63, type="feature", section="competition_int",
-             synopsis_es="Comedia de terror colombiana."),
-        dict(title="Gut", director="Elias", country="EEUU",
-             production_year=2012, runtime=90, type="feature", section="competition_int",
-             synopsis_es="Thriller psicológico de terror."),
-        dict(title="Mar Negro", director="Rodrigo Aragão", country="Brasil",
-             production_year=2013, runtime=99, type="feature", section="competition_int",
-             synopsis_es="Eco-terror brasileño. La contaminación marina desata una plaga de muertos vivientes en el litoral nordestino."),
-        dict(title="El Peso de la Culpa", director="Ariel Sanna", country="Argentina",
-             production_year=2012, runtime=91, type="feature", section="competition_int",
-             synopsis_es="Terror psicológico argentino."),
-        dict(title="KV 62", director="Marcelo Leguiza", country="Argentina",
-             production_year=2013, runtime=87, type="feature", section="competition_int",
-             synopsis_es="Terror argentino sobre una tumba egipcia."),
-        dict(title="Sonno Profondo", director="Luciano Onetti", country="Argentina",
-             production_year=2013, runtime=65, type="feature", section="competition_int",
-             synopsis_es="Giallo argentino. Premio del Público Iberoamericana."),
-        dict(title="Trash Dos: Las Tetas de Ana L.", director="Alejo Rébora", country="Argentina",
-             production_year=2013, runtime=88, type="feature", section="competition_int",
-             synopsis_es="Terror/comedia argentina de Alejo Rébora."),
-        dict(title="Volver a Morir", director="Miguel Urrutia", country="Colombia",
-             production_year=2012, runtime=84, type="feature", section="competition_int",
-             synopsis_es="Terror colombiano ganador de la Mejor Película Iberoamericana."),
-        dict(title="Zombio 2: Chimarrao Zombies", director="Petter Baiestorf", country="Brasil",
-             production_year=2013, runtime=84, type="feature", section="competition_int",
-             synopsis_es="Terror de serie B brasileño."),
-        dict(title="Adormecidos", director="Metlikovec", country="Argentina",
-             production_year=2012, runtime=98, type="feature", section="panorama",
-             synopsis_es="Terror argentino en muestra informativa."),
-        dict(title="Curas Zombies en Azul", director="Osvaldo Sudak", country="Argentina",
-             production_year=2013, runtime=80, type="feature", section="panorama",
-             synopsis_es="Comedia de zombis argentina."),
-        dict(title="Hijos de Puta por Elección", director="Georgina Zanardi", country="Argentina",
-             production_year=2013, runtime=82, type="feature", section="panorama",
-             synopsis_es="Largometraje de Georgina Zanardi."),
+
+    def _old_legacy_lookup_2013(legacy):
+        lookup = {}
+        if not isinstance(legacy, dict):
+            return lookup
+        for section in legacy.get("sections") or []:
+            for film in section.get("films") or []:
+                title = str(film.get("title") or "").strip()
+                if title:
+                    lookup.setdefault(_norm_title_2013(title), film)
+        return lookup
+
+
+    def _merge_legacy_2013(existing, payload):
+        existing = existing if isinstance(existing, dict) else {}
+        result = dict(existing)
+        old_lookup = _old_legacy_lookup_2013(existing)
+
+        edition_data = dict(result.get("edition") or {})
+        source_edition = payload.get("edition") or {}
+        edition_data.update(
+            {
+                "number": source_edition.get("number"),
+                "roman": source_edition.get("roman"),
+                "year": source_edition.get("year"),
+                "title": source_edition.get("title"),
+                "dates": source_edition.get("dates"),
+                "venues": [
+                    venue.get("name")
+                    for venue in source_edition.get("venues") or []
+                    if isinstance(venue, dict) and venue.get("name")
+                ],
+            }
+        )
+        result["edition"] = edition_data
+
+        if not result.get("editorial"):
+            result["editorial"] = payload.get("editorial") or {}
+
+        rebuilt_sections = []
+        for source_section in payload.get("sections") or []:
+            section = {
+                "name": source_section.get("name"),
+                "type": source_section.get("type"),
+                "films": [],
+            }
+            for source_film in source_section.get("films") or []:
+                film = dict(source_film)
+                old = old_lookup.get(_norm_title_2013(film.get("title")))
+                if old:
+                    for key in ("slug", "poster", "trailer_url"):
+                        if not film.get(key) and old.get(key):
+                            film[key] = old[key]
+                    for key in ("review", "credits"):
+                        if not film.get(key) and old.get(key):
+                            film[key] = old[key]
+                section["films"].append(film)
+            rebuilt_sections.append(section)
+
+        result["sections"] = rebuilt_sections
+        return result
+
+
+    def _work_type_2013(section, film):
+        override = str(film.get("work_type") or "").strip()
+        if override:
+            return override
+        stype = str(section.get("type") or "").lower()
+        name = str(section.get("name") or "").lower()
+        if "short" in stype or "cortometraje" in name:
+            return "short"
+        return "feature"
+
+
+    def _work_section_2013(section):
+        name = str(section.get("name") or "").lower()
+        if "homenaje" in name or "aniversarios" in name:
+            return "special"
+        if "muestra informativa" in name:
+            return "panorama"
+        if "competencia" in name:
+            return "competition_int"
+        return "panorama"
+
+
+    def _local_still_2013(old_film):
+        if not old_film:
+            return ""
+        value = str(old_film.get("poster") or "").strip()
+        if value.startswith("/media/"):
+            return value[len("/media/"):]
+        if value.startswith("media/"):
+            return value[len("media/"):]
+        return ""
+
+
+    expected_section_counts_2013 = [8, 6, 1, 1, 1, 3, 36, 17]
+    section_counts_2013 = [
+        len(section.get("films") or [])
+        for section in ARCHIVE_2013.get("sections") or []
     ]
-    for w in works_viii:
-        upsert_work(e, **w)
-    print(f"Edition VIII (2013): {len(works_viii)} works seeded.")
+    if section_counts_2013 != expected_section_counts_2013:
+        raise RuntimeError(
+            f"2013 payload section counts mismatch: "
+            f"{section_counts_2013} != {expected_section_counts_2013}"
+        )
+
+    films_2013 = [
+        film
+        for section in ARCHIVE_2013.get("sections") or []
+        for film in section.get("films") or []
+    ]
+    if len(films_2013) != 73:
+        raise RuntimeError(f"2013 payload expected 73 films, got {len(films_2013)}")
+
+    problems_2013 = []
+    seen_2013 = set()
+    for film in films_2013:
+        title = str(film.get("title") or "").strip()
+        key = _norm_title_2013(title)
+        if not title:
+            problems_2013.append("<untitled>: missing title")
+        if key in seen_2013:
+            problems_2013.append(f"{title}: duplicate normalized title")
+        seen_2013.add(key)
+        if not str(film.get("director") or "").strip():
+            problems_2013.append(f"{title}: missing director")
+        if not str(film.get("country") or "").strip():
+            problems_2013.append(f"{title}: missing country")
+        if not isinstance(film.get("year"), int):
+            problems_2013.append(f"{title}: missing production_year")
+        if not isinstance(film.get("duration"), (int, float)):
+            problems_2013.append(f"{title}: missing runtime")
+    if problems_2013:
+        raise RuntimeError("2013 payload preflight failed: " + "; ".join(problems_2013))
+
+    existing_legacy_2013 = e.legacy_json if isinstance(e.legacy_json, dict) else {}
+    old_lookup_2013 = _old_legacy_lookup_2013(existing_legacy_2013)
+
+    with transaction.atomic():
+        Work.objects.filter(edition=e).delete()
+        Venue.objects.filter(edition=e).delete()
+
+        e.name = "Montevideo Fantástico VIII"
+        e.number = 8
+        e.start_date = "2013-12-10"
+        e.end_date = "2013-12-15"
+        e.status = Edition.Status.PAST
+        e.is_current = False
+        e.description_es = (
+            "Octava edición, del 10 al 15 de diciembre de 2013, en las dos salas del "
+            "Cine Universitario del Uruguay. Más de 20 largometrajes y 50 trabajos entre "
+            "cortos y mediometrajes, de 16 países. Mejor Película y Mejor Guión: "
+            "El Cosmonauta (España/Letonia/Rusia, Nicolás Alcalá). Mejor Director: "
+            "David León Sofía (Sin Señal). Mejor Actor: Zaid Baqaeen "
+            "(When Time Becomes a Woman). Mejor Actriz: Jasna Kohoutova "
+            "(CHIMÈRES/Quimeras). Mejor Iberoamericana: Volver a Morir "
+            "(Colombia, Miguel Urrutia)."
+        )
+        e.description_en = (
+            "Eighth edition, December 10–15, 2013, in the two screens of Cine Universitario "
+            "del Uruguay. More than 20 feature films and 50 short and medium-length works "
+            "from 16 countries. Best Film and Best Screenplay: El Cosmonauta "
+            "(Spain/Latvia/Russia, Nicolás Alcalá). Best Director: David León Sofía "
+            "(Sin Señal). Best Actor: Zaid Baqaeen (When Time Becomes a Woman). "
+            "Best Actress: Jasna Kohoutova (CHIMÈRES/Quimeras). Best Iberoamerican Film: "
+            "Volver a Morir (Colombia, Miguel Urrutia)."
+        )
+        e.legacy_json = _merge_legacy_2013(existing_legacy_2013, ARCHIVE_2013)
+        e.save()
+
+        venue_data_2013 = (ARCHIVE_2013.get("edition") or {}).get("venues") or []
+        for order, venue in enumerate(venue_data_2013, start=1):
+            Venue.objects.create(
+                edition=e,
+                name=str(venue.get("name") or "").strip(),
+                address=str(venue.get("address") or "").strip(),
+                description=str(venue.get("description") or "").strip(),
+                order=order,
+            )
+
+        for source_section in ARCHIVE_2013.get("sections") or []:
+            work_section = _work_section_2013(source_section)
+            participation_status = (
+                "special_screening" if work_section == "special" else "selected"
+            )
+            for film in source_section.get("films") or []:
+                title = str(film.get("title") or "").strip()
+                old = old_lookup_2013.get(_norm_title_2013(title))
+                fields = {
+                    "title": title,
+                    "director": str(film.get("director") or "").strip(),
+                    "country": str(film.get("country") or "").strip(),
+                    "production_year": int(film["year"]),
+                    "runtime": int(film["duration"]),
+                    "type": _work_type_2013(source_section, film),
+                    "section": work_section,
+                    "participation_status": participation_status,
+                    "synopsis_es": str(film.get("synopsis") or "").strip(),
+                }
+                still = _local_still_2013(old)
+                if still:
+                    fields["still"] = still
+                upsert_work(e, **fields)
+
+        actual_2013 = Work.objects.filter(edition=e).count()
+        if actual_2013 != 73:
+            raise RuntimeError(
+                f"2013 expected 73 works, got {actual_2013}; transaction rolled back."
+            )
+
+        if Work.objects.filter(edition=e, title="CHIMÈRES (Quimeras)").count() != 1:
+            raise RuntimeError("2013 CHIMÈRES canonical row validation failed")
+        if Work.objects.filter(
+            edition=e, title="Aislado", type="medium", runtime=35
+        ).count() != 1:
+            raise RuntimeError("2013 Aislado validation failed")
+        if Work.objects.filter(
+            edition=e, title="Largo fin de semana", section="special"
+        ).count() != 1:
+            raise RuntimeError("2013 Largo fin de semana validation failed")
+        if Work.objects.filter(edition=e, title__iexact="Dios local").exists():
+            raise RuntimeError("2013 Dios local must remain an advance/activity, not a Work")
+
+        legacy_counts_2013 = [
+            len(section.get("films") or [])
+            for section in (e.legacy_json or {}).get("sections") or []
+        ]
+        if legacy_counts_2013 != expected_section_counts_2013:
+            raise RuntimeError(
+                f"2013 legacy section counts mismatch: {legacy_counts_2013}"
+            )
+
+    print("Edition VIII (2013): PASS — 73 works, 1 venue, 8 normalized legacy sections.")
 else:
     print("Edition 2013 not found — skipping.")
 
@@ -834,6 +1221,7 @@ if e:
         "Best Latin American: Mirada de Cristal (Argentina, Endelman/Montejano). "
         "Audience Award: Abrakadabra (Argentina/New Zealand, Onetti)."
     )
+    e.status = Edition.Status.PAST
     e.save()
 
     works_xi = [
@@ -1095,31 +1483,202 @@ else:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Edition XIV — 2023 (previously seeded with partial data, update descriptions)
+# Editions XIV–XV — 2023–2024
+# Structured reconstruction from the project archive JSONs.
+# Full editorial/review/credits/awards content remains preserved in legacy_json.
 # ─────────────────────────────────────────────────────────────────────────────
 
-e = get_edition(2023)
-if e:
-    if not e.description_es:
-        e.description_es = (
-            "Decimocuarta edición del Montevideo Fantástico, celebrada en 2023. "
-            "Competencia internacional de largometrajes, cortometrajes y novedades del cine fantástico, "
-            "de terror y ciencia ficción de todo el mundo."
+def _archive_year_from_film(film):
+    year = film.get("year")
+    if isinstance(year, int):
+        return year
+    credits = str(film.get("credits") or "")
+    match = re.search(r"\((\d{4})\)\s*$", credits)
+    return int(match.group(1)) if match else None
+
+
+def _archive_work_type(section_name, section_type):
+    name = str(section_name or "").lower()
+    stype = str(section_type or "").lower()
+    if "mediometraje" in name:
+        return "medium"
+    if "short" in stype or "cortometraje" in name:
+        return "short"
+    return "feature"
+
+
+def _archive_work_section(section_name):
+    name = str(section_name or "").lower()
+    if "homenaje" in name:
+        return "special"
+    if "uruguay" in name and "competencia" in name:
+        return "competition_nat"
+    if "competencia" in name:
+        return "competition_int"
+    return "panorama"
+
+
+def _archive_still_path(value):
+    value = str(value or "").strip()
+    if not value:
+        return ""
+    if value.startswith("/media/"):
+        return value[len("/media/"):]
+    return value.lstrip("/")
+
+
+def _merge_archive_legacy(existing, payload):
+    """Merge without discarding richer existing editorial/venue data when payload is empty."""
+    existing = existing if isinstance(existing, dict) else {}
+    result = dict(existing)
+
+    payload_edition = dict(payload.get("edition") or {})
+    existing_edition = dict(result.get("edition") or {})
+    if not payload_edition.get("venues") and existing_edition.get("venues"):
+        payload_edition["venues"] = existing_edition["venues"]
+    existing_edition.update(payload_edition)
+    result["edition"] = existing_edition
+
+    payload_editorial = payload.get("editorial") or {}
+    existing_editorial = result.get("editorial") or {}
+    if payload_editorial.get("content") or not existing_editorial:
+        result["editorial"] = payload_editorial
+
+    for key in ("jury", "awards", "sections"):
+        if key in payload:
+            result[key] = payload[key]
+
+    return result
+
+
+def seed_archive_edition(year, payload, *, start_date, end_date, poster_path, expected_works):
+    e = get_edition(year)
+    if not e:
+        print(f"Edition {year} not found — skipping.")
+        return
+
+    films = [
+        film
+        for source_section in payload.get("sections") or []
+        for film in source_section.get("films") or []
+    ]
+    problems = []
+    for film in films:
+        title = str(film.get("title") or "").strip() or "<untitled>"
+        if not str(film.get("title") or "").strip():
+            problems.append(f"{title}: missing title")
+        if not str(film.get("director") or "").strip():
+            problems.append(f"{title}: missing director")
+        if not str(film.get("country") or "").strip():
+            problems.append(f"{title}: missing country")
+        if not isinstance(film.get("year"), int):
+            problems.append(f"{title}: missing production_year")
+        if not isinstance(film.get("duration"), (int, float)):
+            problems.append(f"{title}: missing runtime")
+    if problems:
+        raise RuntimeError(
+            f"{year}: source payload has required-field problems: {problems}"
         )
-        e.description_en = (
-            "Fourteenth edition of Montevideo Fantástico, held in 2023. "
-            "International competition of features, short films and premieres of fantastic, "
-            "horror and science fiction cinema from around the world."
-        )
+
+    with transaction.atomic():
+        Work.objects.filter(edition=e).delete()
+
+        edition_data = payload.get("edition") or {}
+        e.name = edition_data.get("title") or e.name
+        e.number = edition_data.get("number") or e.number
+        e.start_date = start_date
+        e.end_date = end_date
+        e.status = Edition.Status.PAST
+        e.is_current = False
+        e.poster = poster_path
+
+        e.legacy_json = _merge_archive_legacy(e.legacy_json, payload)
         e.save()
-        print("Edition XIV (2023): descriptions updated.")
-    else:
-        print("Edition XIV (2023): descriptions already set.")
-else:
-    print("Edition 2023 not found — skipping.")
+
+        venues = edition_data.get("venues") or []
+        if venues:
+            Venue.objects.filter(edition=e).delete()
+            for order, venue_name in enumerate(venues, start=1):
+                Venue.objects.create(
+                    edition=e,
+                    name=venue_name,
+                    address="",
+                    description="",
+                    order=order,
+                )
+
+        seeded = 0
+        for source_section in payload.get("sections") or []:
+            section_name = source_section.get("name") or ""
+            section_type = source_section.get("type") or ""
+            work_type = _archive_work_type(section_name, section_type)
+            work_section = _archive_work_section(section_name)
+            participation_status = (
+                "special_screening" if work_section == "special" else "selected"
+            )
+
+            for film in source_section.get("films") or []:
+                title = str(film.get("title") or "").strip()
+                if not title:
+                    continue
+
+                fields = {
+                    "title": title,
+                    "director": str(film.get("director") or "").strip(),
+                    "country": str(film.get("country") or "").strip(),
+                    "type": work_type,
+                    "section": work_section,
+                    "participation_status": participation_status,
+                    "synopsis_es": str(film.get("synopsis") or "").strip(),
+                }
+
+                production_year = _archive_year_from_film(film)
+                if production_year is not None:
+                    fields["production_year"] = production_year
+
+                runtime = film.get("duration")
+                if isinstance(runtime, (int, float)):
+                    fields["runtime"] = int(runtime)
+
+                still = _archive_still_path(film.get("poster"))
+                if still:
+                    fields["still"] = still
+
+                upsert_work(e, **fields)
+                seeded += 1
+
+        actual_works = Work.objects.filter(edition=e).count()
+        if actual_works != expected_works:
+            raise RuntimeError(
+                f"{year}: expected {expected_works} works, got {actual_works}; transaction rolled back."
+            )
+        print(f"Edition {year}: PASS — {actual_works} works seeded from archive payload.")
+
+
+seed_archive_edition(
+    2023,
+    ARCHIVE_2023,
+    start_date="2023-08-26",
+    end_date="2023-09-10",
+    poster_path="archive/XIV/poster.jpg",
+    expected_works=108,
+)
+
+seed_archive_edition(
+    2024,
+    ARCHIVE_2024,
+    start_date="2024-09-21",
+    end_date="2024-10-10",
+    poster_path="archive/XV/poster.jpg",
+    expected_works=97,
+)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Normalize lifecycle status for editions that have already ended.
+today = date.today()
+Edition.objects.exclude(year=2025).filter(end_date__lt=today).update(status=Edition.Status.PAST, is_current=False)
+
 # Summary
 # ─────────────────────────────────────────────────────────────────────────────
 

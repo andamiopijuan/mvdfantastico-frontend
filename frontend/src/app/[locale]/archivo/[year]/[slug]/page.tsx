@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 const STATIC_LOCALES = ["es", "en", "pt"] as const;
 
@@ -143,6 +144,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function FilmDetailPage({ params }: PageProps) {
   const { locale, year, slug } = params;
+  setRequestLocale(locale);
+  const t = await getTranslations("archive");
   const yearInt = parseInt(year, 10);
 
   const edition = await getEditionByYear(yearInt).catch(() => null);
@@ -159,7 +162,7 @@ export default async function FilmDetailPage({ params }: PageProps) {
       {/* Breadcrumb */}
       <nav className="mb-12 flex items-center gap-2 text-xs uppercase tracking-widest text-text-muted">
         <Link href={`/${locale}/archivo`} className="hover:text-plasma transition-colors">
-          Archivo
+          {t("label")}
         </Link>
         <span className="opacity-30">/</span>
         <Link href={`/${locale}/archivo/${year}`} className="hover:text-plasma transition-colors">
