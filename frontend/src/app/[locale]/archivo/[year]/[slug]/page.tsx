@@ -1,5 +1,11 @@
 import { FILMS_2026 } from "@/data/films-2026";
-import { getEditionByYear, getEditions } from "@/lib/api";
+import {
+  getArchiveEdition,
+  getLegacyArchiveYears,
+  getLegacyEdition,
+  getLegacyFeatureSlugs,
+  isRealLegacyFilmRecord,
+} from "@/lib/archive";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -29,32 +35,12 @@ export async function generateStaticParams() {
     }
   }
 
-  try {
-    const editions = await getEditions();
-    const years = editions.results
-      .map((edition) => edition.year)
-      .filter((year): year is number => typeof year === "number");
-
-    for (const year of years) {
-      const edition = await getEditionByYear(year).catch(() => null);
-      const legacyJson = edition?.legacy_json;
-      if (!legacyJson || typeof legacyJson !== "object") continue;
-
-      const sections = Array.isArray(legacyJson.sections) ? legacyJson.sections : [];
-      for (const section of sections) {
-        if (section?.type !== "features" || !Array.isArray(section.films)) continue;
-
-        for (const film of section.films.filter(isRealLegacyFilmRecord)) {
-          const normalizedSlug = typeof film.slug === "string" ? film.slug.trim() : "";
-          if (!normalizedSlug) continue;
-          for (const locale of STATIC_LOCALES) {
-            addParam(locale, year, normalizedSlug);
-          }
-        }
+  for (const year of getLegacyArchiveYears()) {
+    for (const slug of getLegacyFeatureSlugs(year)) {
+      for (const locale of STATIC_LOCALES) {
+        addParam(locale, year, slug);
       }
     }
-  } catch {
-    // Keep build-time params available from the static 2026 film list if the API is unavailable.
   }
 
   return params;
@@ -78,41 +64,6 @@ type FeatureFilm = {
   review: string | null;
 };
 
-function isRealLegacyFilmRecord(record: unknown): record is Record<string, any> {
-  if (!record || typeof record !== "object") return false;
-
-  const film = record as Record<string, any>;
-  const slug = typeof film.slug === "string" ? film.slug.trim() : "";
-  const title = typeof film.title === "string" ? film.title.trim() : "";
-
-  if (!slug || !title) return false;
-
-  const realSignals = [
-    film.director,
-    film.country,
-    film.poster,
-    film.synopsis,
-    film.review,
-    film.duration,
-    film.runtime,
-    film.year,
-    film.original_title,
-    film.trailer_url,
-    film.trailer,
-    film.image,
-    film.still,
-    film.credits,
-  ];
-
-  return realSignals.some((value) => {
-    if (typeof value === "string") return value.trim().length > 0;
-    if (typeof value === "number") return Number.isFinite(value);
-    if (Array.isArray(value)) return value.length > 0;
-    if (value && typeof value === "object") return true;
-    return false;
-  });
-}
-
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function findFilmInLegacyJson(legacyJson: Record<string, any>, slug: string): { film: FeatureFilm; sectionTitle: string } | null {
   const sections = legacyJson.sections ?? [];
@@ -127,19 +78,16 @@ function findFilmInLegacyJson(legacyJson: Record<string, any>, slug: string): { 
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const year = parseInt(params.year, 10);
-  try {
-    const edition = await getEditionByYear(year);
-    if (!edition.legacy_json) return { title: "Película — Montevideo Fantástico" };
-    const result = findFilmInLegacyJson(edition.legacy_json, params.slug);
-    if (!result) return { title: "Película — Montevideo Fantástico" };
-    const { film } = result;
-    return {
-      title: `${film.title} — Montevideo Fantástico ${edition.number ?? ""}`.trim(),
-      description: film.synopsis ?? undefined,
-    };
-  } catch {
-    return { title: "Película — Montevideo Fantástico" };
-  }
+  const edition = getArchiveEdition(year);
+  const legacyJson = getLegacyEdition(year);
+  if (!edition || !legacyJson) return { title: "Película — Montevideo Fantástico" };
+  const result = findFilmInLegacyJson(legacyJson, params.slug);
+  if (!result) return { title: "Película — Montevideo Fantástico" };
+  const { film } = result;
+  return {
+    title: `${film.title} — Montevideo Fantástico ${edition.number ?? ""}`.trim(),
+    description: film.synopsis ?? undefined,
+  };
 }
 
 export default async function FilmDetailPage({ params }: PageProps) {
@@ -148,10 +96,11 @@ export default async function FilmDetailPage({ params }: PageProps) {
   const t = await getTranslations("archive");
   const yearInt = parseInt(year, 10);
 
-  const edition = await getEditionByYear(yearInt).catch(() => null);
-  if (!edition || !edition.legacy_json) notFound();
+  const edition = getArchiveEdition(yearInt);
+  const legacyJson = getLegacyEdition(yearInt);
+  if (!edition || !legacyJson) notFound();
 
-  const result = findFilmInLegacyJson(edition.legacy_json, slug);
+  const result = findFilmInLegacyJson(legacyJson, slug);
   if (!result) notFound();
 
   const { film, sectionTitle } = result;

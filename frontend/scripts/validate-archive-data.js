@@ -110,6 +110,31 @@ for (const y of [2005, 2012, 2018]) {
   check(sectionsOf(y).some((s) => s.type === "special" && filmsOf(s).length > 0), `${y}: non-empty "special" section missing`);
 }
 
+// Archive routes must not go back to API-driven data.
+const APP_DIR = path.resolve(__dirname, "../src/app/[locale]");
+const FORBIDDEN = /@\/lib\/api|\b(getEditions|getEditionByYear|getWorksForEdition|getWorkById)\b/;
+function listSources(dir) {
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((d) => {
+    const full = path.join(dir, d.name);
+    if (d.isDirectory()) return listSources(full);
+    return /\.(tsx?|jsx?)$/.test(d.name) ? [full] : [];
+  });
+}
+for (const sub of ["archivo", "archive"]) {
+  const root = path.join(APP_DIR, sub);
+  if (!fs.existsSync(root)) { errors.push(`route directory missing: ${sub}`); continue; }
+  for (const file of listSources(root)) {
+    const m = FORBIDDEN.exec(fs.readFileSync(file, "utf8"));
+    if (m) errors.push(`${path.relative(APP_DIR, file)}: archive route must not use the API (found "${m[0]}")`);
+  }
+}
+const indexSrc = path.join(APP_DIR, "archivo", "page.tsx");
+if (fs.existsSync(indexSrc)) {
+  const s = fs.readFileSync(indexSrc, "utf8");
+  check(s.includes("@/lib/archive"), "archivo/page.tsx must read editions from @/lib/archive");
+  check(!/work_count|is_current|current_label/.test(s), "archivo/page.tsx must not render work counts or a Current badge");
+}
+
 if (errors.length) {
   console.error(`Archive data validation FAILED (${errors.length}):`);
   for (const e of errors) console.error(`  - ${e}`);
