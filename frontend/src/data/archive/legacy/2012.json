@@ -1,0 +1,484 @@
+{
+  "awards": [
+    {
+      "jury": "JAIME CLARA (Radio Sarandí – 690 AM), FABIÁN MURO (Diario El País) y NICOLÁS RESTREPO VEGA (animador y docente colombiano)",
+      "awards": [
+        {
+          "film": "NERVIO CRANEAL CERO – Director: Paulo Biscaia Filho «Por el manejo del límite en",
+          "name": "MEJOR PELÍCULA",
+          "country": "",
+          "citation": "Por el manejo del límite entre la ridiculez y el buen humor, haciendo una buena síntesis entre el horror y la comedia. Por mantener una estética original y bien definida.",
+          "director": "Paulo Biscaia Filho «Por el manejo del límite entre la ridiculez y el buen humor",
+          "recipient": ""
+        },
+        {
+          "film": "CELL COUNT",
+          "name": "MEJOR DIRECTOR",
+          "country": "Estados Unidos",
+          "citation": "Por la realización de una película que tiene una armónica combinación de horror, suspenso y ciencia ficción. La situación de encierro de los protagonistas, y las interesantes actuaciones, hacen del filme una atractiva propuesta, típica de los géneros.",
+          "director": "",
+          "recipient": "TODD E. FREEMAN"
+        },
+        {
+          "film": "TOPOS",
+          "name": "MEJOR GUIÓN",
+          "country": "Argentina)",
+          "citation": "La idea original remite a un mundo subterráneo que genera opresión y oscuridad, ingredientes básicos para la generación del suspenso al servicio del relato.",
+          "director": "Emiliano Romero",
+          "recipient": "EMILIANO ROMERO"
+        },
+        {
+          "film": "CELL COUNT",
+          "name": "MEJOR ACTOR",
+          "country": "Estados Unidos)",
+          "citation": "Su presencia contenidamente carismática logra encajar perfectamente en el guión.",
+          "director": "Todd E",
+          "recipient": "ROBERT MCKEEHEN"
+        },
+        {
+          "film": "NERVIO CRANEAL CERO",
+          "name": "MEJOR ACTRIZ",
+          "country": "Brasil)",
+          "citation": "La actriz logra una eficiente transformación y evolución de su personaje.",
+          "director": "Paulo Biscaia Filho",
+          "recipient": "UYARA TORRENTE"
+        },
+        {
+          "film": "TOPOS",
+          "name": "MENCIONES ESPECIALES",
+          "country": "Argentina)",
+          "citation": "Por la intensa composición del personaje, en un papel inesperado para una gran actriz conocida en el Río de la Plata.",
+          "director": "Emiliano Romero",
+          "recipient": "A LEONOR MANSO"
+        }
+      ],
+      "section": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES"
+    },
+    {
+      "jury": "LOS REALIZADORES ADRIÁN BARRERA, MANUEL FACAL y JOAQUÍN TOMÉ",
+      "awards": [
+        {
+          "film": "GORETECH: BIENVENIDOS AL PLANETA HIJO DE PUTA",
+          "name": "MEJOR PELÍCULA IBEROAMERICANA",
+          "country": "Argentina)",
+          "citation": "Por ser un largo que sorprende. Gran y épica historia con unos efectos especiales que acompañan.",
+          "director": "Germán Magariños",
+          "recipient": ""
+        },
+        {
+          "film": "BARIKÚ LIGHT",
+          "name": "MEJOR CORTOMETRAJE DEL FESTIVAL E IBEROAMERICANO",
+          "country": "España)",
+          "citation": "Por burlarse tanto en la cara de la publicidad, por su grotesca irreverencia de ataque y por no esperarnos ese miembro cubierto de mayonesa.",
+          "director": "Asier Abio",
+          "recipient": ""
+        },
+        {
+          "film": "LA VOZ",
+          "name": "MENCIONES ESPECIALES",
+          "country": "Argentina)",
+          "citation": "Por saber contar bien una historia, por su amalgama Orwell-La Rioja con fresca acción y montaje creativo. Por escribir, dirigir y editar de forma profesional.",
+          "director": "",
+          "recipient": ""
+        }
+      ],
+      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES E IBEROAMERICANA DE LARGOMETRAJES"
+    },
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "TOPOS",
+          "name": "MEJOR PELÍCULA",
+          "country": "Argentina)",
+          "citation": "",
+          "director": "Emiliano Romero",
+          "recipient": ""
+        },
+        {
+          "film": "BALLENA BLANCA",
+          "name": "MEJOR PELÍCULA IBEROAMERICANA",
+          "country": "Argentina)",
+          "citation": "",
+          "director": "",
+          "recipient": ""
+        },
+        {
+          "film": "ABRACADABRA",
+          "name": "MEJOR CORTOMETRAJE DEL FESTIVAL Y MEJOR CORTOMETRAJE IBEROAMERICANO",
+          "country": "México)",
+          "citation": "",
+          "director": "Alejandro Iglesias",
+          "recipient": ""
+        }
+      ],
+      "section": "PREMIOS DEL PÚBLICO — CORTOMETRAJES E IBEROAMERICANOS"
+    }
+  ],
+  "edition": {
+    "year": 2012,
+    "dates": "entre los días 21 y 25 de noviembre de 2012",
+    "roman": "VII",
+    "title": "Montevideo Fantástico VII",
+    "number": 7,
+    "poster": null,
+    "venues": [
+      "Cine Universitario"
+    ]
+  },
+  "sections": [
+    {
+      "name": "LARGOMETRAJES EN COMPETENCIA / LONG FEATURE FILMS COMPETITION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "cell-count",
+          "year": 2012,
+          "title": "CELL COUNT",
+          "poster": "/media/archive/VII/films/cell-count.jpg",
+          "review": "Hay una mezcla de géneros en este thriller de ciencia ficción del joven Todd E. Freeman, cuyo punto inicial es un futuro no muy lejano y donde la vida no vale prácticamente nada. Viendo el afiche en sí, uno podría pensar que hay claras influencias del cine de horror de los ´70, y efectivamente las hay. El terror científico es el que termina imponiéndose en un trabajo cuyo final quizás no sea tan abierto como parece, sino más bien desalentador; es evidente que lo que hay fuera del establecimiento en el que transcurre la acción principal tampoco es algo muy seguro ni prometedor. Se nota el gusto del realizador por los (primeros) trabajos de David Cronenberg y también de John Carpenter. Freeman sorprende (gráfica, explícitamente) con algunos giros y al mismo tiempo va dejando un espacio cada vez más amplio para la especulación del espectador.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Todd E",
+          "duration": 96,
+          "synopsis": "Russell Carpenter acepta, no muy convencido, que su esposa, Sadie, sea sometida a un tratamiento experimental para la enfermedad que amenaza su vida. Encerrados en una especie de prisión, junto a otras seis personas, la cura podría ser peor que la propia enfermedad… Hay una mezcla de géneros en este thriller de ciencia ficción del joven Todd E. Freeman, cuyo punto inicial es un futuro no muy lejano y donde la vida no vale prácticamente nada.",
+          "trailer_url": null
+        },
+        {
+          "slug": "dracula-0-9",
+          "year": 2012,
+          "title": "DRÁCULA 0.9",
+          "poster": "/media/archive/VII/films/dracula-0-9.jpg",
+          "review": "Innovador, original enfoque de la obra de Bram Stoker, más bien centrado en el personaje de Lucy e inspirado al mismo tiempo en el poema gótico “Espíritus de los muertos” de Edgar Allan Poe. Ambientada en tiempo presente pero con una visión que evoca especialmente a los viejos clásicos de terror de la Universal y del cine mudo europeo, esta versión no se caracteriza tanto por sus diálogos, sino por su esmerada fotografía y dirección artística, muy jugada a lo teatral, por sus personajes en sí. El director argentino (radicado en España) Emilio Schargorodsky, quien colaboró durante muchos años con Jesús Franco (y que es sobrino nieto del maestro ruso Sergei Eisenstein), mezcla romance, terror y algo de poesía, en una versión realmente llamativa del vampiro más famoso.",
+          "country": "España",
+          "credits": "",
+          "director": "Emilio Schargorodsky",
+          "duration": 81,
+          "synopsis": "Lucy, una bella joven, mantiene un apasionado y sangriento romance con Drácula. Van Helsing, un experto en ocultismo, intenta salvar a Lucy de las garras del vampiro. Muchos años después, pasados los nueve eclipses, Lucy padece una extraña amnesia y empieza a darse cuenta de su verdadera identidad, a recordar todo lo sucedido. Al mismo tiempo, empieza a notar que poco a poco se está transformando en un ser sediento de sangre; ¿conseguirá Van Helsing rescatarla?, ¿perderá algo en el camino?, ¿se hará realidad el sueño de Lucy de vivir eternamente junto a Drácula?",
+          "trailer_url": null
+        },
+        {
+          "slug": "en-las-afueras-de-la-ciudad",
+          "year": 2012,
+          "title": "EN LAS AFUERAS DE LA CIUDAD",
+          "poster": "/media/archive/VII/films/en-las-afueras-de-la-ciudad.jpg",
+          "review": "Es probablemente la mejor película chilena que ha pasado por el festival; de Patricio Valladares ya se había exhibido en el MF 3 el thriller surrealista Curriculum (2006), y ahora el cineasta nacido en la Región del Biobío sorprende con otro thriller, mucho más a tono con sus gustos por el gore , que dispone de una buena plataforma para como ir descargando violentas dosis de acción y sexo, pero al mismo tiempo justificadas en una historia de violación y venganza que evidencia algunos gustos de su realizador por el cine de Sam Peckinpah, Tobe Hooper y Adam Mason, sin olvidar el tradicional humor negro visto en Curriculum ni tampoco sus trabajos en el comic, que han incidido bastante en el perfil de sus personajes.",
+          "country": "Chile",
+          "credits": "",
+          "director": "Patricio Valladares",
+          "duration": 96,
+          "synopsis": "Inspirada en un caso real, el film cuenta la historia de Ana y Anny, dos hermanas que han crecido aisladas y que deben soportar a un padre alcohólico y abusivo, quien además guarda la droga a un traficante local, el Tío Costello. Cansadas de los maltratos, sus hijas lo denuncian a la policía y escapan aterradas al medio del bosque. Por su parte, el traficante intenta recuperar sus drogas y las manda a buscar, mientras el padre también intentará dar con ellas a como dé lugar.",
+          "trailer_url": null
+        },
+        {
+          "slug": "frankenstein-day-of-the-beast",
+          "year": 2011,
+          "title": "FRANKENSTEIN: DAY OF THE BEAST",
+          "poster": "/media/archive/VII/films/frankenstein-day-of-the-beast.jpg",
+          "review": "“Una isla, una novia, un monstruo”; el lema (o tagline) de la película es tan sencillo y directo como el estilo de película al que siempre ha apuntado su realizador. A pesar que se trata de la producción más cara hasta el momento de Ricardo Islas (U$ 1.200.000), no se aleja en absoluto de una visión esta vez muy clásica y al mismo tiempo innovadora, que inevitablemente recuerda a las viejas películas inglesas de terror (con los monstruos de la Hammer a la cabeza), más algunos típicos toques truculentos y hasta humorísticos de su realizador; todo por encima de la novela en que se basa la obra.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Demian Rugna, Fabián Forte",
+          "duration": 119,
+          "synopsis": "Un matrimonio secreto va a tener lugar en una lejana isla, con el aval de un sacerdote y siete mercenarios que evitarán cualquier tipo de obstáculo. Repentinamente aparecen cadáveres; un enemigo aparentemente sobrenatural, rápido y de gran fortaleza física irrumpe en los bosques que rodean la pequeña capilla. A medida que la masacre se intensifica, Víctor se ve obligado a confesar los crímenes que cometió y la causa por la cual todos están padeciendo la impensada situación.",
+          "trailer_url": null
+        },
+        {
+          "slug": "nervio-craneal-cero",
+          "year": 2012,
+          "title": "NERVIO CRANEAL CERO",
+          "poster": "/media/archive/VII/films/nervio-craneal-cero.jpg",
+          "review": "Nuevo trabajo de horror cómico, a cargo del brasilero Paulo Biscaia Filho, quien presentó en el MF 4 (2009) su ópera prima Morgue Story: Blood, Blowfish and Comics y de quien se exhibiera en el MF 6 (2011) las notables adaptaciones de cuentos de Poe que realizara en Nevermore . Aquí vuelve a apostar por la misma receta (tanto su debut como esta película fueron primero obras teatrales) y por varios momentos hasta con mejores resultados, un guión más sarcástico, un humor negrísimo, muy buenas actuaciones, y la ya infaltable dosis gore que lo remite a los primeros trabajos de Raimi, Peter Jackson y sobre todo Stuart Gordon.",
+          "country": "Brasil",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "La exitosa escritora Bruna Bloch pone en marcha un plan para tratar de salir de una crisis creativa y entrar en la lista de best-sellers por segunda vez consecutiva. Para eso intenta conseguir unas descargas que inyectan chips de dopamina y que, cuando son implantados en el cerebro humano generan ráfagas de inspiración. Con el fin de alcanzar el objetivo, le pide ayuda al creador de este invento, el Dr. Bartholomeu Bava, quien perdió su licencia médica después de un accidente en la investigación para crear el chip. Pero los problemas comienzan cuando Bruna decide probar la novedad en una ingenua mujer, a quien toma como conejillo de indias.",
+          "trailer_url": null
+        },
+        {
+          "slug": "pushin-up-daisies",
+          "year": 2010,
+          "title": "PUSHIN´ UP DAISIES",
+          "poster": "/media/archive/VII/films/pushin-up-daisies.jpg",
+          "review": "Ópera prima y de muy bajo presupuesto a cargo de Patrick Franklin, quien plantea una comedia cuyas divertidas situaciones (que incluyen algunas críticas al consumismo) van dando paso increíblemente a algo mucho más serio, un drama familiar con muertos vivos que sólo ofician de pretexto y que a veces hasta molestan. Premio a Mejor Película en Fantaspoa 2012.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Patrick Franklin",
+          "duration": 87,
+          "synopsis": "Un documental sobre flores… y zombies. La comedia cuenta la historia de Darren, un inepto pero bien intencionado cineasta que un verano decide regresar a su pequeño pueblo para filmar un documental sobre las flores y su significado en las etapas más importantes de la vida de un ser humano (nacimiento, matrimonio, muerte, entre otras). Con todas sus esperanzas puestas en registrar la verdad y la realidad, decide seguir a Rusty, su hermano mayor, quien se dedica al cultivo de las flores. Sus complicaciones, como la timidez de su familiar y un equipo inexperto no serán tan gravitantes como cuando tenga que enfrentarse a una invasión zombie.",
+          "trailer_url": null
+        },
+        {
+          "slug": "reacciones-adversas",
+          "year": 2011,
+          "title": "REACCIONES ADVERSAS",
+          "poster": "/media/archive/VII/films/reacciones-adversas.jpg",
+          "review": "México sigue sorprendiendo con la visión de nuevos realizadores, y esta ópera prima de David Michan (ha realizado cortos, trabajó en publicidad) constituye otro ejemplo de ello. Hay toda una crítica social, por momentos bien subrayada (al mejor estilo de los primeros trabajos de David Fincher) y en otros manifestándose de forma muy sutil, en un entorno urbano hostil y desalmado. El director plantea al mismo tiempo un juego que tiene en vilo al espectador hasta los últimos segundos de película. Muy buena actuación de Héctor Kosifakis, en un trabajo que amaga con ser una especie de desahogo al mejor estilo de Psicópata americano pero que inevitablemente termina recordando el desencanto de Taxi Driver .",
+          "country": "México",
+          "credits": "",
+          "director": "David Michan",
+          "duration": 74,
+          "synopsis": "Es la historia de Daniel, un joven con trastorno emocional y baja autoestima que es incapaz de defenderse de los abusos de su trabajo y la sociedad en general. Tras su último intento de suicidio, es medicado con antidepresivos que, lejos de ayudarlo, desencadenan en él una serie de alucinaciones, cambios de conducta y pensamientos psicóticos de venganza. Confundido entre la realidad y la fantasía, el protagonista se verá obligado a enfrentar sus propios miedos.",
+          "trailer_url": null
+        },
+        {
+          "slug": "topos",
+          "year": 2012,
+          "title": "TOPOS",
+          "poster": "/media/archive/VII/films/topos.jpg",
+          "review": "Excluidos, doble moral, el valor de los medios para llegar a un fin… lo cierto es que otra interesantísima película argentina de ciencia ficción engalana la programación de este festival, luego de lo que fuera la exhibición de Un ovni sobre mi cama , en la pasada edición. Este premiado film de Emiliano Romero (en Nueva York, en Fantaspoa) presenta una estética un tanto retro que va desde el cine mudo, pasa por algunos clásicos más recientes, y llega hasta la obra de Jeunet y Caro, desbordando surrealismo en su entorno, ambigüedad en sus personajes, y una mirada inteligente y a la vez bastante irónica a un ser marginado, dispuesto a luchar por su sueño, pero marcado por una sociedad que nunca lo perdonó por su condición. Mucha cinésica y escaso diálogo para una valiosa ópera prima, que incluye un gran trabajo protagónico de Lautaro Delgado.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Emiliano Romero",
+          "duration": 100,
+          "synopsis": "Existe una ciudad donde los desplazados de siempre definitivamente quedaron aislados bajo tierra. Son los «topos». Denigrados, condenados a arrastrarse por túneles en donde los techos son tan bajos que nadie puede estar de pie nunca, viven de las sobras de los de la superficie. El Topo, hijo del líder de la resistencia, tiene el fetiche de espiar lo que ocurre arriba en un instituto de danza. Gracias a las conspiraciones del padre se entera de la llegada de un nuevo alumno, Amadeo, y planea un secuestro para ocupar su lugar. En el intercambio comienza la historia. ¿Qué pasa con Amadeo secuestrado en el submundo? ¿Y cómo se las arregla el Topo para triunfar en el Instituto? Excluidos, doble moral, el valor de los medios para llegar a un fin.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "COMPETENCIA IBEROAMERICANA DE LARGOMETRAJES / IBERO AMERICAN LONG FEATURE FILMS COMPETITION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "ballena-blanca",
+          "year": 2011,
+          "title": "BALLENA BLANCA",
+          "poster": null,
+          "review": "Muy interesante trabajo que recoge numerosos testimonios (expertos en cetáceos, turistas, sacerdotes y hasta familiares de antiguos cazadores) y que llega a lugares como Puerto Madryn, en la provincia argentina de Chubut, y a la VIII Región de Chile (Del Biobío). Al mismo tiempo, los realizadores van intercalando material de archivo (más filmaciones, pinturas, ilustraciones) dando cuenta de famosas leyendas que involucran nada menos que al nacimiento de uno de los libros más famosos de Herman Melville, Moby Dick .",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Diana Cardini, Lucas Distéfano",
+          "duration": 52,
+          "synopsis": "Existe una gran cantidad de mitos sobre las ballenas. Desde los dibujos que ilustraban los bestiarios medievales hasta Moby Dick, cada pueblo les ha dado a las ballenas un valor especial, no exentas de misterio y respeto. La ballena parecía antaño, tal como prueban diversas láminas y leyendas, símbolo del mal. El documental pretende explorar la posibilidad de unir dos puntos antagónicos: por una parte los mitos, y la otra, la científica, compuesta por los varamientos y sonidos que emiten las ballenas y su relación con el hábitat donde viven.",
+          "trailer_url": null
+        },
+        {
+          "slug": "carne-cruda",
+          "year": 2010,
+          "title": "CARNE CRUDA",
+          "poster": "/media/archive/VII/films/carne-cruda.jpg",
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Tirso Calero",
+          "duration": 90,
+          "synopsis": "Quico y Andrés son vendedores inmobiliarios. Un fin de semana en el campo les lleva a caer en las redes de una secta de caníbales, liderada por Maruxa, una antigua hippie, especialista en la preparación de brochetas humanas. ¿Matar o morir de hambre? Esa será la cuestión…",
+          "trailer_url": null
+        },
+        {
+          "slug": "goretech-bienvenidos-al-planeta-hijo-de-puta",
+          "year": 2012,
+          "title": "GORETECH: BIENVENIDOS AL PLANETA HIJO DE PUTA",
+          "poster": "/media/archive/VII/films/goretech-bienvenidos-al-planeta-hijo-de-puta.jpg",
+          "review": "Definido como una especie de terrorista cinematográfico, el cine anti-sistema de Germán Magariños (de quien se exhibió en el pasado MF Sadomaster: Locura general ) es totalmente impulsivo y pasional; es como una película Troma, porteña y potenciada pero siempre fiel a su estilo, que transita por una ruta paralela en la que se vuelve a ver de todo: acción, gore , humor negro, transgresión, guiños a clásicos personajes, películas y canciones de los ´80, cine trash y bizarro. La delirante mezcla tiene su gancho, incluyendo algunos muy graciosos “defectos”.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Germán Magariños",
+          "duration": 77,
+          "synopsis": "Tras años de progreso y paz, la Tierra cae sumida en la peor catástrofe apocalíptica, víctima del Dr. Hell, un ser infernal que ahora domina al mundo y lo somete a su gusto. Sordo, un joven timorato y afeminado, trata de dejar de ser el hazmerreír del planeta y busca la ayuda de un enigmático anciano, experto en artes marciales, conocido como Estala. Juntos comenzaran una odisea para salvar el destino de la humanidad del poder siniestro de la maldad reinante.",
+          "trailer_url": null
+        },
+        {
+          "slug": "somos-lo-que-hay",
+          "year": 2010,
+          "title": "SOMOS LO QUE HAY",
+          "poster": "/media/archive/VII/films/somos-lo-que-hay.jpg",
+          "review": "El director Jorge Michel Grau plantea en realidad un drama con tintes terroríficos (y acompañado de una notable banda sonora), donde lo importante pasa más bien por el dilema que el mencionado adolescente debe afrontar, en una etapa de búsqueda y exploraciones personales, que a veces ofician como salida desesperada de un contexto depresivo y asfixiante. La película tendrá su remake en Estados Unidos, para el año que viene.",
+          "country": "México",
+          "credits": "",
+          "director": "Jorge Michel Grau",
+          "duration": 89,
+          "synopsis": "Un hombre muere, dejando a su mujer y a sus tres hijos en el desamparo. La familia debe ahora enfrentar no sólo la pérdida del padre, sino también el reto de continuar con un «rito» fundamental, dependiente de la caza de personas. Y la misma será liderada ahora por el hijo mayor, un joven que no parece estar listo para aceptar tal desafío. El asunto básico nace a partir de lo que el fallecido suponía: cómo enfrentar el fin del mundo, a partir de una situación económica endeble y donde la alimentación iba a ser lo primordial para poder sobrevivir.",
+          "trailer_url": null
+        },
+        {
+          "slug": "sonrie",
+          "year": 2012,
+          "title": "SONRÍE",
+          "poster": "/media/archive/VII/films/sonrie.jpg",
+          "review": "Y todo parece indicar al comienzo que lo que se va a ver es una escena de tortura detrás de otra. Pero por suerte hay filtros, cambios curiosos y por supuesto bizarros; y es que este nuevo trabajo de Marcelo Leguiza tiene sus mezclas y giros. Resulta muy gracioso ya de por sí el planteo: el grupo de empleados de la productora snuff reunido con el jefe, discutiendo un aumento de sueldo, mientras al mismo tiempo una joven trata de escapar de la productora, con la muerte respirándole en la nuca. Así es el cine de Leguiza. Ni con algo tan duro como el snuff puede dejar de divertirse. No es tan fácil lograr ese equilibrio y todavía con una buena filmación. Es todo, ya de por sí, un mérito.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Marcelo Leguiza",
+          "duration": 86,
+          "synopsis": "Todos los trabajos tienen sus complicaciones y trabajar en una productora de cine snuff no es la excepción.",
+          "trailer_url": null
+        },
+        {
+          "slug": "supay",
+          "year": 2012,
+          "title": "SUPAY",
+          "poster": "/media/archive/VII/films/supay.jpg",
+          "review": "Ambientada al interior de la árida pre-cordillera de Atacama, en la Comuna de Tierra Amarilla (en un ancestral territorio indígena minero), el aquí guionista y realizador chileno José Guerrero Urzúa lleva una historia de fantasmas a tierra desolada, con una amenaza sobrenatural que opera fuera de cuadro durante gran parte de la película (y con los sonidos como principales protagonistas) y con otra quizás más gravitante que reside en el interior de los propios personajes. Leyendas chilenas se entrecruzan en los minutos finales con buenas escenas influenciadas por el mejor terror asiático. El Supay es, según la mitología incaica, un fantasma que recorre los desiertos, un dios-demonio que descarga ira o benevolencia, según se comporten los humanos.",
+          "country": "Chile",
+          "credits": "",
+          "director": "José Guerrero Urzúa",
+          "duration": 103,
+          "synopsis": "Obsesionados en salvar su matrimonio que agoniza, un antropólogo y una psicóloga, en compañía de una pareja de amigos turistas, se aventuran rumbo al idílico Valle del Guanaco Blanco. Sin embargo, esta malograda travesía los conduce a otro lugar, inhóspito y misterioso, llamado Tambo Negro. Allí, en ese abismo, los aguarda el espíritu del Supay, el más ancestral demonio andino, que despertará de su silente lecho sacrificial, para desatar su más aterradora ira, tras sentirse invadido y ultrajado por el extravío de una naturaleza humana, enferma de perversiones y miedos ancestrales.",
+          "trailer_url": null
+        },
+        {
+          "slug": "dead-line",
+          "year": 2007,
+          "title": "DEAD LINE",
+          "poster": "/media/archive/VII/films/dead-line.jpg",
+          "review": "Otro trabajo del argentino Sergio Esquenazi ( Visitante de invierno ), de quien el festival ya exhibiera en la pasada edición They Want My Eyes y Número 8 , aquí en un modesto thriller de suspenso y terror, con buenos sobresaltos, que vuelve a demostrar una vez más la solidez de Esquenazi como narrador, y también a uno de los jóvenes directores de género más interesantes de la vecina orilla, aquí en su ópera prima.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Sergio Esquenazi",
+          "duration": 82,
+          "synopsis": "Un publicista desempleado y al que acaba de dejar su novia, comienza a escuchar involuntariamente llamadas telefónicas desde su apartamento; las conversaciones de un asesino serial con prostitutas. El protagonista sale desesperado a pedir ayuda, pero nadie parece darle mucha importancia. Las cosas se ponen peor aún cuando el criminal descubre quién es el que está escuchando sus llamadas.",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-zombie-farm",
+          "year": 2010,
+          "title": "THE ZOMBIE FARM",
+          "poster": "/media/archive/VII/films/the-zombie-farm.jpg",
+          "review": "Puede ser vista como una película de terror, también como un drama de connotaciones sociales, o en realidad como una comedia capaz de reunir todo a la vez. Se trata del penúltimo trabajo de Ricardo Islas, fiel a su género preferido, que toca nuevamente temas inquietantes (inmigrantes en EE.UU., violencia doméstica) y que hasta se da el lujo de filtrar algunas situaciones humorísticas con bastante ingenio. Es también la segunda película más cara de toda su trayectoria (750.000 dólares de presupuesto), y representa el debut en el cine para la uruguaya Nadia Rowinsky.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Ricardo Islas",
+          "duration": 89,
+          "synopsis": "Desesperada por terminar con los maltratos que sufre a manos de su marido, una joven buscará ayuda en un hechicero conocido por sus prácticas de voodoo. Pero el remedio será aún peor, ya que su marido, a quien había dado por muerto tras un altercado, volverá a la vida transformado en un zombie. Éste no tardará en liderar una sangrienta revuelta tras convertir a la gente del pueblo en no muertos.",
+          "trailer_url": null
+        },
+        {
+          "slug": "pickmans-model",
+          "year": 2011,
+          "title": "Pickman´s Model",
+          "poster": null,
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Michael Shlain",
+          "duration": null,
+          "synopsis": "Un hombre baja a un sótano y descubre que unas pinturas son mucho más que eso.",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-maldicion-de-yig",
+          "year": 2011,
+          "title": "La maldición de Yig",
+          "poster": null,
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Paul von Stoetzel",
+          "duration": null,
+          "synopsis": "En 1928, una joven estudiante visita el Asilo de Guthrie, en Oklahoma, rastreando los orígenes del culto local al Dios-Serpiente, Yig. Allí encuentra a la última sobreviviente de una terrible Noche de Brujas en 1889. A medida que va descifrando la historia de Walker y Audrey Davis, comienza a caer bajo el efecto de un terrorífico hechizo que cambiará su vida. Basada en una historia de H. P. Lovecraft y Zealia Bishop, que también fue obra teatral.",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-llamada-de-cthulhu",
+          "year": 2005,
+          "title": "La llamada de Cthulhu",
+          "poster": null,
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Andrew Leman",
+          "duration": null,
+          "synopsis": "El legado de un profesor, fallecido misteriosamente, llevará a su nieto a iniciar una complicada investigación que pondrá al descubierto la terrorífica existencia de una milenaria raza de criaturas que esperan en letargo el día de su advenimiento.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "HOMENAJE: 25 AÑOS (Y MONEDAS) DE RICARDO ISLAS / TRIBUTE TO URUGUAYAN FILMMAKER RICARDO ISLAS",
+      "type": "special",
+      "films": [
+        {
+          "year": 1993,
+          "title": "PLENILUNIO",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "",
+          "director": "Ricardo Islas",
+          "duration": null,
+          "synopsis": "Una serie de asesinatos conmueve la apacible ciudad de Colonia del Sacramento, y se sospecha que hay una amenaza sobrenatural detrás de esas muertes.",
+          "trailer_url": null
+        },
+        {
+          "year": 2004,
+          "title": "PARA MATAR A UN ASESINO",
+          "poster": null,
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Ricardo Islas",
+          "duration": null,
+          "synopsis": "La obra se centra en la historia de un asesino retirado que viaja de México a Estados Unidos buscando un futuro mejor. Pero los problemas económicos lo llevan a retomar la vieja senda, al ser contratado para liquidar a un peligroso y despiadado psicópata que pone en jaque a toda la ciudad de Chicago. Sin embargo, el cazador termina siendo presa, junto a su familia, de una verdadera pesadilla de terror y muerte. Dentro del reparto figuran legendarias estrellas del cine de acción mexicano, como Hugo Stiglitz y Jorge Reynoso. (To Kill a Killer) – Estados Unidos, 2004",
+          "trailer_url": null
+        },
+        {
+          "year": 2011,
+          "title": "Abracadabra",
+          "poster": null,
+          "review": null,
+          "country": "México",
+          "credits": "",
+          "director": "Alejandro Iglesias",
+          "duration": null,
+          "synopsis": "Fermín, un tipo frustrado que constantemente fantasea con ser mago, asesina a Mariana, su esposa, cuando descubre que le ha sido infiel. Pero los problemas apenas empiezan: Mariana pronto regresa de entre los muertos para acecharlo, mientras Fermín trata de deshacerse de su zombie de una vez por todas.",
+          "trailer_url": null
+        },
+        {
+          "year": 2011,
+          "title": "Barikú Light",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Asier Abio",
+          "duration": null,
+          "synopsis": "Feliciano cena papas fritas con mayonesa light, mientras ve la televisión. Es una aburrida noche de viernes, hasta que comienza a ver sexo… y empieza a perder la cabeza. Premiado en Amposta (España).",
+          "trailer_url": null
+        },
+        {
+          "year": 2011,
+          "title": "El blanco es el mejor",
+          "poster": null,
+          "review": null,
+          "country": "Francia",
+          "credits": "",
+          "director": "Greg Ruggeri",
+          "duration": null,
+          "synopsis": "Cuando eres un zombie acostumbrado a comer hombres de negocios en terrenos de golf de prestigio y que nunca ha visto un afrodescendiente, piensas un poco antes de devorar un caminante perdido con la piel oscura. Pero la cocina es también un lugar para descubrir y crear. Premiado en España, Francia, Suiza y Argentina. Seleccionado para Sitges 2011. (Le blanc c’est le meilleur)",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE CORTOMETRAJES / SHORT FILMS INFORMATIVE SESSION",
+      "type": "shorts-catalog",
+      "films": [
+        {
+          "year": 2012,
+          "title": "Cuando nieva sobre el hielo del infierno (2012) – Dirección: Pedro Jaén R. – 8´ – ESPAÑA En lo obscuro",
+          "poster": null,
+          "review": null,
+          "country": "México",
+          "credits": "",
+          "director": "Saulo Corona – 6´- MÉXICO La noche de los perros de mierda (2012) – Dirección: Georgina Zanardi – 16´ – ARGENTINA No (2011) – Dirección: Guillermo P",
+          "duration": null,
+          "synopsis": "Cuando nieva sobre el hielo del infierno",
+          "trailer_url": null
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "title": "Crónica de la edición VII",
+    "author": "Alejandro Yamgotchian",
+    "content": [
+      "Prácticamente alcanzando el número de espectadores de la pasada edición (y con un día menos en la programación respecto a 2011), culminó la séptima edición de Montevideo Fantástico, el festival internacional cinematográfico de terror, fantasía y ciencia ficción de Uruguay, que tuvo lugar entre los días 21 y 25 de noviembre de 2012, en las dos salas de Cine Universitario (Canelones 1280).",
+      "Cine independiente y ultraindependiente de unos 13 países dieron forma a un evento que contó con casi 30 largometrajes (16 de ellos en Competencia Internacional e Iberoamericana) y más de 30 trabajos entre cortos y mediometrajes, en tan solo 5 días.",
+      "Varios artistas argentinos, entre directores, productores, actores y técnicos, llegaron al festival para presentar sus respectivos trabajos, como Marcelo Leguiza (realizador del largo Sonríe y que comenzó con el rodaje en Uruguay de algunas escenas para su próximo trabajo) y Ezequiel Piñeyro (coproductor del film Goretech: Bienvenidos al Planeta Hijo de Puta ).",
+      "El Festival, además, contó con la presencia del animador y docente colombiano Nicolás Restrepo Vega, de la Universidad de Medellín, quien no solo participó como Jurado en la categoría de Largometrajes Internacionales, sino también como panelista en una de las mesas redondas, dedicada a las «Maquinitas de ayer y videojuegos de hoy», junto al Lic. Adrián Barrera, recorriendo la historia de los videojuegos y cómo fueron evolucionando y también incidiendo en la sociedad moderna."
+    ]
+  }
+}

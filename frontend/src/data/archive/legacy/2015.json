@@ -1,0 +1,768 @@
+{
+  "awards": [
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "La casa del fin de los tiempos",
+          "name": "MEJOR PELÍCULA DEL FESTIVAL",
+          "country": "Venezuela)",
+          "citation": "Por tratarse de un ingenioso thriller sobrenatural, que inquieta y a la vez conmueve al espectador.",
+          "director": "Alejandro Hidalgo",
+          "recipient": ""
+        },
+        {
+          "film": "Alejandro Hidalgo",
+          "name": "MEJOR DIRECCIÓN",
+          "country": "por La casa del fin de los tiempos",
+          "citation": "Por su capacidad para crear climas, manejar el suspenso, y armar hábilmente y con solvencia una historia que transita por varios géneros y subgéneros cinematográficos.",
+          "director": "",
+          "recipient": ""
+        },
+        {
+          "film": "Dimitris Bavellas",
+          "name": "MEJOR GUIÓN",
+          "country": "por Runaway Day",
+          "citation": "Por su idea original, por la simbología y el formato utilizado para transmitir las ansiedades e inquietudes de los ciudadanos de Atenas, ante una grave crisis económica.",
+          "director": "",
+          "recipient": ""
+        },
+        {
+          "film": "Glenn Maynard",
+          "name": "MEJOR ACTOR",
+          "country": "por Chocolate, Strawberry, Vanilla",
+          "citation": "Por los matices desplegados para desarrollar un complejo personaje, en un guión que también le competía con creces pero que no llegó a opacarlo",
+          "director": "",
+          "recipient": ""
+        },
+        {
+          "film": "Ruddy Rodríguez",
+          "name": "MEJOR ACTRIZ",
+          "country": "por La casa del fin de los tiempos",
+          "citation": "Por ser uno de los principales sostenes de la película, realizando una sólida y más que convincente labor.",
+          "director": "",
+          "recipient": ""
+        }
+      ],
+      "section": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES"
+    },
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "C 412",
+          "name": "MEJOR CORTOMETRAJE DEL FESTIVAL",
+          "country": "Francia",
+          "citation": "Por transformar un hecho histórico menor en algo fantástico, mediante una sensible e imaginativa creación; donde una vez más, se manifiesta que las respuestas, incluso a las penas y las tragedias, se encuentran en la naturaleza. Una mirada perceptiva, pura, que descubre sombras y colores; que puede ver del otro lado.",
+          "director": "Philippe Jasmin",
+          "recipient": ""
+        },
+        {
+          "film": "Óscar desafinado",
+          "name": "MEJOR CORTOMETRAJE IBEROAMERICANO",
+          "country": "España",
+          "citation": "Por mostrar un trabajo muy bien logrado desde el guión hasta lo actoral. Por contar con atractivos ingredientes: suspenso, humor negro, terror psicológico,… que alcanzan un extraordinario efecto.",
+          "director": "Mikel Alvariño",
+          "recipient": ""
+        },
+        {
+          "film": "Surnature",
+          "name": "MENCIONES ESPECIALES",
+          "country": "Francia",
+          "citation": "Por desplegar el arte y la poesía a través de una imperceptible anécdota, de una sinestesia que destaca la naturaleza sensitiva, en ebullición, que se estira hacia el ser humano que sabe acercársele y se le entrega.",
+          "director": "Nicolas Lemaire",
+          "recipient": ""
+        }
+      ],
+      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES"
+    },
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "Chocolate, Strawberry, Vanilla",
+          "name": "MEJOR LARGOMETRAJE DEL FESTIVAL",
+          "country": "Australia)",
+          "citation": "",
+          "director": "Stuart Simpson",
+          "recipient": ""
+        },
+        {
+          "film": "Impétigo",
+          "name": "MEJOR LARGOMETRAJE IBEROAMERICANO",
+          "country": "Uruguay)",
+          "citation": "",
+          "director": "",
+          "recipient": ""
+        },
+        {
+          "film": "Óscar desafinado",
+          "name": "MEJOR CORTOMETRAJE DEL FESTIVAL Y MEJOR CORTOMETRAJE IBEROAMERICANO",
+          "country": "España",
+          "citation": "",
+          "director": "Mikel Alvariño",
+          "recipient": ""
+        }
+      ],
+      "section": "PREMIOS DEL PÚBLICO"
+    }
+  ],
+  "edition": {
+    "year": 2015,
+    "dates": "Del 2 al 6 de setiembre",
+    "roman": "IX",
+    "title": "Montevideo Fantástico IX",
+    "number": 9,
+    "poster": null,
+    "venues": [
+      "Cine Universitario del Uruguay",
+      "sala Lumière"
+    ]
+  },
+  "sections": [
+    {
+      "name": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES / INTERNATIONAL LONG FEATURE FILMS COMPETITION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "chocolate-strawberry-vanilla-crema-frutilla-chocolate",
+          "year": 2014,
+          "title": "CHOCOLATE, STRAWBERRY, VANILLA",
+          "poster": "/media/archive/IX/films/chocolate-strawberry-vanilla-crema-frutilla-chocolate.jpg",
+          "review": "El australiano Stuart Simpson (conocido por El monstro del mar, exhibida en el MF 2011) plantea una comedia que se va tornando cada vez más negra y hasta caricaturesca, que transita por otros géneros (thriller, terror, fantasía, con referencias a los ´70 y ´80´s) pero que en el fondo es un drama, tremendamente potenciado por la labor de su protagonista Glenn Maynard, quien trata de convivir con su soledad, obsesiones, la incomprensión y la discriminación de la sociedad, mientras se desahoga en una cámara a la que le va confesando todo lo que piensa.",
+          "country": "AUSTRALIA",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Un vendedor de helados, gran admirador de Clint Eastwood, termina obsesionándose con la actriz de una telenovela, y queda atónito cuando ésta termina comprándole un helado en su propio camión. A partir de ahí el personaje principal va perdiendo la compostura y en especial la noción de cuál es el mundo real y cuál el de ficción. Premiada en Australia y Estados Unidos.",
+          "trailer_url": null
+        },
+        {
+          "slug": "fabulas-negras",
+          "year": 2014,
+          "title": "FÁBULAS NEGRAS",
+          "poster": "/media/archive/IX/films/fabulas-negras.jpg",
+          "review": null,
+          "country": "BRASIL",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Cuatro niños amigos se van a jugar con sus disfraces y espadas de madera al bosque, y entre luchas y juegos, cada uno empieza a contar una historia de terror, a propósito de extraños lugares y personajes que no se sabe si existieron o fueron producto de la más pura imaginación.",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-casa-del-fin-de-los-tiempos",
+          "year": 2013,
+          "title": "LA CASA DEL FIN DE LOS TIEMPOS",
+          "poster": "/media/archive/IX/films/la-casa-del-fin-de-los-tiempos.jpg",
+          "review": "Según palabras de su director, “ es una obra que, además de estar cargada de suspenso de principio a fin, también viene llena de grandes sorpresas y revelaciones, en medio de un drama humano y conmovedor ”. Se trata de la primera película de terror venezolana y también de la ópera prima (filmada en Caracas) de su realizador, guionista, montajista y productor, Alejandro Hidalgo, quien parece darle un cachetazo a todos los reciclajes y homenajes del subgénero de casas embrujadas (y/o con actividades paranormales) para imponer su propia visión cinéfila en este thriller sobrenatural, metiendo mucho miedo sutil y un guión por momentos interesantísimo, que incluso logra llevar hábilmente la película hacia el terreno de la ciencia ficción. Sorpresa y pico este ejercicio de terror caribeño, hecho por un director al que no conviene perderle la pisada, y notablemente protagonizado por la famosa actriz y cantante (ex Miss Venezuela) Ruddy Rodríguez. Gran éxito de público (casi 650.000 espectadores), crítica y taquilla (4.500.000 de dólares) en Venezuela, y ganadora de varios premios locales e internacionales en festivales de cine de género.",
+          "country": "VENEZUELA",
+          "credits": "",
+          "director": "Alejandro Hidalgo",
+          "duration": 101,
+          "synopsis": "Dulce es una madre de familia que tiene encuentros aterradores con apariciones dentro de su vieja casa, lugar donde se desata una terrible profecía. Treinta años después, Dulce, convertida en anciana, regresa a la casa para descifrar el misterio y la tragedia que tanto la ha atormentado.",
+          "trailer_url": null
+        },
+        {
+          "slug": "runaway-day",
+          "year": 2013,
+          "title": "RUNAWAY DAY",
+          "poster": "/media/archive/IX/films/runaway-day.jpg",
+          "review": "Otra de las grandes sorpresas del festival, este drama de ciencia ficción, filmado en 16mm. y en blanco y negro, con un formato bastante fiel al de las películas fantásticas norteamericanas clase B de la década del ´50, con el fin de simbolizar de alguna manera la desesperación, el desconcierto, la incomodidad de los griegos en tiempos de crisis, a los que no se les ocurre otra cosa que huir de sus hogares, llevando consigo sus deseos más profundos e impensados. Según su director, “ esta Atenas contemporánea es una ciudad que se encuentra en plena descomposición. Y lo mismo parecen estar sintiendo los atenienses, con esa presión implacable y creciente que los conduce a un éxodo masivo, un escape en carácter de pandemia, que los sumerge en un ambiente aún más triste, el escape de la una vez hermosa ciudad de Atenas, que va colapsando poco a poco junto a la cultura occidental. ”",
+          "country": "GRECIA",
+          "credits": "",
+          "director": "Dimitris Bavellas",
+          "duration": 83,
+          "synopsis": "María y Lucas deciden, sin ninguna razón aparente, huir de sus hogares, ya que cada uno de ellos enfrenta diversos problemas. Escapando de sus prisiones personales, comienzan a vagar por la Atenas moderna. Pero ese paseo (también una exploración) pasa de ser gracioso a peligroso, cuando ambos cometen una serie de ilegalidades, al encontrarse con personajes muy particulares que empiezan a perseguirlos. Todo esto sólo unas horas antes de que el pueblo entero siga gradualmente el ejemplo de los protagonistas, huyendo masivamente de Atenas y convirtiendo a la capital griega en una ciudad fantasma.",
+          "trailer_url": null
+        },
+        {
+          "slug": "en-programa-monstruos-tristes",
+          "year": 2015,
+          "title": "En programa: Monstruos tristes",
+          "poster": null,
+          "review": null,
+          "country": "Smutne Potwory",
+          "credits": "",
+          "director": "Justyna Tafel",
+          "duration": null,
+          "synopsis": "Polonia, 2013 – El mundo visto a través de una niña, la cual cree ser una princesa, y su padre, un caballero que pelea contra monstruos malvados. Ella posee un arma universal: la imaginación, que le permite sobrevivir al menos que ideal mundo de los adultos. Sin embargo, cada día se acerca más a cruzar ese límite mágico de la infancia, dándose cuenta de que el mundo es muy diferente de lo que creía. Premiado en Canadá, Chipre, Estados Unidos, México, Perú y Polonia.",
+          "trailer_url": null
+        },
+        {
+          "slug": "solos-a-bordo",
+          "year": 2013,
+          "title": "SOLOS A BORDO",
+          "poster": "/media/archive/IX/films/solos-a-bordo.jpg",
+          "review": "Tiene casi todos los ingredientes de un típico “Cuento de la Cripta”, pero con el paso de los minutos la intriga se va tiñendo de un humor negrísimo, con un antihéroe ya de entrada desconcertado con los cada vez más extraños sucesos que van aconteciendo, al punto tal que su mente pasa como a razonar en un mundo paralelo. El realizador Guay (de nacionalidad belga, pero nacido en Canadá) no solo hizo el guión sino también el montaje, el maquillaje y los efectos especiales. Y además hace animación. Premiada en España, Estados Unidos, Italia y México.",
+          "country": "BÉLGICA",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Capra es un representante de seguros. Un día, después de sufrir un asalto donde es salvajemente agredido, levanta con su auto a una mujer que hacía dedo en la carretera. Ella le pide que siga manejando lo más lejos que pueda, aunque él le sugiere parar en el hotel más próximo para reponerse. Finalmente acepta el pedido de la mujer…",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-sacrifice",
+          "year": 2015,
+          "title": "THE SACRIFICE",
+          "poster": "/media/archive/IX/films/the-sacrifice.jpg",
+          "review": "El tema de los espíritus vuelve a estar presente, con más fuerza que nunca, en la obra de Ricardo Islas (cuyo primer trabajo, curiosamente, fue un corto llamado Posesión, 1986), y un policía de Chicago es el que tendrá que hacerle frente a esta implacable entidad demoníaca, que amenaza a sus seres más queridos. Como es tradicional en el cine de Islas, el buen suspenso y terror están asegurados, además de un esmerado trabajo de maquillaje y efectos visuales.",
+          "country": "ESTADOS UNIDOS",
+          "credits": "",
+          "director": "Ricardo Islas",
+          "duration": 111,
+          "synopsis": "Dos inocentes niños, una antigua maldición, y una carrera contra el tiempo para salvar sus almas. La historia comienza con un misterioso crimen al norte de la India, y prosigue con una familia que llega a Estados Unidos para permanecer con algunos parientes en Chicago. Pero algo pasa con los dos pequeños hermanos; se sienten inseguros, con miedo. Ellos saben que algo que no pueden ver los está acechando hasta en la oscuridad de su propia casa; un mal imparable que no descansará hasta haber logrado su objetivo.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE LARGOMETRAJES",
+      "type": "shorts-catalog",
+      "films": [
+        {
+          "year": 2014,
+          "title": "EL ONANISTA PERTURBADO",
+          "poster": null,
+          "review": null,
+          "country": "ARGENTINA",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Jero es un adicto al sexo y la masturbación que, debido a un alerta de su propio cuerpo ante tanto exceso, se une a un grupo de adictos. Como el grupo no lo ayuda a superar su problema, se refugia en la religión, donde deberá enfrentarse a otro tipo de demonios.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "HISTORIAS DE NUNCA ACABAR",
+          "poster": null,
+          "review": null,
+          "country": "ARGENTINA",
+          "credits": "",
+          "director": "Mariana Catanzaro, Christian Miani, Fabián Moreno",
+          "duration": 64,
+          "synopsis": "María es una escritora de cuentos eróticos a punto de dar el gran salto. Pablo, su marido, un alienado oficinista acuciado de problemas económicos que no hacen más que desmoronar su autoestima. Se aman, y cada cual desde su lugar, intenta recuperar esa felicidad que les perteneció, enfrentándose a miedos, neurosis, paranoias y fantasías, que a veces servirán como fuente de inspiración y otras tantas solamente para gestar agobiantes pesadillas.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "IMPÉTIGO",
+          "poster": null,
+          "review": null,
+          "country": "URUGUAY",
+          "credits": "",
+          "director": "Silvia Antúnez",
+          "duration": 78,
+          "synopsis": "Amanda es una diva infeliz, casada con su productor, el enano Ezequiel, que la desprecia y engaña con un hombre. En paralelo, el malvado payaso Mistral, antiguo novio de la diva, ha prosperado con su circo tipo cabaret y clama venganza, pues nunca se ha repuesto de su desengaño amoroso. Esta historia de amor contrariado es la excusa para ver desfilar toda una galería de personajes singulares y de tramas paralelas que se entretejen en torno a un crimen misterioso que da nombre a la película.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "LOS SÚPER BONAERENSES",
+          "poster": null,
+          "review": null,
+          "country": "ARGENTINA",
+          "credits": "",
+          "director": "Germán Magariños",
+          "duration": 84,
+          "synopsis": "Dos policías cocainómanos deben dar con el paradero de un peligroso narcotraficante, que amenaza con expandir rápidamente su imperio de crimen y corrupción, encontrándose con las más peligrosas y delirantes situaciones.",
+          "trailer_url": null
+        },
+        {
+          "year": 2013,
+          "title": "ULISES",
+          "poster": null,
+          "review": null,
+          "country": "MÉXICO",
+          "credits": "",
+          "director": "Abel Amador Alcalá",
+          "duration": 97,
+          "synopsis": "Ulises es un joven que se encarga de enterrar cuerpos en una fosa lombrícola, y quiere juntar suficiente dinero para llevarse a su madre enferma de vacaciones a Alaska. Al mismo tiempo trata de recapitular su vida, pero su subconsciente se mezcla de manera frecuente con su consciente, haciendo difícil la distinción entre realidad e imaginación. Ahí es cuando comienza en él un proceso de descomposición física, mental y espiritual.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "COMPETENCIA OFICIAL DE CORTOMETRAJES / SHORT FILMS OFFICIAL COMPETITION",
+      "type": "shorts",
+      "films": [
+        {
+          "year": 2014,
+          "title": "1+1",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Ramón Lázaro",
+          "duration": null,
+          "synopsis": "En una sala de interrogatorio dos hombres cuentan una historia… A veces no existe un único resultado… Un homenaje a Lev Kuleshov, y a su efecto…",
+          "trailer_url": null
+        },
+        {
+          "year": 2013,
+          "title": "A veces viene",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Félix Llorente",
+          "duration": null,
+          "synopsis": "Sara se prepara para salir a cenar con una amiga. De pronto, algo la hace no sentirse sola en casa. Premiado en Escocia y Estados Unidos.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Anómalo",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Aitor Gutiérrez",
+          "duration": null,
+          "synopsis": "Una comedia que ironiza sobre el suspense y en la que tres jubilados se dedican a espiar a los vecinos durante la noche.",
+          "trailer_url": null
+        },
+        {
+          "year": 2013,
+          "title": "Baskin",
+          "poster": null,
+          "review": null,
+          "country": "Turquía",
+          "credits": "",
+          "director": "Can Evrenol",
+          "duration": null,
+          "synopsis": "Un grupo de policías acude a investigar extraños sucesos en una desolada zona urbana, y termina en un antro sórdido, dedicado a rituales satánicos. Un viaje visceral a la oscuridad más profunda del mal. Seleccionado para Sitges y el Fantastic Fest de Austin.",
+          "trailer_url": null
+        },
+        {
+          "year": 2013,
+          "title": "C 412",
+          "poster": null,
+          "review": null,
+          "country": "Francia",
+          "credits": "",
+          "director": "Philippe Jasmin",
+          "duration": null,
+          "synopsis": "Lisa tiene 13 años. Le gusta andar en bicicleta y escuchar el sonido del viento en los árboles. Suele no hacerle mucho caso a su madre, y se encuentra muy ocupada en sus vacaciones, viendo a su mejor amiga, visitando a su querido tío, y preguntando sobre su padre, al que nunca pudo ver. Un día, viniendo del bosque, rompe la cadena de su bicicleta. Allí es cuando se encuentra con Paolo, un artista experimental.",
+          "trailer_url": null
+        },
+        {
+          "year": 2013,
+          "title": "Canis",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Marc Riba y Anna Solanas",
+          "duration": null,
+          "synopsis": "Teo sobrevive aislado en una casa asediada por una manada de perros salvajes. Premiado en Corea del Sur, España, Estonia, Francia e Italia.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Castillo y el Armado",
+          "poster": null,
+          "review": null,
+          "country": "Brasil",
+          "credits": "",
+          "director": "Pedro Harres",
+          "duration": null,
+          "synopsis": "Castillo es un joven trabajador portuario en una playa en la frontera entre Brasil y Uruguay. Divide su tiempo entre las alfombras que tiene que cargar su familia y una caña de pescar en el muelle. En una noche con mucho viento encuentra su propia brutalidad en la línea del gancho. Premiado en Brasil, Cuba, Macedonia y México.",
+          "trailer_url": null
+        },
+        {
+          "year": 2015,
+          "title": "Dios reconocerá a los suyos –",
+          "poster": null,
+          "review": null,
+          "country": "Dieu reconnaîtra les Siens",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "El imperio de los sueños (Uruguay, 2014) – Un joven no para de soñar con un misterioso hombre que lo atormenta una y otra vez. Su novia intenta ayudarlo pero sin suerte. La frontera entre la realidad y lo onírico se torna cada vez más difusa. Guión y Dirección: Matteo Basterrica. Con Carmela Tzigana, Federico Guerra, Levón Burunsuzian. Duración: 22 minutos",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Escape",
+          "poster": null,
+          "review": null,
+          "country": "Alemania",
+          "credits": "",
+          "director": "Dieter Primig",
+          "duration": null,
+          "synopsis": "Atrapado en una oficina gris y aburrida, Johann (45) está sentado frente a su computadora, trabajando en varios documentos. Pero suele escapar con frecuencia de esta vida, yendo a su propio mundo.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Genti Di Muerti",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Rubén Barbosa",
+          "duration": null,
+          "synopsis": "Javier es un niño muy especial, sobrenatural, con un lado oscuro. La relación entre padre e hijo ha sido fría y distante desde la muerte de la madre. La vuelta al pueblo trae viejos recuerdos y juegos con Laura, su amiga desde la infancia, quien parece ser la única que no ve a Javier más allá de lo que es, un niño. Sin embargo la repentina muerte del abuelo de Laura enfrentará a la niña a Javier, a quien responsabilizará de su muerte. Esto hace que Javier tome conciencia de su propia naturaleza y decida enfrentarse a los verdaderos causantes de tanto dolor…; aquellos de los que no se habla. A veces no es fácil saber quién eres. Competencia Oficial Sitges.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Ghostly",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Eric Monteagudo & Orio Peñalver",
+          "duration": null,
+          "synopsis": "Dylan siempre está de malhumor. Se pasa las tardes jugando a los videojuegos y tratando mal a su madre. Un buen día recibe la visita de un personaje muy especial: Ghostly, un fantasma que se encuentra atrapado en el mundo de los vivos y con una lista de buenas acciones que debe realizar para poder ganarse el cielo. La última de sus tareas es precisamente corregir la conducta de un niño. Ghostly intenta por las buenas llamar la atención del chico y hacerle ver que debe cambiar de actitud. Sin embargo Dylan odia que le interrumpan mientras juega…",
+          "trailer_url": null
+        },
+        {
+          "year": 2013,
+          "title": "Juegos de guerra: La batalla escondida",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Bruno Scopazzo",
+          "duration": null,
+          "synopsis": "Michael es un soldado dispuesto a dar todo por cumplir su misión. Sabiendo de la importancia que representa su éxito, guía a su compañero en busca de la victoria, poniendo en juego grandes valores como la amistad y el compañerismo en la búsqueda de una misma ilusión. Premiado en Mar del Plata y el BARS.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "La Nouvelle Vague sí que molaba",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "de cine que está ante su gran proyecto",
+          "duration": null,
+          "synopsis": "Jacinto Nach es un joven",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Magia",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Iker Arce",
+          "duration": null,
+          "synopsis": "Con la lógica y la inocencia de una niña de 7 años, Carla cree que puede hacer algo para reunir a su familia: acabar el dibujo antes de que el sol de la mañana alumbre la hoja.",
+          "trailer_url": null
+        },
+        {
+          "year": 2013,
+          "title": "MIENIN",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "David Cordero García",
+          "duration": null,
+          "synopsis": "M sabe que todo acabará hoy. Lo repitieron incesantemente. La fecha quedó grabada en la memoria colectiva, en el mismo momento en el que televisaron aquellas imágenes. La sensación de sentirse MIcroscópico ENano e INsignificante fue algo completamente nuevo y aterrador.",
+          "trailer_url": null
+        },
+        {
+          "year": 2013,
+          "title": "No mires ahí",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Daniel Romero",
+          "duration": null,
+          "synopsis": "Marta vuelve a casa de su madre para pasar unos días con su hermana pequeña. El extraño comportamiento de la niña y el recuerdo latente de un triste suceso provocarán que Marta sospeche que la casa está siendo habitada por una inquietante presencia.",
+          "trailer_url": null
+        },
+        {
+          "year": 2013,
+          "title": "No tiene gracia",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Carlos Violadé",
+          "duration": null,
+          "synopsis": "Manolo y María. Viven juntos y se quieren. A Manolo le encanta hacer bromas constantemente. María tiene mucha paciencia y sentido del humor. Pero Manolo no sabe que para realizar una broma uno tiene que asumir todas las consecuencias.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Óscar desafinado",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Mikel Alvariño",
+          "duration": null,
+          "synopsis": "“Enfréntate a tus fantasmas del pasado”. Eso es lo único que le pide Ana a Óscar, para estar juntos. Pero esos fantasmas son… el fantasma de la difunta novia de Óscar. Y Ana no conocía a Violeta… Premio a Mejor Cortometraje en Sitges.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Pequeña María",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Pedro Ruiz Alia",
+          "duration": null,
+          "synopsis": "María es una niña que mezcla la realidad con la imaginación. El hecho de que ella pueda afrontar el trauma que esto le supone dependerá de la relación y sinceridad que mantenga con su padre y del aprendizaje que encuentra en un anciano del pueblo, al que la gente llama “viejo cenizo”, pensando que está maldito.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Reacción en cadena",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Andoni Garrido",
+          "duration": null,
+          "synopsis": "En el autobús de regreso a casa un extraño hombre le da una nota a Germán, en la que predice su muerte. Imbuido por la curiosidad sigue al hombre y averigua que está metido en algo que le supera, algo que pondrá en peligro su vida y a toda la humanidad.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Récord",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Joaquín Sánchez Baíllo",
+          "duration": null,
+          "synopsis": "Una piscina. Una chica. Un chico. Un secreto.",
+          "trailer_url": null
+        },
+        {
+          "year": 2015,
+          "title": "S2",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "",
+          "director": "Álvaro Montelongo",
+          "duration": null,
+          "synopsis": "Un mundo sucio y oscuro, donde la gente trabaja y vive en la miseria, sin motivo alguno de su existencia. Pero uno de ellos descubrirá otra realidad detrás de todo eso.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Stela",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Ainoha Menéndez",
+          "duration": null,
+          "synopsis": "Claudia tiene una relación muy especial con su hija, Elia. Ambas comparten un mundo fantástico que aparece cuando Claudia le cuenta una historia. Allí son Stela y Zina, una reina y una princesa expulsadas de su reino.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Sujeto Darwin",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Fernando Sánchez Criado",
+          "duration": null,
+          "synopsis": "Tras recobrar la conciencia un hombre despierta en una apestosa fosa común plagada de cadáveres a punto de convertirse en “Resucitados”. Inexplicablemente al igual que él una chica aún permanece con vida. Ambos intentarán sobrevivir a aquel horror aunque jamás podrán imaginar lo que les espera.",
+          "trailer_url": null
+        },
+        {
+          "year": 2014,
+          "title": "Surnature (Sobrenaturaleza)",
+          "poster": null,
+          "review": null,
+          "country": "Francia",
+          "credits": "",
+          "director": "Nicolas Lemaire",
+          "duration": null,
+          "synopsis": "Una chica va a recoger una manzana, pero el manzano parece oponerse. Contrariada, deja el fruto en el árbol. Otra cita tiene que planificarse con la naturaleza.",
+          "trailer_url": null
+        },
+        {
+          "year": 2013,
+          "title": "The Silent Killer",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Raúl Mansilla",
+          "duration": null,
+          "synopsis": "Gema y Manuel viven en un pequeño pueblo del interior de España, junto a su hijo, Andrés. Se están replanteando su relación cuando, un día, Gema desaparece inesperadamente.",
+          "trailer_url": null
+        },
+        {
+          "year": 2013,
+          "title": "Timothy",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Marc Martínez Jordán",
+          "duration": null,
+          "synopsis": "Simón es un niño que debe soportar el incordio constante de Sonia, su niñera. Pero esa misma noche recibirá una visita inesperada; la del mismísimo Timothy, su personaje de ficción favorito. Una visita que nunca olvidará. Seleccionado para Sitges.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE CORTOMETRAJES / SHORT FILMS INFORMATIVE SESSION",
+      "type": "shorts-catalog",
+      "films": [],
+      "categories": [
+        {
+          "name": "APOCALIPSIS, VAMPIROS, MUERTOS VIVOS, INVASORES, FANTASMAS",
+          "films": [
+            {
+              "title": "Aakhir/At Last (Tarun Jain, 2012) – INDIA – 16´"
+            },
+            {
+              "title": "Amanecer (Hernán Simone, 2014) – ARGENTINA – 20´"
+            },
+            {
+              "title": "Angélica (Antonio Cuesta, 2014) – ESPAÑA – 14´"
+            },
+            {
+              "title": "Mito (Gonzalo López, 2013) – ESPAÑA – 2´"
+            },
+            {
+              "title": "Night Mare (Juan Carlos Camardella, 2014) – ARGENTINA – 4´"
+            },
+            {
+              "title": "Noche negra (Nuit noire) – Jean Luc Baillet, 2013 – FRANCIA – 8´"
+            },
+            {
+              "title": "Para noches de insomnio (Ernesto Medina, 2014) – VENEZUELA – 9"
+            },
+            {
+              "title": "Sentidos (Juanma Liceras, José Vega, 2014) – ESPAÑA – 12´"
+            },
+            {
+              "title": "Te escucho (Jorge Blas, 2013) – ESPAÑA – 9´"
+            },
+            {
+              "title": "The Working Dead (Fernando González, 2014) – ESPAÑA – 8´"
+            },
+            {
+              "title": "Uno  Once Trece: Paciente Cero (Juan Pablo Mazzini, 2014) – ARGENTINA – 4´"
+            },
+            {
+              "title": "Vacas: Un vacío lleno de carne (José Mariano Pulfer, 2014) – ARGENTINA – 23´"
+            }
+          ]
+        },
+        {
+          "name": "HUMOR BIZARRO, SÁTIRA SOCIAL, …MISTERIOSOS",
+          "films": [
+            {
+              "title": "Como te parezca (Dupa fel si chip) – Paula Onet, 2013 – RUMANIA – 22´"
+            },
+            {
+              "title": "El hombre que alimentaba su sombra (The Man Who Fed His Shadow / O anthropos pou taize ton iskio tou) – Mario Garefo, 2012 – GRECIA – 18´"
+            },
+            {
+              "title": "Escribir es reescribir (Luis Francisco Pérez, 2014) – ESPAÑA – 10´"
+            },
+            {
+              "title": "Ingeniería social (Ibón Gabellanes, 2013) – ESPAÑA – 23´"
+            },
+            {
+              "title": "Pepe y Luigi contra los monstruos del espacio exterior (Vicente Lugosi, 2013) – ARGENTINA – 3´"
+            },
+            {
+              "title": "Procastrinator (María Rodríguez-Alarcón, 2014) – ESPAÑA – 14´"
+            },
+            {
+              "title": "The Big Battle Theory (Sergio Morente, 2014) – ESPAÑA – 4´"
+            },
+            {
+              "title": "The Princess Strikes Back (Dave Lojek, Keeley Knight ) – ALEMANIA / REINO UNIDO – 5´"
+            },
+            {
+              "title": "The Sunburned/ Aftabsukhteh (Bahman Hajaboullou, Bahram Hajaboullou, 2013) – IRÁN – 15´"
+            },
+            {
+              "title": "Zugzwang: Cuando la mejor jugada es no mover ficha (Yolanda Centeno, 2014) – ESPAÑA/ESTADOS UNIDOS – 9´"
+            }
+          ]
+        },
+        {
+          "name": "MÁS TERROR Y FANTASÍA, ¡MUÑECOS, ROBOTS!",
+          "films": [
+            {
+              "title": "Eclipse (Willy Burrut, 2013) – ARGENTINA – 20´"
+            },
+            {
+              "title": "En el espejo (Fernando G. Pliego, Fátima Delgado, 2013) – ESPAÑA – 10´"
+            },
+            {
+              "title": "Judas (Joel Caetano, 2014) – BRASIL – 10´"
+            },
+            {
+              "title": "La alucinación (Perú Bergaretxe,2013) – ESPAÑA, 13´"
+            },
+            {
+              "title": "La encrucijada (Álvaro Prieto Mazaira, 2014) – ESPAÑA – 14´"
+            },
+            {
+              "title": "La muerte dormida (David Casademunt, 2014) – ESPAÑA – 15´"
+            },
+            {
+              "title": "Nochebuena (Joaquín Arca, 2013) – ESPAÑA – 11´"
+            },
+            {
+              "title": "Solos (Roberto Ruiz, 2014) – ARGENTINA – 7´"
+            }
+          ]
+        },
+        {
+          "name": "OTRAS DIMENSIONES, VIAJES EN EL TIEMPO",
+          "films": [
+            {
+              "title": "Aún hay tiempo (Albert Pintó, 2014) – ESPAÑA – 16´"
+            },
+            {
+              "title": "El gato cósmico al final (Francisco Pavanetto, 2014) – ARGENTINA –  14´"
+            },
+            {
+              "title": "El umbral (Fabio A. Vallarelli, 2014) – ARGENTINA – 18´"
+            },
+            {
+              "title": "El viaje (Oyama Rocha, 2013) – ESPAÑA – 15´"
+            },
+            {
+              "title": "Eladio y la puerta interdimensional (María Giraldez, Miguel Provencio, 2014) – ESPAÑA – 15´"
+            },
+            {
+              "title": "Espera un segundo (Germán Roda, 2014) – ESPAÑA – 15´"
+            },
+            {
+              "title": "Flash (Alberto Ruiz Rojo, 2014) – ESPAÑA – 7´"
+            },
+            {
+              "title": "In Mysterium (Mariano Castaño, 2014) – ARGENTINA – 21´"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "title": "Crónica de la edición IX",
+    "author": "Alejandro Yamgotchian",
+    "content": [
+      "Del 2 al 6 de setiembre, en Cine Universitario del Uruguay LOS PREMIOS DEL NOVENO MONTEVIDEO FANTÁSTICO (2015) Textos: Alejandro Yamgotchian",
+      "El pasado domingo 6 de setiembre tuvo lugar en la sala Lumière de Cine Universitario la entrega de premios correspondiente al Noveno Festival Internacional de Terror y Ciencia Ficción en Uruguay, Montevideo Fantástico, organizado por www.arte7.com.uy y la mencionada institución.",
+      "En cinco días, y en apenas dos salas, cientos de personas fueron testigos de la exhibición de casi cien trabajos, entre cortos, medios y largometrajes, provenientes de 22 países, además de homenajes a grandes figuras del género (el uruguayo Román Viñoly Barreto, el italiano Mario Bava) y otras recientemente fallecidas que alcanzaron un status de culto (la actriz Betsy Palmer).",
+      "El público también pudo disfrutar de una nueva exposición del artista compatriota Franco Cravero y también de la mesa redonda “Cine independiente, cine comercial”, a cargo de los realizadores argentinos Nicanor Loreti ( Diablo , la saga Socios por accidente ) y Alejo Rébora (la saga Trash )."
+    ]
+  }
+}

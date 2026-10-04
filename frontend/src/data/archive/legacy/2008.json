@@ -1,0 +1,578 @@
+{
+  "awards": [
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "BARBARA BROADCAST",
+          "name": "MEJOR CORTOMETRAJE",
+          "country": "Bélgica"
+        },
+        {
+          "film": "THE MAN FROM EARTH",
+          "name": "MEJOR PELÍCULA",
+          "country": "Estados Unidos"
+        },
+        {
+          "film": "28",
+          "name": "MEJOR CORTOMETRAJE URUGUAYO",
+          "director": "Pablo Moreira"
+        }
+      ],
+      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES"
+    },
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "THE MAN FROM EARTH",
+          "name": "MEJOR PELÍCULA",
+          "country": "ESTADOS UNIDOS",
+          "citation": "",
+          "director": "Richard Schenkman)",
+          "recipient": ""
+        },
+        {
+          "film": "EL CONCURSO DE MANCHAS",
+          "name": "MEJOR CORTOMETRAJE",
+          "country": "ARGENTINA",
+          "citation": "",
+          "director": "Juan Manuel Bertozzi)",
+          "recipient": ""
+        },
+        {
+          "film": "28",
+          "name": "MEJOR CORTOMETRAJE URUGUAYO",
+          "country": "Director: Pablo Moreira",
+          "citation": "",
+          "director": "Pablo Moreira)",
+          "recipient": ""
+        }
+      ],
+      "section": "PREMIOS DEL PÚBLICO"
+    }
+  ],
+  "edition": {
+    "year": 2008,
+    "dates": "2008",
+    "roman": "III",
+    "title": "Montevideo Fantástico III",
+    "number": 3,
+    "poster": null,
+    "venues": [
+      "Cine Universitario"
+    ]
+  },
+  "sections": [
+    {
+      "name": "LARGOMETRAJES EN COMPETENCIA / LONG FEATURE FILMS COMPETITION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "carnal",
+          "year": 2007,
+          "title": "CARNAL",
+          "poster": "/media/archive/III/films/carnal.jpg",
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Fabián Forte",
+          "duration": 81,
+          "synopsis": "Dos compañeros de estudio hacen una pausa en sus tareas durante la noche y deciden salir a buscar algo de comer. En el camino se cruzan con dos mujeres a las que se acercan con el fin de pasar un buen rato. Inesperadamente terminan siendo invitados por ellas mismas a cenar. Pero no todo va a salir como imaginaban.",
+          "trailer_url": null
+        },
+        {
+          "slug": "crepusculum-historias-fantasticas",
+          "year": 2007,
+          "title": "CREPÚSCULUM: HISTORIAS FANTÁSTICAS",
+          "poster": "/media/archive/III/films/crepusculum-historias-fantasticas.jpg",
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Gabriel Grieco",
+          "duration": 61,
+          "synopsis": "Una película que reúne cortometrajes de género fantástico independiente «Made in Argentina» y siguiendo la línea de Dimensión Desconocida y Cuentos Asombrosos ; historias que por momentos rondan el humor absurdo, pero siempre se enmarcan en el terreno de lo sobrenatural, la fantasía y la ciencia ficción; desde la cómica historia de «Nathan: El peluche asesino» (codirigida junto a Pablo Parés y Nicanor Loreti), sobre un patito de felpa que cobra vida al ser poseído por Satán, hasta «Griscelda» (coescrita por Grieco junto a Demian Aiello) sobre una top model que contrae una maldición y empieza a salir en blanco y negro en todas las fotos color que se saca.",
+          "trailer_url": null
+        },
+        {
+          "slug": "curriculum",
+          "year": 2006,
+          "title": "CURRÍCULUM",
+          "poster": "/media/archive/III/films/curriculum.jpg",
+          "review": null,
+          "country": "Chile",
+          "credits": "",
+          "director": "Patricio Valladares",
+          "duration": 61,
+          "synopsis": "Dos sicarios son enviados a matar a la misma mujer, desconociendo la competencia que existe entre ellos por asesinarla. Al encontrarse en un galpón rural y frente a la víctima, surge una serie de diálogos sobre cómo dar muerte a un ser humano, pero las cosas se van de órbita, al punto que la indefensa mujer comienza a pasar a segundo plano.",
+          "trailer_url": null
+        },
+        {
+          "slug": "dark-remains",
+          "year": 2005,
+          "title": "DARK REMAINS",
+          "poster": "/media/archive/III/films/dark-remains.jpg",
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Brian Avenet-Bradley",
+          "duration": 91,
+          "synopsis": "Luego de perder a su pequeña hija, una pareja (él escritor, ella fotógrafa) se muda a las montañas para encontrar tranquilidad. Pero en los bosques hay un oscuro secreto, ligado a un poder sobrenatural desde donde la niña fallecida trata de ponerse en contacto con su madre.",
+          "trailer_url": null
+        },
+        {
+          "slug": "death-knows-your-name",
+          "year": 2007,
+          "title": "DEATH KNOWS YOUR NAME",
+          "poster": "/media/archive/III/films/death-knows-your-name.jpg",
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Daniel de la Vega",
+          "duration": 89,
+          "synopsis": "El psiquiatra de un viejo asilo, junto a su padre antropólogo, descubre un esqueleto humano en los túneles del hospital. La investigación de saber a qué persona pertenecía los llevará a una revelación aterradora.",
+          "trailer_url": null
+        },
+        {
+          "slug": "doctor-infierno",
+          "year": 2007,
+          "title": "DOCTOR INFIERNO",
+          "poster": "/media/archive/III/films/doctor-infierno.jpg",
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Paco Limón",
+          "duration": 84,
+          "synopsis": "El Doctor Horacio Quiroga Infierno, ginecólogo de renombre, desea dominar el mundo. Su plan: curar a la humanidad con un medicamento milagroso, capaz de eliminar el cáncer y el virus del SIDA, a cambio de su total sumisión. Pero sus objetivos se verán comprometidos cuando un cabo suelto, la enfermera García, quiera vengarse de él. El asesino enviado para su exterminación ha fallado. Enfermera, asesino, el novio de una vecina, el portero del edificio y una multitud de gente se verán inmersos en una frenética lucha bajo el bunker secreto del profesional.",
+          "trailer_url": null
+        },
+        {
+          "slug": "el-propietario",
+          "year": 2007,
+          "title": "EL PROPIETARIO",
+          "poster": "/media/archive/III/films/el-propietario.jpg",
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Javier Diment, Luis Ziembrowski",
+          "duration": 77,
+          "synopsis": "Una joven actriz lesbiana alquila un apartamento, sin saber que el dueño, que vive en el mismo edificio, tiene varias cámaras ocultas que controlan todos sus movimientos, las visitas y lo que habla. Por si fuera poco también usa un gas adormecedor que le permite invadir la privacidad de sus víctimas y también hacer algo más con ellas…",
+          "trailer_url": null
+        },
+        {
+          "slug": "fausta",
+          "year": 2007,
+          "title": "FAUSTA",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Ernesto Aguilar",
+          "duration": 69,
+          "synopsis": "Un escritor que acaba de terminar su novela tiene relaciones con una joven muda, lo que hace que reciba un hechizo por parte de su novia, Fausta, que lo sitúa en una cruel encrucijada. Su amante y uno de sus mejores amigos intentarán ayudarlo para que pueda librarse de la maldición y de paso para que su libro sea aceptado por un peculiar profesor universitario que ya conoce antecedentes literarios del autor y los detesta.",
+          "trailer_url": null
+        },
+        {
+          "slug": "filmatron",
+          "year": 2007,
+          "title": "FILMATRON",
+          "poster": "/media/archive/III/films/filmatron.jpg",
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Pablo Parés",
+          "duration": 94,
+          "synopsis": "Lucas y un grupo de amigos deciden realizar una película de ciencia ficción sin saber que viven en un mundo donde eso está prohibido, y sin buscarlo se convierten en la única esperanza de la rebelión, la única esperanza para derrumbar un imperio en decadencia y generar una nueva revolución que despierte al pueblo dormido.",
+          "trailer_url": null
+        },
+        {
+          "slug": "mati",
+          "year": 2008,
+          "title": "MATI",
+          "poster": "/media/archive/III/films/mati.jpg",
+          "review": null,
+          "country": "Uruguay",
+          "credits": "",
+          "director": "Diego Melo, Marcelo Di Paolo, Ernesto Rodríguez",
+          "duration": 52,
+          "synopsis": "El Negro, Marto y Mitch realizan un viaje hacia una lejana cabaña en el medio del bosque. En el camino se involucran en una encarnecida guerra entre un campesino y su espantapájaros.",
+          "trailer_url": null
+        },
+        {
+          "slug": "nocturnos",
+          "year": 2008,
+          "title": "NOCTURNOS",
+          "poster": "/media/archive/III/films/nocturnos.jpg",
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Ariel Medina, Maximiliano Ricciardi, Leandro Vitullo",
+          "duration": 110,
+          "synopsis": "Tres historias que suceden en una noche cualquiera, en la ciudad de Buenos Aires, y que tienen algo en común: un compañero de trabajo que va a la fiesta de despedida de su amigo y allí es atacado por una mujer vampiro, una estudiante de intercambio que llega a una misteriosa casa cuya pareja residente se comporta de manera un poco extraña, y una suerte de western donde una banda de vampiros se dirige a una fábrica para realizar un trabajo pero luego es emboscada por otra, manejada por un oscuro comisario.",
+          "trailer_url": null
+        },
+        {
+          "slug": "proxima",
+          "year": 2007,
+          "title": "PRÓXIMA",
+          "poster": "/media/archive/III/films/proxima.jpg",
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Carlos Atanes",
+          "duration": 115,
+          "synopsis": "El dueño de un videoclub comienza a vivir inusitados hechos reales que lo asemejan a esas mismas cosas que él tan solo veía en series y películas de corte fantástico. A partir de una conferencia en una convención, hecha por un escritor absolutamente convencido de que los extraterrestres están en contacto con nosotros, Tony comienza un viaje que lo acercará al lugar del título, un mundo lejano a la Tierra, quizás hecho para soñadores como él.",
+          "trailer_url": null
+        },
+        {
+          "slug": "song-of-the-dead",
+          "year": 2005,
+          "title": "SONG OF THE DEAD",
+          "poster": "/media/archive/III/films/song-of-the-dead.jpg",
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Chip Gubera",
+          "duration": 87,
+          "synopsis": "Un virus despierta a los muertos de Estados Unidos. Las cadenas de noticias y funcionarios del gobierno sólo hacen declaraciones vagas sobre las circunstancias que rodean el hecho. El Presidente apela a los americanos a unirse y resistir. Una familia de la América profunda se enfrenta con el conflicto y lucha contra el «zombie terrorista».",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-day-of-the-dead",
+          "year": 2007,
+          "title": "THE DAY OF THE DEAD",
+          "poster": "/media/archive/III/films/the-day-of-the-dead.jpg",
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Ricardo Islas",
+          "duration": 102,
+          "synopsis": "Una pandilla urbana cuya diversión es matar a todas aquellas personas sin hogar o que están residiendo de manera ilegal en Estados Unidos. Las cosas toman un rumbo impensado cuando este grupo pone en la mira a una joven mexicana que cruza la frontera para buscar trabajo. El asunto comienza a ser seguido de cerca por una detective que se da de frente contra los prejuicios raciales y la corrupción policial, y también por el padre de la joven que viaja desde México y tiene tan solo 15 días para encontrar a su hija, antes que expire su visa.",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-last-gateway",
+          "year": 2007,
+          "title": "THE LAST GATEWAY",
+          "poster": "/media/archive/III/films/the-last-gateway.jpg",
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Demian Rugna",
+          "duration": 105,
+          "synopsis": "Víctor ha conseguido abrir una puerta al infierno, pero sus cálculos fallaron y la misma terminó abriéndose en el cuerpo de Miguel, su nuevo vecino. Ahora, siniestras personas anhelan esta entrada que… también es para salir. Miguel deberá escapar de estos extraños seres que lo acechan y, a su vez, sobrevivir de las horribles criaturas que surgen de su cuerpo, devenido a una puerta hacia otro mundo.",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-man-from-earth",
+          "year": 2007,
+          "title": "THE MAN FROM EARTH",
+          "poster": "/media/archive/III/films/the-man-from-earth.jpg",
+          "review": "La película se basa en el último guión hecho por el afamado y ya fallecido escritor Jerome Bixby (que también aportó su trabajo como libretista para la vieja Dimensión Desconocida y la serie original de Viaje a las estrellas, entre otras labores para cine) y retoma la vieja escuela de ciencia ficción (sin monstruos, explosiones ni efectos especiales), prácticamente en una sola habitación, y tocando temas tan curiosos como controversiales. Premio a Mejor Película y Mejor Guión Original en el Festival de Cine Fantástico de Rhode Island.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Richard Schenkman",
+          "duration": 88,
+          "synopsis": "Un profesor invita a sus colegas a una reunión de despedida, antes de mudarse hacia otro lugar. Pero el protagonista tiene algo que decir a sus invitados: él es un ser inmortal que ha ido migrando a lo largo de la Tierra durante 14.000 años. Lo que iba a ser una celebración típica se convierte en un mar de dudas, en un permanente interrogatorio para saber si lo que dice ese conocido de años es cierto o no. Por si fuera poco, hay una revelación aún más desconcertante cerca del final.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE LARGOMETRAJES / LONG FEATURE FILMS INFORMATIVE SESSION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "cucarachas-rojas",
+          "year": 2004,
+          "title": "CUCARACHAS ROJAS",
+          "poster": "/media/archive/III/films/cucarachas-rojas.jpg",
+          "review": null,
+          "country": "Cuba",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Un futuro no muy lejano que toma lugar en una Nueva York con autos espaciales, insectos mutantes, clones humanos y lluvias ácidas. Pero la historia no se centra en ninguno de estos fenómenos; tan solo en la vida de un joven cautivado por una misteriosa mujer, que le recuerda a un familiar suyo que había muerto en un accidente años atrás. Juntos mantendrán una relación polémica, de tintes oscuros, surrealistas, inquietantes.",
+          "trailer_url": null
+        },
+        {
+          "slug": "mas-astuto-que-nunca",
+          "year": 1998,
+          "title": "MÁS ASTUTO QUE NUNCA",
+          "poster": "/media/archive/III/films/mas-astuto-que-nunca.jpg",
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Fiel a las creencias de M. Night Shyamalan (El protegido, Señales, La aldea), y filmada en el mismo colegio católico de Filadelfia al que había ido de pequeño, aquí el realizador hindú, en su segundo largometraje, cuenta la historia de un niño que pierde a su querido abuelo y trata de contactarse con Dios para saber si él está bien y en un lugar seguro.",
+          "trailer_url": null
+        },
+        {
+          "slug": "muoi-leyenda-de-un-retrato",
+          "year": 2007,
+          "title": "MUOI: LEYENDA DE UN RETRATO",
+          "poster": "/media/archive/III/films/muoi-leyenda-de-un-retrato.jpg",
+          "review": null,
+          "country": "Corea del Sur",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Una escritora, en busca de una historia para su segunda novela que la pueda llevar al éxito, decide viajar hasta Vietnam para investigar una misteriosa leyenda que existe sobre el cuadro del título, donde aparece una mujer que había sido asesinada por el novio y cuyo inquieto espíritu busca venganza. Curiosamente, hay una relación entre esta víctima y aquella amiga de la protagonista en cuyo frustrado romance se basó para hacer su primera novela.",
+          "trailer_url": null
+        },
+        {
+          "slug": "natural-city",
+          "year": 2003,
+          "title": "NATURAL CITY",
+          "poster": "/media/archive/III/films/natural-city.jpg",
+          "review": null,
+          "country": "Corea del Sur",
+          "credits": "",
+          "director": "Min Byung-chun",
+          "duration": null,
+          "synopsis": "A pesar de haber perdido parte de su historia fílmica y de haberse insertado tarde en el concierto del Cine Universal, Corea del Sur intenta recuperar el tiempo perdido, esta vez con un filme de ciencia-ficción que es un correcto equivalente melodramático de la gran Blade Runner (Ridley Scott, 1982). Ambientada en los años ’70, pero del Siglo XXI, la trama nos muestra a un policía especial cuyos superiores toleran que se dedique a la venta de chips en el mercado negro y que esté enamorado de una delicada cyborg a la que le restan solo tres días de vida útil. Se trata de un mundo donde los seres humanos conviven con los cyborgs, y cuyo equilibrio tambalea a raíz de la amenaza de uno de estos organismos cibernéticos rebeldes. La tecnología permite el traspaso de conciencia de un cuerpo a otro, y con tal fin el villano de turno secuestra a una joven vagabunda, con quien el protagonista va entretejiendo una relación especial. La película no hace mayor hincapié en los elementos fantásticos, prefiriendo concentrarse en la extraña relación amorosa entre hombre y máquina (siempre mostrada a nivel platónico, sin ahondar en motivaciones profundas), salpicando momentos de auténtico lirismo con dinámicas secuencias de luchas y tiroteos. Darío Lavia (Naechyureol Siti)",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "CORTOMETRAJES INTERNACIONALES EN COMPETENCIA / INTERNATIONAL SHORT FILMS COMPETITION",
+      "type": "shorts",
+      "films": [
+        {
+          "year": 2006,
+          "title": "Akai",
+          "poster": null,
+          "review": null,
+          "country": "Brasil",
+          "credits": "",
+          "director": "Carlos Gananian",
+          "duration": null,
+          "synopsis": "La sangre tiñe de rojo los pasillos de una casa. Un hombre es atormentado por la culpa y el remordimiento, que afligen su dolorosa existencia.",
+          "trailer_url": null
+        },
+        {
+          "year": 2006,
+          "title": "Anónimos",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Cristian Pozo",
+          "duration": null,
+          "synopsis": "Una historia de amor en un universo onírico, atemporal, sin referencias de un lugar concreto. El amor de Fred y Laura.",
+          "trailer_url": null
+        },
+        {
+          "year": 2007,
+          "title": "Anular",
+          "poster": null,
+          "review": null,
+          "country": "Chile",
+          "credits": "",
+          "director": "Francesc Morales",
+          "duration": null,
+          "synopsis": "Héctor llega a casa, después de haber asistido al matrimonio de su único hijo. Él parece haber recordado todo lo bueno que tuvo con su antigua familia, pero Angélica, su joven y provocativa nueva esposa, está determinada a hacerlo olvidar.",
+          "trailer_url": null
+        },
+        {
+          "year": 2006,
+          "title": "Eva",
+          "poster": null,
+          "review": null,
+          "country": "Chile",
+          "credits": "",
+          "director": "Juan Cristóbal Jürgens",
+          "duration": null,
+          "synopsis": "Eva es una joven científica genética que padece alucinaciones. Un extraño encuentro en su lugar de trabajo desata en ella la duda respecto a si las mismas son reales o no. Confundida por la situación, se induce a una regresión tratando de descifrar lo que pasa, descubriendo una aterradora y escalofriante verdad.",
+          "trailer_url": null
+        },
+        {
+          "year": 2007,
+          "title": "La Donna della Toilette",
+          "poster": null,
+          "review": null,
+          "country": "Italia",
+          "credits": "",
+          "director": "Alberto Viavattene",
+          "duration": null,
+          "synopsis": "Un hombre encuentra el número del celular de una mujer, en la pared del baño de un servicentro en la carretera. Esa noche, aburrido, decide llamarla. Una extraña historia de misterio y perversión, con personajes aún más ambiguos y peligrosos.",
+          "trailer_url": null
+        },
+        {
+          "year": 2008,
+          "title": "Mezzi",
+          "poster": null,
+          "review": null,
+          "country": "Mitades",
+          "credits": "",
+          "director": "Luca Sabbioni",
+          "duration": null,
+          "synopsis": "Italia, 2007 – Historia de amor, inspirada libremente en el mito de Platón, a propósito de hombre y mujer tratando de reunirse nuevamente.",
+          "trailer_url": null
+        },
+        {
+          "year": 2008,
+          "title": "Mezzi",
+          "poster": null,
+          "review": null,
+          "country": "Mitades",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": null,
+          "trailer_url": null
+        },
+        {
+          "year": 2006,
+          "title": "Otakus",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Andrés Borghi",
+          "duration": null,
+          "synopsis": "Dos amigos se pasan el día discutiendo sobre detalles mínimos de sus animé preferidos, hasta que la contienda se vuelve tan fuerte que comienzan a enfrentarse entre ellos…",
+          "trailer_url": null
+        },
+        {
+          "year": 2008,
+          "title": "Poza Cisza",
+          "poster": null,
+          "review": null,
+          "country": "Bajo el silencio",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": null,
+          "trailer_url": null
+        },
+        {
+          "year": 2006,
+          "title": "Rojo en el bosque sangriento",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Testuo Lumière",
+          "duration": null,
+          "synopsis": "Una joven doncella se interna en el bosque en busca de sus hermanitos. Un misterioso hombre de bata roja se cruza en su camino y la ataca. Pero ella sabe cómo defenderse.",
+          "trailer_url": null
+        },
+        {
+          "year": 2006,
+          "title": "Sueños de robot",
+          "poster": null,
+          "review": null,
+          "country": "Chile",
+          "credits": "",
+          "director": "Carlos Ramos",
+          "duration": null,
+          "synopsis": "ELVEX, un robot androide, dice haber tenido sueños. Sus creadores comienzan a interrogarlo para poder confirmar si son reales y de qué son. Inspirado en el cuento homónimo de Isaac Asimov.",
+          "trailer_url": null
+        },
+        {
+          "year": 2006,
+          "title": "Todo queda en casa",
+          "poster": null,
+          "review": null,
+          "country": "Chile",
+          "credits": "",
+          "director": "Gustavo Miranda",
+          "duration": null,
+          "synopsis": "Una madre posesiva y celosa intenta evitar que su hijo con problemas mentales se fije en las jóvenes que ella contrata para que lo cuiden.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE CORTOS Y MEDIOMETRAJES / SHORT AND MEDIUM LENGTH FILMS INFORMATIVE SESSION",
+      "type": "shorts",
+      "films": [
+        {
+          "year": 2007,
+          "title": "I Want You for Agrimensura",
+          "country": "ARGENTINA",
+          "director": "Diego Melo",
+          "duration": null,
+          "synopsis": null
+        },
+        {
+          "year": 2007,
+          "title": "La tuerca",
+          "country": "URUGUAY",
+          "director": "Azul Melissa Martínez",
+          "duration": null,
+          "synopsis": null
+        },
+        {
+          "year": 2007,
+          "title": "Las 77 páginas",
+          "country": "ESPAÑA / MÉXICO",
+          "director": "Diego Arandojo, Mauro Savarino",
+          "duration": null,
+          "synopsis": null
+        },
+        {
+          "year": 2007,
+          "title": "Los excéntricos documentales de Abadejo Sánchez",
+          "country": "ARGENTINA",
+          "director": "Julián Borrell",
+          "duration": null,
+          "synopsis": null
+        },
+        {
+          "year": 2007,
+          "title": "No hay cupo",
+          "country": "ARGENTINA",
+          "director": "Gabriel López",
+          "duration": null,
+          "synopsis": null
+        },
+        {
+          "year": 2007,
+          "title": "Relatos de zombis",
+          "country": "URUGUAY",
+          "director": "Víctor García Viedma",
+          "duration": null,
+          "synopsis": null
+        },
+        {
+          "year": 2007,
+          "title": "Soledad enfermiza",
+          "country": "CHILE",
+          "director": "Luis Cordal Vidal",
+          "duration": null,
+          "synopsis": null
+        },
+        {
+          "year": 2007,
+          "title": "Sucesión",
+          "country": "ESPAÑA",
+          "director": "Pablo Baltera",
+          "duration": null,
+          "synopsis": null
+        },
+        {
+          "year": 2006,
+          "title": "Versus: Morton Telequinetic Prison",
+          "country": "ARGENTINA",
+          "director": "Pablo Pera",
+          "duration": null,
+          "synopsis": null
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "title": "Crónica de la edición III",
+    "author": "Alejandro Yamgotchian",
+    "content": [
+      "The Man from Earth y Filmatrón fueron las ganadoras LA CIENCIA FICCIÓN ACAPARÓ LOS PRINCIPALES PREMIOS DEL TERCER MONTEVIDEO FANTÁSTICO Textos: Alejandro Yamgotchian",
+      "Desde el viernes 16 y hasta el viernes 23 de mayo de 2008 inclusive tuvo lugar la tercera edición del festival Montevideo Fantástico, en Cine Universitario, coorganizada por la institución en conjunto con Arte7.com.uy . Con veintidós largos, cuarenta trabajos entre medios y cortometrajes, de 14 países en total, y una muy buena mesa redonda dedicada a Star Trek / Viaje a las estrellas (a cargo del grupo “Utopía Planet” de Uruguay), el evento volvió a tener una buena respuesta del público en general.",
+      "Fueron varios los realizadores argentinos que llegaron para presentar sus trabajos (el director Ernesto Aguilar y la productora Marcela Suppicich de Fausta ; sus colegas Maximiliano Ricciardi y Leandro Vitullo de Nocturnos ; el cineasta Demian Rugna de The Last Gateway ; Javier Diment, correalizador de El propietario ), y una vez más el festival contó con la presencia del uruguayo Ricardo Islas (actualmente radicado en Chicago), quien llegó desde Estados Unidos para abrir oficialmente el evento con su película The Day of the Dead , el viernes 16.",
+      "Las muestras informativas y los homenajes (al fallecido Richard Fleischer, a Jacques Tourneur) también tuvieron su repercusión, del mismo modo que las tandas de cortos exhibidos y la propia participación del público asistente a través de la votación. Por otro lado, despertó mucha curiosidad el nuevo adelanto de Nadie inquietó más: Narciso Ibáñez Menta (del argentino Gustavo Mendoza), un documental cuyo estreno está previsto para este mismo año."
+    ]
+  }
+}

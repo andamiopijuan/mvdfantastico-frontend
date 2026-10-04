@@ -1,0 +1,583 @@
+{
+  "awards": [
+    {
+      "jury": "Jorge Jellinek, Álvaro Loureiro, Luis Varela",
+      "awards": [
+        {
+          "film": "THE LAST HORROR MOVIE",
+          "name": "MEJOR PELÍCULA / BEST FEATURE FILM",
+          "country": "Reino Unido",
+          "citation": "Por la originalidad del planteo que desarrolla; un tema trillado bajo una óptica que involucra directamente al espectador.",
+          "director": "Julian Richards",
+          "recipient": ""
+        },
+        {
+          "film": "A TALE OF TWO SISTERS",
+          "name": "MENCIÓN ESPECIAL",
+          "country": "Corea del Sur",
+          "citation": "Por la utilización inteligente de los recursos del lenguaje cinematográfico para la creación de climas inquietantes.",
+          "director": "Kim Ji-woon",
+          "recipient": ""
+        },
+        {
+          "film": "THE DARK HOURS",
+          "name": "MEJOR ACTRIZ / BEST ACTRESS",
+          "country": "Canadá",
+          "citation": "Por su complejo papel, donde la calidad de su controlado trabajo va pasando de la serenidad inicial a verse envuelta en un clima de violencia.",
+          "director": "Paul Fox",
+          "recipient": "Kate Greenhouse"
+        },
+        {
+          "film": "THE LAST HORROR MOVIE",
+          "name": "MEJOR ACTOR / BEST ACTOR",
+          "country": "Reino Unido",
+          "citation": "Porque cumple con la proeza de hacer un personaje seductor y con gran poder de comunicación de un asesino serial.",
+          "director": "Julian Richards",
+          "recipient": "Kevin Howarth"
+        },
+        {
+          "film": "TL-1: MI REINO POR UN PLATILLO VOLADOR",
+          "name": "MEJOR DIRECTOR / BEST DIRECTOR",
+          "country": "Argentina",
+          "citation": "Por la personalidad de este autor, por su película irregular en donde se adivina el amor por el cine.",
+          "director": "Tetsuo Lumière",
+          "recipient": "Tetsuo Lumière"
+        }
+      ],
+      "section": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES"
+    },
+    {
+      "jury": "Juan Andrés Ferreira, Guzmán Laguarda, Sergio Moreira",
+      "awards": [
+        {
+          "film": "EXTRA, EXTRA",
+          "name": "MEJOR CORTO DEL FESTIVAL Y MEJOR CORTO URUGUAYO",
+          "country": "Uruguay",
+          "citation": "Una pieza dinámica, imaginativa y original, provista de un humor que funciona a distintos niveles.",
+          "director": "Diego Melo",
+          "recipient": ""
+        }
+      ],
+      "section": "COMPETENCIA DE CORTOMETRAJES"
+    },
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "ELLA O YO",
+          "name": "MEJOR CORTOMETRAJE",
+          "country": "ARGENTINA",
+          "citation": "",
+          "director": "Sebastián Franco)",
+          "recipient": ""
+        },
+        {
+          "film": "EXTRA, EXTRA",
+          "name": "MEJOR CORTOMETRAJE URUGUAYO",
+          "country": "Director: Diego Melo",
+          "citation": "",
+          "director": "Diego Melo)",
+          "recipient": ""
+        }
+      ],
+      "section": "PREMIOS DEL PÚBLICO"
+    }
+  ],
+  "edition": {
+    "year": 2007,
+    "dates": "2 al 9 de marzo de 2007",
+    "roman": "II",
+    "title": "Montevideo Fantástico II",
+    "number": 2,
+    "poster": null,
+    "venues": [
+      "Cine Universitario",
+      "Movie"
+    ]
+  },
+  "sections": [
+    {
+      "name": "LARGOMETRAJES EN COMPETENCIA / LONG FEATURE FILMS COMPETITION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "a-tale-of-two-sisters",
+          "year": 2003,
+          "title": "A TALE OF TWO SISTERS",
+          "poster": "/media/archive/II/films/a-tale-of-two-sisters.jpg",
+          "review": "La crítica surcoreana la ha considerado la mejor película de terror asiático de la historia, y nos atreveríamos a agregar aquí la famosa frase \"no apta para cardíacos\", no porque sea una película sangrienta (que no lo es en absoluto, a pesar de lo que se ve en el afiche original) sino porque se va creando un relato de alta tensión permanente y que promediando la segunda mitad se convierte en algo perturbador. Lo más curioso es que no estamos hablando tanto de una película de terror sino más bien de un drama de inusual inspiración para lo que es el género. Premio a Mejor Película en Fantasporto y nominada a Mejor Dirección en Sitges. El nombre original del film viene de un famoso cuento popular coreano.",
+          "country": "Corea del Sur",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Las dos hermanas del título salen de un hospital psiquiátrico y se dirigen a la casa del padre. Eso no le cae muy bien a la madrastra, que va haciéndoles la estadía insoportable (la actriz original que iba a encarnar este papel no lo aceptó, porque le pareció que la historia era muy aterradora). Por si fuera poco el fantasma de la verdadera madre de las niñas anda dando vueltas por toda la casa, lo que impide la normal recuperación de ambas. Algo increíble había ocurrido en el pasado…",
+          "trailer_url": null
+        },
+        {
+          "slug": "beneath-the-cogon",
+          "year": 2005,
+          "title": "BENEATH THE COGON",
+          "poster": "/media/archive/II/films/beneath-the-cogon.jpg",
+          "review": "Rico María Ilarde ha sido reconocido por la crítica europea como una de las grandes apuestas del cine de terror independiente en Filipinas y la prueba está en este, su cuarto y más elogiado trabajo, donde las amenazas y el suspenso pasan a segundo plano, mientras dos personas intentan buscar su lugar en el mundo. Por ahí no tanto un descubrimiento, aunque sí toda una curiosidad para Uruguay.",
+          "country": "Filipinas",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Dos convictos, que habían sido abandonados por sus respectivas esposas, son sacados de prisión por un mafioso para llevar a cabo un gran robo, pero las cosas no salen como se pensaba y uno de ellos termina escapando y perseguido a muerte. El protagonista encuentra refugio en una misteriosa casona donde alguien llevó a cabo extraños experimentos. En los alrededores se le aparece una misteriosa mujer…",
+          "trailer_url": null
+        },
+        {
+          "slug": "el-marfil",
+          "year": 2004,
+          "title": "EL MARFIL",
+          "poster": "/media/archive/II/films/el-marfil.jpg",
+          "review": "La dirección corrió por cuenta de Guillermo Bengandi y Manuel Méndez, y hay que reconocerles un notable manejo del suspenso y pasajes tan intensos que impresionan cerca del final, del mismo modo que la sobresaliente actuación de la pareja principal, especialmente de Enrique Liporace, que interpreta al hombre que pierde el control de su vida y que por ende pone en peligro a toda su familia. Son escasas las versiones de este clásico de Jacobs; quizás una de las más recordadas fue la hecha por Chicho Serrador en una de sus antológicas Historias para no dormir y por supuesto la protagonizada para la televisión argentina por Narciso Ibáñez Menta y Beatriz Día Quiroga (“La pata del mono”).",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Guillermo Bergandi, Martín Méndez",
+          "duration": 80,
+          "synopsis": "Basada en el famoso cuento «La pata de mono», del inglés William W. Jacobs, ahora el objeto es un cuerno de elefante hindú, que otorga los tres deseos aunque de un modo bastante particular…",
+          "trailer_url": null
+        },
+        {
+          "slug": "en-silencio",
+          "year": 2005,
+          "title": "EN SILENCIO",
+          "poster": "/media/archive/II/films/en-silencio.jpg",
+          "review": "Los conventos siempre tienen un aura de misterio. Y el director español (nacido en Zaragoza) Javier Millán (también docente universitario en el área audiovisual) sabe de esto, y por eso logra construir una historia de terror clásico atrapante, entre monjas y fantasmas, por encima de un acotado presupuesto y con influencias que van desde la novela gótica y llegan hasta su admirado Chicho Serrador.",
+          "country": "España",
+          "credits": "",
+          "director": "Francisco Javier Millán",
+          "duration": 85,
+          "synopsis": "En un apartado monasterio extraños sucesos aterrorizan una congregación de monjas que se encuentran en retiro espiritual. Concepción muere en circunstancias poco claras. Su hermana recibe la noticia del fallecimiento y decide viajar hasta el monasterio para recoger sus pertenencias y preparar el funeral. Pero encontrará mucho más que un cadáver.",
+          "trailer_url": null
+        },
+        {
+          "slug": "encuentros-solitarios",
+          "year": 2004,
+          "title": "ENCUENTROS SOLITARIOS",
+          "poster": null,
+          "review": "Cine argentino ultraindependiente dirigido por Silvio Benítez Farah, realizador de Arca (1998), considerado el film postapocalíptico más barato del mundo. En Encuentros solitarios se hizo cargo no solo de la dirección, sino también del guión, la producción, la fotografía, el sonido, la dirección artística y la edición (con dos videocassetteras). El resultado vale, más que por el interés de una trama con bastante guiño al sexploitation, por sus permanentes dosis de humor y los diálogos entre algunos de los personajes.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Silvio Benítez Farah",
+          "duration": 92,
+          "synopsis": "Hay un asesino serial que deja a sus víctimas con una letra marcada en los cuerpos. La policía, a su vez, actúa con cautela para evitar el pánico en plena época de Elecciones. El sospechoso tiene coartadas firmes pero la obsesión por querer detenerlo hace que los agentes no vean al verdadero.",
+          "trailer_url": null
+        },
+        {
+          "slug": "faq-frequently-asked-questions",
+          "year": 2004,
+          "title": "FAQ (Frequently Asked Questions)",
+          "poster": "/media/archive/II/films/faq-frequently-asked-questions.jpg",
+          "review": "El título alude precisamente al conocido término empleado para Internet (Frequently Asked Questions – Preguntas frecuentemente hechas). También puede tomarse como esa mala palabra (en inglés) de sonido similar («fuck»), por la impresión que a uno le queda ante los intentos de una sociedad que no deja pensar al individuo y quiere controlarlo todo, síntomas detectables en la globalización de hoy día. Un trabajo de corte netamente experimental, más bien hablado en francés, arriesgado por cierto, que va revelando en Carlos Atanes a un realizador dedicado a cultivar sus propias herramientas expresivas dentro de la ciencia ficción. Premio a Mejor Película en el Festival de Cine Independiente de Atenas.",
+          "country": "España",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Un futuro cercano y probable. La Fraternidad de Metacontrol gobierna Europa. Una ciudadana ejemplar e irreprochable acaba de ingresar a la Orden. Pero su relación con un hombre especial le hará cuestionarse profundamente los principios de la Doctrina.",
+          "trailer_url": null
+        },
+        {
+          "slug": "grite-una-noche",
+          "year": 2005,
+          "title": "GRITÉ UNA NOCHE",
+          "poster": "/media/archive/II/films/grite-una-noche.jpg",
+          "review": "Sorprendente mezcla que evoca al slasher norteamericano, el cine de fantasmas, el giallo italiano y hasta algún que otro toque “hitchcockiano”, no exento de influencias “dogmáticas” con diálogos improvisados y cámara de mano incluida. El resultado impresiona, no solo por algunos sobresaltos (es inevitable que vengan a la mente clásicos como Terror en la noche de graduación) y cierta audacia, sino también por su narración y porque acá hay mucho cine visto y bien procesado. La película está entre lo mejor que ha dado el terror de la vecina orilla y reafirma al español Adrián García Bogliano (Habitaciones para turistas, ferviente admirador de Dario Argento) como una de las jóvenes promesas en continuo ascenso. El presupuesto de la película fue de apenas 600 pesos argentinos…",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Adrián García Bogliano",
+          "duration": 100,
+          "synopsis": "Una suerte de historia coral donde tres compañeras de liceo viven en un día el acoso de lo que parece ser alguien… o algo. Los miedos urbanos y los temores más íntimos de estas jóvenes parecen materializarse en algo real… o quizás sobrenatural.",
+          "trailer_url": null
+        },
+        {
+          "slug": "jennifer-s-shadow",
+          "year": 2004,
+          "title": "JENNIFER´S SHADOW",
+          "poster": "/media/archive/II/films/jennifer-s-shadow.jpg",
+          "review": "Thriller gótico con cierto nervio, esmerado en sus climas tenebrosos, que se guarda un buen par de sustos y que no se olvida de “El cuervo” ni tampoco de otro notable relato de Edgar Allan Poe, que no conviene revelar. Filmada enteramente en Buenos Aires. La protagonista Gina Philips es la misma de la primera Jeepers Creepers (2001) de Víctor Salva, mientras que en el guión aparece P. J. Pettiette, asistente de producción en Ed Wood (1994) de Tim Burton, y creador de la historia La pesadilla mortal (otra con sueños complicados y que tomaba algunos elementos de Pesadilla en lo profundo de la noche de Wes Craven), que en Montevideo se había estrenado en el ya desaparecido cine Grand Splendid.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Daniel de la Vega, Pablo Parés",
+          "duration": 95,
+          "synopsis": "Una joven actriz que viaja a Buenos Aires a raíz de la muerte de su hermana gemela se entera de que la extraña enfermedad que mató a su familiar también lo había hecho con sus padres y ahora está afectando a su tía. Al intentar vender la casa que iba a heredar, aparece la misteriosa abuela complicándole los planes, e inexplicables pesadillas que la acosan una y otra vez.",
+          "trailer_url": null
+        },
+        {
+          "slug": "koma",
+          "year": 2004,
+          "title": "KOMA",
+          "poster": "/media/archive/II/films/koma.jpg",
+          "review": "Más que un film de terror, un inusual thriller psicológico, muy cuidado en su aspecto visual, que evoca algo de Hitchcock pero que por sobre todo juega con ambigüedades, descargando el peso del film en las personalidades de sus dos notables actrices principales.",
+          "country": "Hong Kong",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Durante una fiesta de casamiento en un hotel se comete un crimen del que una mujer (Angélica Lee, la actriz malaya de El ojo ) es la única testigo. Cuando se dispone a ir a la policía a denunciar a la asesina descubre que esta última mantenía un romance con su novio. Y más desconcertada queda aún cuando esta mujer la salva de una muerte inminente, luego de que un supuesto asesino, desesperado por dinero, intentara atacarla. Hay todo un trasfondo de intereses (no solo materiales) que sin embargo no impide que estas mujeres deseen conocerse más, a tal punto que la amistad pasa casi a ser otra cosa.",
+          "trailer_url": null
+        },
+        {
+          "slug": "lockout",
+          "year": 2006,
+          "title": "LOCKOUT",
+          "poster": "/media/archive/II/films/lockout.jpg",
+          "review": "El director uruguayo Ricardo Islas (radicado en la ciudad de Chicago desde hace más de diez años) retoma la línea de Para matar a un asesino (2004), probablemente su mejor trabajo hasta la fecha, disparando más dardos contra el sistema social estadounidense y sobre todo al corporativismo. La obra se divide en varios capítulos, cuenta con inesperados toques dramáticos derivados del patio trasero del sueño norteamericano, y vuelca el tradicional buen suspenso y terror de Islas especialmente a partir de su segunda mitad, con un explícito homenaje al Takashi Miike de Ôdishon (1999) y hasta una vuelta de tuerca en el final.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Ricardo Islas",
+          "duration": 90,
+          "synopsis": "Norteamericano despedido de importante compañía por no saber manejar el idioma español, y luego de haber trabajado durante varios años en la misma, debe mudarse junto a su pareja y la hermana menor de esta última, debido a inminentes problemas económicos. Muy pronto meten las narices en una zona rural donde no deben y eso les implica tenebrosas visitas al nuevo hogar.",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-dark-hours",
+          "year": 2005,
+          "title": "THE DARK HOURS",
+          "poster": "/media/archive/II/films/the-dark-hours.jpg",
+          "review": "Thriller psicológico con innegables influencias del cine de David Cronenberg (también canadiense) y a la vez bastante creativo al momento de jugar con las apariencias, tanto en la realidad como en la ficción… Premio a Mejor Película en el festival de cine fantástico de Nueva York y a Mejor Director en Sitges.",
+          "country": "Canadá",
+          "credits": "",
+          "director": "Paul Fox",
+          "duration": 80,
+          "synopsis": "Una psiquiatra decide que ya es hora de tomarse unas vacaciones, luego de un incidente con uno de los enfermos del hospital en que trabaja. Su pareja es un escritor que no gana lo suficiente y su hermana ha abandonado los estudios y como que se ha dejado estar. Los tres se juntan finalmente en una alejada cabaña, pero repentinamente aparece un fugado del nosocomio, reprochándole a la doctora los malos tratos que tuvo como paciente de ella durante años. A modo de venganza les hace vivir a todos las horas del título, a través de juegos donde una mala respuesta puede resultar fatal. Lo más curioso es que tanto el demente como la doctora padecen la misma enfermedad terminal, un tumor cerebral.",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-great-yokai-war",
+          "year": 2005,
+          "title": "THE GREAT YOKAI WAR",
+          "poster": "/media/archive/II/films/the-great-yokai-war.jpg",
+          "review": "Quizás el ejemplo más perfecto de cine fantástico dentro del festival y toda una curiosidad, por tratarse de un film de Takashi Miike, quien nos tiene acostumbrados a un buen cine, pero más bien provocador y violento. Se trata de la película de mayor presupuesto en la filmografía del realizador nipón, que tuvo su raíz en una versión original (mucho más corta) dirigida por Yoshiyuki Kuroda en 1968. Criaturas y fantasmas extraídos del folklore japonés y en una batalla espectacular, por momentos surrealista, con algunos toques de humor, y visualmente deslumbrante, a partir de una vieja serie de comics (Los Yokai, que alguna vez inspiraron los trabajos de Hayao Miyazaki). Hay efectos computarizados, animación stop-motion y hasta marionetas. Yôkai daisensô – Dirección: Takashi Miike. Guión: TM, Mitshuiko Sawamura, Takehiko Itakura, basado en la novela de Hiroshi Aramata, a partir de los comics de Shigeru Mizuki. Con Ryunosuke Kamiki, Hiroyuki Miyazako, Chiaki Kuriyama, Bunta Sugawara, Kaho Minami. Duración: 124 minutos",
+          "country": "Japón",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "El ejército de las tinieblas amenaza al planeta y el elegido para salvar a la humanidad es un niño que vive en el mundo real pero que no tiene idea de qué va todo el asunto. Tampoco de quienes serán sus aliados en la lucha, los Yokai, extravagantes espíritus que habitan los páramos más remotos de su ciudad y que combatirán a un enemigo que se alimenta del odio y el resentimiento de sus rivales.",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-last-horror-movie",
+          "year": 2003,
+          "title": "THE LAST HORROR MOVIE",
+          "poster": "/media/archive/II/films/the-last-horror-movie.jpg",
+          "review": "Apenas por encima de algunos antecedentes similares de “shockumentary” (Henry: Retrato de un asesino en serie, la belga Ocurrió cerca de casa) y bastante lejos de versiones caricaturescas (Psicópata americano) o más contenidas (Las horas del día), el verdadero terror no está tanto en la obra en sí sino en los segundos que preceden los créditos finales y quizás… a la salida del cine. Creativa, frontal, incisiva; una de las mejores películas de terror inglés de un buen tiempo a esta parte. Premio a Mejor Film en los festivales de cine fantástico de Londres, Nueva York y Buenos Aires.",
+          "country": "Reino Unido",
+          "credits": "",
+          "director": "Julian Richards",
+          "duration": 80,
+          "synopsis": "Un fotógrafo de bodas free-lance , cansado de ver las versiones que el cine de terror realiza sobre psicópatas, decide hacer él mismo un documental sobre qué es ser un asesino serial, la definitiva y verdadera película de horror. Lo más curioso es que lleva una vida absolutamente normal, es muy sociable, inteligente, y hasta llega a filmar a familiares y amigos que no tienen idea de lo que realmente está haciendo.",
+          "trailer_url": null
+        },
+        {
+          "slug": "tl-1-mi-reino-por-un-platillo-volador",
+          "year": 2004,
+          "title": "TL-1: MI REINO POR UN PLATILLO VOLADOR",
+          "poster": "/media/archive/II/films/tl-1-mi-reino-por-un-platillo-volador.jpg",
+          "review": "La película es un falso documental, con testimonios a veces insólitos, los propios trabajos del personaje presentados de forma íntegra (y homenajeando al cine mudo) y todas las peripecias por las que atraviesa a lo largo de su vida. Un trabajo de declarado (y loco) amor por el cine, con momentos brillantes de humor y dueño de mucha originalidad y estilo. Es la película bizarra por excelencia del festival y también un llamado de atención para lo que pueda seguir haciendo este joven realizador, aquí recién en su ópera prima.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Tetsuo Lumière",
+          "duration": 112,
+          "synopsis": "Lumi tiene un sueño: como fanático que es de La Guerra de los Mundos (la de Byron Haskin), y cuando sea grande, quiere hacer una película similar, con platos voladores atacando Buenos Aires. De joven se muda dicha ciudad y vive en la calle, casas prestadas, tomadas…, y de a poco empieza a hacer cortos, con la ayuda de actores encontrados por ahí, escenografías con basura de la calle…; todo con el fin de lograr su objetivo. Pero una extraña enfermedad lo sorprende y amenaza con tirarle el sueño abajo.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "CORTOMETRAJES INTERNACIONALES EN COMPETENCIA / INTERNATIONAL SHORT FILMS COMPETITION",
+      "type": "shorts",
+      "films": [
+        {
+          "slug": "anastasia",
+          "year": 2004,
+          "title": "Anastasia",
+          "poster": null,
+          "review": null,
+          "country": "Grecia",
+          "credits": "",
+          "director": "Dimitris Apostolou",
+          "duration": null,
+          "synopsis": "Un empleado de limpieza del municipio, volviendo tarde en la noche, tiene un problema con su coche. Casualmente conoce a la joven y hermosa mujer del título… dueña de un gran secreto.",
+          "trailer_url": null
+        },
+        {
+          "slug": "broch-man",
+          "year": 2005,
+          "title": "Broch-Man",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Alejandro Starópoli",
+          "duration": null,
+          "synopsis": "Él era un joven como cualquier otro, pero un día, mientras descolgaba la ropa de la cuerda, fue alcanzado por un misterioso rayo que lo dotó de increíbles poderes. Ahora él puede controlar telekinéticamente los palillos de madera y arrojarlos con gran precisión; él es portador de un increíble poder y no descansará hasta erradicar por completo el crimen de la ciudad.",
+          "trailer_url": null
+        },
+        {
+          "slug": "ella-o-yo",
+          "year": 2004,
+          "title": "Ella o yo",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Sebastián Franco",
+          "duration": null,
+          "synopsis": "Atrapada entre los muros de la conciencia, una joven paga eternamente el precio de la traición a su mejor amiga.",
+          "trailer_url": null
+        },
+        {
+          "slug": "escarnio",
+          "year": 2004,
+          "title": "Escarnio",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Raúl Cerezo",
+          "duration": null,
+          "synopsis": "Libre adaptación de “La gallina degollada” del salteño Horacio Quiroga, a propósito de matrimonio feliz por flamante hija normal, nacida luego de otros hermanos con defectos que no se quedarán quietos…",
+          "trailer_url": null
+        },
+        {
+          "slug": "graveless",
+          "year": 2005,
+          "title": "Graveless",
+          "poster": null,
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Christian Ray",
+          "duration": null,
+          "synopsis": "La historia de un hombre atrapado por un feroz asesino, que quiere conocer sus más profundos horrores. Premio a Mejor Cortometraje en Sitges.",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-painter-of-nosferatu",
+          "year": 2005,
+          "title": "The Painter of Nosferatu",
+          "poster": null,
+          "review": null,
+          "country": "Macedonia",
+          "credits": "",
+          "director": "Gjorgi Kakashevski",
+          "duration": null,
+          "synopsis": "Un vampiro atrae a sus víctimas haciéndose pasar por un pintor de cuadros.",
+          "trailer_url": null
+        },
+        {
+          "slug": "una-y-otra-vez",
+          "year": 2005,
+          "title": "Una y otra vez",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Gabriel Grieco",
+          "duration": null,
+          "synopsis": "Una cita a ciegas por Internet… una y otra vez.",
+          "trailer_url": null
+        },
+        {
+          "slug": "unheimlich",
+          "year": 2006,
+          "title": "Unheimlich",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Pablo Baltera",
+          "duration": null,
+          "synopsis": "Por medio de un aviso en el periódico una pareja se contacta con el propietario de una inmobiliaria, quien les ofrece una antigua propiedad. Están muy entusiasmados… pero solo por un momento.",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-cancion-de-ana",
+          "year": 2005,
+          "title": "La canción de Ana",
+          "poster": null,
+          "country": "Argentina",
+          "director": "Enrique Stavron",
+          "duration": 15,
+          "synopsis": "Una mujer que chatea desde hace dos años con un desconocido, hasta que finalmente lo ve. Las cosas, a veces, no son como uno se imagina.",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-plaza",
+          "year": 2005,
+          "title": "La plaza",
+          "poster": null,
+          "country": "Argentina",
+          "director": null,
+          "duration": null,
+          "synopsis": "A un día del cumpleaños de su hijo, Carlos se siente acechado por los recuerdos.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "CORTOMETRAJES URUGUAYOS EN COMPETENCIA / URUGUAYAN SHORT FILMS COMPETITION",
+      "type": "shorts",
+      "films": [
+        {
+          "slug": "arcano",
+          "year": 2004,
+          "title": "Arcano",
+          "poster": null,
+          "country": "Uruguay",
+          "director": "Patricia Kenny, Max Müller",
+          "duration": 8,
+          "synopsis": "Invierno de 1972. Tres hombres intentan robar una casa. Sobre el desconocido morador circulan rumores inquietantes.",
+          "trailer_url": null
+        },
+        {
+          "slug": "arraigado",
+          "year": 2005,
+          "title": "Arraigado",
+          "poster": null,
+          "country": "Uruguay",
+          "director": "Pablo Pera",
+          "duration": 4,
+          "synopsis": "Una noche como cualquier otra, en una solitaria cena como tantas, un hombre puede demostrarse que nada es más fuerte que su firme voluntad.",
+          "trailer_url": null
+        },
+        {
+          "slug": "el-cojonudo",
+          "year": 2005,
+          "title": "El cojonudo",
+          "poster": null,
+          "country": "Uruguay",
+          "director": "Federico Álvarez",
+          "duration": 20,
+          "synopsis": "Pareja de jóvenes se topa con hombre misterioso que cuenta la historia de un delirante español varado en la ruta, luego albergado por extraña familia.",
+          "trailer_url": null
+        },
+        {
+          "slug": "el-pegajoso-ataque-de-la-supermosca-humanoide",
+          "year": 2005,
+          "title": "El pegajoso ataque de la supermosca humanoide",
+          "poster": null,
+          "country": "Uruguay",
+          "director": "Manuel Facal",
+          "duration": 1,
+          "synopsis": "Cuando un científico loco se convierte en una gigantesca mosca que aterroriza la ciudad, sólo hay una esperanza para la gente…",
+          "trailer_url": null
+        },
+        {
+          "slug": "extra-extra",
+          "year": 2006,
+          "title": "Extra, extra",
+          "poster": null,
+          "country": "Uruguay",
+          "director": "Diego Melo",
+          "duration": 11,
+          "synopsis": "Un adicto a los diarios tiene un altercado con su quiosquero, al enterarse que le vendieron un periódico ya leído. Eso le traerá serias consecuencias.",
+          "trailer_url": null
+        },
+        {
+          "slug": "megazorg-z",
+          "year": 2006,
+          "title": "Megazorg Z",
+          "poster": null,
+          "country": "Uruguay",
+          "director": "Pablo Praino",
+          "duration": 7,
+          "synopsis": "Un adolescente con actitud es reclutado para manejar un gigantesco robot.",
+          "trailer_url": null
+        },
+        {
+          "slug": "hobby-metal",
+          "year": 2005,
+          "title": "Hobby Metal",
+          "poster": null,
+          "country": "Uruguay",
+          "director": "Maximiliano Contenti",
+          "duration": 11,
+          "synopsis": "Un extraño personaje y su obsesión con los metales.",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-ultima-cena",
+          "year": 2006,
+          "title": "La última cena",
+          "poster": null,
+          "country": "Uruguay",
+          "director": "Raúl Monzón",
+          "duration": 4,
+          "synopsis": "Dos hombres, una mesa, un revólver, un juego macabro; una ceremonia donde se juega algo más que la vida.",
+          "trailer_url": null
+        },
+        {
+          "slug": "machos-marinos",
+          "year": 2006,
+          "title": "Machos marinos",
+          "poster": null,
+          "country": "Uruguay",
+          "director": "Guillermo Kloetzer",
+          "duration": 11,
+          "synopsis": "Registro de un drama pasional entre gente que ha permanecido demasiado tiempo en la playa.",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-sombra-del-hombre-lunes",
+          "year": 2006,
+          "title": "La sombra del Hombre Lunes",
+          "poster": null,
+          "country": "Uruguay",
+          "director": "Martín Klein",
+          "duration": 10,
+          "synopsis": "Un estudiante obsesionado por la puntualidad se apresura por llegar en hora a clase. Al no conseguirlo, su entorno se verá dominado por el vacío y el silencio.",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-visita",
+          "year": 2006,
+          "title": "La visita",
+          "poster": null,
+          "country": "Uruguay",
+          "director": null,
+          "duration": null,
+          "synopsis": "Una noche tormentosa, una extraña visita, y el destino de un hombre que puede cambiar.",
+          "trailer_url": null
+        },
+        {
+          "slug": "ataque-de-panico",
+          "year": 2007,
+          "title": "Ataque de pánico",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Dirección: Federico Álvarez.",
+          "director": "Federico Álvarez",
+          "duration": 4,
+          "synopsis": "Un ataque de robots sobredimensionales y objetos voladores extraterrestres en Montevideo.",
+          "trailer_url": null
+        },
+        {
+          "slug": "tic",
+          "year": 2006,
+          "title": "Tic",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Guión: Guillermo Carbonell, Alejandro Michelini. Con: Bruno Perciante, Diego Williman, Jorge Bresticov.",
+          "director": "Guillermo Carbonell, Alejandro Michelini",
+          "duration": 3,
+          "synopsis": "Un joven descubre que no recuerda lo que pasó la última hora. De a poco empiezan a llegar recuerdos, que le hacen una revelación aterradora.",
+          "trailer_url": null
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "title": "Crónica de la edición II",
+    "author": "Alejandro Yamgotchian",
+    "content": [
+      "Casi quintuplicando la asistencia del primer festival, culminó la segunda edición de Montevideo Fantástico, que tuvo lugar entre el pasado 2 y 9 de marzo de 2007 en Cine Universitario y por donde pasaron 14 largos y 24 cortometrajes; 38 obras en total provenientes de Argentina, Canadá, Colombia, Corea del Sur, China, España, Estados Unidos, Filipinas, Grecia, Inglaterra, Japón, Macedonia y Uruguay.",
+      "La cifra de espectadores demuestra claramente que sí hay gente interesada en ver otro cine independiente, otras maneras de comunicar y expresar cosas a través del terror y la ciencia ficción, que no podían encontrar un espacio en nuestro país para darse a conocer y que son totalmente distintas a los productos adocenados que llegan desde la industria.",
+      "El premio a Mejor Largometraje se lo llevó The Last Horror Movie (Inglaterra) de Julian Richards, mientras que el premio a Mejor Corto del Festival fue para el uruguayo Extra, extra de Diego Melo, que también se llevó el premio a Mejor Corto Nacional tanto del jurado como del público, el cual terminó premiando como Mejor Película del Festival, en una votación muy pareja, a Lockout (Estados Unidos) de Ricardo Islas y como Mejor Corto del Festival a Ella o yo (Argentina) de Sebastián Franco.",
+      "Las visitas llegaron desde Buenos Aires (Pablo Baltera y Oski Rodríguez, quienes cruzaron el charco para presentar el corto Unheimlich ) y también prensa argentina que llegó para cubrir el evento y participar en la mesa redonda sobre «Terror asiático», que se hizo a sala llena y con activa participación del público presente, con la presencia del periodista e investigador Darío Lavia (Cinefania.com) y Juan «Elvis» Pereyra, de la Fundación Ciudad de Arena, dentro del panel de invitados."
+    ]
+  }
+}

@@ -1,0 +1,642 @@
+{
+  "awards": [
+    {
+      "jury": "CARLOS HUGO AZTARAIN (EIG Multimedia – España), FERNÁN CISNERO (Diario El País) y GONZALO SOBRAL (Radio El Espectador – 810 AM)",
+      "awards": [
+        {
+          "film": "DIE FARBE / EL COLOR QUE CAYÓ DEL CIELO – Alemania / Germany – Director: Huan Vu",
+          "name": "MEJOR PELÍCULA",
+          "country": "",
+          "citation": "Por el desafío de rescatar el espíritu de suspenso del relato original de Lovecraft y las logradas elecciones estéticas para llevarlo adelante.",
+          "director": "Huan Vu “Por el desafío de rescatar el espíritu de suspenso del relato original de Lovecraft y las logradas elecciones estéticas para llevarlo adelante",
+          "recipient": ""
+        },
+        {
+          "film": "HUAN VU",
+          "name": "MEJOR DIRECTOR",
+          "country": "",
+          "citation": "Por su pulso narrativo a la hora de generar climas, y su atmósfera cargada de suspenso.",
+          "director": "",
+          "recipient": ""
+        },
+        {
+          "film": "DE DÍA Y DE NOCHE",
+          "name": "MEJOR GUIÓN",
+          "country": "México)",
+          "citation": "Lograda realización que desde lo cotidiano ayuda a explorar posibles mundos futuros, no tan lejanos.",
+          "director": "Alejandro Molina",
+          "recipient": ""
+        },
+        {
+          "film": "FABIÁN FORTE por ALAS – Director: Ariel Martínez Herrera",
+          "name": "MEJOR ACTOR",
+          "country": "",
+          "citation": "Por su convincente representación del hombre común sometido a una serie de situaciones complejas.",
+          "director": "Ariel Martínez Herrera (Argentina) “Por su convincente representación del hombre común sometido a una serie de situaciones complejas",
+          "recipient": ""
+        },
+        {
+          "film": "MARIANNE PORTER por TRUE NATURE – Director: Patrick Steele",
+          "name": "MEJOR ACTRIZ",
+          "country": "Estados Unidos",
+          "citation": "",
+          "director": "Patrick Steele (Estados Unidos / USA)",
+          "recipient": ""
+        },
+        {
+          "film": "1 – Director: Pater Sparrow",
+          "name": "MENCIONES ESPECIALES",
+          "country": "",
+          "citation": "Por su rescate del perfil filosófico de la obra de ciencia ficción de Stalislaw Lem y la capacidad de concretar en pantalla la atmósfera opresiva y misteriosa que la historia requería.",
+          "director": "Pater Sparrow (Hungría / Hungary) “Por su rescate del perfil filosófico de la obra de ciencia ficción de Stalislaw Lem y la capacidad de concretar en pantalla la atmósfera opresiva y misteriosa que la historia requería",
+          "recipient": ""
+        }
+      ],
+      "section": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES"
+    },
+    {
+      "jury": "los realizadores uruguayos MARCELO DI PAOLO, DARÍO NÚÑEZ y PABLO PRAINO",
+      "awards": [
+        {
+          "film": "ALUCARDOS: RETRATO DE UN VAMPIRO – Director: Ulises Guzmán",
+          "name": "MEJOR PELÍCULA LATINOAMERICANA",
+          "country": "",
+          "citation": "Por ser una pieza sólida y entretenida, que trae a la luz una película perdida y un director con una vida tan interesante como sus películas. Y que deja con las ganas de seguir investigando.",
+          "director": "Ulises Guzmán (México) “Por ser una pieza sólida y entretenida",
+          "recipient": ""
+        },
+        {
+          "film": "ALL MEN ARE CALLED ROBERT",
+          "name": "MEJOR CORTOMETRAJE",
+          "country": "Tous les Hommes s´appellent Robert)",
+          "citation": "Un corto con la habilidad de cambiar los climas con naturalidad y justificación.",
+          "director": "Marc-Henri Boulier (Francia / France",
+          "recipient": ""
+        },
+        {
+          "film": "LA MINA DE ORO – Director: Jacques Bonnavent",
+          "name": "MEJOR CORTOMETRAJE LATINOAMERICANO",
+          "country": "",
+          "citation": "Un guión muy inteligente y una historia muy bien ejecutada.",
+          "director": "Jacques Bonnavent (México) “Un guión muy inteligente y una historia muy bien ejecutada",
+          "recipient": ""
+        },
+        {
+          "film": "LAS GEMELAS DE LA CALLE PONIENTE – Mejor Animación – Directores: Marc Riba, Anna Solanas",
+          "name": "MENCIONES ESPECIALES",
+          "country": "",
+          "citation": "Sin diálogos logra una atmósfera macabra y una historia sólida.",
+          "director": "",
+          "recipient": ""
+        }
+      ],
+      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES Y DE LARGOS LATINOAMERICANOS"
+    },
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "TOQUE DE QUEDA – Directores: Elías Jiménez, Ray Figueroa",
+          "name": "MEJOR PELÍCULA",
+          "country": "Guatemala",
+          "citation": "",
+          "director": "",
+          "recipient": ""
+        },
+        {
+          "film": "LLUVIA DE LUNA – Directora: Maryse Sistach",
+          "name": "MEJOR PELÍCULA LATINOAMERICANA",
+          "country": "México",
+          "citation": "",
+          "director": "",
+          "recipient": ""
+        },
+        {
+          "film": "LA TRAGEDIA DEL HOMBRE HUECO – Director: Jorge De Guillae",
+          "name": "MEJOR CORTOMETRAJE",
+          "country": "España",
+          "citation": "",
+          "director": "Jorge De Guillae (España / Spain)",
+          "recipient": ""
+        },
+        {
+          "film": "EL PEQUEÑO AUGUSTO – Director: Marco Bentancor",
+          "name": "MEJOR CORTOMETRAJE LATINOAMERICANO",
+          "country": "Uruguay",
+          "citation": "",
+          "director": "Marco Bentancor (Uruguay)",
+          "recipient": ""
+        }
+      ],
+      "section": "BRUTAL RELÁX"
+    }
+  ],
+  "edition": {
+    "year": 2011,
+    "dates": "2011",
+    "roman": "VI",
+    "title": "Montevideo Fantástico VI",
+    "number": 6,
+    "poster": null,
+    "venues": []
+  },
+  "sections": [
+    {
+      "name": "LARGOMETRAJES EN COMPETENCIA / LONG FEATURE FILMS COMPETITION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "1",
+          "year": 2009,
+          "title": "1",
+          "poster": "/media/archive/VI/films/1.jpg",
+          "review": null,
+          "country": "Hungría",
+          "credits": "",
+          "director": "Pater Sparrow",
+          "duration": 90,
+          "synopsis": "Todo el stock de una prestigiosa librería, conocida por vender obras extrañas y difíciles de conseguir, es sustituido misteriosamente por cientos de ejemplares de un libro llamado “1”. Nadie sabe quién lo escribió ni tampoco quién lo editó. Lo cierto es que la gente que lo lee comienza a mostrar trastornos psicológicos cada vez más preocupantes, a medida que va descubriendo los significados, y eso hace que un Centro de Investigación gubernamental termine confinando en su sede a los afectados trabajadores de la librería para estudiar la causa, a la vez que se inicia un riguroso operativo policial para saber quién fue el responsable de ese libro.",
+          "trailer_url": null
+        },
+        {
+          "slug": "alas",
+          "year": 2010,
+          "title": "ALAS",
+          "poster": "/media/archive/VI/films/alas.jpg",
+          "review": "Notable ópera prima del joven Ariel Martínez Herrera, con una puesta en escena volcada más bien a lo teatral, a filmaciones en crudo, y con pantallas de fondo cuyas imágenes ofician de contexto para la acción que se va desarrollando, en ese progresivo camino del protagonista hacia lo impensado, entre el humor, el delirio y en especial con el ingenio y la imaginación de su realizador como principal motor y en extrema sintonía con la intensidad de su personaje principal.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Ariel Martínez Herrera",
+          "duration": 67,
+          "synopsis": "Jiménez es un oficinista dócil, trabajador, conformista, hábil para su trabajo, que nos cuenta el peor día de su vida. En un sistema que está preparado para que alguna cosa salga mal, basado en la realidad de que curar es más barato que prevenir, y en la especulación de que no todo saldrá mal al mismo tiempo, Jiménez sufre una larguísima serie de contratiempos menores, que se acumulan hasta el ridículo para convertirse en una verdadera pesadilla. Este viaje lo enfrenta a su soledad, a la incomprensión, y por sobre todo a sus sueños, que finalmente componen el único lugar hacia el que escapar, cuando la realidad ya no tiene puertas de salida.",
+          "trailer_url": null
+        },
+        {
+          "slug": "de-dia-y-de-noche",
+          "year": 2010,
+          "title": "DE DÍA Y DE NOCHE",
+          "poster": "/media/archive/VI/films/de-dia-y-de-noche.jpg",
+          "review": "Impecable en sus rubros técnicos, por más que no apunte precisamente a deslumbrar sino a hacer reflexionar sobre una sociedad (“La Cúpula”) que busca la perfección a través del orden y la disciplina, en base a seres humanos programados para no sentir emociones, esta cautivante ópera prima de Alejandro Molina presenta una historia no exenta de puntería e inteligencia, rescata valores humanos básicos, prácticamente extinguidos, que se imponen, al principio casi inconscientemente, como la principal arma de rebelión en un contexto de extrema frialdad. Una confirmación más de la talentosa nueva corriente de cineastas mexicanos de género fantástico, y también de un estilo de ciencia ficción que se torna cada vez más necesario.",
+          "country": "México",
+          "credits": "",
+          "director": "Alejandro Molina",
+          "duration": null,
+          "synopsis": "Cuando la superpoblación del planeta imposibilitó la convivencia, el Gobierno decidió dividir a la ciudadanía a través de una enzima implantada en el ADN de las personas, para que sus cuerpos fueran regulados por la luz solar y la oscuridad de la noche, convirtiéndolos en habitantes del día a unos y de la noche a otros.",
+          "trailer_url": null
+        },
+        {
+          "slug": "die-farbe-el-color-que-cayo-del-cielo",
+          "year": 2010,
+          "title": "DIE FARBE / EL COLOR QUE CAYÓ DEL CIELO",
+          "poster": "/media/archive/VI/films/die-farbe-el-color-que-cayo-del-cielo.jpg",
+          "review": "Basado en el célebre cuento homónimo de Lovecraft, esta meritoria adaptación se toma, sin embargo, algunas libertades respecto a la obra original, yendo un poco más allá, aprovechando esos elementos librados a la imaginación del espectador para plasmarlos en pantalla a través de situaciones de suspenso inquietante, con un terror sutil, que no cae en excesos, y con una esmerada fotografía en blanco y negro, además de escenarios creados a partir de filmaciones fusionadas con pinturas y efectos digitales.",
+          "country": "Alemania",
+          "credits": "",
+          "director": "Huan Vu",
+          "duration": 85,
+          "synopsis": "Arkham, 1975: el protagonista busca a su padre desaparecido. Las pistas lo llevan a una zona rural de Alemania, cercana a Francia, al bosque donde se lo había visto por última vez, luego de la Segunda Guerra Mundial. La esperanza de encontrarlo aún vivo y llevarlo a su hogar está latente, aunque en esa zona boscosa descubrirá un oscuro misterio del pasado. Basado en el célebre cuento homónimo de Lovecraft.",
+          "trailer_url": null
+        },
+        {
+          "slug": "el-ultimo-fin-de-semana",
+          "year": 2011,
+          "title": "EL ÚLTIMO FIN DE SEMANA",
+          "poster": "/media/archive/VI/films/el-ultimo-fin-de-semana.jpg",
+          "review": "Thriller fantástico, con un desenlace inesperado, sorprendente, que también se detiene en cómo ese grupo de conocidos reacciona ante situaciones límite, en esos lazos de sangre y relaciones amistosas que comienzan a tambalear no solo a partir de los hechos que se van dando, sino también porque entra a pesar el trágico y oscuro pasado con el que cargan algunos de ellos, tornando el clima cada vez más denso. La película fue coescrita, producida, fotografiada y editada por el propio realizador, declarado admirador de algunos autores (Carpenter, Peter Weir, entre otros) del cine de terror y ciencia ficción de los ´70 y ´80.",
+          "country": "España",
+          "credits": "",
+          "director": "Norberto Ramos del Val",
+          "duration": 82,
+          "synopsis": "Diana quiere celebrar su próximo ascenso y dejar atrás un terrible accidente. Así que invita a la casa de su abuela a Lisi, Leo y Roque; sus compañeros de trabajo. El pueblo parece abandonado y, aunque los jóvenes lo ignoren, esconde un gran secreto. Ellos se dedican a pasar tres días de fiesta, sol, playa y alcohol. El ambiente perfecto para que afloren todo tipo de sentimientos, rencores, atracciones y tensiones… Pero no están solos como creen y puede que, para más de uno, éste sea su último fin de semana.",
+          "trailer_url": null
+        },
+        {
+          "slug": "krokodyle",
+          "year": 2010,
+          "title": "KROKODYLE",
+          "poster": "/media/archive/VI/films/krokodyle.jpg",
+          "review": "Una película diferente, donde su realizador propone un creativo, desafiante y muy honesto planteo, cuestionando ideas, personajes y estructuras narrativas, a través de una realidad compuesta por diferentes capas, donde no faltan animatronics , efectos especiales y animación cuadro a cuadro.",
+          "country": "Italia",
+          "credits": "",
+          "director": "Stéfano Bessoni",
+          "duration": null,
+          "synopsis": "Un joven cineasta polaco, siempre a la espera de respuestas por sus proyectos, pasa el tiempo dibujando, escribiendo y creando su mundo imaginario. Comparte amistad con una fotógrafa de la cual está secretamente enamorado, habla con un obsesionado fabricante de muñecos, y también es amigo de otro",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-noche-del-chupacabras",
+          "year": 2011,
+          "title": "LA NOCHE DEL CHUPACABRAS",
+          "poster": "/media/archive/VI/films/la-noche-del-chupacabras.jpg",
+          "review": "El director de Mud Zombies regresa a la más pura naturaleza norteña, ahora con la mítica figura del Chupacabras, aunque no tanto como eje central de la historia. El monstruo en realidad se materializa a partir del odio histórico que hay entre las dos familias, lo que le permite a su realizador desatar violentas dosis de acción, otras tantas de comedia, crear sus climas épicos, y por supuesto un gran despliegue de efectos de maquillaje que acentúan el costado gore de la película. Imposible no recordar los clásicos monstruos con traje de goma y cierre e nn la espalda; uno de los más famosos (el de Laguna Negra, de Jack Arnold) curiosamente también había salido de Brasil.",
+          "country": "Brasil",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "El protagonista vuelve junto a su esposa al viejo hogar que lo vio nacer, en el interior de Brasil; a un ambiente rodeado de bosques, montañas y demás bellezas naturales. Al llegar, su padre le dice que varios animales han muerto en la granja misteriosamente y que para él hay algo siniestro que se esconde en los alrededores. Por si fuera poco, su familia está enfrentada a muerte con los Carvalho, otra batalla paralela que también deberán afrontar.",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-whisperer-in-darkness",
+          "year": 2011,
+          "title": "THE WHISPERER IN DARKNESS",
+          "poster": "/media/archive/VI/films/the-whisperer-in-darkness.jpg",
+          "review": "Filmada en blanco y negro, siendo no tan fiel quizás a la novela corta original pero sí al espíritu del célebre escritor, el cineasta Sean Branney logra un dignísimo trabajo encuadrado dentro de un esquema de terror clásico (al estilo de las de los años ´30), con sensibles limitaciones de presupuesto (el dinero salió del colectivo aportado por la H. P. Lovecraft Historical Society, de Estados Unidos) que, sin embargo, no impidieron crear notables atmósferas y un pulso narrativo típico del cine de suspenso y terror de las viejas épocas. La pasión por Lovecraft es en realidad el verdadero motor de toda la película.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Sean Branney",
+          "duration": 103,
+          "synopsis": "Adaptación cinematográfica del cuento corto de H.P. Lovecraft sobre un escéptico docente universitario, experto en folklore, desafiado por un erudito colega nativo de Vermont a comprobar la existencia de seres sobrenaturales en las montañas de la zona.",
+          "trailer_url": null
+        },
+        {
+          "slug": "toque-de-queda",
+          "year": 2011,
+          "title": "TOQUE DE QUEDA",
+          "poster": "/media/archive/VI/films/toque-de-queda.jpg",
+          "review": "Toda una revelación dentro del festival, no sólo por el país de procedencia del film sino por la visión que la obra plantea; los zombies apenas asoman y en sentido netamente figurado, producto de una sociedad guatemalteca con marcadas cicatrices y un sistema actual que lleva a algunos integrantes de clase media a pensar que no hay diferencias entre pobres y zombies; ambos (“los de atrás de la montaña”) están en la misma bolsa.",
+          "country": "Guatemala",
+          "credits": "",
+          "director": "Elias Jiménez, Ray Figueroa",
+          "duration": 96,
+          "synopsis": "Los vecinos del barrio privado «Villas de la Esperanza», acechados por la eventual intromisión de individuos violentos que viven en las afueras, deciden armarse y patrullar por las noches, dispuestos a defender sus hogares y familias con sus propias vidas. Pero enfrentar la violencia con más violencia sólo prolifera el contagio. Y los vecinos se darán cuenta que el peligro más grande no es lo que está fuera de sus casas, murallas y garitas de control de acceso, sino dentro de ellos mismos.",
+          "trailer_url": null
+        },
+        {
+          "slug": "true-nature",
+          "year": 2010,
+          "title": "TRUE NATURE",
+          "poster": "/media/archive/VI/films/true-nature.jpg",
+          "review": "Thriller fantástico que en realidad termina siendo un verdadero drama, y que toma como excusa sus buenos sobresaltos para revelar la cara oculta, las mentiras y debilidades que yacen debajo de una familia cuya imagen siempre había sido perfecta. Ganadora de 13 premios.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Patrick Steele",
+          "duration": null,
+          "synopsis": "Una joven atleta desaparece misteriosamente al salir a correr una noche. Un año más tarde vuelve, pero sin recordar qué fue lo que pasó, ante la alegría y a la vez el desconcierto de sus padres. De ahí en más, y mientras trata de reacomodarse a su vida normal, comienza a padecer pesadillas y extrañas visiones que la enloquecen progresivamente. Hay una razón detrás de todo esto, sin embargo, que echará a la luz datos quizás más atemorizantes que los propios hechos sobrenaturales.",
+          "trailer_url": null
+        },
+        {
+          "slug": "un-ovni-sobre-mi-cama",
+          "year": 2011,
+          "title": "UN OVNI SOBRE MI CAMA",
+          "poster": "/media/archive/VI/films/un-ovni-sobre-mi-cama.jpg",
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "En el futuro, la Tierra, y en particular Buenos Aires, se ha deshumanizado. En ella conviven extraterrestres y terrícolas. Los primeros son perseguidos por un gobierno totalitario que también expulsa de la ciudad a aquellos humanos que se han quedado sin trabajo. El sistema de control vigila las calles. Rex es un cartógrafo que al quedar desempleado decide trabajar como espía gubernamental. Pero las cosas cambian cuando conoce a Ian, un extraterrestre en fuga. En las cloacas de la ciudad comienza a gestarse la revolución.",
+          "trailer_url": null
+        },
+        {
+          "slug": "villa-estrella",
+          "year": 2009,
+          "title": "VILLA ESTRELLA",
+          "poster": "/media/archive/VI/films/villa-estrella.jpg",
+          "review": "El más reciente trabajo del filipino Rico María Ilarde, viejo conocido del festival ( B eneath the Cogon ; la premiada Altar ) nos muestra otra típica historia de terror clásico pero con su ya tradicional y refinado estilo, donde tradiciones y simbolismos se mezclan con lo sobrenatural, más precisamente con espíritus que desde el más allá irrumpen en el mundo real, a veces para intentar saldar cuentas del pasado y en otras para volcar toda su maldad.",
+          "country": "Filipinas",
+          "credits": "",
+          "director": "Rico María Ilarde",
+          "duration": 97,
+          "synopsis": "Una joven comienza a tener extrañas pesadillas, que se hacen aún más intensas cuando va de visita al complejo turístico del título, un lugar en remodelación al que acude con su ex novio, uno de los principales encargados del proyecto, y prácticamente obligada por un padre alcohólico y golpeador que desea que su hija vuelva a retomar esa relación. Allí conoce a distintas personas a las que ella nunca vio pero que les resultan conocidas de algún lado, especialmente una joven que dice recordarla de pequeña. Repentinamente comienzan las misteriosas desapariciones, llevando la historia a revelaciones sorprendentes.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "COMPETENCIA LATINOAMERICANA DE LARGOMETRAJES / LATIN AMERICAN LONG FEATURE FILMS COMPETITION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "alucardos-retrato-de-un-vampiro",
+          "year": 2010,
+          "title": "ALUCARDOS: RETRATO DE UN VAMPIRO",
+          "poster": "/media/archive/VI/films/alucardos-retrato-de-un-vampiro.jpg",
+          "review": "Todo esto sucedió en la vida real, y esta mezcla de ficción y básicamente documental, lo cuenta, recreando algunos hechos que giraron alrededor de la vida de Juan López Moctezuma (coproductor de El topo , de Alejandro Jodorowsky, de quien fuera amigo y colaborador), a través de valiosísimas imágenes de archivo y distintos testimonios de familiares, conocidos, críticos, técnicos y actores que trabajaron con él (algunos terminaron seriamente heridos, otros casi mueren durante las filmaciones). Un trabajo revelador sobre este polémico, transgresor, y especialmente hacedor de una película de culto eterno.",
+          "country": "México",
+          "credits": "",
+          "director": "Ulises Guzmán",
+          "duration": 89,
+          "synopsis": "1992. Manolo y Lalo, obsesionados con la película de culto Alucarda: La hija de las tinieblas (1978), la cual afirman, es una representación de su vida, tratan vanamente de conseguir una copia. Llegan hasta el",
+          "trailer_url": null
+        },
+        {
+          "slug": "detras-del-horror",
+          "year": 2011,
+          "title": "DETRÁS DEL HORROR",
+          "poster": "/media/archive/VI/films/detras-del-horror.jpg",
+          "review": "Mockumentary (falso documental) con influencias que recuerdan a El Proyecto Blair Witch , que logra sus momentos de escalofríos en su segunda mitad, se las ingenia para meter algunos toques de humor al comienzo (durante la filmación de un corto de terror), y hasta posee un original desenlace, que lo distancia de caer en el típico trabajo de un subgénero terrorífico cada vez más frecuentado, tanto por el cine industrial como independiente.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Diego Adrián de Llano",
+          "duration": null,
+          "synopsis": "Hace algunos meses, en la ciudad de Mar del Plata – Argentina, un grupo de estudiantes de cine y cuatro actores desaparecieron sin dejar rastros, mientras rodaban un cortometraje de terror. Desde ese entonces la policía manejó distintas hipótesis sobre el caso. Sin embargo, esta semana se difundió un video anónimo que alteró el curso de la investigación.",
+          "trailer_url": null
+        },
+        {
+          "slug": "incidente",
+          "year": 2010,
+          "title": "INCIDENTE",
+          "poster": "/media/archive/VI/films/incidente.jpg",
+          "review": "Otro mockumentary pero que tiene la particularidad de haber sido filmado en primera persona y en un plano único de 65 minutos, que crea situaciones tensas en ambientes herméticos, jugando con lo que pasa fuera de cuadro, y con el terror apareciendo en ocasiones con cierta intensidad y en los momentos menos pensados.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Mariano Cattaneo",
+          "duration": 71,
+          "synopsis": "Una documentalista, un equipo de investigadores en lenguas muertas y ritos, un cura y un camarógrafo se adentran en una fábrica abandonada desde 2001, cuando un empleado asesinó a 16 compañeros de trabajo y luego, ante la persecución policial, se quitó la vida. La policía ocultó evidencia y cerró el caso como asesinato en masa, pero varios testimonios, las fotos forenses y otros estudios, demostraban que el asesino había practicado la magia Enochiana.",
+          "trailer_url": null
+        },
+        {
+          "slug": "lluvia-de-luna",
+          "year": 2011,
+          "title": "LLUVIA DE LUNA",
+          "poster": "/media/archive/VI/films/lluvia-de-luna.jpg",
+          "review": "Lo que acontece luego no es tanto el padecimiento de una tragedia sino una fantasía poética, una road movie con tintes sobrenaturales, que termina centrándose en un paradisíaco y solitario lugar junto al mar. Por encima de las referencias a Alicia en el País de las Maravillas, las atmósferas muy bien logradas y el destacado aspecto visual de la película, que incluye fotografía submarina, hay también una buena cuota de creatividad y sensibilidad por parte de la experimentada cineasta Maryse Sistach, que perdió a su hija en un accidente años atrás y que aquí apunta a esos milagros que en la vida real no se dan.",
+          "country": "México",
+          "credits": "",
+          "director": "Maryse Sistach",
+          "duration": 91,
+          "synopsis": "Algunas veces, cuando la luna es propicia y una madre es arrastrada por un profundo deseo, ésta pronuncia las palabras indicadas para hacer posible que el alma de su hija salga del limbo y ronde sobre la tierra, como cuando estaba viva. El conjuro es inmediato y, en cuestión de segundos, se da la magia; de entre las olas surge la joven que ha revivido para cumplir su mayor deseo y, después, regresar complacida al mundo de los muertos y acabar con la pena de los sueños rotos que dejó su muerte. Esta es la historia de una cantante que pierde a su joven hija adolescente, quien luego vuelve algo desconcertada desde el más allá y que vivirá algo que le había quedado pendiente, uno de los principales anhelos de su madre.",
+          "trailer_url": null
+        },
+        {
+          "slug": "marihuana-radioactiva-interplanetaria",
+          "year": 2010,
+          "title": "MARIHUANA RADIOACTIVA INTERPLANETARIA",
+          "poster": "/media/archive/VI/films/marihuana-radioactiva-interplanetaria.jpg",
+          "review": "Comedia bizarra ultraindependiente, donde no faltan números musicales, didácticos, piquetes, cacerolas, un seguidor del Pro y hasta un fanático de Uruguay. El resultado es gracioso y el pulso, en general, se mantiene.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Marcelo Leguiza",
+          "duration": 82,
+          "synopsis": "Un extraterrestre decide viajar a Buenos Aires y tomar muestras de un humano. En su búsqueda, se encuentra con Pablo, un joven vendedor de marihuana al cual abduce. Pero cuando menos lo espera, el joven le roba su marihuana. En ese mismo momento se inicia una aventura en la cual Pablo, junto a sus amigos, trata de escapar con vida del extraterrestre y su sed de venganza. A lo largo de la aventura se encontrarán con extraños personajes, acompañados de situaciones cómicas y delirantes.",
+          "trailer_url": null
+        },
+        {
+          "slug": "muerte-ciega",
+          "year": 2011,
+          "title": "MUERTE CIEGA",
+          "poster": "/media/archive/VI/films/muerte-ciega.jpg",
+          "review": "Una película de zombies que mezcla western con cine bélico es el que nos plantean los realizadores Lucio Rojas (de quien pudo verse el corto Fascinum en la pasada edición del MF) y Cristian Toledo en este film hecho con apenas 2.000 dólares, que también va cuestionando al propio ser humano dentro de un duro contexto (un Chile devastado por el accionar de una trasnacional minera), planteando dilemas y situaciones límite en donde sólo los más fuertes sobreviven.",
+          "country": "Chile",
+          "credits": "",
+          "director": "Lucio A",
+          "duration": 82,
+          "synopsis": "Una infección viral se lo ha llevado todo. En el Chile del futuro, una epidemia originada a partir de una catástrofe ha acabado con la mayor parte de la población. Un grupo de soldados y científicos debe ir a la “zona cero”, cerrada hace varios años, para tratar de hallar la cura. Pero en el camino, se encuentran con infectados, bandidos y un secreto que les revelará que los monstruos están mucho más cerca de lo que ellos creen.",
+          "trailer_url": null
+        },
+        {
+          "slug": "post-la-aventura-completa",
+          "year": 2010,
+          "title": "POST: LA AVENTURA COMPLETA",
+          "poster": "/media/archive/VI/films/post-la-aventura-completa.jpg",
+          "review": "La obra parodia a la famosa serie Lost, en clave de comedia fantástica, enfrentando a sus personajes a una paradoja espacio temporal, y vuelve a reunir al equipo de Farsa Producciones (Filmatrón, que recibió el premio del jurado a Mejor Película Latinoamericana en la edición 2008 del MF), pieza clave para la nueva corriente de cine fantástico ultraindependiente argentino, que comenzara a gestarse en la década del ´90. Una tarea que llevó su tiempo; todo un desafío en realidad, que termina brindando un gracioso ejercicio de ciencia ficción, con la creatividad de sus realizadores como el arma más importante de todas. La película sigue luego de los créditos finales.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Pablo Parés, Esteban Rojas",
+          "duration": 88,
+          "synopsis": "Esteban es un editor que consigue trabajo en una isla de postproducción, algo que parece tentador a primera vista pero que esconde cosas muy peligrosas. Junto con Esteban, estarán dos editores más que tienen bajo su responsabilidad editar el futuro cada 108 minutos. Post, el fenómeno que revolucionó YouTube , pionero en Argentina de una nueva modalidad de difusión, llega a su fin, transformándose ahora en un largometraje que termina reuniendo las dos temporadas de la exitosa serie web y un nuevo episodio final de 25 minutos de duración, aparte de material nunca antes visto.",
+          "trailer_url": null
+        },
+        {
+          "slug": "trash",
+          "year": 2010,
+          "title": "TRASH",
+          "poster": "/media/archive/VI/films/trash.jpg",
+          "review": "Esta carrera contra el tiempo para el protagonista, que a su vez trata de luchar segundo a segundo contra la agorafobia que padece, se tiñe de humor, locura, transgresión y por supuesto algo de tensión, suspenso y gore . Ópera prima de Alejo Rébora, de quien ya se viera en el festival su corto Muertos de carnaval (2008).",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Alejo Rébora",
+          "duration": 68,
+          "synopsis": "Un experimento secreto de agentes del gobierno serbio; un gas tóxico para ser utilizado con fines bélicos termina expandiéndose accidentalmente en un pequeño pueblo industrial de Pancevo, convirtiendo a los habitantes del lugar en muertos vivientes. Dos agentes de Interpol que deben escoltar a un misterioso prisionero, una novata oficial de policía y tres amigos que salían de una discoteca, deberán unirse para sobrevivir en medio de un panorama devastador.",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-american-astronaut",
+          "year": 2001,
+          "title": "THE AMERICAN ASTRONAUT",
+          "poster": "/media/archive/VI/films/the-american-astronaut.jpg",
+          "review": "Se trata de otro western musical de ciencia ficción, ópera prima del realizador de Stingray Sam (2009; ganadora de dos premios en la pasada edición del festival), Cory McAbee, realizada hace diez años y donde ya se daba a conocer todo ese universo surrealista con aroma a viejas matinée, delirantes números musicales a cargo de la banda del director, The Bill Nayer Show, y algo de humor stand up . Un trabajo experimental sumamente original, nominado al Gran Premio del Jurado en Sundance y a los Independent Spirit Awards.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Cory McAbee",
+          "duration": 93,
+          "synopsis": "La acción toma lugar en un futuro no tan lejano. El hombre del título es un traficante interplanetario, proveniente de la Tierra, que viaja a un bar situado en un cinturón de asteroides cercano a Marte, para llevarle un preciado gato a su viejo camarada, el pirata Blueberry. Pero su misión no termina ahí; también deberá trasladar el clon en proceso de una mujer al planeta Júpiter, solamente habitado por hombres, y llevar luego a un joven a Venus, planeta solamente habitado por mujeres. En medio de todo esto hay un asesino serial que está buscando incesantemente al protagonista.",
+          "trailer_url": null
+        },
+        {
+          "slug": "nevermore-tres-pesadillas-y-un-delirio-de-edgar-allan-poe",
+          "year": 2011,
+          "title": "NEVERMORE: TRES PESADILLAS Y UN DELIRIO DE EDGAR ALLAN POE",
+          "poster": "/media/archive/VI/films/nevermore-tres-pesadillas-y-un-delirio-de-edgar-allan-poe.jpg",
+          "review": "Esmerada y sutil visión del director brasilero Paulo Biscaia Filho, autor teatral, dibujante de comics, docente de cine, que logra crear climas realmente tenebrosos, a través de una cuidadosa fotografía más una notable puesta en escena, donde no faltan efectos especiales, animación y por supuesto algunos escalofríos.",
+          "country": "Brasil",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "De los mismos realizadores de Morgue Story (Mención del Jurado en el MF IV, 2009) llega esta adaptación de tres cuentos y un poema de Edgar Allan Poe, rescatando el horror, la poesía y la fuerza de uno de los más grandes escritores norteamericanos. En «Berenice» un hombre está por casarse con su prima, quien comienza a deteriorarse debido a una extraña enfermedad. Solamente sus dientes se mantienen intactos, y ésa es la obsesión del protagonista para con su amada. «Morella» cuenta, a través de retratos, la historia de una mujer estudiosa del misticismo, y el miedo que despierta en su marido, que empieza a desearle la muerte. Para ella el fin es tan sólo el comienzo. En «El cuervo» un hombre que no puede olvidar a su amada recibe la misteriosa visita del ave del título. Y en «Ligeia» vemos la fuerza que una desaparecida mujer ejerce en la memoria de su enviciado enamorado.",
+          "trailer_url": null
+        },
+        {
+          "slug": "rojo-sangre-10-anos-a-puro-genero",
+          "year": 2009,
+          "title": "ROJO SANGRE: 10 AÑOS A PURO GÉNERO",
+          "poster": "/media/archive/VI/films/rojo-sangre-10-anos-a-puro-genero.jpg",
+          "review": "El trabajo no sólo se detiene en lo que ha significado nuestro festival hermano, sino que también aprovecha a los distintos entrevistados (directores, distribuidores, críticos, productores, técnicos, entre otros) para que den una perspectiva de lo que ha sido el cine fantástico argentino en los últimos años y de los desafíos a seguir enfrentando. Todo matizado con permanentes dosis de humor, como para romper con la rutina de cabezas parlantes. En 2009 se presentó un adelanto en el MF 4 y ahora llegó el momento de su estreno en Uruguay.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Elián Aguilar",
+          "duration": 93,
+          "synopsis": "El documental de los diez años del festival de cine independiente de género “Buenos Aires Rojo Sangre” surge en relación a dos variables. La primera de ellas a título de honrar la permanencia y constancia de un festival de neto corte independiente a través de una década; además de una inquietud de revisitar la evolución de un género que va creciendo junto con el festival: el del género fantástico, bizarro y de terror en Argentina. «Rojo Sangre» (titulo tentativo) viene a llenar un espacio que se encontraba vacío: el espacio de documentar la movida de cine independiente de género en la Argentina. El circuito comercial nacional relega estas producciones, pero los realizadores y productores argentinos reciben positivas críticas en el exterior y ven sus productos distribuidos allí. A su vez, el festival de cine independiente «Buenos Aires Rojo Sangre» actúa de vidriera y exhibición de este tipo de materiales, permitiendo a quien quiera mostrar su trabajo, una pantalla.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE LARGOMETRAJES / LONG FEATURE FILMS INFORMATIVE SESSION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "m-y-m-matilde-y-malena",
+          "year": 2010,
+          "title": "M Y M: MATILDE Y MALENA",
+          "poster": "/media/archive/VI/films/m-y-m-matilde-y-malena.jpg",
+          "review": "Entre el terror, lo experimental y lo sugestivo, el considerado primer largometraje independiente de género realizado en Córdoba (Argentina) presenta una estructura compleja, original, arriesgada, un tanto provocadora, pero que mantiene su cohesión interna, en una historia que explora, por momentos frontalmente, las fantasías y realidades de sus protagonistas. Toda una curiosidad dentro del festival.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Víctor Curay Fernández",
+          "duration": 64,
+          "synopsis": "Matilde y Malena viven juntas pero representan dos polos opuestos. Matilde es amante de la pornografía, el morbo, las películas de terror y vive con el constante deseo de suicidarse. Malena es alegre, le encantan los animales, y tiene un novio del cual vive enamorada. Una noche Malena va a una fiesta de disfraces con el objetivo de encontrarse con su novio en ese lugar. El novio de Malena no llega y Malena comienza a sentir decepción, no sólo con su novio sino con la vida en general. A partir de ese momento inexplicablemente Malena decide encerrarse en su habitación y aislarse de todo contacto humano. La decepción de Malena, que en un principio la llevó a la soledad, deriva en la más extrema locura.",
+          "trailer_url": null
+        },
+        {
+          "slug": "mala-praxis",
+          "year": 2010,
+          "title": "MALA PRAXIS",
+          "poster": "/media/archive/VI/films/mala-praxis.jpg",
+          "review": "Ópera prima (rodada en tan solo cuatro días) del joven Gonzalo López, que transcurre íntegramente entre cuatro paredes y con las conversaciones que el personaje principal siente del exterior, además de otros elementos en la habitación, como únicas señales de lo que le está pasando, lo que ha pasado con otros y lo que le podría ocurrir a él. Una propuesta arriesgada, por cierto, que igual logra sacar su provecho dentro del esquema que plantea.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Gonzalo López",
+          "duration": 75,
+          "synopsis": "Mirko es un joven internado en coma por un accidente de tránsito. Un día, despierta en una angustiosa situación: por las características de su cuerpo, un gran laboratorio internacional lo ha seleccionado como conejillo de indias de un experimento clandestino. El objetivo es probar el antídoto a un violento virus que será propagado mundialmente para posicionar al laboratorio como líder en ventas. Le quedan sólo 75 minutos antes de que su cuerpo sea tomado por completo y pierda toda capacidad de razonamiento. Su única posibilidad es idear un plan que le permita escapar e inyectarse el antídoto, pero deberá concretarlo rápidamente y no existe margen para el error, ya que de fallar será él quien inicie una epidemia.",
+          "trailer_url": null
+        },
+        {
+          "slug": "ovejas-en-el-cielo",
+          "year": 2010,
+          "title": "OVEJAS EN EL CIELO",
+          "poster": null,
+          "review": "Otra propuesta un tanto experimental, dividida en varios capítulos (a partir de las leyes que rigen en el mundo de los amigos imaginarios), filmada básicamente con cámara de mano, y de carácter ultraindependiente, que se centra en la conflictiva relación de una madre separada y su pequeño hijo. La fantasía del niño, a la que se aferra cada vez con más intensidad, choca con la dura realidad que pretende hacerle ver una madre visiblemente afectada por el divorcio y que a veces se descarga injustamente con el pequeño, generándose diversas situaciones, algunas codeándose lisa y llanamente con la locura, y otras que dejan paso a la reflexión, a pesar de todo…",
+          "country": "España",
+          "credits": "",
+          "director": "Adrián Torres",
+          "duration": 63,
+          "synopsis": "Una madre y su hijo viven una realidad extraña. El niño tiene un amigo imaginario, que le acompaña desde que nació. La madre, sin embargo, vive en un mundo de mentiras donde la ausencia de su marido la destruye poco a poco.",
+          "trailer_url": null
+        },
+        {
+          "slug": "sadomaster-locura-general",
+          "year": 2011,
+          "title": "SADOMASTER: LOCURA GENERAL",
+          "poster": "/media/archive/VI/films/sadomaster-locura-general.jpg",
+          "review": "Germán Magariños es un cineasta ultraindependiente, provocador, transgresor, pero, a diferencia de lo que uno podría imaginar en una película de bajísimo presupuesto, extrema crudeza y que se ha convertido instantáneamente en obra de culto, hay una cabeza pensante que por encima de excesos varios hace espacio para la crítica social, especialmente hacia la autoridad y el papel de algunos medios masivos de comunicación. Un film polémico, por cierto, sazonado con varias dosis de sarcasmo, sexo, truculencia, humor negro, en ocasiones bizarro, además de efectos especiales y de maquillaje, que puede despertar tanto las risas como el rechazo del espectador. Para los seguidores de Troma Producciones, Lloyd Kaufman aparece en un papel especial como periodista norteamericano.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Germán Magariños",
+          "duration": 70,
+          "synopsis": "Argentina: futuro cercano. Un régimen ultra nazi, que masacra a los que considera escorias sociales, ha construido un muro separando a las clases poderosas de los “indeseables”. Pero del otro lado se está gestando una violenta revolución; una vieja leyenda enmascarada y justiciera viene del infierno para destruir de manera aún más violenta a los dictadores.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "COMPETENCIA OFICIAL DE CORTOMETRAJES / SHORT FILMS COMPETITION",
+      "type": "shorts",
+      "films": [
+        {
+          "year": 2010,
+          "title": "All Men Are Called Robert / Tous les Hommes s´appellent Robert",
+          "poster": null,
+          "review": null,
+          "country": "Francia",
+          "credits": "",
+          "director": "Marc-Henri Boulier",
+          "duration": null,
+          "synopsis": "Un hombre desnudo y con su cuerpo embarrado va corriendo desesperadamente por el bosque, mientras escucha a lo lejos los gritos de una mujer que clama por ayuda. ¿Quiénes son los que lo persiguen tratando de atraparlo? Premiado en Francia, Canadá y Grecia.",
+          "trailer_url": null
+        },
+        {
+          "year": 2011,
+          "title": "Averiguación Policial No. 0521/09 / Inquérito Policial no. 0521/09",
+          "poster": null,
+          "review": null,
+          "country": "Brasil",
+          "credits": "",
+          "director": "Vinicius Casimiro",
+          "duration": null,
+          "synopsis": "Por medio de evidencias en video, policías intentan develar un misterioso caso de secuestro y asesinato.",
+          "trailer_url": null
+        },
+        {
+          "year": 2011,
+          "title": "Ciclo",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "",
+          "director": "Santiago Reyes",
+          "duration": null,
+          "synopsis": "Jorge Mítico (26) quiere dejar de vivir. Pero falla en sus intentos de suicidio. Esto lo lleva a creer que por alguna razón (¿el destino?) debe seguir viviendo.",
+          "trailer_url": null
+        },
+        {
+          "year": 2010,
+          "title": "De Contemptu Mundi",
+          "poster": null,
+          "review": null,
+          "country": "Chile",
+          "credits": "",
+          "director": "Lucio A",
+          "duration": null,
+          "synopsis": "Una serie de homicidios a mujeres en diversos sectores de la ciudad lleva a la policía tras la pista de un asesino que parece haberse ensañado con víctimas que se realizaron abortos avanzados en distintas etapas de sus vidas.",
+          "trailer_url": null
+        },
+        {
+          "year": 2010,
+          "title": "Juan con miedo",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Daniel Romero",
+          "duration": null,
+          "synopsis": "Durante las vacaciones en el pueblo de sus abuelos, Juan conoce a María, una niña misteriosa que le narra la terrorífica leyenda que rodea a la vieja casa del campesino. Juan, a diferencia del personaje del cuento, tiene miedo. María no. Premiado en Estados Unidos, Portugal, Eslovenia y España.",
+          "trailer_url": null
+        },
+        {
+          "year": 2010,
+          "title": "Las gemelas de la Calle Poniente",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Marc Riba",
+          "duration": null,
+          "synopsis": "Ungüentos, elixires, cataplasmas. Enriqueta y Ramoneta les atenderán con discreción, reserva y trato agradable en la Calle Poniente número 17 bis, Barcelona. No se venden en droguerías ni farmacias.",
+          "trailer_url": null
+        },
+        {
+          "year": 2011,
+          "title": "Tonrar Yuralria",
+          "poster": null,
+          "review": null,
+          "country": "Brasil",
+          "credits": "",
+          "director": "Laísa Ramthun",
+          "duration": null,
+          "synopsis": "En el Polo Norte existe una leyenda: cada 3027 lunas aparece el horrible monstruo del título, que secuestra niños para convertirlos en esclavos. La historia se desarrolla el día en que Tonrar Yuralria aparece. Y dos esquimales preparan un plan de defensa refugiándose en un iglú.",
+          "trailer_url": null
+        },
+        {
+          "year": 2011,
+          "title": "Wilt",
+          "poster": null,
+          "review": null,
+          "country": "Alemania",
+          "credits": "",
+          "director": "Daniel Vogelmann",
+          "duration": null,
+          "synopsis": "Una casa en el bosque. Él pasea recolectando plantas. Ella se queda en casa. Día tras día la misma rutina. Pero no están solos. Algo vive ahí. Algo que de pronto entra en sus vidas, atractivo y amenazante, bello y peligroso. Algo que lo cambiará todo. Premiado en Alemania. (Welk)",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE CORTOMETRAJES / SHORT FILMS INFORMATIVE SESSION",
+      "type": "shorts-catalog",
+      "films": [
+        {
+          "year": 2011,
+          "title": "Antítesis",
+          "poster": null,
+          "review": null,
+          "country": "Natalia de la Vega",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "12´- ARGENTINA Black Suite (Evdokia Kalamitsi, 2011) – 7´- GRECIA El libro de los nombres muertos (Juan Pablo Mazzini, 2010) – 29´- ARGENTINA La elegida (Juan Carlos Clemente, 2010) – 12´ – ARGENTINA La niña y el bicho (Carla María Gratti, 2010) – 4´- ARGENTINA Lesbos (Héctor Daniel Pérez Aguilera, 2010) – 25´- MÉXICO Miramelinda (Jesús Pimentel Melo, 2009) – 13´- MÉXICO Miss Mishima (Pedro Rocha, 2011) – 14´- PORTUGAL Moyana (Emiliano González Alcocer, 2009) – 10´ – MÉXICO Profesor Brofman (David Macián, 2011) – 15´- ESPAÑA The Soul Detective (Davi de Oliveira Pinheiro, 2009) – BRASIL",
+          "trailer_url": null
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "title": "Crónica de la edición VI",
+    "author": "Alejandro Yamgotchian",
+    "content": [
+      "Varios artistas argentinos, entre directores, productores, actores y técnicos, llegaron al festival para presentar sus respectivos trabajos, como Alejo Rébora (realizador de Trash ), Marcelo Leguiza (director de Marihuana Radioactiva Interplanetaria ), Ramón Cordero y Ezequiel Hansen (actores y productores de Sadomaster: Locura general ), y Alejandro Ianni (responsable del cortometraje Visitante nocturno ).",
+      "El Festival, además, contó con la presencia del reconocido periodista Carlos Hugo Aztarain en el Jurado, quien también participó de una mesa redonda recorriendo de manera vasta y profunda la historia del cine de terror español, acompañado del colega Sergio Moreira. También hubo presentaciones previas para los homenajes a los fallecidos realizadores Robert Mulligan e Irvin Kershner, además de a la productora Laura Ziskin, y para clásicos del género, a cargo de periodistas especializados y nuevamente con muy buena respuesta del público presente."
+    ]
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "awards": [
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "STRIGOI",
+          "name": "MEJOR LARGOMETRAJE",
+          "country": "Reino Unido"
+        },
+        {
+          "film": "TL-2: LA FELICIDAD ES UNA LEYENDA URBANA",
+          "name": "MEJOR LARGOMETRAJE LATINOAMERICANO",
+          "country": "Argentina"
+        }
+      ],
+      "section": "COMPETENCIA OFICIAL DE LARGOMETRAJES"
+    },
+    {
+      "jury": "NICOLÁS BATALLA (CX 14 – El Espectador), PABLO SILVA OLAZÁBAL (CX 26 – Radio Uruguay, Sodre) y WILMAR UMPIÉRREZ (CX 30 – Radio Nacional)",
+      "awards": [
+        {
+          "film": "INTERCAMBIO",
+          "name": "MEJOR CORTOMETRAJE",
+          "country": "España"
+        },
+        {
+          "film": "GATO",
+          "name": "MEJOR CORTOMETRAJE LATINOAMERICANO",
+          "country": "Brasil"
+        },
+        {
+          "film": "ÚLTIMOS PASAJEROS",
+          "name": "MENCIÓN ESPECIAL",
+          "country": "México"
+        }
+      ],
+      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES"
+    },
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "THE LIFE & DEATH OF A PORNO GANG",
+          "name": "MEJOR PELÍCULA",
+          "country": "Serbia)",
+          "citation": "",
+          "director": "Mladen Mjordjevic",
+          "recipient": ""
+        },
+        {
+          "film": "BEYOND THE GRAVE",
+          "name": "MEJOR PELÍCULA LATINOAMERICANA",
+          "country": "Brasil",
+          "citation": "",
+          "director": "Davi de Oliveira Pinheiro",
+          "recipient": ""
+        },
+        {
+          "film": "EN LA CRIPTA",
+          "name": "MEJOR CORTOMETRAJE Y MEJOR CORTOMETRAJE LATINOAMERICANO",
+          "country": "Argentina)",
+          "citation": "",
+          "director": "Willy Burrut",
+          "recipient": ""
+        },
+        {
+          "film": "LOS REVOLTOSOS – EPISODIO 2: CAFEST – Directores / Directors: Felipe Buchelli, F",
+          "name": "MEJOR CORTOMETRAJE URUGUAYO",
+          "country": "",
+          "citation": "",
+          "director": "",
+          "recipient": ""
+        }
+      ],
+      "section": "PREMIOS DEL PÚBLICO"
+    }
+  ],
+  "edition": {
+    "year": 2010,
+    "dates": "2010",
+    "roman": "V",
+    "title": "Montevideo Fantástico V",
+    "number": 5,
+    "poster": null,
+    "venues": []
+  },
+  "sections": [
+    {
+      "name": "LARGOMETRAJES EN COMPETENCIA / LONG FEATURE FILMS COMPETITION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "abandonados",
+          "year": 2009,
+          "title": "ABANDONADOS",
+          "poster": "/media/archive/V/films/abandonados.jpg",
+          "review": "Un enorme esfuerzo de producción es lo primero que llama la atención en esta película independiente, con participación de soldados del Ejército de Chile, en un film que simplemente toma como base la ciencia ficción, lejos de monstruos y efectos especiales, para crear un drama futurista, de tono espiritual, que reflexiona sobre el problema medioambiental y los valores humanos. Segundo largo del angelino David Contreras (luego de Demencia, 2008), un joven cineasta y comunicador que suele escribir, dirigir y producir sus propios trabajos.",
+          "country": "Chile",
+          "credits": "",
+          "director": "David Contreras",
+          "duration": 90,
+          "synopsis": "Chile, 2049. Una guerra nuclear sacude al país trasandino, ante el ataque de potencias extranjeras, en lo que pasó a denominarse “La guerra por el agua”. Dos hombres, entre estos un profesor experto en calentamiento global, lucharán junto a un grupo de sobrevivientes contra viejos recuerdos familiares y especialmente contra la locura de estar solos e inmersos en un catastrófico panorama, mientras todos tratan de encontrar la salvación.",
+          "trailer_url": null
+        },
+        {
+          "slug": "beyond-the-grave",
+          "year": 2010,
+          "title": "BEYOND THE GRAVE",
+          "poster": "/media/archive/V/films/beyond-the-grave.jpg",
+          "review": "Filmada básicamente en Porto Alegre, en apenas tres semanas, el director brasilero Davi de Oliveira Pinheiro, aquí también guionista y productor, realiza una ópera prima muy llamativa, planteando una especie de antiutopía, en un contexto depresivo, abandonado, humanamente devastado, sometiendo a varios de sus personajes a situaciones emocionalmente intensas, chocantes, y subvirtiendo las reglas del género, haciendo por momentos una especie de obra experimental entre el spaghetti western y el cine de muertos vivientes. Sin dudas, un realizador a seguir.",
+          "country": "Brasil",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "En un mundo post-apocalíptico y en el que la realidad es transformada por el odio y la magia negra, un policía vengador busca incansablemente, y con la ayuda de un grupo de sobrevivientes, a un asesino en serie sobrenatural, en medio de una batalla entre alguien no tan bueno y una entidad diabólica e implacable.",
+          "trailer_url": null
+        },
+        {
+          "slug": "el-monstro-del-mar",
+          "year": 2010,
+          "title": "EL MONSTRO DEL MAR!",
+          "poster": "/media/archive/V/films/el-monstro-del-mar.jpg",
+          "review": "La imaginación del espectador va a tener que oficiar en algunas partes de soporte, ante la falta de presupuesto para ver a la verdadera estrella de la película en todo su esplendor, aunque la recompensa final llega en los últimos quince minutos. Mujeres voluptuosas, esmerados efectos especiales, algunos infaltables toques gore para lo que es una película de monstruos marinos (lo de “monstro” está claro que hace referencia al cine clase B italiano de los ´70 y ´80, el mismo que se pudo alquilar alguna vez en videoclubes), una inminente alusión a las mujeres de Russ Meyer, a las películas de John Waters y a la estética de Tarantino son los ingredientes de este segundo film dirigido por Stuart Simpson, premiado en Melbourne, Atlanta y Oklahoma.",
+          "country": "Australia",
+          "credits": "",
+          "director": "Stuart Simpson",
+          "duration": 75,
+          "synopsis": "Tres asesinas a sueldo que vienen escapando de la policía, terminan en un pequeño pueblo costero australiano. Allí, aprovechando el clima cálido, las drogas y el rock ´n roll, hacen oídos sordos a las advertencias de un veterano residente del lugar, quien les aconseja no meterse al agua. Sin embargo, la inocente nieta de este hombre logra acercarse a ellas, conoce un poco más de sus vidas… y termina librando una brutal batalla nada menos que contra el Kraken, el mítico calamar gigante.",
+          "trailer_url": null
+        },
+        {
+          "slug": "humanimal",
+          "year": 2010,
+          "title": "HUMANIMAL",
+          "poster": "/media/archive/V/films/humanimal.jpg",
+          "review": "Un largometraje chileno muy particular a cargo del español radicado en Chile, Francesc Morales, aquí en su ópera prima (y de quien el festival ya exhibiera su corto Anular ). Una fábula contemporánea sin diálogos, cuyos actores protagónicos están vestidos en trajes ridículos de animales (una coneja, un león, un tigre, varias ovejas, además de los ya mencionados), pero en vez de ser una comedia infantil, la historia es un duro drama, que bordea el surrealismo y el terror. Un film bastante arriesgado, experimental, con cierta estética teatral, que apunta a la decadencia humana y que logra llamar la atención dentro de la cada vez más prolífica producción de cine fantástico trasandino.",
+          "country": "Chile",
+          "credits": "",
+          "director": "Francesc Morales",
+          "duration": 82,
+          "synopsis": "La torpe Tortuga siempre es víctima del inteligente Zorro. Cuando aparece Gata, ambos caen a sus pies y compiten por conquistarla. Aunque ella sólo seducirá a quien logre incorporar hábitos humanos, Zorro logra aprender más rápido y Tortuga es rechazado. Finalmente se dará cuenta que puede tener una ventaja, si alimenta a una misteriosa criatura con carne animal. Una fábula contemporánea sin diálogos, cuyos actores protagónicos están vestidos en trajes ridículos de animales, pero en vez de ser una comedia infantil, la historia es un duro drama, que bordea el surrealismo y el terror.",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-pantera-negra",
+          "year": 2010,
+          "title": "LA PANTERA NEGRA",
+          "poster": "/media/archive/V/films/la-pantera-negra.jpg",
+          "review": "Llamativa parodia al film noir , que mezcla surrealismo, folklore mexicano, infaltables ingredientes de cine negro, y hasta un poco de ciencia ficción, escrita y dirigida por el joven Iyari Wertta, aquí en su ópera prima, hecha en blanco y negro, y con una banda sonora compuesta en su totalidad por el propio realizador. Premio del Público en el Thriller Film Festival de Liege (Bélgica).",
+          "country": "México",
+          "credits": "",
+          "director": "Iyari Wertta",
+          "duration": 108,
+          "synopsis": "Nico Beamonte es un detective privado, alcohólico y decadente. Un día recibe una llamada de un tipo que se hace llamar Dios, quien le pide que encuentre a La Pantera Negra, sin proporcionarle más pistas. Nico acepta el trabajo. De inmediato conoce a una tal Sra. M. que también le pide ayuda. Según ella Pedro Infante, el ídolo de México de los años ´50, no murió hace años y está más vivo que nunca, por lo que le pide que lo encuentre. Lo que Beamonte no sabe es que se trata de un plan confabulado entre Dios y la Sra. M. para enfrentarlo a su destino.",
+          "trailer_url": null
+        },
+        {
+          "slug": "molinas-ferozz",
+          "year": 2010,
+          "title": "MOLINA´S FEROZZ",
+          "poster": "/media/archive/V/films/molinas-ferozz.jpg",
+          "review": "El director cubano Jorge Molina es un inquieto cineasta, un inconformista y provocador (alguien lo ha definido como un Tarantino tropical) que ha sido marginado por la industria, al punto tal que los ínfimos presupuestos de sus trabajos provienen generalmente del bolsillo de sus propios amigos. Aquí le apunta directamente y sin anestesia al costado más oscuro de la naturaleza humana, valiéndose del sexo, la muerte y lo sobrenatural, del delirio y el excentricismo, para convertir un apacible contexto en un auténtico infierno.",
+          "country": "Costa Rica",
+          "credits": "",
+          "director": "Molina",
+          "duration": 71,
+          "synopsis": "Campiña cubana. Miranda, una hermosa adolescente, vive junto a su madre Dolores, mujer cuarentona, viuda y aún atractiva, en un apartado rincón de la sierra. Allí son ayudadas por Inocencio, fornido leñador, hombre de mediana edad, hermano de Lucio, el marido muerto de Dolores, y vecino más cercano. En la soledad de la noche, al acecho del Cagüeiro y de los recuerdos perturbadores de su malvada abuela, Miranda y su madre, se debaten entre la pasión y el deseo por el bueno de Inocencio. Una mirada transgresora sobre la perversidad de la inocencia, entre la Lolita, de Vladimir Nabokov, y el cuento infantil Caperucita Roja, de Charles Perrault.",
+          "trailer_url": null
+        },
+        {
+          "slug": "recortadas",
+          "year": 2009,
+          "title": "RECORTADAS",
+          "poster": "/media/archive/V/films/recortadas.jpg",
+          "review": "Aquel joven actor de la serie Montaña Rusa (1994), que luego dirigiera las comedias Rockabilly (2000), Vacaciones en la Tierra (2001) y De noche van a tu cuarto (2002), realiza aquí una llamativa película; el título original, a diferencia de lo que pueda pensarse en principio, se utiliza en sentido figurado y como parte de un mundillo siniestro donde dos jóvenes mujeres luchan por sobrevivir en una historia de violación y venganza. La película, sin embargo, mantiene un pulso tal que no la hace caer en desbordes que el propio argumento incita, optando por sacar apuntes sobre apariencias engañosas, con bastante estilo y humor negro de por medio.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Sebastián De Caro",
+          "duration": 76,
+          "synopsis": "July y Laly son dos amigas que aceptan una cita con dos hermanos en una casa en las afueras de la ciudad. Todo va de maravilla, hasta que un detalle tan mínimo como una prenda de vestir cambiada y la extraña conducta de los anfitriones, les llevará a darse cuenta de que aquella simple reunión esconde algo más. Algo oscuro, impensado y perverso.",
+          "trailer_url": null
+        },
+        {
+          "slug": "stingray-sam",
+          "year": 2009,
+          "title": "STINGRAY SAM",
+          "poster": "/media/archive/V/films/stingray-sam.jpg",
+          "review": "La acción toma lugar en un futuro incierto, en una galaxia muy particular y especialmente en un contexto que no hace otra cosa más que ironizar sutilmente sobre algunas situaciones del mundo globalizado de hoy día y en especial sobre la cultura norteamericana a lo largo de distintas épocas. Una comedia musical dividida en capítulos, con filmaciones en blanco y negro, que mezcla western, ciencia ficción de viejas matinée, arte pop y surrealismo. El resultado en sí es bastante gracioso; el propio realizador Cory McAbee, que también es músico y aporta las canciones con su banda The Billy Nayer Show, aparece como guionista y protagonista. Su más cercano antecedente (The American Astronaut, 2001), en la misma línea de éste, estuvo nominado al Gran Premio del Jurado en el Sundance.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Cory McAbee",
+          "duration": 61,
+          "synopsis": "Stingray Sam y su viejo amigo Quasar Kid son dos fugitivos que después de un largo tiempo se encuentran, para embarcarse en una misión (rescatar a la pequeña hija de un famoso carpintero) que les permitirá redimirse socialmente.",
+          "trailer_url": null
+        },
+        {
+          "slug": "strigoi",
+          "year": 2009,
+          "title": "STRIGOI",
+          "poster": "/media/archive/V/films/strigoi.jpg",
+          "review": "Los strigoi, según la mitología rumana, son almas que regresan del más allá en busca de justicia, pero la película no apunta a los estragos que causan por la noche estos vampiros, sino a hechos reales y quizás mucho más atemorizantes que cualquier fenómeno sobrenatural. Y lo hace en tono más bien de comedia, por más que aporta visualmente sus buenos sobresaltos, mezclando situaciones algo extravagantes, como si el humor de los Coen se mezclase con algunos personajes de los personajes de Kusturica. Premiada en el Toronto After Dark Film Festival y toda una curiosidad dentro del cine de Europa del Este.",
+          "country": "Reino Unido",
+          "credits": "",
+          "director": "Faye Jackson",
+          "duration": 101,
+          "synopsis": "Un joven estudiante de medicina regresa de Italia al pueblo natal de su abuelo, en Rumania, y termina intrigado por el fallecimiento de uno de sus vecinos. Mientras todos los conocidos hablan de muerte por causas naturales, las marcas en el cuello del difunto llevan al protagonista a investigar qué fue lo que realmente pasó.",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-life-and-death-of-a-porno-gang",
+          "year": 2009,
+          "title": "THE LIFE AND DEATH OF A PORNO GANG",
+          "poster": "/media/archive/V/films/the-life-and-death-of-a-porno-gang.jpg",
+          "review": "Es sin dudas el film más fuerte y controversial de todo el festival, que diera inicio a la corriente denominada “Serbia subversiva”, junto con A Serbian Film, que vino después y que también intenta ser una metáfora del sufrimiento físico y moral, de la crisis económica y de la violencia que ha padecido y sigue latiendo en la sociedad serbia, durante y después de la era Milosevic. Una road movie honesta y perturbadora, tan pesimista como chocante, ganadora de varios premios internacionales.",
+          "country": "Serbia",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Un joven realizador no encuentra la oportunidad de hacer su primera y ansiada película. Su gran sueño termina frustrándose, cuando ve que todas las puertas se le cierran. Enseguida conoce a un productor de cine condicionado e incursiona en la pornografía, con la excusa de que esa también puede ser la chance de intentar algo más personal pero para renovar dicho género. Sin embargo, las cosas tampoco salen como había pensado, y por tanto se ve forzado a abandonar Belgrado y hacer polémicos shows que se debaten entre el erotismo y la crítica socio-política. El resultado: a la gente no le gusta y todavía lo empieza a buscar la policía. Finalmente conoce a un periodista alemán que le propone realizar otro tipo de películas…",
+          "trailer_url": null
+        },
+        {
+          "slug": "they-want-my-eyes",
+          "year": 2009,
+          "title": "THEY WANT MY EYES",
+          "poster": "/media/archive/V/films/they-want-my-eyes.jpg",
+          "review": "Hablada en inglés aunque filmada íntegramente en Buenos Aires, el director argentino Sergio Esquenazi (Interferencia, Número 8, la reciente Visitante de invierno) logra construir una modesta y eficaz historia terrorífica, con el suspenso como uno de los puntos más altos, dentro de un relato bien filmado y llevado, escrito por su compatriota Demian Rugna (realizador de The Last Gateway, presentada por el propio director en Montevideo Fantástico 2008).",
+          "country": "Argentina",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Kyle es un joven americano viviendo en Argentina. Una mañana alguien golpea a su puerta; es Hugh, un amigo de la infancia, quien desapareciera once años atrás. Hugh le pide quedarse unos días en su casa, arguyendo que un grupo de personas lo está buscando. Pronto, Kyle se arrepentirá de haber permitido la entrada de su antiguo compañero.",
+          "trailer_url": null
+        },
+        {
+          "slug": "l-2-la-felicidad-es-una-leyenda-urbana",
+          "year": 2009,
+          "title": "L-2: LA FELICIDAD ES UNA LEYENDA URBANA",
+          "poster": "/media/archive/V/films/l-2-la-felicidad-es-una-leyenda-urbana.jpg",
+          "review": "Un nuevo mockumentary (falso documental) de Lumière, más dinámico y tan entretenido como su predecesor (TL-1). Las entrevistas y los cortos vuelven a intercalarse entre el humor de las clásicas comedias con Buster Keaton y Charles Chaplin, y los viejos clásicos de cine fantástico de bajo presupuesto. Es también la confirmación de un director sinónimo de inagotable fuente de buenas ideas, ingenio y creatividad. Premio a Mejor Película Argentina en el pasado Festival de Cine de Mar del Plata. La película sigue después de los créditos finales.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Tetsuo Lumière",
+          "duration": 85,
+          "synopsis": "Secuela de TL-1: Mi reino por un platillo volador (exhibida por primera vez en Uruguay en Montevideo Fantástico, 2007), con más peripecias sobre aquel autodidacta y visionario cineasta ultraindependiente (interpretado por el propio",
+          "trailer_url": null
+        },
+        {
+          "slug": "transmission",
+          "year": 2009,
+          "title": "TRANSMISSION",
+          "poster": "/media/archive/V/films/transmission.jpg",
+          "review": "El director Roland Vranik logra un fino ejercicio de ciencia ficción, valiéndose de un mundo desconectado y cada vez más contaminado, que la gente debe enfrentar, mientras reflexiona e ironiza sobre algo que para muchos sería casi como el fin de todo. El año de producción de la película coincide con el del fallecimiento del escritor J. G. Ballard, quien también planteaba distopías similares, analizando al hombre y la dependencia con las nuevas tecnologías. Esta película también podría ser indirectamente un homenaje a parte de su obra.",
+          "country": "Hungría",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "¿Qué pasaría si de un momento a otro dejaran de funcionar los celulares, los televisores y las computadoras? Posiblemente fuera la peor pesadilla que pudiera tener esta generación. Es que misteriosamente todo el sistema eléctrico cae en Hungría: las ondas no llegan, las redes no transmiten información, y los cables no trasladan electricidad. La acción toma lugar en un pequeño ciudad, en la que sus habitantes tratan de adaptarse a la nueva situación, intentando llenar sus horas libres para matar el aburrimiento. En medio de todo esto, la historia sigue a tres hermanos: uno que busca a sus dos pequeñas hijas desaparecidas, otro que comienza a padecer insomnio (sólo podía dormirse viendo televisión) y el tercero que conoce a una mujer que oficia de cable a tierra para situaciones por momentos agobiantes.",
+          "trailer_url": null
+        },
+        {
+          "slug": "zone-of-the-dead",
+          "year": 2009,
+          "title": "ZONE OF THE DEAD",
+          "poster": "/media/archive/V/films/zone-of-the-dead.jpg",
+          "review": "La primera película de zombies serbia presenta en el rol principal a Ken Foree (protagonista de Dawn of the Dead , de George Romero, y de la remake de Zack Snyder) y también bastante acción y terror, como si los personajes de John Carpenter se enfrentaran a una situación típicamente “romeriana”, con algún matices religiosos, humorísticos y hasta ecológicos de por medio. Premio Revelación Actriz (Kristina Klebe) en el Fantasy Horror Award, de Italia.",
+          "country": "España",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Un experimento secreto de agentes del gobierno serbio; un gas tóxico para ser utilizado con fines bélicos termina expandiéndose accidentalmente en un pequeño pueblo industrial de Pancevo, convirtiendo a los habitantes del lugar en muertos vivientes. Dos agentes de Interpol que deben escoltar a un misterioso prisionero, una novata oficial de policía y tres amigos que salían de una discoteca, deberán unirse para sobrevivir en medio de un panorama devastador.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE LARGOMETRAJES / LONG FEATURE FILMS INFORMATIVE SESSION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "numero-8",
+          "year": 2007,
+          "title": "NÚMERO 8",
+          "poster": "/media/archive/V/films/numero-8.jpg",
+          "review": "Un mockumentary en primera persona, por momentos impactante, donde el personaje central expone su propia visión del mundo en que vive, de la gente, los animales, las religiones y hasta la propia naturaleza, sin que su novia, familiares y compañeros de trabajo sepan realmente lo que hace a la hora de exponer su lado más oscuro. Cuestionador, polémico, transgresor; así es este trabajo escrito y dirigido por el argentino Sergio Esquenazi (Interferencia, Visitante de invierno, They Want My Eyes), que cuenta entre sus protagonistas con la conocida modelo Sofía Zámolo, aquí en su debut para el cine.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Sergio Esquenazi",
+          "duration": 75,
+          "synopsis": "El film cuenta la historia de Lorenzo, un hombre de 35 años que graba con su cámara de video las cosas cotidianas de su vida. A través de esta grabación casera, el espectador va conociendo algunos rasgos personales del protagonista: sus pensamientos, su filosofía… y su adicción a la violencia más despiadada y aterradora.",
+          "trailer_url": null
+        },
+        {
+          "slug": "un-perro-llamado-dolor",
+          "year": 2001,
+          "title": "UN PERRO LLAMADO DOLOR",
+          "poster": "/media/archive/V/films/un-perro-llamado-dolor.jpg",
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Luis Eduardo Aute",
+          "duration": 90,
+          "synopsis": "El título hace alusión al perro de Frida Kahlo, y la obra en sí está compuesta por siete historias, que aquí se definen como retratos, y que rinden tributo de alguna manera al cine mudo. De hecho, hay más de 4.000 dibujos a lápiz, tratados digitalmente, creados y animados por el cantautor, Luis Eduardo Aute, durante cinco años, donde el cine, la música, la poesía y la pintura se unen para acompañar esa relación permanente entre el artista y su modelo, con el perro sobrevolando casi todas las historias. Personajes famosos, históricos (Man Ray, Woody Allen, Chaplin, Eisenstein, Trotksy y Stalin, entre otros), se hacen presentes mediante diversas reflexiones sobre sus vidas y mundos.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "CORTOMETRAJES INTERNACIONALES EN COMPETENCIA / INTERNATIONAL SHORT FILMS COMPETITION",
+      "type": "shorts",
+      "films": [
+        {
+          "year": 2010,
+          "title": "Anorexia",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "K",
+          "duration": null,
+          "synopsis": "Marisa padece anorexia. Pero hay algo que desconcierta a los médicos.",
+          "trailer_url": null
+        },
+        {
+          "year": 2010,
+          "title": "Big Tits Massacre",
+          "poster": null,
+          "review": null,
+          "country": "Nueva Zelanda",
+          "credits": "",
+          "director": "Ygnacio Cervio",
+          "duration": null,
+          "synopsis": "Luego de ser traicionado por la dueña de un club de strippers, Herbert decide cobrar venganza utilizando una motosierra.",
+          "trailer_url": null
+        },
+        {
+          "year": 2009,
+          "title": "La nota",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Jorge M",
+          "duration": null,
+          "synopsis": "El destino puede estar escrito en cualquier lugar. Premio de la prensa cubana en el Festival Internacional de Cine Pobre.",
+          "trailer_url": null
+        },
+        {
+          "year": 2010,
+          "title": "Zimmer",
+          "poster": null,
+          "review": null,
+          "country": "Italia",
+          "credits": "",
+          "director": "Vincenzo Pandolfi",
+          "duration": null,
+          "synopsis": "Dos mujeres. Una extraña habitación. Un misterio del pasado.",
+          "trailer_url": null
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "title": "Crónica de la edición V",
+    "author": "Alejandro Yamgotchian",
+    "content": [
+      "Directores, productores y actores de Argentina y Brasil llegaron especialmente al evento para presentar sus respectivos trabajos, además de realizadores nacionales. Desde Buenos Aires llegaron Geremías Prum y Sebastián Alfano (directores del mediometraje Sagrada familia ), y también, desde Rosario, Mariana Campione (actriz) y, desde San Nicolás, Willy Burrut (director), por el corto argentino En la cripta . El cineasta Davi de Oliveira Pinheiro también vino pero desde Porto Alegre, Brasil, para presentar su ópera prima Beyond the Grave .",
+      "Pudo verse como novedad, además, un adelanto de Selkirk , primer largometraje animado stop-motion uruguayo, dirigido por el maestro Walter Tournier, y cuyo estreno en Montevideo está previsto para 2011. El mismo fue presentado por el animador y asistente de dirección Juan Andrés Fontán.",
+      "Se llevaron a cabo, además, los anunciados homenajes a Lon Chaney, Wolf Rilla, Dan Curtis, Freddie Francis y, con una sorprendente respuesta del público, al uruguayo Román Viñoly Barreto, a 40 años de su fallecimiento, con El vampiro negro , memorable film argentino protagonizado por Nathán Pinzón, Olga Zubarry y Roberto Escalada, con fotografía de Alberto Etchebehere."
+    ]
+  }
+}

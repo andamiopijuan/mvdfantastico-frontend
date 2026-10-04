@@ -1,0 +1,752 @@
+{
+  "awards": [
+    {
+      "jury": "RICARDO ISLAS (URUGUAY, realizador), GUILLERMO LOCKHART (URUGUAY, periodista, productor) y LIDIA PIRES (PARAGUAY, actriz, productora)",
+      "awards": [
+        {
+          "film": "LOST IN APOCALYPSE / PERDIDOS EN EL APOCALIPSIS",
+          "name": "MEJOR LARGOMETRAJE DEL FESTIVAL",
+          "country": "China",
+          "citation": "La película logra, dentro del género, la conexión del espectador con sus personajes. Resalta un elenco homogéneo que cuaja a la perfección. Muy bien dirigida por Sky Wang con excelentes tomas. El guión incluye un grupo de extraños muy distintos entre sí que forman una pseudo familia creíble. Excelentes valores de producción.",
+          "director": "Sky Wang",
+          "recipient": ""
+        },
+        {
+          "film": "SKY WANG",
+          "name": "MEJOR DIRECTOR",
+          "country": "LOST IN APOCALYPSE",
+          "citation": "– China, 2018 – Excelente ensamblaje de muy buenas tomas en pos de que la película fluya sin sobresaltos tecnológicos. El control de la iluminación para crear el ambiente necesario es de mencionar.",
+          "director": "",
+          "recipient": ""
+        },
+        {
+          "film": "FAKE BLOOD / SANGRE FALSA – Canadá, 2017 – Director: Rob Grant. Guión: Rob Grant",
+          "name": "MEJOR GUIÓN",
+          "country": "",
+          "citation": "script",
+          "director": "Rob Grant",
+          "recipient": ""
+        },
+        {
+          "film": "JAMIE CYMBAL por ATRACO FANTASMAL / POLTERHEIST",
+          "name": "MEJOR ACTOR",
+          "country": "Reino Unido",
+          "citation": "",
+          "director": "David Gilbank",
+          "recipient": ""
+        },
+        {
+          "film": "MAHTAB",
+          "name": "MEJOR ACTRIZ",
+          "country": "Irán",
+          "citation": "personaje",
+          "director": "Vahid Pakzad",
+          "recipient": "MAHTAB DEHGHAN"
+        },
+        {
+          "film": "A la edición de FAKE BLOOD / SANGRE FALSA",
+          "name": "MENCIONES ESPECIALES",
+          "country": "Canadá",
+          "citation": "",
+          "director": "/ Editor: Rob Grant",
+          "recipient": ""
+        }
+      ],
+      "section": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES"
+    },
+    {
+      "jury": "EL COMITÉ DE PRESELECCIÓN DEL FESTIVAL",
+      "awards": [
+        {
+          "film": "MIRADA DE CRISTAL",
+          "name": "MEJOR PELÍCULA",
+          "country": "Argentina",
+          "citation": "",
+          "director": "",
+          "recipient": ""
+        }
+      ],
+      "section": "A la excelente música de Luciano Onetti en"
+    },
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "MIRADA DE CRISTAL",
+          "name": "MEJOR PELÍCULA LATINOAMERICANA",
+          "country": "Argentina",
+          "citation": "",
+          "director": "",
+          "recipient": ""
+        }
+      ],
+      "section": "PREMIOS DEL PÚBLICO"
+    },
+    {
+      "jury": "ELLIANA CENTURIÓN (URUGUAY, docente), DANIEL FENOGLIO (URUGUAY, periodista, gestor cultural) y LUIS VARELA (URUGUAY; docente, cineasta)",
+      "awards": [
+        {
+          "film": "MENSAJE",
+          "name": "MEJOR CORTO LATINOAMERICANO",
+          "country": "Argentina",
+          "citation": "",
+          "director": "Sergio Marzano",
+          "recipient": ""
+        },
+        {
+          "film": "ENTRE LAS SIERRAS",
+          "name": "MEJOR CORTO URUGUAYO",
+          "country": "",
+          "citation": "",
+          "director": "",
+          "recipient": ""
+        },
+        {
+          "film": "THE LAST WELL / LA ÚLTIMA FUENTE",
+          "name": "MENCIONES ESPECIALES",
+          "country": "Croacia",
+          "citation": "",
+          "director": "Filip Filkovic",
+          "recipient": ""
+        }
+      ],
+      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES"
+    }
+  ],
+  "edition": {
+    "year": 2018,
+    "dates": "2018",
+    "roman": "XI",
+    "title": "Montevideo Fantástico XI",
+    "number": 11,
+    "poster": null,
+    "venues": []
+  },
+  "sections": [
+    {
+      "name": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES / INTERNATIONAL LONG FEATURE FILMS COMPETITION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "abrakadabra",
+          "year": 2018,
+          "title": "ABRAKADABRA",
+          "poster": "/media/archive/XI/films/abrakadabra.jpg",
+          "review": null,
+          "country": "ARGENTINA",
+          "credits": "",
+          "director": "Luciano Onetti, Nicolás Onetti",
+          "duration": 71,
+          "synopsis": "«El Gran Dante», un prestigioso mago, muere accidentalmente durante un arriesgado truco de magia. Treinta y cinco años después su hijo Lorenzo, también mago, presenta un show de magia en uno de los teatros más importantes de la ciudad. A partir de allí comenzará a suceder una serie de crímenes que intentará incriminarlo. Lorenzo debe descubrir quién y porqué busca involucrarlo, antes de que sea demasiado tarde…",
+          "trailer_url": null
+        },
+        {
+          "slug": "atraco-fantasmal-polterheist",
+          "year": 2018,
+          "title": "ATRACO FANTASMAL / POLTERHEIST",
+          "poster": "/media/archive/XI/films/atraco-fantasmal-polterheist.jpg",
+          "review": null,
+          "country": "REINO UNIDO",
+          "credits": "",
+          "director": "David Gilbank",
+          "duration": 86,
+          "synopsis": "Dos desventurados delincuentes de poca monta secuestran a una médium, obligándola a contactar con el gánster al que asesinaron accidentalmente, para así encontrar un botín enterrado. A contrarreloj y por miedo al jefe psicópata de una banda, acaban desatando accidentalmente un demonio empeñado en vengarse.",
+          "trailer_url": null
+        },
+        {
+          "slug": "fake-blood-sangre-falsa",
+          "year": 2017,
+          "title": "FAKE BLOOD / SANGRE FALSA",
+          "poster": "/media/archive/XI/films/fake-blood-sangre-falsa.jpg",
+          "review": null,
+          "country": "CANADÁ",
+          "credits": "",
+          "director": "Rob Grant",
+          "duration": 81,
+          "synopsis": "FAKE BLOOD / SANGRE FALSA",
+          "trailer_url": null
+        },
+        {
+          "slug": "ghost-mask-scar-la-mascara-fantasma-cicatriz",
+          "year": 2018,
+          "title": "GHOST MASK – SCAR / LA MÁSCARA FANTASMA: CICATRIZ",
+          "poster": "/media/archive/XI/films/ghost-mask-scar-la-mascara-fantasma-cicatriz.jpg",
+          "review": null,
+          "country": "JAPÓN",
+          "credits": "",
+          "director": "Takeshi Shone",
+          "duration": 80,
+          "synopsis": "Miyu fue a Seúl, Corea del Sur, para estudiar y buscar a su hermana mayor, que desapareció hace dos años. Un día, Miyu conoce a Hana, una famosa cirujana plástica y con la que poco a poco comienza a hacer amistad. Al verla a ella recuerda cada vez más a su hermana. Hana también se siente atraída por Miyu, pero vive con su pareja del mismo sexo, Hyoshin, la cual comienza a sentir celos de la nueva amistad de su pareja. Eventualmente, sus respectivos pasados comienzan a revelarse…",
+          "trailer_url": null
+        },
+        {
+          "slug": "lost-in-apocalypse-perdidos-en-el-apocalipsis",
+          "year": 2018,
+          "title": "LOST IN APOCALYPSE / PERDIDOS EN EL APOCALIPSIS",
+          "poster": "/media/archive/XI/films/lost-in-apocalypse-perdidos-en-el-apocalipsis.jpg",
+          "review": null,
+          "country": "CHINA",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Un grupo de personas sin relación entre sí termina convergiendo en un hotel que está infestado por un virus. Encerrados en una habitación tratarán de huir, solo para terminar en un lugar peor aún.",
+          "trailer_url": null
+        },
+        {
+          "slug": "mahtab",
+          "year": 2017,
+          "title": "MAHTAB",
+          "poster": "/media/archive/XI/films/mahtab.jpg",
+          "review": null,
+          "country": "IRÁN",
+          "credits": "",
+          "director": "Demian Rugna",
+          "duration": 95,
+          "synopsis": "Mahtab, acompañada de su pequeño hermano, debe seguir estrictamente las misteriosas órdenes que recibe por mensajes de texto. Aparte de tener que superar todas las fases, Mahtab tan solo dispone de una ambulancia con chofer que la ayudará, y tiene prohibido, además, llamar al autor de los mensajes que le envían a su celular (de lo contrario…). ¿Se trata de una prueba, un juego, o algo mucho peor?",
+          "trailer_url": null
+        },
+        {
+          "slug": "the-psychics-los-psiquicos",
+          "year": 2018,
+          "title": "THE PSYCHICS / LOS PSÍQUICOS",
+          "poster": "/media/archive/XI/films/the-psychics-los-psiquicos.jpg",
+          "review": null,
+          "country": "NORUEGA",
+          "credits": "",
+          "director": "Tomas Sem Løkke-Sørensen",
+          "duration": 73,
+          "synopsis": "Una documentalista está haciendo un trabajo sobre los psíquicos, centrándose en las habilidades de estos especialistas, en esas visiones que llegaron a resolver varios crímenes y a dar con el paradero de gente desaparecida. Pero repentinamente se topa con un caso que desde hace 20 años nadie ha podido resolver, por lo que su documental da un giro radical, pasando a ser una investigación casi obsesiva sobre ese misterioso asunto. Algunos de los entrevistados le aconsejan no seguir y otros directamente la abandonan, dada la extrema peligrosidad del mismo, aunque ella decide continuar, sin importar las consecuencias.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "COMPETENCIA LATINOAMERICANA DE LARGOMETRAJES / LATIN AMERICAN LONG FEATURE FILMS COMPETITION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "el-bosque-negro",
+          "year": 2018,
+          "title": "EL BOSQUE NEGRO",
+          "poster": "/media/archive/XI/films/el-bosque-negro.jpg",
+          "review": null,
+          "country": "BRASIL",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Ambientada en el interior del estado de Espírito Santo, una joven ve cambiar su vida terriblemente cuando encuentra «El Libro Perdido de Cipriano», cuya magia negra, capaz de otorgar poder y riqueza al que lo posee, también puede liberar un mal terrible sobre la Tierra.",
+          "trailer_url": null
+        },
+        {
+          "slug": "clementina",
+          "year": 2017,
+          "title": "CLEMENTINA",
+          "poster": "/media/archive/XI/films/clementina.jpg",
+          "review": null,
+          "country": "ARGENTINA",
+          "credits": "",
+          "director": "Jimena Monteoliva",
+          "duration": 89,
+          "synopsis": "Después de ser atacada brutalmente por su esposo, Juana regresa a su casa. El marido está prófugo y ella inicia sola su recuperación. Sonidos extraños, objetos que aparecen y que luego se pierden, sombras y voces que la persiguen: Juana no sabe si su esposo está oculto acechándola, si todo es obra de su imaginación, o si en la casa hay un fantasma…",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-jaula",
+          "year": 2017,
+          "title": "LA JAULA",
+          "poster": "/media/archive/XI/films/la-jaula.jpg",
+          "review": null,
+          "country": "VENEZUELA",
+          "credits": "",
+          "director": "José Ignacio Salaverría",
+          "duration": 82,
+          "synopsis": "La Tierra ha sido despoblada por una inteligencia superior. Desde entonces, una gigantesca nave flota vigilante en el cielo, sin dar mayor señal de vida. Eva y Fausto han convivido por años, pero la realidad empieza a perder sentido para ellos, en especial para Eva, que ha comenzado a construir su propio universo, a raíz del cambiante comportamiento de Fausto, producto de esa nave que permanece omnipresente para ellos. Un día, una misteriosa mujer aparece en escena, lo que lleva a la pareja protagonista a saber que algunos humanos han sobrevivido, regados y desconectados por el mundo. Quizás en ellos resida la esperanza del futuro de la raza humana. O quizás también esté en marcha un plan mucho más grande, imposible de detener.",
+          "trailer_url": null
+        },
+        {
+          "slug": "mirada-de-cristal",
+          "year": 2017,
+          "title": "MIRADA DE CRISTAL",
+          "poster": "/media/archive/XI/films/mirada-de-cristal.jpg",
+          "review": null,
+          "country": "ARGENTINA",
+          "credits": "",
+          "director": "Ezequiel Endelman, Leandro Montejano",
+          "duration": 81,
+          "synopsis": "Buenos Aires, 1985. Ha pasado un año. Es el primer aniversario del fallecimiento de Alexis Carpenter, la ascendente e inestable supermodelo que falleció trágicamente al prenderse fuego mientras cerraba un desfile, a causa de un desperfecto eléctrico causado por ella misma. Los miembros de la importante revista de modas y la agencia a la que pertenecía Alexis comienzan a desaparecer, uno por uno, a manos de una sigilosa, implacable y siniestra Silueta enfundada en un largo impermeable de charol negro. ¿Acaso alguien busca venganza? ¿O será que Alexis decidió finalmente regresar desde su tumba?",
+          "trailer_url": null
+        },
+        {
+          "slug": "en-la-esquina-del-ojo-out-of-the-corner-of-the-eye",
+          "year": 2018,
+          "title": "EN LA ESQUINA DEL OJO / OUT OF THE CORNER OF THE EYE",
+          "poster": "/media/archive/XI/films/en-la-esquina-del-ojo-out-of-the-corner-of-the-eye.jpg",
+          "review": null,
+          "country": "BRASIL",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Extrañas cosas comienzan a suceder cuando una joven pareja se muda a su nuevo hogar. Ambos se verán obligados a descubrir la razón detrás de tales acontecimientos, encontrándose con una realidad aterradora que cambiará el rumbo de sus vidas y de aquellos que están a su alrededor.",
+          "trailer_url": null
+        },
+        {
+          "slug": "trauma",
+          "year": 2017,
+          "title": "TRAUMA",
+          "poster": "/media/archive/XI/films/trauma.jpg",
+          "review": null,
+          "country": "CHILE",
+          "credits": "",
+          "director": "Lucio A",
+          "duration": 107,
+          "synopsis": "Chile, 1973. Después que la dictadura militar pone fin dramáticamente al gobierno del presidente Allende, el general Augusto Pinochet gobierna el país con sangre y fuego. Asesinatos espantosos e impunes ocurrieron en las sombras de la dictadura chilena. En la actualidad, lo que podría haber sido un agradable fin de semana en el campo para un grupo de mujeres jóvenes, se convierte en una carrera enloquecedora para escapar del horror que aún sigue vivo. A media que se involucran más lugareños, uno por uno los desafortunados visitantes deben enfrentar el mal indescriptible que yace dentro de los hombres comunes.",
+          "trailer_url": null
+        },
+        {
+          "slug": "inner-ghosts-fantasmas-interiores",
+          "year": 2018,
+          "title": "INNER GHOSTS / FANTASMAS INTERIORES",
+          "poster": "/media/archive/XI/films/inner-ghosts-fantasmas-interiores.jpg",
+          "review": null,
+          "country": "PORTUGAL",
+          "credits": "",
+          "director": "Paulo Leite",
+          "duration": 88,
+          "synopsis": "Una neuróloga intenta desarrollar una terapia revolucionaria, capaz de curar enfermedades cerebrales degenerativas, como el Alzheimer. Para eso necesita pruebas cognitivas… en fantasmas, seres vivientes que pueden actuar y recordar sin la necesidad de un cerebro físico. Lo que a ella le interesa son sus almas vivas, el verdadero canal para entablar comunicación y así poder lograr su objetivo. Al encontrar un apartamento habitado por fantasmas benignos, las pruebas son un éxito. Pero cuando una amiga le pide que la ayude a deshacerse de un demonio que la ha estado persiguiendo durante años, las cosas cambian drásticamente. A pesar que la protagonista no quiere saber de nada con espíritus malignos, hay algo en su pasado que la hará aceptar el desafío.",
+          "trailer_url": null
+        },
+        {
+          "slug": "tokusatsu-grindhouse",
+          "year": 2018,
+          "title": "TOKUSATSU GRINDHOUSE",
+          "poster": "/media/archive/XI/films/tokusatsu-grindhouse.jpg",
+          "review": null,
+          "country": "JAPÓN",
+          "credits": "",
+          "director": "Bueno, Pablo Praino",
+          "duration": 58,
+          "synopsis": "Explotación y explosiones. Piñas, patadas, poderes y transformaciones, en una antología de héroes orientales de los dos hemisferios.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "COMPETENCIA OFICIAL DE CORTOMETRAJES / SHORT FILMS OFFICIAL COMPETITION",
+      "type": "shorts",
+      "films": [
+        {
+          "year": 2017,
+          "title": "4EVR / Para siempre",
+          "poster": null,
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Sergio Pinheiro",
+          "duration": null,
+          "synopsis": "Al lidiar con el dolor por la pérdida de su hermano, los secretos oscuros resurgen de maneras inesperadas cuando Ginny llega a casa, inmediatamente después del funeral.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "Alfred J. Hemlock",
+          "poster": null,
+          "review": null,
+          "country": "Australia",
+          "credits": "",
+          "director": "Edward Lyons",
+          "duration": null,
+          "synopsis": "Cuando su novio la hace bajar del auto, abandonándola en plena noche, la única vía para llegar a su casa es pasar por un callejón de una cuadra, donde la estará esperando la misteriosa entidad del título.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Amo a Eva Marsh",
+          "poster": null,
+          "review": null,
+          "country": "J´aime Eva Marsh",
+          "credits": "",
+          "director": "Rémy Rondeau",
+          "duration": null,
+          "synopsis": "Francia, 2017 – Verano de 1996. Un pequeño pueblo enclavado a la sombra de una gigantesca fábrica. Ben, un tímido niño de 11 años, vive allí solo con su madre. Por razones laborales ella debe ausentarse por una semana, pero le deja todo preparado para que se las arregle y no le falte nada. Pero la llegada de la preocupante Eva en su grupo lo inquieta un poco más, especialmente cuando menciona la leyenda de una misteriosa criatura escondida bajo el puente de un lago cercano. Como juego, Eva desafía a Ben: baja por el «puente de la muerte» y vuelve. Pero Ben fracasa rotundamente. Por la noche, la criatura se le aparece.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Caducea: El hombre de la cara de corteza",
+          "poster": null,
+          "review": null,
+          "country": "Caducea: L´Homme Au Visage D´Écorce",
+          "credits": "",
+          "director": "Christophe Mavroudis",
+          "duration": null,
+          "synopsis": "Bélgica, 2018 – Tom no solo esconde un rostro deforme detrás de sus extravagantes máscaras. Hay un oscuro secreto en su familia que no será revelado hasta décadas después.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "Caronte",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Luis Tinoco Pineda",
+          "duration": null,
+          "synopsis": "Debbie no es muy simpática que digamos con su propia familia. Pero después de un dramático accidente automovilístico, comienza a lamentarse por la forma en que se comportó con ellos. Inesperadamente, la historia de Debbie se conecta con Arsys, una experimentada piloto militar y de combate espacial que intenta sobrevivir en una gran batalla espacial que tiene lugar en otro momento… otra galaxia… otro universo.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Dawn of Man",
+          "poster": null,
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Víctor Riadura",
+          "duration": null,
+          "synopsis": "Una llamada de video despierta a AJ (30) de un sueño profundo. Su cuarto esta oscuro, lleva dormido unas horas. Cuando atiende la llamada, ve a su madre (60) amoratada y golpeada. Ha sido secuestrada. El secuestrador le ordena a AJ que vaya a la ventana de su cuarto y abra las cortinas. Tiene diez segundos para cumplir o su mamá morirá. ¿Que decidirá?",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Diégesis",
+          "poster": null,
+          "review": null,
+          "country": "Perú",
+          "credits": "",
+          "director": "Diego Sánchez",
+          "duration": null,
+          "synopsis": "Un par de estudiantes universitarios están en el auto. Terminaron su paseo nocturno del día. Cuando ella está a punto de despedirse, él la interrumpe y dice que no puede despedirse, porque tiene algo que confesar: son personajes de ficción. dentro de una película.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "En las paredes",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Mariano Torres",
+          "duration": null,
+          "synopsis": "Una joven madre soltera tiene que lidiar con la incapacidad de su hijo para comunicarse, mientras que al mismo tiempo comienzan a ocurrir cosas extrañas en su hogar. Al parecer, los dibujos inocentes que el niño está pintando en las paredes ahora se están convirtiendo en algo bastante macabro.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Gotas",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Sergio Morcillo",
+          "duration": null,
+          "synopsis": "Marta es una adolescente cuyos padres murieron hace dos años. Una noche, mientras está sola en casa, descubrirá la verdad acerca del dolor que la está atormentando en su interior.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "La Guarida",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Iago de Soto",
+          "duration": null,
+          "synopsis": "Mario conduce de noche, bajo la lluvia, por una carretera solitaria. De repente, se detiene. En medio de la carretera hay una mujer desorientada y manchada de sangre. Ella no recuerda lo que le ha pasado ni cómo ha llegado hasta allí. Mario decide conseguir ayuda y parar en el primer sitio que encuentren: el bar «La Guarida». Allí les acogerán y les socorrerán de buen grado hasta que la verdad empiece a salir a la luz. Puede que para entonces el bar ya no parezca un lugar tan seguro…",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "El intercambio",
+          "poster": null,
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Valeria Tannuzzi",
+          "duration": null,
+          "synopsis": "Un científico sumiso se convierte en la última esperanza de supervivencia para un visitante extranjero.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "The Last Well / La última fuente",
+          "poster": null,
+          "review": null,
+          "country": "Croacia",
+          "credits": "",
+          "director": "Filip Filkovic",
+          "duration": null,
+          "synopsis": "Año 2037. Europa está en un estado de ruptura completa. El propietario del último pozo de agua pura natural vive en Croacia. Después que la venta de agua a una buena familia sale mal y termina en un derramamiento de sangre, se convierte en padre y esposo sustitutos. Pero cuando su pozo se seca, se verá obligado a hacer un último «negocio».",
+          "trailer_url": null
+        },
+        {
+          "year": 2016,
+          "title": "LIKE",
+          "poster": null,
+          "review": null,
+          "country": "Italia",
+          "credits": "",
+          "director": "Giulio Manicardi",
+          "duration": null,
+          "synopsis": "Un misterioso asesino en serie presenta un espectáculo macabro, donde ejecuta (o no) a sus víctimas en vivo, dejando el veredicto final en manos del público de la red, que puede decidir entre matar o salvar a la víctima con simples «Me gusta». Ganador de varios premios en Italia.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "Lunch Ladies",
+          "poster": null,
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Clarissa Jacobson",
+          "duration": null,
+          "synopsis": "Dos mujeres, hartas y cansadas del maltrato y el menosprecio al trabajar como cocineras para un liceo, se enteran de que fueron elegidas por el mismísimo Johnny Depp para que sean sus chefs personales. Premiada en Canadá, Estados Unidos, India, México, Reino Unido, Sudáfrica.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "A Man Falls From the Sky / Un hombre cae del cielo",
+          "poster": null,
+          "review": null,
+          "country": "Holanda",
+          "credits": "",
+          "director": "Kurt Platvoet",
+          "duration": null,
+          "synopsis": "Una pareja disfruta de su cálida sopa cuando un hombre repentinamente cae del cielo en su jardín. Ton lo ve como si se tratara de una especie peligrosa. Pero ella, Ineke, quiere ayudar. La situación se agrava. Ambos pronto descubrirán quién es realmente su otra mitad. O al menos eso es lo que se irá viendo, antes que sea demasiado tarde. (Valt Een Man Uit De Lucht)",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Mapa a las estrella s",
+          "poster": null,
+          "review": null,
+          "country": "Paraguay",
+          "credits": "",
+          "director": "Pedro Jaen R",
+          "duration": null,
+          "synopsis": "Luego de perder a su mamá, una pequeña arriba a un orfanato. Afuera, un gran descubrimiento la espera. (Mbyja rapégüyto)",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "Menú",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Carlos Bigorra",
+          "duration": null,
+          "synopsis": "Marta y Pablo han quedado para cenar. A lo largo de la velada descubriremos los entresijos de su relación, y comprobaremos si todos, de una manera u otra, merecemos una segunda oportunidad.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Mensaje",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Sergio Marzano",
+          "duration": null,
+          "synopsis": "Gastón, un joven totalmente dejado, vive atormentado por la muerta de su ex novia. Se siente culpable. Escucha una y otra vez el mensaje telefónico que ella le dejó previo a su suicidio. Harto de su existencia vacía, decide borrar el mensaje, pensando que así podrá librarse de sus penas. Todo lo contrario, su ex no lo va a dejar en paz tan fácilmente.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Miedos",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Germán Sancho",
+          "duration": null,
+          "synopsis": "Los miedos más aterradores se arrastran en la habitación de una niña, cuando las luces se apagan, justo antes de que se vaya a dormir. Su padre intenta pacientemente calmarla. Sin embargo, la oscuridad y lo desconocido son mucho más poderosos y voraces. Hay algo aún peor allí, que esconde una realidad aterradora.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "Nightwalk",
+          "poster": null,
+          "review": null,
+          "country": "Canadá",
+          "credits": "",
+          "director": "Andrea Beça",
+          "duration": null,
+          "synopsis": "Aatisha encuentra una tarjeta de memoria llena de fotos de ella, y ahí comienza una incesante búsqueda para saber quién la está siguiendo.",
+          "trailer_url": null
+        },
+        {
+          "year": 2016,
+          "title": "Nimmer / Nunca",
+          "poster": null,
+          "review": null,
+          "country": "Bélgica",
+          "credits": "",
+          "director": "Lieven Vanhove",
+          "duration": null,
+          "synopsis": "El frágil mundo de una pareja está destrozado. Una vez vivieron juntos en una casa con un faro en la costa. Ahora un mar turbulento los está despedazando. Orville está atrapado en la casa en el acantilado, Imme está tratando de sobrevivir en una roca en el faro, en medio de las rugientes olas. Él sigue tratando de traerla de vuelta, pero nada funciona. Mientras tanto, ella le envía su tristeza a través de pájaros. De repente, toda la roca comienza a colapsar y la vida de Imme está en peligro, ya que puede caer al precipicio. El tiempo de Orville se está acabando, mientras busca una solución definitiva y lo más rápido posible para salvar a su amada. Premiada en Bélgica, Canadá, Estados Unidos, India y México.",
+          "trailer_url": null
+        },
+        {
+          "year": 2016,
+          "title": "Popsy",
+          "poster": null,
+          "review": null,
+          "country": "Francia",
+          "credits": "",
+          "director": "Julien Homsy",
+          "duration": null,
+          "synopsis": "Un desafortunado jugador de póker se endeuda a tal punto que lleva a cabo una estrategia para conseguir el dinero que debe, un plan que puede salvarlo pero al mismo tiempo ponerlo en extremo peligro. Basado en el cuento corto de Stephen King.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "R E M E M B R A N C E",
+          "poster": null,
+          "review": null,
+          "country": "Recuerdo",
+          "credits": "",
+          "director": "Mark Jepson",
+          "duration": null,
+          "synopsis": "Reino Unido, 2018 – Cuando un neurocientífico experimenta con la tecnología de la memoria para explorar su pasado, ella toma el riesgo de ir más allá, encontrándose en una situación potencialmente mortal.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "R E M E M B R A N C E",
+          "poster": null,
+          "review": null,
+          "country": "Recuerdo",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Saturno a través del telescopio (España, 2018) – Max es un niño de 10 años, obsesionado con los insectos, los telescopios y los monstruos. Una noche abandona su cama para ir a ver una película de terror en la televisión. Su madre lo descubre y le ordena volver a su dormitorio. A pesar de haber quedado fascinado con lo que vio, esas imágenes le harán tener varias pesadillas. Dirección: Didac Gimeno. Guión: DG, Álvaro Hervás. Con Alejandro López, Elia Galera. Duración: 11 minutos",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "Say Goodbye",
+          "poster": null,
+          "review": null,
+          "country": "Reino Unido",
+          "credits": "",
+          "director": "Oliver Goodrum",
+          "duration": null,
+          "synopsis": "Con tan solo unos días más para vivir, un hombre pide para hablar desesperadamente con su esposa. Necesita sacar algo de adentro suyo.",
+          "trailer_url": null
+        },
+        {
+          "year": 2016,
+          "title": "Serenata",
+          "poster": null,
+          "review": null,
+          "country": "Brasil",
+          "credits": "",
+          "director": "Dani Seabra",
+          "duration": null,
+          "synopsis": "El miedo afecta constantemente nuestras vidas. Donde sea que estemos, siempre está ahí. Del silencio surge: un traqueteo distante; la mirada de un hombre extraño; una sombra parada en una ventana. Y de repente ya no somos nosotros mismos.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Sin ti",
+          "poster": null,
+          "review": null,
+          "country": "España",
+          "credits": "",
+          "director": "Allan J",
+          "duration": null,
+          "synopsis": "En la noche más oscura, María regresa a casa entre lágrimas. Allí le aguardan su marido, su hija y un terrible secreto.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Why Don´t You Send Them Nudes? / ¿Por qué no mandas fotos de desnudos?",
+          "poster": null,
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Cale Glendening",
+          "duration": null,
+          "synopsis": "Una adolescente planea vengarse de una compañera de liceo que publicó fotos de ella desnuda y en Internet, pero no solo fracasa en el intento sino que termina convirtiendo a toda su familia en blanco de un matón.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "En programa: El extraño",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "",
+          "director": "Nacho Benedetti",
+          "duration": null,
+          "synopsis": null,
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "HOMENAJES / TRIBUTES",
+      "type": "special",
+      "films": [
+        {
+          "year": 2017,
+          "title": "YVONNE BLAKE – EL TRAJE DE SUPERMAN",
+          "poster": null,
+          "review": null,
+          "country": "ESPAÑA",
+          "credits": "",
+          "director": "Juanma Díaz Lima",
+          "duration": 20,
+          "synopsis": "Documental español (hecho en 2017) que se centra en la figura de la recientemente fallecida vestuarista británica, ganadora del Oscar (por Nicolás y Alejandra, 1971), Yvonne Blake (78), la creadora del traje del superhéroe que protagonizara la película de Richard Donner en 1978, cuyo estreno cumple 40 años el lunes 17 de diciembre, día de inicio del Montevideo Fantástico 11. De larga trayectoria en Hollywood, Blake residió en España desde la década del ´70, y fue la diseñadora -para el cine- del traje de Superman. Esta obra se adentra en la magia que ha suscitado su trabajo. El festival también aprovecha a recordar a Margot Kidder, quien interpretara a Luisa Lane y que el pasado mes de octubre hubiera cumplido 70 años.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "PHILIP K. DICK – AMANECE DESPEJADO",
+          "poster": null,
+          "review": null,
+          "country": "ESPAÑA",
+          "credits": "",
+          "director": "Bruno Máez, María Vázquez",
+          "duration": 14,
+          "synopsis": "Hoy es un día muy importante para María, ya que dará una conferencia sobre el famoso escritor de ciencia ficción Philip K. Dick. Todo parece ser una rutina diaria, excepto un poco de emoción debido al evento. Pero a medida que pase el tiempo ella descubrirá que nada es lo que parece.",
+          "trailer_url": null
+        },
+        {
+          "year": 1968,
+          "title": "M. R. JAMES – SILBA, E IRÉ A TI",
+          "poster": null,
+          "review": null,
+          "country": "REINO UNIDO",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Un profesor universitario, seguro de que todo lo que ocurre en la vida tiene una explicación racional, encuentra sus creencias severamente cuestionadas cuando, durante unas vacaciones en un remoto pueblo costero de Norfolk. Una simple caminata por la playa lo lleva a un misterioso descubrimiento, que termina despertando horrores más allá del entendimiento humano.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "MUESTRA INFORMATIVA DE CORTOMETRAJES 11010",
+          "poster": null,
+          "review": null,
+          "country": "Rodrigo Amim, Gabriela Monnerat",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "BRASIL / BRAZIL – 8´ 818 (Claude Lahr, 2016) – LUXEMBURGO / LUXEMBOURG – 21´ Amancio: Vampiro de pueblo (Alejo Ibáñez, 2017) – ESPAÑA – 15´ ¡Ataque mutante! (Gonzalo Casanova, 2018) – ARGENTINA – 13´ Bienvenidos al Infierno (Simón Fariza, 2018) – ESPAÑA / SPAIN – 14´ Bitch, Popcorn & Blood (Fabio Soares, 2014) – FRANCIA / FRANCE – 16´ Black Eyed Child (Tony Morales, 2018) – ESPAÑA / SPAIN – 9´ Le Blizzard / La ventisca (Álvaro Rodríguez Areny, 2018) – ANDORRA – 13´ Casa llena (Casa cheia) – Carlos Nigro, 2017 – BRASIL / BRAZIL – 14´ (terror) (avisar) Cazadores de fantasmas (Caçadores de Assombração) – Gabriel de Paula, Jairo Neto, 2014 – BRASIL / BRAZIL – 25´ Como todas las mañanas (Comme Tous Les Matins) – Cédric Dupuis, 2017 – FRANCIA / FRANCE – 18´ Corré (Matías Cibils, 2018) – ARGENTINA (ciencia ficción) – 9´ Cristal: Sangre y azúcar (Marcos Muñóz Flores, 2018) – MÉXICO – 19´ Cuentos del Universo: El destructor (Logan Fry, 2018) – ESTADOS UNIDOS / UNITED STATES – 2´ The Curse / La maldición (Nabil Bouhaddi, 2018) – MARRUECOS / MOROCCO – 5´ Damián (José Luis Anaya, 2017) – MÉXICO (terror) – 15´ Dead Celebrities / Los famosos muertos (Michael Fausti, 2018) – REINO UNIDO / UNITED KINGDOM – 11´ Dead City (Myriam Destephen, 2017) – FRANCIA / FRANCE – 8´ Decapitador: El cuento del Pie Grande de Yellowcreek (Logan Fry, 2016-18) – ESTADOS UNIDOS / UNITED STATES – 8´ Los desaparecidos (Justo Matías Valencia, 2018) – MÉXICO – 22´ Devil Town (Nick Barrett, 2016) – REINO UNIDO / UNITED KINGDOM – 16´ Doña Oldina va de compras / Dona Oldina vai ás compras (Felipe M. Guerra, 2018) – BRASIL / BRAZIL – 8´ Dos caras de un mismo amor (Daniel Aranda, 2018) – ARGENTINA – 5´ Embrión (Nahuel M. Srnec, 2017) – ARGENTINA – 16´ Eres lo que comes (Marcelo Fabani, 2018) – URUGUAY – 1´ Estigma (David Velduque, 2018) – ESPAÑA / SPAIN – 15´ Evströnger (Silvia Conesa, 2017) – ESPAÑA / SPAIN – 3´ Farul / El foco delantero (Ionut Gaga, 2017) – RUMANIA / ROMANIA – 15 Florinda & Floriana (Marcos Mereles, 2017) – ITALIA / ITALY – 4´ El fotoviaje de Carla (Fran Gas, 2018) – ESPAÑA / SPAIN – 6´ Fragmentos / Fragments (Artur Golczewski, Lucas Vossoughi, 2017) – AUSTRIA – 11´ Galería (Nicolás Menna, 2018) – ARGENTINA – 4´ Habitaciones (Jorge Aregall, 2016) – ARGENTINA – 7´ Harvest / Cosecha (Mohammad Munir Malik, 2017) – REINO UNIDO / UNITED KINGDOM (terror) . 10´´ Historia de una tortura (Ezequiel de San Pío, 2018) – ARGENTINA – 12´ Indetectable (Javier Lozano Sánchez, 2018) – ESPAÑA / SPAIN – 9´ Infierno Dantesco Animado (Boris Acosta, 2017) – ESTADOS UNIDOS / UNITED STATES – 35´ Jimmy (Luis Centurión, 2018) – ESPAÑA / SPAIN – 13´ Just After Midnight (Jean-Raymond García, Anne Marie Puga, 2017) – FRANCIA / FRANCE – 22´ Kuo´s Eyes / Los ojos de Kuo (O. B. de Alessi, 2017) – ITALIA / ITALY – 28´ Lavender´s Blue / Azul de lavanda (Saranne Bensusan, 2017) – REINO UNIDO / UNITED KINGDOM – 6´ Le Linceul / El velo (Marie Vandelannoote, 2018) – FRANCIA / FRANCE – 30´ Liturgia (Svid Arispe, 2018) – BOLIVIA – 10´ Lo innombrable (C. J. Lozada, 2017) – PUERTO RICO – 14´ Madder Isle (Laura Spark, 2017) – REINO UNIDO / UNITED KINGDOM – 8´ Maelstrøm (Carlos Gómez-Trigo, 2017) – ESPAÑA / SPAIN – 3´ Marta (Lucía Forner Segarra, 2017) – ESPAÑA / SPAIN – 15´ Mask of Sanity / Máscara de cordura (Fran Casanova, 2018) – ESPAÑA / SPAIN – 21´ La Mélodie Du Passé / La melodía del pasado (Jérémy Lafar, 2017) – FRANCIA / FRANCE – 25´ La mirilla (Enrique Manzo, 2018) – MÉXICO – 8´ Mi tierra / Ma Terre (Michaël Rué, 2016) – SUIZA – 13´ Muil / Fauces (Jasper Vrancken, 2018) – BÉLGICA / BELGIUM – 20´ The New Jerusalem ´98 / La Nueva Jerusalém ´98 (Kiefer D. Finlow, 2018) – AUSTRALIA – 13´ Noche de suerte (Antonia Baudouin, 2018) – ARGENTINA – 13´ Noctámbulos (Romén Rivero Gallardo, 2018) – ESPAÑA – SPAIN – 9´ Once Bitten… / Una vez mordida… (Pete Tomkies, 2018) – REINO UNIDO / UNITED KINGDOM – 10´ Orpheize (Pedro Jaen R., 2015) – ESPAÑA / SPAIN – 9´ Outro (Paul Bouvier, 2018) – FRANCIA / FRANCE – 11´ La parada (Mario Ayala Cabello, 2018) – ESPAÑA / SPAIN – 5´ El páramo (José Luis Medina Rodríguez, 2017) – MÉXICO – 4´ La Photographe / La fotógrafa (Bertrand Normand, 2018) – FRANCIA / FRANCE – 12´ Plop Fiction (Danny Bailey, 2017) – CANADÁ – 3´ Property Exchange / Intercambio de propiedad (Denis Simachev, 2017) – RUSIA / RUSSIA – 13´ Psycho Kino (Guillem Dols, 2017) – ESPAÑA / SPAIN – 18´ Psychopompos (Lucie Gukkertová, 2018) – REPÚBLICA CHECA / ZCHEC REPUBLIC – 16´ Pura energía (Francisco García, 2018) – ESPAÑA / SPAIN – 15´ Ragu´Noir (Alfredo Mazzara, 2018) – ITALIA / ITALY – 15´ Reboot (Ellen Osborne, 2018) – ESTADOS UNIDOS / UNITED STATES (animación) – 4´ Redención (Luis Utges, 2017) – ESPAÑA / SPAIN – 13´ Ring Runners (Pablo Praino, 2015) – URUGUAY – 27´ Ro-Boob: The Farting Robot Monster (Logan Fry, 2017) – ESTADOS UNIDOS / UNITED STATES – 9´ The Scarlet Vultures / Los buitres de Scarlet (Kyle Martellacci, 2018) – CANADÁ – 15´ Self Talk / Conversación con uno mismo (Bogdan A. Delapalanca, 2018) – CANADÁ – 2´ Skynet (Nicolas Krief, 2018) – CANADÁ – 5´ El sueño de Leah (Mary Marcano, 2018) – VENEZUELA – 16´ SWAP (André Gaumond, 2018) – CANADÁ – 30´ Terror Industria Argentina (Marisol Bentivenga, 2017) – ARGENTINA – 35´ Tortoise / Tortuga (Stephen Cervantes, 2017) – ESTADOS UNIDOS / UNITED STATES – 11´ Under the Parasol / Bajo la sombrilla (Stanislava Buevich, 2018) – REINO UNIDO / UNITED KINGDOM – 6´ The Valley / El Valle (Oliver Wright, 2018) – FRANCIA / FRANCE – 5´ El Vende Humo (Ruth Gómez, 2017) – ARGENTINA – 13´ Villa Offline (Sergi Páez, 2018) – ESPAÑA – 27´ Voonis / Veredicto (Walt Bladt, 2018) – BÉLGICA / BELGIUM – 9´ What Metal Girls Are Into/En los que están las metaleras (Laurel Vail, 2017) – ESTADOS UNIDOS / USA – 15´ Y mañana otra vez (Gilbo Jiménez, 2018) – MÉXICO – 4´ ZUL (Magalí Heram, 2018) – MÉXICO – 23´",
+          "trailer_url": null
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "title": "Crónica de la edición XI",
+    "author": "Alejandro Yamgotchian",
+    "content": [
+      "Lost in Apocalypse, la ganadora del festival LOS PREMIOS DEL MONTEVIDEO FANTÁSTICO 11 Textos: Alejandro Yamgotchian",
+      "Ha sido la edición que casi se suspende en dos oportunidades, a días de haberse anunciado el comienzo del festival, pero la que más lugares de exhibición terminó teniendo en capital e interior, y también una de las mejores, de todas las once que hasta ahora hemos tenido. Y la más extensa de todas: seis meses en total, por la dificultad para conseguir salas, que iban apareciendo sobre la marcha.",
+      "Había comenzado la última semana de octubre de 2018, con el Halloween Film Fest, en Colonia del Sacramento, y luego saltó a la última de noviembre en el Centro Cultural Goes, para luego pasar a Casa INJU (Montevideo) y el balneario La Angelina, en Paysandú capital, durante diciembre. Enero de 2019 nos llevó a Punta del Diablo (Rocha), febrero nos trajo de vuelta a Casa INJU, Tribu Art Café nos abrió las puertas en marzo, en capital, mientras que el Instituto de Formación Docente «José Pedro Varela» (Rosario) nos hizo volver a Colonia, esta vez para dar una charla de dos horas y ante casi 150 personas sobre la historia del festival y sus objetivos. Y en abril cerramos este undécimo Montevideo Fantástico en la Asociación Calabresa del Uruguay y en el Club and Bar House (Montevideo), con la Biblioteca «Idea Vilariño» pronta para exhibir los trabajos premiados durante esta maratónica, atípica pero, insistimos, una de las mejores ediciones del festival.",
+      "Hubo presentaciones (el tráiler oficial del largo uruguayo La sospecha de Miguel Torena Bogao; un nuevo adelanto de la coproducción entre Argentina, Estados Unidos y Uruguay, La última fase , de Gabriel Díaz) y homenajes (a los escritores Philip K. Dick y M. R. James, a la vestuarista británica Yvonne Blake), tuvimos la visita de realizadores nacionales y extranjeros (el estadounidense Logan Fry, el brasilero Jairo Neto, el argentino Matías Cibils), además de la mencionada charla en Rosario (Colonia) no solo acerca del Montevideo Fantástico, sino también sobre lo que es el estado del cine independiente fantástico en la región, la distribución de los materiales y el acceso que del público a los mismos, lo que derivó en un pequeño encuentro posterior para seguir hablando de dichos temas con algunos de los presentes."
+    ]
+  }
+}

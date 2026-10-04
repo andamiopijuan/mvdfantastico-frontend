@@ -1,0 +1,435 @@
+{
+  "awards": [
+    {
+      "jury": "",
+      "awards": [
+        {
+          "film": "LA BALADA DE VLAD TEPES",
+          "name": "MEJOR LARGO DEL FESTIVAL Y MEJOR LARGO LATINOAMERICANO",
+          "country": "URUGUAY",
+          "citation": "",
+          "director": "Guzmán Vila)",
+          "recipient": ""
+        },
+        {
+          "film": "MANUAL PRÁCTICO DEL AMIGO IMAGINARIO",
+          "name": "MEJOR CORTOMETRAJE",
+          "country": "ESPAÑA",
+          "citation": "",
+          "director": "Ciro Altabás)",
+          "recipient": ""
+        },
+        {
+          "film": "LA FERRA: CIUDAD DORMIDA",
+          "name": "MEJOR CORTOMETRAJE LATINOAMERICANO",
+          "country": "CHILE",
+          "citation": "",
+          "director": "Arturo Quezada Torres)",
+          "recipient": ""
+        },
+        {
+          "film": "ENTRE LAS VÍAS",
+          "name": "MEJOR CORTOMETRAJE URUGUAYO",
+          "country": "Directora: Antonella Tambasco",
+          "citation": "",
+          "director": "",
+          "recipient": ""
+        }
+      ],
+      "section": "PREMIOS DEL PÚBLICO"
+    }
+  ],
+  "edition": {
+    "year": 2009,
+    "dates": "2009",
+    "roman": "IV",
+    "title": "Montevideo Fantástico IV",
+    "number": 4,
+    "poster": null,
+    "venues": []
+  },
+  "sections": [
+    {
+      "name": "LARGOMETRAJES EN COMPETENCIA / LONG FEATURE FILMS COMPETITION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "academy-of-doom",
+          "year": 2008,
+          "title": "ACADEMY OF DOOM",
+          "poster": "/media/archive/IV/films/academy-of-doom.jpg",
+          "review": "La receta es la misma que la de Mil Máscaras: Resurrección, y hay que reconocer que Chip Gubera (que también había dirigido Song of the Dead, exhibida en la pasada edición de Montevideo Fantástico) logra su objetivo de hacer una sencilla, vistosa y entretenida película con Mil Máscaras, una vez más.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Chip Gubera",
+          "duration": 85,
+          "synopsis": "La vuelta de Mil Máscaras, con casi 20 películas en su haber, una trayectoria de más de cuatro décadas, con casi 70 años de edad, y nuevamente convocado por el",
+          "trailer_url": null
+        },
+        {
+          "slug": "altar",
+          "year": 2007,
+          "title": "ALTAR",
+          "poster": "/media/archive/IV/films/altar.jpg",
+          "review": "Sin dudas, Ilarde tiene un estilo muy particular al momento de filmar. Sin descuidar la historia ni tampoco el suspenso que pretende fabricar, los sentimientos se entremezclan con lo sobrenatural, derivando, para esta ocasión, en simbolismos y hechicería, todo respaldado por un muy buen trabajo de fotografía.",
+          "country": "Filipinas",
+          "credits": "",
+          "director": "Rico María Ilarde",
+          "duration": 90,
+          "synopsis": "El film narra la historia de Anton, un ex boxeador que se jubiló al matar accidentalmente a un oponente en el ring. Volviendo a Filipinas es contratado por un capataz que le asigna a él y un compañero la renovación de una casa en una colina en las afueras. Pero en el interior de la casa son perseguidos por la aparición de una niña y peor aún, descubren que el sótano lleva un extraño misterio: un altar hacia una deidad desconocida.",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-balada-de-vlad-tepes",
+          "year": 2009,
+          "title": "LA BALADA DE VLAD TEPES",
+          "poster": "/media/archive/IV/films/la-balada-de-vlad-tepes.jpg",
+          "review": "Géneros como el terror, el thriller, la comedia negra y hasta un soplo de western a lo Sergio Leone, junto con homenajes a la productora Hammer, a Stephen King, al humor guarro de Torrente y a John Carpenter, entre otros, dan la tónica  de este film ecléctico e indefinible. La película cuenta además con  atractivos cameos a cargo de Walter Reyno, Elena Zuasti, Mirella Pascual y Gustavo Escanlar.",
+          "country": "Uruguay",
+          "credits": "",
+          "director": "Guzmán Vila",
+          "duration": 90,
+          "synopsis": "En esta secuela de Sangre en La Mondiola, el oscuro personaje del título deberá enfrentarse a enemigos aún más siniestros que él. Un traficante de obras de arte, un policía corrupto, una periodista demasiado curiosa, un vengativo sujeto, y un profesor venido de Europa, se interponen en el camino de Tepes, quien busca reencontrarse con su hija, desaparecida misteriosamente.",
+          "trailer_url": null
+        },
+        {
+          "slug": "la-granja",
+          "year": 2008,
+          "title": "LA GRANJA",
+          "poster": "/media/archive/IV/films/la-granja.jpg",
+          "review": "Un nuevo trabajo del incansable Ernesto Aguilar (que estuvo presentando Fausta en la pasada edición de Montevideo Fantástico), y probablemente la película más delirante y bizarra de todo el festival, en una historia que transita por varios géneros, con muy fino humor de por medio (hay que estar atento). Dentro del elenco aparece el hijo del legendario Jorge Porcel.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Ernesto Aguilar",
+          "duration": 88,
+          "synopsis": "Al ser despedido de su trabajo, Guillermo y su esposa Silvana deciden irse a vivir al campo, con la hija de ambos, Romina. En el camino paran en una granja, donde vive Björn, un sueco excéntrico, junto a sus asistentes, todas mujeres, despertando las ganas en el matrimonio de revivir el «Flower Power» que había vivido en la juventud. Pero la familia no advierte que está siendo captada por una secta que lidera el sueco y con oscuros propósitos.",
+          "trailer_url": null
+        },
+        {
+          "slug": "morgue-story-blood-blowfish-and-comics",
+          "year": 2009,
+          "title": "MORGUE STORY: BLOOD, BLOWFISH AND COMICS",
+          "poster": "/media/archive/IV/films/morgue-story-blood-blowfish-and-comics.jpg",
+          "review": "Basada en la obra teatral homónima creada por el mismo realizador brasilero, Paulo Biscaia Filho. Morgue Story es su ópera prima y también un muy gracioso y por momentos inteligente homenaje a las películas de terror de los ´80, con bastante humor negro, cine trash, y elementos algo “tarantinescos”.",
+          "country": "Brasil",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "En la vida de una famosa dibujante de comics, a la que no le va muy bien en el amor, se cruzan dos personajes con vidas bastante particulares. Uno es un cataléptico crónico que irónicamente se dedica a vender seguros de vida; el otro es un sociópata muy religioso que trabaja en una morgue y cuyo método para hacer caer a sus víctimas consiste en una poción vudú que las lleva a tener catalepsia y por ende a terminar en el lugar donde trabaja; cuando se despiertan las viola y luego las mata. Pero los planes de este último se verán complicados ante la llegada a la morgue del vendedor de seguros. Basada en la obra teatral homónima creada por el mismo realizador brasilero, Paulo Biscaia Filho.",
+          "trailer_url": null
+        },
+        {
+          "slug": "mud-zombies",
+          "year": 2008,
+          "title": "MUD ZOMBIES",
+          "poster": "/media/archive/IV/films/mud-zombies.jpg",
+          "review": "Probablemente una de las mejores películas en la acotada historia del terror brasilero y un más que notable debut para el realizador Rodrigo Aragao, denotando su gusto por el cine de George Romero, y especialmente el de Lucio Fulci, los primeros Sam Raimi y Peter Jackson, y marcado a la vez por un brillante trabajo artesanal de efectos especiales, donde no faltan labores de maquillaje y hasta animatronics, supervisadas por el propio realizador, que también escribió e hizo la fotografía. Buen cine de terror (se trata de la primera película de zombies brasilera), con varias dosis de gore, pizcas de humor, y que incluye hasta una historia de amor, donde la naturaleza a su vez parece transformarse para mostrar su lado más siniestro.",
+          "country": "Brasil",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "En un pantano rodeado por montañas, una pequeña comunidad se sustenta de la extracción de sus recursos naturales. Luiz, un tímido joven, quiere desde hace mucho tiempo declarar su amor por Raquel, una bella joven que se convierte en objeto de deseo de los hombres del lugar. Extraños sucesos comienzan a cambiar la tranquilidad de la villa, cuando terribles criaturas surgen de las entrañas del pantano en busca de carne humana. Algunos creen que es culpa de la polución y la pesca indiscriminada, otros que se trata de una maldición. Ahora Luiz debe luchar desesperadamente para salvar aquello que más aprecia: la vida de Raquel.",
+          "trailer_url": null
+        },
+        {
+          "slug": "muneco-viviente-v",
+          "year": 2008,
+          "title": "MUÑECO VIVIENTE V",
+          "poster": "/media/archive/IV/films/muneco-viviente-v.jpg",
+          "review": "Lo de la quinta parte viene a que su director ya había hecho cortos caseros con sus amigos y “con el mismo pobre muñeco”, que no es tan solo una excusa para tributar a clásicas series y películas con muñecos asesinos stop-motion. Hay también un humor muy sutil que se debate entre lo absurdo, un espíritu innegablemente retro y el mejor cine bizarro, con bastante acción, espontaneidad, delirio y juegos electrónicos de por medio. Ópera prima del uruguayo Maximiliano Contenti, que integró el conocido grupo Área 4, compuesto por alumnos de la Escuela de Cine del Uruguay (ECU), improvisada, filmada prácticamente en el propio edificio donde vive el director, “sin guión, sin plata, sin equipo, sin nada”.",
+          "country": "Uruguay",
+          "credits": "",
+          "director": "Maxi Contenti",
+          "duration": 90,
+          "synopsis": "Bruno es un joven perturbado por su misterioso pasado. Cuando era chico, un muñeco de plástico, feo y pelado, amenazó su vida y la de su familia. Ahora, años después, volviendo de unas vacaciones con sus padres, tendrá nuevamente que enfrentar sus peores miedos. Entre su relación con sus muy extraños amigos y la particular situación con sus padres, Bruno tendrá que convertirse en héroe de acción y acabar de una vez por todas con el… ¡muñeco viviente!",
+          "trailer_url": null
+        },
+        {
+          "slug": "nadie-inquieto-mas-narciso-ibanez-menta",
+          "year": 2008,
+          "title": "NADIE INQUIETÓ MÁS: NARCISO IBÁÑEZ MENTA",
+          "poster": "/media/archive/IV/films/nadie-inquieto-mas-narciso-ibanez-menta.jpg",
+          "review": "Impresionante investigación periodística a cargo del realizador argentino Gustavo Leonel Mendoza, que le llevó varios años y que contiene entrevistas a grandes figuras del cine y la televisión iberoamericana que trabajaron con Narciso (incluyendo a su propio hijo Chicho Serrador, en Madrid), y también a biógrafos y fehacientes seguidores de su carrera.  El trabajo, hecho de manera absolutamente independiente y con dinero de su propio bolsillo (como empleado de una compañía telefónica), tiene un carácter didáctico fundamental, y constituye un auténtico tributo para la figura del actor y posiblemente toda una revelación para generaciones más jóvenes.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Gustavo Leonel Mendoza",
+          "duration": 105,
+          "synopsis": "Homenaje a la vida y obra del gran Narciso Ibáñez Menta, en un documental abarcativo, con material exclusivo, y decididamente arqueológico, que desentraña las distintas facetas de una personalidad que impactó y modificó de forma sustancial la manera de desarrollar los géneros de terror, épicos y dramáticos, tanto en Argentina como en España. Un hombre que quería inmortalizarse a través de sus obras de teatro, pero que se vio encasillado en magníficas obras de suspenso y terror.",
+          "trailer_url": null
+        },
+        {
+          "slug": "no-morire-sola",
+          "year": 2008,
+          "title": "NO MORIRÉ SOLA",
+          "poster": "/media/archive/IV/films/no-morire-sola.jpg",
+          "review": "La vuelta del talentoso director español, radicado en Argentina, Adrían García Bogliano, ahora con una tradicional historia de violación y venganza que evoca algunas clásicos de los años ´70, como Deliverance, los primeros Wes Craven, y las mujeres vengadoras de Meir Zairchi (I Spit on Your Grave) y Abel Ferrara (Ángel de venganza), matizada con un enfoque crudo, violento,  descarnado, pero que a la vez se toma sus tiempos para lograr algunos pasajes donde la propia naturaleza (como en la australiana Largo fin de semana, del ya fallecido Colin Eggleston) ayuda a reforzar esos climas inquietantes y situaciones estremecedoras, de locura y desesperación, por momentos impactantes.",
+          "country": "Argentina",
+          "credits": "",
+          "director": "Adrián García Bogliano",
+          "duration": 84,
+          "synopsis": "Cuatro jóvenes mujeres regresan a su pueblo, por una ruta perdida, montadas en un destartalado auto y luego de haber finalizado el año académico. A medio camino recogen una mujer herida, víctima de un grupo de cazadores furtivos. En su afán por ayudarla se convierten a su vez en víctimas casuales de este grupo de salvajes, que descargan toda su furia contenida contra ellas.",
+          "trailer_url": null
+        },
+        {
+          "slug": "shadowland",
+          "year": 2009,
+          "title": "SHADOWLAND",
+          "poster": "/media/archive/IV/films/shadowland.jpg",
+          "review": "Una interesante propuesta de cine independiente norteamericano, esta vez vinculada al vampirismo y con un tono bastante gótico, respaldado más bien por la arquitectura del lugar, a veces desafiante para con las propias “reglas” que suelen verse en los films de vampiros. Entre la búsqueda de su identidad y una persecución implacable de la que es objeto, la protagonista enfrenta un mundo moderno, frío, distante, inflexible, que parece no entenderla y que a su vez la deja casi sin opciones, como ese mismo contexto anterior en el que vivió y del cual había sido una involuntaria víctima, llevándola a hacer lo que nunca deseó. Interesante debut en el largometraje para Wyatt Weed, quien no solo dirige sino que también escribe, edita, produce y hasta se encarga de los efectos especiales en ésta, su ópera prima.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Wyatt Weed",
+          "duration": 99,
+          "synopsis": "Una joven mujer sale de un hoyo cavado en una construcción, y se arrastra, golpeada y ensangrentada, aparentemente abandonada a su suerte. Sin memoria ni idea de quién es o de dónde viene, se interna en la oscuridad de la noche en busca de respuestas y sobre todo para hallar la manera de volver a su hogar. Pero pronto se encuentra perseguida por un hombre misterioso, y no se sabe si éste está tratando de ayudarla… o la quiere asesinar.",
+          "trailer_url": null
+        },
+        {
+          "slug": "sonambulos",
+          "year": 2009,
+          "title": "SONÁMBULOS",
+          "poster": "/media/archive/IV/films/sonambulos.jpg",
+          "review": "A pesar de su corta duración – bien pudo haber sido un corto excepcional – la película, bastante arriesgada en su propuesta, apuesta por algunos climas inquietantes para luego descargar su verdadera esencia durante los minutos finales, cuando el otro integrante de la pareja entra en juego. Un nuevo ejemplo de cine sobrenatural trasandino, cuya producción en el género ha venido creciendo de manera considerable en los últimos años.",
+          "country": "Chile",
+          "credits": "",
+          "director": "Christian Aylwin",
+          "duration": 71,
+          "synopsis": "La elogiada novela Pedro Páramo, de Juan Rulfo, sobrevuela este largometraje chileno de Christian Aylwin, a propósito de un hombre y una mujer, casados, que mueren repentinamente. Pero ella no lo sabe y cree ser la única que sigue con vida, viviendo dolorosamente su duelo. Él sí sabe que ha fallecido pero no es consciente de que su mujer también y la imagina en todos lados. Creyéndose en universos distintos no se encuentran jamás, condenados a llevar una existencia a medias, invadidos de misteriosos acontecimientos y extrañas presencias.",
+          "trailer_url": null
+        },
+        {
+          "slug": "yesterday",
+          "year": 2009,
+          "title": "YESTERDAY",
+          "poster": "/media/archive/IV/films/yesterday.jpg",
+          "review": "Una curiosa y a la vez interesante mezcla de Dawn of the Dead (la original, faltaba más) con el Deliverance de John Boorman, y donde las críticas sociales quedan un poco de lado (a diferencia del film de Romero), dejando a los muertos vivos casi como un simple pretexto y en un papel secundario, para que el aspecto humano del asunto sea lo que más sobresalga. Las conductas que se dan en ese grupo, compuesto por vagos, ladrones, oficinistas y estudiantes, lleva a esta ópera prima de Rob Grant a ser una película más bien de personajes y en la que la mayor amenaza para la supervivencia puede venir del lado menos pensado. Hecha con muy poco presupuesto, de manera totalmente independiente (el director estuvo en casi todos los rubros técnicos y varios de sus familiares trabajaron con él), hay, sin embargo, una cuota splatter, infaltable para un film de este subgénero, pero que más bien nace de la naturaleza del propio ser humano. La película sigue después de los créditos finales.",
+          "country": "Canadá",
+          "credits": "",
+          "director": "Rob Grant",
+          "duration": 98,
+          "synopsis": "Los suburbios de Canadá se ven repentinamente invadidos por muertos vivos. Los distintos supervivientes se van agrupando casualmente por la calle y al final deciden que no hay mejor lugar que el bosque para ir esconderse y estar a salvo. Pero la mayor amenaza, curiosamente, no está en los seres que vuelven de la muerte sino en aquellos que aún siguen vivos.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE LARGOMETRAJES / LONG FEATURE FILMS INFORMATIVE SESSION",
+      "type": "features",
+      "films": [
+        {
+          "slug": "alien-abduction-incident-in-lake-county",
+          "year": 1998,
+          "title": "ALIEN ABDUCTION: INCIDENT IN LAKE COUNTY",
+          "poster": "/media/archive/IV/films/alien-abduction-incident-in-lake-county.jpg",
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Dean Alioto",
+          "duration": 92,
+          "synopsis": "La primera versión de Alien Abduction causó sobresaltos y sospechas, cuando se estrenó en la televisión para abonados. Aquí la cámara de un adolescente registra la invasión a su casa de campo por parte de un grupo de alienígenas, cuando celebraba con su familia la Cena de Acción de Gracias. Al momento de emitirse por el canal HBO, los ejecutivos de una filial de la Paramount decidieron quitarle los créditos finales, para dar a entender a los televidentes que lo que estaban viendo era una auténtica invasión extraterrestre, es decir una cinta que se halló y que daba prueba de que lo que allí se veía realmente sucedió. La que aquí exhibimos, sin embargo, es la versión completa, avalada por el propio realizador Dean Alioto para nuestro festival, un largometraje que por momentos causa verdaderos escalofríos y que fue modelo básico para posteriores trabajos, como El Proyecto Blair Witch (1999), REC (2007) y Cloverfield (2008).",
+          "trailer_url": null
+        },
+        {
+          "slug": "antarctic-journal",
+          "year": 2005,
+          "title": "ANTARCTIC JOURNAL",
+          "poster": "/media/archive/IV/films/antarctic-journal.jpg",
+          "review": "La película apunta más bien a la psicología de sus personajes, a cómo un entorno duro y hostil los va transformando, a medida que las cosas no salen como ellos esperaban, mientras paralelamente se va armando un thriller que se torna cada vez más oscuro y desconcertante.",
+          "country": "Corea del Sur",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "Un grupo de japoneses se embarca en un recorrido por la Antártida, tratando a toda costa de llegar a un punto muy extremo y en el medio de la nada. El período en que inician la travesía coincide con los seis meses diurnos. Pero en el camino encuentran un viejo e intrigante diario, perteneciente a un grupo de exploradores ingleses, que habían muerto allí en 1922. A partir de ahí comienzan las dudas de si seguir o no con el viaje, y también un proceso interior en ese grupo, producto de algunos hechos inesperados e inexplicables.",
+          "trailer_url": null
+        },
+        {
+          "slug": "mil-mascaras-resurrection-mil-mascaras-vs-the-aztec-mummy",
+          "year": 2008,
+          "title": "MIL MASCARAS: RESURRECTION / MIL MASCARAS VS. THE AZTEC MUMMY",
+          "poster": "/media/archive/IV/films/mil-mascaras-resurrection-mil-mascaras-vs-the-aztec-mummy.jpg",
+          "review": "Una clásica película de justicieros enmascarados, que apuesta a la vieja fórmula de superhéroes, y donde aparecen otros famosos combatientes que ayudarán al protagonista (incluyendo un científico y su robot) a detener la temible amenaza. Acción, suspenso y bastante lucha libre, para un film sin ningún tipo de pretensiones, honesto y, por supuesto, nostálgico.",
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Chip Gubera, Andrew Quint",
+          "duration": 91,
+          "synopsis": "El famoso luchador mexicano se enfrenta en esta ocasión a la Momia Azteca, resucitada por el poder de la gema de Tonauac. Este adversario se vale de un bastón mágico, capaz de controlar la voluntad de los hombres, para así conquistar el mundo e invadirlo con su maldad. El asunto no sólo llega a la policía mexicana, sino también al propio presidente estadounidense, quien confía en que Mil Máscaras pueda detenerlo y eliminarlo para siempre.",
+          "trailer_url": null
+        },
+        {
+          "slug": "on-evil-grounds",
+          "year": 2009,
+          "title": "ON EVIL GROUNDS",
+          "poster": "/media/archive/IV/films/on-evil-grounds.jpg",
+          "review": null,
+          "country": "Auf bösem Boden",
+          "credits": "",
+          "director": "Peter Koller",
+          "duration": 82,
+          "synopsis": "Austria, 2007 – Romeo y Juliet deciden comprar un desván situado en una fábrica desmantelada. Nadie vive allí. Pero el dueño loco de la fábrica, y su colega, un agente inmobiliario (que están aún más locos que los propios protagonistas), han estado secuestrando y torturando a jóvenes e inocentes parejas. Y ahora creen que Romeo y Juliet son las víctimas adecuadas. El propio",
+          "trailer_url": null
+        },
+        {
+          "slug": "oscuro-iluminado",
+          "year": 2007,
+          "title": "OSCURO / ILUMINADO",
+          "poster": "/media/archive/IV/films/oscuro-iluminado.jpg",
+          "review": "Un film que se toma sus tiempos para analizar las idas y venidas de su protagonista, su entorno, aquellos que rodean al alicaído personaje principal  e intentan acercársele para ayudarlo, mezclándose realidad y ficción, todo en un estilo, por momentos, muy a tono con el cine de David Lynch.",
+          "country": "Chile",
+          "credits": "",
+          "director": "Miguel Ángel Vidaurre",
+          "duration": 77,
+          "synopsis": "Miguel, joven",
+          "trailer_url": null
+        },
+        {
+          "slug": "jorge-montejo-el-hombre-detras-de-paolo",
+          "year": 2008,
+          "title": "JORGE MONTEJO: EL HOMBRE DETRÁS DE PAOLO",
+          "poster": "/media/archive/IV/films/jorge-montejo-el-hombre-detras-de-paolo.jpg",
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Damián Pantaleone, Pablo Giurastante",
+          "duration": 39,
+          "synopsis": "Narrado en primera persona, este documental de los argentinos Damián Pantaleone y Pablo Giurastante gira sobre la historia del actor que creara el popular personaje de “Paolo, el rockero”, el hippie más famoso y querido del cine y la televisión rioplatense, pero contada en sus propios términos, y matizada con fotos de archivo, testimonios de amigos y afectos más cercanos. El trabajo sintetiza lo que fueron los comienzos del tandilense en Badía & Compañía, aquello que lo llevó a convertirse en un ícono de los ´80, su tristemente tránsito por la locura, y el resurgimiento final. Para aquellos uruguayos memoriosos, Jorge “Paolo” Montejo llegó a presentar su unipersonal en Montevideo, en la ya desaparecida sala del Cine Cordón, en 1988. En 2007 Paolo realizó un emotivo espectáculo en Buenos Aires (“San Paolo”) pero conmemorando sus 20 años de trayectoria, en el Teatro Premier de la calle Corrientes y a sala llena.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "CORTOMETRAJES INTERNACIONALES EN COMPETENCIA / INTERNATIONAL SHORT FILMS COMPETITION",
+      "type": "shorts",
+      "films": [
+        {
+          "year": 2008,
+          "title": "Casting Call of Chtuhlu –",
+          "poster": null,
+          "review": null,
+          "country": "Canadá",
+          "credits": "",
+          "director": "Joseph Nanni",
+          "duration": null,
+          "synopsis": "A veces citar a casting para una película basada en un relato de H.P. Lovecraft, puede ser la experiencia más extraña e hilarante de todas.",
+          "trailer_url": null
+        },
+        {
+          "year": 2008,
+          "title": "Creepers",
+          "poster": null,
+          "review": null,
+          "country": "Estados Unidos",
+          "credits": "",
+          "director": "Nick Thiel",
+          "duration": null,
+          "synopsis": "La ciudad de Los Ángeles se ha convertido en Zona Cero, después que misteriosos ataques la destruyeran. Pero las razones de estos ataques son rápidamente eclipsadas cuando la muerte y la destrucción los rodee a todos. Cuando el mundo acabe, ¿en quién se podrá confiar?",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "CORTOMETRAJES LATINOAMERICANOS EN COMPETENCIA / LATIN AMERICAN SHORT FILMS COMPETITION",
+      "type": "shorts",
+      "films": [
+        {
+          "year": 2008,
+          "title": "Dedicado a nadie",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Andrés Borghi",
+          "duration": null,
+          "synopsis": "Fabiana es una chica tímida e introvertida. Un día, un extraño y misterioso ser se presenta en su casa. Ella le teme en un principio pero luego intenta comunicarse con él. ¿Podrá encontrar la amistad en un ser que no es de este mundo?",
+          "trailer_url": null
+        },
+        {
+          "year": 2008,
+          "title": "El canto de un gallo",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Daniela Grandinetti",
+          "duration": null,
+          "synopsis": "Una nena sueña que todo en su madre se volvió extraño. Cuando despierta, la mirada hacia su madre ha cambiado.",
+          "trailer_url": null
+        },
+        {
+          "year": 2008,
+          "title": "Los extraños",
+          "poster": null,
+          "review": null,
+          "country": "Argentina",
+          "credits": "",
+          "director": "Sebastián Caulier",
+          "duration": null,
+          "synopsis": "Lucía, Natalia, Carolina, Victoria y Soledad pasan un apacible fin de semana en una aislada casa quinta. Pero el descanso pasará a ser una claustrofóbica pesadilla, desde el momento en que Soledad desaparece misteriosamente. Agustina, la hermana autista de Lucía, comienza a entonar una siniestra canción en la que dice que unos extraños se la llevaron… y que volverán por el resto. Premio Historias Breves, 2008 (INCAA).",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE CORTOMETRAJES / SHORT AND MEDIUM LENGTH FILMS INFORMATIVE SESSION",
+      "type": "shorts-catalog",
+      "films": [
+        {
+          "year": 2008,
+          "title": "CORTOS FANTÁSTICOS Cartoon Attack",
+          "poster": null,
+          "review": null,
+          "country": "Pablo Praino",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "1´ – URUGUAY DVD (Ciro Altabás, 2006) – 18´ – ESPAÑA Feels like a Burger (Pablo Praino, 2008) – 2´ – URUGUAY For a Few Marbles More (Jelmar Hufen, 2006) – 11´ – HOLANDA Now You See Me, Now You Don´t (Attila Szasz, 2004) – 30´ – HUNGRÍA Replay (Diego Melo, 2008) – 5´ – URUGUAY The Gashapon Collector (Pablo Praino, 2009) – 2´ – URUGUAY Vadata (Manuel Lebelt, 2007) – 10´ – ALEMANIA Visitantes (Daniel Riera, 2007-2008) – 31´ – URUGUAY",
+          "trailer_url": null
+        },
+        {
+          "year": 2004,
+          "title": "PANTALLAZO ARGENTINO Dosis",
+          "poster": null,
+          "review": null,
+          "country": "Fabián Forte",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "16´ El ello (Diego De Sancho, Juan Manuel Bertozzi, 2006) – 9´ El grano (Juan Pablo Benavidez, 2008) – 6´ La trampa (Pablo Giurastante, Guido Gabella, 2009) – 11´ Muertos de carnaval (Alejo Rébora, 2008) – 14´ Una canción de Navidad (Adrián Fabrissin, 2006) – 15´ Una muerte inútil (Lucas DiStéfano, 2008) – 35´ En programa: Rojo Sangre: Diez años a puro género (Work in progress) – Presentación de la productora Ariana Bouzón",
+          "trailer_url": null
+        },
+        {
+          "year": 2007,
+          "title": "CHILE FANTÁSTICO – FESTIVAL FIXION-SARS Desamparo",
+          "poster": null,
+          "review": null,
+          "country": "César Adriazola",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "21´ Descontrol (José Miranda E., Cristóbal Chacón, 2008) – 11´ El rockero, el crítico de arte y la Mujer Maravilla (Paul J. Felmer, 2007) – 18´ Eternidad (Patricio Díaz, Michael Farfán, 2007) – 18´ Hasta que la muerte nos separe (Gustavo Ramírez, 2008) – 22´ Mira quién ríe ahora (Mauricio Menéndez, 2008) – 13´ V (Al) Paraíso (Pablo Alibaud, 2007) – 11´",
+          "trailer_url": null
+        },
+        {
+          "year": 2008,
+          "title": "PANORAMA ESPAÑOL De la mano de la Reina Roja",
+          "poster": null,
+          "review": null,
+          "country": "Omar Rabuñal Varela",
+          "credits": "",
+          "director": null,
+          "duration": null,
+          "synopsis": "20´ En el apartamento (Mario San Emeterio, 2008) – 12´ Festí de Sang (David Ruiz Arroyo, Albert València, 2008) – 58´ Gólgota (Román Rubert, 2008) – 25´",
+          "trailer_url": null
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "title": "Crónica de la edición IV",
+    "author": "Alejandro Yamgotchian",
+    "content": [
+      "A la siempre prolífica producción argentina, se sumaron para esta ocasión dos películas brasileras ( Mud Zombies , de Rodrigo Aragao; y Morgue Story: Blood, Blowfish and Comics , de Paulo Biscaia Filho), del mismo modo que dos largos chilenos ( Sonámbulos , de Christian Aylwin; y Oscuro/Iluminado , de Miguel Ángel Vidaurre), además de abundante material del país trasandino, donde nuestro festival hermano FIXIÓN-SARS también dijo presente a través de la sección «Chile Fantástico» y en la que pudieron verse algunos de los mejores trabajos seleccionados para su pasada edición.",
+      "Hubo visitas de Brasil (el director Paulo Biscaia Filho y el actor Leandro Daniel Colombo, que presentaron Morgue Story: Blood, Blowfish and Comics ) y especialmente de Argentina: Gustavo Mendoza, realizador del largometraje documental Nadie inquietó más: Narciso Ibáñez Menta ; Pablo Giurastante y Guido Gabella, co-director y co-productor, respectivamente, del mediometraje Jorge Montejo: El hombre detrás de Paolo ; Juan Manuel Domínguez, director del corto La alarma ; Christian Fernández, director del corto La otra ; y Ariana Bouzón, co-productora de Rojo Sangre: 10 años a puro género , documental del cual se pudo ver un adelanto exclusivo y que se estrenará con motivo del décimo aniversario de nuestro otro festival hermano, Buenos Aires Rojo Sangre.",
+      "También hubo una mesa redonda dedicada a Horacio Quiroga, un concurso de crítica cinematográfica, y presentaciones especiales antes de cada uno de los clásicos que se exhibieron, recordando a destacadas figuras del género, como Michael Crichton, Val Lewton, Rod Serling, Richard Matheson, y uno especial, evocando los 60 años de la novela 1984 , de George Orwell, entre otros.",
+      "Queremos agradecer a todos los organismos estatales que nos han apoyado, a las productoras nacionales independientes que también lo hicieron, a los que siempre están, a los nuevos que aparecieron, a los que recién nos descubrieron, y a todos los medios de comunicación (TV, radio, prensa escrita, portales y blogs nacionales y extranjeros) que nos apoyaron y nos dieron para adelante. Muchas gracias a todos."
+    ]
+  }
+}

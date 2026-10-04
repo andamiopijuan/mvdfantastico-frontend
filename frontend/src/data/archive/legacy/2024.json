@@ -1,0 +1,1188 @@
+{
+  "jury": [
+    {
+      "members": [
+        "Valentina Starcovich",
+        "Pablo Silvera",
+        "Enrique Puig"
+      ],
+      "section": "Competencia Oficial de Largometrajes"
+    },
+    {
+      "members": [
+        "Valentina Starcovich",
+        "comité de preselección del festival"
+      ],
+      "section": "Competencia Iberoamericana de Largometrajes"
+    },
+    {
+      "members": [
+        "Gabriel Llagostera",
+        "Andrés D'Souza",
+        "Federico Cardozo"
+      ],
+      "section": "Mediometrajes"
+    },
+    {
+      "members": [
+        "Pablo Saldivia",
+        "Tomás Martos",
+        "Matías Parkman"
+      ],
+      "section": "Cortos Uruguayos"
+    },
+    {
+      "members": [
+        "Victoria Soto",
+        "Bruno Otheguy",
+        "Andrés Larramendi"
+      ],
+      "section": "Cortos Internacionales"
+    }
+  ],
+  "awards": [
+    {
+      "jury": "Victoria Soto, Bruno Otheguy, Andrés Larramendi",
+      "awards": [
+        {
+          "film": "La Tumba de San Orán",
+          "name": "Mención Especial del Jurado — Mejor corto animado",
+          "country": "Australia"
+        },
+        {
+          "film": "Musa",
+          "name": "Mención Especial del Jurado — Dirección de fotografía",
+          "country": "México"
+        },
+        {
+          "film": "En las sombras",
+          "name": "Mención Especial del Jurado — Puesta en escena",
+          "country": "Francia"
+        },
+        {
+          "film": "El sueño de Pinky",
+          "name": "Mejor guión",
+          "country": "EEUU"
+        },
+        {
+          "film": "Belfast 1912",
+          "name": "Mejor Actor",
+          "country": "Reino Unido",
+          "recipient": "Stephen Beggs"
+        },
+        {
+          "film": "Asustada",
+          "name": "Mejor Actriz",
+          "country": "Argentina",
+          "recipient": "Gaia Garibaldi Argüello"
+        },
+        {
+          "film": "Encarnación",
+          "name": "Mejor Director",
+          "country": "Japón",
+          "recipient": "Noboru Suzuki"
+        },
+        {
+          "film": "Río de caracoles",
+          "name": "Mejor Corto Iberoamericano",
+          "country": "Colombia"
+        },
+        {
+          "film": "Lo que no nos decimos",
+          "name": "Mejor Cortometraje del Festival",
+          "country": "España"
+        }
+      ],
+      "section": "Cortos Internacionales"
+    },
+    {
+      "jury": "Gabriel Llagostera, Andrés D'Souza y Federico Cardozo",
+      "awards": [
+        {
+          "film": "Lola contra los zombies",
+          "name": "Mención Especial del Jurado — Mejor Fotografía",
+          "country": "Argentina"
+        },
+        {
+          "film": "Debacle",
+          "name": "Mención Especial del Jurado — Mejor Puesta en Escena",
+          "country": "México"
+        },
+        {
+          "film": "La Piedra Roja",
+          "name": "Mejor Mediometraje",
+          "country": "México"
+        }
+      ],
+      "section": "Mediometrajes"
+    },
+    {
+      "jury": "Valentina Starcovich y comité de preselección del festival",
+      "awards": [
+        {
+          "film": "El Sótano",
+          "name": "Mejor Largometraje Iberoamericano"
+        }
+      ],
+      "section": "Competencia Iberoamericana de Largometrajes"
+    },
+    {
+      "jury": "Valentina Starcovich, Pablo Silvera y Enrique Puig",
+      "awards": [
+        {
+          "film": "Hippo",
+          "name": "Mención Especial del Jurado — Mejor Actriz de Reparto",
+          "recipient": "Eliza Roberts"
+        },
+        {
+          "film": "Fuera de Camino",
+          "name": "Mención Especial del Jurado — Mejor Estilismo y maquillaje"
+        },
+        {
+          "film": "Hippo",
+          "name": "Mejor Guion",
+          "recipient": "Kimball Farley y Mark H. Rapaport"
+        },
+        {
+          "film": "Hippo",
+          "name": "Mejor Actor",
+          "recipient": "Kim Farley"
+        },
+        {
+          "film": "Crookedfinger",
+          "name": "Mejor Actriz",
+          "recipient": "Paula Jon Derose"
+        },
+        {
+          "film": "La Espera",
+          "name": "Mejor Director",
+          "recipient": "Fernando J. Gutiérrez"
+        },
+        {
+          "film": "Hippo",
+          "name": "Mejor Película"
+        }
+      ],
+      "section": "Competencia Oficial de Largometrajes"
+    }
+  ],
+  "edition": {
+    "year": 2024,
+    "dates": "21 de setiembre — 10 de octubre de 2024",
+    "roman": "XV",
+    "title": "Montevideo Fantástico XV",
+    "number": 15,
+    "poster": "/media/archive/XV/poster.jpg",
+    "venues": []
+  },
+  "sections": [
+    {
+      "name": "Competencia Oficial de Largometrajes",
+      "type": "features",
+      "films": [
+        {
+          "cast": "Paula Jon DeRose, Welker White, Blake DeLong, Andrea Lyman, José Guns Alves",
+          "slug": "crookedfinger",
+          "year": 2024,
+          "title": "Crookedfinger",
+          "poster": "",
+          "country": "Estados Unidos",
+          "director": "Jason Cortlund, Julia Halperin",
+          "duration": 91,
+          "synopsis": "Tras la repentina muerte de sus ancianos padres, María Gallucci regresa a la casa de su infancia en Cape Cod (Massachusetts). Cuando el hermano de María, Nico (y su novia mayor, Sigrid) aparecen para ayudar a arreglar la herencia, pronto aumentan las tensiones sobre cuál es la mejor manera de vender la decrépita casa. Mientras María y Sigrid forjan una amistad inesperada, la volatilidad emocional de Nico se vuelve cada vez más inestable. ¿Será el efecto de una antigua lesión cerebral, el costo de revivir traumas familiares pasados o algo relacionado con el extraño zumbido vibrante que sólo María parece oír en esa casa? Interesante thriller sobrenatural que indaga principalmente en la psicología de la protagonista, no tanto en lo que respecta a las extrañas sensaciones que le transmite la casa de sus padres fallecidos, sino más bien al miedo al aislamiento, a estar completamente sola dentro de una cada vez más compleja situación familiar."
+        },
+        {
+          "cast": "Julia Dorothee Brunsch, Isabelle von Stauffenberg, Dolores Winkler, Tania Golden, Robert Herzl",
+          "slug": "bernadette-quiere-matarse",
+          "year": 2024,
+          "title": "Bernadette quiere matarse",
+          "poster": "",
+          "country": "Suiza",
+          "director": "Robert Herzl, Oliver Paulus",
+          "duration": 92,
+          "synopsis": "En las oscuras profundidades de la red, Bernadette se une al enigmático dúo de influencers Kitty y Peter para orquestar la desaparición de la estudiante Lotte: una transmisión en vivo destinada a dejar a Internet en efervescencia. Sin embargo, Bernadette imaginó todo esto de manera muy diferente… Comedia terrorífica que ironiza sobre usuarios de redes y plataformas que comparten prácticamente todo en línea. En el caso de esta producción suiza, el abordaje pisa el acelerador y se mete a fondo en la exploración de personajes, sin concesiones ni tampoco perdiendo de vista el eje de un asunto tan llamativo como preocupante, y más allá de los giros en la historia."
+        },
+        {
+          "cast": "Lena Schönleitner, Christian Schönleitner, Sonja Hecherberger, Barbara Ziller, Severin Schönleitner",
+          "slug": "entra-en-mycel",
+          "year": 2023,
+          "title": "Entra en Mycel",
+          "poster": "",
+          "country": "Austria",
+          "director": "Daniel Limmer",
+          "duration": 74,
+          "synopsis": "Lena, de trece años, debe cuidar a su hermana pequeña tras la muerte de su madre, mientras su padre lucha por superar la pérdida. Al mismo tiempo, un extraño parásito fúngico conocido como Mycel se está extendiendo y está transformando el mundo que rodea a Lena. Drama de ciencia ficción austríaco, hecho con apenas 3.000 euros y entre 8 personas, dirigido por el joven Daniel Limmer, aquí en su ópera prima, una distopía que parte de una pérdida familiar y se extiende, como el parásito del título original, a un apocalipsis donde el físico y hasta los pensamientos de los humanos son tomados como parte de un todo. En ese contexto hay una gran apuesta audiovisual, creativa, por cierto, lindando con lo experimental, con momentos realmente intensos, y también reminiscencias de la oniricidad de David Lynch y el horror corporal de David Cronenberg."
+        },
+        {
+          "cast": "Irina Salikova, Sergey Gilev, Alexéi Yarmilko, Dmitry Moiseev, Andrey Artamonov",
+          "slug": "encuentros",
+          "year": 2023,
+          "title": "Encuentros",
+          "poster": "",
+          "country": "Rusia",
+          "director": "Dmitry Moiseev",
+          "duration": 101,
+          "synopsis": "La ex enfermera Nina, que cuida de un alienígena débil, comienza a oponerse a un grupo de funcionarios corruptos que está intimidando al extraterrestre y extrayendo una sustancia valiosa de él. Cuando se pone en contacto con el alienígena, Nina comprende la verdad sobre dichos seres y la invasión a la Tierra, lo que cambia por completo su vida. Sorprendente ópera prima de Dmitry Moiseev, que desde el inicio de la película plantea un contexto donde los extraterrestres ya son parte de la sociedad rusa, la cual los vio venir por primera vez en los años 80, durante la era soviética, y que siguen presentes con sus misteriosas naves y propósitos hasta el día de hoy. Los lugares tradicionales y cierta esencia en la película remite al mejor cine de Tarkovskii (Solaris, Stalker, El sacrificio), aunque el mensaje que se pretende transmitir es mucho más sencillo, directo y frontal. Toda una revelación dentro del festival."
+        },
+        {
+          "cast": "Víctor Clavijo, Ruth Díaz, Moisés Ruiz, Manuel Morón, Pedro Casablanc",
+          "slug": "la-espera",
+          "year": 2023,
+          "title": "La Espera",
+          "poster": "",
+          "country": "España",
+          "director": "F. Javier Gutiérrez",
+          "duration": 103,
+          "synopsis": "Eladio, un guarda de una finca de caza, acepta un soborno de un cazador veterano. Lo que parecía la oportunidad de su vida se convierte en un macabro descenso al infierno. Drama rural cuyo terror folklórico, ambientado en la España de la década del 70, intenta explorar a fondo la naturaleza humana, sobre la premisa de una conocida referencia bíblica y que deriva en situaciones impactantes, siempre dentro de una atmósfera cada vez más perturbadora y que parece no tener fin. Javier Gutiérrez es uno de los más aclamados directores de cine independiente español, incluso admirado por destacados cineastas de Estados Unidos y Japón."
+        },
+        {
+          "cast": "Jon Oswald, Scott Turner Schofield, Ashley Smith, Reed Diamond, Jared Bankens",
+          "slug": "fuera-de-camino",
+          "year": 2022,
+          "title": "Fuera de Camino",
+          "poster": "",
+          "country": "Estados Unidos",
+          "director": "Nathan Tape",
+          "duration": 91,
+          "synopsis": "Dos amigos vuelven a reunirse luego de que uno de ellos, que sueña con vender su demo de rap, pasara un año en la cárcel por una estupidez. Para celebrar la salida de prisión, ambos se embarcan en un viaje de ida al único lugar en la Tierra donde saben que se sienten aceptados. En el camino, se equivocan de ruta y terminan en un contexto jamás imaginado, por los bosques del sur de Estados Unidos. Se cruzan con un sheriff psicótico, pandilleros, una princesa de un parque de casas rodantes, y un policía bueno que vive alucinando. Sería algo así como ver personajes de Terry Gilliam y David Lynch metidos en una película de los hermanos Coen, pero detrás de todo lo loco y delirante que pueda haber en esta ópera prima de Nathan Tape (quien trabajara para el director Kevin Smith), va irrumpiendo un drama con momentos inspiradísimos."
+        },
+        {
+          "cast": "Kimball Farley, Lilla Kizlinger, Eliza Roberts, Jesse Pimentel, Eric Roberts",
+          "slug": "hippo",
+          "year": 2023,
+          "title": "Hippo",
+          "poster": "",
+          "country": "Estados Unidos",
+          "director": "Mark H. Rapaport",
+          "duration": 101,
+          "synopsis": "La película examina el paso de dos hermanastros a la edad adulta: Hippo, un adolescente adicto a los videojuegos, y Buttercup, una inmigrante católica húngara que ama la música clásica y a Jesús. Al igual que la antigua Afrodita griega, el amor de Buttercup no es correspondido por un hermano que prefiere entregarse al arte de la guerra y el caos. El resultado es una pesadilla tragicómica y cargada de hormonas que hay que ver para creer. Ambientada a fines de los 90 en Estados Unidos y con personajes que lidian con diversos trastornos, esta ópera prima del joven Mark Rapaport está filmada enteramente en blanco y negro y no por casualidad parece que estuviéramos viendo a Jim Jarmusch y uno de sus clásicos."
+        },
+        {
+          "cast": "Alan King, Christopher Kirby, Zoe Bertram, Greg Fleet, Bill Evans",
+          "slug": "vincent",
+          "year": 2024,
+          "title": "Vincent",
+          "poster": "",
+          "country": "Australia",
+          "director": "Alan King",
+          "duration": 92,
+          "synopsis": "El escritor Vincent Tremblay, que vive en una situación difícil, se escapa a un lugar apartado, decidido a terminar su primera novela. Sin embargo, su soledad dura poco, ya que una fuerza poderosa se manifiesta de repente y Vincent se encuentra atrapado en sus garras. Desafiante comedia negra, con toques fantásticos que quizás puedan interpretarse, validarse desde la propia mente del espectador, al momento de discernir qué es lo real y cuánto hay de ficción en ese cambio radical que el protagonista le da a su vida. Esa narrativa algo experimental, no lineal y que remite bastante al Godard de la Nouvelle Vague, esa ambigüedad conceptual que maneja, encuentra en esta ópera prima del australiano Alan King uno de sus puntos más álgidos. Una de las sorpresas del festival que, sin dudas, hace de su director un cineasta a seguir. Premiada en Alemania."
+        }
+      ]
+    },
+    {
+      "name": "Competencia Iberoamericana de Largometrajes",
+      "type": "features",
+      "films": [
+        {
+          "cast": "Joaquín Gallardo, Maia Barrio, Ramón Caribe, Vic Cicuta, Eva Dans",
+          "slug": "7-vidas",
+          "year": 2024,
+          "title": "7 vidas",
+          "poster": "",
+          "country": "Argentina",
+          "director": "Alejo Rébora",
+          "duration": 80,
+          "synopsis": "La cómoda vida de Jorge en un edificio inteligente se desmorona cuando muere René, el gato al que debe cuidar a cambio de vivir en el apartamento. En ese momento, una mujer que dice ser la reencarnación del felino llega a su puerta y, alegando que fue víctima de un homicidio, lo arrastra a una carrera contrarreloj para intentar encontrar al asesino suelto. Mientras salen a la luz terribles secretos, la IA del edificio comienza a fallar, dejándolos inmersos en una trampa mortal que los hará explorar, en tono de comedia negra, la eventual amistad entre especies y, por qué no, los vínculos con otros entes inteligentes."
+        },
+        {
+          "cast": "Magui Bravi, Eve Gasser, Matías Desiderio, Agustín Olcese, Fernando Niño",
+          "slug": "bloody-mary",
+          "year": 2024,
+          "title": "Bloody Mary",
+          "poster": "",
+          "country": "Argentina",
+          "director": "Taz Pereyra",
+          "duration": 73,
+          "synopsis": "Moira y Letizia, dos brujas modernas con un oscuro secreto, realizan un ritual cada Luna de Sangre, en el que un hombre es un elemento crucial de su magia. Sin embargo, esta noche algo cambiará, el elegido amenaza con desentrañar su plan orquestado. Con su poder y sus vidas en juego, Letizia y Moira deben enfrentarse a fuerzas imprevistas y a sus propios demonios internos. Sorprendentemente, el vínculo entre ellas podría ser más fuerte que cualquier hechizo, tal vez destinado a durar toda la eternidad. Decorosa propuesta de suspenso y misterio, con brujas y algunos diálogos graciosos de por medio. Ellas tienen el control y lo hacen saber a como dé lugar."
+        },
+        {
+          "cast": "Carlos Buletich, Koko de Luxe, Vanesa Eme, María Belén Klusener, Claudio Martin",
+          "slug": "brujas-ellas-cruzaran-el-umbral",
+          "year": 2023,
+          "title": "Brujas: Ellas cruzarán el umbral",
+          "poster": "",
+          "country": "Argentina, Chile, Uruguay",
+          "director": "Débora Araya, Gabriel Díaz, Marcelo Fabani, Horacio Florentín, Ruth Gómez, Carlos Lasso",
+          "duration": 69,
+          "synopsis": "Un grupo de chicas que desea formar parte de una hermandad, tienen que contar historias de brujas para poder realizar un ritual y finalmente ser aceptadas. Sobre una idea original y bajo producción de la argentina Ruth Gómez, la película reúne varios directores y directoras (algunos/as que ya pasaron con sus cortos y largos por anteriores ediciones del Montevideo Fan) de cuatro países (Chile, México y Uruguay, además de Argentina). Terror que remite al cine clásico, con algo de gore y goticismo, donde cada país eligió sus propias locaciones, formas de financiación (incluyendo crowfunding) y hasta filmaciones en plena cuarentena, haciendo hincapié en leyendas autóctonas y temáticas sociales a través de cinco historias y un hilo conductor."
+        },
+        {
+          "cast": "Diego Montez, Yohan Levy, Analu Prestes, Cristina Pereira, Luisa Kozovski",
+          "slug": "la-herencia",
+          "year": 2023,
+          "title": "La Herencia",
+          "poster": "",
+          "country": "Brasil",
+          "director": "João Cândido Zacharias",
+          "duration": 80,
+          "synopsis": "Después de recibir noticias sobre la muerte de su madre, Thomas regresa a Brasil con su pareja, Beni. Una vez allí, se entera de una casa de campo que pertenece a una abuela a la que nunca conoció. Curiosos por reencontrarse con la historia de su familia, visitan la casa y Thomas es recibido por dos tías mayores que lo tratan como a su hijo perdido hace mucho tiempo. A medida que Thomas se va enamorando cada vez más del lugar, Beni comienza a sospechar que algo maligno se esconde bajo la fachada de una vida tranquila en el campo. El patrimonio al que hace referencia el título original, en esta ópera prima de João Cândido Zacharias, lleva a uno de los protagonistas a un descubrimiento impensado que lo hará replantear varias cosas, en contraste consigo mismo y dentro de un contexto cada vez más amenazante. El cine de terror brasilero sigue dando muestras interesantes en su etapa de renovación, aquí claramente marcado entre el terror clásico y el moderno."
+        },
+        {
+          "cast": "Magui Bravi, Roly Serrano, Facundo Salomón, Agustín Olcese, Evelyn Gasser",
+          "slug": "oro-negro",
+          "year": 2024,
+          "title": "Oro Negro",
+          "poster": "",
+          "country": "Argentina",
+          "director": "Nicolás Ríos",
+          "duration": 63,
+          "synopsis": "Ramiro se reencuentra con Damián después de años sin verse. Damián siempre tiene algún asunto turbio en marcha. Esta vez quiere ir en busca de cierto tesoro escondido en un convento abandonado. Lara, la novia de Ramiro, no confía en Damián y decide acompañarlos. Lo que no saben es que llevarse ese objeto de allí podría desatar una maldición que los perseguirá por siempre, a menos que lo devuelvan tal y como lo encontraron. Modesto y al mismo tiempo notable ejercicio terrorífico, dinámico en su edición (apenas tiene una hora de duración). Dentro de esa economía narrativa pasan muchas cosas que van y vienen a partir de un interrogatorio policial. Hay una historia que se nutre de terror explícito y sugestión, de sorpresas y buenas interpretaciones."
+        },
+        {
+          "cast": "Mario Mayo, Fabia Castro, Rut Santamaría, Antonio Mayans, Lone Fleming",
+          "slug": "os-reviento",
+          "year": 2023,
+          "title": "Os reviento",
+          "poster": "",
+          "country": "España",
+          "director": "Kike Narcea",
+          "duration": 92,
+          "synopsis": "Nuthead finalmente está saliendo de la cárcel, por lo que quiere convertirse en un buen ciudadano, llevando una vida tranquila junto a su perro. De repente, su padre muere y lo deja solo, lo que lleva a que en un corto período de tiempo varios grupos de mafiosos y matones lleguen a la casa del protagonista (un exboxeador) con extrañas intenciones. Él tiene la misma voluntad para con todos…, aplastarlos. Una movida propuesta exploitation de acción que por momentos no da respiro, con algo de comedia, dirigida por el también dibujante de cómics, el español Kike Narcea. Cine clase B ambientado en una aldea, con una destacada actuación de su personaje principal (Mario Mayo) y una nostálgica y graciosa aparición cerca del final. Premiada en Argentina, Canadá, España, Estados Unidos y Rumania."
+        },
+        {
+          "cast": "Clara Kovacic, Federico Venzi, Demian Salomón, Chucho Fernández, Pablo Pinto",
+          "slug": "el-sotano",
+          "year": 2024,
+          "title": "El Sótano",
+          "poster": "",
+          "country": "Argentina",
+          "director": "Agustin Giagatanellis",
+          "duration": 75,
+          "synopsis": "Cuatro desconocidos se despiertan atados y heridos en un sótano. Ninguno de ellos sabe qué está pasando. Un hombre enmascarado con un disfraz de conejo comienza a jugar con ellos y poco a poco va revelando sus secretos. Si bien la fórmula remite a una famosa saga de terror, muy reciente y exitosa, por cierto, el acertijo tiene un buen planteo; no se regodea en el gore y sí trata de ser algo diferente, donde las actuaciones ayudan y mucho a darle un impulso extra a una historia cuya idea original es de una de las protagonistas y también coguionista, Clara Kovacic. Ópera prima del director argentino Agustín Giagatanellis."
+        },
+        {
+          "cast": "Gastón Palermo, Clara Kovacic, Santiago Zapata, Nicolás Obregón, Hilda Quipirolo",
+          "slug": "el-ucumar",
+          "year": 2022,
+          "title": "El Ucumar",
+          "poster": "",
+          "country": "Argentina",
+          "director": "Octavio Revol Molina",
+          "duration": 86,
+          "synopsis": "Un grupo de biólogos se encuentra en la selva norteña argentina en busca de alguna evidencia de que allí puede vivir el oso andino, el único úrsido sudamericano. En un bar se enteran de una leyenda autóctona, la existencia de un supuesto hombre oso conocido como el Ucumar. Los habitantes del pueblo les contarán sus encuentros con la bestia. Inspirada en hechos reales y filmada en las provincias de Salta y Córdoba, la leyenda de la criatura del título aquí cobra vida a través de investigadores (uno totalmente escéptico) y relatos de los pobladores del lugar. Es una ficción y bastante bien equilibrada; el subgénero del Pie Grande y otras criaturas misteriosas va tomando un formato atractivo a través de reconstrucciones de hechos y en distintas épocas, muy buenas filmaciones y trabajo de sonido."
+        },
+        {
+          "cast": "António da Luz Lourenço Jorge, João Loy, Marlon Fortes, Sara Fortes, Maria da Luz Lopes",
+          "slug": "el-viejo-y-la-espada",
+          "year": 2024,
+          "title": "El Viejo y la Espada",
+          "poster": "",
+          "country": "Portugal",
+          "director": "Fábio Powers",
+          "duration": 64,
+          "synopsis": "De los bosques embrujados de un pueblo perdido portugués nace una energía maligna que, sin temer a Dios ni al hombre, recorre los valles cosechando las almas de quienes se distraen con los placeres fugaces de lo inmediato… Lo único que separa a estas entidades del apocalipsis final que esclavizará a la humanidad en el séptimo círculo del infierno es un obrero de la construcción jubilado, una botella de vino, una moto Zündapp de 50 cc y una espada poseída por un extraño demonio. Lo que en principio parecía una típica comedia bizarra, una película clase Z hecha por y para los amigos, se va transformando, a través de su cada vez más nutrido y casi permanente diálogo en un trabajo de terror, fantasía y ciencia ficción que tiene sus cosas para decir, en especial a través del personaje del título, y su espada, que se convierte en otro más. Hecha apenas con 7.000 euros."
+        }
+      ]
+    },
+    {
+      "name": "Novedades",
+      "type": "features",
+      "films": [
+        {
+          "cast": "",
+          "slug": "george-pal-un-marciano-de-hollywood-en-argentina",
+          "year": 2023,
+          "title": "George Pal: Un marciano de Hollywood en Argentina",
+          "poster": "",
+          "country": "Argentina",
+          "director": "Ramiro San Honorio",
+          "duration": 75,
+          "synopsis": "Un documental que toma como eje central la figura del creador George Pal, desde sus comienzos, con un repaso dinámico de su filmografía hasta sus datos menos conocidos de su pasado en Europa y su llegada a Hollywood. Un relato que reivindica al creador e impulsor de un sello único, de quien supo ser un faro para muchos realizadores contemporáneos en el ámbito de la animación, el cine fantástico y la ciencia ficción. La pieza documental nos presenta una narrativa extensa en testimonios de profesionales que indagan la obra de este realizador y productor. Interesantísimo documental del realizador, guionista y escritor Ramiro San Honorio, creativo en su estilo narrativo y no solo por su espíritu didáctico (para las generaciones más jóvenes que quizás nunca vieron un trabajo de George Pal), sino también por su carácter revelador."
+        },
+        {
+          "cast": "Facundo Vrdoljak, Mariángeles Gagliano, Juan Ignacio Rodríguez, Sofía Soler, Juan Manuel Soto",
+          "slug": "la-hacienda-el-regreso-de-los-malditos",
+          "year": 2024,
+          "title": "La Hacienda: El regreso de los malditos",
+          "poster": "",
+          "country": "Argentina",
+          "director": "Gaby Smiths",
+          "duration": 67,
+          "synopsis": "Un grupo de amigos retorna a su ciudad natal después de muchos años. El viaje es una excusa para recordar viejos tiempos, pero se convierte en una pesadilla cuando desentierran sus recuerdos más oscuros. El nuevo slasher del argentino Gaby Smiths, también escrito por Mechi Pérez, viene con una dosis de terror y violencia mucho más mesurada que su ópera prima Los turistas (exhibida en la pasada edición del festival) que brinda más tiempo al desarrollo de la historia, a sus personajes, siempre con una impecable factura técnica de por medio."
+        },
+        {
+          "cast": "Nick Gaglia, Pradip Ahir, Kether Donohue, Kashi Baba, Nick Mancuso",
+          "slug": "pinkcity-una-meditacion-psicodelica",
+          "year": 2024,
+          "title": "Pinkcity: Una meditación psicodélica",
+          "poster": "",
+          "country": "Estados Unidos",
+          "director": "Nick Gaglia",
+          "duration": 96,
+          "synopsis": "Un occidental viaja por tierras extranjeras en busca de la mujer que ama, que se perdió en el Ganges. Una experiencia psicodélica experimental/narrativa que se adentra en el corazón de la India y en el alma humana. Del director Nick Gaglia ya se había exhibido en el festival el thriller de misterio y ciencia ficción Estados alterados de Plaine (2012). Aquí recurre al tema del abuso de adolescentes en clínicas de recuperación y por el cual se ha convertido en activista ampliamente reconocido. Su cine se planta ante verdades incómodas, y en el caso de Pink City con una actitud desafiante, frontal, profunda respecto a la actual sociedad occidental y al ser humano en sí."
+        },
+        {
+          "cast": "Nida Wakim, Raïa Haïdar, Katy Younes, Omar Bakeer, Miran Malaeb",
+          "slug": "zaman-dark",
+          "year": 2023,
+          "title": "Zaman Dark",
+          "poster": "",
+          "country": "Líbano",
+          "director": "Christophe Karabache",
+          "duration": 93,
+          "synopsis": "El Líbano al borde del abismo. Khattar y Anaïs, dos químicos despedidos, intentan un experimento único: sobrevivir alimentándose de carne humana. Un día, la mujer desaparece, mientras el hombre se ve envuelto en una red de tráfico que implica exportar carne humana a cambio de importar armas de francotirador digitales de alta tecnología. Del cineasta libanés (radicado en Francia) Christophe Karabache pudo verse en la edición 12 del MF la premiada Vortex (2019); fiel a su peculiar estilo experimental, creativo, provocador, aquí pisa el acelerador a fondo con una propuesta más radical, una distopía que refleja la degradación del ser humano, en un contexto devastado, angustiante, con una crisis social y económica que afecta a sus habitantes en cuerpo y alma, y donde el cazador puede convertirse rápidamente en presa."
+        }
+      ]
+    },
+    {
+      "name": "Competencia Oficial Mediometrajes",
+      "type": "features",
+      "films": [
+        {
+          "cast": "Bruno Calderoni, Anand Quintero",
+          "slug": "debacle",
+          "year": 2024,
+          "title": "Debacle",
+          "poster": "",
+          "country": "México",
+          "director": "Nadia Islas Cital",
+          "duration": 29,
+          "synopsis": "Abaddon es un demonio que mata para ganarse la vida. Cuando aterroriza un pueblo del norte de México es humillado por sus habitantes, quienes son más crueles y violentos que él. Su única opción para sobrevivir será conservar su poder demoníaco."
+        },
+        {
+          "cast": "Alejandro Araya, Damián Bodenhöfer, Silvia Novak",
+          "slug": "killswitch",
+          "year": 2024,
+          "title": "Killswitch",
+          "poster": "",
+          "country": "Chile",
+          "director": "Luciano Pizanno",
+          "duration": 52,
+          "synopsis": "Sofía se encuentra en terapia con su psiquiatra para recuperar sus recuerdos que han ido desapareciendo día a día desde hace un año. Luego de la sesión regresa a su departamento, donde recibe una llamada de su novio con la propuesta de realizar un documental sobre una vieja leyenda urbana de niños vampiros en el Puerto de San Antonio, mientras ella coordina las entrevistas, comienza a recuperar su memoria a través de imágenes y sueños que la llevan a cambiar su conducta."
+        },
+        {
+          "cast": "Camila Vaccarini, Pedro Ontiveros, Melina Furgiuela",
+          "slug": "lola-contra-los-zombies",
+          "year": 2024,
+          "title": "Lola contra los zombies",
+          "poster": "",
+          "country": "Argentina",
+          "director": "Tomás Alberto Ríos",
+          "duration": 24,
+          "synopsis": "Un virus zombie acecha Argentina. Una pareja, Lola y Vicente, se dirige en coche hacia una zona que promete ser segura. A 25 kms de la meta, el coche se avería y los deja varados en medio del campo. Lo que parecía un problema deja de serlo cuando Vicente le revela a Lola que ha sido mordido y está a punto de convertirse en zombie, por lo que tendrá que despedirse de él y continuar sola."
+        },
+        {
+          "cast": "Denisse Corona, Guadalupe Ortiz, Eduardo Andrade",
+          "slug": "la-piedra-roja",
+          "year": 2024,
+          "title": "La Piedra Roja",
+          "poster": "",
+          "country": "México",
+          "director": "Jaime Jasso",
+          "duration": 23,
+          "synopsis": "En Guadalajara, 1909, Carmen, una arqueóloga, regresa para investigar los hallazgos prehispánicos enviados para el aniversario del Día de la Independencia. En medio de la agitación política, se le encomienda la tarea de restaurar ciertos ídolos y objetos, que se rumorea que están malditos. Acompañada por Leonor, la ama de llaves, Carmen explora la casa monumental en busca de respuestas. Un espectro grotesco, compuesto de miembros humanos, acecha en las sombras mientras Carmen descubre un ídolo prehispánico especial. La casa se convierte en un escenario aterrador donde Carmen debe descifrar el misterio y sobrevivir a esta pesadilla."
+        },
+        {
+          "cast": "Zazou De Crécy, Thom Lefèvre, Ishtvan Nekrasov",
+          "slug": "surfers-killers",
+          "year": 2024,
+          "title": "Surfers Killers",
+          "poster": "",
+          "country": "Francia",
+          "director": "Olivier Wright",
+          "duration": 22,
+          "synopsis": "Cuando Sam y Alex, una pareja parisina en busca de emociones fuertes, van a acampar cerca de un remoto lugar para practicar surf en la costa oeste de Francia, se cruzan con dos surfistas rebeldes que pretenden hacerles pagar por invadir su playa…"
+        },
+        {
+          "cast": "Yollotis Manzur, Nicolás Isuani, Alphonso Escobedo",
+          "slug": "temo-amarte",
+          "year": 2024,
+          "title": "Temo Amarte",
+          "poster": "",
+          "country": "México",
+          "director": "Rodolfo Graziano",
+          "duration": 35,
+          "synopsis": "La pareja perfecta, el epítome del amor, hasta el decreto final del destino. En el abrazo de la tragedia, el amor revela su credo ensombrecido, y caro, oh tan caro, el precio debe ser redimido."
+        }
+      ]
+    },
+    {
+      "name": "Cortometrajes Uruguayos en Competencia",
+      "type": "shorts",
+      "films": [
+        {
+          "cast": "Jimena Ramos",
+          "slug": "4-0-la-ultima-pregunta",
+          "year": 2023,
+          "title": "4.0: La última pregunta",
+          "country": "Uruguay",
+          "director": "Juan Pablo Bornio",
+          "duration": 5,
+          "synopsis": "Una de las últimas supervivientes de un apocalipsis robótico se encuentra prisionera en uno de los últimos lugares a los que han llegado los robots. Debe encontrar la forma de romper el sistema del robot para liberarla, haciéndole una última pregunta. Pero debe tener cuidado con las palabras que utiliza."
+        },
+        {
+          "cast": "Pablo Pipolo, Israel Mirenda, Ishaia Mirenda",
+          "slug": "el-actor-errante",
+          "year": 2023,
+          "title": "El Actor Errante",
+          "country": "Uruguay",
+          "director": "Israel Miranda",
+          "duration": 10,
+          "synopsis": "Un actor arrogante recibe el breve guión que debe interpretar. Evidentemente, es menos de lo que esperaba. Hojeando las páginas iniciales, el actor empieza a darse cuenta de que no es una obra corriente. Tal vez, sea su propia historia, inmersa en una disparatada comedia."
+        },
+        {
+          "cast": "Jimena Arias, Lucía Blasco, Lucca Vallejos, Kristina Tomic, Mauro Minini, Ignacio Varela",
+          "slug": "cazando-mariposas",
+          "year": 2024,
+          "title": "Cazando Mariposas",
+          "country": "Uruguay",
+          "director": "Ignacio Varela",
+          "duration": 10,
+          "synopsis": "Un grupo de amigos decide esconderse en su colegio por la noche para encontrar lo que se cuenta en los míticos cuentos, sin saber que son ellos los encontrados."
+        },
+        {
+          "cast": "Esteban Steve Pérez",
+          "slug": "el-cobrador-fraternal",
+          "year": 2024,
+          "title": "El Cobrador Fraternal",
+          "country": "Uruguay",
+          "director": "Esteban Steve Pérez",
+          "duration": 4,
+          "synopsis": "Mezcla de carnicería brutal y poesía introspectiva, esta historia sigue a un asesino sádico pero empático que intenta escapar de su destino, pero sigue atrapado. Desdibuja las líneas entre el bien y el mal, ofreciendo una nueva visión del heroísmo y la venganza, mostrando su lado terapéutico y extrañamente altruista."
+        },
+        {
+          "cast": "Camila Giannotti, Maite Bigi, Sebastián Herrera",
+          "slug": "la-casa-de-abajo",
+          "year": 2024,
+          "title": "La casa de abajo",
+          "country": "Uruguay",
+          "director": "Pablo César Silva Peralta",
+          "duration": 15,
+          "synopsis": "El día de la muerte de su abuela, Ona visita la casa de su infancia. Allí encuentra una cinta grabada por su padre, del que recuerda muy poco, ya que padecía una enfermedad mental. Pero al reproducirlo, la grabación hace aparecer otras voces, aunque proceden de una trampilla situada bajo la cama. Al descender por ella, descubre la misma casa, pero en el pasado. Una casa debajo de la otra en una superposición infinita, cada vez más profunda en el tiempo. Comprendiendo que su única opción es descender, Ona se convierte en espectadora de los acontecimientos de su propia línea familiar."
+        },
+        {
+          "cast": "Daly Borges",
+          "slug": "la-bruja-del-campo",
+          "year": 2024,
+          "title": "La Bruja del Campo",
+          "country": "Uruguay",
+          "director": "Simón B. Romero",
+          "duration": 5,
+          "synopsis": "Un niño y su hermano van a pescar. No saben que la bruja está cerca."
+        },
+        {
+          "cast": "Valentina Pereyra, Lucia Blasco, Peri de Alencar, Martina Carriquiry, Cirenne Petronio",
+          "slug": "la-hora-de-los-pajaros",
+          "year": 2022,
+          "title": "La Hora de los Pájaros",
+          "country": "Uruguay",
+          "director": "Emiliano Umpierrez",
+          "duration": 6,
+          "synopsis": "Después de mucho tiempo sin salir de casa, Valentina se reencontrará con sus amigos… Aunque sea lo último que haga."
+        },
+        {
+          "cast": "Natalia Candia, Santiago Mussetti, Ramiro Firme",
+          "slug": "matagato",
+          "year": 2023,
+          "title": "Matagato",
+          "country": "Uruguay",
+          "director": "Ramiro Firme, Santiago Mussetti",
+          "duration": 5,
+          "synopsis": "Natalia está grabando a su hermano Rafa y a su amigo Andrés mientras cuentan una leyenda urbana local, invocando accidentalmente a su villano: un fantasma vengativo y sediento de sangre."
+        },
+        {
+          "cast": "Kaef Valverde, Sofía Yorado, Ezequiel Núñez",
+          "slug": "sonria-barbara",
+          "year": 2023,
+          "title": "¡Sonría, Bárbara!",
+          "country": "Uruguay",
+          "director": "Facundo Gómez",
+          "duration": 3,
+          "synopsis": "En unos tecnológicamente avanzados años 40, la corporación de implantes cibernéticos «Future Technologies» quiere hacer una demostración de su último proceso de colocación de implantes. Para ello, cuentan con una joven deslumbrante: ¡Bárbara!"
+        },
+        {
+          "cast": "Jimena Ramos, Angeles Valdés",
+          "slug": "la-tesis-final",
+          "year": 2023,
+          "title": "La Tesis Final",
+          "country": "Uruguay",
+          "director": "Miguel Torena Bogao",
+          "duration": 4,
+          "synopsis": "Daila, una joven estudiante de ingeniería realiza su tesis final de la forma menos ortodoxa de todas, a cuánto está dispuesto el ser humano para lograr reconocimiento."
+        },
+        {
+          "cast": "Camila Rizzo, Rodrigo Arcos",
+          "slug": "la-ultima-siesta",
+          "year": 2024,
+          "title": "La Última Siesta",
+          "country": "Uruguay",
+          "director": "Lucía Carmela Martínez",
+          "duration": 6,
+          "synopsis": "En una tarde de verano, la delgada línea que separa los sueños de la vigilia se difumina durante una larga siesta."
+        },
+        {
+          "cast": "Facundo Cabral",
+          "slug": "hekaton",
+          "year": 2024,
+          "title": "Hekaton",
+          "country": "Uruguay",
+          "director": "Gabriel Galasso, Nahuel Hintz, Theodore Hanna, Leonardo Curbelo, Julián Rojas, Rodrigo Rodríguez",
+          "duration": 2,
+          "synopsis": "El tripulante de una nave espacial ve cómo se encienden alarmas de advertencia e intentará descubrir qué sucedió."
+        },
+        {
+          "cast": "Lucía Quinteiro, Nelson Núñez, Matteo Basterrica",
+          "slug": "nexo-solitario",
+          "year": 2024,
+          "title": "Nexo Solitario",
+          "country": "Uruguay",
+          "director": "Matteo Bastarrica",
+          "duration": 11,
+          "synopsis": "Eva es una exploradora espacial del año 2077 que, tras una elipsis temporal espacial, se pierde en el tiempo y llega al año 3001 en la Tierra. En un mundo devastado por una lluvia de meteoritos, solo encuentra refugio en una carpa y la compañía de un androide."
+        },
+        {
+          "cast": "Facundo Silvera, Mateo Dotti, Florencia de Olviera, Karen de los Santos",
+          "slug": "el-secreto-de-la-maldad",
+          "year": 2024,
+          "title": "El Secreto de la Maldad",
+          "country": "Uruguay",
+          "director": "Facundo Silvera, Mateo Dotti, Florencia de Olviera, Karen de los Santos",
+          "duration": 15,
+          "synopsis": "Un estudiante sigue a un hombre de aspecto escalofriante que lo conduce hasta una casita que está afuera del liceo. Allí encuentra un libro que habla de una maldición dentro del lugar."
+        },
+        {
+          "cast": "Rodrigo Pereira, Sandy Melissa Salines, Agustín Olivera Pereira",
+          "slug": "impostor",
+          "year": 2024,
+          "title": "Impostor",
+          "country": "Uruguay",
+          "director": "Gabriel Pereira López",
+          "duration": 15,
+          "synopsis": "«Impostor», producido por Matroska Films, es un cautivador cortometraje que explora las complejidades de la identidad y la autenticidad en la sociedad contemporánea."
+        },
+        {
+          "cast": "Magali Aguerre, Santiago Varela, Amelie Borla",
+          "slug": "life",
+          "year": 2024,
+          "title": "Life",
+          "country": "Uruguay",
+          "director": "Daira Larrosa",
+          "duration": 6,
+          "synopsis": "Un grupo de amigos se junta a jugar el juego de caja del título, y eso tendrá consecuencias insospechadas."
+        },
+        {
+          "cast": "Pablo Praino",
+          "slug": "heavy-metal-handed",
+          "year": 2023,
+          "title": "Heavy (Metal) Handed",
+          "country": "Uruguay",
+          "director": "Pablo Praino",
+          "duration": 1,
+          "synopsis": "Gatos. Una rutina. Un accidente. ¿Un sueño? ¿Pero el sueño de quién?"
+        },
+        {
+          "cast": "Antonella Delpiano, Ángeles Valdés, Noelia Lavega, Martin Solecio",
+          "slug": "reunion-de-amigas",
+          "year": 2024,
+          "title": "Reunión de Amigas",
+          "country": "Uruguay",
+          "director": "Diego Denis Gómez Matto",
+          "duration": 16,
+          "synopsis": "Tres chicas amigas, que hace tiempo que no se ven, por iniciativa de una de ellas, invita a las otras a reunirse, pero ese encuentro no será uno más."
+        }
+      ]
+    },
+    {
+      "name": "Cortometrajes en Competencia Oficial",
+      "type": "shorts",
+      "films": [
+        {
+          "cast": "Gaia Garibaldi Argüello, Andrea Requena, Julieta Cernadas",
+          "slug": "asustada",
+          "year": 2024,
+          "title": "Asustada",
+          "country": "Argentina",
+          "director": "Adrián Cernadas",
+          "duration": 6,
+          "synopsis": "Ivana, una niña de 9 años, es acechada por una entidad en su habitación por las noches. La madre de la niña ignora el pedido de ayuda de su hija mientras las manifestaciones sobrenaturales aumentan."
+        },
+        {
+          "cast": "Stephen Beggs, Mark Claney, Sonia Abercrombie",
+          "slug": "belfast-1912",
+          "year": 2021,
+          "title": "Belfast 1912",
+          "country": "Reino Unido",
+          "director": "Dominic O'Neill",
+          "duration": 12,
+          "synopsis": "John Newell es un médico de renombre y un alma torturada. Reúne a dos colegas, sus esposas y una misteriosa médium para una sesión espiritista, donde revela un oscuro secreto que cambiará el curso de sus vidas, y posiblemente del mundo, para siempre."
+        },
+        {
+          "cast": "",
+          "slug": "bobby-pinwheel-la-pelicula",
+          "year": 2020,
+          "title": "Bobby Pinwheel: La película",
+          "country": "Estados Unidos",
+          "director": "Robert Kleinschmidt",
+          "duration": 3,
+          "synopsis": "¡El cumpleañero Reginald tiene una visita especial! ¡El mimo, imitador y maníaco Bobby Pinwheel!"
+        },
+        {
+          "cast": "Fellipe Cussa, Renata Coimbra, Gleyser Ferreira",
+          "slug": "como-matar-a-una-muneca",
+          "year": 2022,
+          "title": "Como matar a una muñeca",
+          "country": "Brasil",
+          "director": "Alek Lean",
+          "duration": 15,
+          "synopsis": "Lady es una fotógrafa medioambiental que encuentra una muñeca en el bosque y la entrega en la casa más cercana a una extraña mujer. Lady lleva un cordón Oxumaré de una religión de origen africano, que forma un vínculo entre el cielo y la tierra en una especie de petición de ayuda ancestral. Mientras, la extraña mujer se siente protegida por su creencia y su blancura."
+        },
+        {
+          "cast": "Ronel Stander, George Muse, Xin Lei",
+          "slug": "el-creador",
+          "year": 2021,
+          "title": "El Creador",
+          "country": "Ucrania",
+          "director": "Sergiy Pudich",
+          "duration": 5,
+          "synopsis": "Un científico crea y entrena androides para que sean perfectos en diferentes habilidades: lucha, atletismo, baile y pintura. Todos los droides mejoran día a día, pero uno artístico está donde estaba. ¿El Creador borrará su trabajo o le dejará una oportunidad?"
+        },
+        {
+          "cast": "Calliste Dupin, Michaël Vander-meiren, Antony Cinturino, Thomas Bataille",
+          "slug": "cultos",
+          "year": 2023,
+          "title": "Cultos",
+          "country": "Francia",
+          "director": "David Padilla",
+          "duration": 15,
+          "synopsis": "Internado católico, 1970. El padre De Monval está supervisando la proyección de una película cuando un joven colegial ve algo que pondrá su vida patas arriba…"
+        },
+        {
+          "cast": "Pascal Bulot, Julien Colombet, Yann Safran",
+          "slug": "en-las-sombras",
+          "year": 2020,
+          "title": "En las sombras",
+          "country": "Francia",
+          "director": "Mor Lankri",
+          "duration": 10,
+          "synopsis": "Eugène evitó las sorpresas de la vida, como una enfermedad contagiosa. Se preparaba de antemano para cualquier escenario, verdaderamente cualquiera. Sin embargo, una noche, al amparo de la oscuridad, lo impredecible logró colarse. En sus sombras descubrió algo para lo que no podría haber preparado, o más precisamente, a alguien."
+        },
+        {
+          "cast": "Kean Dyllan Yu, Helen",
+          "slug": "en-su-elemento",
+          "year": 2024,
+          "title": "En su elemento",
+          "country": "Indonesia",
+          "director": "Anthony William Irawan",
+          "duration": 7,
+          "synopsis": "Kean, un joven que sufre sucesos paranormales en su casa. La gente no le cree y lo considera loco. Él los quiere registrar, ya que no tiene otro lugar a donde ir. Sin embargo, los fenómenos esta vez no son como de costumbre. Él se ve perturbado de una manera más siniestra. ¿Podrá escapar?"
+        },
+        {
+          "cast": "Mayumi Amano, Shinsuke Kato, Lynn Nagatsuki",
+          "slug": "encarnacion",
+          "year": 2020,
+          "title": "Encarnación",
+          "country": "Japón",
+          "director": "Noboru Suzuki",
+          "duration": 13,
+          "synopsis": "Una anciana misteriosa que dice ser un vampiro de 400 años y un estafador que intenta estafarla para quitarle dinero. ¿Qué pasará al final? Una obra dialógica que se desarrolla en una cafetería a las afueras del pueblo. En Japón existe una estafa generalizada en la que personas se hacen pasar por hijas o hijos y llaman a personas mayores para pedirles dinero."
+        },
+        {
+          "cast": "Uma Leczycki, Valentino Naughton, Gonzalo Saludjian",
+          "slug": "escarcha",
+          "year": 2023,
+          "title": "Escarcha",
+          "country": "Argentina",
+          "director": "Diego Marzuil",
+          "duration": 7,
+          "synopsis": "Una noche, una niña sorda presencia cómo un monstruo mata a su madre y, mientras huye, encuentra a un hombre sospechosamente servicial con intenciones ocultas."
+        },
+        {
+          "cast": "Francisco Ortiz, Lucía Díez, Jorge Kent",
+          "slug": "fin-de-tramo",
+          "year": 2023,
+          "title": "Fin de tramo",
+          "country": "España",
+          "director": "Roberto Montalbo",
+          "duration": 15,
+          "synopsis": "Atrapada en un descomunal atasco en medio de la nada, una joven cree ver un asesinato en una autocaravana cercana. Aunque su compañero de viaje no la cree, ella intentará demostrar la verdad antes de que el atasco termine y el asesino pueda escapar."
+        },
+        {
+          "cast": "Daniele Marotta, Mónica Zanforlin, Marilea Vaglica",
+          "slug": "guion-italia",
+          "year": 2018,
+          "title": "Guión (Italia)",
+          "country": "Italia",
+          "director": "Piero Cannata",
+          "duration": 6,
+          "synopsis": "Dos guionistas, una historia de fantasmas, la noche que continúa. ¿Quién pondrá fin a esto?"
+        },
+        {
+          "cast": "Margarita Volkova, Max Guralevich, Yan Latishev",
+          "slug": "guion-rusia",
+          "year": 2020,
+          "title": "Guión (Rusia)",
+          "country": "Rusia",
+          "director": "Margarita Volkova",
+          "duration": 10,
+          "synopsis": "La guionista Lila, que está en cuarentena, recibe el encargo de escribir una historia sobre la pandemia. Pronto se da cuenta de que su guión está cobrando vida."
+        },
+        {
+          "cast": "Mauro Cervera, Tània Fortea",
+          "slug": "hda-historias-de-amor",
+          "year": 2024,
+          "title": "HDA (Historias de amor)",
+          "country": "España",
+          "director": "Javier Artigas Zubeldia",
+          "duration": 11,
+          "synopsis": "Abel ya ha cumplido los treinta y se niega a cambiar para encajar con lo que la sociedad espera de él. Su amiga Sandra le insiste en que busque a alguien con quien sentar la cabeza, algo que más que un consejo, suena a imposición. Los dos amigos son testigos de una ceremonia nupcial que no es lo que parece: la unión entre las dos personas implicadas resulta ser literal, fusionándose en uno solo, un sistema por el que Abel se niega a pasar."
+        },
+        {
+          "cast": "Ryu Eden, Kim Jeong Woo",
+          "slug": "hospicio",
+          "year": 2021,
+          "title": "Hospicio",
+          "country": "Corea del Sur",
+          "director": "Kim Soo-young",
+          "duration": 11,
+          "synopsis": "Un hombre despierta en la habitación de un hospital, atado a la cama y sin saber nada por qué se encuentra ahí. Una enfermera de aspecto extraño entra en la habitación y le dice que pronto terminaría cómodamente. El hombre protesta diciendo que no es él quien debe estar ahí y lucha desesperadamente por salir."
+        },
+        {
+          "cast": "Lauren Orrell, Tiarnie Coupland, Ron McCartin",
+          "slug": "hyde",
+          "year": 2020,
+          "title": "Hyde",
+          "country": "Australia",
+          "director": "Ruby Challenger",
+          "duration": 7,
+          "synopsis": "Joan busca a su apadrinada de Haley Jekyll, pero se encuentra acechada por un monstruo violento y caótico. La criatura, formalmente conocida como Haley, tienta a Joan a beber del mismo frasco que la transformó, pero Joan se resiste y desea que Haley regrese de su destino autoimpuesto."
+        },
+        {
+          "cast": "Sara Vela, Jose Luis Bustillo",
+          "slug": "knock",
+          "year": 2023,
+          "title": "Knock",
+          "country": "España",
+          "director": "Guillermo Mejías",
+          "duration": 12,
+          "synopsis": "Emma, aplicante de policía, se encuentra estudiando sola por la noche cuando empieza a escuchar ruidos que provienen del interior de un armario. Sobreponiéndose a su reciente enfermedad, que amenaza con limitar su futuro, deberá descubrir qué o quién los causa."
+        },
+        {
+          "cast": "",
+          "slug": "leonor",
+          "year": 2023,
+          "title": "Leonor",
+          "country": "España",
+          "director": "Rubén Tadeo, Laura Corral",
+          "duration": 14,
+          "synopsis": "Un científico pasa los días sumido en la melancolía, atormentado por la pérdida de su amada. Decidido a desafiar las leyes del tiempo y la naturaleza, dedica su vida a la creación de un artefacto que le permitirá alargar su propia existencia. Su objetivo: tener tiempo suficiente para encontrar una manera de traer de vuelta a su amada."
+        },
+        {
+          "cast": "Osric Chau, Nikki Soohoo, Karen Maruyama",
+          "slug": "logan-lee-y-el-ascenso-del-amanecer-purpura",
+          "year": 2020,
+          "title": "Logan Lee y el Ascenso del Amanecer Púrpura",
+          "country": "Estados Unidos",
+          "director": "Raymond C. Lai",
+          "duration": 8,
+          "synopsis": "El DJ Logan Lee está enamorado de su mejor amiga, Beatrice Pan, ¡y esta noche dará una fiesta! ¡Eso significa que la diversión de DJ Logan está en casa! Ahora si tan solo no estuviera tan nervioso. Pero no hay que temer, la tía Bobbie está aquí con una de las hierbas más raras que jamás haya probado: Purple Dawn. Desafortunadamente, Logan pronto descubre que esta cepa tiene mucho más que sus efectos calmantes."
+        },
+        {
+          "cast": "Sergio Santino, Raimon Sorribas, Neus Asensi, Sara Castro",
+          "slug": "lo-que-no-nos-decimos",
+          "year": 2023,
+          "title": "Lo que no nos decimos",
+          "country": "España",
+          "director": "Josep M Pérez Ballano",
+          "duration": 15,
+          "synopsis": "Javier se ve sorprendido por el abrupto fallecimiento de su padre ausente. Visita la morgue para identificar el cadáver, donde tiene un encuentro surrealista que le obliga a enfrentarse a traumas presentes y pasados."
+        },
+        {
+          "cast": "Luke Spencer Roberts, Chris Caldovino, Wilson Ramírez",
+          "slug": "mikey-the-kid",
+          "year": 2020,
+          "title": "Mikey the Kid",
+          "country": "Estados Unidos",
+          "director": "Nick Page",
+          "duration": 13,
+          "synopsis": "Mientras su madre soltera los deja a él y a su hermano pequeño solos en casa, Mikey the Kid toma el asunto en sus propias manos para tratar de ganar el dinero necesario para mudarse a un lugar mejor, conectándose con criminales del pasado de su padre separado. Sin embargo, después de un fallido intento de contrabandear drogas a través de la frontera entre México y Estados Unidos, Mikey y su hermano terminan en serios problemas con los cárteles. ¿Cómo saldrán vivos de este lío y arreglarán las cosas antes de que mamá llegue a casa?"
+        },
+        {
+          "cast": "Humberto Zurita, Ana Isabel Esqueira, Ceci Romo",
+          "slug": "muse",
+          "year": 2021,
+          "title": "Muse",
+          "country": "México",
+          "director": "Camilla Demichelis Richaud",
+          "duration": 11,
+          "synopsis": "Un artista envejecido y decadente reaviva una relación peligrosa con su musa justo antes de su última exposición. Todo va bien… hasta que el monstruo interior sale a jugar."
+        },
+        {
+          "cast": "Métushalème Dary, Stephen Mclean Roger, Claire Jacques",
+          "slug": "no-me-conocen",
+          "year": 2019,
+          "title": "No me conocen",
+          "country": "Canadá",
+          "director": "David Émond-Ferrat, Isabelle Giroul",
+          "duration": 11,
+          "synopsis": "Durante un viaje por carretera, una pareja estadounidense se ve involucrada en un sórdido asunto después de detenerse para cargar gasolina en medio de la zona rural de Quebec."
+        },
+        {
+          "cast": "Mora Gerson, Bautista Lynch, Iván Lassig",
+          "slug": "ojos-de-cristal",
+          "year": 2023,
+          "title": "Ojos de cristal",
+          "country": "Argentina",
+          "director": "Valentino D'Annunzio",
+          "duration": 12,
+          "synopsis": "Bela, una mujer con deseos de casarse, busca vender la criatura que cuida desde hace años como si fuera su hijo para conseguir dinero para su boda; cueste lo que cueste."
+        },
+        {
+          "cast": "Brenda González, Hugo Medina, Javiera «waby» Aguirre, Deborah Carrasco",
+          "slug": "palido",
+          "year": 2024,
+          "title": "Pálido",
+          "country": "Chile",
+          "director": "Nacho Pincheira",
+          "duration": 20,
+          "synopsis": "Tras pelear con su familia, Javiera busca refugio en el hogar de su abuelo Guillermo. Pero en la vieja casa de la persona en quien más confía, voces y pasos en la escalofriante oscuridad de los pasillos guían a Javiera a una vieja y hermética puerta."
+        },
+        {
+          "cast": "Nicholas Buchoux, Bruno Henry, Anne Sophie-Picard",
+          "slug": "plagas",
+          "year": 2020,
+          "title": "Plaga(s)",
+          "country": "Francia",
+          "director": "Pierre Cesca, Víctor Cesca",
+          "duration": 12,
+          "synopsis": "Un agente inmobiliario corrupto está decidido a vender un apartamento a una pareja de parisinos. Pero una rata viene a perturbar la venta, empujando al protagonista a erradicarla a toda costa…"
+        },
+        {
+          "cast": "David Chevers, Molly Malcom, Daniel Francis",
+          "slug": "primacy",
+          "year": 2023,
+          "title": "Primacy",
+          "country": "España",
+          "director": "Jos Man",
+          "duration": 20,
+          "synopsis": "Robert Preston y Julia Desmond están al frente del sistema militar computarizado más avanzado que existe. Pero sus decisiones se enfrentarán a la lógica de Arion, la Inteligencia Artificial que rige el sistema, creada para ayudarles a alcanzar los objetivos de la forma más eficiente. Arion debe aprender primero de las decisiones humanas, para luego buscar alternativas más efectivas, poniendo en debate la ética y la moral de los actos que rigen nuestra sociedad."
+        },
+        {
+          "cast": "Nathaly Salazar Mayo, Manuela Mosquera Mena, Nevardo Mayo Zúñiga",
+          "slug": "rio-de-caracoles",
+          "year": 2019,
+          "title": "Río de caracoles",
+          "country": "Colombia",
+          "director": "Ángela Tobón Ospina",
+          "duration": 16,
+          "synopsis": "Martina (9) atrapa objetos que se desprenden de la ropa que su madre lava en el río, para intentar cambiarlos por un viaje hacia el mar. Al mismo tiempo recibe de regalo un pez que extraña ese mismo mar. Mientras intenta comprar el pasaje debe decidir si es para ella o para su pez."
+        },
+        {
+          "cast": "Juan Santiago, Gael Gonzales Costa, Erika de Sautu Riestra",
+          "slug": "la-sangre-de-d10s",
+          "year": 2024,
+          "title": "La sangre de D10s",
+          "country": "Argentina",
+          "director": "Kapitan John Long Silver, Nico Wussy",
+          "duration": 14,
+          "synopsis": "Un vampiro desmotivado recibe una propuesta única: dar la vida eterna a cambio de la sangre de dios («D10s» Diego Maradona el mejor futbolista de la historia)."
+        },
+        {
+          "cast": "Nathan Jean-Huard, Sandrine Bisson, Jean Nicolas-Verreault",
+          "slug": "se-bueno",
+          "year": 2019,
+          "title": "Sé bueno",
+          "country": "Canadá",
+          "director": "Anik Jean",
+          "duration": 12,
+          "synopsis": "Nathan es un niño de 6 años y, como la mayoría de los niños de su edad, con mucha imaginación. Le encanta disfrazarse y ser un personaje de monstruos, zombies, vampiros y superhéroes. Preferiría jugar con alguien de su edad, un amigo, que jugar con su imaginación, pero ¿quién? La nueva niñera podría ser la indicada."
+        },
+        {
+          "cast": "",
+          "slug": "shakespeare-for-all-ages",
+          "year": 2024,
+          "title": "Shakespeare for all ages",
+          "country": "Alemania",
+          "director": "Hannes Rall",
+          "duration": 3,
+          "synopsis": "Las obras de Shakespeare son intemporales: ¡esta película lo demuestra!"
+        },
+        {
+          "cast": "",
+          "slug": "la-silla",
+          "year": 2020,
+          "title": "La silla",
+          "country": "Estados Unidos",
+          "director": "Ronnie Cramer",
+          "duration": 7,
+          "synopsis": "Una mujer se encuentra con una silla con propiedades extrañas, pero no puede decidir si la experiencia es excitante o molesta. Creado al estilo de la vieja escuela, utilizando sólo lápiz y papel, y compuesto por 2.700 dibujos individuales."
+        },
+        {
+          "cast": "Jonathan David, Gia Hayes, Lorena Jorge",
+          "slug": "el-sueno-de-pinky",
+          "year": 2021,
+          "title": "El sueño de Pinky",
+          "country": "Estados Unidos",
+          "director": "Chanel Williams",
+          "duration": 10,
+          "synopsis": "Martin Widmark es un especialista que ofrece un servicio científico único; puede brindarles a sus clientes la capacidad de acceder vívidamente a viejos recuerdos. Sus nuevos clientes son ahora una pareja afligida, Sam y James, cuya hija desapareció. Pero cuando Martin los invita a revivir los momentos antes de que su hija desapareciera, descubre un hecho jamás imaginado."
+        },
+        {
+          "cast": "Ji-woong Kim, Su-zin Cha",
+          "slug": "subiras",
+          "year": 2023,
+          "title": "¿Subirás?",
+          "country": "Corea del Sur",
+          "director": "Ho-seung Son",
+          "duration": 20,
+          "synopsis": "El protagonista, procedente de una prestigiosa universidad, se ve obligado a trabajar como guardia de seguridad de un apartamento debido a una elección equivocada. Se encuentra en una situación de pesadilla que le pone de nuevo a prueba. ¿Qué elección tomará esta vez?"
+        },
+        {
+          "cast": "",
+          "slug": "sulayman",
+          "year": 2023,
+          "title": "Sulayman",
+          "country": "Filipinas",
+          "director": "Blog Caliguia",
+          "duration": 8,
+          "synopsis": "Un guerrero se enfrenta a una misteriosa amenaza del bosque para proteger su aldea."
+        },
+        {
+          "cast": "George McMahon, Saoirse Martin, Sean Flood",
+          "slug": "tempvs",
+          "year": 2022,
+          "title": "Tempvs",
+          "country": "Irlanda",
+          "director": "Jason Branagan",
+          "duration": 13,
+          "synopsis": "Cuando una paciente que había perdido el habla comienza a recitar una oración amenazadora, un psicólogo infantil reconoce la invocación de su propia infancia. Ante la certeza de que la canción es el presagio de un monstruo que conoce como El Hombre Tick Tock, el profesional deberá afrontar su propia infancia y las circunstancias que rodearon la prematura muerte de su madre."
+        },
+        {
+          "cast": "Ramón Enrich, Àngela Coma, Dàmia Portabella, Fina Monell",
+          "slug": "te-rompere-la-sangre",
+          "year": 2022,
+          "title": "Te romperé la sangre",
+          "country": "Irlanda",
+          "director": "David Conill",
+          "duration": 8,
+          "synopsis": "1696. Tras realizar un exorcismo, el sacerdote comienza a encontrarse en situaciones que le harán dudar a todos los niveles. En un ambiente solitario tendrá que enfrentarse a una fuerza más fuerte que la religión."
+        },
+        {
+          "cast": "",
+          "slug": "la-tumba-de-san-oran",
+          "year": 2019,
+          "title": "La tumba de San Orán",
+          "country": "Australia",
+          "director": "Jim Batt",
+          "duration": 9,
+          "synopsis": "Narrada por el magistral Neil Gaiman y basada en su poema In Relig Odhrain, esta es una tempestuosa historia de sacrificio y fe. El director Jim Batt da vida al poema de Gaiman con recortes de papel bellamente ilustrados, meticulosamente animados utilizando técnicas de stopmotion y efectos visuales en cámara."
+        },
+        {
+          "cast": "Ángel Garó",
+          "slug": "la-valija",
+          "year": 2020,
+          "title": "La valija",
+          "country": "España",
+          "director": "Miguel Becerra",
+          "duration": 14,
+          "synopsis": "Mujer adulta transmite sus sentimientos, miedos, angustias, inseguridades… ¿Será cierto todo lo que nos hace sentir y descubrir?"
+        },
+        {
+          "cast": "Virginia Rodriguez",
+          "slug": "virginia",
+          "year": 2020,
+          "title": "¡Virginia!",
+          "country": "España",
+          "director": "Guillermo F. Groizard",
+          "duration": 2,
+          "synopsis": "Virginia Rodríguez está escondida en un armario para intentar arreglar una situación con su pareja. Debería haber leído el manual: «jamás se podrá arreglar una situación con tu pareja escondida en un armario»."
+        }
+      ]
+    },
+    {
+      "name": "Muestra Informativa de Cortometrajes",
+      "type": "shorts-catalog",
+      "films": [
+        {
+          "year": 2020,
+          "title": "La Bruja",
+          "country": "México",
+          "director": "Dorian Gutiérrez Picazo",
+          "duration": 12
+        },
+        {
+          "year": 2020,
+          "title": "Lipstick",
+          "country": "Rusia",
+          "director": "Svetlana Yashina",
+          "duration": 1
+        },
+        {
+          "year": 2020,
+          "title": "Lycan Noir",
+          "country": "Estados Unidos",
+          "director": "Lon Nease, Shannon Nease",
+          "duration": 5
+        },
+        {
+          "year": 2019,
+          "title": "Rasga Mortalha",
+          "country": "Brasil",
+          "director": "Thiago Martins de Melo",
+          "duration": 14
+        },
+        {
+          "year": 2019,
+          "title": "Saliendo temprano",
+          "country": "Estonia",
+          "director": "Noah Ambrose",
+          "duration": 3
+        },
+        {
+          "year": 2024,
+          "title": "They Chose Here",
+          "country": "Canadá",
+          "director": "Kyle Brewis, Josh Klaassen",
+          "duration": 7
+        },
+        {
+          "year": 2023,
+          "title": "Signum Diaboli",
+          "country": "España",
+          "director": "Santi Agustí, Rubén Soler Ferrer",
+          "duration": 14
+        },
+        {
+          "year": 2023,
+          "title": "The Boogey & The Witch",
+          "country": "España",
+          "director": "Jorge Turell",
+          "duration": 5
+        },
+        {
+          "year": 2023,
+          "title": "Arca",
+          "country": "España",
+          "director": "Antonina Obrador",
+          "duration": 19
+        },
+        {
+          "year": 2023,
+          "title": "Transition",
+          "country": "España",
+          "director": "David Velduque",
+          "duration": 16
+        },
+        {
+          "year": 2024,
+          "title": "The Showman",
+          "country": "España",
+          "director": "Cristian Martínez",
+          "duration": 19
+        },
+        {
+          "year": 2024,
+          "title": "Marie's Ambition",
+          "country": "España",
+          "director": "Manu Fernández",
+          "duration": 17
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "title": "",
+    "author": "",
+    "content": []
+  }
+}
