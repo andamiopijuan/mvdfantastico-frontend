@@ -106,6 +106,63 @@ if (legacy[2005]) {
   }
 }
 
+// 2015: source-backed repairs for parser losses in the IX archive page.
+if (legacy[2015]) {
+  const secs = sectionsOf(2015);
+  const competition = secs.find((s) => s.name === "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES / INTERNATIONAL LONG FEATURE FILMS COMPETITION");
+  check(competition && competition.type === "features", "2015: international feature competition must be a features section");
+  if (competition) {
+    const films = filmsOf(competition);
+    const titles = films.map((f) => f.title);
+    check(titles.length === 9, `2015: expected 9 international-programme entries, got ${titles.length}`);
+    check(titles.includes("CORAZÓN MUERTO") && titles.includes("EL CÍRCULO DE RAYNARD"), "2015: Corazón Muerto and El Círculo de Raynard must be retained");
+    const sourceOnly = films.filter((f) => ["CORAZÓN MUERTO", "EL CÍRCULO DE RAYNARD"].includes(f.title));
+    check(sourceOnly.every((f) => f.slug === null && f.director && f.duration && f.synopsis && f.review), "2015: recovered unlinked features must retain source-backed metadata without creating routes");
+    const monster = films.find((f) => f.title === "En programa: Monstruos tristes");
+    check(monster && monster.year === 2013 && monster.country === "POLONIA" && monster.director === "Justyna Tafel" && monster.duration === 32, "2015: Monstruos tristes fields are malformed");
+  }
+
+  const informativeFeatures = secs.find((s) => s.name === "MUESTRA INFORMATIVA DE LARGOMETRAJES");
+  check(informativeFeatures && informativeFeatures.type === "features", "2015: informative feature session must be a features section");
+  if (informativeFeatures) {
+    const films = filmsOf(informativeFeatures);
+    check(films.length === 5, `2015: expected 5 informative features, got ${films.length}`);
+    const onanista = films.find((f) => f.title === "EL ONANISTA PERTURBADO");
+    check(onanista && onanista.director === "Georgina Zanardi" && onanista.duration === 61 && onanista.review, "2015: El Onanista Perturbado metadata missing");
+  }
+
+  const shorts = secs.find((s) => s.name === "COMPETENCIA OFICIAL DE CORTOMETRAJES / SHORT FILMS OFFICIAL COMPETITION");
+  check(shorts && shorts.type === "shorts", "2015: official shorts section missing");
+  if (shorts) {
+    const films = filmsOf(shorts);
+    check(films.length === 39, `2015: expected 39 official shorts, got ${films.length}`);
+    check(films.every((f) => Number.isInteger(f.duration) && f.duration > 0 && typeof f.credits === "string" && f.credits.trim()), "2015: every official short must retain duration and credits");
+    const dios = films.find((f) => f.title === "Dios reconocerá a los suyos – (Dieu reconnaîtra les Siens)");
+    check(dios && dios.year === 2013 && dios.country === "Francia" && dios.director === "Cédric Le Men" && dios.duration === 13, "2015: Dios reconocerá a los suyos must be a distinct, complete record");
+    const nouvelle = films.find((f) => f.title === "La Nouvelle Vague sí que molaba");
+    check(nouvelle && nouvelle.director === "Simon Fariza" && nouvelle.duration === 15 && nouvelle.synopsis.includes("director de cine"), "2015: La Nouvelle Vague fields are truncated");
+  }
+
+  const catalog = secs.find((s) => s.name === "MUESTRA INFORMATIVA DE CORTOMETRAJES / SHORT FILMS INFORMATIVE SESSION");
+  check(catalog && catalog.type === "shorts-catalog" && Array.isArray(catalog.categories), "2015: informative short-film categories missing");
+  if (catalog && Array.isArray(catalog.categories)) {
+    check(catalog.categories.length === 4, `2015: expected 4 informative short-film categories, got ${catalog.categories.length}`);
+    check(catalog.categories.reduce((n, c) => n + filmsOf(c).length, 0) === 38, "2015: expected 38 informative shorts");
+    check(catalog.categories[0]?.films?.[0]?.title === "Aakhir/At Last (Tarun Jain, 2012) – INDIA – 16´", "2015: informative shorts opening entry changed");
+    check(catalog.categories.at(-1)?.films?.at(-1)?.title === "In Mysterium (Mariano Castaño, 2014) – ARGENTINA – 21´", "2015: informative shorts closing entry changed");
+  }
+
+  const awardBlocks = Array.isArray(legacy[2015].awards) ? legacy[2015].awards : [];
+  const featureAwards = awardBlocks.find((block) => block.section === "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES");
+  const shortAwards = awardBlocks.find((block) => block.section === "COMPETENCIA OFICIAL DE CORTOMETRAJES");
+  check(featureAwards && Array.isArray(featureAwards.awards) && featureAwards.awards.length === 8, "2015: feature-jury awards must include all three special mentions");
+  check(shortAwards && Array.isArray(shortAwards.awards) && shortAwards.awards.length === 5, "2015: short-jury awards must include Stela and Canis");
+  if (featureAwards && Array.isArray(featureAwards.awards)) {
+    const direction = featureAwards.awards.find((award) => award.name === "MEJOR DIRECCIÓN");
+    check(direction && direction.recipient === "Alejandro Hidalgo" && direction.film === "La casa del fin de los tiempos" && direction.country === "Venezuela", "2015: best-direction award fields are malformed");
+  }
+}
+
 // special sections must survive
 for (const y of [2005, 2012, 2018]) {
   check(sectionsOf(y).some((s) => s.type === "special" && filmsOf(s).length > 0), `${y}: non-empty "special" section missing`);

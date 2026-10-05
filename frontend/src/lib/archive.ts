@@ -59,14 +59,13 @@ export function getLegacyArchiveYears(): number[] {
   return ARCHIVE_EDITIONS.filter((e) => e.legacy_data_file !== null && getLegacyEdition(e.year) !== null).map((e) => e.year);
 }
 
-export function isRealLegacyFilmRecord(record: unknown): record is Record<string, any> {
+export function isDisplayableLegacyFeatureRecord(record: unknown): record is Record<string, any> {
   if (!record || typeof record !== "object") return false;
 
   const film = record as Record<string, any>;
-  const slug = typeof film.slug === "string" ? film.slug.trim() : "";
   const title = typeof film.title === "string" ? film.title.trim() : "";
 
-  if (!slug || !title) return false;
+  if (!title) return false;
 
   const realSignals = [
     film.director,
@@ -92,6 +91,13 @@ export function isRealLegacyFilmRecord(record: unknown): record is Record<string
     if (value && typeof value === "object") return true;
     return false;
   });
+}
+
+export function isRealLegacyFilmRecord(record: unknown): record is Record<string, any> {
+  if (!isDisplayableLegacyFeatureRecord(record)) return false;
+
+  const slug = typeof record.slug === "string" ? record.slug.trim() : "";
+  return Boolean(slug);
 }
 
 // Slugs of legacy feature films, as used by /archivo/<year>/<slug>.

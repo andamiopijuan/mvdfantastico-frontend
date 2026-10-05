@@ -7,6 +7,7 @@ import {
   getArchiveEdition,
   getLegacyArchiveYears,
   getLegacyEdition,
+  isDisplayableLegacyFeatureRecord,
   isRealLegacyFilmRecord,
 } from "@/lib/archive";
 
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 
-type FeatureFilm = { slug: string; title: string; country: string; year: number; duration: number; director: string; poster: string; trailer_url: string | null; credits: string; synopsis: string | null; review: string | null; };
+type FeatureFilm = { slug?: string | null; title: string; country: string; year: number; duration: number; director: string; poster: string | null; trailer_url: string | null; credits: string; synopsis: string | null; review: string | null; };
 type ShortFilm = { title: string; country: string | null; duration: number; director: string; synopsis?: string; };
 type CatalogFilm = { title: string; director?: string; country: string | null; duration: number | null; };
 
@@ -150,9 +151,8 @@ function getUniqueLegacySections(sections: any[]): any[] {
 }
 
 function JsonFeatureCard({ film, locale, year = 2017 }: { film: FeatureFilm; locale: string; year?: number }) {
-  return (
-    <Link href={`/${locale}/archivo/${year}/${film.slug}`} className="block group focus:outline-none focus-visible:ring-1 focus-visible:ring-plasma">
-      <article className="relative overflow-hidden bg-elevated cursor-pointer" style={{ border: "1px solid rgba(0,212,255,0.07)" }}>
+  const card = (
+    <article className={`relative overflow-hidden bg-elevated${film.slug ? " cursor-pointer group" : ""}`} style={{ border: "1px solid rgba(0,212,255,0.07)" }}>
         <div className="relative aspect-[2/3] overflow-hidden bg-void">
           {film.poster ? (
             <Image src={film.poster} alt={film.title} fill className="object-contain group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw" />
@@ -170,9 +170,14 @@ function JsonFeatureCard({ film, locale, year = 2017 }: { film: FeatureFilm; loc
           <p className="text-[11px] text-text-secondary">Dir. {film.director}</p>
           <p className="text-[10px] text-text-muted mt-0.5">{film.year} · {film.duration} min</p>
         </div>
-      </article>
-    </Link>
+    </article>
   );
+
+  return film.slug ? (
+    <Link href={`/${locale}/archivo/${year}/${film.slug}`} className="block group focus:outline-none focus-visible:ring-1 focus-visible:ring-plasma">
+      {card}
+    </Link>
+  ) : card;
 }
 
 // ── Legacy Edition Renderer ──────────────────────────────────────────────────
@@ -233,9 +238,14 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel, featur
     return normalized ? awardFilmLookup.get(normalized) ?? null : null;
   };
 
+  // 2015 has seven historical feature records with URLs and seven recovered records
+  // without a historical public route. Rendering the latter here preserves the route set.
+  const isRenderableFeature = (film: unknown) => isRealLegacyFilmRecord(film)
+    || (year === 2015 && isDisplayableLegacyFeatureRecord(film));
+
   const featureCount = uniqueSections
     .filter((s) => s.type === "features")
-    .reduce((n, s) => n + (Array.isArray(s.films) ? s.films.filter(isRealLegacyFilmRecord).length : 0), 0);
+    .reduce((n, s) => n + (Array.isArray(s.films) ? s.films.filter(isRenderableFeature).length : 0), 0);
   const shortsCount = uniqueSections
     .filter((s) => s.type === "shorts")
     .reduce((n, s) => n + (Array.isArray(s.films) ? s.films.filter(isRealLegacyFilmRecord).length : 0), 0);
@@ -385,12 +395,12 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel, featur
       {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
       {uniqueSections.map((section: any) => {
         if (section.type === "features") {
-          const realFilms = Array.isArray(section.films) ? section.films.filter(isRealLegacyFilmRecord) : [];
+          const realFilms = Array.isArray(section.films) ? section.films.filter(isRenderableFeature) : [];
           return (
             <section key={section.name} className="mb-16">
               <h2 className="font-display text-2xl text-white mb-6 border-b border-white/20 pb-4">{section.name}</h2>
               <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-                {realFilms.map((film: FeatureFilm) => <JsonFeatureCard key={film.slug} film={film} locale={locale} year={year} />)}
+                {realFilms.map((film: FeatureFilm) => <JsonFeatureCard key={film.slug ?? film.title} film={film} locale={locale} year={year} />)}
               </div>
             </section>
           );
