@@ -1,0 +1,1452 @@
+{
+  "schema_version": 1,
+  "note": "Frozen compatibility map for legacy public URLs. Not canonical archive content. Sources: 2013/2005 film URLs and /works/<id> IDs from the 2026-09-05 production build (frontend/out). to_slug null means redirect to the edition page.",
+  "film_pages": [
+    {
+      "year": 2013,
+      "slug": "agophobia",
+      "title": "Agophobia"
+    },
+    {
+      "year": 2013,
+      "slug": "al-otro-lado",
+      "title": "Al otro lado"
+    },
+    {
+      "year": 2013,
+      "slug": "blackout",
+      "title": "Blackout"
+    },
+    {
+      "year": 2013,
+      "slug": "candy-hearts",
+      "title": "Candy Hearts"
+    },
+    {
+      "year": 2013,
+      "slug": "decapoda-shock",
+      "title": "Decapoda Shock"
+    },
+    {
+      "year": 2013,
+      "slug": "doppelganger",
+      "title": "Doppelganger"
+    },
+    {
+      "year": 2013,
+      "slug": "ec4",
+      "title": "EC4"
+    },
+    {
+      "year": 2013,
+      "slug": "eco",
+      "title": "Eco"
+    },
+    {
+      "year": 2013,
+      "slug": "el-ajedrez-no-es-un-juego-de-caballeros",
+      "title": "El ajedrez no es un juego de caballeros"
+    },
+    {
+      "year": 2013,
+      "slug": "el-cuarto",
+      "title": "El cuarto"
+    },
+    {
+      "year": 2013,
+      "slug": "el-increible-trueno-escarlata",
+      "title": "El increíble Trueno Escarlata"
+    },
+    {
+      "year": 2013,
+      "slug": "el-santuario",
+      "title": "El santuario"
+    },
+    {
+      "year": 2013,
+      "slug": "el-traje-de-ze",
+      "title": "El traje de Zé (O Terno do Zé)"
+    },
+    {
+      "year": 2013,
+      "slug": "encosto",
+      "title": "Encosto"
+    },
+    {
+      "year": 2013,
+      "slug": "eutanas-s-a",
+      "title": "Eutanas S.A."
+    },
+    {
+      "year": 2013,
+      "slug": "exodis",
+      "title": "Exodis"
+    },
+    {
+      "year": 2013,
+      "slug": "fist-of-jesus",
+      "title": "Fist of Jesus"
+    },
+    {
+      "year": 2013,
+      "slug": "fuerco-el-puerco-de-fuego",
+      "title": "Fuerco: El puerco de fuego"
+    },
+    {
+      "year": 2013,
+      "slug": "grieta-en-la-oscuridad",
+      "title": "Grieta en la oscuridad"
+    },
+    {
+      "year": 2013,
+      "slug": "heaven-hell",
+      "title": "Heaven & Hell"
+    },
+    {
+      "year": 2013,
+      "slug": "hibernation",
+      "title": "Hibernation"
+    },
+    {
+      "year": 2013,
+      "slug": "horizonte",
+      "title": "Horizonte"
+    },
+    {
+      "year": 2013,
+      "slug": "la-casta",
+      "title": "La Casta"
+    },
+    {
+      "year": 2013,
+      "slug": "lovbot-love",
+      "title": "Lovbot Love (El robot del amor)"
+    },
+    {
+      "year": 2013,
+      "slug": "m-is-for-multiverse-apathy-mierda",
+      "title": "M is for Multiverse Apathy (Mierda!)"
+    },
+    {
+      "year": 2013,
+      "slug": "perseo",
+      "title": "Perseo"
+    },
+    {
+      "year": 2013,
+      "slug": "room",
+      "title": "Room"
+    },
+    {
+      "year": 2013,
+      "slug": "veritas",
+      "title": "Veritas (La verdad)"
+    },
+    {
+      "year": 2013,
+      "slug": "video-massacre",
+      "title": "Video Massacre"
+    },
+    {
+      "year": 2013,
+      "slug": "vienna-waits-for-you",
+      "title": "Vienna Waits for You"
+    }
+  ],
+  "slug_redirects": [
+    {
+      "year": 2013,
+      "from": "chimeres",
+      "to_slug": "chimeres-quimeras"
+    },
+    {
+      "year": 2013,
+      "from": "lovbot-love-2",
+      "to_slug": "lovbot-love"
+    },
+    {
+      "year": 2013,
+      "from": "m-is-for-multiverse-apathy",
+      "to_slug": "m-is-for-multiverse-apathy-mierda"
+    },
+    {
+      "year": 2005,
+      "from": "cortos-y-mediometrajes-short-and-medium-length-films-84715",
+      "to_slug": null
+    }
+  ],
+  "work_redirects": [
+    {
+      "id": 1,
+      "year": 2024,
+      "title": "La Sombra del Páramo",
+      "to_slug": null
+    },
+    {
+      "id": 2,
+      "year": 2024,
+      "title": "Corpus",
+      "to_slug": null
+    },
+    {
+      "id": 3,
+      "year": 2024,
+      "title": "After the Flood",
+      "to_slug": null
+    },
+    {
+      "id": 6,
+      "year": 2009,
+      "title": "Altar",
+      "to_slug": "altar"
+    },
+    {
+      "id": 7,
+      "year": 2009,
+      "title": "La Balada de Vlad Tepes",
+      "to_slug": "la-balada-de-vlad-tepes"
+    },
+    {
+      "id": 8,
+      "year": 2009,
+      "title": "La Granja",
+      "to_slug": "la-granja"
+    },
+    {
+      "id": 9,
+      "year": 2009,
+      "title": "Morgue Story: Blood, Blowfish and Comics",
+      "to_slug": "morgue-story-blood-blowfish-and-comics"
+    },
+    {
+      "id": 10,
+      "year": 2009,
+      "title": "Mud Zombies",
+      "to_slug": "mud-zombies"
+    },
+    {
+      "id": 11,
+      "year": 2009,
+      "title": "Muñeco Viviente V",
+      "to_slug": "muneco-viviente-v"
+    },
+    {
+      "id": 12,
+      "year": 2009,
+      "title": "Nadie Inquietó Más: Narciso Ibáñez Menta",
+      "to_slug": "nadie-inquieto-mas-narciso-ibanez-menta"
+    },
+    {
+      "id": 13,
+      "year": 2009,
+      "title": "No Moriré Sola",
+      "to_slug": "no-morire-sola"
+    },
+    {
+      "id": 14,
+      "year": 2009,
+      "title": "Shadowland",
+      "to_slug": "shadowland"
+    },
+    {
+      "id": 15,
+      "year": 2009,
+      "title": "Sonámbulos",
+      "to_slug": "sonambulos"
+    },
+    {
+      "id": 16,
+      "year": 2009,
+      "title": "Yesterday",
+      "to_slug": "yesterday"
+    },
+    {
+      "id": 17,
+      "year": 2009,
+      "title": "Academy of Doom",
+      "to_slug": "academy-of-doom"
+    },
+    {
+      "id": 18,
+      "year": 2009,
+      "title": "Alien Abduction: Incident in Lake County",
+      "to_slug": "alien-abduction-incident-in-lake-county"
+    },
+    {
+      "id": 19,
+      "year": 2009,
+      "title": "Antarctic Journal",
+      "to_slug": "antarctic-journal"
+    },
+    {
+      "id": 20,
+      "year": 2009,
+      "title": "Mil Máscaras: Resurrection",
+      "to_slug": null
+    },
+    {
+      "id": 21,
+      "year": 2009,
+      "title": "On Evil Grounds",
+      "to_slug": "on-evil-grounds"
+    },
+    {
+      "id": 23,
+      "year": 2009,
+      "title": "Jorge Montejo: El Hombre Detrás de Paolo",
+      "to_slug": "jorge-montejo-el-hombre-detras-de-paolo"
+    },
+    {
+      "id": 32,
+      "year": 2005,
+      "title": "Darkness",
+      "to_slug": "darkness"
+    },
+    {
+      "id": 33,
+      "year": 2005,
+      "title": "Habitaciones para turistas",
+      "to_slug": "habitaciones-para-turistas"
+    },
+    {
+      "id": 34,
+      "year": 2005,
+      "title": "Night Fangs",
+      "to_slug": "night-fangs"
+    },
+    {
+      "id": 35,
+      "year": 2005,
+      "title": "Rojo Sangre",
+      "to_slug": "rojo-sangre"
+    },
+    {
+      "id": 36,
+      "year": 2005,
+      "title": "The Final Cut",
+      "to_slug": "the-final-cut"
+    },
+    {
+      "id": 37,
+      "year": 2005,
+      "title": "Sangre en La Mondiola",
+      "to_slug": "sangre-en-la-mondiola"
+    },
+    {
+      "id": 38,
+      "year": 2007,
+      "title": "The Last Horror Movie",
+      "to_slug": "the-last-horror-movie"
+    },
+    {
+      "id": 39,
+      "year": 2007,
+      "title": "A Tale of Two Sisters",
+      "to_slug": "a-tale-of-two-sisters"
+    },
+    {
+      "id": 40,
+      "year": 2007,
+      "title": "Beneath the Cogon",
+      "to_slug": "beneath-the-cogon"
+    },
+    {
+      "id": 41,
+      "year": 2007,
+      "title": "El Marfil",
+      "to_slug": "el-marfil"
+    },
+    {
+      "id": 42,
+      "year": 2007,
+      "title": "En Silencio",
+      "to_slug": "en-silencio"
+    },
+    {
+      "id": 43,
+      "year": 2007,
+      "title": "Encuentros Solitarios",
+      "to_slug": "encuentros-solitarios"
+    },
+    {
+      "id": 44,
+      "year": 2007,
+      "title": "FAQ",
+      "to_slug": null
+    },
+    {
+      "id": 45,
+      "year": 2007,
+      "title": "Grité una Noche",
+      "to_slug": "grite-una-noche"
+    },
+    {
+      "id": 46,
+      "year": 2007,
+      "title": "Jennifer's Shadow",
+      "to_slug": null
+    },
+    {
+      "id": 47,
+      "year": 2007,
+      "title": "Koma",
+      "to_slug": "koma"
+    },
+    {
+      "id": 48,
+      "year": 2007,
+      "title": "Lockout",
+      "to_slug": "lockout"
+    },
+    {
+      "id": 49,
+      "year": 2007,
+      "title": "The Dark Hours",
+      "to_slug": "the-dark-hours"
+    },
+    {
+      "id": 50,
+      "year": 2007,
+      "title": "The Great Yokai War",
+      "to_slug": "the-great-yokai-war"
+    },
+    {
+      "id": 51,
+      "year": 2007,
+      "title": "TL-1: Mi Reino por un Platillo Volador",
+      "to_slug": "tl-1-mi-reino-por-un-platillo-volador"
+    },
+    {
+      "id": 52,
+      "year": 2008,
+      "title": "The Man from Earth",
+      "to_slug": "the-man-from-earth"
+    },
+    {
+      "id": 53,
+      "year": 2008,
+      "title": "Filmatrón",
+      "to_slug": null
+    },
+    {
+      "id": 54,
+      "year": 2008,
+      "title": "Carnal",
+      "to_slug": "carnal"
+    },
+    {
+      "id": 55,
+      "year": 2008,
+      "title": "Crepúsculum",
+      "to_slug": null
+    },
+    {
+      "id": 56,
+      "year": 2008,
+      "title": "Currículum",
+      "to_slug": "curriculum"
+    },
+    {
+      "id": 57,
+      "year": 2008,
+      "title": "Dark Remains",
+      "to_slug": "dark-remains"
+    },
+    {
+      "id": 58,
+      "year": 2008,
+      "title": "Death Knows Your Name",
+      "to_slug": "death-knows-your-name"
+    },
+    {
+      "id": 59,
+      "year": 2008,
+      "title": "Doctor Infierno",
+      "to_slug": "doctor-infierno"
+    },
+    {
+      "id": 60,
+      "year": 2008,
+      "title": "El Propietario",
+      "to_slug": "el-propietario"
+    },
+    {
+      "id": 61,
+      "year": 2008,
+      "title": "Fausta",
+      "to_slug": "fausta"
+    },
+    {
+      "id": 62,
+      "year": 2008,
+      "title": "Mati",
+      "to_slug": "mati"
+    },
+    {
+      "id": 63,
+      "year": 2008,
+      "title": "Nocturnos",
+      "to_slug": "nocturnos"
+    },
+    {
+      "id": 64,
+      "year": 2008,
+      "title": "Próxima",
+      "to_slug": "proxima"
+    },
+    {
+      "id": 65,
+      "year": 2008,
+      "title": "Song of the Dead",
+      "to_slug": "song-of-the-dead"
+    },
+    {
+      "id": 66,
+      "year": 2008,
+      "title": "The Day of the Dead",
+      "to_slug": "the-day-of-the-dead"
+    },
+    {
+      "id": 67,
+      "year": 2008,
+      "title": "The Last Gateway",
+      "to_slug": "the-last-gateway"
+    },
+    {
+      "id": 68,
+      "year": 2009,
+      "title": "Morgue Story",
+      "to_slug": null
+    },
+    {
+      "id": 69,
+      "year": 2009,
+      "title": "Mangue Negro (Mud Zombies)",
+      "to_slug": null
+    },
+    {
+      "id": 70,
+      "year": 2009,
+      "title": "Nadie Inquietó Más: Narciso Ibáñez Menta",
+      "to_slug": "nadie-inquieto-mas-narciso-ibanez-menta"
+    },
+    {
+      "id": 71,
+      "year": 2010,
+      "title": "Strigoi",
+      "to_slug": "strigoi"
+    },
+    {
+      "id": 72,
+      "year": 2010,
+      "title": "TL-2: La Felicidad es una Leyenda Urbana",
+      "to_slug": null
+    },
+    {
+      "id": 73,
+      "year": 2010,
+      "title": "Abandonados",
+      "to_slug": "abandonados"
+    },
+    {
+      "id": 74,
+      "year": 2010,
+      "title": "Porto dos Mortos (Beyond the Grave)",
+      "to_slug": null
+    },
+    {
+      "id": 75,
+      "year": 2010,
+      "title": "El Monstro del Mar!",
+      "to_slug": "el-monstro-del-mar"
+    },
+    {
+      "id": 76,
+      "year": 2010,
+      "title": "Humanimal",
+      "to_slug": "humanimal"
+    },
+    {
+      "id": 77,
+      "year": 2010,
+      "title": "La Pantera Negra",
+      "to_slug": "la-pantera-negra"
+    },
+    {
+      "id": 78,
+      "year": 2010,
+      "title": "Molina's Ferozz",
+      "to_slug": null
+    },
+    {
+      "id": 79,
+      "year": 2010,
+      "title": "Recortadas",
+      "to_slug": "recortadas"
+    },
+    {
+      "id": 80,
+      "year": 2010,
+      "title": "Stingray Sam",
+      "to_slug": "stingray-sam"
+    },
+    {
+      "id": 81,
+      "year": 2010,
+      "title": "They Want My Eyes",
+      "to_slug": "they-want-my-eyes"
+    },
+    {
+      "id": 82,
+      "year": 2010,
+      "title": "The Life and Death of a Porno Gang",
+      "to_slug": "the-life-and-death-of-a-porno-gang"
+    },
+    {
+      "id": 83,
+      "year": 2010,
+      "title": "Transmission",
+      "to_slug": "transmission"
+    },
+    {
+      "id": 84,
+      "year": 2010,
+      "title": "Zone of the Dead",
+      "to_slug": "zone-of-the-dead"
+    },
+    {
+      "id": 85,
+      "year": 2011,
+      "title": "Die Farbe (El Color que Cayó del Cielo)",
+      "to_slug": null
+    },
+    {
+      "id": 86,
+      "year": 2011,
+      "title": "Alucardos",
+      "to_slug": null
+    },
+    {
+      "id": 87,
+      "year": 2011,
+      "title": "Toque de Queda",
+      "to_slug": "toque-de-queda"
+    },
+    {
+      "id": 88,
+      "year": 2011,
+      "title": "1",
+      "to_slug": "1"
+    },
+    {
+      "id": 89,
+      "year": 2011,
+      "title": "Alas",
+      "to_slug": "alas"
+    },
+    {
+      "id": 90,
+      "year": 2011,
+      "title": "De Día y de Noche",
+      "to_slug": "de-dia-y-de-noche"
+    },
+    {
+      "id": 91,
+      "year": 2011,
+      "title": "El Último Fin de Semana",
+      "to_slug": "el-ultimo-fin-de-semana"
+    },
+    {
+      "id": 92,
+      "year": 2011,
+      "title": "Krokodyle",
+      "to_slug": "krokodyle"
+    },
+    {
+      "id": 93,
+      "year": 2011,
+      "title": "La Noche del Chupacabras",
+      "to_slug": "la-noche-del-chupacabras"
+    },
+    {
+      "id": 94,
+      "year": 2011,
+      "title": "The Whisperer in Darkness",
+      "to_slug": "the-whisperer-in-darkness"
+    },
+    {
+      "id": 95,
+      "year": 2011,
+      "title": "True Nature",
+      "to_slug": "true-nature"
+    },
+    {
+      "id": 96,
+      "year": 2011,
+      "title": "Un Ovni Sobre Mi Cama",
+      "to_slug": "un-ovni-sobre-mi-cama"
+    },
+    {
+      "id": 98,
+      "year": 2011,
+      "title": "Detrás del Horror",
+      "to_slug": "detras-del-horror"
+    },
+    {
+      "id": 99,
+      "year": 2011,
+      "title": "Incidente",
+      "to_slug": "incidente"
+    },
+    {
+      "id": 100,
+      "year": 2011,
+      "title": "Lluvia de Luna",
+      "to_slug": "lluvia-de-luna"
+    },
+    {
+      "id": 101,
+      "year": 2011,
+      "title": "Marihuana Radioactiva",
+      "to_slug": null
+    },
+    {
+      "id": 102,
+      "year": 2011,
+      "title": "Muerte Ciega",
+      "to_slug": "muerte-ciega"
+    },
+    {
+      "id": 103,
+      "year": 2011,
+      "title": "Post: La Aventura Completa",
+      "to_slug": "post-la-aventura-completa"
+    },
+    {
+      "id": 104,
+      "year": 2011,
+      "title": "Sadomaster: Locura General",
+      "to_slug": "sadomaster-locura-general"
+    },
+    {
+      "id": 105,
+      "year": 2011,
+      "title": "Trash",
+      "to_slug": "trash"
+    },
+    {
+      "id": 106,
+      "year": 2012,
+      "title": "Nervio Craneal Cero",
+      "to_slug": "nervio-craneal-cero"
+    },
+    {
+      "id": 107,
+      "year": 2012,
+      "title": "Cell Count",
+      "to_slug": "cell-count"
+    },
+    {
+      "id": 108,
+      "year": 2012,
+      "title": "Goretech",
+      "to_slug": null
+    },
+    {
+      "id": 109,
+      "year": 2012,
+      "title": "Topos",
+      "to_slug": "topos"
+    },
+    {
+      "id": 110,
+      "year": 2012,
+      "title": "Altered States of Plaine",
+      "to_slug": null
+    },
+    {
+      "id": 111,
+      "year": 2012,
+      "title": "Drácula 0.9",
+      "to_slug": "dracula-0-9"
+    },
+    {
+      "id": 112,
+      "year": 2012,
+      "title": "En las Afueras de la Ciudad",
+      "to_slug": "en-las-afueras-de-la-ciudad"
+    },
+    {
+      "id": 113,
+      "year": 2012,
+      "title": "Frankenstein: Day of the Beast",
+      "to_slug": "frankenstein-day-of-the-beast"
+    },
+    {
+      "id": 114,
+      "year": 2012,
+      "title": "¡Malditos Sean!",
+      "to_slug": null
+    },
+    {
+      "id": 115,
+      "year": 2012,
+      "title": "Pushin' Up Daisies",
+      "to_slug": null
+    },
+    {
+      "id": 116,
+      "year": 2012,
+      "title": "Reacciones Adversas",
+      "to_slug": "reacciones-adversas"
+    },
+    {
+      "id": 117,
+      "year": 2012,
+      "title": "Ballena Blanca",
+      "to_slug": "ballena-blanca"
+    },
+    {
+      "id": 118,
+      "year": 2012,
+      "title": "Carne Cruda",
+      "to_slug": "carne-cruda"
+    },
+    {
+      "id": 119,
+      "year": 2012,
+      "title": "Sonríe",
+      "to_slug": "sonrie"
+    },
+    {
+      "id": 120,
+      "year": 2012,
+      "title": "Supay",
+      "to_slug": "supay"
+    },
+    {
+      "id": 121,
+      "year": 2012,
+      "title": "Somos lo que Hay",
+      "to_slug": "somos-lo-que-hay"
+    },
+    {
+      "id": 122,
+      "year": 2013,
+      "title": "El Cosmonauta",
+      "to_slug": "el-cosmonauta"
+    },
+    {
+      "id": 123,
+      "year": 2013,
+      "title": "Chimères (Quimeras)",
+      "to_slug": "chimeres-quimeras"
+    },
+    {
+      "id": 124,
+      "year": 2013,
+      "title": "Sin Señal",
+      "to_slug": "sin-senal"
+    },
+    {
+      "id": 125,
+      "year": 2013,
+      "title": "When Time Becomes a Woman",
+      "to_slug": "when-time-becomes-a-woman"
+    },
+    {
+      "id": 126,
+      "year": 2013,
+      "title": "Buscando la Esfera del Poder",
+      "to_slug": "buscando-la-esfera-del-poder"
+    },
+    {
+      "id": 127,
+      "year": 2013,
+      "title": "Frankenstein No Asusta en Colombia",
+      "to_slug": "frankenstein-no-asusta-en-colombia"
+    },
+    {
+      "id": 128,
+      "year": 2013,
+      "title": "Gut",
+      "to_slug": "gut"
+    },
+    {
+      "id": 129,
+      "year": 2013,
+      "title": "Mar Negro",
+      "to_slug": "mar-negro"
+    },
+    {
+      "id": 130,
+      "year": 2013,
+      "title": "El Peso de la Culpa",
+      "to_slug": "el-peso-de-la-culpa"
+    },
+    {
+      "id": 131,
+      "year": 2013,
+      "title": "KV 62",
+      "to_slug": "kv-62"
+    },
+    {
+      "id": 132,
+      "year": 2013,
+      "title": "Sonno Profondo",
+      "to_slug": "sonno-profondo"
+    },
+    {
+      "id": 133,
+      "year": 2013,
+      "title": "Trash Dos: Las Tetas de Ana L.",
+      "to_slug": "trash-dos-las-tetas-de-ana-l"
+    },
+    {
+      "id": 134,
+      "year": 2013,
+      "title": "Volver a Morir",
+      "to_slug": "volver-a-morir"
+    },
+    {
+      "id": 135,
+      "year": 2013,
+      "title": "Zombio 2: Chimarrao Zombies",
+      "to_slug": "zombio-2-chimarrao-zombies-2"
+    },
+    {
+      "id": 136,
+      "year": 2013,
+      "title": "Adormecidos",
+      "to_slug": "adormecidos"
+    },
+    {
+      "id": 137,
+      "year": 2013,
+      "title": "Curas Zombies en Azul",
+      "to_slug": "curas-zombies-en-azul"
+    },
+    {
+      "id": 138,
+      "year": 2013,
+      "title": "Hijos de Puta por Elección",
+      "to_slug": "hijos-de-puta-por-eleccion"
+    },
+    {
+      "id": 139,
+      "year": 2015,
+      "title": "La Casa del Fin de los Tiempos",
+      "to_slug": "la-casa-del-fin-de-los-tiempos"
+    },
+    {
+      "id": 140,
+      "year": 2015,
+      "title": "Chocolate, Strawberry, Vanilla",
+      "to_slug": "chocolate-strawberry-vanilla-crema-frutilla-chocolate"
+    },
+    {
+      "id": 141,
+      "year": 2015,
+      "title": "Corazón Muerto",
+      "to_slug": null
+    },
+    {
+      "id": 142,
+      "year": 2015,
+      "title": "El Círculo de Raynard",
+      "to_slug": null
+    },
+    {
+      "id": 143,
+      "year": 2015,
+      "title": "Fábulas Negras",
+      "to_slug": "fabulas-negras"
+    },
+    {
+      "id": 144,
+      "year": 2015,
+      "title": "Runaway Day",
+      "to_slug": "runaway-day"
+    },
+    {
+      "id": 145,
+      "year": 2015,
+      "title": "Solos a Bordo",
+      "to_slug": "solos-a-bordo"
+    },
+    {
+      "id": 146,
+      "year": 2015,
+      "title": "The Sacrifice",
+      "to_slug": "the-sacrifice"
+    },
+    {
+      "id": 147,
+      "year": 2015,
+      "title": "Impétigo",
+      "to_slug": null
+    },
+    {
+      "id": 148,
+      "year": 2015,
+      "title": "El Onanista Perturbado",
+      "to_slug": null
+    },
+    {
+      "id": 149,
+      "year": 2015,
+      "title": "Historias de Nunca Acabar",
+      "to_slug": null
+    },
+    {
+      "id": 150,
+      "year": 2015,
+      "title": "Los Súper Bonaerenses",
+      "to_slug": null
+    },
+    {
+      "id": 151,
+      "year": 2015,
+      "title": "Ulises",
+      "to_slug": null
+    },
+    {
+      "id": 152,
+      "year": 2017,
+      "title": "Aterrados",
+      "to_slug": "aterrados"
+    },
+    {
+      "id": 153,
+      "year": 2017,
+      "title": "Zero",
+      "to_slug": "zero"
+    },
+    {
+      "id": 154,
+      "year": 2017,
+      "title": "La Valija de Benavidez",
+      "to_slug": "la-valija-de-benavidez"
+    },
+    {
+      "id": 155,
+      "year": 2017,
+      "title": "Tacuaremboense Inmortal",
+      "to_slug": "tacuaremboense-inmortal"
+    },
+    {
+      "id": 156,
+      "year": 2017,
+      "title": "13 Dolls in Darkness",
+      "to_slug": null
+    },
+    {
+      "id": 157,
+      "year": 2017,
+      "title": "El Archipiélago",
+      "to_slug": null
+    },
+    {
+      "id": 158,
+      "year": 2017,
+      "title": "El Maleficio de la Serpiente",
+      "to_slug": null
+    },
+    {
+      "id": 159,
+      "year": 2017,
+      "title": "Nathaly Furiosa",
+      "to_slug": null
+    },
+    {
+      "id": 160,
+      "year": 2017,
+      "title": "Noche",
+      "to_slug": "noche"
+    },
+    {
+      "id": 161,
+      "year": 2017,
+      "title": "Los Olvidados",
+      "to_slug": null
+    },
+    {
+      "id": 162,
+      "year": 2017,
+      "title": "Tangent Room",
+      "to_slug": null
+    },
+    {
+      "id": 163,
+      "year": 2017,
+      "title": "Virgin Cheerleaders in Chains",
+      "to_slug": "virgin-cheerleaders-in-chains"
+    },
+    {
+      "id": 164,
+      "year": 2017,
+      "title": "Culto al Terror",
+      "to_slug": "culto-al-terror"
+    },
+    {
+      "id": 165,
+      "year": 2017,
+      "title": "En Realidad",
+      "to_slug": "en-realidad"
+    },
+    {
+      "id": 166,
+      "year": 2017,
+      "title": "Escaping the Dead",
+      "to_slug": "escaping-the-dead"
+    },
+    {
+      "id": 167,
+      "year": 2017,
+      "title": "Fantasticozzi",
+      "to_slug": "fantasticozzi"
+    },
+    {
+      "id": 170,
+      "year": 2017,
+      "title": "Animal Moribus",
+      "to_slug": "animal-moribus"
+    },
+    {
+      "id": 171,
+      "year": 2017,
+      "title": "Astaroth",
+      "to_slug": "astaroth"
+    },
+    {
+      "id": 172,
+      "year": 2017,
+      "title": "La Lista de la Muerte",
+      "to_slug": "la-lista-de-la-muerte"
+    },
+    {
+      "id": 174,
+      "year": 2017,
+      "title": "El Silbón: Orígenes",
+      "to_slug": "el-silbon-origenes"
+    },
+    {
+      "id": 175,
+      "year": 2018,
+      "title": "Lost in Apocalypse (Perdidos en el Apocalipsis)",
+      "to_slug": null
+    },
+    {
+      "id": 176,
+      "year": 2018,
+      "title": "Abrakadabra",
+      "to_slug": "abrakadabra"
+    },
+    {
+      "id": 177,
+      "year": 2018,
+      "title": "Atraco Fantasmal (Polterheist)",
+      "to_slug": null
+    },
+    {
+      "id": 178,
+      "year": 2018,
+      "title": "Fake Blood (Sangre Falsa)",
+      "to_slug": null
+    },
+    {
+      "id": 179,
+      "year": 2018,
+      "title": "Ghost Mask – Scar (La Máscara Fantasma: Cicatriz)",
+      "to_slug": null
+    },
+    {
+      "id": 180,
+      "year": 2018,
+      "title": "Mahtab",
+      "to_slug": "mahtab"
+    },
+    {
+      "id": 181,
+      "year": 2018,
+      "title": "No Sabés con Quién Estás Hablando",
+      "to_slug": null
+    },
+    {
+      "id": 182,
+      "year": 2018,
+      "title": "The Psychics (Los Psíquicos)",
+      "to_slug": null
+    },
+    {
+      "id": 183,
+      "year": 2018,
+      "title": "Mirada de Cristal",
+      "to_slug": "mirada-de-cristal"
+    },
+    {
+      "id": 184,
+      "year": 2018,
+      "title": "El Bosque Negro (A Mata Negra)",
+      "to_slug": null
+    },
+    {
+      "id": 185,
+      "year": 2018,
+      "title": "Clementina",
+      "to_slug": "clementina"
+    },
+    {
+      "id": 186,
+      "year": 2018,
+      "title": "La Jaula",
+      "to_slug": "la-jaula"
+    },
+    {
+      "id": 187,
+      "year": 2018,
+      "title": "En la Esquina del Ojo (No Canto do Olho)",
+      "to_slug": null
+    },
+    {
+      "id": 188,
+      "year": 2018,
+      "title": "Trauma",
+      "to_slug": "trauma"
+    },
+    {
+      "id": 189,
+      "year": 2018,
+      "title": "Inner Ghosts (Fantasmas Interiores)",
+      "to_slug": null
+    },
+    {
+      "id": 190,
+      "year": 2018,
+      "title": "Tokusatsu Grindhouse",
+      "to_slug": "tokusatsu-grindhouse"
+    },
+    {
+      "id": 191,
+      "year": 2019,
+      "title": "Stay Out, Stay Alive",
+      "to_slug": "stay-out-stay-alive"
+    },
+    {
+      "id": 192,
+      "year": 2019,
+      "title": "Vortex",
+      "to_slug": "vortex"
+    },
+    {
+      "id": 193,
+      "year": 2019,
+      "title": "Flesh City",
+      "to_slug": "flesh-city"
+    },
+    {
+      "id": 194,
+      "year": 2019,
+      "title": "Atacama",
+      "to_slug": "atacama"
+    },
+    {
+      "id": 195,
+      "year": 2019,
+      "title": "Beneath the Trees (Bajo los Árboles)",
+      "to_slug": null
+    },
+    {
+      "id": 196,
+      "year": 2019,
+      "title": "Bullets of Justice",
+      "to_slug": "bullets-of-justice"
+    },
+    {
+      "id": 197,
+      "year": 2019,
+      "title": "Diablo Rojo PTY",
+      "to_slug": "diablo-rojo-pty"
+    },
+    {
+      "id": 198,
+      "year": 2019,
+      "title": "El Diablo Me Dijo Qué Hacer",
+      "to_slug": "el-diablo-me-dijo-que-hacer"
+    },
+    {
+      "id": 199,
+      "year": 2019,
+      "title": "Luz",
+      "to_slug": "luz"
+    },
+    {
+      "id": 200,
+      "year": 2019,
+      "title": "Rebobinado: La Película",
+      "to_slug": "rebobinado-la-pelicula"
+    },
+    {
+      "id": 201,
+      "year": 2019,
+      "title": "Sorgalim",
+      "to_slug": "sorgalim"
+    },
+    {
+      "id": 202,
+      "year": 2019,
+      "title": "Vesanica",
+      "to_slug": "vesanica"
+    },
+    {
+      "id": 203,
+      "year": 2019,
+      "title": "La Sospecha",
+      "to_slug": "la-sospecha"
+    },
+    {
+      "id": 204,
+      "year": 2019,
+      "title": "Creeping Out",
+      "to_slug": "creeping-out"
+    },
+    {
+      "id": 205,
+      "year": 2019,
+      "title": "Deathcember",
+      "to_slug": "deathcember"
+    },
+    {
+      "id": 206,
+      "year": 2019,
+      "title": "George Hilton: El Mundo es de los Audaces",
+      "to_slug": "george-hilton-el-mundo-es-de-los-audaces"
+    },
+    {
+      "id": 207,
+      "year": 2019,
+      "title": "TR3SH",
+      "to_slug": "tr3sh"
+    },
+    {
+      "id": 208,
+      "year": 2022,
+      "title": "Alien Outbreak (Brote Alienígena)",
+      "to_slug": null
+    },
+    {
+      "id": 209,
+      "year": 2022,
+      "title": "La Alquimia del Espíritu (Alchemy of the Spirit)",
+      "to_slug": null
+    },
+    {
+      "id": 210,
+      "year": 2022,
+      "title": "La Canción del Mar (Kan Ar Mor)",
+      "to_slug": null
+    },
+    {
+      "id": 211,
+      "year": 2022,
+      "title": "La Desvida",
+      "to_slug": "la-desvida"
+    },
+    {
+      "id": 212,
+      "year": 2022,
+      "title": "Nemm: Súper Tuber",
+      "to_slug": "nemm-super-tuber"
+    },
+    {
+      "id": 213,
+      "year": 2022,
+      "title": "Nikolina",
+      "to_slug": "nikolina"
+    },
+    {
+      "id": 214,
+      "year": 2022,
+      "title": "El Sótano (The Basement)",
+      "to_slug": null
+    },
+    {
+      "id": 215,
+      "year": 2022,
+      "title": "El Amigo Visible",
+      "to_slug": "el-amigo-visible"
+    },
+    {
+      "id": 216,
+      "year": 2022,
+      "title": "Bella",
+      "to_slug": "bella"
+    },
+    {
+      "id": 217,
+      "year": 2022,
+      "title": "El Cementerio de las Almas Perdidas",
+      "to_slug": "el-cementerio-de-las-almas-perdidas"
+    },
+    {
+      "id": 218,
+      "year": 2022,
+      "title": "Ecos",
+      "to_slug": "ecos"
+    },
+    {
+      "id": 219,
+      "year": 2022,
+      "title": "Jacinto",
+      "to_slug": "jacinto"
+    },
+    {
+      "id": 220,
+      "year": 2022,
+      "title": "Pandemonium",
+      "to_slug": "pandemonium"
+    },
+    {
+      "id": 221,
+      "year": 2022,
+      "title": "Punk Horror",
+      "to_slug": "punk-horror"
+    },
+    {
+      "id": 222,
+      "year": 2022,
+      "title": "Urubú",
+      "to_slug": "urubu"
+    },
+    {
+      "id": 223,
+      "year": 2022,
+      "title": "Aspiradoras Sobreexcitadas de Marte (Oversexed Rugsuckers from Mars)",
+      "to_slug": null
+    },
+    {
+      "id": 224,
+      "year": 2022,
+      "title": "Historias del Después (Narrativas do Pós)",
+      "to_slug": null
+    },
+    {
+      "id": 225,
+      "year": 2022,
+      "title": "La Sabiduría",
+      "to_slug": "la-sabiduria"
+    },
+    {
+      "id": 226,
+      "year": 2022,
+      "title": "Lo Inevitable",
+      "to_slug": "lo-inevitable"
+    },
+    {
+      "id": 228,
+      "year": 2022,
+      "title": "La Última Fase",
+      "to_slug": "la-ultima-fase"
+    }
+  ]
+}

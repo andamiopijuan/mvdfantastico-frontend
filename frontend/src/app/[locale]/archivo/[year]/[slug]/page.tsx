@@ -1,6 +1,9 @@
 import { FILMS_2026 } from "@/data/films-2026";
 import {
   getArchiveEdition,
+  getArchiveSlugRedirectPath,
+  getCompatFilmPage,
+  getCompatSlugParams,
   getLegacyArchiveYears,
   getLegacyEdition,
   getLegacyFeatureSlugs,
@@ -9,7 +12,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 const STATIC_LOCALES = ["es", "en", "pt"] as const;
@@ -43,6 +46,12 @@ export async function generateStaticParams() {
     }
   }
 
+  for (const { year, slug } of getCompatSlugParams()) {
+    for (const locale of STATIC_LOCALES) {
+      addParam(locale, year, slug);
+    }
+  }
+
   return params;
 }
 
@@ -65,7 +74,7 @@ type FeatureFilm = {
 };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-function findFilmInLegacyJson(legacyJson: Record<string, any>, slug: string): { film: FeatureFilm; sectionTitle: string } | null {
+function findFilmInLegacyJson(year: number, legacyJson: Record<string, any>, slug: string): { film: FeatureFilm; sectionTitle: string } | null {
   const sections = legacyJson.sections ?? [];
   for (const section of sections) {
     if (section.type === "features" && Array.isArray(section.films)) {
@@ -73,7 +82,8 @@ function findFilmInLegacyJson(legacyJson: Record<string, any>, slug: string): { 
       if (film) return { film, sectionTitle: section.name as string };
     }
   }
-  return null;
+  const compat = getCompatFilmPage(year, slug);
+  return compat ? { film: compat.film as FeatureFilm, sectionTitle: compat.sectionTitle } : null;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -81,7 +91,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const edition = getArchiveEdition(year);
   const legacyJson = getLegacyEdition(year);
   if (!edition || !legacyJson) return { title: "Película — Montevideo Fantástico" };
-  const result = findFilmInLegacyJson(legacyJson, params.slug);
+  const result = findFilmInLegacyJson(year, legacyJson, params.slug);
   if (!result) return { title: "Película — Montevideo Fantástico" };
   const { film } = result;
   return {
@@ -96,11 +106,14 @@ export default async function FilmDetailPage({ params }: PageProps) {
   const t = await getTranslations("archive");
   const yearInt = parseInt(year, 10);
 
+  const aliasPath = getArchiveSlugRedirectPath(locale, yearInt, slug);
+  if (aliasPath) redirect(aliasPath);
+
   const edition = getArchiveEdition(yearInt);
   const legacyJson = getLegacyEdition(yearInt);
   if (!edition || !legacyJson) notFound();
 
-  const result = findFilmInLegacyJson(legacyJson, slug);
+  const result = findFilmInLegacyJson(yearInt, legacyJson, slug);
   if (!result) notFound();
 
   const { film, sectionTitle } = result;

@@ -1,5 +1,6 @@
 // Versioned public archive source: src/data/archive (manifest + legacy JSON). No API access.
 import manifestJson from "@/data/archive/manifest.json";
+import compatJson from "@/data/archive/compat.json";
 import legacy2005 from "@/data/archive/legacy/2005.json";
 import legacy2007 from "@/data/archive/legacy/2007.json";
 import legacy2008 from "@/data/archive/legacy/2008.json";
@@ -106,4 +107,52 @@ export function getLegacyFeatureSlugs(year: number): string[] {
     }
   }
   return slugs;
+}
+
+// ── Legacy URL compatibility (src/data/archive/compat.json) ──────────────────
+
+interface CompatFilmPage { year: number; slug: string; title: string }
+interface CompatSlugRedirect { year: number; from: string; to_slug: string | null }
+interface CompatWorkRedirect { id: number; year: number; title: string; to_slug: string | null }
+
+const COMPAT_FILM_PAGES = compatJson.film_pages as CompatFilmPage[];
+const COMPAT_SLUG_REDIRECTS = compatJson.slug_redirects as CompatSlugRedirect[];
+const COMPAT_WORK_REDIRECTS = compatJson.work_redirects as CompatWorkRedirect[];
+
+// Short-film pages kept only for URLs that already existed (the 2013 set).
+export function getCompatFilmPage(year: number, slug: string): { film: Record<string, any>; sectionTitle: string } | null {
+  const entry = COMPAT_FILM_PAGES.find((p) => p.year === year && p.slug === slug);
+  const data = getLegacyEdition(year);
+  if (!entry || !data || !Array.isArray(data.sections)) return null;
+  for (const section of data.sections) {
+    if (section?.type !== "shorts" || !Array.isArray(section.films)) continue;
+    const film = section.films.find((f: Record<string, any>) => f?.title === entry.title);
+    if (film) return { film: { ...film, slug }, sectionTitle: section.name as string };
+  }
+  return null;
+}
+
+// Film-route slugs generated only for compatibility (preserved pages and redirects).
+export function getCompatSlugParams(): Array<{ year: number; slug: string }> {
+  return [
+    ...COMPAT_FILM_PAGES.map((p) => ({ year: p.year, slug: p.slug })),
+    ...COMPAT_SLUG_REDIRECTS.map((r) => ({ year: r.year, slug: r.from })),
+  ];
+}
+
+// Redirect target for a renamed/malformed legacy film slug; null if the slug is not an alias.
+export function getArchiveSlugRedirectPath(locale: string, year: number, slug: string): string | null {
+  const r = COMPAT_SLUG_REDIRECTS.find((x) => x.year === year && x.from === slug);
+  if (!r) return null;
+  return r.to_slug ? `/${locale}/archivo/${year}/${r.to_slug}` : `/${locale}/archivo/${year}`;
+}
+
+export function getWorkCompatIds(): number[] {
+  return COMPAT_WORK_REDIRECTS.map((w) => w.id);
+}
+
+export function getWorkRedirectPath(locale: string, id: number): string | null {
+  const w = COMPAT_WORK_REDIRECTS.find((x) => x.id === id);
+  if (!w) return null;
+  return w.to_slug ? `/${locale}/archivo/${w.year}/${w.to_slug}` : `/${locale}/archivo/${w.year}`;
 }

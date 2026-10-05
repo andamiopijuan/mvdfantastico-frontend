@@ -5,6 +5,7 @@ const fs = require("fs");
 const path = require("path");
 
 const DIR = path.resolve(__dirname, "../src/data/archive");
+const APP_DIR = path.resolve(__dirname, "../src/app/[locale]");
 const EXPECTED_YEARS = [2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2017, 2018, 2019, 2022, 2023, 2024, 2026];
 const LEGACY_YEARS = EXPECTED_YEARS.filter((y) => y !== 2026);
 const MIRADA_DIRECTORS = "Diego Blanco, Guillermo Carbonell, Inés Grah, Vivián Honigsberg, Lucía Jacob, Inés Peñagaricano";
@@ -110,8 +111,62 @@ for (const y of [2005, 2012, 2018]) {
   check(sectionsOf(y).some((s) => s.type === "special" && filmsOf(s).length > 0), `${y}: non-empty "special" section missing`);
 }
 
+// Legacy URL compatibility (compat.json)
+const EXPECTED_2013_PAGES = ["agophobia", "al-otro-lado", "blackout", "candy-hearts", "decapoda-shock", "doppelganger", "ec4", "eco", "el-ajedrez-no-es-un-juego-de-caballeros", "el-cuarto", "el-increible-trueno-escarlata", "el-santuario", "el-traje-de-ze", "encosto", "eutanas-s-a", "exodis", "fist-of-jesus", "fuerco-el-puerco-de-fuego", "grieta-en-la-oscuridad", "heaven-hell", "hibernation", "horizonte", "la-casta", "lovbot-love", "m-is-for-multiverse-apathy-mierda", "perseo", "room", "veritas", "video-massacre", "vienna-waits-for-you"];
+const EXPECTED_2013_REDIRECTS = { "lovbot-love-2": "lovbot-love", "m-is-for-multiverse-apathy": "m-is-for-multiverse-apathy-mierda", "chimeres": "chimeres-quimeras" };
+const MALFORMED_2005 = "cortos-y-mediometrajes-short-and-medium-length-films-84715";
+const isRealFilm = (f) => !!f && typeof f.slug === "string" && f.slug.trim() && typeof f.title === "string" && f.title.trim() &&
+  ["director", "country", "poster", "synopsis", "review", "duration", "runtime", "year", "original_title", "trailer_url", "trailer", "image", "still", "credits"]
+    .some((k) => (typeof f[k] === "string" && f[k].trim()) || (typeof f[k] === "number") || (Array.isArray(f[k]) && f[k].length));
+const featureSlugs = (y) => new Set(sectionsOf(y).filter((s) => s.type === "features").flatMap(filmsOf).filter(isRealFilm).map((f) => f.slug));
+
+const compat = readJson(path.join(DIR, "compat.json"));
+if (compat) {
+  const pages = Array.isArray(compat.film_pages) ? compat.film_pages : [];
+  const redirects = Array.isArray(compat.slug_redirects) ? compat.slug_redirects : [];
+  const works = Array.isArray(compat.work_redirects) ? compat.work_redirects : [];
+
+  check(pages.every((p) => p.year === 2013), "compat.film_pages must be restricted to 2013");
+  check(JSON.stringify(pages.map((p) => p.slug).sort()) === JSON.stringify([...EXPECTED_2013_PAGES].sort()), "compat.film_pages must be exactly the 30 expected 2013 slugs");
+  const shorts2013 = sectionsOf(2013).filter((s) => s.type === "shorts").flatMap(filmsOf);
+  for (const p of pages) {
+    check(shorts2013.filter((f) => f.title === p.title).length === 1, `compat 2013 page ${p.slug}: title must match exactly one canonical short`);
+    check(!featureSlugs(2013).has(p.slug), `compat 2013 page ${p.slug} must not duplicate a canonical feature slug`);
+  }
+
+  const r2013 = redirects.filter((r) => r.year === 2013);
+  check(r2013.length === 3 && r2013.every((r) => EXPECTED_2013_REDIRECTS[r.from] === r.to_slug), "compat: 2013 redirects must be exactly lovbot-love-2, m-is-for-multiverse-apathy, chimeres");
+  for (const r of r2013) {
+    check(featureSlugs(2013).has(r.to_slug) || pages.some((p) => p.slug === r.to_slug), `compat redirect ${r.from} -> ${r.to_slug} has no canonical target`);
+  }
+  const r2005 = redirects.filter((r) => r.year === 2005);
+  check(r2005.length === 1 && r2005[0].from === MALFORMED_2005 && r2005[0].to_slug === null, "compat: malformed 2005 84715 URL must redirect to the 2005 edition page");
+  check(redirects.length === 4, `compat.slug_redirects must have exactly 4 entries (got ${redirects.length})`);
+  check(!redirects.some((r) => r.year === 2025) && !pages.some((p) => p.year === 2025) && !works.some((w) => w.year === 2025), "compat must not contain 2025");
+
+  const ids = works.map((w) => w.id);
+  check(works.length === 212 && new Set(ids).size === 212, `compat.work_redirects must have exactly 212 unique IDs (got ${works.length}/${new Set(ids).size})`);
+  const legacyYears = new Set(LEGACY_YEARS);
+  for (const w of works) {
+    check(legacyYears.has(w.year), `work ${w.id}: year ${w.year} is not a legacy archive year`);
+    if (w.to_slug !== null) {
+      check(featureSlugs(w.year).has(w.to_slug) || (w.year === 2013 && pages.some((p) => p.slug === w.to_slug)), `work ${w.id}: to_slug ${w.to_slug} is not a generated film page`);
+    }
+  }
+}
+
+// Source guards: no accidental short-film pages, no API in works route.
+const slugRoutes = ["archivo", "archive"].map((d) => path.join(APP_DIR, d, "[year]", "[slug]", "page.tsx"));
+for (const f of slugRoutes) {
+  if (!fs.existsSync(f)) { errors.push(`missing route file ${path.relative(APP_DIR, f)}`); continue; }
+  check(!/["']shorts["']|["']special["']/.test(fs.readFileSync(f, "utf8")), `${path.relative(APP_DIR, f)}: must not enumerate short/special films (use compat.json only)`);
+}
+const libSrc = fs.existsSync(path.resolve(__dirname, "../src/lib/archive.ts")) ? fs.readFileSync(path.resolve(__dirname, "../src/lib/archive.ts"), "utf8") : "";
+check(/section\?\.type !== "features"/.test(libSrc), "lib/archive.ts: getLegacyFeatureSlugs must only enumerate features");
+check(fs.existsSync(path.join(APP_DIR, "works", "[id]", "page.tsx")), "works/[id]/page.tsx must exist (frozen redirects)");
+check(!fs.existsSync(path.join(APP_DIR, "archivo", "[year]", "page.tsx.new")), "archivo/[year]/page.tsx.new must not exist");
+
 // Archive routes must not go back to API-driven data.
-const APP_DIR = path.resolve(__dirname, "../src/app/[locale]");
 const FORBIDDEN = /@\/lib\/api|\b(getEditions|getEditionByYear|getWorksForEdition|getWorkById)\b/;
 function listSources(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((d) => {
@@ -120,7 +175,7 @@ function listSources(dir) {
     return /\.(tsx?|jsx?)$/.test(d.name) ? [full] : [];
   });
 }
-for (const sub of ["archivo", "archive"]) {
+for (const sub of ["archivo", "archive", "works"]) {
   const root = path.join(APP_DIR, sub);
   if (!fs.existsSync(root)) { errors.push(`route directory missing: ${sub}`); continue; }
   for (const file of listSources(root)) {
