@@ -163,6 +163,91 @@ if (legacy[2015]) {
   }
 }
 
+// 2018: source-backed repairs for parser corruption in the XI archive page.
+if (legacy[2018]) {
+  const secs = sectionsOf(2018);
+  const international = secs.find((s) => s.name === "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES / INTERNATIONAL LONG FEATURE FILMS COMPETITION");
+  check(international && international.type === "features", "2018: international feature competition missing");
+  if (international) {
+    const films = filmsOf(international);
+    check(films.length === 8, `2018: expected 8 international features, got ${films.length}`);
+    const lost = films.find((f) => f.title === "LOST IN APOCALYPSE / PERDIDOS EN EL APOCALIPSIS");
+    const mahtab = films.find((f) => f.title === "MAHTAB");
+    const noSabes = films.find((f) => f.title === "NO SABÉS CON QUIÉN ESTÁS HABLANDO");
+    check(lost && lost.director === "Sky Wang" && lost.duration === 90 && lost.original_title === "Mo Shi Ren Jian Dao", "2018: Lost in Apocalypse fields are malformed");
+    check(mahtab && mahtab.director === "Vahid Pakzad" && mahtab.duration === 86, "2018: Mahtab fields are malformed");
+    check(noSabes && noSabes.slug === null && noSabes.year === 2016 && noSabes.director === "Demian Rugna" && noSabes.duration === 95 && noSabes.review, "2018: recovered No Sabés record must retain source-backed metadata without a route");
+    check(films.every((f) => f.review && f.credits && Number.isInteger(f.duration) && f.duration > 0), "2018: international features must retain reviews, credits and durations");
+  }
+
+  const latin = secs.find((s) => s.name === "COMPETENCIA LATINOAMERICANA DE LARGOMETRAJES / LATIN AMERICAN LONG FEATURE FILMS COMPETITION");
+  check(latin && latin.type === "features", "2018: Latin American feature competition missing");
+  if (latin) {
+    const films = filmsOf(latin);
+    check(films.length === 6, `2018: expected 6 Latin American features, got ${films.length}`);
+    const bosque = films.find((f) => f.title === "EL BOSQUE NEGRO");
+    const esquina = films.find((f) => f.title === "EN LA ESQUINA DEL OJO / OUT OF THE CORNER OF THE EYE");
+    check(bosque && bosque.director === "Rodrigo Aragão" && bosque.duration === 99 && bosque.original_title === "A Mata Negra", "2018: El Bosque Negro fields are malformed");
+    check(esquina && esquina.director === "Sérgio Gomes" && esquina.duration === 104 && esquina.original_title === "No Canto do Olho", "2018: En la esquina del ojo fields are malformed");
+  }
+
+  const novedades = secs.find((s) => s.name === "NOVEDADES / NEW RELEASES");
+  check(novedades && novedades.type === "features", "2018: Novedades boundary missing");
+  if (novedades) {
+    const films = filmsOf(novedades);
+    check(films.length === 2 && films[0]?.title === "INNER GHOSTS / FANTASMAS INTERIORES" && films[1]?.title === "TOKUSATSU GRINDHOUSE", "2018: Novedades ordering is malformed");
+    const tokusatsu = films.find((f) => f.title === "TOKUSATSU GRINDHOUSE");
+    check(tokusatsu && tokusatsu.country === "JAPÓN / URUGUAY" && tokusatsu.director === "Bueno, Pablo Praino" && tokusatsu.duration === 58, "2018: Tokusatsu Grindhouse fields are malformed");
+  }
+
+  const shorts = secs.find((s) => s.name === "COMPETENCIA OFICIAL DE CORTOMETRAJES / SHORT FILMS OFFICIAL COMPETITION");
+  check(shorts && shorts.type === "shorts", "2018: official short-film competition missing");
+  if (shorts) {
+    const films = filmsOf(shorts);
+    check(films.length === 28, `2018: expected 28 official shorts, got ${films.length}`);
+    check(films.every((f) => Number.isInteger(f.duration) && f.duration > 0 && typeof f.credits === "string" && f.credits.trim()), "2018: official shorts must retain duration and credits");
+    const eva = films.find((f) => f.title === "Amo a Eva Marsh");
+    const mapa = films.find((f) => f.title === "Mapa a las estrellas");
+    const saturno = films.find((f) => f.title === "Saturno a través del telescopio");
+    check(eva && eva.year === 2017 && eva.country === "Francia" && eva.original_title === "J´aime Eva Marsh" && eva.duration === 24, "2018: Amo a Eva Marsh fields are malformed");
+    check(mapa && mapa.year === 2018 && mapa.country === "Paraguay" && mapa.duration === 10, "2018: Mapa a las estrellas title or fields are malformed");
+    check(saturno && saturno.director === "Didac Gimeno" && saturno.duration === 11, "2018: Saturno a través del telescopio must not be replaced by duplicate Remembrance data");
+    check(films.filter((f) => f.title === "R E M E M B R A N C E").length === 1, "2018: duplicate Remembrance record present");
+  }
+
+  const uruguayanShorts = secs.find((s) => s.name === "CORTOMETRAJES URUGUAYOS EN COMPETENCIA");
+  check(uruguayanShorts && uruguayanShorts.type === "shorts", "2018: Uruguayan short-film competition missing");
+  if (uruguayanShorts) {
+    const films = filmsOf(uruguayanShorts);
+    check(films.length === 11 && films.every((f) => f.country === "Uruguay" && Number.isInteger(f.duration) && f.duration > 0), "2018: Uruguayan competition entries are incomplete");
+    check(films.at(-1)?.title === "Space Bar" && films.at(-1)?.duration === 1, "2018: Space Bar missing from Uruguayan competition");
+  }
+
+  const tributes = secs.find((s) => s.name === "HOMENAJES / TRIBUTES");
+  check(tributes && tributes.type === "special" && filmsOf(tributes).length === 3, "2018: tributes boundary is malformed");
+  if (tributes) {
+    const james = filmsOf(tributes).find((f) => f.title === "M. R. JAMES – SILBA, E IRÉ A TI");
+    check(james && james.director === "Jonathan Miller" && james.duration === 42 && james.original_title === "Whistle and I'll Come to You", "2018: M. R. James tribute fields are malformed");
+  }
+
+  const catalog = secs.find((s) => s.name === "MUESTRA INFORMATIVA DE CORTOMETRAJES");
+  check(catalog && catalog.type === "shorts-catalog" && filmsOf(catalog).length === 86, "2018: informative short-film catalogue missing or incomplete");
+  if (catalog) {
+    const films = filmsOf(catalog);
+    check(films[0]?.title === "11010 (Rodrigo Amim, Gabriela Monnerat, 2018) – BRASIL / BRAZIL – 8´", "2018: informative catalogue opening entry changed");
+    check(films.at(-1)?.title === "ZUL (Magalí Heram, 2018) – MÉXICO – 23´", "2018: informative catalogue closing entry changed");
+  }
+
+  const blocks = Array.isArray(legacy[2018].awards) ? legacy[2018].awards : [];
+  check(JSON.stringify(blocks.map((b) => Array.isArray(b.awards) ? b.awards.length : 0)) === JSON.stringify([9, 1, 2, 7, 3]), "2018: award blocks must retain all 22 source awards");
+  const featureAwards = blocks[0]?.awards ?? [];
+  const shortAwards = blocks[3]?.awards ?? [];
+  check(blocks[0]?.section === "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES / LONG FEATURE FILMS COMPETITION" && blocks[3]?.section === "COMPETENCIA OFICIAL DE CORTOMETRAJES / SHORT FILMS OFFICIAL COMPETITION", "2018: award-section boundaries are malformed");
+  check(featureAwards.some((a) => a.recipient === "MAHTAB DEHGHAN" && a.film === "MAHTAB" && a.director === "Vahid Pakzad"), "2018: Mahtab jury award is malformed");
+  check(featureAwards.filter((a) => a.name === "MENCIONES ESPECIALES / SPECIAL MENTIONS").length === 4, "2018: feature special mentions missing");
+  check(shortAwards.filter((a) => a.name === "MENCIONES ESPECIALES / SPECIAL MENTIONS").length === 4, "2018: short-film special mentions missing");
+}
+
 // special sections must survive
 for (const y of [2005, 2012, 2018]) {
   check(sectionsOf(y).some((s) => s.type === "special" && filmsOf(s).length > 0), `${y}: non-empty "special" section missing`);

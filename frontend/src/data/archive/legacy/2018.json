@@ -1,116 +1,210 @@
 {
   "awards": [
     {
+      "section": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES / LONG FEATURE FILMS COMPETITION",
       "jury": "RICARDO ISLAS (URUGUAY, realizador), GUILLERMO LOCKHART (URUGUAY, periodista, productor) y LIDIA PIRES (PARAGUAY, actriz, productora)",
       "awards": [
         {
+          "name": "MEJOR LARGOMETRAJE DEL FESTIVAL / BEST LONG FEATURE FILM",
           "film": "LOST IN APOCALYPSE / PERDIDOS EN EL APOCALIPSIS",
-          "name": "MEJOR LARGOMETRAJE DEL FESTIVAL",
           "country": "China",
-          "citation": "La película logra, dentro del género, la conexión del espectador con sus personajes. Resalta un elenco homogéneo que cuaja a la perfección. Muy bien dirigida por Sky Wang con excelentes tomas. El guión incluye un grupo de extraños muy distintos entre sí que forman una pseudo familia creíble. Excelentes valores de producción.",
           "director": "Sky Wang",
-          "recipient": ""
+          "recipient": "",
+          "citation": "La película logra, dentro del género, la conexión del espectador con sus personajes. Resalta un elenco homogéneo que cuaja a la perfección. Muy bien dirigida por Sky Wang con excelentes tomas. El guión incluye un grupo de extraños muy distintos entre sí que forman una pseudo familia creíble. Excelentes valores de producción."
         },
         {
-          "film": "SKY WANG",
-          "name": "MEJOR DIRECTOR",
-          "country": "LOST IN APOCALYPSE",
-          "citation": "– China, 2018 – Excelente ensamblaje de muy buenas tomas en pos de que la película fluya sin sobresaltos tecnológicos. El control de la iluminación para crear el ambiente necesario es de mencionar.",
+          "name": "MEJOR DIRECTOR / BEST DIRECTOR",
+          "film": "LOST IN APOCALYPSE / PERDIDOS EN EL APOCALIPSIS",
+          "country": "China",
           "director": "",
-          "recipient": ""
+          "recipient": "SKY WANG",
+          "citation": "Excelente ensamblaje de muy buenas tomas en pos de que la película fluya sin sobresaltos tecnológicos. El control de la iluminación para crear el ambiente necesario es de mencionar."
         },
         {
-          "film": "FAKE BLOOD / SANGRE FALSA – Canadá, 2017 – Director: Rob Grant. Guión: Rob Grant",
-          "name": "MEJOR GUIÓN",
-          "country": "",
-          "citation": "script",
-          "director": "Rob Grant",
-          "recipient": ""
-        },
-        {
-          "film": "JAMIE CYMBAL por ATRACO FANTASMAL / POLTERHEIST",
-          "name": "MEJOR ACTOR",
-          "country": "Reino Unido",
-          "citation": "",
-          "director": "David Gilbank",
-          "recipient": ""
-        },
-        {
-          "film": "MAHTAB",
-          "name": "MEJOR ACTRIZ",
-          "country": "Irán",
-          "citation": "personaje",
-          "director": "Vahid Pakzad",
-          "recipient": "MAHTAB DEHGHAN"
-        },
-        {
-          "film": "A la edición de FAKE BLOOD / SANGRE FALSA",
-          "name": "MENCIONES ESPECIALES",
+          "name": "MEJOR GUIÓN / BEST SCREENPLAY",
+          "film": "FAKE BLOOD / SANGRE FALSA",
           "country": "Canadá",
-          "citation": "",
-          "director": "/ Editor: Rob Grant",
-          "recipient": ""
+          "director": "Rob Grant",
+          "recipient": "ROB GRANT, MIKE KOVAC",
+          "citation": "Un docu-drama sobre la violencia en film que nubla la línea en qué es realidad y qué es ficción dentro de la misma. Logra captar la total atención del espectador, absorbiéndolo. Técnicamente no tiene un «script» pero en realidad lo tiene. Editado magistralmente."
+        },
+        {
+          "name": "MEJOR ACTOR / BEST ACTOR",
+          "film": "ATRACO FANTASMAL / POLTERHEIST",
+          "country": "Reino Unido",
+          "director": "David Gilbank",
+          "recipient": "JAMIE CYMBAL",
+          "citation": "Por representar al torpe en una forma creíble y generar nuestro cariño a pesar de que su personaje no lo genera."
+        },
+        {
+          "name": "MEJOR ACTRIZ / BEST ACTRESS",
+          "film": "MAHTAB",
+          "country": "Irán",
+          "director": "Vahid Pakzad",
+          "recipient": "MAHTAB DEHGHAN",
+          "citation": "Por plasmar su «personaje» en una forma creíble y entrañable. Por transmitir la angustia de su situación a la perfección."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "FAKE BLOOD / SANGRE FALSA",
+          "country": "Canadá",
+          "director": "Rob Grant",
+          "recipient": "A la edición",
+          "citation": "¿Dónde se borra la línea entre la realidad y la ficción? Uno de los grandes logros de este docu-drama radica en que no sabemos qué es ficción y qué es real. Muy bien editada con ese propósito."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "NO SABÉS CON QUIÉN ESTÁS HABLANDO",
+          "country": "Argentina",
+          "director": "Demian Rugna",
+          "recipient": "Al guión",
+          "citation": "Por el libreto de su realizador Demian Rugna y sus entrañables personajes."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "ABRAKADABRA",
+          "country": "Argentina / Nueva Zelanda",
+          "director": "Luciano Onetti, Nicolás Onetti",
+          "recipient": "A la notable actuación de Germán Baudino",
+          "citation": ""
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "ABRAKADABRA",
+          "country": "Argentina / Nueva Zelanda",
+          "director": "Luciano Onetti, Nicolás Onetti",
+          "recipient": "A la excelente música de Luciano Onetti",
+          "citation": ""
         }
-      ],
-      "section": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES"
+      ]
     },
     {
+      "section": "COMPETENCIA LATINOAMERICANA DE LARGOMETRAJES / LATIN AMERICAN LONG FEATURE FILMS COMPETITION",
       "jury": "EL COMITÉ DE PRESELECCIÓN DEL FESTIVAL",
       "awards": [
         {
+          "name": "MEJOR PELÍCULA / BEST LONG FEATURE FILM",
           "film": "MIRADA DE CRISTAL",
-          "name": "MEJOR PELÍCULA",
           "country": "Argentina",
-          "citation": "",
-          "director": "",
-          "recipient": ""
+          "director": "Ezequiel Endelman, Leandro Montejano",
+          "recipient": "",
+          "citation": "Por un muy cuidadoso trabajo de producción, y por la perfecta mezcla que sus realizadores hacen del giallo con el slasher de los años 80. Por sus momentos de tensión y gran poderío visual."
         }
-      ],
-      "section": "A la excelente música de Luciano Onetti en"
+      ]
     },
     {
+      "section": "PREMIOS DEL PÚBLICO / AUDIENCE CHOICE AWARDS",
       "jury": "",
       "awards": [
         {
+          "name": "MEJOR PELÍCULA DEL FESTIVAL / BEST LONG FEATURE FILM",
+          "film": "ABRAKADABRA",
+          "country": "Argentina / Nueva Zelanda",
+          "director": "Luciano Onetti, Nicolás Onetti",
+          "recipient": "",
+          "citation": ""
+        },
+        {
+          "name": "MEJOR PELÍCULA LATINOAMERICANA / BEST LATIN AMERICAN FILM",
           "film": "MIRADA DE CRISTAL",
-          "name": "MEJOR PELÍCULA LATINOAMERICANA",
           "country": "Argentina",
-          "citation": "",
-          "director": "",
-          "recipient": ""
+          "director": "Ezequiel Endelman, Leandro Montejano",
+          "recipient": "",
+          "citation": ""
         }
-      ],
-      "section": "PREMIOS DEL PÚBLICO"
+      ]
     },
     {
+      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES / SHORT FILMS OFFICIAL COMPETITION",
       "jury": "ELLIANA CENTURIÓN (URUGUAY, docente), DANIEL FENOGLIO (URUGUAY, periodista, gestor cultural) y LUIS VARELA (URUGUAY; docente, cineasta)",
       "awards": [
         {
+          "name": "MEJOR CORTOMETRAJE DEL FESTIVAL / BEST SHORT FILM",
+          "film": "NIMMER / NUNCA",
+          "country": "Bélgica",
+          "director": "Lieven Vanhove",
+          "recipient": "",
+          "citation": "Muy cuidada realización que entronca muy bien en el género fantástico. Pareja separada, con ella sobre un promontorio que está derrumbándose. Los intentos del hombre por salvarla, y la romántica respuesta de la mujer. Con sobrias interpretaciones que van de la esperanza al esfuerzo por concretar el salvataje. Romántica, poética, tal vez apocalíptica."
+        },
+        {
+          "name": "MEJOR CORTO LATINOAMERICANO / BEST LATIN AMERICAN SHORT FILM",
           "film": "MENSAJE",
-          "name": "MEJOR CORTO LATINOAMERICANO",
           "country": "Argentina",
-          "citation": "",
           "director": "Sergio Marzano",
-          "recipient": ""
+          "recipient": "",
+          "citation": "Dramática representación con giro fantástico sobre una situación del mundo real. La novia abandonada amenaza eliminarse y el novio se siente culpable. Gran actuación protagónica, angustiante, perseguido en un amplio y casi vacío y solitario caserón."
         },
         {
+          "name": "MEJOR CORTO URUGUAYO / BEST URUGUAYAN SHORT FILM",
           "film": "ENTRE LAS SIERRAS",
-          "name": "MEJOR CORTO URUGUAYO",
-          "country": "",
-          "citation": "",
-          "director": "",
-          "recipient": ""
+          "country": "Uruguay",
+          "director": "Nicolás Croza, Eduardo Granadsztejn",
+          "recipient": "",
+          "citation": "Tenso drama en la carretera. Bien narrado, bien construido, ambientado en la soledad de paisaje rural. La estructura cierra con circularidad todo el planteo, sugiriendo que la historia tiende a repetirse."
         },
         {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
           "film": "THE LAST WELL / LA ÚLTIMA FUENTE",
-          "name": "MENCIONES ESPECIALES",
           "country": "Croacia",
-          "citation": "",
           "director": "Filip Filkovic",
-          "recipient": ""
+          "recipient": "",
+          "citation": "Trabajada representación del mundo del futuro. En el 2037 existe sólo una fuente de agua y su dueño es atacado. Las relaciones personales son intercambiables o prescindibles, los chinos acechan y todo desemboca en enfrentamiento armado."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "LA GUARIDA",
+          "country": "España",
+          "director": "Iago de Soto",
+          "recipient": "",
+          "citation": "Ambientada en la España que sale del franquismo, con un grupo de personajes reunidos en un bar. Hay un importante giro dramático en los parroquianos, desde la amabilidad inicial a la justicia por mano propia avalada por la policía. Buena reconstrucción, bien actuada, una reflexión sobre la España que inicia la transición."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "MIEDOS",
+          "country": "España",
+          "director": "Germán Sancho",
+          "recipient": "",
+          "citation": "Sensible acercamiento a los miedos infantiles, con niña que tiene visiones cuando se apaga la luz. Muy buen trabajo fotográfico y buena labor de la niña protagónica con importante vuelta sobre el final, cuando emerge una situación latente en relación a la vejez."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "LAS CRÓNICAS DE BOLDMAN",
+          "country": "Uruguay",
+          "director": "Agustín Álvarez",
+          "recipient": "",
+          "citation": "Impactante trabajo de dirección de arte sobre hombre mayor que parece haber tenido un pasado luminoso. Interesante mezcla con la estética del comic para redondear, tal vez, una metáfora sobre el paso del tiempo."
         }
-      ],
-      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES"
+      ]
+    },
+    {
+      "section": "PREMIOS DEL PÚBLICO / AUDIENCE CHOICE AWARDS",
+      "jury": "",
+      "awards": [
+        {
+          "name": "MEJOR CORTOMETRAJE DEL FESTIVAL / BEST SHORT FILM",
+          "film": "LUNCH LADIES",
+          "country": "Estados Unidos",
+          "director": "J. M. Logan",
+          "recipient": "",
+          "citation": "Una creación de Clarissa Jacobson"
+        },
+        {
+          "name": "MEJOR CORTOMETRAJE LATINOAMERICANO / BEST LATIN AMERICAN SHORT FILM",
+          "film": "LA INQUILINA",
+          "country": "Uruguay",
+          "director": "Raúl Pierri",
+          "recipient": "",
+          "citation": ""
+        },
+        {
+          "name": "MEJOR CORTOMETRAJE URUGUAYO / BEST URUGUAYAN SHORT FILM",
+          "film": "LA INQUILINA",
+          "country": "Uruguay",
+          "director": "Raúl Pierri",
+          "recipient": "",
+          "citation": ""
+        }
+      ]
     }
   ],
   "edition": {
@@ -132,48 +226,48 @@
           "year": 2018,
           "title": "ABRAKADABRA",
           "poster": "/media/archive/XI/films/abrakadabra.jpg",
-          "review": null,
-          "country": "ARGENTINA",
-          "credits": "",
+          "review": "Tercera incursión en el giallo de los hermanos (argentinos) Onetti (Sonno Profondo, Francesca) y la mejor de todas las películas que han hecho hasta el momento. La perfecta emulación que hacen del famoso subgénero italiano de terror, que hizo furor en los ´60 y ´70, ya es una virtuosa costumbre, pero a esta le agregan una historia que no se apoya solamente en homenajes a asesinos seriales, en lo visual, lo estético, la violencia, o el erotismo, sino que, con pocos diálogos, logran meter al espectador en el misterioso mundo del asfixiado protagonista, sin olvidar la infaltable vuelta de tuerca (que aquí luciría como otro acto de magia) en el último suspiro de la película. Seleccionada para Cannes y Sitges.",
+          "country": "ARGENTINA / NUEVA ZELANDA",
+          "credits": "Dirección: Luciano Onetti, Nicolás Onetti. Guión: Carlos Goitía, LO, NO. Con Germán Baudino, María Eugenia Rigón, Clara Kovacic, Ivi Brickell, Gustavo D´Alessandro. Duración: 71 minutos.",
           "director": "Luciano Onetti, Nicolás Onetti",
           "duration": 71,
           "synopsis": "«El Gran Dante», un prestigioso mago, muere accidentalmente durante un arriesgado truco de magia. Treinta y cinco años después su hijo Lorenzo, también mago, presenta un show de magia en uno de los teatros más importantes de la ciudad. A partir de allí comenzará a suceder una serie de crímenes que intentará incriminarlo. Lorenzo debe descubrir quién y porqué busca involucrarlo, antes de que sea demasiado tarde…",
-          "trailer_url": null
+          "trailer_url": "https://www.youtube.com/embed/aLoVKeL56E4"
         },
         {
           "slug": "atraco-fantasmal-polterheist",
           "year": 2018,
           "title": "ATRACO FANTASMAL / POLTERHEIST",
           "poster": "/media/archive/XI/films/atraco-fantasmal-polterheist.jpg",
-          "review": null,
+          "review": "La historia se basa en los caracteres creados para un corto exhibido en competencia, en la pasada edición del festival (Polterheist, 2016), y tuvo tanto éxito en su recorrida que al final el veterano director inglés David Gilbank decidió llevarlo a largometraje. Entre toques tarantinescos a-la-Pulp Fiction y otros que remiten claramente a El Exorcista, de William Friedkin, los pobres personajes de esta comedia negra (uno muy despierto, el otro bastante ingenuo) deberán lidiar con pandillas de inmigrantes mafiosos (polacos, indios) y situaciones algo delirantes, caricaturescas, con el fin de dar con el paradero del botín y así salvar sus vidas. Muy a la pasada se toca el tema de la inseguridad, más bien burlándose del papel de la prensa sensacionalista y su manera de comunicarlo exageradamente.",
           "country": "REINO UNIDO",
-          "credits": "",
+          "credits": "Dirección: David Gilbank. Guión: DG, Gemma Head, Paul Renhard, basado en los caracteres creados para el corto Polterheist: Atraco paranormal. Con Jo Mousley, Sik Akbar Ali, Jamie Cymbal, Pushpinder Chani, Kev Curtin. Duración: 86 minutos.",
           "director": "David Gilbank",
           "duration": 86,
           "synopsis": "Dos desventurados delincuentes de poca monta secuestran a una médium, obligándola a contactar con el gánster al que asesinaron accidentalmente, para así encontrar un botín enterrado. A contrarreloj y por miedo al jefe psicópata de una banda, acaban desatando accidentalmente un demonio empeñado en vengarse.",
-          "trailer_url": null
+          "trailer_url": "https://player.vimeo.com/video/269797251?title=0&amp;byline=0"
         },
         {
           "slug": "fake-blood-sangre-falsa",
           "year": 2017,
           "title": "FAKE BLOOD / SANGRE FALSA",
           "poster": "/media/archive/XI/films/fake-blood-sangre-falsa.jpg",
-          "review": null,
+          "review": "En una visita a Buenos Aires, el director Peter Bogdanovich le contestaba a una joven porqué no le gustaban para nada las películas de terror. «Lamentablemente en mi vida experimenté el asesinato de alguien a quien amé mucho. Un asesinato es suficiente para destruir una familia, una vida. Gente que hace estas películas nunca vivió un asesinato.» Pues ahí va la dupla Grant-Kovacs para contrastar lo que disfrutan en la ficción con lo que terminan viviendo en la realidad, a través de una perspectiva que los hará replantear en más de una oportunidad lo que están haciendo en el documental y lo que han venido haciendo como cineastas. Más allá de si hay o no un 100% de veracidad en lo que se ve, queda lo otro, la propuesta en sí, su abordaje, y muy especialmente la intención de comunicar algo distinto dentro del género, sin imponerle nada al espectador, dándole las cartas suficientes como para que saque sus propias conclusiones, sea o no aficionado al terror. Del director canadiense Rob Grant el festival ya había exhibido (en la tercera edición) Yesterday (2008), su notable ópera prima de zombies, donde estos últimos en realidad no eran tan peligrosos como los propios seres humanos que luchaban por sobrevivir. Fake Blood fue premiada en Estados Unidos y Canadá.",
           "country": "CANADÁ",
-          "credits": "",
+          "credits": "Dirección: Rob Grant. Guión: RG, Mike Kovac. Con RG, MK, Chelsey Reist, Camden Filtness, Jacqueline Breakwell. Duración: 81 minutos.",
           "director": "Rob Grant",
           "duration": 81,
-          "synopsis": "FAKE BLOOD / SANGRE FALSA",
-          "trailer_url": null
+          "synopsis": "El director de esta película y su amigo y coguionista reciben de parte de uno de sus seguidores un llamativo video, inspirado en un trabajo que habían filmado algunos años atrás (comedia negra donde dos hombres discutían qué herramientas eran las mejores para deshacerse de un cuerpo). Esto los lleva a hacer un documental sobre hasta dónde son responsables los realizadores a la hora de transmitir violencia en sus películas de terror. La planificación, al momento de ir por los entrevistados, es meticulosa, al punto tal que terminan cruzando la vereda para ir a hablar con criminales de la vida real y lo que han sufrido sus víctimas sobrevivientes, llegando hasta familiares de personas asesinadas…, e incluso a poner en riesgo sus propias vidas.",
+          "trailer_url": "https://www.youtube.com/embed/yqYznhL__FE"
         },
         {
           "slug": "ghost-mask-scar-la-mascara-fantasma-cicatriz",
           "year": 2018,
           "title": "GHOST MASK – SCAR / LA MÁSCARA FANTASMA: CICATRIZ",
           "poster": "/media/archive/XI/films/ghost-mask-scar-la-mascara-fantasma-cicatriz.jpg",
-          "review": null,
+          "review": "No es común ver cine japonés tan ultraindependiente ni tampoco ver un drama que se toma su tiempo para plantear las cosas y que promediando la mitad del relato sorprende no solo con una inesperada vuelta de tuerca, sino también con un sutil cambio de rumbo, pasando a ser netamente una película de terror. Así y todo, la famosa cicatriz del título original no habría que tomarla tanto en sentido literal… El joven director nipón Takeshi Sone (también ha escrito obras teatrales) es un experimentado director de fotografía y montajista, con numerosas películas en su haber (no todas de terror y fantasía), y para el próximo año fue contratado para hacer en Los Ángeles la remake de una exitosa película suya, galardonada en numerosos festivales internacionales de cine. Premiada en Japón.",
           "country": "JAPÓN",
-          "credits": "",
+          "credits": "Dirección: Takeshi Shone. Guión: Etsuo Hiratani. Con Yurika Akane, Yuha Lee, Sou Hirosawa, Lee Eun-woo. Duración: 80 minutos.",
           "director": "Takeshi Shone",
           "duration": 80,
           "synopsis": "Miyu fue a Seúl, Corea del Sur, para estudiar y buscar a su hermana mayor, que desapareció hace dos años. Un día, Miyu conoce a Hana, una famosa cirujana plástica y con la que poco a poco comienza a hacer amistad. Al verla a ella recuerda cada vez más a su hermana. Hana también se siente atraída por Miyu, pero vive con su pareja del mismo sexo, Hyoshin, la cual comienza a sentir celos de la nueva amistad de su pareja. Eventualmente, sus respectivos pasados comienzan a revelarse…",
@@ -184,39 +278,53 @@
           "year": 2018,
           "title": "LOST IN APOCALYPSE / PERDIDOS EN EL APOCALIPSIS",
           "poster": "/media/archive/XI/films/lost-in-apocalypse-perdidos-en-el-apocalipsis.jpg",
-          "review": null,
+          "review": "La historia tiene su raíz en la exitosa novela gráfica homónima de Ruibo Cao y también una particularidad, bastante bien aprovechada dentro del subgénero; la amenaza zombie a veces no es tan peligrosa como la humana. Nacido en China, el joven director Sky Wang (31) vivió en Inglaterra, Canadá y finalmente se radicó en Estados Unidos, donde estudió cine y ahora está prácticamente con un pie en Hollywood, luego de esta ópera prima de bajo presupuesto, enteramente rodada en China. «La vida a veces trabaja de misteriosas maneras», llegó a decir Wang. Y es que aquí no importa tanto el origen de la amenaza ni dónde podría estar la salvación para los protagonistas, sino las circunstancias en las que sorpresivamente se encuentran los personajes (de distinta edad, clase social y maneras de pensar) y especialmente en cómo el pasado de ellos incide al momento de ingeniárselas para sobrevivir ante una situación jamás imaginada y que hasta tiene su peso dramático, sacando lo mejor y a veces lo peor de cada uno. Wang, al mismo tiempo, trata de evitar los excesos a los que nos tiene acostumbrados este tipo de cine; otro gran punto a su favor, que se suma, además, al esmero en la filmación. Premiada en Estados Unidos, India y Reino Unido.",
           "country": "CHINA",
-          "credits": "",
-          "director": null,
-          "duration": null,
+          "credits": "(Mo Shi Ren Jian Dao) – Dirección: Sky Wang. Guión: SW, Fei'er Zhao, sobre historia de Baiying Wu y basado en la novela gráfica de Ruibo Cao. Con Martin Yang, E'Naan Zhang, Mingyi Yang, Ray Wang, Fengzhu Jia. Duración: 90 minutos.",
+          "director": "Sky Wang",
+          "duration": 90,
           "synopsis": "Un grupo de personas sin relación entre sí termina convergiendo en un hotel que está infestado por un virus. Encerrados en una habitación tratarán de huir, solo para terminar en un lugar peor aún.",
-          "trailer_url": null
+          "trailer_url": "https://player.vimeo.com/video/268872323?title=0&amp;byline=0",
+          "original_title": "Mo Shi Ren Jian Dao"
         },
         {
           "slug": "mahtab",
           "year": 2017,
           "title": "MAHTAB",
           "poster": "/media/archive/XI/films/mahtab.jpg",
-          "review": null,
+          "review": "Es la primera vez que el festival exhibe un largo iraní en su programación. Filmada en un solo plano de poco más de 80 minutos, el joven debutante Vahid Pazkad se manda un tour de force, al igual que los protagonistas, en esta pequeña road movie que recorre la capital iraní. La película linda con situaciones insólitas y hasta algo bizarras, pero se guarda una vuelta de tuerca que hace del trabajo algo más que un simple rompecabezas.",
           "country": "IRÁN",
-          "credits": "",
-          "director": "Demian Rugna",
-          "duration": 95,
+          "credits": "Guión y Dirección: Vahid Pakzad. Con Mahtab Dehghan y Mahan Dehghan. Duración: 86 minutos.",
+          "director": "Vahid Pakzad",
+          "duration": 86,
           "synopsis": "Mahtab, acompañada de su pequeño hermano, debe seguir estrictamente las misteriosas órdenes que recibe por mensajes de texto. Aparte de tener que superar todas las fases, Mahtab tan solo dispone de una ambulancia con chofer que la ayudará, y tiene prohibido, además, llamar al autor de los mensajes que le envían a su celular (de lo contrario…). ¿Se trata de una prueba, un juego, o algo mucho peor?",
-          "trailer_url": null
+          "trailer_url": "https://www.youtube.com/embed/GCylcDwuPds"
+        },
+        {
+          "slug": null,
+          "poster": null,
+          "trailer_url": "https://www.youtube.com/embed/rsLkZkLpTJc",
+          "year": 2016,
+          "title": "NO SABÉS CON QUIÉN ESTÁS HABLANDO",
+          "country": "ARGENTINA",
+          "synopsis": "Romano y Juan planean el crimen perfecto: provocarle un infarto a un viejo gitano al que le deben mucho dinero. Para ello idean muchas estrategias ingenuas que fracasan constantemente y solo provocan enredos con la mafiosa familia del gitano.",
+          "review": "Del director de Aterrados (ganadora de la pasada edición del Montevideo Fantástico) llega ahora esta comedia negra con toques fantásticos que da un paseo por la idiosincrasia del argentino de barrios bajos, donde el fracaso está latente y las ambiciones son pequeñas cosas aunque tan inalcanzables como ridículas. La película funciona como una parodia al género de terror dando un puñetazo de humor negro. En el elenco aparece Gustavo Garzón, «que hace de policía que está por fuera de todos, los mira como por arriba y descubre un mundo bizarro. Él vendría a hacer el papel del público.», afirmaba en una entrevista Demian Rugna (La última puerta, Malditos sean).",
+          "credits": "Guión y Dirección: Demian Rugna. Con Germán de Silva, Martín Tchira, Héctor Bidonde, Chucho Fernández, Demián Salomón. Duración: 95 minutos.",
+          "director": "Demian Rugna",
+          "duration": 95
         },
         {
           "slug": "the-psychics-los-psiquicos",
           "year": 2018,
           "title": "THE PSYCHICS / LOS PSÍQUICOS",
           "poster": "/media/archive/XI/films/the-psychics-los-psiquicos.jpg",
-          "review": null,
+          "review": "Tres curiosidades; la primera es que se trata de la ópera prima de un realizador noruego de 46 años, egresado de la Escuela de Cine de Londres, guionista free lance, que ha hecho cortos de ficción y audiovisuales para empresas. La segunda es que aquí prácticamente no hay un libreto sino apenas una base sobre la que los actores van improvisando, experimentando, en lo que el realizador dio en llamar «absoluta libertad creativa». Y la tercera que no es una película volcada exclusivamente al terror paranormal sino un thriller de suspenso donde los humanos pueden resultar a veces más peligrosos que las propias entidades del más allá. Hecha con apenas 3.000 dólares, tres personas detrás de cámaras, un puñado de actores, y teniendo como principal referente a El Proyecto Blair Witch (1999), el trabajo aporta una visión distinta al subgénero del found footage (filmaciones halladas).",
           "country": "NORUEGA",
-          "credits": "",
+          "credits": "Guión y Dirección: Tomas Sem Løkke-Sørensen. Con Kirsti Lovas, Frank Thomas Holen Andersen, Oddrun Valestrand, Hannah Karine Giske, Jennie Sofie Lie Pickl. Duración: 73 minutos.",
           "director": "Tomas Sem Løkke-Sørensen",
           "duration": 73,
           "synopsis": "Una documentalista está haciendo un trabajo sobre los psíquicos, centrándose en las habilidades de estos especialistas, en esas visiones que llegaron a resolver varios crímenes y a dar con el paradero de gente desaparecida. Pero repentinamente se topa con un caso que desde hace 20 años nadie ha podido resolver, por lo que su documental da un giro radical, pasando a ser una investigación casi obsesiva sobre ese misterioso asunto. Algunos de los entrevistados le aconsejan no seguir y otros directamente la abandonan, dada la extrema peligrosidad del mismo, aunque ella decide continuar, sin importar las consecuencias.",
-          "trailer_url": null
+          "trailer_url": "https://www.youtube.com/embed/TR_Po2a3mLQ"
         }
       ]
     },
@@ -229,104 +337,112 @@
           "year": 2018,
           "title": "EL BOSQUE NEGRO",
           "poster": "/media/archive/XI/films/el-bosque-negro.jpg",
-          "review": null,
+          "review": "Quinto largo del brasilero Rodrigo Aragão (todos exhibidos en el festival) y una nueva incursión en la selva del Mato Grosso para desatar más fenómenos sobrenaturales, que esta vez afectan a una inocente joven, dispuesta a todo con tal que su asesinado pretendiente vuelva a la vida. Siempre hay una causa en las películas de Aragão por las que el entorno se rebela contra los residentes del lugar, desde la contaminación ambiental en Mud Zombies (2008), que, además, afecta directamente a los animales en Mar negro (2013), pasando por el odio histórico entre dos familias que se materializa en un monstruo (La noche del chupacabras (2011), y llegando a la ambición y el materialismo del ser humano en esta nueva historia.",
           "country": "BRASIL",
-          "credits": "",
-          "director": null,
-          "duration": null,
+          "credits": "(A Mata Negra) – Guión y Dirección: Rodrigo Aragão. Con Jackson Antunes, Clarissa Pinheiro, Francisco Gaspar, Marcus Konká, Carol Aragão. Duración: 99 minutos.",
+          "director": "Rodrigo Aragão",
+          "duration": 99,
           "synopsis": "Ambientada en el interior del estado de Espírito Santo, una joven ve cambiar su vida terriblemente cuando encuentra «El Libro Perdido de Cipriano», cuya magia negra, capaz de otorgar poder y riqueza al que lo posee, también puede liberar un mal terrible sobre la Tierra.",
-          "trailer_url": null
+          "trailer_url": "https://www.youtube.com/embed/8aygrigtWAg",
+          "original_title": "A Mata Negra"
         },
         {
           "slug": "clementina",
           "year": 2017,
           "title": "CLEMENTINA",
           "poster": "/media/archive/XI/films/clementina.jpg",
-          "review": null,
+          "review": "Un drama camaleónico, quizás, porque comienza nutriéndose del fenómeno sobrenatural pero en realidad lo que le interesa a la realizadora y coguionista mendocina Jimena Monteoliva es otra cosa; nada menos que exponer un caso violencia de género y sus consecuencias. El tratamiento tiene su autenticidad; cautiva desde su estética, su opresiva atmósfera, y en especial lleva al espectador a cuestionarse si lo que la protagonista está viviendo (sobresaliente labor de Cecilia Cartasegna) reside sólo en su imaginación, producto de la recuperación tras salir del hospital, o si realmente está pasando/padeciendo todo lo que vemos.",
           "country": "ARGENTINA",
-          "credits": "",
+          "credits": "Dirección: Jimena Monteoliva. Guión: Diego Fleischer, JM. Con Cecilia Cartasegna, Emiliano Carrazzone, Susana Varela, Lalo Rotavería, Felipe Llach. Duración: 89 minutos.",
           "director": "Jimena Monteoliva",
           "duration": 89,
           "synopsis": "Después de ser atacada brutalmente por su esposo, Juana regresa a su casa. El marido está prófugo y ella inicia sola su recuperación. Sonidos extraños, objetos que aparecen y que luego se pierden, sombras y voces que la persiguen: Juana no sabe si su esposo está oculto acechándola, si todo es obra de su imaginación, o si en la casa hay un fantasma…",
-          "trailer_url": null
+          "trailer_url": "https://www.youtube.com/embed/OUmCOaY2dag"
         },
         {
           "slug": "la-jaula",
           "year": 2017,
           "title": "LA JAULA",
           "poster": "/media/archive/XI/films/la-jaula.jpg",
-          "review": null,
+          "review": "Ópera prima de José Ignacio Salaverría y primera película de ciencia ficción venezolana, que recuerda muy sutilmente a un clásico de Robert Wise, y a un par de trabajos del mejor M. Night Shyamalan. No conviene dar referencias cinéfilas exactas ni tampoco extenderse en la intención final del propio realizador y coguionista (sobre la que va dando algunas pistas a lo largo del relato), ya que ahí reside uno de los grandes méritos de la película. Premiada en Filipinas e Indonesia, se estrenará comercialmente en Venezuela en 2019.",
           "country": "VENEZUELA",
-          "credits": "",
+          "credits": "Dirección: José Ignacio Salaverría. Guión: JIS, Inti Torres. Con Karina Velásquez, Ananda Troconis y Juvel Vielma. Duración: 82 minutos",
           "director": "José Ignacio Salaverría",
           "duration": 82,
           "synopsis": "La Tierra ha sido despoblada por una inteligencia superior. Desde entonces, una gigantesca nave flota vigilante en el cielo, sin dar mayor señal de vida. Eva y Fausto han convivido por años, pero la realidad empieza a perder sentido para ellos, en especial para Eva, que ha comenzado a construir su propio universo, a raíz del cambiante comportamiento de Fausto, producto de esa nave que permanece omnipresente para ellos. Un día, una misteriosa mujer aparece en escena, lo que lleva a la pareja protagonista a saber que algunos humanos han sobrevivido, regados y desconectados por el mundo. Quizás en ellos resida la esperanza del futuro de la raza humana. O quizás también esté en marcha un plan mucho más grande, imposible de detener.",
-          "trailer_url": null
+          "trailer_url": "https://www.youtube.com/embed/beQDKHX1sHw"
         },
         {
           "slug": "mirada-de-cristal",
           "year": 2017,
           "title": "MIRADA DE CRISTAL",
           "poster": "/media/archive/XI/films/mirada-de-cristal.jpg",
-          "review": null,
+          "review": "Más que una evocación del giallo (por más que es inevitable pensar en el mejor Dario Argento), este nuevo largo de la dupla Montejano-Endelman recuerda a varios slashers norteamericanos de los ´80. De altísima factura técnico-estética y de gran poderío visual, el relato comienza hasta jugando con algunos estereotipos del cine de asesinos seriales a los que remite desde su planteo, para luego ir tornándose cada vez más atrapante y perturbador, sin caer en excesos. En el reparto aparecen reconocidas figuras como Silvia Montanari (que también es ahijada del gran Narciso Ibáñez Menta), Claudia Lapacó, Adriana Salgueiro, la cantante Diana María, y las periodistas Silvia Fernández Barrio y Fanny Mandelbaum. Los directores (que tienen experiencia como vestuaristas) también trabajaron en el diseño de producción, foto, cámara, montaje, maquetas y efectos especiales. Mención aparte para la excelente fotografía de Cecilia Casas y Vanina Gottardi, y el trabajo musical de Pablo Fuu.",
           "country": "ARGENTINA",
-          "credits": "",
+          "credits": "Guión y Dirección: Ezequiel Endelman, Leandro Montejano. Con Anahí Politi, Claudio Armesto, Diego Benedetto, Camila Pizzo, Valeria Giorcelli. Duración: 81 minutos.",
           "director": "Ezequiel Endelman, Leandro Montejano",
           "duration": 81,
           "synopsis": "Buenos Aires, 1985. Ha pasado un año. Es el primer aniversario del fallecimiento de Alexis Carpenter, la ascendente e inestable supermodelo que falleció trágicamente al prenderse fuego mientras cerraba un desfile, a causa de un desperfecto eléctrico causado por ella misma. Los miembros de la importante revista de modas y la agencia a la que pertenecía Alexis comienzan a desaparecer, uno por uno, a manos de una sigilosa, implacable y siniestra Silueta enfundada en un largo impermeable de charol negro. ¿Acaso alguien busca venganza? ¿O será que Alexis decidió finalmente regresar desde su tumba?",
-          "trailer_url": null
+          "trailer_url": "https://www.youtube.com/embed/x6DKQD_4N-Q"
         },
         {
           "slug": "en-la-esquina-del-ojo-out-of-the-corner-of-the-eye",
           "year": 2018,
           "title": "EN LA ESQUINA DEL OJO / OUT OF THE CORNER OF THE EYE",
           "poster": "/media/archive/XI/films/en-la-esquina-del-ojo-out-of-the-corner-of-the-eye.jpg",
-          "review": null,
+          "review": "Producción independiente de terror, rodada en Belo Horizonte (Minas Gerais) con influencias de viejos clásicos del género y que también llegan a la literatura. Algo sobrenatural comienza a atormentar al protagonista y a todos los seres queridos que lo rodean. Sin ambiciones ni grandes despliegues, la película cuenta no solo con buenas escenas y sobresaltos sino también con un elenco competente que revitaliza el drama de esta inquietante propuesta.",
           "country": "BRASIL",
-          "credits": "",
-          "director": null,
-          "duration": null,
+          "credits": "(No Canto do Olho) – Guión y Dirección: Sérgio Gomes. Con Giordano Bechelini, Michelle Castro, Raquel Dutra, Carlos Magno Ribeiro, Beto Guerino. Duración: 104 minutos.",
+          "director": "Sérgio Gomes",
+          "duration": 104,
           "synopsis": "Extrañas cosas comienzan a suceder cuando una joven pareja se muda a su nuevo hogar. Ambos se verán obligados a descubrir la razón detrás de tales acontecimientos, encontrándose con una realidad aterradora que cambiará el rumbo de sus vidas y de aquellos que están a su alrededor.",
-          "trailer_url": null
+          "trailer_url": "https://www.youtube.com/embed/25K2aTTgsOA",
+          "original_title": "No Canto do Olho"
         },
         {
           "slug": "trauma",
           "year": 2017,
           "title": "TRAUMA",
           "poster": "/media/archive/XI/films/trauma.jpg",
-          "review": null,
+          "review": "La película más violenta, oscura y perturbadora de esta undécima edición del festival viene del otro lado de la cordillera; el chileno Lucio A. Rojas (codirector de Muerte ciega, que pudo verse en el Montevideo Fan 6, en 2011) pega un giro de timón (antes era un Chile futurista devastado por una trasnacional minera) y coloca a sus protagonistas en un contexto mucho más duro aún, donde (otra vez) sólo los más fuertes sobreviven. Los fantasmas de un largo y trágico período en la historia chilena impactan de lleno en un relato crudo, provocador, muy bien filmado. Premiada en Grecia.",
           "country": "CHILE",
-          "credits": "",
+          "credits": "Guión y Dirección: Lucio A. Rojas. Con Catalina Martin, Macarena Carrere, Daniel Antivilo, Ximena del Solar, Dominga Bofill. Duración: 107 minutos.",
           "director": "Lucio A",
           "duration": 107,
           "synopsis": "Chile, 1973. Después que la dictadura militar pone fin dramáticamente al gobierno del presidente Allende, el general Augusto Pinochet gobierna el país con sangre y fuego. Asesinatos espantosos e impunes ocurrieron en las sombras de la dictadura chilena. En la actualidad, lo que podría haber sido un agradable fin de semana en el campo para un grupo de mujeres jóvenes, se convierte en una carrera enloquecedora para escapar del horror que aún sigue vivo. A media que se involucran más lugareños, uno por uno los desafortunados visitantes deben enfrentar el mal indescriptible que yace dentro de los hombres comunes.",
-          "trailer_url": null
-        },
+          "trailer_url": "https://player.vimeo.com/video/238818166?title=0&amp;byline=0"
+        }
+      ]
+    },
+    {
+      "name": "NOVEDADES / NEW RELEASES",
+      "type": "features",
+      "films": [
         {
           "slug": "inner-ghosts-fantasmas-interiores",
           "year": 2018,
           "title": "INNER GHOSTS / FANTASMAS INTERIORES",
           "poster": "/media/archive/XI/films/inner-ghosts-fantasmas-interiores.jpg",
-          "review": null,
+          "review": "Ópera prima del brasilero (radicado en Portugal) Paulo Leite, también una propuesta que intenta aportar algo distinto al subgénero de fantasmas (espíritus capaces de manejar la materia) y con el fin de explorar un poco más el universo del más allá, sin quedarse en un mero contacto entre el mundo real y el sobrenatural, o un insistente cuestionamiento desde lo racional.",
           "country": "PORTUGAL",
-          "credits": "",
+          "credits": "Guión y Dirección: Paulo Leite. Con Celia Williams, Elizabeth Bochmann, Iris Cayatte, Norman Mac Callum, Amanda Booth. Duración: 88 minutos.",
           "director": "Paulo Leite",
           "duration": 88,
           "synopsis": "Una neuróloga intenta desarrollar una terapia revolucionaria, capaz de curar enfermedades cerebrales degenerativas, como el Alzheimer. Para eso necesita pruebas cognitivas… en fantasmas, seres vivientes que pueden actuar y recordar sin la necesidad de un cerebro físico. Lo que a ella le interesa son sus almas vivas, el verdadero canal para entablar comunicación y así poder lograr su objetivo. Al encontrar un apartamento habitado por fantasmas benignos, las pruebas son un éxito. Pero cuando una amiga le pide que la ayude a deshacerse de un demonio que la ha estado persiguiendo durante años, las cosas cambian drásticamente. A pesar que la protagonista no quiere saber de nada con espíritus malignos, hay algo en su pasado que la hará aceptar el desafío.",
-          "trailer_url": null
+          "trailer_url": "https://www.youtube.com/embed/C6Af-b30PKU"
         },
         {
           "slug": "tokusatsu-grindhouse",
           "year": 2018,
           "title": "TOKUSATSU GRINDHOUSE",
           "poster": "/media/archive/XI/films/tokusatsu-grindhouse.jpg",
-          "review": null,
-          "country": "JAPÓN",
-          "credits": "",
+          "review": "Uruguay no podía estar sin su «grindhouse» y este doble programa, en coproducción con Japón, nos trae cine clase B donde predominan las artes marciales y lo bizarro, desde una invasión extraterrestre que tiene su punto más álgido en su batalla final, en la Playa Ramírez, hasta un duelo entre héroes con capacidades muy particulares y que prácticamente se da dentro de una casa, en suelo nipón. Uno de los realizadores, Pablo Praino (oriundo de Maldonado) es un viejo conocido del festival, integrante del ya disuelto grupo de cineastas egresados de la ECU, «Área 4». Tuvo una Mención Especial del Jurado por su corto Megazorg Z (2006) en el Montevideo Fantástico 2 (2007) y se desempeña como animador e ilustrador desde su propio estudio (Apple Scrander) fundado hace 12 años. Ha trabajado para largos como ANINA (2013), codirigió el corto animado Forlán Súper Campeones (2010) y realizó sketch cards para Marvel y DC. Bueno, por su parte, es canadiense, de origen filipino, y actualmente reside y trabaja en Japón. Ha hecho series para televisión, cortos, largos y dirige su estudio de cine independiente, Garage Hero, en Tokyo, especializado en el género tokusatsu, de cine japonés. Actualmente se encuentra en la etapa final de su próximo largo, la comedia de acción y ciencia ficción Strega.",
+          "country": "JAPÓN / URUGUAY",
+          "credits": "Guión y Dirección: Bueno, Pablo Praino. Con Melanie Gadea, Keisaku Kimura, Belén Romero, Natsuko Hara, Federico Senese. Duración: 58 minutos",
           "director": "Bueno, Pablo Praino",
           "duration": 58,
           "synopsis": "Explotación y explosiones. Piñas, patadas, poderes y transformaciones, en una antología de héroes orientales de los dos hemisferios.",
-          "trailer_url": null
+          "trailer_url": "https://www.youtube.com/embed/KrHyg6wZpSs"
         }
       ]
     },
@@ -340,9 +456,9 @@
           "poster": null,
           "review": null,
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Dirección: Sergio Pinheiro. Guión: Joe Fordham. Con Alana Kearns-Green, Brian Rohan, Matt McNutt. Duración: 13 minutos",
           "director": "Sergio Pinheiro",
-          "duration": null,
+          "duration": 13,
           "synopsis": "Al lidiar con el dolor por la pérdida de su hermano, los secretos oscuros resurgen de maneras inesperadas cuando Ginny llega a casa, inmediatamente después del funeral.",
           "trailer_url": null
         },
@@ -352,35 +468,37 @@
           "poster": null,
           "review": null,
           "country": "Australia",
-          "credits": "",
+          "credits": "Guión y Dirección: Edward Lyons. Con Renaye Loryman, Tristan McKinnon, Christian Charisiou. Duración: 14 minutos",
           "director": "Edward Lyons",
-          "duration": null,
+          "duration": 14,
           "synopsis": "Cuando su novio la hace bajar del auto, abandonándola en plena noche, la única vía para llegar a su casa es pasar por un callejón de una cuadra, donde la estará esperando la misteriosa entidad del título.",
           "trailer_url": null
         },
         {
-          "year": 2018,
+          "year": 2017,
           "title": "Amo a Eva Marsh",
           "poster": null,
           "review": null,
-          "country": "J´aime Eva Marsh",
-          "credits": "",
+          "country": "Francia",
+          "credits": "Guión y Dirección: Rémy Rondeau. Con Jaouen Gouevic, Elyne Craipeau, Devi Couzigou. Duración: 24 minutos",
           "director": "Rémy Rondeau",
-          "duration": null,
-          "synopsis": "Francia, 2017 – Verano de 1996. Un pequeño pueblo enclavado a la sombra de una gigantesca fábrica. Ben, un tímido niño de 11 años, vive allí solo con su madre. Por razones laborales ella debe ausentarse por una semana, pero le deja todo preparado para que se las arregle y no le falte nada. Pero la llegada de la preocupante Eva en su grupo lo inquieta un poco más, especialmente cuando menciona la leyenda de una misteriosa criatura escondida bajo el puente de un lago cercano. Como juego, Eva desafía a Ben: baja por el «puente de la muerte» y vuelve. Pero Ben fracasa rotundamente. Por la noche, la criatura se le aparece.",
-          "trailer_url": null
+          "duration": 24,
+          "synopsis": "Verano de 1996. Un pequeño pueblo enclavado a la sombra de una gigantesca fábrica. Ben, un tímido niño de 11 años, vive allí solo con su madre. Por razones laborales ella debe ausentarse por una semana, pero le deja todo preparado para que se las arregle y no le falte nada. Pero la llegada de la preocupante Eva en su grupo lo inquieta un poco más, especialmente cuando menciona la leyenda de una misteriosa criatura escondida bajo el puente de un lago cercano. Como juego, Eva desafía a Ben: baja por el «puente de la muerte» y vuelve. Pero Ben fracasa rotundamente. Por la noche, la criatura se le aparece.",
+          "trailer_url": null,
+          "original_title": "J´aime Eva Marsh"
         },
         {
           "year": 2018,
           "title": "Caducea: El hombre de la cara de corteza",
           "poster": null,
           "review": null,
-          "country": "Caducea: L´Homme Au Visage D´Écorce",
-          "credits": "",
+          "country": "Bélgica",
+          "credits": "Guión y Dirección: Christophe Mavroudis. Con Vincent Delré, Guillaume Alexandre, Marie-Jeanne Maldague. Duración: 25 minutos",
           "director": "Christophe Mavroudis",
-          "duration": null,
-          "synopsis": "Bélgica, 2018 – Tom no solo esconde un rostro deforme detrás de sus extravagantes máscaras. Hay un oscuro secreto en su familia que no será revelado hasta décadas después.",
-          "trailer_url": null
+          "duration": 25,
+          "synopsis": "Tom no solo esconde un rostro deforme detrás de sus extravagantes máscaras. Hay un oscuro secreto en su familia que no será revelado hasta décadas después.",
+          "trailer_url": null,
+          "original_title": "Caducea: L´Homme Au Visage D´Écorce"
         },
         {
           "year": 2017,
@@ -388,9 +506,9 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Guión y Dirección: Luis Tinoco Pineda. Con Melina Matthews, Mia Lardner, Oliver Lardner. Duración: 15 minutos",
           "director": "Luis Tinoco Pineda",
-          "duration": null,
+          "duration": 15,
           "synopsis": "Debbie no es muy simpática que digamos con su propia familia. Pero después de un dramático accidente automovilístico, comienza a lamentarse por la forma en que se comportó con ellos. Inesperadamente, la historia de Debbie se conecta con Arsys, una experimentada piloto militar y de combate espacial que intenta sobrevivir en una gran batalla espacial que tiene lugar en otro momento… otra galaxia… otro universo.",
           "trailer_url": null
         },
@@ -400,9 +518,9 @@
           "poster": null,
           "review": null,
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: Víctor Riadura. Con A. J. Bowen, Julia Silverman, Will Wallace. Duración: 6 minutos",
           "director": "Víctor Riadura",
-          "duration": null,
+          "duration": 6,
           "synopsis": "Una llamada de video despierta a AJ (30) de un sueño profundo. Su cuarto esta oscuro, lleva dormido unas horas. Cuando atiende la llamada, ve a su madre (60) amoratada y golpeada. Ha sido secuestrada. El secuestrador le ordena a AJ que vaya a la ventana de su cuarto y abra las cortinas. Tiene diez segundos para cumplir o su mamá morirá. ¿Que decidirá?",
           "trailer_url": null
         },
@@ -412,9 +530,9 @@
           "poster": null,
           "review": null,
           "country": "Perú",
-          "credits": "",
+          "credits": "Dirección: Diego Sánchez. Guión: Gabriel Angulo, DS. Con Emily Katiuska Corina Yacarini Valencia, Abel Antonio Rodríguez Chávez. Duración: 6 minutos",
           "director": "Diego Sánchez",
-          "duration": null,
+          "duration": 6,
           "synopsis": "Un par de estudiantes universitarios están en el auto. Terminaron su paseo nocturno del día. Cuando ella está a punto de despedirse, él la interrumpe y dice que no puede despedirse, porque tiene algo que confesar: son personajes de ficción. dentro de una película.",
           "trailer_url": null
         },
@@ -424,9 +542,9 @@
           "poster": null,
           "review": null,
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: Mariano Torres. Guión: MT, Marcos Lizenberg. Con Victoria Bilbao, Sebastián Bondi, Cecilia Ghisalberti. Duración: 10 minutos",
           "director": "Mariano Torres",
-          "duration": null,
+          "duration": 10,
           "synopsis": "Una joven madre soltera tiene que lidiar con la incapacidad de su hijo para comunicarse, mientras que al mismo tiempo comienzan a ocurrir cosas extrañas en su hogar. Al parecer, los dibujos inocentes que el niño está pintando en las paredes ahora se están convirtiendo en algo bastante macabro.",
           "trailer_url": null
         },
@@ -436,9 +554,9 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Dirección: Sergio Morcillo. Guión: Santiago Taboada. Con Marina Romero, Adrián López, Ismael de las Heras. Duración: 14 minutos",
           "director": "Sergio Morcillo",
-          "duration": null,
+          "duration": 14,
           "synopsis": "Marta es una adolescente cuyos padres murieron hace dos años. Una noche, mientras está sola en casa, descubrirá la verdad acerca del dolor que la está atormentando en su interior.",
           "trailer_url": null
         },
@@ -448,9 +566,9 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Dirección: Iago de Soto. Guión: Joan Abelló Sanz, IdS. Con Daniel Ortiz, María Hervás, Felipe García Vélez. Duración: 16 minutos",
           "director": "Iago de Soto",
-          "duration": null,
+          "duration": 16,
           "synopsis": "Mario conduce de noche, bajo la lluvia, por una carretera solitaria. De repente, se detiene. En medio de la carretera hay una mujer desorientada y manchada de sangre. Ella no recuerda lo que le ha pasado ni cómo ha llegado hasta allí. Mario decide conseguir ayuda y parar en el primer sitio que encuentren: el bar «La Guarida». Allí les acogerán y les socorrerán de buen grado hasta que la verdad empiece a salir a la luz. Puede que para entonces el bar ya no parezca un lugar tan seguro…",
           "trailer_url": null
         },
@@ -460,9 +578,9 @@
           "poster": null,
           "review": null,
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Dirección: Valeria Tannuzzi. Guión: Cree Michelle Rogers. Con Andre L. Johnson, CMR, Dana Joyce Schiller. Duración: 6 minutos",
           "director": "Valeria Tannuzzi",
-          "duration": null,
+          "duration": 6,
           "synopsis": "Un científico sumiso se convierte en la última esperanza de supervivencia para un visitante extranjero.",
           "trailer_url": null
         },
@@ -472,9 +590,9 @@
           "poster": null,
           "review": null,
           "country": "Croacia",
-          "credits": "",
+          "credits": "Dirección: Filip Filkovic. Guión: Velimir Grgic. Con Alen Liveric, Ozren Grabaric, Mia Biondic. Duración: 20 minutos",
           "director": "Filip Filkovic",
-          "duration": null,
+          "duration": 20,
           "synopsis": "Año 2037. Europa está en un estado de ruptura completa. El propietario del último pozo de agua pura natural vive en Croacia. Después que la venta de agua a una buena familia sale mal y termina en un derramamiento de sangre, se convierte en padre y esposo sustitutos. Pero cuando su pozo se seca, se verá obligado a hacer un último «negocio».",
           "trailer_url": null
         },
@@ -484,9 +602,9 @@
           "poster": null,
           "review": null,
           "country": "Italia",
-          "credits": "",
+          "credits": "Guión y Dirección: Giulio Manicardi. Con Antonio Pauletta, Eleonora Massa, Aldo Stella. Duración: 20 minutos",
           "director": "Giulio Manicardi",
-          "duration": null,
+          "duration": 20,
           "synopsis": "Un misterioso asesino en serie presenta un espectáculo macabro, donde ejecuta (o no) a sus víctimas en vivo, dejando el veredicto final en manos del público de la red, que puede decidir entre matar o salvar a la víctima con simples «Me gusta». Ganador de varios premios en Italia.",
           "trailer_url": null
         },
@@ -496,9 +614,9 @@
           "poster": null,
           "review": null,
           "country": "Estados Unidos",
-          "credits": "",
-          "director": "Clarissa Jacobson",
-          "duration": null,
+          "credits": "Dirección: Clarissa Jacobson, J. M. Logan. Guión: Clarissa Jacobson. Con Donna Pieroni, Mary Manofsky, Daisy Kershaw. Duración: 19 minutos",
+          "director": "Clarissa Jacobson, J",
+          "duration": 19,
           "synopsis": "Dos mujeres, hartas y cansadas del maltrato y el menosprecio al trabajar como cocineras para un liceo, se enteran de que fueron elegidas por el mismísimo Johnny Depp para que sean sus chefs personales. Premiada en Canadá, Estados Unidos, India, México, Reino Unido, Sudáfrica.",
           "trailer_url": null
         },
@@ -508,21 +626,21 @@
           "poster": null,
           "review": null,
           "country": "Holanda",
-          "credits": "",
-          "director": "Kurt Platvoet",
-          "duration": null,
+          "credits": "Guión y Dirección: Kurt Platvoet, Jan Verdijk. Con Raymond Thiry, Jacqueline Blom, Matin Dadfar. Duración: 9 minutos",
+          "director": "Kurt Platvoet, Jan Verdijk",
+          "duration": 9,
           "synopsis": "Una pareja disfruta de su cálida sopa cuando un hombre repentinamente cae del cielo en su jardín. Ton lo ve como si se tratara de una especie peligrosa. Pero ella, Ineke, quiere ayudar. La situación se agrava. Ambos pronto descubrirán quién es realmente su otra mitad. O al menos eso es lo que se irá viendo, antes que sea demasiado tarde. (Valt Een Man Uit De Lucht)",
           "trailer_url": null
         },
         {
           "year": 2018,
-          "title": "Mapa a las estrella s",
+          "title": "Mapa a las estrellas",
           "poster": null,
           "review": null,
           "country": "Paraguay",
-          "credits": "",
+          "credits": "Guión y Dirección: Pedro Jaen R. Con Paula Melenik, Hugo Melenik, Pau Quero. Duración: 10 minutos",
           "director": "Pedro Jaen R",
-          "duration": null,
+          "duration": 10,
           "synopsis": "Luego de perder a su mamá, una pequeña arriba a un orfanato. Afuera, un gran descubrimiento la espera. (Mbyja rapégüyto)",
           "trailer_url": null
         },
@@ -532,9 +650,9 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Dirección: Carlos Bigorra. Guión: CB, Óscar Latorre, Miguel Palmero. Con Andrea Dueso, Jordi Coll, Enric Juezas. Duración: 20 minutos",
           "director": "Carlos Bigorra",
-          "duration": null,
+          "duration": 20,
           "synopsis": "Marta y Pablo han quedado para cenar. A lo largo de la velada descubriremos los entresijos de su relación, y comprobaremos si todos, de una manera u otra, merecemos una segunda oportunidad.",
           "trailer_url": null
         },
@@ -544,9 +662,9 @@
           "poster": null,
           "review": null,
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Sergio Marzano. Con Diego Gallardo, Josefa Vergara. Duración: 12 minutos",
           "director": "Sergio Marzano",
-          "duration": null,
+          "duration": 12,
           "synopsis": "Gastón, un joven totalmente dejado, vive atormentado por la muerta de su ex novia. Se siente culpable. Escucha una y otra vez el mensaje telefónico que ella le dejó previo a su suicidio. Harto de su existencia vacía, decide borrar el mensaje, pensando que así podrá librarse de sus penas. Todo lo contrario, su ex no lo va a dejar en paz tan fácilmente.",
           "trailer_url": null
         },
@@ -556,9 +674,9 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Dirección: Germán Sancho. Con Claudia Placer, Carlos Santos, Dani Nieto. Duración: 8 minutos",
           "director": "Germán Sancho",
-          "duration": null,
+          "duration": 8,
           "synopsis": "Los miedos más aterradores se arrastran en la habitación de una niña, cuando las luces se apagan, justo antes de que se vaya a dormir. Su padre intenta pacientemente calmarla. Sin embargo, la oscuridad y lo desconocido son mucho más poderosos y voraces. Hay algo aún peor allí, que esconde una realidad aterradora.",
           "trailer_url": null
         },
@@ -568,9 +686,9 @@
           "poster": null,
           "review": null,
           "country": "Canadá",
-          "credits": "",
+          "credits": "Guión y Dirección: Andrea Beça. Con Rekha Kapadia, David N. O., Samantha Jeffery. Duración: 10 minutos",
           "director": "Andrea Beça",
-          "duration": null,
+          "duration": 10,
           "synopsis": "Aatisha encuentra una tarjeta de memoria llena de fotos de ella, y ahí comienza una incesante búsqueda para saber quién la está siguiendo.",
           "trailer_url": null
         },
@@ -580,9 +698,9 @@
           "poster": null,
           "review": null,
           "country": "Bélgica",
-          "credits": "",
+          "credits": "Guión y Dirección: Lieven Vanhove. Con Geert Vandyck, Sarah Eisa. Duración: 16 minutos",
           "director": "Lieven Vanhove",
-          "duration": null,
+          "duration": 16,
           "synopsis": "El frágil mundo de una pareja está destrozado. Una vez vivieron juntos en una casa con un faro en la costa. Ahora un mar turbulento los está despedazando. Orville está atrapado en la casa en el acantilado, Imme está tratando de sobrevivir en una roca en el faro, en medio de las rugientes olas. Él sigue tratando de traerla de vuelta, pero nada funciona. Mientras tanto, ella le envía su tristeza a través de pájaros. De repente, toda la roca comienza a colapsar y la vida de Imme está en peligro, ya que puede caer al precipicio. El tiempo de Orville se está acabando, mientras busca una solución definitiva y lo más rápido posible para salvar a su amada. Premiada en Bélgica, Canadá, Estados Unidos, India y México.",
           "trailer_url": null
         },
@@ -592,9 +710,9 @@
           "poster": null,
           "review": null,
           "country": "Francia",
-          "credits": "",
+          "credits": "Guión y Dirección: Julien Homsy. Con Patrick Haudecoeur, Vincent Grass, Gilles Detroit. Duración: 18 minutos",
           "director": "Julien Homsy",
-          "duration": null,
+          "duration": 18,
           "synopsis": "Un desafortunado jugador de póker se endeuda a tal punto que lleva a cabo una estrategia para conseguir el dinero que debe, un plan que puede salvarlo pero al mismo tiempo ponerlo en extremo peligro. Basado en el cuento corto de Stephen King.",
           "trailer_url": null
         },
@@ -603,23 +721,24 @@
           "title": "R E M E M B R A N C E",
           "poster": null,
           "review": null,
-          "country": "Recuerdo",
-          "credits": "",
+          "country": "Reino Unido",
+          "credits": "Guión y Dirección: Mark Jepson. Con Elizabeth Bouckley, Tom Giles, Camilla Simson. Duración: 10 minutos",
           "director": "Mark Jepson",
-          "duration": null,
-          "synopsis": "Reino Unido, 2018 – Cuando un neurocientífico experimenta con la tecnología de la memoria para explorar su pasado, ella toma el riesgo de ir más allá, encontrándose en una situación potencialmente mortal.",
-          "trailer_url": null
+          "duration": 10,
+          "synopsis": "Cuando un neurocientífico experimenta con la tecnología de la memoria para explorar su pasado, ella toma el riesgo de ir más allá, encontrándose en una situación potencialmente mortal.",
+          "trailer_url": null,
+          "original_title": "Recuerdo"
         },
         {
           "year": 2018,
-          "title": "R E M E M B R A N C E",
+          "title": "Saturno a través del telescopio",
           "poster": null,
           "review": null,
-          "country": "Recuerdo",
-          "credits": "",
-          "director": null,
-          "duration": null,
-          "synopsis": "Saturno a través del telescopio (España, 2018) – Max es un niño de 10 años, obsesionado con los insectos, los telescopios y los monstruos. Una noche abandona su cama para ir a ver una película de terror en la televisión. Su madre lo descubre y le ordena volver a su dormitorio. A pesar de haber quedado fascinado con lo que vio, esas imágenes le harán tener varias pesadillas. Dirección: Didac Gimeno. Guión: DG, Álvaro Hervás. Con Alejandro López, Elia Galera. Duración: 11 minutos",
+          "country": "España",
+          "credits": "Dirección: Didac Gimeno. Guión: DG, Álvaro Hervás. Con Alejandro López, Elia Galera. Duración: 11 minutos",
+          "director": "Didac Gimeno",
+          "duration": 11,
+          "synopsis": "Max es un niño de 10 años, obsesionado con los insectos, los telescopios y los monstruos. Una noche abandona su cama para ir a ver una película de terror en la televisión. Su madre lo descubre y le ordena volver a su dormitorio. A pesar de haber quedado fascinado con lo que vio, esas imágenes le harán tener varias pesadillas.",
           "trailer_url": null
         },
         {
@@ -628,9 +747,9 @@
           "poster": null,
           "review": null,
           "country": "Reino Unido",
-          "credits": "",
+          "credits": "Guión y Dirección: Oliver Goodrum. Con Andrea Lowe, Michael Luke Walsh, Elena Saurel. Duración: 3 minutos",
           "director": "Oliver Goodrum",
-          "duration": null,
+          "duration": 3,
           "synopsis": "Con tan solo unos días más para vivir, un hombre pide para hablar desesperadamente con su esposa. Necesita sacar algo de adentro suyo.",
           "trailer_url": null
         },
@@ -640,9 +759,9 @@
           "poster": null,
           "review": null,
           "country": "Brasil",
-          "credits": "",
+          "credits": "Dirección: Dani Seabra. Guión: Filipi Serra. Con Estela Straus, Gilda Nomacce, Cida Moreira. Duración: 16 minutos",
           "director": "Dani Seabra",
-          "duration": null,
+          "duration": 16,
           "synopsis": "El miedo afecta constantemente nuestras vidas. Donde sea que estemos, siempre está ahí. Del silencio surge: un traqueteo distante; la mirada de un hombre extraño; una sombra parada en una ventana. Y de repente ya no somos nosotros mismos.",
           "trailer_url": null
         },
@@ -652,9 +771,9 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Guión y Dirección: Allan J. Arcal. Con Raquel Infante, Nacho Guerreros, Noa Lara. Duración: 10 minutos",
           "director": "Allan J",
-          "duration": null,
+          "duration": 10,
           "synopsis": "En la noche más oscura, María regresa a casa entre lágrimas. Allí le aguardan su marido, su hija y un terrible secreto.",
           "trailer_url": null
         },
@@ -664,21 +783,165 @@
           "poster": null,
           "review": null,
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: Cale Glendening. Con Brian F. Durkin, Chloe Swan Sparwath, Colin Gilliland. Duración: 19 minutos",
           "director": "Cale Glendening",
-          "duration": null,
+          "duration": 19,
           "synopsis": "Una adolescente planea vengarse de una compañera de liceo que publicó fotos de ella desnuda y en Internet, pero no solo fracasa en el intento sino que termina convirtiendo a toda su familia en blanco de un matón.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "CORTOMETRAJES URUGUAYOS EN COMPETENCIA",
+      "type": "shorts",
+      "films": [
+        {
+          "year": 2018,
+          "title": "A cenar mi amor",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Guión y Dirección: Fabricio Camargo. Con Jimena Crujeira, Sergio Yacks. Duración: 9 minutos",
+          "director": "Fabricio Camargo",
+          "duration": 9,
+          "synopsis": "Una mujer prepara la cena para una velada con el recuerdo de su esposo.",
           "trailer_url": null
         },
         {
           "year": 2018,
-          "title": "En programa: El extraño",
+          "title": "Álbum",
           "poster": null,
           "review": null,
           "country": "Uruguay",
-          "credits": "",
+          "credits": "Dirección: Francisco Carlero. Guión: FC, Ele Martínez. Con Joaquín Rodríguez Piana, Enrique Gayo, Ana Laura Santos. Duración: 9 minutos",
+          "director": "Francisco Carlero",
+          "duration": 9,
+          "synopsis": "Lorenzo, un joven que tuvo una vida complicada, encuentra un álbum de fotos que le revela algo totalmente escalofriante.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "La basura",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Dirección: Pablo Barrios. Guión: PB, Maximiliano Peralta. Con David Roizner, Marcia Loureiro, Martín Hernández. Duración: 10 minutos",
+          "director": "Pablo Barrios",
+          "duration": 10,
+          "synopsis": "Luis Pedro (38 años) boicotea la fiesta de cumpleaños de su hijo, al enterarse que su jefe no asistirá. Al llegar la noche, encuentra en un contender, dos bolsas, que al tocarlas transforman su apariencia. Huye a un bosque a guardar las mismas, cuyo interior está cargado de billetes.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "Las crónicas de Boldman",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Guión y Dirección: Agustín Álvarez. Con Till Silva, Victoria Coto, Gustavo Suárez. Duración: 10 minutos",
+          "director": "Agustín Álvarez",
+          "duration": 10,
+          "synopsis": "En una antigua librería dirigida por un anciano, una chica bucea una y otra vez en el universo de un libro, que trata los últimos momentos de la vida de un viejo superhéroe.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "Descenso",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Guión y Dirección: J. Martín Vega. Con Elisa Varela, Carlos Vallarino. Duración: 8 minutos",
+          "director": "J",
+          "duration": 8,
+          "synopsis": "Una mujer se encuentra en su casa extrañando a su padre, cuando recibe un mensaje inesperado que hará que sus pasos cambien de rumbo.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Después del último día",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Guión y Dirección: Marcelo Fabani. Con Roberto Parada, Silvia Bruno, María Blanco. Duración: 6 minutos",
+          "director": "Marcelo Fabani",
+          "duration": 6,
+          "synopsis": "Un hombre cuenta qué experimenta luego de morir, habiendo cumplido con todas las reglas de convivencia excepto una.",
+          "trailer_url": null
+        },
+        {
+          "year": 2017,
+          "title": "Entre las sierras",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Guión y Dirección: Nicolás Croza, Eduardo Granadsztejn. Con Eugenia Mosca, Juan Gamero, Aníbal Nobel. Duración: 13 minutos",
+          "director": "Nicolás Croza, Eduardo Granadsztejn",
+          "duration": 13,
+          "synopsis": "Conduciendo a través de una carretera distante, Jimena se cruza con una camioneta que viaja rápido y lleva una casa rodante. Dentro de la misma, ve lo que parece ser una mujer, atrapada, gritando por ayuda. Sin ninguna señal en su celular, Jimena decide adentrarse sola a los peligros de lo desconocido para descubrir el misterio que rodea a la chica en el tráiler.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "La inquilina",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Guión y Dirección: Raúl Pierri. Con Cecilia Sánchez, Patricia Cean, Miguel Suárez. Duración: 12 minutos",
+          "director": "Raúl Pierri",
+          "duration": 12,
+          "synopsis": "Una agente inmobiliaria recibe a una mujer interesada en un apartamento en alquiler de Montevideo, donde años atrás ocurrió una tragedia. La visita al lugar despertará poco a poco sus prejuicios, hasta que le revelará un triste secreto que esconde el edificio.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "P.D.A.",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Guión y Dirección: Florencia Martínez, Santiago Zunino. Con Mariana Oneto, Luciana González, Julieta Benzo. Duración: 4 minutos",
+          "director": "Florencia Martínez, Santiago Zunino",
+          "duration": 4,
+          "synopsis": "La doctora de un hospital psiquiátrico intenta hablar con su paciente, afectada por depresión. La profesional ve cómo hace movimientos repetitivos frente a ella, sin mediar prácticamente palabra alguna. ¿Qué es lo que realmente le pasa a su paciente?",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Samanta",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Guión y Dirección: Francisco Carlero, Mateo Fahradjian. Con Luana González, Virginia Farías, Marcos «Zurdo» Charrute. Duración: 9 minutos",
+          "director": "Francisco Carlero, Mateo Fahradjian",
+          "duration": 9,
+          "synopsis": "Tras enterarse del error que cometió su padre, Samanta debe afrontar una nueva realidad.",
+          "trailer_url": null
+        },
+        {
+          "year": 2018,
+          "title": "Space Bar",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Guión y Dirección: Guillermo Badaracco, Jorge Tuset, Martín Invernizzi, Pablo Praino. Duración: 1 minuto",
+          "director": "Guillermo Badaracco, Jorge Tuset, Martín Invernizzi, Pablo Praino",
+          "duration": 1,
+          "synopsis": "En el espacio, nadie puede oírte eructar. Un duelo de tragos en un bar muy, muy lejano.",
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "EN PROGRAMA",
+      "type": "special",
+      "films": [
+        {
+          "year": 2018,
+          "title": "El extraño",
+          "poster": null,
+          "review": null,
+          "country": "Uruguay",
+          "credits": "Dirección: Nacho Benedetti. Duración: 5 minutos. Presentación de Guillermo Lockhart (Voces Anónimas)",
           "director": "Nacho Benedetti",
-          "duration": null,
+          "duration": 5,
           "synopsis": null,
           "trailer_url": null
         }
@@ -694,7 +957,7 @@
           "poster": null,
           "review": null,
           "country": "ESPAÑA",
-          "credits": "",
+          "credits": "Dirección: Juanma Díaz Lima. Guión: JDL, Jesús Ramé, Julio Vallejo. Duración: 20 minutos",
           "director": "Juanma Díaz Lima",
           "duration": 20,
           "synopsis": "Documental español (hecho en 2017) que se centra en la figura de la recientemente fallecida vestuarista británica, ganadora del Oscar (por Nicolás y Alejandra, 1971), Yvonne Blake (78), la creadora del traje del superhéroe que protagonizara la película de Richard Donner en 1978, cuyo estreno cumple 40 años el lunes 17 de diciembre, día de inicio del Montevideo Fantástico 11. De larga trayectoria en Hollywood, Blake residió en España desde la década del ´70, y fue la diseñadora -para el cine- del traje de Superman. Esta obra se adentra en la magia que ha suscitado su trabajo. El festival también aprovecha a recordar a Margot Kidder, quien interpretara a Luisa Lane y que el pasado mes de octubre hubiera cumplido 70 años.",
@@ -704,9 +967,9 @@
           "year": 2017,
           "title": "PHILIP K. DICK – AMANECE DESPEJADO",
           "poster": null,
-          "review": null,
+          "review": "Se habló mucho a propósito de los 50 años de 2001: Odisea del espacio, de clásicos como La noche de los muertos vivos o El planeta de los simios, pero casi poco y nada de los 50 que acaba de cumplir nada menos que la semilla de Blade Runner (1982), «¿Sueñan los androides con ovejas eléctricas?», de Philip K. Dick. Y este corto de los realizadores españoles Bruno Máez y María Vázquez (docente de Historia del Arte, y Teoría de la Imagen, en la Escuela Superior de Arte y Diseño de Lugo, en Galicia) viene como anillo al dedo para recordar al famoso escritor estadounidense, que también inspiró famosas labores para el cine como El vengador del futuro (1990) y Sentencia previa (2002), entre tantas otras, y que el 16 de diciembre cumpliría 90 años.",
           "country": "ESPAÑA",
-          "credits": "",
+          "credits": "Guión y Dirección: Bruno Máez, María Vázquez. Con MV, Iñaki Diez, Antonio Pereira. Duración: 14 minutos",
           "director": "Bruno Máez, María Vázquez",
           "duration": 14,
           "synopsis": "Hoy es un día muy importante para María, ya que dará una conferencia sobre el famoso escritor de ciencia ficción Philip K. Dick. Todo parece ser una rutina diaria, excepto un poco de emoción debido al evento. Pero a medida que pase el tiempo ella descubrirá que nada es lo que parece.",
@@ -716,25 +979,278 @@
           "year": 1968,
           "title": "M. R. JAMES – SILBA, E IRÉ A TI",
           "poster": null,
-          "review": null,
+          "review": "A 50 años de esta excelente adaptación del cuento de M. R. James (1862-1936), el festival le rinde este pequeño tributo al escritor británico, todo un referente en materia de cuentos cortos de fantasmas y gran admirador de Sheridan Le Fanu y Lovecraft. El cuento original se publicó en 1904, en el libro Ghost Stories of an Antiquary, y en esa misma recopilación también estaba incluido otro famoso cuento suyo, «El Conde Magnus». Este capítulo fue uno de los más comentados al momento de su estreno, no solo por el impacto y el miedo que causó en la televisión inglesa, sino también porque se desmarcaba bastante de la línea tradicional de la serie Ómnibus (que duró 42 temporadas), caracterizada por documentales y dramatizaciones, y no tanto por adaptaciones literarias.",
           "country": "REINO UNIDO",
-          "credits": "",
-          "director": null,
-          "duration": null,
+          "credits": "(Whistle and I'll Come to You) – Guión y Dirección: Jonathan Miller, basado en el cuento homónimo de M. R. James. Con Michael Hordren, Ambrose Coghill, George Woodbridge. Duración: 42 minutos",
+          "director": "Jonathan Miller",
+          "duration": 42,
           "synopsis": "Un profesor universitario, seguro de que todo lo que ocurre en la vida tiene una explicación racional, encuentra sus creencias severamente cuestionadas cuando, durante unas vacaciones en un remoto pueblo costero de Norfolk. Una simple caminata por la playa lo lleva a un misterioso descubrimiento, que termina despertando horrores más allá del entendimiento humano.",
-          "trailer_url": null
+          "trailer_url": null,
+          "original_title": "Whistle and I'll Come to You"
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE CORTOMETRAJES",
+      "type": "shorts-catalog",
+      "films": [
+        {
+          "title": "11010 (Rodrigo Amim, Gabriela Monnerat, 2018) – BRASIL / BRAZIL – 8´"
         },
         {
-          "year": 2018,
-          "title": "MUESTRA INFORMATIVA DE CORTOMETRAJES 11010",
-          "poster": null,
-          "review": null,
-          "country": "Rodrigo Amim, Gabriela Monnerat",
-          "credits": "",
-          "director": null,
-          "duration": null,
-          "synopsis": "BRASIL / BRAZIL – 8´ 818 (Claude Lahr, 2016) – LUXEMBURGO / LUXEMBOURG – 21´ Amancio: Vampiro de pueblo (Alejo Ibáñez, 2017) – ESPAÑA – 15´ ¡Ataque mutante! (Gonzalo Casanova, 2018) – ARGENTINA – 13´ Bienvenidos al Infierno (Simón Fariza, 2018) – ESPAÑA / SPAIN – 14´ Bitch, Popcorn & Blood (Fabio Soares, 2014) – FRANCIA / FRANCE – 16´ Black Eyed Child (Tony Morales, 2018) – ESPAÑA / SPAIN – 9´ Le Blizzard / La ventisca (Álvaro Rodríguez Areny, 2018) – ANDORRA – 13´ Casa llena (Casa cheia) – Carlos Nigro, 2017 – BRASIL / BRAZIL – 14´ (terror) (avisar) Cazadores de fantasmas (Caçadores de Assombração) – Gabriel de Paula, Jairo Neto, 2014 – BRASIL / BRAZIL – 25´ Como todas las mañanas (Comme Tous Les Matins) – Cédric Dupuis, 2017 – FRANCIA / FRANCE – 18´ Corré (Matías Cibils, 2018) – ARGENTINA (ciencia ficción) – 9´ Cristal: Sangre y azúcar (Marcos Muñóz Flores, 2018) – MÉXICO – 19´ Cuentos del Universo: El destructor (Logan Fry, 2018) – ESTADOS UNIDOS / UNITED STATES – 2´ The Curse / La maldición (Nabil Bouhaddi, 2018) – MARRUECOS / MOROCCO – 5´ Damián (José Luis Anaya, 2017) – MÉXICO (terror) – 15´ Dead Celebrities / Los famosos muertos (Michael Fausti, 2018) – REINO UNIDO / UNITED KINGDOM – 11´ Dead City (Myriam Destephen, 2017) – FRANCIA / FRANCE – 8´ Decapitador: El cuento del Pie Grande de Yellowcreek (Logan Fry, 2016-18) – ESTADOS UNIDOS / UNITED STATES – 8´ Los desaparecidos (Justo Matías Valencia, 2018) – MÉXICO – 22´ Devil Town (Nick Barrett, 2016) – REINO UNIDO / UNITED KINGDOM – 16´ Doña Oldina va de compras / Dona Oldina vai ás compras (Felipe M. Guerra, 2018) – BRASIL / BRAZIL – 8´ Dos caras de un mismo amor (Daniel Aranda, 2018) – ARGENTINA – 5´ Embrión (Nahuel M. Srnec, 2017) – ARGENTINA – 16´ Eres lo que comes (Marcelo Fabani, 2018) – URUGUAY – 1´ Estigma (David Velduque, 2018) – ESPAÑA / SPAIN – 15´ Evströnger (Silvia Conesa, 2017) – ESPAÑA / SPAIN – 3´ Farul / El foco delantero (Ionut Gaga, 2017) – RUMANIA / ROMANIA – 15 Florinda & Floriana (Marcos Mereles, 2017) – ITALIA / ITALY – 4´ El fotoviaje de Carla (Fran Gas, 2018) – ESPAÑA / SPAIN – 6´ Fragmentos / Fragments (Artur Golczewski, Lucas Vossoughi, 2017) – AUSTRIA – 11´ Galería (Nicolás Menna, 2018) – ARGENTINA – 4´ Habitaciones (Jorge Aregall, 2016) – ARGENTINA – 7´ Harvest / Cosecha (Mohammad Munir Malik, 2017) – REINO UNIDO / UNITED KINGDOM (terror) . 10´´ Historia de una tortura (Ezequiel de San Pío, 2018) – ARGENTINA – 12´ Indetectable (Javier Lozano Sánchez, 2018) – ESPAÑA / SPAIN – 9´ Infierno Dantesco Animado (Boris Acosta, 2017) – ESTADOS UNIDOS / UNITED STATES – 35´ Jimmy (Luis Centurión, 2018) – ESPAÑA / SPAIN – 13´ Just After Midnight (Jean-Raymond García, Anne Marie Puga, 2017) – FRANCIA / FRANCE – 22´ Kuo´s Eyes / Los ojos de Kuo (O. B. de Alessi, 2017) – ITALIA / ITALY – 28´ Lavender´s Blue / Azul de lavanda (Saranne Bensusan, 2017) – REINO UNIDO / UNITED KINGDOM – 6´ Le Linceul / El velo (Marie Vandelannoote, 2018) – FRANCIA / FRANCE – 30´ Liturgia (Svid Arispe, 2018) – BOLIVIA – 10´ Lo innombrable (C. J. Lozada, 2017) – PUERTO RICO – 14´ Madder Isle (Laura Spark, 2017) – REINO UNIDO / UNITED KINGDOM – 8´ Maelstrøm (Carlos Gómez-Trigo, 2017) – ESPAÑA / SPAIN – 3´ Marta (Lucía Forner Segarra, 2017) – ESPAÑA / SPAIN – 15´ Mask of Sanity / Máscara de cordura (Fran Casanova, 2018) – ESPAÑA / SPAIN – 21´ La Mélodie Du Passé / La melodía del pasado (Jérémy Lafar, 2017) – FRANCIA / FRANCE – 25´ La mirilla (Enrique Manzo, 2018) – MÉXICO – 8´ Mi tierra / Ma Terre (Michaël Rué, 2016) – SUIZA – 13´ Muil / Fauces (Jasper Vrancken, 2018) – BÉLGICA / BELGIUM – 20´ The New Jerusalem ´98 / La Nueva Jerusalém ´98 (Kiefer D. Finlow, 2018) – AUSTRALIA – 13´ Noche de suerte (Antonia Baudouin, 2018) – ARGENTINA – 13´ Noctámbulos (Romén Rivero Gallardo, 2018) – ESPAÑA – SPAIN – 9´ Once Bitten… / Una vez mordida… (Pete Tomkies, 2018) – REINO UNIDO / UNITED KINGDOM – 10´ Orpheize (Pedro Jaen R., 2015) – ESPAÑA / SPAIN – 9´ Outro (Paul Bouvier, 2018) – FRANCIA / FRANCE – 11´ La parada (Mario Ayala Cabello, 2018) – ESPAÑA / SPAIN – 5´ El páramo (José Luis Medina Rodríguez, 2017) – MÉXICO – 4´ La Photographe / La fotógrafa (Bertrand Normand, 2018) – FRANCIA / FRANCE – 12´ Plop Fiction (Danny Bailey, 2017) – CANADÁ – 3´ Property Exchange / Intercambio de propiedad (Denis Simachev, 2017) – RUSIA / RUSSIA – 13´ Psycho Kino (Guillem Dols, 2017) – ESPAÑA / SPAIN – 18´ Psychopompos (Lucie Gukkertová, 2018) – REPÚBLICA CHECA / ZCHEC REPUBLIC – 16´ Pura energía (Francisco García, 2018) – ESPAÑA / SPAIN – 15´ Ragu´Noir (Alfredo Mazzara, 2018) – ITALIA / ITALY – 15´ Reboot (Ellen Osborne, 2018) – ESTADOS UNIDOS / UNITED STATES (animación) – 4´ Redención (Luis Utges, 2017) – ESPAÑA / SPAIN – 13´ Ring Runners (Pablo Praino, 2015) – URUGUAY – 27´ Ro-Boob: The Farting Robot Monster (Logan Fry, 2017) – ESTADOS UNIDOS / UNITED STATES – 9´ The Scarlet Vultures / Los buitres de Scarlet (Kyle Martellacci, 2018) – CANADÁ – 15´ Self Talk / Conversación con uno mismo (Bogdan A. Delapalanca, 2018) – CANADÁ – 2´ Skynet (Nicolas Krief, 2018) – CANADÁ – 5´ El sueño de Leah (Mary Marcano, 2018) – VENEZUELA – 16´ SWAP (André Gaumond, 2018) – CANADÁ – 30´ Terror Industria Argentina (Marisol Bentivenga, 2017) – ARGENTINA – 35´ Tortoise / Tortuga (Stephen Cervantes, 2017) – ESTADOS UNIDOS / UNITED STATES – 11´ Under the Parasol / Bajo la sombrilla (Stanislava Buevich, 2018) – REINO UNIDO / UNITED KINGDOM – 6´ The Valley / El Valle (Oliver Wright, 2018) – FRANCIA / FRANCE – 5´ El Vende Humo (Ruth Gómez, 2017) – ARGENTINA – 13´ Villa Offline (Sergi Páez, 2018) – ESPAÑA – 27´ Voonis / Veredicto (Walt Bladt, 2018) – BÉLGICA / BELGIUM – 9´ What Metal Girls Are Into/En los que están las metaleras (Laurel Vail, 2017) – ESTADOS UNIDOS / USA – 15´ Y mañana otra vez (Gilbo Jiménez, 2018) – MÉXICO – 4´ ZUL (Magalí Heram, 2018) – MÉXICO – 23´",
-          "trailer_url": null
+          "title": "818 (Claude Lahr, 2016) – LUXEMBURGO / LUXEMBOURG – 21´"
+        },
+        {
+          "title": "Amancio: Vampiro de pueblo (Alejo Ibáñez, 2017) – ESPAÑA – 15´"
+        },
+        {
+          "title": "¡Ataque mutante! (Gonzalo Casanova, 2018) – ARGENTINA – 13´"
+        },
+        {
+          "title": "Bienvenidos al Infierno (Simón Fariza, 2018) – ESPAÑA / SPAIN – 14´"
+        },
+        {
+          "title": "Bitch, Popcorn & Blood (Fabio Soares, 2014) – FRANCIA / FRANCE – 16´"
+        },
+        {
+          "title": "Black Eyed Child (Tony Morales, 2018) – ESPAÑA / SPAIN – 9´"
+        },
+        {
+          "title": "Le Blizzard / La ventisca (Álvaro Rodríguez Areny, 2018) – ANDORRA – 13´"
+        },
+        {
+          "title": "Casa llena (Casa cheia) – Carlos Nigro, 2017 – BRASIL / BRAZIL – 14´ (terror) (avisar)"
+        },
+        {
+          "title": "Cazadores de fantasmas (Caçadores de Assombração) – Gabriel de Paula, Jairo Neto, 2014 – BRASIL / BRAZIL – 25´"
+        },
+        {
+          "title": "Como todas las mañanas (Comme Tous Les Matins) – Cédric Dupuis, 2017 – FRANCIA / FRANCE – 18´"
+        },
+        {
+          "title": "Corré (Matías Cibils, 2018) – ARGENTINA (ciencia ficción) – 9´"
+        },
+        {
+          "title": "Cristal: Sangre y azúcar (Marcos Muñóz Flores, 2018) – MÉXICO – 19´"
+        },
+        {
+          "title": "Cuentos del Universo: El destructor (Logan Fry, 2018) – ESTADOS UNIDOS / UNITED STATES – 2´"
+        },
+        {
+          "title": "The Curse / La maldición (Nabil Bouhaddi, 2018) – MARRUECOS / MOROCCO – 5´"
+        },
+        {
+          "title": "Damián (José Luis Anaya, 2017) – MÉXICO (terror) – 15´"
+        },
+        {
+          "title": "Dead Celebrities / Los famosos muertos (Michael Fausti, 2018) – REINO UNIDO / UNITED KINGDOM – 11´"
+        },
+        {
+          "title": "Dead City (Myriam Destephen, 2017) – FRANCIA / FRANCE – 8´"
+        },
+        {
+          "title": "Decapitador: El cuento del Pie Grande de Yellowcreek (Logan Fry, 2016-18) – ESTADOS UNIDOS / UNITED STATES – 8´"
+        },
+        {
+          "title": "Los desaparecidos (Justo Matías Valencia, 2018) – MÉXICO – 22´"
+        },
+        {
+          "title": "Devil Town (Nick Barrett, 2016) – REINO UNIDO / UNITED KINGDOM – 16´"
+        },
+        {
+          "title": "Doña Oldina va de compras / Dona Oldina vai ás compras (Felipe M. Guerra, 2018) – BRASIL / BRAZIL – 8´"
+        },
+        {
+          "title": "Dos caras de un mismo amor (Daniel Aranda, 2018) – ARGENTINA – 5´"
+        },
+        {
+          "title": "Embrión (Nahuel M. Srnec, 2017) – ARGENTINA – 16´"
+        },
+        {
+          "title": "Eres lo que comes (Marcelo Fabani, 2018) – URUGUAY – 1´"
+        },
+        {
+          "title": "Estigma (David Velduque, 2018) – ESPAÑA / SPAIN – 15´"
+        },
+        {
+          "title": "Evströnger (Silvia Conesa, 2017) – ESPAÑA / SPAIN – 3´"
+        },
+        {
+          "title": "Farul / El foco delantero (Ionut Gaga, 2017) – RUMANIA / ROMANIA – 15"
+        },
+        {
+          "title": "Florinda & Floriana (Marcos Mereles, 2017) – ITALIA / ITALY – 4´"
+        },
+        {
+          "title": "El fotoviaje de Carla (Fran Gas, 2018) – ESPAÑA / SPAIN – 6´"
+        },
+        {
+          "title": "Fragmentos / Fragments (Artur Golczewski, Lucas Vossoughi, 2017) – AUSTRIA – 11´"
+        },
+        {
+          "title": "Galería (Nicolás Menna, 2018) – ARGENTINA – 4´"
+        },
+        {
+          "title": "Habitaciones (Jorge Aregall, 2016) – ARGENTINA – 7´"
+        },
+        {
+          "title": "Harvest / Cosecha (Mohammad Munir Malik, 2017) – REINO UNIDO / UNITED KINGDOM (terror) . 10´´"
+        },
+        {
+          "title": "Historia de una tortura (Ezequiel de San Pío, 2018) – ARGENTINA – 12´"
+        },
+        {
+          "title": "Indetectable (Javier Lozano Sánchez, 2018) – ESPAÑA / SPAIN – 9´"
+        },
+        {
+          "title": "Infierno Dantesco Animado (Boris Acosta, 2017) – ESTADOS UNIDOS / UNITED STATES – 35´"
+        },
+        {
+          "title": "Jimmy (Luis Centurión, 2018) – ESPAÑA / SPAIN – 13´"
+        },
+        {
+          "title": "Just After Midnight (Jean-Raymond García, Anne Marie Puga, 2017) – FRANCIA / FRANCE – 22´"
+        },
+        {
+          "title": "Kuo´s Eyes / Los ojos de Kuo (O. B. de Alessi, 2017) – ITALIA / ITALY – 28´"
+        },
+        {
+          "title": "Lavender´s Blue / Azul de lavanda (Saranne Bensusan, 2017) – REINO UNIDO / UNITED KINGDOM – 6´"
+        },
+        {
+          "title": "Le Linceul / El velo (Marie Vandelannoote, 2018) – FRANCIA / FRANCE – 30´"
+        },
+        {
+          "title": "Liturgia (Svid Arispe, 2018) – BOLIVIA – 10´"
+        },
+        {
+          "title": "Lo innombrable (C. J. Lozada, 2017) – PUERTO RICO – 14´"
+        },
+        {
+          "title": "Madder Isle (Laura Spark, 2017) – REINO UNIDO / UNITED KINGDOM – 8´"
+        },
+        {
+          "title": "Maelstrøm (Carlos Gómez-Trigo, 2017) – ESPAÑA / SPAIN – 3´"
+        },
+        {
+          "title": "Marta (Lucía Forner Segarra, 2017) – ESPAÑA / SPAIN – 15´"
+        },
+        {
+          "title": "Mask of Sanity / Máscara de cordura (Fran Casanova, 2018) – ESPAÑA / SPAIN – 21´"
+        },
+        {
+          "title": "La Mélodie Du Passé / La melodía del pasado (Jérémy Lafar, 2017) – FRANCIA / FRANCE – 25´"
+        },
+        {
+          "title": "La mirilla (Enrique Manzo, 2018) – MÉXICO – 8´"
+        },
+        {
+          "title": "Mi tierra / Ma Terre (Michaël Rué, 2016) – SUIZA – 13´"
+        },
+        {
+          "title": "Muil / Fauces (Jasper Vrancken, 2018) – BÉLGICA / BELGIUM – 20´"
+        },
+        {
+          "title": "The New Jerusalem ´98 / La Nueva Jerusalém ´98 (Kiefer D. Finlow, 2018) – AUSTRALIA – 13´"
+        },
+        {
+          "title": "Noche de suerte (Antonia Baudouin, 2018) – ARGENTINA – 13´"
+        },
+        {
+          "title": "Noctámbulos (Romén Rivero Gallardo, 2018) – ESPAÑA – SPAIN – 9´"
+        },
+        {
+          "title": "Once Bitten… / Una vez mordida… (Pete Tomkies, 2018) – REINO UNIDO / UNITED KINGDOM – 10´"
+        },
+        {
+          "title": "Orpheize (Pedro Jaen R., 2015) – ESPAÑA / SPAIN – 9´"
+        },
+        {
+          "title": "Outro (Paul Bouvier, 2018) – FRANCIA / FRANCE – 11´"
+        },
+        {
+          "title": "La parada (Mario Ayala Cabello, 2018) – ESPAÑA / SPAIN – 5´"
+        },
+        {
+          "title": "El páramo (José Luis Medina Rodríguez, 2017) – MÉXICO – 4´"
+        },
+        {
+          "title": "La Photographe / La fotógrafa (Bertrand Normand, 2018) – FRANCIA / FRANCE – 12´"
+        },
+        {
+          "title": "Plop Fiction (Danny Bailey, 2017) – CANADÁ – 3´"
+        },
+        {
+          "title": "Property Exchange / Intercambio de propiedad (Denis Simachev, 2017) – RUSIA / RUSSIA – 13´"
+        },
+        {
+          "title": "Psycho Kino (Guillem Dols, 2017) – ESPAÑA / SPAIN – 18´"
+        },
+        {
+          "title": "Psychopompos (Lucie Gukkertová, 2018) – REPÚBLICA CHECA / ZCHEC REPUBLIC – 16´"
+        },
+        {
+          "title": "Pura energía (Francisco García, 2018) – ESPAÑA / SPAIN – 15´"
+        },
+        {
+          "title": "Ragu´Noir (Alfredo Mazzara, 2018) – ITALIA / ITALY – 15´"
+        },
+        {
+          "title": "Reboot (Ellen Osborne, 2018) – ESTADOS UNIDOS / UNITED STATES (animación) – 4´"
+        },
+        {
+          "title": "Redención (Luis Utges, 2017) – ESPAÑA / SPAIN – 13´"
+        },
+        {
+          "title": "Ring Runners (Pablo Praino, 2015) – URUGUAY – 27´"
+        },
+        {
+          "title": "Ro-Boob: The Farting Robot Monster (Logan Fry, 2017) – ESTADOS UNIDOS / UNITED STATES – 9´"
+        },
+        {
+          "title": "The Scarlet Vultures / Los buitres de Scarlet (Kyle Martellacci, 2018) – CANADÁ – 15´"
+        },
+        {
+          "title": "Self Talk / Conversación con uno mismo (Bogdan A. Delapalanca, 2018) – CANADÁ – 2´"
+        },
+        {
+          "title": "Skynet (Nicolas Krief, 2018) – CANADÁ – 5´"
+        },
+        {
+          "title": "El sueño de Leah (Mary Marcano, 2018) – VENEZUELA – 16´"
+        },
+        {
+          "title": "SWAP (André Gaumond, 2018) – CANADÁ – 30´"
+        },
+        {
+          "title": "Terror Industria Argentina (Marisol Bentivenga, 2017) – ARGENTINA – 35´"
+        },
+        {
+          "title": "Tortoise / Tortuga (Stephen Cervantes, 2017) – ESTADOS UNIDOS / UNITED STATES – 11´"
+        },
+        {
+          "title": "Under the Parasol / Bajo la sombrilla (Stanislava Buevich, 2018) – REINO UNIDO / UNITED KINGDOM – 6´"
+        },
+        {
+          "title": "The Valley / El Valle (Oliver Wright, 2018) – FRANCIA / FRANCE – 5´"
+        },
+        {
+          "title": "El Vende Humo (Ruth Gómez, 2017) – ARGENTINA – 13´"
+        },
+        {
+          "title": "Villa Offline (Sergi Páez, 2018) – ESPAÑA – 27´"
+        },
+        {
+          "title": "Voonis / Veredicto (Walt Bladt, 2018) – BÉLGICA / BELGIUM – 9´"
+        },
+        {
+          "title": "What Metal Girls Are Into/En los que están las metaleras (Laurel Vail, 2017) – ESTADOS UNIDOS / USA – 15´"
+        },
+        {
+          "title": "Y mañana otra vez (Gilbo Jiménez, 2018) – MÉXICO – 4´"
+        },
+        {
+          "title": "ZUL (Magalí Heram, 2018) – MÉXICO – 23´"
         }
       ]
     }

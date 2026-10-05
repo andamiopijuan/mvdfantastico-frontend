@@ -238,10 +238,10 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel, featur
     return normalized ? awardFilmLookup.get(normalized) ?? null : null;
   };
 
-  // 2015 has seven historical feature records with URLs and seven recovered records
-  // without a historical public route. Rendering the latter here preserves the route set.
+  // 2015 and 2018 have recovered historical feature records without a public route.
+  // Rendering them on the edition page preserves the route set.
   const isRenderableFeature = (film: unknown) => isRealLegacyFilmRecord(film)
-    || (year === 2015 && isDisplayableLegacyFeatureRecord(film));
+    || ([2015, 2018].includes(year) && isDisplayableLegacyFeatureRecord(film));
 
   const featureCount = uniqueSections
     .filter((s) => s.type === "features")
