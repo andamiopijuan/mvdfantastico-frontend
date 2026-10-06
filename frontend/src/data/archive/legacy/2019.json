@@ -1,238 +1,234 @@
 {
   "awards": [
     {
-      "jury": "el actor y periodista español Carlos Hugo Aztarain, el productor y gestor cultural argentino Fernando Goldsman, y el periodista y crítico uruguayo Alejandro Yamgotchian.",
+      "section": "COMPETENCIA OFICIAL DE LARGOMETRAJES / OFFICIAL LONG FEATURE FILM COMPETITION",
+      "jury": "Jurado integrado por el actor y periodista español Carlos Hugo Aztarain, el productor y gestor cultural argentino Fernando Goldsman, y el periodista y crítico uruguayo Alejandro Yamgotchian.",
       "awards": [
         {
+          "name": "MEJOR PELÍCULA / BEST FILM",
           "film": "Stay Out, Stay Alive",
-          "name": "MEJOR PELÍCULA",
-          "country": "Estados Unidos",
-          "citation": "Por el tratamiento de un thriller sobrenatural donde la intriga y el miedo de sus personajes a lo desconocido va dejando paso a la traición y la avaricia entre los propios amigos protagonistas, quizás lo más terrorífico de la película.",
+          "recipient": "",
+          "country": "Estados Unidos/US",
           "director": "Dean Yurke",
-          "recipient": ""
+          "citation": "“Por el tratamiento de un thriller sobrenatural donde la intriga y el miedo de sus personajes a lo desconocido va dejando paso a la traición y la avaricia entre los propios amigos protagonistas, quizás lo más terrorífico de la película.”"
         },
         {
+          "name": "MEJOR DIRECTOR / BEST DIRECTOR",
           "film": "Flesh City",
-          "name": "MEJOR DIRECTOR",
-          "country": "Alemania",
-          "citation": "Por un arriesgado trabajo hecho con presupuesto nulo y donde como hombre orquesta se vale de lo experimental para retratar un futuro cercano, con una humanidad devastada y presa de su propia existencia.",
+          "recipient": "Thorsten Fleisch",
+          "country": "Alemania/Germany",
           "director": "",
-          "recipient": "Thorsten Fleisch"
+          "citation": "“Por un arriesgado trabajo hecho con presupuesto nulo y donde como hombre orquesta se vale de lo experimental para retratar un futuro cercano, con una humanidad devastada y presa de su propia existencia.”"
         },
         {
+          "name": "MEJOR GUIÓN / BEST SCREENPLAY",
           "film": "Vortex",
-          "name": "MEJOR GUIÓN",
-          "country": "Francia",
-          "citation": "Por la forma de narrar una historia que aparenta ser provocadora pero que en realidad intenta concientizar socialmente a través de la relación de la pareja protagonista, como si se tratara del choque entre dos mundos totalmente opuestos.",
+          "recipient": "Christophe Karabache y May Kassem",
+          "country": "Francia/France",
           "director": "",
-          "recipient": "Christophe Karabache y May Kassem"
+          "citation": "“Por la forma de narrar una historia que aparenta ser provocadora pero que en realidad intenta concientizar socialmente a través de la relación de la pareja protagonista, como si se tratara del choque entre dos mundos totalmente opuestos.”"
         },
         {
+          "name": "MEJOR ACTOR / BEST ACTOR",
           "film": "Vortex",
-          "name": "MEJOR ACTOR",
-          "country": "Francia",
-          "citation": "",
+          "recipient": "Julien Romano",
+          "country": "Francia/France",
           "director": "Christophe Karabache",
-          "recipient": "Julien Romano"
+          "citation": ""
         },
         {
+          "name": "MEJOR ACTRIZ / BEST ACTRESS",
           "film": "Vortex",
-          "name": "MEJOR ACTRIZ",
-          "country": "Francia",
-          "citation": "",
+          "recipient": "Claudia Fortunato",
+          "country": "Francia/France",
           "director": "Christophe Karabache",
-          "recipient": "Claudia Fortunato"
+          "citation": ""
         },
         {
+          "name": "MEJOR PELÍCULA LATINOAMERICANA / BEST LATIN AMERICAN FILM",
           "film": "Diablo Rojo PTY",
-          "name": "MEJOR PELÍCULA LATINOAMERICANA",
+          "recipient": "",
           "country": "Panamá",
-          "citation": "Por su habilidad para mezclar terror y comedia, evocando leyendas rurales panameñas, entre sobresaltos, buen humor y un aire que remite nostálgica y sutilmente a algunos clásicos de género.",
-          "director": "",
-          "recipient": ""
+          "director": "Sol Moreno",
+          "citation": "“Por su habilidad para mezclar terror y comedia, evocando leyendas rurales panameñas, entre sobresaltos, buen humor y un aire que remite nostálgica y sutilmente a algunos clásicos de género.”"
         },
         {
-          "film": "A LA ACTUACIÓN DE JIMENA RAMOS EN La sospecha",
-          "name": "MENCIÓN ESPECIAL DEL JURADO",
-          "country": "Uruguay",
-          "citation": "",
-          "director": "Miguel Torena",
-          "recipient": ""
-        },
-        {
-          "film": "Stay Out, Stay Alive",
-          "name": "PREMIO DEL PÚBLICO A MEJOR PELÍCULA DEL FESTIVAL",
-          "country": "Estados Unidos",
-          "citation": "",
-          "director": "Dean Yurke",
-          "recipient": ""
-        },
-        {
+          "name": "MENCIÓN ESPECIAL DEL JURADO / JURY SPECIAL MENTION",
           "film": "La sospecha",
-          "name": "PREMIO DEL PÚBLICO A MEJOR PELÍCULA LATINOAMERICANA",
+          "recipient": "JIMENA RAMOS",
           "country": "Uruguay",
-          "citation": "",
           "director": "Miguel Torena",
-          "recipient": ""
+          "citation": ""
+        },
+        {
+          "name": "PREMIO DEL PÚBLICO A MEJOR PELÍCULA DEL FESTIVAL / AUDIENCE CHOICE AWARD FOR BEST FILM",
+          "film": "Stay Out, Stay Alive",
+          "recipient": "",
+          "country": "Estados Unidos/US",
+          "director": "Dean Yurke",
+          "citation": ""
+        },
+        {
+          "name": "PREMIO DEL PÚBLICO A MEJOR PELÍCULA LATINOAMERICANA / AUDIENCE CHOICE AWARD FOR BEST LATIN AMERICAN FILM",
+          "film": "La sospecha",
+          "recipient": "",
+          "country": "Uruguay",
+          "director": "Miguel Torena",
+          "citation": ""
         }
-      ],
-      "section": "COMPETENCIA OFICIAL DE LARGOMETRAJES"
+      ]
     },
     {
-      "jury": "integrantes del Grupo Fantástico de Montevideo: el escritor Álvaro Bonanata, la escritora Mónica Marchesky, y el periodista Andrés Montañéz.",
+      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES / OFFICIAL SHORT FILMS COMPETITION",
+      "jury": "Jurado compuesto por integrantes del Grupo Fantástico de Montevideo: el escritor Álvaro Bonanata, la escritora Mónica Marchesky, y el periodista Andrés Montañéz.",
       "awards": [
         {
+          "name": "MEJOR CORTO DEL FESTIVAL / BEST SHORT FILM",
           "film": "Cerdita",
-          "name": "MEJOR CORTO DEL FESTIVAL",
-          "country": "España",
-          "citation": "La historia del bullying, tan recurrente en nuestra sociedad. Un inesperado ´salvador´ que recorre las calles infligiendo castigo es la figura del vengador anónimo.",
-          "director": "",
-          "recipient": ""
+          "recipient": "",
+          "country": "España/Spain",
+          "director": "Carlota Pereda",
+          "citation": "“La historia del bullying, tan recurrente en nuestra sociedad. Un inesperado ´salvador´ que recorre las calles infligiendo castigo es la figura del vengador anónimo.”"
         },
         {
+          "name": "MEJOR CORTO LATINOAMERICANO / BEST LATIN AMERICAN SHORT FILM",
           "film": "La solapa",
-          "name": "MEJOR CORTO LATINOAMERICANO",
+          "recipient": "",
           "country": "Argentina",
-          "citation": "Por traer nuevos monstruos a la región, con un montaje de suspenso, música acorde y un excelente trabajo de efectos especiales prácticos”.",
-          "director": "",
-          "recipient": ""
+          "director": "Laura Sánchez Acosta",
+          "citation": "“Por traer nuevos monstruos a la región, con un montaje de suspenso, música acorde y un excelente trabajo de efectos especiales prácticos”."
         },
         {
+          "name": "MEJOR CORTO URUGUAYO / BEST URUGUAYAN SHORT FILM",
           "film": "Número reasignado",
-          "name": "MEJOR CORTO URUGUAYO",
+          "recipient": "",
           "country": "",
-          "citation": "Buena producción; se cuentan dos historias que convergen en un punto. En el guion está el destino, la fatalidad y lo inevitable.",
-          "director": "",
-          "recipient": ""
-        },
-        {
-          "film": "",
-          "name": "MENCIONES ESPECIALES DEL JURADO A CORTOS INTERNACIONALES",
-          "country": "",
-          "citation": "",
-          "director": "",
-          "recipient": ""
-        },
-        {
-          "film": "Natalie MacMahon – The Funeral Dancer",
-          "name": "MEJOR DIRECCIÓN",
-          "country": "Alemania",
-          "citation": "Es sin duda un relato especulativo tan apasionante como rechazado, pero en un futuro puede llegar a suceder. Los planos, la música, está todo acorde a la historia; buen trabajo de guion,",
-          "director": "",
-          "recipient": ""
-        },
-        {
-          "film": "Fernanda Muñiz ( Revival",
-          "name": "MEJOR GUIÓN",
-          "country": ") (Chile",
-          "citation": "Buena historia futurista, bien contada, con distintos planos. Las repeticiones se suceden, pero son acertadas. Así como acertado es también el estribillo que recorre las escenas como una sentencia.",
-          "director": "Julio Orellana",
-          "recipient": ""
-        },
-        {
-          "film": "Lola Ahumada: La solapa",
-          "name": "MEJOR ACTRIZ",
-          "country": "Argentina",
-          "citation": "Buena labor. Se la pueda ver en distintas situaciones con total naturalidad.",
-          "director": "",
-          "recipient": ""
-        },
-        {
-          "film": "Amargo era el postre",
-          "name": "MEJOR PRODUCCIÓN",
-          "country": "España",
-          "citation": "Por su fotografía sobresaliente, paleta de colores y estética.",
-          "director": "Diego H",
-          "recipient": ""
-        },
-        {
-          "film": "Boubkar Bensabat – Atomic Ed",
-          "name": "MEJOR FOTOGRAFÍA",
-          "country": "Francia",
-          "citation": "",
-          "director": "Nicolas Hugón",
-          "recipient": ""
-        },
-        {
-          "film": "",
-          "name": "MENCIONES ESPECIALES DEL JURADO A CORTOS URUGUAYOS",
-          "country": "",
-          "citation": "",
-          "director": "",
-          "recipient": ""
-        },
-        {
-          "film": "J. Martín Vega",
-          "name": "MEJOR DIRECTOR",
-          "country": "",
-          "citation": "Por la buena dirección de cámara, los planos, los juegos de sombras y luces. Progreso de la historia sin sobresaltos. Se muestra el relato, su desarrollo y el desenlace sin efectos que puedan entorpecer la acción.",
-          "director": "de cámara",
-          "recipient": ""
-        },
-        {
-          "film": "Abendlied",
-          "name": "MEJOR GUIÓN",
-          "country": "",
-          "citation": "Un corto donde se ve claramente el recurso del final deductivo. Con poco dice mucho y lo más importante, que deja al espectador desarrollando la anécdota. Es difícil llevar adelante este tipo de historias, buen acierto.",
-          "director": "Jorge Menoni",
-          "recipient": ""
-        },
-        {
-          "film": "Floriana Álvez",
-          "name": "MEJOR ACTRIZ",
-          "country": "Monstruo",
-          "citation": "Su actuación es una auténtica promesa. Se ve en el rostro en primer plano que es natural y no está forzando la acción.",
-          "director": "J",
-          "recipient": ""
-        },
-        {
-          "film": "Alexis Nieto",
-          "name": "MEJOR FOTOGRAFÍA",
-          "country": "Lara",
-          "citation": "Claridad y aire en las imágenes.",
-          "director": "Diego Nieto “Claridad y aire en las imágenes",
-          "recipient": ""
-        },
-        {
-          "film": "Cathe Aristimuño",
-          "name": "MEJOR DIRECCIÓN ARTÍSTICA",
-          "country": "El íncubo",
-          "citation": "",
-          "director": "Raúl Pierri",
-          "recipient": ""
+          "director": "Santiago Sabalsagaray, Sebastián Sabalsagaray, Pablo Rochet",
+          "citation": "“Buena producción; se cuentan dos historias que convergen en un punto. En el guion está el destino, la fatalidad y lo inevitable.”"
         }
-      ],
-      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES"
+      ]
     },
     {
+      "section": "MENCIONES ESPECIALES DEL JURADO A CORTOS INTERNACIONALES / JURY SPECIAL MENTIONS TO INTERNATIONAL SHORT FILMS",
       "jury": "",
       "awards": [
         {
-          "film": "Chickens / Gallinas",
-          "name": "MEJOR CORTOMETRAJE DEL FESTIVAL",
-          "country": "Estados Unidos",
-          "citation": "",
-          "director": "Bryian Keith Montgomery Jr",
-          "recipient": ""
-        },
-        {
-          "film": "La solapa",
-          "name": "MEJOR CORTOMETRAJE IBEROAMERICANO",
-          "country": "Argentina",
-          "citation": "",
+          "name": "MEJOR DIRECCIÓN / BEST DIRECTION",
+          "film": "The Funeral Dancer",
+          "recipient": "Natalie MacMahon",
+          "country": "Alemania/Germany",
           "director": "",
-          "recipient": ""
+          "citation": "“Es sin duda un relato especulativo tan apasionante como rechazado, pero en un futuro puede llegar a suceder. Los planos, la música, está todo acorde a la historia; buen trabajo de guion, producción y dirección. Buen manejo de las situaciones. El desarrollo de la historia está en perfecto equilibrio entre luces y sombras.”"
         },
         {
-          "film": "Monstruo",
-          "name": "MEJOR CORTOMETRAJE URUGUAYO",
-          "country": "",
-          "citation": "",
-          "director": "J",
-          "recipient": ""
+          "name": "MEJOR GUIÓN / BEST SCREENPLAY",
+          "film": "Revival",
+          "recipient": "Fernanda Muñiz",
+          "country": "Chile",
+          "director": "Julio Orellana",
+          "citation": "“Buena historia futurista, bien contada, con distintos planos. Las repeticiones se suceden, pero son acertadas. Así como acertado es también el estribillo que recorre las escenas como una sentencia.”"
+        },
+        {
+          "name": "MEJOR ACTRIZ / BEST ACTRESS",
+          "film": "La solapa",
+          "recipient": "Lola Ahumada",
+          "country": "Argentina",
+          "director": "Laura Sánchez Acosta",
+          "citation": "“Buena labor. Se la pueda ver en distintas situaciones con total naturalidad.”"
+        },
+        {
+          "name": "MEJOR PRODUCCIÓN / BEST PRODUCTION",
+          "film": "Amargo era el postre",
+          "recipient": "",
+          "country": "España/Spain",
+          "director": "Diego H. Kataryniuk",
+          "citation": "“Por su fotografía sobresaliente, paleta de colores y estética.”"
+        },
+        {
+          "name": "MEJOR FOTOGRAFÍA / BEST CINEMATOGRAPHY",
+          "film": "Atomic Ed",
+          "recipient": "Boubkar Bensabat",
+          "country": "Francia/France",
+          "director": "Nicolas Hugón",
+          "citation": ""
         }
-      ],
-      "section": "PREMIOS DEL PÚBLICO"
+      ]
+    },
+    {
+      "section": "MENCIONES ESPECIALES DEL JURADO A CORTOS URUGUAYOS / JURY SPECIAL MENTIONS TO URUGUAYAN SHORT FILMS",
+      "jury": "",
+      "awards": [
+        {
+          "name": "MEJOR DIRECTOR / BEST DIRECTOR",
+          "film": "Monstruo",
+          "recipient": "J. Martín Vega",
+          "country": "",
+          "director": "",
+          "citation": "“Por la buena dirección de cámara, los planos, los juegos de sombras y luces. Progreso de la historia sin sobresaltos. Se muestra el relato, su desarrollo y el desenlace sin efectos que puedan entorpecer la acción.”"
+        },
+        {
+          "name": "MEJOR GUIÓN / BEST SCREENPLAY",
+          "film": "Abendlied",
+          "recipient": "",
+          "country": "",
+          "director": "Jorge Menoni",
+          "citation": "“Un corto donde se ve claramente el recurso del final deductivo. Con poco dice mucho y lo más importante, que deja al espectador desarrollando la anécdota. Es difícil llevar adelante este tipo de historias, buen acierto.”"
+        },
+        {
+          "name": "MEJOR ACTRIZ / BEST ACTRESS",
+          "film": "Monstruo",
+          "recipient": "Floriana Álvez",
+          "country": "",
+          "director": "J. Martín Vega",
+          "citation": "“Su actuación es una auténtica promesa. Se ve en el rostro en primer plano que es natural y no está forzando la acción.”"
+        },
+        {
+          "name": "MEJOR FOTOGRAFÍA / BEST CINEMATOGRAPHY",
+          "film": "Lara",
+          "recipient": "Alexis Nieto",
+          "country": "",
+          "director": "Diego Nieto",
+          "citation": "“Claridad y aire en las imágenes.”"
+        },
+        {
+          "name": "MEJOR DIRECCIÓN ARTÍSTICA / BEST ART DIRECTION",
+          "film": "El íncubo",
+          "recipient": "Cathe Aristimuño",
+          "country": "",
+          "director": "Raúl Pierri",
+          "citation": ""
+        }
+      ]
+    },
+    {
+      "section": "PREMIOS DEL PÚBLICO / AUDIENCE CHOICE AWARDS",
+      "jury": "",
+      "awards": [
+        {
+          "name": "MEJOR CORTOMETRAJE DEL FESTIVAL / BEST SHORT FILM",
+          "film": "Chickens / Gallinas",
+          "recipient": "",
+          "country": "Estados Unidos",
+          "director": "Bryian Keith Montgomery Jr",
+          "citation": ""
+        },
+        {
+          "name": "MEJOR CORTOMETRAJE IBEROAMERICANO / BEST LATIN AMERICAN SHORT FILM",
+          "film": "La solapa",
+          "recipient": "",
+          "country": "Argentina",
+          "director": "Laura Sánchez Acosta",
+          "citation": ""
+        },
+        {
+          "name": "MEJOR CORTOMETRAJE URUGUAYO / BEST URUGUAYAN SHORT FILM",
+          "film": "Monstruo",
+          "recipient": "",
+          "country": "",
+          "director": "J. Martín Vega",
+          "citation": ""
+        }
+      ]
     }
   ],
   "edition": {
@@ -254,9 +250,9 @@
           "year": 2019,
           "title": "ATACAMA",
           "poster": "/media/archive/XII/films/atacama.jpg",
-          "review": "El cine venezolano no para de sorprender en el festival, primero con el excelente primer largo de terror hecho en dicho país ( La casa del fin de los tiempos , ganadora de varios premios en el MF IX, 2015), luego con la primera película de ciencia ficción “vino tinto” ( La jaula , exhibida en la pasada edición del Montevideo Fan), y ahora con este muy modesto trabajo filmado en 21 días y hecho entre apenas cinco personas. En el inhóspito lugar del título se van tejiendo historias mínimas que reflejan costumbres, pero también miedos, fantasías y enfrentamientos capaces de poner a prueba la resistencia física y psicológica de sus personajes. Una labor desafiante, a veces provocadora, pero muy valiosa, a cargo de los hermanos Bencomo, cuya premiada ópera prima, la comedia Pipí Mil Pupú 2 Lucas (2012), había sido hecha con apenas 1.000 dólares, logrando ser estrenada comercialmente.",
+          "review": "El cine venezolano no para de sorprender en el festival, primero con el excelente primer largo de terror hecho en dicho país (La casa del fin de los tiempos, ganadora de varios premios en el MF IX, 2015), luego con la primera película de ciencia ficción “vino tinto” (La jaula, exhibida en la pasada edición del Montevideo Fan), y ahora con este muy modesto trabajo filmado en 21 días y hecho entre apenas cinco personas. En el inhóspito lugar del título se van tejiendo historias mínimas que reflejan costumbres, pero también miedos, fantasías y enfrentamientos capaces de poner a prueba la resistencia física y psicológica de sus personajes. Una labor desafiante, a veces provocadora, pero muy valiosa, a cargo de los hermanos Bencomo, cuya premiada ópera prima, la comedia Pipí Mil Pupú 2 Lucas (2012), había sido hecha con apenas 1.000 dólares, logrando ser estrenada comercialmente.",
           "country": "Venezuela",
-          "credits": "",
+          "credits": "Dirección: Enrique Bencomo. Guión: EB, Fernando Bencomo. Con Luciano Farías, María Jesús Foix, Germán Silva, José Miguel Ceardi. Duración: 67 minutos.",
           "director": "Enrique Bencomo",
           "duration": 67,
           "synopsis": "El Desierto de Atacama, el lugar más árido del mundo, es el lugar donde convergen tres historias: la de Nicolás, un citadino que vuelve al desierto para el funeral de su padre e intenta estar en paz con él, a pesar que ya falleció; la de Facundo, un minero que vive al día y cuya obsesión con materiales preciosos afecta su salud; y la de Brisa, una astrónoma que trabaja en el laboratorio de radiotelescopios ALMA, se siente sola, y está a la búsqueda de alguien. La miseria y la ambición llevará a todos a lugares oscuros, con resultados impensados.",
@@ -269,7 +265,7 @@
           "poster": "/media/archive/XII/films/beneath-the-trees-bajo-los-arboles.jpg",
           "review": "Rodada en cuatro fines de semana y con presupuesto muy ajustado, el realizador italiano (radicado en Inglaterra) Marco De Luca, junto a la guionista Irene Harris, le dan a la Naturaleza el poder como para poner en jaque a los tres jóvenes protagonistas que deciden ir a acampar en las afueras de la ciudad, aunque dos de ellos (primos) tienen un motivo que la protagonista (chica de ciudad y que no se siente muy a gusto con salir de la misma) desconoce. Lo primero que puede venir a la mente es una remota evocación del clásico australiano Largo fin de semana (Colin Eggleston, 1978) y algo de la brillante sugestión empleada en El Proyecto Blair Witch (Daniel Myrick, Eduardo Sánchez, 1999), solo que aquí la naturaleza toma una posición más contundente y al mismo tiempo misteriosa, tanto para los que la respetan como para los que la ignoran, valiéndose de mitos para poner las cosas en su lugar y a su manera. Premiada en Estados Unidos y Holanda.",
           "country": "Reino Unido",
-          "credits": "",
+          "credits": "Dirección: Marco De Luca. Guión: Irene Harris. Con Sarah Bradnum, Jessica Chamberlain, Louis Levi. Duración: 76 minutos.",
           "director": "Marco De Luca",
           "duration": 76,
           "synopsis": "A pesar de no estar muy convencida, una joven estudiante americana, Emily, acepta acampar un fin de semana en un campo inglés con su nuevo novio, Jay, y la extraña prima de éste, Julia. Un simple paseo por el bosque se convierte en un roce letal con la naturaleza, cuando Emily descubre que sus nuevos amigos no son lo que parecen… y su vida está en peligro… bajo de los árboles.",
@@ -281,8 +277,8 @@
           "title": "BULLETS OF JUSTICE",
           "poster": "/media/archive/XII/films/bullets-of-justice.jpg",
           "review": "Una película que combina acción y ciencia ficción, procedente de Kazajistán y en coproducción con Bulgaria, con la actuación de Danny Trejo, ya de por sí es toda una novedad, más teniendo en cuenta que nunca en el festival se han exhibido trabajos de dichos países. Pero lo más curioso de todo es la propuesta de la película en sí; dejando de lado su sorpresivo final, lo que empieza como una guerra entre humanos supervivientes y la nueva especie dominante, en un futuro no tan lejano, deriva en una serie de personajes cada vez más exóticos y con incesantes sátiras hacia los típicos clichés de películas de superhéroes, donde no falta la danza ni el fútbol como armas para combatir el mal. Una propuesta arriesgada, para nada comercial, de esas que suelen verse solamente… en festivales de cine.",
-          "country": "Bulgaria",
-          "credits": "",
+          "country": "Bulgaria / Kazajistán",
+          "credits": "Dirección: Valeri Milev. Guión: VM, Timur Turisbekov. Con Danny Trejo, Yana Marinova, Dessy Slavova, Doroteya Toleva, Ester Chardaklieva. Duración: 76 minutos.",
           "director": "Valeri Milev",
           "duration": 76,
           "synopsis": "Durante la Tercera Guerra mundial, el gobierno norteamericano inicia un proyecto secreto llamado «Army Bacon», que consiste en crear un súper soldado, combinando el ADN de un gorrino con el de un ser humano. Veinticinco años después, una nueva especie animal llamada «Muzzle» ocupa el eslabón más alto de la cadena alimenticia. Muy superiores a lo que un día se consideró el «rey del universo» los muzzles viven a imagen y semejanza de los humanos: comen su comida y cultivan los campos al igual que lo hizo la humanidad durante cientos de miles de años antes. Rob Justice es un antiguo caza-recompensas que vive cada día como si fuese el último, en el grupo de resistencia de los humanos que tratan de restablecer el orden mundial. Escondiéndose en un mugriento bunker nuclear, oculto entre las tinieblas, Rob y sus compañeros hacen todo lo posible para descubrir cómo acabar con la hegemonía de los muzzles.",
@@ -293,9 +289,9 @@
           "year": 2019,
           "title": "FLESH CITY",
           "poster": "/media/archive/XII/films/flesh-city.jpg",
-          "review": "Comienza como una película de ciencia ficción, pero luego se dispara en distintas direcciones, en un tono mucho más experimental (mezclando terror y cyberpunk), donde no faltan videojuegos, animaciones, cine digital y analógico, canales nihilistas que incluyen música que va desde la electrónica hasta el trash metal, y gente que hace sus peculiares videoclips para poder participar a como dé lugar en esos populares programas. “ Flesh City es un lugar hostil y oscuro, habitado por una amplia gama de extraños personajes que siguen sus proyectos, para mantener a raya el terror de la existencia. Me propuse hacer una especie de sueño febril, salvaje y distorsionado de una ciudad despiadada y que explotaba en carne propia. ”, afirmaba su realizador.",
+          "review": "Comienza como una película de ciencia ficción, pero luego se dispara en distintas direcciones, en un tono mucho más experimental (mezclando terror y cyberpunk), donde no faltan videojuegos, animaciones, cine digital y analógico, canales nihilistas que incluyen música que va desde la electrónica hasta el trash metal, y gente que hace sus peculiares videoclips para poder participar a como dé lugar en esos populares programas. “Flesh City es un lugar hostil y oscuro, habitado por una amplia gama de extraños personajes que siguen sus proyectos, para mantener a raya el terror de la existencia. Me propuse hacer una especie de sueño febril, salvaje y distorsionado de una ciudad despiadada y que explotaba en carne propia.”, afirmaba su realizador. Ópera prima del alemán Thorsten Fleisch (47 años, quien ha trabajado para cineastas como Gaspar Noé), rodada durante cuatro años en Berlín y con un presupuesto de apenas 2.000 dólares, ya es considerada una película de culto. Obtuvo varios premios en festivales y su realizador viene haciendo cortos experimentales desde hace más de 20 años, con los que también logró varios reconocimientos. Para Flesh City fue un verdadero hombre orquesta, encargándose también del libreto, la producción, efectos especiales, dirección artística, sonido, edición, fotografía, además de producir, cantar y hacer la letra de algunas canciones que aparecen en los videoclips, además de la coproducción del videojuego que aparece en la película.",
           "country": "Alemania",
-          "credits": "",
+          "credits": "Guión y Dirección: Thorsten Fleisch. Con Christian Serritiello, Eva Ferox, Maria Hengge, Marilena Netzker, Helena Prince. Duración: 85 minutos.",
           "director": "Thorsten Fleisch",
           "duration": 85,
           "synopsis": "Vyren conoce a Loquette en un club tecno y explora con ella los oscuros rincones del lugar, descubriendo un laboratorio oculto donde un organismo en rápido crecimiento, con la ayuda de un científico loco, está infectando la ciudad e invadiendo los cerebros de sus habitantes. Pronto, todo se sale de control, reinando el caos y la mutación.",
@@ -306,9 +302,9 @@
           "year": 2019,
           "title": "STAY OUT, STAY ALIVE",
           "poster": "/media/archive/XII/films/stay-out-stay-alive.jpg",
-          "review": "Gran trabajo que se vale del suspenso y el terror para apuntarle a la naturaleza humana, a la amistad y las relaciones sentimentales trastocadas por la ambición material, y que recuerda inevitablemente al Danny Boyle de la excelente Tumba al ras de la tierra (1994). El director (nacido en Inglaterra) Dean Yurke, aquí en su ópera prima, cuenta con más de 25 años de experiencia trabajando en el área de efectos especiales (es también animador y artista digital) para grandes superproducciones de Hollywood (más de 50), que incluyen la saga Star Wars , Transformers , Harry Potter , Iron Man , Avengers y Avatar ; también realizó trabajos para Terry Gilliam ( 12 monos ). Es parte de la Industrial Light and Magic, de George Lucas (de hecho trabajó en su especialidad para la inminente El ascenso de Skywalker ) y aquí se despachó con un thriller sobrenatural de apenas 350.000 dólares de presupuesto.",
+          "review": "Gran trabajo que se vale del suspenso y el terror para apuntarle a la naturaleza humana, a la amistad y las relaciones sentimentales trastocadas por la ambición material, y que recuerda inevitablemente al Danny Boyle de la excelente Tumba al ras de la tierra (1994). El director (nacido en Inglaterra) Dean Yurke, aquí en su ópera prima, cuenta con más de 25 años de experiencia trabajando en el área de efectos especiales (es también animador y artista digital) para grandes superproducciones de Hollywood (más de 50), que incluyen la saga Star Wars, Transformers, Harry Potter, Iron Man, Avengers y Avatar; también realizó trabajos para Terry Gilliam (12 monos). Es parte de la Industrial Light and Magic, de George Lucas (de hecho trabajó en su especialidad para la inminente El ascenso de Skywalker) y aquí se despachó con un thriller sobrenatural de apenas 350.000 dólares de presupuesto.",
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: Dean Yurke. Con Brie Matteson, Brandon Wardle, Sage Mears, Christina Kim, Barbara Crampton. Duración: 83 minutos.",
           "director": "Dean Yurke",
           "duration": 83,
           "synopsis": "A la sombra de una inquietante presencia del pasado en el bosque, cinco jóvenes excursionistas descubren una mina abandonada que se remonta a la fiebre del oro, y descienden a la locura y la codicia, a medida que la búsqueda de riquezas fáciles los consume. Donna -una de las excursionistas- cae por el pozo de una mina y queda atrapada bajo una roca, por lo que el grupo deberá elegir entre salvarla rápidamente o tomarse su tiempo para extraer ilegalmente el oro prohibido.",
@@ -319,9 +315,9 @@
           "year": 2019,
           "title": "VORTEX",
           "poster": "/media/archive/XII/films/vortex.jpg",
-          "review": "No es de extrañar, por los premios que ha recibido este trabajo (Mejor Película Postmoderna, Best “What the Fuck? Feature”) que sea un tanto inclasificable. La intención de su realizador libanés, Christophe Karabache (nacido en Beirut, radicado en Francia), no pasa por provocar al espectador, sino en reflejar a sus personajes dentro del vórtice del título original, donde el drama y la fantasía giran, mientras la realidad permanece tangible.",
+          "review": "No es de extrañar, por los premios que ha recibido este trabajo (Mejor Película Postmoderna, Best “What the Fuck? Feature”) que sea un tanto inclasificable. La intención de su realizador libanés, Christophe Karabache (nacido en Beirut, radicado en Francia), no pasa por provocar al espectador, sino en reflejar a sus personajes dentro del vórtice del título original, donde el drama y la fantasía giran, mientras la realidad permanece tangible. “Los dos personajes de la película (el hombre y la mujer) son opuestos. Sin embargo, se encuentran. Ambos tienen un cierto grado de poder sobre la vida: uno la toma y el otro la devuelve. Su coexistencia sigue siendo difícil, incluso imposible. A través de la filmación de sus vidas cotidianas, se dibujan retratos de cada uno de ellos. También un salto al vació, a sus miedos, a sus recuerdos (…) Esta sociedad es un montón de carne en perpetua subversión«, afirmaba su realizador, cuyo cine antisistema no apunta a impactar a través de la violencia sino a la reflexión a través de la exposición. Dos décadas de trayectoria son las que lleva este director franco libanés, considerado un cineasta de culto por el under francés, que ha sido testigo de una filmografía experimental, “poblada de personajes marginales que vagabundean perdidos, en soledad, padeciendo crisis de pasiones y relaciones conflictivas, muchas de ellas derivadas de guerras civiles, siempre entre el drama y la ficción.” De Karabache se ha hecho un documental sobre su filmografía. Algunas de sus películas lograron llegar a circuito comercial, a la Cinemateca Francesa, y hasta a tener contratos en Nueva York para su distribución. Su obra ha recorrido varios festivales internacionales, donde fue exhibida y premiada en varias ocasiones (Francia, Líbano, Estados Unidos, Italia, Alemania, Australia, España, Bosnia y Herzegovina, India, Bulgaria y Rumania).",
           "country": "Francia",
-          "credits": "",
+          "credits": "Dirección: Christophe Karabache. Guión: CK, May Kassem. Con Julien Romano, Claudia Fortunato, Joelle Hélary, Romuald Bourdon, Nida Wakim. Duración: 83 minutos.",
           "director": "Christophe Karabache",
           "duration": 83,
           "synopsis": "Un asesino fuera de control deja la ciudad atrás y se encuentra, en su camino, con una misteriosa bruja que está conectada con la naturaleza. Así comienza una extraña relación orgánica, entre la vida y la muerte.",
@@ -338,9 +334,9 @@
           "year": 2019,
           "title": "DIABLO ROJO PTY",
           "poster": "/media/archive/XII/films/diablo-rojo-pty.jpg",
-          "review": "Una aventura que entrelaza a la “bestia de la ciudad” (el desaparecido medio de transporte llamado Diablo Rojo, famoso por su decorado… y el temperamento de sus conductores) con elementos tradicionales de la cultura del interior de Panamá, tales como historias y leyendas que han sido transmitidas de generación en generación por la tradición oral.",
+          "review": "Una aventura que entrelaza a la “bestia de la ciudad” (el desaparecido medio de transporte llamado Diablo Rojo, famoso por su decorado… y el temperamento de sus conductores) con elementos tradicionales de la cultura del interior de Panamá, tales como historias y leyendas que han sido transmitidas de generación en generación por la tradición oral. Es la primera vez que el festival exhibe una película de terror panameña, la primera hecha en dicho país. La directora Sol Moreno le imprime a su ópera prima un sello cortado con la tijera de viejos clásicos del género (de los ´70 y sobre todo de los ´80), no exento de situaciones que remitirán a un pasado latente, inconcluso y con ánimo de hacer justicia. Cabe destacar también el maquillaje y la música original de un trabajo que contó, además, con el apoyo del propio gobierno panameño.",
           "country": "Panamá",
-          "credits": "",
+          "credits": "Dirección: Sol Moreno. Guión: Adaír Domínguez, J. Oskura Nájera. Con Carlos Carrasco, Leo Wiznitzer, Alejandra Aráuz, Natalia Beluche, Renán Fernández. Duración: 77 minutos.",
           "director": "Sol Moreno",
           "duration": 77,
           "synopsis": "En la ciudad de Panamá, un chofer de autobús cae víctima de un misterioso hechizo y termina perdido en la selva de Chiriquí, arrastrando al chofer, al asistente y a dos policías de tránsito. El grupo tendrá que sobrevivir a las criaturas de la noche, con el viejo autobús como único refugio.",
@@ -353,8 +349,8 @@
           "poster": "/media/archive/XII/films/el-diablo-me-dijo-que-hacer.jpg",
           "review": "Otro de esos trabajos modestos, hecho prácticamente en un ambiente, y con escasas tomas en exteriores, con el soporte de sus dos actores principales durante toda la película, en un clima agobiante, y el peso de un libreto que es decisivo, manteniendo su pulso, aportando algún elemento sobrenatural, y que, a pesar de contar con alguna escena fuerte, igual logra salir a flote, planteando un tenso enfrentamiento, donde la frontera entre el bien y el mal se cruza con bastante asiduidad por parte de sus dos protagonistas.",
           "country": "México",
-          "credits": "",
-          "director": "Alejandro G",
+          "credits": "Guión y Dirección: Alejandro G. Alegre. Con Marcos Duarte, Micho Camacho, María Pura, Isaac Pérez Calzada, Blanca Ferreyra. Duración: 83 minutos.",
+          "director": "Alejandro G. Alegre",
           "duration": 83,
           "synopsis": "Un joven algo perturbado mentalmente secuestra a un doctor corrupto que se dedica a la venta fraudulenta de seguros médicos. Su objetivo no es pedir dinero por él, sino atormentarlo física y psicológicamente para que termine confesando sus pecados.",
           "trailer_url": null
@@ -364,9 +360,9 @@
           "year": 2019,
           "title": "LUZ",
           "poster": "/media/archive/XII/films/luz.jpg",
-          "review": "Según su guionista y realizador, Juan Diego Escobar, “ Luz pretende ser una película mística y metafórica que cuestiona nociones como pureza, amor, feminidad, familia y la idea de Dios y el Diablo. La película atraviesa dualidades y contradicciones como el bien y el mal, la oscuridad y la luz, los muchos yin-s y yang-s de nuestra existencia misma. En definitiva, se trata de una película que explora en profundidad lo que significa ser humano y estar vivo. Me gusta pensar en esta película como un drama poético del oeste oscuro, como si La bruja se encuentra con El árbol de la vida , oscuro y atmosférico, pero inquietante, bello y poético. ” Seleccionada para Sitges.",
+          "review": "Según su guionista y realizador, Juan Diego Escobar, “Luz pretende ser una película mística y metafórica que cuestiona nociones como pureza, amor, feminidad, familia y la idea de Dios y el Diablo. La película atraviesa dualidades y contradicciones como el bien y el mal, la oscuridad y la luz, los muchos yin-s y yang-s de nuestra existencia misma. En definitiva, se trata de una película que explora en profundidad lo que significa ser humano y estar vivo. Me gusta pensar en esta película como un drama poético del oeste oscuro, como si La bruja se encuentra con El árbol de la vida, oscuro y atmosférico, pero inquietante, bello y poético.” Seleccionada para Sitges.",
           "country": "Colombia",
-          "credits": "",
+          "credits": "Guión y Dirección: Juan Diego Escobar Alzate. Con Conrado Osorio, Yuri Vargas, Andrea Esquivel, Sharon Gúzman, Daniel Páez. Duración: 104 minutos.",
           "director": "Juan Diego Escobar Alzate",
           "duration": 104,
           "synopsis": "En la espesura de las montañas, en una comunidad aislada liderada por un predicador conocido como El Señor, un presunto nuevo Mesías llega al pueblo, pero con su llegada los males comienzan. No solamente para la aldea, sino también en la casa del predicador, en donde sus tres hijas, Laila, Uma y Zion, comenzarán a cuestionar el verdadero significado de Dios, del Diablo, y la auténtica naturaleza del amor, del placer, de la feminidad y de la libertad. Dios vive ahora allí pero también el Diablo, y deberán aprender a convivir en esas tierras el uno con el otro… ¿O son la misma persona?",
@@ -379,7 +375,7 @@
           "poster": "/media/archive/XII/films/rebobinado-la-pelicula.jpg",
           "review": "La comedia retro/fantástica por excelencia del festival, con el coguionista y realizador Juan Francisco Otaño (aquí en su ópera prima) evocando con entrañable y satírico humor, un detallismo obsesivo y mucha pasión, los ´80 y ´90, también valiéndose de viajes en el tiempo, pero para algo que va asomando progresivamente como eje principal de su propuesta: contar una historia de amor dentro de una comedia de ciencia ficción, o en especial la de un joven que se proyecta al pasado para aprender de errores y por ende revertir en buena medida su vida actual. Los personajes exóticos que lo rodean (amigos, familiares, nuevas e impensadas amistades) le dan un toque especial a un trabajo independiente que también luce bastante en otros rubros, como la dirección artística, la música original y el vestuario. “En un mundo en el que el diálogo se abrevia cada vez más y los encuentros son escasos, sentémonos todos y dejemos que la pantalla nos una para compartir una historia.”, comentaba Otaño. Premio del Público a Mejor Película y del Jurado a Mejor Película Iberoamericana en el BARS 2018.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: Juan Francisco Otaño. Guión: Leonardo Centeno, JFO. Con Matías Dinardo, Juan Carrasco, Lucas Di Conza, Matías Pellegrini Sánchez, Estefanía Bavassi. Duración: 101 minutos.",
           "director": "Juan Francisco Otaño",
           "duration": 101,
           "synopsis": "Alejandro descubre una extraña grabadora de cassette con el poder de transportarlo a su memoria, «a la fiesta de 1998». Tiene la oportunidad de recordar lo que se siente al tener 12 años, y el momento especial que marca su futuro (el baile en el que debía declarar su amor a Magali, aunque no lo hizo). La búsqueda de convertir su recuerdo en «perfecto» lo llevará a vivir muchas aventuras y sin darse cuenta que transformará su presente en una película, una película de aventuras, comedia, romance y rock.",
@@ -392,7 +388,7 @@
           "poster": "/media/archive/XII/films/sorgalim.jpg",
           "review": "Una película ultraindependiente que demandó mucho esfuerzo y tiempo en su producción (más de cuatro años) y que saca partido tanto del terror rural que irrumpe en un apacible pueblo como de los elementos sobrenaturales a los que va apostando progresivamente dentro de un sólido relato, sin ambiciones de ningún tipo, y con elenco maduro y competente que da credibilidad a la historia. Premio a Mejor Película, Dirección, Guión y Actriz de Reparto en el pasado FIXION Fest, de Santiago (Chile).",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: José Luis Romano, Guillermo Taboada. Guión: Emiliano Sued. Con Carlos Sarracini, María Luisa Tejeda, Gabriela Sae, Jorge Ondarza, Hugo Herrera. Duración: 81 minutos.",
           "director": "José Luis Romano, Guillermo Taboada",
           "duration": 81,
           "synopsis": "Una pareja sufre un grave accidente automovilístico. Por ser el que conducía, Ernesto se siente culpable de que Isabel haya quedado inválida. En busca de calma, se mudan al campo, donde Clara, una tía de ella, se ocupará de cuidarla. Contra todo pronóstico, Isabel comienza a recuperarse milagrosamente. Aunque es muy creyente, su tía está asustada: no es Dios el que está ayudando a su sobrina. Indiferente a los temores de Clara, Ernesto vaga confundido y atrapado en una misteriosa tragedia.",
@@ -405,20 +401,26 @@
           "poster": "/media/archive/XII/films/vesanica.jpg",
           "review": "Modestísimo trabajo platense que con muy pocos recursos logra llamar bastante la atención, a partir de culturas a las que robaron sus pertenencias y luego fueron masacradas (en este caso, indios que fueron exterminados por el hombre blanco, a fines del Siglo XIX) pero cuya presencia se mantiene… Ópera prima de Lucas Gutiérrez, quien vuelca toda su cinefilia (con ecos del terror asiático) en una simple casa y durante una noche, transformándola por momentos en una experiencia bastante aterradora.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Lucas Gutiérrez. Con Matías Nicolás Gallo, Silvia Cogoma, Ramiro Tordó, María Soledad Navarro, Horacio Alfredo Echever. Duración: 87 minutos.",
           "director": "Lucas Gutiérrez",
           "duration": 87,
           "synopsis": "Ramiro es un joven que organiza con sus íntimos amigos, una reunión en su casa a las afueras de la ciudad momentos antes de salir a divertirse. Todo marcha bien hasta que ocurren algunos eventos extraños. Los jóvenes quedan involucrados en tal situación, mientras que Ramiro es el único que parece saber lo que está ocurriendo y cuyo hecho guarda una inquietante relación con un pasado que está más presente que nunca.",
           "trailer_url": null
-        },
+        }
+      ]
+    },
+    {
+      "name": "NOVEDADES",
+      "type": "features",
+      "films": [
         {
           "slug": "creeping-out",
           "year": 2019,
           "title": "CREEPING OUT",
           "poster": "/media/archive/XII/films/creeping-out.jpg",
-          "review": null,
+          "review": "Primer largometraje polaco que se exhibe en el festival (en la tercera edición del Montevideo Fan – 2008 – se había dado un corto de la misma nacionalidad, que resultó premiado) y todo un desafío para el espectador, no solo por las casi tres horas de duración, sino también por la estructura del relato que aquí lleva a cabo el joven debutante (27) Jakub Mateusz Boruń, entre idas y vueltas con experiencias traumatizantes, terror explícito y fuera de cuadro muy bien ejecutado, y un minucioso trabajo de edición donde cualquier cosa puede suceder. Mención aparte para la música original y las tomas de drones que marcan permanentes contrastes entre la espectacularidad de los paisajes rurales polacos y los climas agobiantes, herméticos, por los que transita su protagonista, el propio realizador Boruń, quien termina siendo prácticamente un hombre orquesta en un largo hecho con apenas 17.000 dólares.",
           "country": "Polonia",
-          "credits": "",
+          "credits": "Guión y Dirección: Jakub Mateusz Boruń. Con Michal Nowak, JMB, Malgorzata Klon, Anna Piotrowska, Bartosz Muczyński. Duración: 170 minutos.",
           "director": "Jakub Mateusz Boruń",
           "duration": 170,
           "synopsis": "Dos amigos deciden explorar una cueva prohibida en las profundidades de las montañas Tatra, la frontera natural entre Eslovaquia y Polonia. Pocas semanas después, sólo uno de ellos regresa, sin recordar exactamente lo que sucedió con su compañero de expedición y en tan largo período. A pesar de las sesiones de terapia con su psicóloga, la única dispuesta a ayudarlo de verdad, el superviviente poco a poco va perdiendo la cordura, lo que lleva a una jueza a acusarlo de homicidio por negligencia, y a que algunos de sus familiares y amigos lo miren con cierta desconfianza, mientras sigue siendo acosado por visiones y pesadillas.",
@@ -429,12 +431,12 @@
           "year": 2019,
           "title": "DEATHCEMBER",
           "poster": "/media/archive/XII/films/deathcember.jpg",
-          "review": null,
+          "review": "",
           "country": "Alemania",
-          "credits": "",
-          "director": "Lazar Bodroža, B",
+          "credits": "Dirección: Lazar Bodroža, B.J. Colangelo, John Cook Lynch, Steve De Roover, Ruggero Deodato, Sonia Escolano, Isaac Ezban, Rémi Fréchette, Florian Frerichs, Sadrac González-Perellón, Trent Haaga, Juergen Kling, Ama Lea, Andreas Marschall, Annika Marx, Pollyanna McIntosh, Lucky McKee, Bob Pipe, Julian Richards, Jason Rostovsky, Alyosha Saari, Dominic Saxl, R. Zachary Shildwachter, Milan Todorović, Michael Varrati, Sam Wineman, Sang-woo Lee, Vivienne Vaughn. Guión: Wes Allen, John Cook Lynch, Steve De Roover, Ruggero Deodato, Sonia Escolano, Isaac Ezban, Florian Frerichs, Rémi Fréchette, Sadrac González-Perellón, Marc Gottlieb, Trent Haaga, Charles Horak, Juergen Kling, Sang-woo Lee, Andreas Marschall, Annika Marx, Pollyanna McIntosh, Lucky McKee, Audrey Meubus, Momir Milosevic, Dominik Ostler, Bob Pipe, Julian Richards, Jason A. Rostovsky, Alyosha Saari, Dominic Saxl, R. Zachary Shildwachter, Michael Varrati, Vivienne Vaughn, Dimitrije Vojnov, Jasper Vrancken, Sam Wineman. Duración: 145 minutos.",
+          "director": "Lazar Bodroža, B.J. Colangelo, John Cook Lynch, Steve De Roover, Ruggero Deodato, Sonia Escolano, Isaac Ezban, Rémi Fréchette, Florian Frerichs, Sadrac González-Perellón, Trent Haaga, Juergen Kling, Ama Lea, Andreas Marschall, Annika Marx, Pollyanna McIntosh, Lucky McKee, Bob Pipe, Julian Richards, Jason Rostovsky, Alyosha Saari, Dominic Saxl, R. Zachary Shildwachter, Milan Todorović, Michael Varrati, Sam Wineman, Sang-woo Lee, Vivienne Vaughn",
           "duration": 145,
-          "synopsis": "Una colección de 24 cortometrajes volcados a lo oscuro. Veinticuatro directores internacionales con las más diversas ideas y estilos, vinculados por breves segmentos animados. Algunos de los realizadores ya habían presentado sus trabajos en pasadas ediciones del Montevideo Fan (el serbio Milan Todorovic, Zone of the Dead ), y hasta fueron premiados (el británico Julian Richards, The Last Horror Movie ). Dentro de los realizadores también aparecen históricos, como el italiano Ruggero Deodato ( Holocausto Caníbal ).",
+          "synopsis": "Una colección de 24 cortometrajes volcados a lo oscuro. Veinticuatro directores internacionales con las más diversas ideas y estilos, vinculados por breves segmentos animados. Algunos de los realizadores ya habían presentado sus trabajos en pasadas ediciones del Montevideo Fan (el serbio Milan Todorovic, Zone of the Dead), y hasta fueron premiados (el británico Julian Richards, The Last Horror Movie). Dentro de los realizadores también aparecen históricos, como el italiano Ruggero Deodato (Holocausto Caníbal).",
           "trailer_url": null
         },
         {
@@ -442,22 +444,23 @@
           "year": 2019,
           "title": "GEORGE HILTON: EL MUNDO ES DE LOS AUDACES",
           "poster": "/media/archive/XII/films/george-hilton-el-mundo-es-de-los-audaces.jpg",
-          "review": null,
-          "country": "Brasil",
-          "credits": "",
-          "director": null,
-          "duration": null,
+          "review": "",
+          "country": "Brasil / Italia",
+          "credits": "(George Hilton – Il mondo è degli audaci) – Guión y Dirección: Daniel Camargo. Duración: 107 minutos.",
+          "director": "Daniel Camargo",
+          "duration": 107,
           "synopsis": "Documental biográfico sobre el mítico actor uruguayo George Hilton, una de las grandes estrellas del cine popular italiano. Sus westerns, thrillers y giallos fueron éxito de taquilla. A lo largo de su vida y obra, el trabajo también va descubriendo lo que fue la producción cinematográfica italiana de los años sesenta y setenta. Seleccionado para Sitges.",
-          "trailer_url": null
+          "trailer_url": null,
+          "original_title": "George Hilton – Il mondo è degli audaci"
         },
         {
           "slug": "la-sospecha",
           "year": 2019,
           "title": "LA SOSPECHA",
           "poster": "/media/archive/XII/films/la-sospecha.jpg",
-          "review": null,
+          "review": "",
           "country": "Uruguay",
-          "credits": "",
+          "credits": "Guión y Dirección: Miguel Torena. Con Romina Grela, Fabián Rosas, Jimena Ramos, Jorge Sugo, Andrés Viñas. Duración: 128 minutos.",
           "director": "Miguel Torena",
           "duration": 128,
           "synopsis": "Dos muertes y una misteriosa desaparición llevan al investigador Fabián Cardozo a demostrar la inocencia de la principal sospechosa, antes que todo se vuelva en su contra. Algunos secretos deberían permanecer ocultos.",
@@ -468,9 +471,9 @@
           "year": 2019,
           "title": "TR3SH",
           "poster": "/media/archive/XII/films/tr3sh.jpg",
-          "review": null,
+          "review": "",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: Alejo Rébora. Guión: Matías Oniria, AR. Con Isabel Rinaldi, Paula Manzone, Ignacio Bruno, Leticia Salorio, Carlos Benincasa. Duración: 75 minutos.",
           "director": "Alejo Rébora",
           "duration": 75,
           "synopsis": "Mamá Bruselas intuye que algo malo pasa con sus hijos. Quizás se trate de las drogas o quizás sea su instinto materno. Sólo sabe que Ansio y Ana la necesitan y no puede perder tiempo. Montada en su veloz silla de ruedas de tracción, la progenitora de los Bruselas se propone encontrar a sus hijos y para hacerlo va a tener que redescubrir su pasado, transitando un espiral psicofármaco de recuerdos de un modo poco convencional.",
@@ -488,11 +491,12 @@
           "poster": null,
           "review": null,
           "country": "Uruguay",
-          "credits": "",
+          "credits": "Dirección: Jorge Menoni. Guión: Mariela Krämer. Con MK, David de Cuadro, JM. Duración: 3 minutos",
           "director": "Jorge Menoni",
-          "duration": null,
+          "duration": 3,
           "synopsis": "Una mujer hace descubre algo perturbador cuando se prepara para cenar con su marido.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -500,11 +504,12 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
-          "director": "Diego H",
-          "duration": null,
+          "credits": "Dirección: Diego H. Kataryniuk. Guión: David Caiña. Con David García Palencia, Chumo Mata, Almudena Cid. Duración: 19 minutos",
+          "director": "Diego H. Kataryniuk",
+          "duration": 19,
           "synopsis": "Marc Eilts es un noble francés que invita a sus amigos a cenar. La primera cena después de la muerte de su esposa. Todo procede con la máxima tranquilidad hasta que un peculiar postre y un macabro juego ponen en peligro la nobleza francesa.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -512,11 +517,12 @@
           "poster": null,
           "review": null,
           "country": "México",
-          "credits": "",
+          "credits": "Dirección: Miguel Valdez-López. Guión: Óscar Rodríguez Górriz, MVL. Con Rosa María Rojas, Carlos Gueta, David Colorado. Duración: 13 minutos",
           "director": "Miguel Valdez-López",
-          "duration": null,
+          "duration": 13,
           "synopsis": "Una anciana descubre un árbol mágico que florece con panes, los cuales vende a la gente del pueblo, desatando una historia de envidia y avaricia en la pequeña comunidad. La existencia de algo que podría beneficiar a todos está en peligro.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -524,11 +530,12 @@
           "poster": null,
           "review": null,
           "country": "Francia",
-          "credits": "",
+          "credits": "Dirección: Nicolas Hugón. Guión: Cyril Delouche. Con Oscar Lesage, Audran Cattin, Daniela Oro. Duración: 20 minutos",
           "director": "Nicolas Hugón",
-          "duration": null,
+          "duration": 20,
           "synopsis": "Mientras su pequeña ciudad está horrorizada por un misterioso asesino en serie, Ed, en los albores de la edad adulta, sólo tiene ojos para Julia. Pero cuando el peligro golpea su puerta, Ed no tiene otra opción que asumir la responsabilidad… y un arma improvisada para convertirse en el hombre que siempre soñó ser.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -536,11 +543,12 @@
           "poster": null,
           "review": null,
           "country": "Emiratos Árabes Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: Royston Fernandes. Con Stuart Richard, Ashley William Griffiths, Priyanka Porwal. Duración: 10 minutos",
           "director": "Royston Fernandes",
-          "duration": null,
+          "duration": 10,
           "synopsis": "Para resolver un caso desconcertante, un detective testarudo debe descifrar el truco de un mago muy orgulloso. El detective interroga al mago sobre la dama que desapareció sin dejar rastro alguno después de hacerla desaparecer en el espectáculo de magia. El mago no puede revelar su truco. ¿Fue sólo un truco? ¿O hay algo más?",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -548,11 +556,12 @@
           "poster": null,
           "review": null,
           "country": "México",
-          "credits": "",
+          "credits": "Guión y Dirección: Oscar Zacarías Reyes. Con Norma Reyes, Ernesto Palacios, Carla Zacarías. Duración: 3 minutos",
           "director": "Oscar Zacarías Reyes",
-          "duration": null,
+          "duration": 3,
           "synopsis": "Martha, una ama de casa que prepara la comida para su familia, estará a punto de enfrentarse a un aterrador encuentro, con una bruja en su propia casa.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -560,11 +569,12 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Guión y Dirección: Carles Jofre. Con Jaume Pla, Eduard Josep Gómez, Pepe Mediavilla. Duración: 11 minutos",
           "director": "Carles Jofre",
-          "duration": null,
+          "duration": 11,
           "synopsis": "Sebastián es un superhéroe jubilado que vive solo en un pequeño apartamento. Lleva una vida tranquila y hace tiempo que no usa sus superpoderes, aunque una visita inesperada pone en peligro su mundo y se verá obligado a defenderlo.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -572,11 +582,12 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Guión y Dirección: Carlota Pereda. Con Laura Galán, Paco Hidalgo, Mireia Vilapuig. Duración: 14 minutos",
           "director": "Carlota Pereda",
-          "duration": null,
+          "duration": 14,
           "synopsis": "Sara es una adolescente con problemas de obesidad que vive atemorizada por las burlas de unas jóvenes, de vacaciones en su pueblo. Ni siquiera Claudia, amiga de la infancia, sale en su defensa cuando le acosan ante un desconocido y le roban la ropa en la piscina, forzando que tenga que volver a casa en traje de baño. El largo camino de vuelta marcará lo que le quede de vida.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -584,11 +595,12 @@
           "poster": null,
           "review": null,
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: Bryian Keith Montgomery Jr. Con Amelia Hensley, Brian Ramian, William J. Beaumont. Duración: 12 minutos",
           "director": "Bryian Keith Montgomery Jr",
-          "duration": null,
+          "duration": 12,
           "synopsis": "Dos policías racistas intentan encubrir el asesinato de un adolescente negro desarmado. Las cosas no salen según lo planeado…",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -596,11 +608,12 @@
           "poster": null,
           "review": null,
           "country": "Chile",
-          "credits": "",
+          "credits": "Guión y Dirección: Diego Costa Melgar. Con Belén Vergara, Luzas del Río, Paulina Vergara. Duración: 15 minutos",
           "director": "Diego Costa Melgar",
-          "duration": null,
+          "duration": 15,
           "synopsis": "Laura, con su compañero Víctor, visita a sus padres en su casa de campo, preocupada por el hecho de que está embarazada. Pero, en medio de este lugar solitario, descubren que sus padres están desaparecidos y que algo extraño ha sucedido, y temen que no estén del todo solos. Premio del Público a Mejor Corto Iberoamericano en la pasada edición de Piriápolis de Película.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -608,11 +621,12 @@
           "poster": null,
           "review": null,
           "country": "El Salvador",
-          "credits": "",
+          "credits": "Guión y Dirección: Horacio Flores. Con Paola Miranda, Carlos Córdova, Tito Hasbun. Duración: 10 minutos",
           "director": "Horacio Flores",
-          "duration": null,
+          "duration": 10,
           "synopsis": "Cristina y Julián se despiertan con un misterioso llamado a misa a altas horas de la madrugada. Mientras todo el pueblo asiste, la pareja sorprendida se queda en casa tratando de descifrar el misterio detrás de la misa extemporánea, sin darse cuenta de que podría ser aún algo más personal de lo que habían imaginado.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -620,11 +634,12 @@
           "poster": null,
           "review": null,
           "country": "Uruguay",
-          "credits": "",
+          "credits": "Dirección: Hernán Cabral. Guión: HC, Tomás González. Con Santiago Díaz, Clara Hill, Connan Madrid. Duración: 6 minutos",
           "director": "Hernán Cabral",
-          "duration": null,
+          "duration": 6,
           "synopsis": "Una pareja está tomando un café cuando se acerca un amigo de ella a saludarla. Esto provoca una discusión basada en celos irracionales, retratada como un interrogatorio policial",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -632,11 +647,12 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Dirección: Pablo Guirado. Guión: PG, Víctor GaDo. Con Aria Bedmar, Rosa Álvarez, Carmen Carnerero. Duración: 10 minutos",
           "director": "Pablo Guirado",
-          "duration": null,
+          "duration": 10,
           "synopsis": "Después de una conversación telefónica, Laura se ve obligada a enfrentarse a su mayor temor, en medio de una noche fría y tormentosa. Un terror que lleva años persiguiéndola y que sólo la verdad puede detener.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -644,11 +660,12 @@
           "poster": null,
           "review": null,
           "country": "Macedonia",
-          "credits": "",
+          "credits": "Dirección: Igor Aleksov. Guión: Aleksandar Rusjakov. Con Dejan Lilic, Jordan Simonov, Nina Dean. Duración: 20 minutos",
           "director": "Igor Aleksov",
-          "duration": null,
+          "duration": 20,
           "synopsis": "Marko es un vampiro que de repente empieza a soñar y a despertarse antes de la puesta del sol…",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -656,11 +673,25 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Dirección: Aitor De Miguel. Guión: Javier Trigales. Con Alicia Sánchez Araujo, María Miguel, Fernanda Llambías. Duración: 14 minutos",
           "director": "Aitor De Miguel",
-          "duration": null,
+          "duration": 14,
           "synopsis": "En 1977, la sonda Voyager parte hacia la galaxia con un mensaje en español grabado en el RNE (Estudio Nacional de Radio de España). Casi 50 años después y enferma de Alzheimer, Carmen se enfrenta a ser trasladada de su casa en su pueblo a una residencia en la ciudad.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
+        },
+        {
+          "slug": null,
+          "poster": null,
+          "review": "",
+          "trailer_url": null,
+          "title": "Entre las sombras",
+          "country": "Argentina",
+          "year": 2019,
+          "synopsis": "Guido, un joven soldado, acepta la derrota ante una guerra por la cual nunca fue entrenado. El mundo se ve acechado por una luz que fue sólo el comienzo del fin de la humanidad.",
+          "credits": "Guión y Dirección: Matías Cibils. Con Ariel Villarreal, Bruno Cicciotti, Camila Cabrera. Duración: 6 minutos",
+          "director": "Matías Cibils",
+          "duration": 6
         },
         {
           "year": 2019,
@@ -668,11 +699,12 @@
           "poster": null,
           "review": null,
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Alejandro Ariel Martin. Duración: 15 minutos",
           "director": "Alejandro Ariel Martin",
-          "duration": null,
+          "duration": 15,
           "synopsis": "Epirenov es el último habitante de la Tierra. Camina monótonamente por el desierto vacío en busca de las piezas necesarias para construir un socio. En una de sus giras habituales descubre un artefacto que cambiará su mundo.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -680,11 +712,12 @@
           "poster": null,
           "review": null,
           "country": "Portugal",
-          "credits": "",
+          "credits": "Dirección: Bruno Carnide. Guión: Carlos Salvador. Duración: 3 minutos",
           "director": "Bruno Carnide",
-          "duration": null,
+          "duration": 3,
           "synopsis": "En algún sitio en las periferias de Tokio, donde los días son iguales a las noches, el amor pierde otra batalla más.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -692,11 +725,12 @@
           "poster": null,
           "review": null,
           "country": "Uruguay",
-          "credits": "",
-          "director": "Hernán Cabral",
-          "duration": null,
+          "credits": "Dirección: Hernán Cabral, Joaquín González. Guión: HC, Tomás González. Con Guillermo Lacuesta, Mateo Vila, Martina Itzaina. Duración: 4 minutos",
+          "director": "Hernán Cabral, Joaquín González",
+          "duration": 4,
           "synopsis": "Dos amigos se juntan a fumar y charlar sobre su día. En el medio de esa situaciòn, cosas extrañas pasan y la amistad se pone a prueba a través de una discusión casi sin sentido.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -704,11 +738,12 @@
           "poster": null,
           "review": null,
           "country": "Uruguay",
-          "credits": "",
+          "credits": "Guión y Dirección: Pablo Pera. Duración: 2 minutos",
           "director": "Pablo Pera",
-          "duration": null,
+          "duration": 2,
           "synopsis": "Dos personajes se preguntan si los aliens están realmente entre nosotros.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -716,11 +751,12 @@
           "poster": null,
           "review": null,
           "country": "Alemania",
-          "credits": "",
+          "credits": "Guión y Dirección: Natalie MacMahon. Con Mara Scherzinger, Annette Pausch, Henry Morales. Duración: 9 minutos",
           "director": "Natalie MacMahon",
-          "duration": null,
+          "duration": 9,
           "synopsis": "Un futuro no muy lejano. El trabajo de animador funerario pasó a ser uno de los mejores pagos del mundo. Los funerales son un símbolo de estatus y al mismo tiempo una obligación de entretener a familiares, amigos y compañeros de trabajo por igual. Las expectativas son altas, la moral baja. Mientras Jazz, la protagonista, trata de entretener a los dolientes, se ve obligada a enfrentar sus propios (y graves) problemas. Premiada en Estados Unidos y Reino Unido.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -728,11 +764,12 @@
           "poster": null,
           "review": null,
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Dirección: Yinghui Fu. Guión: Kyle Baughman, YF. Con Sarah Bentley. Julie Gibson Josephson, Raluca Andreea Raduta. Duración: 17 minutos",
           "director": "Yinghui Fu",
-          "duration": null,
+          "duration": 17,
           "synopsis": "Liz vive a la deriva, en su propio auto. En un momento de desesperación y soledad, decide volver, después de muchos años, a la casa de su madre. Una vez allí, descubre que el tiempo ha cambiado más de lo que jamás podría haber imaginado.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -740,11 +777,12 @@
           "poster": null,
           "review": null,
           "country": "Uruguay",
-          "credits": "",
+          "credits": "Guión y Dirección: Raúl Pierri. Con Connan Madrid, Nelson Núñez, Fabiana Fine. Duración: 15 minutos",
           "director": "Raúl Pierri",
-          "duration": null,
+          "duration": 15,
           "synopsis": "Un hombre acude a la cita con su psicólogo. Hay algo que lo tiene inquieto. Mientras espera ser atendido, queda impresionado por los cuadros que hay en el consultorio.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -752,11 +790,25 @@
           "poster": null,
           "review": null,
           "country": "Perú",
-          "credits": "",
+          "credits": "Dirección: Rogger Vergara Adrianzén. Guión: RVA, basado en historia de Rebecca O. Moore. Con Malory Vargas, París Pesantes, Ginna Pastor. Duración: 14 minutos",
           "director": "Rogger Vergara Adrianzén",
-          "duration": null,
+          "duration": 14,
           "synopsis": "Elira es secuestrada y encerrada en una habitación húmeda y oscura. La puerta no abre y tiene la sensación de que algo la observa. Al encender la luz, una respiración húmeda y rasposa llama su atención. Al darse fuerza para ver al otro extremo de la habitación, descubre a un extraño ser que imita todos sus movimientos y que tiene en la mano izquierda la llave para salir del lugar. Elira no puede huir, no puede pedir ayuda, y solo le queda enfrentar al monstruo y tratar de conseguir la llave.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
+        },
+        {
+          "slug": null,
+          "poster": null,
+          "review": "",
+          "trailer_url": null,
+          "title": "Identity / Identidad",
+          "country": "Grecia",
+          "year": 2019,
+          "synopsis": "Durante la escala en un aeropuerto, una mujer que viene de un destino remoto y se dirige a otro se da cuenta con horror que su rostro ha cambiado durante el vuelo. Como nadie le cree, es arrestada por entrar ilegalmente al país. Luego es llevada a la estación de policía, al día siguiente a la corte, después a prisión, y finalmente es trasladada de regreso al aeropuerto para ser deportada. Pero el rostro de Adriana sigue cambiando cada día, mientras que su voz y su cuerpo siguen siendo los mismos. Mientras tanto, un nuevo refresco, «White», se entrega gratuitamente en todo el aeropuerto, como parte de una campaña publicitaria. Todos lo prueban, excepto esta mujer terca e inestable.",
+          "credits": "Dirección: Despina Charalampous, Panos Pappas. Guión: Despina Charalampous. Con Elena Mavridou, Ektor Liatsos, Vassilis Koukalani. Duración: 14 minutos",
+          "director": "Despina Charalampous, Panos Pappas",
+          "duration": 14
         },
         {
           "year": 2017,
@@ -764,11 +816,25 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Guión y Dirección: Héctor Romance. Con Daniel Horvath, Mónica Portillo, Juan Salcedo. Duración: 15 minutos",
           "director": "Héctor Romance",
-          "duration": null,
+          "duration": 15,
           "synopsis": "La intención de Sigur es sorprender a sus invitados en su fiesta de cumpleaños, pero no pasa nada de lo que había planeado, ya que rodeado de situaciones límite, el protagonista será conducido al abismo perdiendo todo el control.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
+        },
+        {
+          "slug": null,
+          "poster": null,
+          "review": "",
+          "trailer_url": null,
+          "title": "El lado perverso",
+          "country": "Uruguay",
+          "year": 2019,
+          "synopsis": "El simple miedo a los espejos que afecta a Paula estará por convertirse tal vez, en una peligrosa realidad.",
+          "credits": "Guión y Dirección: Miguel Torena. Con Jimena Ramos, Valentina Rodríguez Tamburi, Catherine Lems. Duración: 8 minutos",
+          "director": "Miguel Torena",
+          "duration": 8
         },
         {
           "year": 2019,
@@ -776,11 +842,25 @@
           "poster": null,
           "review": null,
           "country": "Uruguay",
-          "credits": "",
+          "credits": "Dirección: Diego Nieto. Guión: Alexis Nieto. Con Juan Duarte, Ernesto Álvarez, Sofía Ferreira. Duración: 7 minutos",
           "director": "Diego Nieto",
-          "duration": null,
+          "duration": 7,
           "synopsis": "Un hombre viaja al pasado a través del agua para encontrar a su hermana.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
+        },
+        {
+          "slug": null,
+          "poster": null,
+          "review": "",
+          "trailer_url": null,
+          "title": "Mal reflejo",
+          "country": "Uruguay",
+          "year": 2019,
+          "synopsis": "Un amante esposo está decidido a ir al encuentro de su querida esposa… donde sea que ella esté.",
+          "credits": "Guión y Dirección: Marcelo Fabani. Con Natalia Armagno, Claudio Martín. Duración: 6 minutos",
+          "director": "Marcelo Fabani",
+          "duration": 6
         },
         {
           "year": 2019,
@@ -788,11 +868,12 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
-          "director": "Cristina Martín Barcelona",
-          "duration": null,
+          "credits": "Dirección: Cristina Martín Barcelona, María José Martín Barcelona. Guión: MJMB. Con Leonor Watling, Berta Sánchez, Dani Martín. Duración: 10 minutos",
+          "director": "Cristina Martín Barcelona, María José Martín Barcelona",
+          "duration": 10,
           "synopsis": "Ana es una niña de seis años que está recibiendo terapia infantil con una psicóloga. A través de juegos y dibujos le cuenta a ella sobre su familia, en particular sobre su hermano mayor, Juan. Ella describe cómo es él, cómo se siente con ella, cómo juegan juntos. Pero pronto, se revelará que las cosas no siempre son exactamente lo que parecen.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -800,11 +881,12 @@
           "poster": null,
           "review": null,
           "country": "Uruguay",
-          "credits": "",
-          "director": "J",
-          "duration": null,
+          "credits": "Dirección: J. Martín Vega. Guión: Elisa Varela, J. Martín Vega. Con Laura Barboza, Floriana Álvez, Alfonso Varela. Duración: 9 minutos",
+          "director": "J. Martín Vega",
+          "duration": 9,
           "synopsis": "Lucía, de siete años, vive en un tormento familiar. Durante una cena, en una noche de tormenta, intentará escapar de las garras de un monstruo muy cercano.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -812,11 +894,12 @@
           "poster": null,
           "review": null,
           "country": "Uruguay",
-          "credits": "",
+          "credits": "Guión y Dirección: Ailén Cabrera. Con Melissa Reyes. Duración: 4 minutos",
           "director": "Ailén Cabrera",
-          "duration": null,
+          "duration": 4,
           "synopsis": "Una joven se replantea sus inseguridades reflejándose en el vacío del cementerio.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -824,11 +907,25 @@
           "poster": null,
           "review": null,
           "country": "Italia",
-          "credits": "",
+          "credits": "Dirección: Iacopo Di Girolamo. Guión: IDG, inspirado en un cuento de Stanislaw Lem. Con Daniele Ciniglio, IDG, Cristian Izzo. Duración: 14 minutos",
           "director": "Iacopo Di Girolamo",
-          "duration": null,
+          "duration": 14,
           "synopsis": "Una pesadilla expresionista en la que un inventor y su colega prueban al “Autómata’, una máquina capaz de crear cosas de la nada. La misma funciona perfectamente, siempre y cuando los elementos que se le pida crear empiecen con la letra N….en alemán. Los resultados de la prueba serán previsiblemente catastróficos. Premiada en India, Italia, México y Reino Unido.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
+        },
+        {
+          "slug": null,
+          "poster": null,
+          "review": "",
+          "trailer_url": null,
+          "title": "No quiero estar sola",
+          "country": "España / Japón",
+          "year": 2019,
+          "synopsis": "Una chica solitaria vagabundea por un Tokyo futuro siendo perseguida por unos extraños monstruos gigantes. A pesar de enfrentarse a ellos, las criaturas no hacen más que crecer y aumentar en número por lo que la chica tiene que tomar una decisión.",
+          "credits": "Guión y Dirección: Sergio Rozas. Con Shinoka Sekihara. Duración: 10 minutos",
+          "director": "Sergio Rozas",
+          "duration": 10
         },
         {
           "year": 2018,
@@ -836,11 +933,12 @@
           "poster": null,
           "review": null,
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Mauro Iván Ojeda. Con Celeste Gerez, Demian Salomon, Ludmila Artigas. Duración: 24 minutos",
           "director": "Mauro Iván Ojeda",
-          "duration": null,
+          "duration": 24,
           "synopsis": "El matrimonio formado por Santiago y Soledad atraviesa por una horrible situación de total impotencia. Desesperados, acuden al pedido de algo clandestino y aterrador que anda circulando por las casas: La Nueva Biblia.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -848,11 +946,12 @@
           "poster": null,
           "review": null,
           "country": "Uruguay",
-          "credits": "",
-          "director": "Santiago Sabalsagaray",
-          "duration": null,
+          "credits": "Guión y Dirección: Santiago Sabalsagaray, Sebastián Sabalsagaray, Pablo Rochet. Con Ruben Cortizo, Guillermo Locatelli, Ignacio Mayuncaldi. Duración: 9 minutos",
+          "director": "Santiago Sabalsagaray, Sebastián Sabalsagaray, Pablo Rochet",
+          "duration": 9,
           "synopsis": "En una localidad apartada del interior del país (ciudad de Juan Lacaze), dos historias paralelas transcurren en torno a la reasignación de un número de teléfono móvil; un drama cotidiano se desarrolla inadvertidamente a la par de una historia violenta.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -860,11 +959,12 @@
           "poster": null,
           "review": null,
           "country": "Argentina",
-          "credits": "",
-          "director": "Matías Baillistreri",
-          "duration": null,
+          "credits": "Guión y Dirección: Matías Baillistreri, Juan Salthú. Con Ariel de las Flores, Camila Sad, Pini Raffaele. Duración: 11 minutos",
+          "director": "Matías Baillistreri, Juan Salthú",
+          "duration": 11,
           "synopsis": "Ha pasado casi un año desde la pandemia. Fernando, un joven sobreviviente de la Patagonia, tiene una rutina que lo mantiene relativamente cuerdo en su soledad. Todo cambia con la impactante presencia de Abril, una chica que jura no estar infectada. Fernando simpatiza con ella y se arriesga a recibirla, sin saber el peligro que ha traído a su casa.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -872,11 +972,38 @@
           "poster": null,
           "review": null,
           "country": "España",
-          "credits": "",
+          "credits": "Dirección: Silvia Conesa. Guión: SC, Pablo Rivas, sobre idea original de PR. Con Nuria Deulofeu, Gerard Matarí. Duración: 11 minutos",
           "director": "Silvia Conesa",
-          "duration": null,
+          "duration": 11,
           "synopsis": "Año 2065. Charly es un hombre gris en un mundo sin esperanza y dominado por las grandes corporaciones, donde todo tiene un precio, incluso descansar sin ser asediado por la publicidad. Charly duerme habitualmente en una antigua cabina holográfica, POLVOTRÓN 500, donde se organiza para que nadie lo moleste. Una noche activa accidentalmente el holograma sexual residente, «Niky», sin saber que se trata de un nuevo modelo con inteligencia cuántica mejorada…",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
+        },
+        {
+          "slug": null,
+          "poster": null,
+          "review": "",
+          "trailer_url": null,
+          "title": "¿Quién eres?",
+          "country": "Argentina",
+          "year": 2019,
+          "synopsis": "Una niña en apuros que sufre abusos, y un dolor ambiguo donde la paz puede ser oscura.",
+          "credits": "Guión y Dirección: Manuel (Peta) Rivero y Hornos. Con Firoela Duranda, Emiliano Carazzone, Pilar Sahagun. Duración: 7 minutos",
+          "director": "Manuel (Peta) Rivero y Hornos",
+          "duration": 7
+        },
+        {
+          "slug": null,
+          "poster": null,
+          "review": "",
+          "trailer_url": null,
+          "title": "¿Quién es ese hombre dentro de mi casa? / Quem é esse homem dentro da minha casa?",
+          "country": "Brasil",
+          "year": 2019,
+          "synopsis": "Una casa representa una nación. Nicolás ve algo inquietante que resulta que vive en su hogar… Horror político; quizás una metáfora del Brasil actual.",
+          "credits": "Guión y Dirección: Lucas Reis. Con João Pedro Prates, Cristian Verardi. Duración: 10 minutos",
+          "director": "Lucas Reis",
+          "duration": 10
         },
         {
           "year": 2017,
@@ -884,11 +1011,12 @@
           "poster": null,
           "review": null,
           "country": "Emiratos Árabes Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: Nabil Chowdhary. Con Ashley William Griffiths, Christina Blu. Duración: 11 minutos",
           "director": "Nabil Chowdhary",
-          "duration": null,
+          "duration": 11,
           "synopsis": "Un enfermo terminal decide reemplazarse a sí mismo con un cyborg idéntico para que éste se haga cargo de su vida, sin problemas. Pero a medida que se acerca el momento de completar la transición, comienza a cuestionarse si lo que está haciendo es correcto o justo para su confiada esposa.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -896,11 +1024,12 @@
           "poster": null,
           "review": null,
           "country": "Chile",
-          "credits": "",
+          "credits": "Dirección: Javier Orellana. Guión: Fernanda Muñiz Hola. Con Stevens Benjamin, Francoise Jean Pierre Ariste, José Paredes. Duración: 19 minutos",
           "director": "Javier Orellana",
-          "duration": null,
+          "duration": 19,
           "synopsis": "Chile, 2038. “Revival” es la tecnología de moda. Un aparato de realidad virtual que permite a las personas revivir momentos de su pasado, como si lo estuvieran viviendo nuevamente. Émile (24), un joven haitiano reuniendo dinero para traer a su madre desde Haití, descubre que alguien de su trabajo en una viña está interfiriendo sus memorias en su revival. Buscando respuestas, Émile descubre la perturbadora verdad que estaba oculta.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -908,11 +1037,25 @@
           "poster": null,
           "review": null,
           "country": "Japón",
-          "credits": "",
+          "credits": "Guión y Dirección: Yuichi Kondo. Con Ami Yamada, Hinako. Duración: 18 minutos",
           "director": "Yuichi Kondo",
-          "duration": null,
+          "duration": 18,
           "synopsis": "Una depresiva joven se sumerge en KANUMA, un mundo experimental de inteligencia artificial dentro de una computadora cuántica. Allí habitan seres programados que repentinamente cobran mentalidad propia, comenzando a usar palabras desconocidas para el hombre. Algo están tramando. Ante esa amenaza, los científicos deciden borrar el programa. Pero la protagonista descubre algo aún más sorprendente, un ser especial que pertenece a ese mismo mundo virtual que está por desaparecer. Premiada en Estados Unidos y Japón.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
+        },
+        {
+          "slug": null,
+          "poster": null,
+          "review": "",
+          "trailer_url": null,
+          "title": "Sepultura humana / Cova humana",
+          "country": "Brasil",
+          "year": 2019,
+          "synopsis": "Él enterró su dolor profundamente, pero ella insiste en volver.",
+          "credits": "Dirección: Joel Caetano. Guión: JC, Mariana Zani. Con JC, Ivete Zani, MZ. Duración: 10 minutos",
+          "director": "Joel Caetano",
+          "duration": 10
         },
         {
           "year": 2019,
@@ -920,11 +1063,12 @@
           "poster": null,
           "review": null,
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: William Boodell. Con Dominika Van Santen, Jason Kyle, Karlisha Hurley. Duración: 16 minutos",
           "director": "William Boodell",
-          "duration": null,
+          "duration": 16,
           "synopsis": "Una adolescente fugitiva en apuros solicita la ayuda de una misteriosa monja.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -932,11 +1076,12 @@
           "poster": null,
           "review": null,
           "country": "Reino Unido",
-          "credits": "",
+          "credits": "Guión y Dirección: Faye Jackson. Con Sharon Bruncan-Dewster, Cherrelle Skeete, Alice Offley. Duración: 15 minutos",
           "director": "Faye Jackson",
-          "duration": null,
+          "duration": 15,
           "synopsis": "Esther y Miriam están siendo deportadas a la fuerza, del Reino Unido a Jamaica. De pronto, irrumpe en el lugar donde se encuentran detenidas un potente virus tranquilizador que sólo mata a gente blanca.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -944,11 +1089,25 @@
           "poster": null,
           "review": null,
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Laura Sánchez Acosta. Con Lola Ahumada, Joaquín Rapalini, Margarita Beatriz Navarro. Duración: 15 minutos",
           "director": "Laura Sánchez Acosta",
-          "duration": null,
+          "duration": 15,
           "synopsis": "Durante una calurosa tarde de verano, en la casa de campo de su abuela en Entre Ríos, Malena aterroriza a su hermano pequeño, Santiago, con un mito local en el que los niños son observados por palomas y capturados por un monstruo horrendo si no duermen una siesta. Mortalmente aburrida y a pesar de la petición de Santiago de quedarse dentro, Malena va a buscar Internet con su teléfono móvil en el bosque cercano, sin saber las consecuencias que un simple paseo bajo el sol puede desencadenar.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
+        },
+        {
+          "slug": null,
+          "poster": null,
+          "review": "",
+          "trailer_url": null,
+          "title": "There´s Nothing in the Shed / No hay nada en el galpón",
+          "country": "Estados Unidos",
+          "year": 2019,
+          "synopsis": "Tuviste la oportunidad de ser tú misma.",
+          "credits": "Guión y Dirección: David Axe. Con Catherine Hunsinger, Morgan Jones. Duración: 2 minutos",
+          "director": "David Axe",
+          "duration": 2
         },
         {
           "year": 2019,
@@ -956,11 +1115,12 @@
           "poster": null,
           "review": null,
           "country": "Holanda",
-          "credits": "",
+          "credits": "Dirección: Vasily Chuprina. Guión: VC, Constantin Ershov, Andreas Illmer. Con Valery Diachenko, Irina Korneva, Evgeniy Kapitonov. Duración: 14 minutos",
           "director": "Vasily Chuprina",
-          "duration": null,
+          "duration": 14,
           "synopsis": "Un paseo por el parque, un lindo perrito, una esposa amorosa… y un científico en busca de la belleza y la vida eterna. El corto plantea la cuestión de los límites morales de la ciencia, dilemas a los que se enfrenta un científico genio.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -968,11 +1128,12 @@
           "poster": null,
           "review": null,
           "country": "Uruguay",
-          "credits": "",
+          "credits": "Guión y Dirección: Ramiro Pérez. Con Malena Urrutia, Avarey Cabrera. Duración: 4 minutos",
           "director": "Ramiro Pérez",
-          "duration": null,
+          "duration": 4,
           "synopsis": "Una mujer se encuentra en una situación límite, frente a una bomba y un teléfono. Si usa el teléfono, activará la bomba, pero sólo podrá escapar si usa el teléfono. ¿Qué hará?",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2019,
@@ -980,11 +1141,12 @@
           "poster": null,
           "review": null,
           "country": "Estados Unidos",
-          "credits": "",
-          "director": "Brian C",
-          "duration": null,
+          "credits": "Dirección: Brian C. O´Malley, Daniel A. Panengo. Guión: DAP. Duración: 6 minutos",
+          "director": "Brian C. O´Malley, Daniel A. Panengo",
+          "duration": 6,
           "synopsis": "Un joven chamán en busca de la luz eterna descubre una polilla que guarda el secreto de esta luz. El chamán emprende un viaje trascendental transformándose en criaturas en forma de pájaro para seguir a la polilla y su rebaño hasta su muerte, descubriendo el renacimiento y los ciclos de la vida.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
         },
         {
           "year": 2018,
@@ -992,11 +1154,586 @@
           "poster": null,
           "review": null,
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Aretha Resenido. Con Karen Medina, Alma Naranja Testa, Franco Palazzo. Duración: 16 minutos",
           "director": "Aretha Resenido",
-          "duration": null,
+          "duration": 16,
           "synopsis": "Una metrópolis devastada se extiende por todo el planeta. Todo rastro de naturaleza ha sido eliminado y tanto el agua como el aire son recursos preciosos. ZOE es una mujer que busca y recicla objetos antiguos en las zonas prohibidas para sobrevivir en la gran ciudad. A través de esos objetos se conecta con tiempos inaccesibles y censurados. A pesar del control extremo de un sistema de seguridad global, ZOE encuentra rastros de vegetación, lo que lleva a creer que todavía hay un lugar para encontrarse con la naturaleza y reconstruir su propio pasado.",
-          "trailer_url": null
+          "trailer_url": null,
+          "slug": null
+        }
+      ]
+    },
+    {
+      "name": "MUESTRA INFORMATIVA DE CORTOMETRAJES",
+      "type": "shorts-catalog",
+      "films": [
+        {
+          "title": "El agua de los sueños (Pablo Fuertes, Rocío Muñóz, 2019) – 14´ – ARGENTINA",
+          "slug": null,
+          "director": "Pablo Fuertes, Rocío Muñóz",
+          "year": 2019,
+          "duration": 14,
+          "country": "ARGENTINA"
+        },
+        {
+          "title": "Aísumasen (Daniel Miranda-Araoz, 2019) – 7´ – BOLIVIA",
+          "slug": null,
+          "director": "Daniel Miranda-Araoz",
+          "year": 2019,
+          "duration": 7,
+          "country": "BOLIVIA"
+        },
+        {
+          "title": "Anacronte (Raúl Koler, Emiliano Sette, 2018) – 15´ – ARGENTINA",
+          "slug": null,
+          "director": "Raúl Koler, Emiliano Sette",
+          "year": 2018,
+          "duration": 15,
+          "country": "ARGENTINA"
+        },
+        {
+          "title": "Animal (David Velduque, 2018) – 22´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "David Velduque",
+          "year": 2018,
+          "duration": 22,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "Anomalia (Federico Bezenzette, 2019) – 5´ – ARGENTINA",
+          "slug": null,
+          "director": "Federico Bezenzette",
+          "year": 2019,
+          "duration": 5,
+          "country": "ARGENTINA"
+        },
+        {
+          "title": "Arcanus (Fernando Ruiz, 2017) – 3´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Fernando Ruiz",
+          "year": 2017,
+          "duration": 3,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "Asian She – Competitive Mourning / Duelo competitivo (Kevin Beauchamp, Mando López, 2019) – 4´ – ESTADOS UNIDOS / US",
+          "slug": null,
+          "director": "Kevin Beauchamp, Mando López",
+          "year": 2019,
+          "duration": 4,
+          "country": "ESTADOS UNIDOS / US"
+        },
+        {
+          "title": "Aurora (Thomas Negovan, Aaron Shaps, 2017) – 30´ – ESTADOS UNIDOS / US",
+          "slug": null,
+          "director": "Thomas Negovan, Aaron Shaps",
+          "year": 2017,
+          "duration": 30,
+          "country": "ESTADOS UNIDOS / US"
+        },
+        {
+          "title": "Badaladas de amor e morte (Iria Ares, 2019) – 17´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Iria Ares",
+          "year": 2019,
+          "duration": 17,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "Bats in the Night / Murciélagos en la noche (Moreno Cabitza, 2019) – 14´ – SUIZA / SWITZERLAND",
+          "slug": null,
+          "director": "Moreno Cabitza",
+          "year": 2019,
+          "duration": 14,
+          "country": "SUIZA / SWITZERLAND"
+        },
+        {
+          "title": "Between (María Castillo, 2019) – 9´ – ESPAÑA/ SPAIN",
+          "slug": null,
+          "director": "María Castillo",
+          "year": 2019,
+          "duration": 9,
+          "country": "ESPAÑA/ SPAIN"
+        },
+        {
+          "title": "Bogey / Bwgan (Iolo Edwards, 2019) – 13´ – REINO UNIDO / UK",
+          "slug": null,
+          "director": "Iolo Edwards",
+          "year": 2019,
+          "duration": 13,
+          "country": "REINO UNIDO / UK"
+        },
+        {
+          "title": "The Bumbling Psychopath / El psicópata torpe (Logan Fry, 2014-2019) – 3´ – ESTADOS UNIDOS / US",
+          "slug": null,
+          "director": "Logan Fry",
+          "year": "2014-2019",
+          "duration": 3,
+          "country": "ESTADOS UNIDOS / US"
+        },
+        {
+          "title": "Cala (Jimmy Castro, 2019) – 4´ – VENEZUELA",
+          "slug": null,
+          "director": "Jimmy Castro",
+          "year": 2019,
+          "duration": 4,
+          "country": "VENEZUELA"
+        },
+        {
+          "title": "Carne fresca (Marcus Neto, 2019) – 18´ – BRASIL / BRAZIL",
+          "slug": null,
+          "director": "Marcus Neto",
+          "year": 2019,
+          "duration": 18,
+          "country": "BRASIL / BRAZIL"
+        },
+        {
+          "title": "La casita de Mati (Rayell Abad Guangorena, 2018) – 8´ – MÉXICO",
+          "slug": null,
+          "director": "Rayell Abad Guangorena",
+          "year": 2018,
+          "duration": 8,
+          "country": "MÉXICO"
+        },
+        {
+          "title": "Cenizas (Gonzalo Mellid, 2019) – 10´ – ARGENTINA",
+          "slug": null,
+          "director": "Gonzalo Mellid",
+          "year": 2019,
+          "duration": 10,
+          "country": "ARGENTINA"
+        },
+        {
+          "title": "Changeling / Cambiante (Faye Jackson, 2019) – 9´ – REINO UNIDO / UK",
+          "slug": null,
+          "director": "Faye Jackson",
+          "year": 2019,
+          "duration": 9,
+          "country": "REINO UNIDO / UK"
+        },
+        {
+          "title": "Condamned (Octavi Espuga, 2018) – 12´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Octavi Espuga",
+          "year": 2018,
+          "duration": 12,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "Dead Air (Geoff Harmer, 2019) – 16´ – REINO UNIDO / UK",
+          "slug": null,
+          "director": "Geoff Harmer",
+          "year": 2019,
+          "duration": 16,
+          "country": "REINO UNIDO / UK"
+        },
+        {
+          "title": "Dirigido por Lola (Luis Navarrete, 2019) – 10´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Luis Navarrete",
+          "year": 2019,
+          "duration": 10,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "¿Dónde está tu corazón? (Nicolás Torres Payán, 2018) – 16´ – MÉXICO",
+          "slug": null,
+          "director": "Nicolás Torres Payán",
+          "year": 2018,
+          "duration": 16,
+          "country": "MÉXICO"
+        },
+        {
+          "title": "EmFUCKnadas (Fabricio Camargo, 2019) – 11´ – URUGUAY",
+          "slug": null,
+          "director": "Fabricio Camargo",
+          "year": 2019,
+          "duration": 11,
+          "country": "URUGUAY"
+        },
+        {
+          "title": "Escarabana (Sara Casasnovas, 2017) – 9´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Sara Casasnovas",
+          "year": 2017,
+          "duration": 9,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "A Family Reunion / Una reunión familiar (Cristian Saliadarre, 2019) – 10´ – AUSTRALIA",
+          "slug": null,
+          "director": "Cristian Saliadarre",
+          "year": 2019,
+          "duration": 10,
+          "country": "AUSTRALIA"
+        },
+        {
+          "title": "La fiebre (José María Flores Miranda, 2019) – 20´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "José María Flores Miranda",
+          "year": 2019,
+          "duration": 20,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "A Folk Tale (Matt Robinson, 2019) – 11´ – REINO UNIDO / UK",
+          "slug": null,
+          "director": "Matt Robinson",
+          "year": 2019,
+          "duration": 11,
+          "country": "REINO UNIDO / UK"
+        },
+        {
+          "title": "Folktale (Ajitesh Sharma, 2018) – 20´ – INDIA",
+          "slug": null,
+          "director": "Ajitesh Sharma",
+          "year": 2018,
+          "duration": 20,
+          "country": "INDIA"
+        },
+        {
+          "title": "Futuro (Iñigo Acha, 2018) – 6´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Iñigo Acha",
+          "year": 2018,
+          "duration": 6,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "Greyish (Eghbal Shirzaei Shani, 2019) – 4´ – IRÁN",
+          "slug": null,
+          "director": "Eghbal Shirzaei Shani",
+          "year": 2019,
+          "duration": 4,
+          "country": "IRÁN"
+        },
+        {
+          "title": "Hell West (Fran Mateu, 2018) – 14´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Fran Mateu",
+          "year": 2018,
+          "duration": 14,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "Human Alike / Humanos por igual (Emanuele Milasi, 2019) – 6´ – ITALIA / ITALY",
+          "slug": null,
+          "director": "Emanuele Milasi",
+          "year": 2019,
+          "duration": 6,
+          "country": "ITALIA / ITALY"
+        },
+        {
+          "title": "In Our Guts / En nuestras entrañas (Dominique Rochon, 2019) – 5´ – CANADÁ",
+          "slug": null,
+          "director": "Dominique Rochon",
+          "year": 2019,
+          "duration": 5,
+          "country": "CANADÁ"
+        },
+        {
+          "title": "The Investors / Los inversores (Lara Wickman McCarthy, 2018) – 17´ – ESTADOS UNIDOS / US",
+          "slug": null,
+          "director": "Lara Wickman McCarthy",
+          "year": 2018,
+          "duration": 17,
+          "country": "ESTADOS UNIDOS / US"
+        },
+        {
+          "title": "La jaula de las golondrinas / La Gàbia De Les Orenetes (David Conill, 2019) – 10´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "David Conill",
+          "year": 2019,
+          "duration": 10,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "Knocking Door (Jimmy Castro, 2019) – 1´ – VENEZUELA",
+          "slug": null,
+          "director": "Jimmy Castro",
+          "year": 2019,
+          "duration": 1,
+          "country": "VENEZUELA"
+        },
+        {
+          "title": "Level 13 (Samir Tewari, 2019) – 13´ – INDIA",
+          "slug": null,
+          "director": "Samir Tewari",
+          "year": 2019,
+          "duration": 13,
+          "country": "INDIA"
+        },
+        {
+          "title": "Lil’ Roja N the Hood / Caperucita Roja en el Barrio (Katherine Sainte Marie, 2019) – 11´ – ESTADOS UNIDOS / US",
+          "slug": null,
+          "director": "Katherine Sainte Marie",
+          "year": 2019,
+          "duration": 11,
+          "country": "ESTADOS UNIDOS / US"
+        },
+        {
+          "title": "Limbo (Dani Viqueira Carballal, 2018) – 15´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Dani Viqueira Carballal",
+          "year": 2018,
+          "duration": 15,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "La llamada (Jimmy Castro, 2019) – 1´ – VENEZUELA",
+          "slug": null,
+          "director": "Jimmy Castro",
+          "year": 2019,
+          "duration": 1,
+          "country": "VENEZUELA"
+        },
+        {
+          "title": "Look Twice / Mira dos veces (Kyle Wilson, 2018) – 8´ – ESTADOS UNIDOS / US",
+          "slug": null,
+          "director": "Kyle Wilson",
+          "year": 2018,
+          "duration": 8,
+          "country": "ESTADOS UNIDOS / US"
+        },
+        {
+          "title": "Maldita (Suso Imbernón, Juanjo Moscardó Rius, 2019) – 20´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Suso Imbernón, Juanjo Moscardó Rius",
+          "year": 2019,
+          "duration": 20,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "Memories Rewriter / Reescritor de recuerdos (Ilia Ginzburg, 2019) – 13´ – ISRAEL",
+          "slug": null,
+          "director": "Ilia Ginzburg",
+          "year": 2019,
+          "duration": 13,
+          "country": "ISRAEL"
+        },
+        {
+          "title": "Motivos de una noche de invierno (Jorge Aregall, 2019) – 13´ – ARGENTINA",
+          "slug": null,
+          "director": "Jorge Aregall",
+          "year": 2019,
+          "duration": 13,
+          "country": "ARGENTINA"
+        },
+        {
+          "title": "New Woman / Nueva mujer (Benjamin Noah, 2018) – 20´ – CANADÁ",
+          "slug": null,
+          "director": "Benjamin Noah",
+          "year": 2018,
+          "duration": 20,
+          "country": "CANADÁ"
+        },
+        {
+          "title": "Nero (Jan David-Bolt, 2019) – 9´ – SUIZA / SWITZERLAND",
+          "slug": null,
+          "director": "Jan David-Bolt",
+          "year": 2019,
+          "duration": 9,
+          "country": "SUIZA / SWITZERLAND"
+        },
+        {
+          "title": "Night Crawl / Rastreo nocturno (Gregory Schultz, 2019) – 9´ – ESTADOS UNIDOS / US",
+          "slug": null,
+          "director": "Gregory Schultz",
+          "year": 2019,
+          "duration": 9,
+          "country": "ESTADOS UNIDOS / US"
+        },
+        {
+          "title": "No dejes de mirarlos (Marcos Muñóz Flores, 2019) – 9´ – MÉXICO",
+          "slug": null,
+          "director": "Marcos Muñóz Flores",
+          "year": 2019,
+          "duration": 9,
+          "country": "MÉXICO"
+        },
+        {
+          "title": "On/Off (Gabriel Pereira López, 2019) – 3´ – URUGUAY",
+          "slug": null,
+          "director": "Gabriel Pereira López",
+          "year": 2019,
+          "duration": 3,
+          "country": "URUGUAY"
+        },
+        {
+          "title": "Open Door (Victoria García De Pietro, 2019) – 29´ – ARGENTINA",
+          "slug": null,
+          "director": "Victoria García De Pietro",
+          "year": 2019,
+          "duration": 29,
+          "country": "ARGENTINA"
+        },
+        {
+          "title": "Para mi gata, Mieze / Para minha gata, Mieze (Wesley Gondim, 2018) – 20´ – BRASIL / BRAZIL",
+          "slug": null,
+          "director": "Wesley Gondim",
+          "year": 2018,
+          "duration": 20,
+          "country": "BRASIL / BRAZIL"
+        },
+        {
+          "title": "Paranoia (Roberto A. Padilla Sobrado, 2019) – 2´ – MÉXICO",
+          "slug": null,
+          "director": "Roberto A. Padilla Sobrado",
+          "year": 2019,
+          "duration": 2,
+          "country": "MÉXICO"
+        },
+        {
+          "title": "La Petit Mort (Felipe Ruete, 2018) – 14´ – URUGUAY",
+          "slug": null,
+          "director": "Felipe Ruete",
+          "year": 2018,
+          "duration": 14,
+          "country": "URUGUAY"
+        },
+        {
+          "title": "The Plaster Boy / El chico del yeso (Andrei Popescu, 2019) – 11´ – RUMANIA",
+          "slug": null,
+          "director": "Andrei Popescu",
+          "year": 2019,
+          "duration": 11,
+          "country": "RUMANIA"
+        },
+        {
+          "title": "#Pornovenganza (Ignacio López Vacas, 2019) – 10´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Ignacio López Vacas",
+          "year": 2019,
+          "duration": 10,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "The Prisoner of the Lake / La prisionera del lago / La Dame du Lac (Guillaume Comtois, Laetitia Demessence, 2018) – 10´ – CANADÁ",
+          "slug": null,
+          "director": "Guillaume Comtois, Laetitia Demessence",
+          "year": 2018,
+          "duration": 10,
+          "country": "CANADÁ"
+        },
+        {
+          "title": "Re-Evaluation (Anna Kuzminykh, 2019) – 18´ – RUSIA / RUSSIA",
+          "slug": null,
+          "director": "Anna Kuzminykh",
+          "year": 2019,
+          "duration": 18,
+          "country": "RUSIA / RUSSIA"
+        },
+        {
+          "title": "Retorno (Marcelo Fabani, 2019) – 1´ – URUGUAY",
+          "slug": null,
+          "director": "Marcelo Fabani",
+          "year": 2019,
+          "duration": 1,
+          "country": "URUGUAY"
+        },
+        {
+          "title": "Sed (Mijael Milies, 2019) – 16´ – CHILE",
+          "slug": null,
+          "director": "Mijael Milies",
+          "year": 2019,
+          "duration": 16,
+          "country": "CHILE"
+        },
+        {
+          "title": "Signed, Sealed, Remembered / Firmado, sellado, recordado (Nir Guzinski, Aiden Nicell, 2019) – 9´ – CANADÁ",
+          "slug": null,
+          "director": "Nir Guzinski, Aiden Nicell",
+          "year": 2019,
+          "duration": 9,
+          "country": "CANADÁ"
+        },
+        {
+          "title": "Sonrisas (Javier Chavanel, 2019) – 13´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Javier Chavanel",
+          "year": 2019,
+          "duration": 13,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "Souvenir (Luis Ortí, 2019) – 12´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Luis Ortí",
+          "year": 2019,
+          "duration": 12,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "STALAG III-C (Jason Rogan, 2019) – 12´ – BIELORRUSIA / BIELORRUSE",
+          "slug": null,
+          "director": "Jason Rogan",
+          "year": 2019,
+          "duration": 12,
+          "country": "BIELORRUSIA / BIELORRUSE"
+        },
+        {
+          "title": "Te tengo (Jimmy Castro, 2019) – 1´ – VENEZUELA",
+          "slug": null,
+          "director": "Jimmy Castro",
+          "year": 2019,
+          "duration": 1,
+          "country": "VENEZUELA"
+        },
+        {
+          "title": "Tú eres el siguiente (Patricia del Rió, 2019) – 6´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Patricia del Rió",
+          "year": 2019,
+          "duration": 6,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "Save 2.0 (Iván Sáinz-Pardo, 2019) – 7´ – ESPAÑA / SPAIN",
+          "slug": null,
+          "director": "Iván Sáinz-Pardo",
+          "year": 2019,
+          "duration": 7,
+          "country": "ESPAÑA / SPAIN"
+        },
+        {
+          "title": "She Must Vanish / Ella debe desaparecer (Kyle Martellacci, 2019) – 14´ – CANADÁ",
+          "slug": null,
+          "director": "Kyle Martellacci",
+          "year": 2019,
+          "duration": 14,
+          "country": "CANADÁ"
+        },
+        {
+          "title": "Toda sombra parece viva (Leandro Afonso, 2019) – 16´ – BRASIL / BRAZIL",
+          "slug": null,
+          "director": "Leandro Afonso",
+          "year": 2019,
+          "duration": 16,
+          "country": "BRASIL / BRAZIL"
+        },
+        {
+          "title": "The Untelling / Lo que no se dice (Russell Whaley, 2019) – ESTADOS UNIDOS / US",
+          "slug": null,
+          "director": "Russell Whaley",
+          "year": 2019,
+          "duration": null,
+          "country": "ESTADOS UNIDOS / US"
+        },
+        {
+          "title": "When the Lights Go Out / Cuando las luces se apagan (Jonas Trukanas, 2018) – 13´ – LITUANIA / LITHUANIA",
+          "slug": null,
+          "director": "Jonas Trukanas",
+          "year": 2018,
+          "duration": 13,
+          "country": "LITUANIA / LITHUANIA"
+        },
+        {
+          "title": "Yellow Arrows / Flechas amarillas (Yara Sar, 2017) – 15´ – ESTADOS UNIDOS / US",
+          "slug": null,
+          "director": "Yara Sar",
+          "year": 2017,
+          "duration": 15,
+          "country": "ESTADOS UNIDOS / US"
         }
       ]
     }

@@ -248,6 +248,68 @@ if (legacy[2018]) {
   check(shortAwards.filter((a) => a.name === "MENCIONES ESPECIALES / SPECIAL MENTIONS").length === 4, "2018: short-film special mentions missing");
 }
 
+// 2019: source-backed reconstruction of the XII archive page.
+if (legacy[2019]) {
+  const secs = sectionsOf(2019);
+  const structure = [
+    ["COMPETENCIA OFICIAL DE LARGOMETRAJES", "features", 6],
+    ["COMPETENCIA LATINOAMERICANA DE LARGOMETRAJES", "features", 6],
+    ["NOVEDADES", "features", 5],
+    ["COMPETENCIA OFICIAL DE CORTOMETRAJES", "shorts", 52],
+    ["MUESTRA INFORMATIVA DE CORTOMETRAJES", "shorts-catalog", 71],
+  ];
+  check(JSON.stringify(secs.map((s) => [s.name, s.type, filmsOf(s).length])) === JSON.stringify(structure), "2019: expected source section boundaries and counts 6/6/5/52/71");
+  const features = secs.filter((s) => s.type === "features").flatMap(filmsOf);
+  const shorts = secs.filter((s) => s.type === "shorts").flatMap(filmsOf);
+  const catalog = secs.filter((s) => s.type === "shorts-catalog").flatMap(filmsOf);
+  check(features.length === 17, `2019: expected 17 features, got ${features.length}`);
+  check(shorts.length === 52, `2019: expected 52 competition shorts, got ${shorts.length}`);
+  check(catalog.length === 71, `2019: expected 71 informative shorts, got ${catalog.length}`);
+  const expectedSlugs = ["atacama", "beneath-the-trees-bajo-los-arboles", "bullets-of-justice", "flesh-city", "stay-out-stay-alive", "vortex", "diablo-rojo-pty", "el-diablo-me-dijo-que-hacer", "luz", "rebobinado-la-pelicula", "sorgalim", "vesanica", "creeping-out", "deathcember", "george-hilton-el-mundo-es-de-los-audaces", "la-sospecha", "tr3sh"];
+  check(JSON.stringify(features.map((f) => f.slug)) === JSON.stringify(expectedSlugs), "2019: existing feature slugs and ordering must remain unchanged");
+  check([...shorts, ...catalog].every((f) => f.slug === null), "2019: shorts and catalogue records must not create detail routes");
+  check([...features, ...shorts].every((f) => f.director && f.credits && Number.isInteger(f.duration) && f.duration > 0), "2019: features and competition shorts must retain source duration and credits");
+  const restored = [
+    ["Entre las sombras", "Matías Cibils", 6],
+    ["Identity / Identidad", "Despina Charalampous, Panos Pappas", 14],
+    ["El lado perverso", "Miguel Torena", 8],
+    ["Mal reflejo", "Marcelo Fabani", 6],
+    ["No quiero estar sola", "Sergio Rozas", 10],
+    ["¿Quién eres?", "Manuel (Peta) Rivero y Hornos", 7],
+    ["¿Quién es ese hombre dentro de mi casa? / Quem é esse homem dentro da minha casa?", "Lucas Reis", 10],
+    ["Sepultura humana / Cova humana", "Joel Caetano", 10],
+    ["There´s Nothing in the Shed / No hay nada en el galpón", "David Axe", 2],
+  ];
+  for (const [title, director, duration] of restored) {
+    const matches = shorts.filter((f) => f.title === title);
+    check(matches.length === 1 && matches[0].director === director && matches[0].duration === duration && matches[0].synopsis, `2019: restored ${title} missing or malformed`);
+  }
+  const allFilms = secs.flatMap(filmsOf);
+  const identities = allFilms.map((f) => f.title.replace(/\s*\([^)]*, \d{4}(?:-\d{4})?\).*$/, "").toLowerCase().replace(/\s+/g, " ").trim());
+  check(new Set(identities).size === allFilms.length, "2019: duplicate works present");
+  check(catalog[0]?.title === "El agua de los sueños (Pablo Fuertes, Rocío Muñóz, 2019) – 14´ – ARGENTINA", "2019: informative catalogue opening entry changed");
+  check(catalog.at(-1)?.title === "Yellow Arrows / Flechas amarillas (Yara Sar, 2017) – 15´ – ESTADOS UNIDOS / US", "2019: informative catalogue closing entry changed");
+  check(catalog.every((f) => f.director && f.country && (Number.isInteger(f.duration) || f.duration === null)), "2019: informative catalogue metadata malformed");
+  const untelling = catalog.find((f) => f.title.startsWith("The Untelling / Lo que no se dice ("));
+  const bumbling = catalog.find((f) => f.title.startsWith("The Bumbling Psychopath / El psicópata torpe ("));
+  check(untelling && untelling.duration === null, "2019: The Untelling duration must remain null");
+  check(catalog.filter((f) => f.duration === null).length === 1, "2019: only The Untelling lacks a source duration");
+  check(bumbling && bumbling.year === "2014-2019" && bumbling.title.includes("2014-2019"), "2019: literal 2014-2019 range must be preserved");
+  check(legacy[2019].edition.dates === "2019" && Array.isArray(legacy[2019].edition.venues) && legacy[2019].edition.venues.length === 0, "2019: dates must remain literal 2019 and venues empty");
+  const blocks = legacy[2019].awards ?? [];
+  check(JSON.stringify(blocks.map((b) => b.awards?.length)) === JSON.stringify([9, 3, 5, 5, 3]), "2019: five source blocks must retain 25 awards");
+  check(JSON.stringify(blocks.map((b) => b.section)) === JSON.stringify([
+    "COMPETENCIA OFICIAL DE LARGOMETRAJES / OFFICIAL LONG FEATURE FILM COMPETITION",
+    "COMPETENCIA OFICIAL DE CORTOMETRAJES / OFFICIAL SHORT FILMS COMPETITION",
+    "MENCIONES ESPECIALES DEL JURADO A CORTOS INTERNACIONALES / JURY SPECIAL MENTIONS TO INTERNATIONAL SHORT FILMS",
+    "MENCIONES ESPECIALES DEL JURADO A CORTOS URUGUAYOS / JURY SPECIAL MENTIONS TO URUGUAYAN SHORT FILMS",
+    "PREMIOS DEL PÚBLICO / AUDIENCE CHOICE AWARDS",
+  ]), "2019: award block boundaries are malformed");
+  check(blocks.flatMap((b) => b.awards ?? []).every((a) => a.name && a.film), "2019: empty award heading parsed as an award");
+  check(blocks[2]?.awards?.[1]?.recipient === "Fernanda Muñiz" && blocks[2]?.awards?.[1]?.film === "Revival" && blocks[2]?.awards?.[1]?.director === "Julio Orellana", "2019: Revival award must preserve the source's distinct credits");
+  check(blocks[3]?.awards?.[0]?.recipient === "J. Martín Vega" && blocks[3]?.awards?.[0]?.film === "Monstruo", "2019: Monstruo award fields shifted");
+}
+
 // special sections must survive
 for (const y of [2005, 2012, 2018]) {
   check(sectionsOf(y).some((s) => s.type === "special" && filmsOf(s).length > 0), `${y}: non-empty "special" section missing`);
