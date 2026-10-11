@@ -106,6 +106,40 @@ if (legacy[2005]) {
   }
 }
 
+// 2008: III itemizes 20 named features and 39 named short/medium works.
+// Its introductory chronicle separately states totals of 22 and 40; the unnamed
+// difference cannot safely become invented catalogue records.
+if (legacy[2008]) {
+  const secs = sectionsOf(2008);
+  const expected = [["LARGOMETRAJES EN COMPETENCIA / LONG FEATURE FILMS COMPETITION", "features", 16], ["MUESTRA INFORMATIVA DE LARGOMETRAJES / LONG FEATURE FILMS INFORMATIVE SESSION", "features", 4], ["CORTOMETRAJES INTERNACIONALES EN COMPETENCIA / INTERNATIONAL SHORT FILMS COMPETITION", "shorts", 18], ["CORTOMETRAJES URUGUAYOS EN COMPETENCIA / URUGUAYAN SHORT FILMS COMPETITION", "shorts", 11], ["MUESTRA INFORMATIVA DE CORTOS Y MEDIOMETRAJES / SHORT AND MEDIUM LENGTH FILMS INFORMATIVE SESSION", "shorts-catalog", 10]];
+  check(JSON.stringify(secs.map((s) => [s.name, s.type, filmsOf(s).length])) === JSON.stringify(expected), "2008: identifiable source section order, boundaries, or counts changed");
+  const works = secs.flatMap(filmsOf);
+  const features = secs.filter((s) => s.type === "features").flatMap(filmsOf);
+  const international = filmsOf(secs[2]);
+  const uruguayan = filmsOf(secs[3]);
+  const informative = filmsOf(secs[4]);
+  const find = (title) => works.find((f) => f.title === title);
+  check(features.length === 20 && international.length === 18 && uruguayan.length === 11 && informative.length === 10, "2008: expected 20 itemized features and 39 itemized short/medium works");
+  check(works.length === 59 && new Set(works.map((f) => f.title)).size === 59, "2008: identifiable source works must be distinct");
+  check(legacy[2008].editorial.content.some((p) => p.includes("Con veintidós largos, cuarenta trabajos entre medios y cortometrajes")), "2008: literal source totals of 22 features and 40 short/medium works lost");
+  check(JSON.stringify(features.map((f) => f.slug).sort()) === JSON.stringify(["carnal", "crepusculum-historias-fantasticas", "cucarachas-rojas", "curriculum", "dark-remains", "death-knows-your-name", "doctor-infierno", "el-propietario", "fausta", "filmatron", "mas-astuto-que-nunca", "mati", "muoi-leyenda-de-un-retrato", "natural-city", "nocturnos", "proxima", "song-of-the-dead", "the-day-of-the-dead", "the-last-gateway", "the-man-from-earth"]), "2008: historical feature detail slugs changed");
+  check([...international, ...uruguayan, ...informative].every((f) => !f.slug), "2008: restored shorts or catalogue entries must not create detail routes");
+  check(features.every((f) => f.synopsis && f.credits && f.director && f.country && f.year && Number.isInteger(f.duration) && f.duration > 0), "2008: feature metadata, credits, or durations missing");
+  check(international.every((f) => f.synopsis && f.credits && f.director && f.country && f.year && Number.isInteger(f.duration) && f.duration > 0), "2008: international short metadata, credits, or durations missing");
+  check(uruguayan.every((f) => f.synopsis && f.credits && f.director && f.country === "Uruguay" && f.year), "2008: Uruguayan competition metadata or credits missing");
+  check(uruguayan.filter((f) => f.duration === null).map((f) => f.title).join() === "Attack of the Disco Zombies", "2008: only Attack of the Disco Zombies lacks a source duration");
+  check(informative.every((f) => f.title && f.director && f.country && f.year && f.duration === null), "2008: informative catalogue metadata or source-absent durations changed");
+  const mezzi = works.filter((f) => f.title === "Mezzi (Mitades)");
+  check(mezzi.length === 1 && mezzi[0].country === "Italia" && mezzi[0].year === 2007 && mezzi[0].director === "Luca Sabbioni" && mezzi[0].duration === 5, "2008: Mezzi (Mitades) must be one complete source record");
+  check(find("CUCARACHAS ROJAS")?.original_title === "Red Cockroaches" && find("CUCARACHAS ROJAS")?.director === "Miguel Coyula" && find("CUCARACHAS ROJAS")?.duration === 82, "2008: Cucarachas Rojas credits or alternate title missing");
+  check(find("MÁS ASTUTO QUE NUNCA")?.original_title === "Wide Awake" && find("MUOI: LEYENDA DE UN RETRATO")?.original_title === "Muoi" && find("NATURAL CITY")?.duration === 113, "2008: informative feature metadata missing");
+  check(find("Asfixia")?.duration === 3 && find("Barbara Broadcast")?.director === "Jean-Julien Collette & Olivier Tollet" && find("Torre 102")?.duration === 8, "2008: omitted international shorts not restored");
+  check(find("28")?.director === "Pablo Moreira" && find("Zombie Baker Gaby")?.duration === 8 && informative[0]?.title === "Cocinero", "2008: Uruguayan competition or informative opening entry missing");
+  check(JSON.stringify(legacy[2008].awards.map((b) => b.awards.length)) === "[5,6,3]", "2008: award continuations missing");
+  check(legacy[2008].awards[0].jury.includes("GONZALO CURBELO") && legacy[2008].awards[1].jury.includes("DANILO SALVO") && legacy[2008].awards[1].awards[5].film === "ATTACK OF THE DISCO ZOMBIES", "2008: juries or short-film awards malformed");
+  check(legacy[2008].edition.dates === "Desde el viernes 16 y hasta el viernes 23 de mayo de 2008 inclusive" && legacy[2008].edition.venues[0] === "Cine Universitario", "2008: source date range or venue changed");
+}
+
 // 2009: IV archive source has three distinct short competitions and four catalogue categories.
 if (legacy[2009]) {
   const secs = sectionsOf(2009);

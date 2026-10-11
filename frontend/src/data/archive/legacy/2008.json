@@ -1,60 +1,139 @@
 {
   "awards": [
     {
-      "jury": "",
+      "section": "JURADOS DE LA SECCIÓN COMPETITIVA DE LARGOMETRAJES / JURY FOR LONG FEATURE FILMS COMPETITION",
+      "jury": "GONZALO CURBELO (La Diaria) – ÁNGEL DE VITTA (Revista Dimensión Desconocida) – GUSTAVO IRIBARNE (La República)",
       "awards": [
         {
-          "film": "BARBARA BROADCAST",
-          "name": "MEJOR CORTOMETRAJE",
-          "country": "Bélgica"
-        },
-        {
+          "name": "MEJOR PELÍCULA / BEST FEATURE FILM",
           "film": "THE MAN FROM EARTH",
-          "name": "MEJOR PELÍCULA",
-          "country": "Estados Unidos"
+          "country": "ESTADOS UNIDOS / USA",
+          "director": "Richard Schenkman",
+          "recipient": "",
+          "citation": "Por su estupendo guión, por los notables roles protagónicos, porque hasta podría ser una obra teatral, el film nunca se ve tentado de recurrir a efectos especiales ni de maquillaje. En el contexto de un festival de cine fantástico se vuelve doblemente buena, aleccionante y hasta algo realista, en relación a su modestia y buena escritura."
         },
         {
-          "film": "28",
-          "name": "MEJOR CORTOMETRAJE URUGUAYO",
-          "director": "Pablo Moreira"
+          "name": "MEJOR PELÍCULA LATINOAMERICANA / BEST LATIN AMERICAN FEATURE FILM",
+          "film": "FILMATRÓN",
+          "country": "ARGENTINA",
+          "director": "Pablo Parés",
+          "recipient": "",
+          "citation": "Por su ingenio, por sus ideas, por la manera en que todo funciona, porque recorre y parodia una gran variedad de géneros, con mínimos recursos más un concepto que no solo representa sino que también rinde tributo a la lucha de otros cineastas independientes de cine fantástico."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "DARK REMAINS",
+          "country": "ESTADOS UNIDOS / USA",
+          "director": "Brian Avenet-Bradley",
+          "recipient": "",
+          "citation": "Porque si bien es una historia mínima de fantasmas, logra, con su escaso presupuesto, un trabajo de dirección y de fotografía que potencia el suspenso y muy especialmente las sensaciones de miedo y terror."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "SONG OF THE DEAD",
+          "country": "ESTADOS UNIDOS / USA",
+          "director": "Chip Gubera",
+          "recipient": "",
+          "citation": "Por su sencillez, honestidad y desfachatez, por la yuxtaposición en tiempo y clave de simples coreografías con un sentido de patriotismo sobre el que se ironiza y de manera inteligente."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "THE DAY OF THE DEAD",
+          "country": "ESTADOS UNIDOS / USA",
+          "director": "Ricardo Islas",
+          "recipient": "",
+          "citation": "Por sus labores protagónicas, por su estética y buen trabajo de dirección, por tratarse de un thriller sobrenatural que maneja entre líneas la situación de algunos inmigrantes en Estados Unidos."
         }
-      ],
-      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES"
+      ]
     },
     {
+      "section": "JURADOS DE LA SECCIÓN COMPETITIVA DE CORTOMETRAJES / JURY FOR SHORT FILMS COMPETITION",
+      "jury": "MIGUEL BLANCO (91.1 Radio Futura) – ENRIQUE BUCHICHIO (Cartelera.com.uy) – DANILO SALVO (Arte7.com.uy)",
+      "awards": [
+        {
+          "name": "MEJOR CORTOMETRAJE / BEST SHORT FILM",
+          "film": "BARBARA BROADCAST",
+          "country": "BÉLGICA / BELGIUM",
+          "director": "Jean Julien-Collette y Olivier Tollet",
+          "recipient": "",
+          "citation": "Basándose en dos muy buenos actores, el corto expone el intrincado proceso creativo. Con una buena dosis de humor, se tiende un puente hacia el público, desdoblando la ficción en realidad."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "MADE IN JAPAN",
+          "country": "ESPAÑA / SPAIN",
+          "director": "Ciro Altabás",
+          "recipient": "",
+          "citation": "Un muchacho debe justificarse ante su novia; este es el disparador de un gran disparate que tiene a Japón como escenario. Con inteligencia, la mentira se justifica a sí misma en el film."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "POZA CISZA",
+          "country": "POLONIA / POLAND",
+          "director": "Piotr Ryczko",
+          "recipient": "",
+          "citation": "Por su efectiva generación de climas y atmósferas pesadillescas, apoyada en un buen nivel actoral, fotografía y arte."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "ROJO EN EL BOSQUE SANGRIENTO",
+          "country": "ARGENTINA",
+          "director": "Tetsuo Lumière",
+          "recipient": "",
+          "citation": "Con humor y economía de recursos, se hace una defensa a la necesidad de hacer cine a como dé lugar"
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "SOY UNA MANZANA",
+          "country": "URUGUAY",
+          "director": "DJ Peluca",
+          "recipient": "",
+          "citation": "Por la aceptación del distinto, la significación de ser diferente, en una pequeña dosis de esquizofrenia contagiosa"
+        },
+        {
+          "name": "MEJOR CORTOMETRAJE URUGUAYO / BEST URUGUAYAN SHORT FILM",
+          "film": "ATTACK OF THE DISCO ZOMBIES",
+          "country": "",
+          "director": "Darío Núñez",
+          "recipient": "",
+          "citation": "Por lograr de forma efectiva recrear las claves del cine de terror clase B de los ´70, en un formato no tradicional."
+        }
+      ]
+    },
+    {
+      "section": "PREMIOS DEL PÚBLICO / AUDIENCE CHOICE AWARDS",
       "jury": "",
       "awards": [
         {
+          "name": "MEJOR PELÍCULA / BEST FEATURE FILM",
           "film": "THE MAN FROM EARTH",
-          "name": "MEJOR PELÍCULA",
-          "country": "ESTADOS UNIDOS",
-          "citation": "",
-          "director": "Richard Schenkman)",
-          "recipient": ""
+          "country": "ESTADOS UNIDOS / USA",
+          "director": "Richard Schenkman",
+          "recipient": "",
+          "citation": ""
         },
         {
+          "name": "MEJOR CORTOMETRAJE / BEST SHORT FILM",
           "film": "EL CONCURSO DE MANCHAS",
-          "name": "MEJOR CORTOMETRAJE",
           "country": "ARGENTINA",
-          "citation": "",
-          "director": "Juan Manuel Bertozzi)",
-          "recipient": ""
+          "director": "Juan Manuel Bertozzi",
+          "recipient": "",
+          "citation": ""
         },
         {
+          "name": "MEJOR CORTOMETRAJE URUGUAYO / BEST URUGUAYAN SHORT FILM",
           "film": "28",
-          "name": "MEJOR CORTOMETRAJE URUGUAYO",
-          "country": "Director: Pablo Moreira",
-          "citation": "",
-          "director": "Pablo Moreira)",
-          "recipient": ""
+          "country": "",
+          "director": "Pablo Moreira",
+          "recipient": "",
+          "citation": ""
         }
-      ],
-      "section": "PREMIOS DEL PÚBLICO"
+      ]
     }
   ],
   "edition": {
     "year": 2008,
-    "dates": "2008",
+    "dates": "Desde el viernes 16 y hasta el viernes 23 de mayo de 2008 inclusive",
     "roman": "III",
     "title": "Montevideo Fantástico III",
     "number": 3,
@@ -73,9 +152,9 @@
           "year": 2007,
           "title": "CARNAL",
           "poster": "/media/archive/III/films/carnal.jpg",
-          "review": null,
+          "review": "Un trabajo de dirección que apunta netamente al lenguaje narrativo y prácticamente dentro de un solo ambiente, filmado en tan solo cinco noches, grabado y editado de forma cronológica en cámara, y con un estilo que se debate entre lo lúgubre y lo claustrofóbico. La película se basa en el largo argentino Mala carne (FF, 2003) y fue reeditada con nuevas escenas para el mercado estadounidense en 2007. Premio a Mejor Dirección en el Fearless Tales de San Francisco.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Fabián Forte. Con Federico Bezenzette, Guido Krolovetski, Mara Said, Alexia Sampano, Natán Solans. Duración: 81 minutos",
           "director": "Fabián Forte",
           "duration": 81,
           "synopsis": "Dos compañeros de estudio hacen una pausa en sus tareas durante la noche y deciden salir a buscar algo de comer. En el camino se cruzan con dos mujeres a las que se acercan con el fin de pasar un buen rato. Inesperadamente terminan siendo invitados por ellas mismas a cenar. Pero no todo va a salir como imaginaban.",
@@ -88,10 +167,10 @@
           "poster": "/media/archive/III/films/crepusculum-historias-fantasticas.jpg",
           "review": null,
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Gabriel Grieco. Con Ezequiel Tronconi, Verónica Pelaccini, Miguel Ángel Paludi, Catalina Rautemberg, Berta Muñiz. Duración: 61 minutos",
           "director": "Gabriel Grieco",
           "duration": 61,
-          "synopsis": "Una película que reúne cortometrajes de género fantástico independiente «Made in Argentina» y siguiendo la línea de Dimensión Desconocida y Cuentos Asombrosos ; historias que por momentos rondan el humor absurdo, pero siempre se enmarcan en el terreno de lo sobrenatural, la fantasía y la ciencia ficción; desde la cómica historia de «Nathan: El peluche asesino» (codirigida junto a Pablo Parés y Nicanor Loreti), sobre un patito de felpa que cobra vida al ser poseído por Satán, hasta «Griscelda» (coescrita por Grieco junto a Demian Aiello) sobre una top model que contrae una maldición y empieza a salir en blanco y negro en todas las fotos color que se saca.",
+          "synopsis": "Una película que reúne cortometrajes de género fantástico independiente «Made in Argentina» y siguiendo la línea de Dimensión Desconocida y Cuentos Asombrosos; historias que por momentos rondan el humor absurdo, pero siempre se enmarcan en el terreno de lo sobrenatural, la fantasía y la ciencia ficción; desde la cómica historia de «Nathan: El peluche asesino» (codirigida junto a Pablo Parés y Nicanor Loreti), sobre un patito de felpa que cobra vida al ser poseído por Satán, hasta «Griscelda» (coescrita por Grieco junto a Demian Aiello) sobre una top model que contrae una maldición y empieza a salir en blanco y negro en todas las fotos color que se saca.",
           "trailer_url": null
         },
         {
@@ -99,9 +178,9 @@
           "year": 2006,
           "title": "CURRÍCULUM",
           "poster": "/media/archive/III/films/curriculum.jpg",
-          "review": null,
+          "review": "Los discursos de estudio en anatomía humana, terrorismo, arte, formación teórica y autodidacta serán los diálogos protagónicos de la historia. Humor, surrealismo y una curiosa mezcla de cine de autor con cine bizarro son los ingredientes de esta ópera prima del chileno Patricio Valladares, donde no todo es lo que parece.",
           "country": "Chile",
-          "credits": "",
+          "credits": "Dirección: Patricio Valladares. Guión: PV e Ignacio Muñoz, sobre historia del primero. Con Serge François, Fabián Padilla, Carolina Aguilera, Nelson Villagra, Evelyn Belmar. Duración: 61 minutos",
           "director": "Patricio Valladares",
           "duration": 61,
           "synopsis": "Dos sicarios son enviados a matar a la misma mujer, desconociendo la competencia que existe entre ellos por asesinarla. Al encontrarse en un galpón rural y frente a la víctima, surge una serie de diálogos sobre cómo dar muerte a un ser humano, pero las cosas se van de órbita, al punto que la indefensa mujer comienza a pasar a segundo plano.",
@@ -112,9 +191,9 @@
           "year": 2005,
           "title": "DARK REMAINS",
           "poster": "/media/archive/III/films/dark-remains.jpg",
-          "review": null,
+          "review": "Una simple aunque por momentos aterradora historia de fantasmas, cocinada desde lo más independiente del cine estadounidense (filmada con presupuesto ínfimo, en un mes y monedas), con algunos actores no profesionales e ingredientes que el cine de terror industrial norteamericano todavía sigue buscando. Premio a Mejor Película en Rhode Island y en el Shriekfest de Los Ángeles.",
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: Brian Avenet-Bradley. Con Cheri Christian, Greg Thompson, Scott Hodges, Jeff Evans, Rachel Jordan. Duración: 91 minutos",
           "director": "Brian Avenet-Bradley",
           "duration": 91,
           "synopsis": "Luego de perder a su pequeña hija, una pareja (él escritor, ella fotógrafa) se muda a las montañas para encontrar tranquilidad. Pero en los bosques hay un oscuro secreto, ligado a un poder sobrenatural desde donde la niña fallecida trata de ponerse en contacto con su madre.",
@@ -125,9 +204,9 @@
           "year": 2007,
           "title": "DEATH KNOWS YOUR NAME",
           "poster": "/media/archive/III/films/death-knows-your-name.jpg",
-          "review": null,
+          "review": "El permanente cuidado por la estética visual y un pulso narrativo que juega con la intriga y la ansiedad del espectador ha sido factor común en los trabajos del realizador Daniel de la Vega, que ganó un premio en Sitges (por el corto El martillo: Crónica de un mito, exhibido en la primera edición de Montevideo Fantástico), y de quien se pudo ver de él (en el segundo festival) Jennifer´s Shadow (2003), largometraje que codirigió junto a su compatriota Pablo Parés. La película ha sido premiada por la crítica argentina y obtuvo la distinción a Mejor Film en los Tabloid Witch Awards (Santa Mónica, California).",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: Daniel de la Vega. Guión: Demián Rugna. Con Rodrigo Aragón, Hugo Halbrich, Verónica Mari, Alicia Vidal, Enrique Liporace. Duración: 89 minutos",
           "director": "Daniel de la Vega",
           "duration": 89,
           "synopsis": "El psiquiatra de un viejo asilo, junto a su padre antropólogo, descubre un esqueleto humano en los túneles del hospital. La investigación de saber a qué persona pertenecía los llevará a una revelación aterradora.",
@@ -138,9 +217,9 @@
           "year": 2007,
           "title": "DOCTOR INFIERNO",
           "poster": "/media/archive/III/films/doctor-infierno.jpg",
-          "review": null,
+          "review": "Es la película más delirante y bizarra de todo el festival, repleta de humor negro, gore, artes marciales, terror, ciencia ficción, comedia, efectos especiales, poesía y demencia total. Ópera prima del español Paco Limón, basada en un premiado corto de su autoría producido en 2003.",
           "country": "España",
-          "credits": "",
+          "credits": "Dirección: Paco Limón. Guión: PL, sobre historia de PL, Ramiro García, Jorge Gallego, Sergio Martínez y Diego García. Con Arturo de Bobadilla, David Ransanz, Belinda Fernández, Pat Polo, José Torija. Duración: 84 minutos",
           "director": "Paco Limón",
           "duration": 84,
           "synopsis": "El Doctor Horacio Quiroga Infierno, ginecólogo de renombre, desea dominar el mundo. Su plan: curar a la humanidad con un medicamento milagroso, capaz de eliminar el cáncer y el virus del SIDA, a cambio de su total sumisión. Pero sus objetivos se verán comprometidos cuando un cabo suelto, la enfermera García, quiera vengarse de él. El asesino enviado para su exterminación ha fallado. Enfermera, asesino, el novio de una vecina, el portero del edificio y una multitud de gente se verán inmersos en una frenética lucha bajo el bunker secreto del profesional.",
@@ -151,9 +230,9 @@
           "year": 2007,
           "title": "EL PROPIETARIO",
           "poster": "/media/archive/III/films/el-propietario.jpg",
-          "review": null,
+          "review": "Una película filmada prácticamente en interiores, que incluye drama, voyeurismo, splatter, erotismo y hasta escenas que juegan al límite del snuff. Un thriller psicológico bien llevado y que apunta a las reacciones de sus personajes frente a situaciones de abuso y extremo control. En el centro del asunto hay una obsesión que se va transformando en una extraña relación, en un amor posesivo, por momentos impactante.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: Javier Diment, Luis Ziembrowski. Guión: Martín Blousson, JD, Santiago Hadida, Germán Val, LZ. Con Jimena Anganuzzi, Mario Das Airas, Carla Crespo, Edgardo Livov Maklin, Daniel Kargieman. Duración: 77 minutos",
           "director": "Javier Diment, Luis Ziembrowski",
           "duration": 77,
           "synopsis": "Una joven actriz lesbiana alquila un apartamento, sin saber que el dueño, que vive en el mismo edificio, tiene varias cámaras ocultas que controlan todos sus movimientos, las visitas y lo que habla. Por si fuera poco también usa un gas adormecedor que le permite invadir la privacidad de sus víctimas y también hacer algo más con ellas…",
@@ -164,9 +243,9 @@
           "year": 2007,
           "title": "FAUSTA",
           "poster": null,
-          "review": null,
+          "review": "Ernesto Aguilar cuenta con varios largos en su haber, y una de sus principales características es subvertir los géneros tradicionales con bastante humor. Fausta es una mezcla de thriller y comedia, con algunos momentos de súbita y a veces desconcertante comicidad.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Ernesto Aguilar. Con Federico Montaño, Carlos Lanari, Julieta Larsen, Juan Carlos Mastrángelo, Carolina Refusta. Duración: 69 minutos",
           "director": "Ernesto Aguilar",
           "duration": 69,
           "synopsis": "Un escritor que acaba de terminar su novela tiene relaciones con una joven muda, lo que hace que reciba un hechizo por parte de su novia, Fausta, que lo sitúa en una cruel encrucijada. Su amante y uno de sus mejores amigos intentarán ayudarlo para que pueda librarse de la maldición y de paso para que su libro sea aceptado por un peculiar profesor universitario que ya conoce antecedentes literarios del autor y los detesta.",
@@ -177,9 +256,9 @@
           "year": 2007,
           "title": "FILMATRON",
           "poster": "/media/archive/III/films/filmatron.jpg",
-          "review": null,
+          "review": "Se trata de una libre adaptación del libro 1984, de George Orwell, con cineastas frente a un régimen totalitario y opresivo en un contexto tan duro y venido a menos que bien podría asimilarse a los obstáculos que permanentemente tiene que enfrentar el cine fantástico argentino hecho con dos mangos, por lo general sin ningún tipo de apoyos, como éste, que viene impulsando desde hace años la propia productora FARSA. Los condimentos: comic, animación, artes marciales, juegos electrónicos, cine norteamericano y algunos autores de la literatura de ciencia ficción que le brindan varios arquetipos a su director Pablo Parés para desplegar un estilo lleno de ingenio y creatividad. El notable final ha sido interpretado como un verdadero grito de guerra de parte de toda una generación de cineastas independientes.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Pablo Parés. Con Walter Cornás, Laura Azcurra, Paulo Soria, Ricardo Chiesa, Berta Muñiz. Duración: 94 minutos",
           "director": "Pablo Parés",
           "duration": 94,
           "synopsis": "Lucas y un grupo de amigos deciden realizar una película de ciencia ficción sin saber que viven en un mundo donde eso está prohibido, y sin buscarlo se convierten en la única esperanza de la rebelión, la única esperanza para derrumbar un imperio en decadencia y generar una nueva revolución que despierte al pueblo dormido.",
@@ -190,9 +269,9 @@
           "year": 2008,
           "title": "MATI",
           "poster": "/media/archive/III/films/mati.jpg",
-          "review": null,
+          "review": "Los creadores de Extra, extra, el corto que arrasara con los premios en la pasada edición de Montevideo Fantástico, plantea una historia netamente bizarra, llena de acción, violencia, humor, y principalmente un estilo muy particular y creativo, en medio de la locura y la excentricidad. Se trata del nuevo largometraje de la productora independiente Mervel Films, compuesta por un grupo de amigos muy entusiastas e imaginativos. Es la única película uruguaya en competencia dentro del festival.",
           "country": "Uruguay",
-          "credits": "",
+          "credits": "Dirección: Diego Melo, Marcelo Di Paolo, Ernesto Rodríguez. Guión: DM, MDP, ER, Martín Martínez. Con Federico Kouyoumdjian, Humberto Di Paolo, Gerardo Di Paolo, DM, MDP. Duración: 52 minutos",
           "director": "Diego Melo, Marcelo Di Paolo, Ernesto Rodríguez",
           "duration": 52,
           "synopsis": "El Negro, Marto y Mitch realizan un viaje hacia una lejana cabaña en el medio del bosque. En el camino se involucran en una encarnecida guerra entre un campesino y su espantapájaros.",
@@ -203,9 +282,9 @@
           "year": 2008,
           "title": "NOCTURNOS",
           "poster": "/media/archive/III/films/nocturnos.jpg",
-          "review": null,
+          "review": "También hay tres directores que aquí realizan en conjunto una labor de impecable factura técnica y con buen rendimiento actoral, sin caer en excesos y aportando un enfoque bastante original al tema del vampirismo, asumiendo sus propios riesgos dentro de historias entrecruzadas que terminan acoplándose muy bien a la película, especialmente a cada uno de los personajes principales. El asunto sigue después de los créditos finales…",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: Ariel Medina, Maximiliano Ricciardi, Leandro Vitullo. Guión: AM, MR, LV. Con Josefina Sanz, Maria Colloca, Sergio Podeley, Rodrigo Mujico, Florencia D’Agostino. Duración: 110 minutos",
           "director": "Ariel Medina, Maximiliano Ricciardi, Leandro Vitullo",
           "duration": 110,
           "synopsis": "Tres historias que suceden en una noche cualquiera, en la ciudad de Buenos Aires, y que tienen algo en común: un compañero de trabajo que va a la fiesta de despedida de su amigo y allí es atacado por una mujer vampiro, una estudiante de intercambio que llega a una misteriosa casa cuya pareja residente se comporta de manera un poco extraña, y una suerte de western donde una banda de vampiros se dirige a una fábrica para realizar un trabajo pero luego es emboscada por otra, manejada por un oscuro comisario.",
@@ -216,9 +295,9 @@
           "year": 2007,
           "title": "PRÓXIMA",
           "poster": "/media/archive/III/films/proxima.jpg",
-          "review": null,
+          "review": "El director catalán Carlos Atanes es uno de los escasísimos realizadores que apuesta por una ciencia ficción “de la mente”, independiente, aquí algo distante de la filosofía empleada en FAQ (que se vio en el pasado Montevideo Fantástico), a través de una aventura espacial plena de sensaciones y mucha imaginación, con una buena banda sonora que lo respalda. Selección Oficial de FantasPorto y del Festival de Ciencia Ficción de Londres.",
           "country": "España",
-          "credits": "",
+          "credits": "Dirección: Carlos Atanes. Guión: CA. Con Oriol Aubets, Anthony Blake, Manuel Solás, Hans Ritcher, Karen Owens. Duración: 115 minutos",
           "director": "Carlos Atanes",
           "duration": 115,
           "synopsis": "El dueño de un videoclub comienza a vivir inusitados hechos reales que lo asemejan a esas mismas cosas que él tan solo veía en series y películas de corte fantástico. A partir de una conferencia en una convención, hecha por un escritor absolutamente convencido de que los extraterrestres están en contacto con nosotros, Tony comienza un viaje que lo acercará al lugar del título, un mundo lejano a la Tierra, quizás hecho para soñadores como él.",
@@ -229,9 +308,9 @@
           "year": 2005,
           "title": "SONG OF THE DEAD",
           "poster": "/media/archive/III/films/song-of-the-dead.jpg",
-          "review": null,
+          "review": "Una comedia musical clase B con muertos vivos, en clave de sátira política más guiños a algunos clásicos del género, con bailes, canciones, coreografías y letras que apuntan directamente a la inutilidad de la guerra, con personajes estereotipados intencionalmente para mostrar distintas facetas del exagerado patriotismo norteamericano. El multipremiado y creativo director indpendiente Chip Gubera escribió, dirigió, coprodujo y hasta se encargo de la composición musical en la película.",
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: Chip Gubera. Con Stephen Andsager, John Gilbreth, Kate Gorman, Conrad Gubera, Travis Hierholzer. Duración: 87 minutos",
           "director": "Chip Gubera",
           "duration": 87,
           "synopsis": "Un virus despierta a los muertos de Estados Unidos. Las cadenas de noticias y funcionarios del gobierno sólo hacen declaraciones vagas sobre las circunstancias que rodean el hecho. El Presidente apela a los americanos a unirse y resistir. Una familia de la América profunda se enfrenta con el conflicto y lucha contra el «zombie terrorista».",
@@ -242,9 +321,9 @@
           "year": 2007,
           "title": "THE DAY OF THE DEAD",
           "poster": "/media/archive/III/films/the-day-of-the-dead.jpg",
-          "review": null,
+          "review": "Islas vuelve a ratificar su tradicional estilo para el horror en este thriller sobrenatural de denuncia social, reforzado por un buen tratamiento visual, no exento de algunos sobresaltos que evocan al mejor cine de terror oriental y por supuesto a la tradicional celebración mexicana del título. Inspirada en un caso real.",
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: Ricardo Islas. Con Rosa Frausto, Jim Kirwan, Cyn Dulay, Christina De León, Salomón Carmona. Duración: 102 minutos",
           "director": "Ricardo Islas",
           "duration": 102,
           "synopsis": "Una pandilla urbana cuya diversión es matar a todas aquellas personas sin hogar o que están residiendo de manera ilegal en Estados Unidos. Las cosas toman un rumbo impensado cuando este grupo pone en la mira a una joven mexicana que cruza la frontera para buscar trabajo. El asunto comienza a ser seguido de cerca por una detective que se da de frente contra los prejuicios raciales y la corrupción policial, y también por el padre de la joven que viaja desde México y tiene tan solo 15 días para encontrar a su hija, antes que expire su visa.",
@@ -255,9 +334,9 @@
           "year": 2007,
           "title": "THE LAST GATEWAY",
           "poster": "/media/archive/III/films/the-last-gateway.jpg",
-          "review": null,
+          "review": "De corte bastante lovecraftiano, esta ópera prima del argentino Demian Rugna (guionista de Death Knows Your Name) tiene sus escalofríos, atmósferas muy bien logradas, y un marcado gusto por el gore, sin caer por lo general en excesos que entorpezcan la historia, originalmente creada a partir de un corto (La última entrada) hecho con una cámara VHS en 2003 y cuando Rugna era estudiante.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Demian Rugna. Con Rodrigo Aragón, Salomé Boustain, Hugo Halbrich, Patricio Schwartz, Kevin Schiele. Duración: 105 minutos",
           "director": "Demian Rugna",
           "duration": 105,
           "synopsis": "Víctor ha conseguido abrir una puerta al infierno, pero sus cálculos fallaron y la misma terminó abriéndose en el cuerpo de Miguel, su nuevo vecino. Ahora, siniestras personas anhelan esta entrada que… también es para salir. Miguel deberá escapar de estos extraños seres que lo acechan y, a su vez, sobrevivir de las horribles criaturas que surgen de su cuerpo, devenido a una puerta hacia otro mundo.",
@@ -270,7 +349,7 @@
           "poster": "/media/archive/III/films/the-man-from-earth.jpg",
           "review": "La película se basa en el último guión hecho por el afamado y ya fallecido escritor Jerome Bixby (que también aportó su trabajo como libretista para la vieja Dimensión Desconocida y la serie original de Viaje a las estrellas, entre otras labores para cine) y retoma la vieja escuela de ciencia ficción (sin monstruos, explosiones ni efectos especiales), prácticamente en una sola habitación, y tocando temas tan curiosos como controversiales. Premio a Mejor Película y Mejor Guión Original en el Festival de Cine Fantástico de Rhode Island.",
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Dirección: Richard Schenkman. Guión: Jerome Bixby. Con John Billingsley, Ellen Crawford, William Katt, Tony Todd, Annika Peterson. Duración: 88 minutos",
           "director": "Richard Schenkman",
           "duration": 88,
           "synopsis": "Un profesor invita a sus colegas a una reunión de despedida, antes de mudarse hacia otro lugar. Pero el protagonista tiene algo que decir a sus invitados: él es un ser inmortal que ha ido migrando a lo largo de la Tierra durante 14.000 años. Lo que iba a ser una celebración típica se convierte en un mar de dudas, en un permanente interrogatorio para saber si lo que dice ese conocido de años es cierto o no. Por si fuera poco, hay una revelación aún más desconcertante cerca del final.",
@@ -287,39 +366,42 @@
           "year": 2004,
           "title": "CUCARACHAS ROJAS",
           "poster": "/media/archive/III/films/cucarachas-rojas.jpg",
-          "review": null,
-          "country": "Cuba",
-          "credits": "",
-          "director": null,
-          "duration": null,
+          "review": "Primera parte de una trilogía dirigida por el cubano Miguel Coyula (graduado de la Escuela Internacional de Cine y Televisión de San Antonio de los Baños; aquí en su ópera prima) que fue filmada solo los días domingos, a lo largo de un año, y cuyo presupuesto fue de tan solo 2.000 dólares, de los cuales 1.000 fueron destinados a cubrir el seguro de los actores y lo restante para comprar cintas, utilería y gasolina…",
+          "country": "Cuba / Estados Unidos",
+          "credits": "Guión y Dirección: Miguel Coyula. Con Adam Plotch, Talia Rubel, Diane Spodarek, Jeff Pucillo, Limor Shopen. Duración: 82 minutos",
+          "director": "Miguel Coyula",
+          "duration": 82,
           "synopsis": "Un futuro no muy lejano que toma lugar en una Nueva York con autos espaciales, insectos mutantes, clones humanos y lluvias ácidas. Pero la historia no se centra en ninguno de estos fenómenos; tan solo en la vida de un joven cautivado por una misteriosa mujer, que le recuerda a un familiar suyo que había muerto en un accidente años atrás. Juntos mantendrán una relación polémica, de tintes oscuros, surrealistas, inquietantes.",
-          "trailer_url": null
+          "trailer_url": null,
+          "original_title": "Red Cockroaches"
         },
         {
           "slug": "mas-astuto-que-nunca",
           "year": 1998,
           "title": "MÁS ASTUTO QUE NUNCA",
           "poster": "/media/archive/III/films/mas-astuto-que-nunca.jpg",
-          "review": null,
+          "review": "Se trata de uno de sus menos conocidos largometrajes, que ayuda a entender algunas inquietudes de sus posteriores trabajos, inmediatamente anterior al gran éxito que lo dio a conocer (El sexto sentido), y hasta con la tradicional vuelta de tuerca en el final. Se terminó de filmar en 1995 y recién pudo estrenarse en 1998. En Argentina y Uruguay tuvo una limitadísima circulación en video, no habiendo pasado por cines nacionales.",
           "country": "Estados Unidos",
-          "credits": "",
-          "director": null,
-          "duration": null,
+          "credits": "Guión y Dirección: M. Night Shyamalan. Con Joseph Cross, Robert Loggia, Julia Stiles, Denis Leary, Rosie O´Donnell. Duración: 88 minutos",
+          "director": "M. Night Shyamalan",
+          "duration": 88,
           "synopsis": "Fiel a las creencias de M. Night Shyamalan (El protegido, Señales, La aldea), y filmada en el mismo colegio católico de Filadelfia al que había ido de pequeño, aquí el realizador hindú, en su segundo largometraje, cuenta la historia de un niño que pierde a su querido abuelo y trata de contactarse con Dios para saber si él está bien y en un lugar seguro.",
-          "trailer_url": null
+          "trailer_url": null,
+          "original_title": "Wide Awake"
         },
         {
           "slug": "muoi-leyenda-de-un-retrato",
           "year": 2007,
           "title": "MUOI: LEYENDA DE UN RETRATO",
           "poster": "/media/archive/III/films/muoi-leyenda-de-un-retrato.jpg",
-          "review": null,
-          "country": "Corea del Sur",
-          "credits": "",
-          "director": null,
-          "duration": null,
+          "review": "Gran parte de la filmación se realizó en lugares sagrados de Vietnam. El film mezcla sobresaltos, bastante sugestión y hasta cierta cuota dramática, constituyéndose a la vez en uno de esos pocos casos dentro del terror asiático donde una próspera industria, como la surcoreana, se une a una más pobre y pequeña, como la de Vietnam.",
+          "country": "Corea del Sur / Vietnam",
+          "credits": "Guión y Dirección: Kim Tae-kyeong. Con: Thu Anh, Jo An, Cha Ye-ryeon, Hong So-hee, Kim Yong-tae. Duración: 94 minutos",
+          "director": "Kim Tae-kyeong",
+          "duration": 94,
           "synopsis": "Una escritora, en busca de una historia para su segunda novela que la pueda llevar al éxito, decide viajar hasta Vietnam para investigar una misteriosa leyenda que existe sobre el cuadro del título, donde aparece una mujer que había sido asesinada por el novio y cuyo inquieto espíritu busca venganza. Curiosamente, hay una relación entre esta víctima y aquella amiga de la protagonista en cuyo frustrado romance se basó para hacer su primera novela.",
-          "trailer_url": null
+          "trailer_url": null,
+          "original_title": "Muoi"
         },
         {
           "slug": "natural-city",
@@ -328,11 +410,12 @@
           "poster": "/media/archive/III/films/natural-city.jpg",
           "review": null,
           "country": "Corea del Sur",
-          "credits": "",
+          "credits": "Guión y Dirección: Min Byung-chun. Con Yu Ji-tae, Seo Rin, Lee Jae-eun, Yun Chan, Go Ju-heui. Duración: 113 minutos",
           "director": "Min Byung-chun",
-          "duration": null,
-          "synopsis": "A pesar de haber perdido parte de su historia fílmica y de haberse insertado tarde en el concierto del Cine Universal, Corea del Sur intenta recuperar el tiempo perdido, esta vez con un filme de ciencia-ficción que es un correcto equivalente melodramático de la gran Blade Runner (Ridley Scott, 1982). Ambientada en los años ’70, pero del Siglo XXI, la trama nos muestra a un policía especial cuyos superiores toleran que se dedique a la venta de chips en el mercado negro y que esté enamorado de una delicada cyborg a la que le restan solo tres días de vida útil. Se trata de un mundo donde los seres humanos conviven con los cyborgs, y cuyo equilibrio tambalea a raíz de la amenaza de uno de estos organismos cibernéticos rebeldes. La tecnología permite el traspaso de conciencia de un cuerpo a otro, y con tal fin el villano de turno secuestra a una joven vagabunda, con quien el protagonista va entretejiendo una relación especial. La película no hace mayor hincapié en los elementos fantásticos, prefiriendo concentrarse en la extraña relación amorosa entre hombre y máquina (siempre mostrada a nivel platónico, sin ahondar en motivaciones profundas), salpicando momentos de auténtico lirismo con dinámicas secuencias de luchas y tiroteos. Darío Lavia (Naechyureol Siti)",
-          "trailer_url": null
+          "duration": 113,
+          "synopsis": "A pesar de haber perdido parte de su historia fílmica y de haberse insertado tarde en el concierto del Cine Universal, Corea del Sur intenta recuperar el tiempo perdido, esta vez con un filme de ciencia-ficción que es un correcto equivalente melodramático de la gran Blade Runner (Ridley Scott, 1982). Ambientada en los años ’70, pero del Siglo XXI, la trama nos muestra a un policía especial cuyos superiores toleran que se dedique a la venta de chips en el mercado negro y que esté enamorado de una delicada cyborg a la que le restan solo tres días de vida útil. Se trata de un mundo donde los seres humanos conviven con los cyborgs, y cuyo equilibrio tambalea a raíz de la amenaza de uno de estos organismos cibernéticos rebeldes. La tecnología permite el traspaso de conciencia de un cuerpo a otro, y con tal fin el villano de turno secuestra a una joven vagabunda, con quien el protagonista va entretejiendo una relación especial. La película no hace mayor hincapié en los elementos fantásticos, prefiriendo concentrarse en la extraña relación amorosa entre hombre y máquina (siempre mostrada a nivel platónico, sin ahondar en motivaciones profundas), salpicando momentos de auténtico lirismo con dinámicas secuencias de luchas y tiroteos. Darío Lavia",
+          "trailer_url": null,
+          "original_title": "Naechyureol Siti"
         }
       ]
     },
@@ -341,226 +424,434 @@
       "type": "shorts",
       "films": [
         {
-          "year": 2006,
           "title": "Akai",
-          "poster": null,
-          "review": null,
+          "year": 2006,
           "country": "Brasil",
-          "credits": "",
           "director": "Carlos Gananian",
-          "duration": null,
+          "duration": 22,
           "synopsis": "La sangre tiñe de rojo los pasillos de una casa. Un hombre es atormentado por la culpa y el remordimiento, que afligen su dolorosa existencia.",
+          "credits": "Guión y Dirección: Carlos Gananian. Con Gustavo Arantes, Roberta Youssef. Duración: 22 minutos",
+          "review": null,
+          "poster": null,
           "trailer_url": null
         },
         {
-          "year": 2006,
           "title": "Anónimos",
-          "poster": null,
-          "review": null,
+          "year": 2006,
           "country": "España",
-          "credits": "",
           "director": "Cristian Pozo",
-          "duration": null,
+          "duration": 21,
           "synopsis": "Una historia de amor en un universo onírico, atemporal, sin referencias de un lugar concreto. El amor de Fred y Laura.",
+          "credits": "Dirección: Cristian Pozo. Guión: CP, Nacho García. Con Álvaro Ramos, Luz Altamira. Duración: 21 minutos",
+          "review": null,
+          "poster": null,
           "trailer_url": null
         },
         {
-          "year": 2007,
           "title": "Anular",
-          "poster": null,
-          "review": null,
-          "country": "Chile",
-          "credits": "",
-          "director": "Francesc Morales",
-          "duration": null,
-          "synopsis": "Héctor llega a casa, después de haber asistido al matrimonio de su único hijo. Él parece haber recordado todo lo bueno que tuvo con su antigua familia, pero Angélica, su joven y provocativa nueva esposa, está determinada a hacerlo olvidar.",
-          "trailer_url": null
-        },
-        {
-          "year": 2006,
-          "title": "Eva",
-          "poster": null,
-          "review": null,
-          "country": "Chile",
-          "credits": "",
-          "director": "Juan Cristóbal Jürgens",
-          "duration": null,
-          "synopsis": "Eva es una joven científica genética que padece alucinaciones. Un extraño encuentro en su lugar de trabajo desata en ella la duda respecto a si las mismas son reales o no. Confundida por la situación, se induce a una regresión tratando de descifrar lo que pasa, descubriendo una aterradora y escalofriante verdad.",
-          "trailer_url": null
-        },
-        {
           "year": 2007,
+          "country": "Chile",
+          "director": "Francesc Morales",
+          "duration": 6,
+          "synopsis": "Héctor llega a casa, después de haber asistido al matrimonio de su único hijo. Él parece haber recordado todo lo bueno que tuvo con su antigua familia, pero Angélica, su joven y provocativa nueva esposa, está determinada a hacerlo olvidar.",
+          "credits": "Dirección: Francesc Morales. Guión: FM, Ximena Quiroz, Cristóbal Pereira. Con Marcelo del Campo, Catalina Jacob. Duración: 6 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Asfixia",
+          "year": 2006,
+          "country": "Argentina",
+          "director": "Federico Peretti",
+          "duration": 3,
+          "synopsis": "Un trabajo de corte experimental con un arriesgado diseño de sonido, a propósito de joven observada cuando toma el ascensor. Las interpretaciones pueden ser varias, según el ojo del espectador.",
+          "credits": "Dirección: Federico Peretti. Guión: FP y Agostina Brocco. Con Renée Nader Messora. Duración: 3 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Barbara Broadcast",
+          "year": 2006,
+          "country": "Bélgica",
+          "director": "Jean-Julien Collette & Olivier Tollet",
+          "duration": 15,
+          "synopsis": "Dos amigos que se cuentan historias se encuentran encerrados en un desván. Una extraña enfermedad de la voluntad les alcanza poco a poco, sin que consigan saber por qué.",
+          "credits": "Guión y Dirección: Jean-Julien Collette & Olivier Tollet. Con Olivier Massart, Thierry Lefèvre. Duración: 15 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "El concurso de manchas",
+          "year": 2006,
+          "country": "Argentina",
+          "director": "Juan Manuel Bertozzi",
+          "duration": 4,
+          "synopsis": "Un dibujante realiza una obra para un concurso y le pide ayuda a sus elementos de trabajo. Los objetos comienzan a cobrar vida y se disponen a ayudarlo. Pero algo ocurre y se revelan, decidiendo no trabajar más.",
+          "credits": "Guión y Dirección: Juan Manuel Bertozzi. Con Mario Jursza, Federico Manzoni. Duración: 4 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Eva",
+          "year": 2006,
+          "country": "Chile",
+          "director": "Juan Cristóbal Jürgens",
+          "duration": 30,
+          "synopsis": "Eva es una joven científica genética que padece alucinaciones. Un extraño encuentro en su lugar de trabajo desata en ella la duda respecto a si las mismas son reales o no. Confundida por la situación, se induce a una regresión tratando de descifrar lo que pasa, descubriendo una aterradora y escalofriante verdad.",
+          "credits": "Dirección: Juan Cristóbal Jürgens. Guión: Amaro Cabello, Juan Cristóbal Jürgens, Andrea Rosales. Con Daniela Llorente, Mario Santander, Esteban González. Duración: 30 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Jig-Saw",
+          "year": 2006,
+          "country": "Reino Unido",
+          "director": "Paul Fuller",
+          "duration": 12,
+          "synopsis": "Cansado de la rutina, un oficinista encuentra un puzzle en la calle y se obsesiona con armarlo a como dé lugar, sin importarle nada más.",
+          "credits": "Guión y Dirección: Paul Fuller. Con Simon Andrew, Lourdes Benitez, Papa García. Duración: 12 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
           "title": "La Donna della Toilette",
-          "poster": null,
-          "review": null,
+          "year": 2007,
           "country": "Italia",
-          "credits": "",
           "director": "Alberto Viavattene",
-          "duration": null,
+          "duration": 20,
           "synopsis": "Un hombre encuentra el número del celular de una mujer, en la pared del baño de un servicentro en la carretera. Esa noche, aburrido, decide llamarla. Una extraña historia de misterio y perversión, con personajes aún más ambiguos y peligrosos.",
+          "credits": "Guión y Dirección: Alberto Viavattene. Con Maximiliano Sciacca, Angelo Doncella, Marco Cellini. Duración: 20 minutos",
+          "review": null,
+          "poster": null,
           "trailer_url": null
         },
         {
-          "year": 2008,
-          "title": "Mezzi",
-          "poster": null,
+          "title": "Made in Japan",
+          "year": 2007,
+          "country": "España",
+          "director": "Ciro Altabás",
+          "duration": 6,
+          "synopsis": "“Mi madre me confesó que el señor que yo creía era mi padre no era mi padre…”",
+          "credits": "Dirección: Ciro Altabás. Guión: CA, Iñigo Díaz- Guardamino. Con CA, Irene González Paulos, Pepe Márquez. Duración: 6 minutos",
           "review": null,
-          "country": "Mitades",
-          "credits": "",
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Mezzi (Mitades)",
+          "year": 2007,
+          "country": "Italia",
           "director": "Luca Sabbioni",
-          "duration": null,
-          "synopsis": "Italia, 2007 – Historia de amor, inspirada libremente en el mito de Platón, a propósito de hombre y mujer tratando de reunirse nuevamente.",
-          "trailer_url": null
-        },
-        {
-          "year": 2008,
-          "title": "Mezzi",
-          "poster": null,
+          "duration": 5,
+          "synopsis": "Historia de amor, inspirada libremente en el mito de Platón, a propósito de hombre y mujer tratando de reunirse nuevamente.",
+          "credits": "Guión y Dirección: Luca Sabbioni. Con Francesco Carbone, Chiara Dehó, Fabio Giarrusso. Duración: 5 minutos",
           "review": null,
-          "country": "Mitades",
-          "credits": "",
-          "director": null,
-          "duration": null,
-          "synopsis": null,
+          "poster": null,
           "trailer_url": null
         },
         {
-          "year": 2006,
           "title": "Otakus",
-          "poster": null,
-          "review": null,
+          "year": 2006,
           "country": "Argentina",
-          "credits": "",
           "director": "Andrés Borghi",
-          "duration": null,
+          "duration": 8,
           "synopsis": "Dos amigos se pasan el día discutiendo sobre detalles mínimos de sus animé preferidos, hasta que la contienda se vuelve tan fuerte que comienzan a enfrentarse entre ellos…",
-          "trailer_url": null
-        },
-        {
-          "year": 2008,
-          "title": "Poza Cisza",
-          "poster": null,
+          "credits": "Guión y Dirección: Andrés Borghi. Con Nicolás Stilman, Martín Cataldi, AB. Duración: 8 minutos",
           "review": null,
-          "country": "Bajo el silencio",
-          "credits": "",
-          "director": null,
-          "duration": null,
-          "synopsis": null,
+          "poster": null,
           "trailer_url": null
         },
         {
+          "title": "Poza Cisza (Bajo el silencio)",
           "year": 2006,
-          "title": "Rojo en el bosque sangriento",
-          "poster": null,
+          "country": "Polonia",
+          "director": "Piotr Ryczko",
+          "duration": 15,
+          "synopsis": "Una relación congelada consigue un nuevo impulso cuando un hijo visita a su padre. Pero durante la estadía descubre un secreto profundamente guardado.",
+          "credits": "Guión y Dirección: Piotr Ryczko. Con Marcin Sztabinski, Wojtek Dorosczynski, Kacper Gasior. Duración: 15 minutos",
           "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "¿Qué pasó con Pablo?",
+          "year": 2006,
           "country": "Argentina",
-          "credits": "",
+          "director": "Sebastián Caulier",
+          "duration": 21,
+          "synopsis": "Cuatro jóvenes regresan a la casa de campo para rendir homenaje a su amigo Pablo, fallecido diez años atrás mientras jugaban en el bosque. Por la noche son obligados a enfrentarse a un pasado que prefieren olvidar.",
+          "credits": "Dirección: Sebastián Caulier. Guión: Germán Loza. Con Salomé Boustani, Andrés García Dietze, Juan Manuel Correa. Duración: 21 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Rojo en el bosque sangriento",
+          "year": 2006,
+          "country": "Argentina",
           "director": "Testuo Lumière",
-          "duration": null,
+          "duration": 4,
           "synopsis": "Una joven doncella se interna en el bosque en busca de sus hermanitos. Un misterioso hombre de bata roja se cruza en su camino y la ataca. Pero ella sabe cómo defenderse.",
+          "credits": "Guión y Dirección: Testuo Lumière. Con Victoria Ciaffone, Marcelo Páez, TL. Duración: 4 minutos",
+          "review": null,
+          "poster": null,
           "trailer_url": null
         },
         {
-          "year": 2006,
           "title": "Sueños de robot",
-          "poster": null,
-          "review": null,
+          "year": 2006,
           "country": "Chile",
-          "credits": "",
-          "director": "Carlos Ramos",
-          "duration": null,
+          "director": "Carlos Ramos, Christian Toro",
+          "duration": 15,
           "synopsis": "ELVEX, un robot androide, dice haber tenido sueños. Sus creadores comienzan a interrogarlo para poder confirmar si son reales y de qué son. Inspirado en el cuento homónimo de Isaac Asimov.",
+          "credits": "Dirección: Carlos Ramos, Christian Toro. Guión: CT. Con Rodrigo Barrera, Loreto Araya, Martín Celis. Duración: 15 minutos",
+          "review": null,
+          "poster": null,
           "trailer_url": null
         },
         {
-          "year": 2006,
           "title": "Todo queda en casa",
-          "poster": null,
-          "review": null,
+          "year": 2006,
           "country": "Chile",
-          "credits": "",
           "director": "Gustavo Miranda",
-          "duration": null,
+          "duration": 27,
           "synopsis": "Una madre posesiva y celosa intenta evitar que su hijo con problemas mentales se fije en las jóvenes que ella contrata para que lo cuiden.",
+          "credits": "Guión y Dirección: Gustavo Miranda. Con Felipe Grandon, Carolina García, Jacqueline Espinoza. Duración: 27 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Torre 102",
+          "year": 2006,
+          "country": "Argentina",
+          "director": "Cristina Chilimoniuk",
+          "duration": 8,
+          "synopsis": "Algún lugar en la Patagonia. Un auto. Una pareja. Un encuentro. El comienzo de un viaje.",
+          "credits": "Guión y Dirección: Cristina Chilimoniuk. Con Daniel Calderón, Sol Alonso. Duración: 8 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        }
+      ]
+    },
+    {
+      "name": "CORTOMETRAJES URUGUAYOS EN COMPETENCIA / URUGUAYAN SHORT FILMS COMPETITION",
+      "type": "shorts",
+      "films": [
+        {
+          "title": "28",
+          "year": 2007,
+          "country": "Uruguay",
+          "director": "Pablo Moreira",
+          "duration": 7,
+          "synopsis": "Javier cuenta los días en una pared desde la desaparición de su novia, que tenía una herida de tres puntos. Encerrado en su casa, cada día que pasa es peor. Un dolor en su cuello, sin embargo, se transformará en la misma herida que tenía su novia. Y el día del título algo bajará del cielo… para llevárselo.",
+          "credits": "Guión y Dirección: Pablo Moreira. Con Pablo Píppolo, Ivanna Leyton. Duración: 7 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Attack of the Disco Zombies",
+          "year": 2007,
+          "country": "Uruguay",
+          "director": "Darío Núñez",
+          "duration": null,
+          "synopsis": "Fake trailer (sinopsis de una película ficticia), que evoca al cine de terror clase B de los ´70 y el humor absurdo, entre zombies y música disco capaz de reanimar a los muertos.",
+          "credits": "Dirección: Darío Núñez",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Bismarck: El Hombre Araña uruguayo",
+          "year": 2007,
+          "country": "Uruguay",
+          "director": "Luis Varela",
+          "duration": 10,
+          "synopsis": "Documental sobre el hombre del título, al que desde hace años se lo puede ver caminando tranquilamente y a cualquier hora por las calles montevideanas, con su disfraz de Spiderman. La obra no solo apunta a su trabajo de superhéroe sino también a la persona que se oculta bajo el traje.",
+          "credits": "Dirección: Luis Varela. Duración: 10 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Dúo Rencor",
+          "year": 2007,
+          "country": "Uruguay",
+          "director": "Gabriel López",
+          "duration": 6,
+          "synopsis": "Dos empleados son despedidos del cine donde trabajan. Su resentimiento los llevará a hacer justicia por mano propia. Una nueva identidad les dará la fuerza necesaria para vencer el mal.",
+          "credits": "Guión y Dirección: Gabriel López. Con Javier Canton, Ross Keegan, Susana Llamazales. Duración: 6 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "El móvil",
+          "year": 2007,
+          "country": "Uruguay",
+          "director": "Raúl Antoine",
+          "duration": 12,
+          "synopsis": "Una noche cualquiera. Un lugar desconocido. Un asesino a sueldo decidido a ejecutar su trabajo. Una víctima inocente.",
+          "credits": "Guión y Dirección: Raúl Antoine. Con Diego González, César Herrera. Duración: 12 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "El pájaro de Comala",
+          "year": 2007,
+          "country": "Uruguay",
+          "director": "Alejandro Ventura, Matías Ventura",
+          "duration": 28,
+          "synopsis": "Una ejecutiva es asesinada por un extraño pájaro. Una joven de aspecto angelical e inocente se ve casualmente envuelta en los hechos. Inmediatamente se desata una persecución que involucra distintos personajes.",
+          "credits": "Dirección: Alejandro Ventura, Matías Ventura. Guión: AV. Con Belén Baptista, Carlos Frasca, Santiago Quintans. Duración: 28 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Soy una manzana",
+          "year": 2007,
+          "country": "Uruguay",
+          "director": "DJ Peluca",
+          "duration": 8,
+          "synopsis": "La historia de Joaquín, un joven que cree ser una manzana roja por justificadas razones. ¿Qué es ser una manzana? ¿Qué hacen las manzanas? ¿Tienen sentimientos? Es lo que nos quiere contar Joaquín. Pero, como siempre, no todo es color rojo manzana…",
+          "credits": "Guión y Dirección: DJ Peluca. Con Joaquín Tomé, Juan Salvo, Manuel Facal. Duración: 8 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "The Amazing Adventures of Pieter",
+          "year": 2008,
+          "country": "Uruguay",
+          "director": "Pablo Pera",
+          "duration": 2,
+          "synopsis": "Un viejo y su gato viven una experiencia fantástica.",
+          "credits": "Dirección: Pablo Pera. Duración: 2 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "The Container",
+          "year": 2007,
+          "country": "Uruguay",
+          "director": "Diego Melo",
+          "duration": 20,
+          "synopsis": "Un hombre despierta todas las mañanas con un mismo problema: el contenedor de basura en frente de su casa. Y una pareja de vecinos es la principal sospechosa. Pero una noche, haciendo guardia, descubre que hay otras fuerzas que mueven el contenedor y que lo introducirán en un mundo misterioso donde deberá pelear por su vida.",
+          "credits": "Dirección: Diego Melo. Guión: DM, Martín Martínez, Marcelo Di Paolo, Ernesto Rodríguez. Con MDP, Sebastián García, Noelia Rodríguez. Duración: 20 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Truco",
+          "year": 2008,
+          "country": "Uruguay",
+          "director": "Guzmán Vila",
+          "duration": 2,
+          "synopsis": "Hacer hablar a un niño no es un juego.",
+          "credits": "Guión y Dirección: Guzmán Vila. Con Eduardo Cuadrado, Virginia Vila, Tristan Canning. Duración: 2 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Zombie Baker Gaby",
+          "year": 2008,
+          "country": "Uruguay",
+          "director": "Pablo Praino",
+          "duration": 8,
+          "synopsis": "Emilio quiere vengarse de Gaby… ¡y tiene zombies para conseguirlo! Pero como siempre no todo es tan fácil…",
+          "credits": "Guión y Dirección: Pablo Praino. Con Nadia Navarro y Martín Bonilla. Duración: 8 minutos",
+          "review": null,
+          "poster": null,
           "trailer_url": null
         }
       ]
     },
     {
       "name": "MUESTRA INFORMATIVA DE CORTOS Y MEDIOMETRAJES / SHORT AND MEDIUM LENGTH FILMS INFORMATIVE SESSION",
-      "type": "shorts",
+      "type": "shorts-catalog",
       "films": [
         {
+          "title": "Cocinero",
+          "director": "Damián Galateo",
           "year": 2007,
+          "duration": null,
+          "country": "ARGENTINA"
+        },
+        {
           "title": "I Want You for Agrimensura",
-          "country": "ARGENTINA",
           "director": "Diego Melo",
+          "year": 2007,
           "duration": null,
-          "synopsis": null
+          "country": "URUGUAY"
         },
         {
-          "year": 2007,
           "title": "La tuerca",
-          "country": "URUGUAY",
           "director": "Azul Melissa Martínez",
+          "year": 2007,
           "duration": null,
-          "synopsis": null
+          "country": "ESPAÑA / MÉXICO"
         },
         {
-          "year": 2007,
           "title": "Las 77 páginas",
-          "country": "ESPAÑA / MÉXICO",
           "director": "Diego Arandojo, Mauro Savarino",
+          "year": 2007,
           "duration": null,
-          "synopsis": null
+          "country": "ARGENTINA"
         },
         {
-          "year": 2007,
           "title": "Los excéntricos documentales de Abadejo Sánchez",
-          "country": "ARGENTINA",
           "director": "Julián Borrell",
+          "year": 2007,
           "duration": null,
-          "synopsis": null
+          "country": "ARGENTINA"
         },
         {
-          "year": 2007,
           "title": "No hay cupo",
-          "country": "ARGENTINA",
           "director": "Gabriel López",
+          "year": 2007,
           "duration": null,
-          "synopsis": null
+          "country": "URUGUAY"
         },
         {
-          "year": 2007,
           "title": "Relatos de zombis",
-          "country": "URUGUAY",
           "director": "Víctor García Viedma",
+          "year": 2007,
           "duration": null,
-          "synopsis": null
+          "country": "CHILE"
         },
         {
-          "year": 2007,
           "title": "Soledad enfermiza",
-          "country": "CHILE",
           "director": "Luis Cordal Vidal",
-          "duration": null,
-          "synopsis": null
-        },
-        {
           "year": 2007,
-          "title": "Sucesión",
-          "country": "ESPAÑA",
-          "director": "Pablo Baltera",
           "duration": null,
-          "synopsis": null
+          "country": "ESPAÑA"
         },
         {
-          "year": 2006,
-          "title": "Versus: Morton Telequinetic Prison",
-          "country": "ARGENTINA",
-          "director": "Pablo Pera",
+          "title": "Sucesión",
+          "director": "Pablo Baltera",
+          "year": 2007,
           "duration": null,
-          "synopsis": null
+          "country": "ARGENTINA"
+        },
+        {
+          "title": "Versus: Morton Telequinetic Prison",
+          "director": "Pablo Pera",
+          "year": 2006,
+          "duration": null,
+          "country": "URUGUAY"
         }
       ]
     }
@@ -569,10 +860,10 @@
     "title": "Crónica de la edición III",
     "author": "Alejandro Yamgotchian",
     "content": [
-      "The Man from Earth y Filmatrón fueron las ganadoras LA CIENCIA FICCIÓN ACAPARÓ LOS PRINCIPALES PREMIOS DEL TERCER MONTEVIDEO FANTÁSTICO Textos: Alejandro Yamgotchian",
-      "Desde el viernes 16 y hasta el viernes 23 de mayo de 2008 inclusive tuvo lugar la tercera edición del festival Montevideo Fantástico, en Cine Universitario, coorganizada por la institución en conjunto con Arte7.com.uy . Con veintidós largos, cuarenta trabajos entre medios y cortometrajes, de 14 países en total, y una muy buena mesa redonda dedicada a Star Trek / Viaje a las estrellas (a cargo del grupo “Utopía Planet” de Uruguay), el evento volvió a tener una buena respuesta del público en general.",
-      "Fueron varios los realizadores argentinos que llegaron para presentar sus trabajos (el director Ernesto Aguilar y la productora Marcela Suppicich de Fausta ; sus colegas Maximiliano Ricciardi y Leandro Vitullo de Nocturnos ; el cineasta Demian Rugna de The Last Gateway ; Javier Diment, correalizador de El propietario ), y una vez más el festival contó con la presencia del uruguayo Ricardo Islas (actualmente radicado en Chicago), quien llegó desde Estados Unidos para abrir oficialmente el evento con su película The Day of the Dead , el viernes 16.",
-      "Las muestras informativas y los homenajes (al fallecido Richard Fleischer, a Jacques Tourneur) también tuvieron su repercusión, del mismo modo que las tandas de cortos exhibidos y la propia participación del público asistente a través de la votación. Por otro lado, despertó mucha curiosidad el nuevo adelanto de Nadie inquietó más: Narciso Ibáñez Menta (del argentino Gustavo Mendoza), un documental cuyo estreno está previsto para este mismo año."
+      "Desde el viernes 16 y hasta el viernes 23 de mayo de 2008 inclusive tuvo lugar la tercera edición del festival Montevideo Fantástico, en Cine Universitario, coorganizada por la institución en conjunto con Arte7.com.uy. Con veintidós largos, cuarenta trabajos entre medios y cortometrajes, de 14 países en total, y una muy buena mesa redonda dedicada a Star Trek / Viaje a las estrellas (a cargo del grupo “Utopía Planet” de Uruguay), el evento volvió a tener una buena respuesta del público en general.",
+      "Fueron varios los realizadores argentinos que llegaron para presentar sus trabajos (el director Ernesto Aguilar y la productora Marcela Suppicich de Fausta; sus colegas Maximiliano Ricciardi y Leandro Vitullo de Nocturnos; el cineasta Demian Rugna de The Last Gateway; Javier Diment, correalizador de El propietario), y una vez más el festival contó con la presencia del uruguayo Ricardo Islas (actualmente radicado en Chicago), quien llegó desde Estados Unidos para abrir oficialmente el evento con su película The Day of the Dead, el viernes 16.",
+      "Las muestras informativas y los homenajes (al fallecido Richard Fleischer, a Jacques Tourneur) también tuvieron su repercusión, del mismo modo que las tandas de cortos exhibidos y la propia participación del público asistente a través de la votación. Por otro lado, despertó mucha curiosidad el nuevo adelanto de Nadie inquietó más: Narciso Ibáñez Menta (del argentino Gustavo Mendoza), un documental cuyo estreno está previsto para este mismo año.",
+      "Sólo nos resta agradecer al público que se hizo presente, a los organismos estatales que nos apoyaron, a las distribuidoras de cine locales, a los festivales hermanos Buenos Aires Rojo Sangre y Santiago Rojo Sangre, a la productora Mervel Films, y a todos los medios (TV, radios, gráficos e Internet) que nos difundieron. Nos vemos en 2009 y los dejamos con todos los premios y menciones de Montevideo Fantástico 3."
     ]
   }
 }
