@@ -151,6 +151,33 @@ if (legacy[2009]) {
   check(legacy[2009].edition.dates === "2009" && legacy[2009].edition.venues?.[0] === "las dos salas de Cine Universitario", "2009: unproved dates or source-backed venue changed");
 }
 
+// 2010: V source explicitly lists 26 international shorts (including unbold …Stay and Zimmer).
+if (legacy[2010]) {
+  const secs = sectionsOf(2010);
+  const expected = [["LARGOMETRAJES EN COMPETENCIA / LONG FEATURE FILMS COMPETITION", "features", 14], ["MUESTRA INFORMATIVA DE LARGOMETRAJES / LONG FEATURE FILMS INFORMATIVE SESSION", "features", 2], ["CORTOMETRAJES INTERNACIONALES EN COMPETENCIA / INTERNATIONAL SHORT FILMS COMPETITION", "shorts", 26], ["CORTOMETRAJES URUGUAYOS EN COMPETENCIA / URUGUAYAN SHORT FILMS COMPETITION", "shorts", 10], ["MUESTRA INFORMATIVA DE CORTOS Y MEDIOMETRAJES / SHORT AND MEDIUM LENGTH FILMS INFORMATIVE SESSION", "shorts-catalog", 14]];
+  check(JSON.stringify(secs.map((s) => [s.name, s.type, filmsOf(s).length])) === JSON.stringify(expected), "2010: source section names, order, or counts changed");
+  const works = secs.flatMap(filmsOf);
+  const features = secs.filter((s) => s.type === "features").flatMap(filmsOf);
+  const shorts = secs.filter((s) => s.type === "shorts").flatMap(filmsOf);
+  const catalog = secs.filter((s) => s.type === "shorts-catalog").flatMap(filmsOf);
+  const find = (title) => works.find((f) => f.title === title);
+  check(works.length === 66 && new Set(works.map((f) => f.title)).size === 66, "2010: expected 66 distinct explicitly catalogued works");
+  check(JSON.stringify(features.map((f) => f.slug).sort()) === JSON.stringify(["abandonados", "beyond-the-grave", "el-monstro-del-mar", "humanimal", "l-2-la-felicidad-es-una-leyenda-urbana", "la-pantera-negra", "molinas-ferozz", "numero-8", "recortadas", "stingray-sam", "strigoi", "the-life-and-death-of-a-porno-gang", "they-want-my-eyes", "transmission", "un-perro-llamado-dolor", "zone-of-the-dead"]), "2010: historical feature route slugs changed");
+  check([...shorts, ...catalog].every((f) => !f.slug), "2010: restored shorts/catalogue must not create detail routes");
+  check(works.every((f) => f.director && f.country && f.year && Number.isInteger(f.duration) && f.duration > 0), "2010: source metadata lost");
+  check([...features, ...shorts].every((f) => f.synopsis && f.credits) && features.every((f) => f.review), "2010: synopsis, review, or credits missing");
+  check(find("BEYOND THE GRAVE")?.original_title === "Porto dos Mortos" && find("BEYOND THE GRAVE")?.duration === 85 && find("TRANSMISSION")?.original_title === "Adas" && find("ZONE OF THE DEAD")?.duration === 102, "2010: alternate title or feature duration missing");
+  check(find("THEY WANT MY EYES")?.director === "Sergio Esquenazi" && find("THEY WANT MY EYES")?.duration === 73, "2010: country/year prefix contaminated credits");
+  check(find("Anorexia")?.director === "K. Prada & J. Prada" && find("La nota")?.director === "Jorge M. Rodrigo" && find("…Stay")?.duration === 9 && find("Zimmer")?.duration === 11, "2010: truncated initials or omitted international shorts");
+  check(find("Radiación")?.duration === 8 && find("Toshio: La verdadera historia del tentáculo")?.director === "Pablo Praino" && find("Troll 3 – Episodio I: The Big Bang Theory")?.duration === 12, "2010: Uruguayan competition missing or concatenated");
+  check(catalog[0]?.title === "D´entre les morts / De entre los muertos" && catalog[13]?.title === "The Flash Flipbook" && find("Sagrada familia")?.director === "Geremías Prum, Sebastián Alfano" && find("Sagrada familia")?.duration === 32, "2010: informative catalogue boundaries or metadata lost");
+  const awards = legacy[2010].awards;
+  check(JSON.stringify(awards.map((b) => b.awards.length)) === "[7,7,4]" && awards[0].jury.includes("SILVIO GALIZZI FLORES") && awards[1].jury.includes("WILMAR UMPIÉRREZ"), "2010: award continuations or juries missing");
+  check(awards[0].awards[3].citation.includes('“puro”, que vuelve') && awards[1].awards[2].film === "RADIACIÓN" && awards[2].awards[3].director === "Felipe Buchelli, Franco Mangone, Felipe Sosa", "2010: citation or award fields truncated");
+  check(legacy[2010].edition.dates === "2010" && legacy[2010].edition.venues[0] === "Cine Universitario", "2010: do not infer edition dates from the award ceremony");
+  check(legacy[2010].editorial.content.some((p) => p.includes("un adelanto de Selkirk")) && legacy[2010].editorial.content.some((p) => p.includes("con El vampiro negro")), "2010: source programming mentions lost");
+}
+
 // 2011: the VI source lists 27 features, 38 official shorts, and 11 informative shorts.
 if (legacy[2011]) {
   const secs = sectionsOf(2011);
