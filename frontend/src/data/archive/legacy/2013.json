@@ -1,150 +1,188 @@
 {
   "awards": [
     {
-      "jury": "",
+      "section": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES / INTERNATIONAL LONG FEATURE FILMS COMPETITION",
+      "jury": "CARLOS CEACERO , DANIELA MENONI y ENRIQUE MRAK",
       "awards": [
         {
-          "film": "EL COSMONAUTA – España / Letonia / Rusia, 2013 – Director: Nicolás Alcalá “Por s",
-          "name": "MEJOR PELÍCULA",
-          "country": "",
-          "citation": "Por su maestría técnica y su fascinante universo personal. Pionera, transmedia, fundacional en cuanto a distribución y modelo de financiación. «El futuro del cine pasa por el espacio",
-          "director": "Nicolás Alcalá “Por su maestría técnica y su fascinante universo personal",
-          "recipient": ""
+          "name": "MEJOR PELÍCULA / BEST FEATURE FILM",
+          "film": "EL COSMONAUTA",
+          "country": "España / Letonia / Rusia",
+          "director": "Nicolás Alcalá",
+          "recipient": "",
+          "citation": "Por su maestría técnica y su fascinante universo personal. Pionera, transmedia, fundacional en cuanto a distribución y modelo de financiación. «El futuro del cine pasa por el espacio». Destinada a convertirse en un film de culto que sobrevivirá el paso del tiempo."
         },
         {
-          "film": "David León Sofía – SIN SEÑAL – Argentina, 2012 “Por su sólido pulso narrativo y",
-          "name": "MEJOR DIRECTOR",
-          "country": "",
-          "citation": "Por su sólido pulso narrativo y manejo del suspense. A destacar su inteligente construcción del lugar del espectador, capaz de darle una sorprendente vuelta de tuerca a un género bastante transitado en los últimos años.",
-          "director": "",
-          "recipient": ""
-        },
-        {
-          "film": "Nicolás Alcalá – EL COSMONAUTA “Por su fascinante punto de partida, atmósfera y",
-          "name": "MEJOR GUIÓN",
-          "country": "",
-          "citation": "Por su fascinante punto de partida, atmósfera y diseño de personajes. Por su interesante mezcla de géneros, ciencia ficción, drama sentimental, película de fantasmas. Consigue reconstruir un pasado histórico poco conocido a través del conflicto amoroso de sus personajes.",
-          "director": "",
-          "recipient": ""
-        },
-        {
-          "film": "Zaid Baqaeen – WHEN TIME BECOMES A WOMAN – Jordania/Jordan, 2012 – Director: Ahm",
-          "name": "MEJOR ACTOR",
-          "country": "",
-          "citation": "Por su convincente construcción del revolucionario Zad, el último de los hombres, en una apuesta arriesgada que se sostiene gracias a la actuación de su pareja de intérpretes.",
-          "director": "Ahmad Alyaseer “Por su convincente construcción del revolucionario Zad",
-          "recipient": ""
-        },
-        {
-          "film": "Jasna Kohoutova – QUIMERAS",
-          "name": "MEJOR ACTRIZ",
-          "country": "Chimères",
-          "citation": "Sostiene la película. Por su gran capacidad para transmitir emociones y representar a una mujer enamorada que haría cualquier cosa, convertirse en vampiro, para vengar la muerte de su amado.",
-          "director": "Olivier Beguin “Sostiene la película",
-          "recipient": ""
-        },
-        {
-          "film": "VOLVER A MORIR",
-          "name": "MEJOR PELÍCULA",
-          "country": "Colombia",
-          "citation": "Porque sin salir de una casa, desarrolla una historia atrapante, con excelencia en los aspectos técnicos, y una excelente actuación de su protagonista, Andrea Montenegro.",
-          "director": "Miguel Urrutia",
-          "recipient": ""
-        },
-        {
-          "film": "TRASH DOS: LAS TETAS DE ANA L.",
-          "name": "MENCIONES ESPECIALES",
+          "name": "MEJOR DIRECTOR / BEST DIRECTOR",
+          "film": "SIN SEÑAL",
           "country": "Argentina",
-          "citation": "Por la creatividad en los planos y un excelente montaje”.",
-          "director": "Alejo Rébora",
-          "recipient": ""
+          "director": "",
+          "recipient": "David León Sofía",
+          "citation": "Por su sólido pulso narrativo y manejo del suspense. A destacar su inteligente construcción del lugar del espectador, capaz de darle una sorprendente vuelta de tuerca a un género bastante transitado en los últimos años."
+        },
+        {
+          "name": "MEJOR GUIÓN / BEST SCREENPLAY",
+          "film": "EL COSMONAUTA",
+          "country": "",
+          "director": "",
+          "recipient": "Nicolás Alcalá",
+          "citation": "Por su fascinante punto de partida, atmósfera y diseño de personajes. Por su interesante mezcla de géneros, ciencia ficción, drama sentimental, película de fantasmas. Consigue reconstruir un pasado histórico poco conocido a través del conflicto amoroso de sus personajes."
+        },
+        {
+          "name": "MEJOR ACTOR / BEST ACTOR",
+          "film": "WHEN TIME BECOMES A WOMAN",
+          "country": "Jordania/Jordan",
+          "director": "Ahmad Alyaseer",
+          "recipient": "Zaid Baqaeen",
+          "citation": "Por su convincente construcción del revolucionario Zad, el último de los hombres, en una apuesta arriesgada que se sostiene gracias a la actuación de su pareja de intérpretes."
+        },
+        {
+          "name": "MEJOR ACTRIZ / BEST ACTRESS",
+          "film": "QUIMERAS (Chimères)",
+          "country": "Suiza/Switzerland",
+          "director": "Olivier Beguin",
+          "recipient": "Jasna Kohoutova",
+          "citation": "Sostiene la película. Por su gran capacidad para transmitir emociones y representar a una mujer enamorada que haría cualquier cosa, convertirse en vampiro, para vengar la muerte de su amado."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "WHEN TIME BECOMES A WOMAN",
+          "country": "",
+          "director": "",
+          "recipient": "",
+          "citation": "Por su espléndida fotografía en exteriores en un atardecer que no parece terminar nunca."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "SIN SEÑAL",
+          "country": "",
+          "director": "",
+          "recipient": "Al elenco",
+          "citation": "Por tratarse de un excelente trabajo coral, completamente al servicio de la propuesta, que se comporta como un auténtico equipo de rodaje, creíble, inquietante, y muy bien compenetrado, capaz de hacer fácil lo difícil."
         }
-      ],
-      "section": "Estos fueron los premios del Octavo Montevideo Fantástico (2013):"
+      ]
     },
     {
-      "jury": "Jurado integrado por",
+      "section": "COMPETENCIA IBEROAMERICANA DE LARGOMETRAJES / IBERO AMERICAN LONG FEATURE FILM COMPETITION",
+      "jury": "MATÍAS FARÍAS, GABRIEL LÓPEZ, GUZMÁN VILA",
       "awards": [
         {
-          "film": "VIENNA WAITS FOR YOU!",
-          "name": "MEJOR CORTOMETRAJE",
-          "country": "¡Viena te espera!)",
-          "citation": "Historia ágil y con buenos momentos de humor, con una brillante resolución en todos los aspectos técnicos”.",
-          "director": "Dominik Hartl",
-          "recipient": ""
+          "name": "MEJOR PELÍCULA / BEST FEATURE FILM",
+          "film": "VOLVER A MORIR",
+          "country": "Colombia",
+          "director": "Miguel Urrutia",
+          "recipient": "",
+          "citation": "Porque sin salir de una casa, desarrolla una historia atrapante, con excelencia en los aspectos técnicos, y una excelente actuación de su protagonista, Andrea Montenegro."
         },
         {
-          "film": "Y LA MUERTE LO SEGUÍA",
-          "name": "MEJOR CORTO IBEROAMERICANO",
-          "country": "España",
-          "citation": "Por recurrir al género western, y recrearlo estupendamente, sumándole tal vez algo nunca visto en dicho género: lo sobrenatural”.",
-          "director": "Ángel Gómez Hernández",
-          "recipient": ""
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "TRASH DOS: LAS TETAS DE ANA L.",
+          "country": "Argentina",
+          "director": "Alejo Rébora",
+          "recipient": "",
+          "citation": "Por la creatividad en los planos y un excelente montaje"
         },
         {
-          "film": "EXODIS",
-          "name": "MEJOR CORTO URUGUAYO",
-          "country": "",
-          "citation": "Con pocos recursos, pero muy bien cuidados, exprime al máximo un muy buen guión. Pese a ser un tema muy actual, se resuelve con un inesperado desenlace”.",
-          "director": "Gabriel Zang",
-          "recipient": ""
-        },
-        {
-          "film": "HORIZONTE",
-          "name": "MENCIONES ESPECIALES",
-          "country": "España",
-          "citation": "Por un altísimo nivel en todos los aspectos técnicos y un guión que se las ingenia para brindarnos momentos muy originales en su desarrollo.",
-          "director": "Aitor Uribarri",
-          "recipient": ""
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "ZOMBIO 2: CHIMARRAO ZOMBIES",
+          "country": "Brasil / Brazil",
+          "director": "Petter Baiestorf",
+          "recipient": "",
+          "citation": "Por llevar al extremo los conceptos de humor bizarro y gore. Una película fiel a su estilo y formato"
         }
-      ],
-      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES"
+      ]
     },
     {
+      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES / OFFICIAL SHORT FILMS COMPETITION",
+      "jury": "MATÍAS FARÍAS, GABRIEL LÓPEZ, GUZMÁN VILA",
+      "awards": [
+        {
+          "name": "MEJOR CORTOMETRAJE / BEST SHORT FILM",
+          "film": "VIENNA WAITS FOR YOU! (¡Viena te espera!)",
+          "country": "Austria",
+          "director": "Dominik Hartl",
+          "recipient": "",
+          "citation": "Historia ágil y con buenos momentos de humor, con una brillante resolución en todos los aspectos técnicos"
+        },
+        {
+          "name": "MEJOR CORTO IBEROAMERICANO / BEST IBERO AMERICAN SHORT FILM",
+          "film": "Y LA MUERTE LO SEGUÍA",
+          "country": "España / Spain",
+          "director": "Ángel Gómez Hernández",
+          "recipient": "",
+          "citation": "Por recurrir al género western, y recrearlo estupendamente, sumándole tal vez algo nunca visto en dicho género: lo sobrenatural"
+        },
+        {
+          "name": "MEJOR CORTO URUGUAYO / BEST URUGUAYAN SHORT FILM",
+          "film": "EXODIS",
+          "country": "",
+          "director": "Gabriel Zang",
+          "recipient": "",
+          "citation": "Con pocos recursos, pero muy bien cuidados, exprime al máximo un muy buen guión. Pese a ser un tema muy actual, se resuelve con un inesperado desenlace"
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "HORIZONTE",
+          "country": "España / Spain",
+          "director": "Aitor Uribarri",
+          "recipient": "",
+          "citation": "Por un altísimo nivel en todos los aspectos técnicos y un guión que se las ingenia para brindarnos momentos muy originales en su desarrollo."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "LOVBOT LOVE (El robot del amor)",
+          "country": "Argentina",
+          "director": "Gabriela C. Chirife, Tetsuo Lumière",
+          "recipient": "Tetsuo Lumière",
+          "citation": "A Tetsuo Lumière por su brillante capacidad de realización y actuación"
+        }
+      ]
+    },
+    {
+      "section": "PREMIOS DEL PÚBLICO / AUDIENCE CHOICE AWARDS",
       "jury": "",
       "awards": [
         {
-          "film": "WHEN TIME BECOMES A WOMAN – Jordania / Jordan, 2012 – Director: Ahmad Alyaseer",
-          "name": "MEJOR PELÍCULA",
-          "country": "",
-          "citation": "",
+          "name": "MEJOR PELÍCULA / BEST FEATURE FILM",
+          "film": "WHEN TIME BECOMES A WOMAN",
+          "country": "Jordania / Jordan",
           "director": "Ahmad Alyaseer",
-          "recipient": ""
+          "recipient": "",
+          "citation": ""
         },
         {
-          "film": "SONNO PROFONDO",
-          "name": "MEJOR LARGOMETRAJE IBEROAMERICANO",
-          "country": "Sueño profundo)",
-          "citation": "",
+          "name": "MEJOR LARGOMETRAJE IBEROAMERICANO / BEST IBERO AMERICAN LONG FEATURE FILM",
+          "film": "SONNO PROFONDO (Sueño profundo)",
+          "country": "Argentina",
           "director": "Luciano Onetti",
-          "recipient": ""
+          "recipient": "",
+          "citation": ""
         },
         {
-          "film": "VIENNA WAITS FOR YOU – Austria, 2012 – Director: Dominik Hartl",
-          "name": "MEJOR CORTOMETRAJE",
-          "country": "",
-          "citation": "",
+          "name": "MEJOR CORTOMETRAJE / BEST SHORT FILM",
+          "film": "VIENNA WAITS FOR YOU",
+          "country": "Austria",
           "director": "Dominik Hartl",
-          "recipient": ""
+          "recipient": "",
+          "citation": ""
         },
         {
-          "film": "VERITAS",
-          "name": "MEJOR CORTOMETRAJE IBEROAMERICANO",
-          "country": "La verdad)",
-          "citation": "",
+          "name": "MEJOR CORTOMETRAJE IBEROAMERICANO / BEST IBERO AMERICAN SHORT FILM",
+          "film": "VERITAS (La verdad)",
+          "country": "España/Spain",
           "director": "Jesús Llongueras",
-          "recipient": ""
+          "recipient": "",
+          "citation": ""
         },
         {
+          "name": "MEJOR CORTO URUGUAYO / BEST URUGUAYAN SHORT FILM",
           "film": "EL AJEDREZ NO ES UN JUEGO DE CABALLEROS",
-          "name": "MEJOR CORTO URUGUAYO",
           "country": "",
-          "citation": "",
           "director": "Marcelo Fabani",
-          "recipient": ""
+          "recipient": "",
+          "citation": ""
         }
-      ],
-      "section": "PREMIOS DEL PÚBLICO"
+      ]
     }
   ],
   "edition": {

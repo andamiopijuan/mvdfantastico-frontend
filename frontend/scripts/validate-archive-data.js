@@ -272,6 +272,32 @@ if (legacy[2012]) {
   check(legacy[2012].edition.dates === "entre los días 21 y 25 de noviembre de 2012" && legacy[2012].edition.venues[0] === "las dos salas de Cine Universitario (Canelones 1280)", "2012: source dates/venue changed");
 }
 
+// 2013 awards: VIII source has four distinct jury/audience groupings and 20 results.
+if (legacy[2013]) {
+  const blocks = legacy[2013].awards ?? [];
+  check(JSON.stringify(blocks.map((b) => b.section)) === JSON.stringify([
+    "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES / INTERNATIONAL LONG FEATURE FILMS COMPETITION",
+    "COMPETENCIA IBEROAMERICANA DE LARGOMETRAJES / IBERO AMERICAN LONG FEATURE FILM COMPETITION",
+    "COMPETENCIA OFICIAL DE CORTOMETRAJES / OFFICIAL SHORT FILMS COMPETITION",
+    "PREMIOS DEL PÚBLICO / AUDIENCE CHOICE AWARDS",
+  ]), "2013: award/jury groupings changed");
+  check(JSON.stringify(blocks.map((b) => b.awards.length)) === "[7,3,5,5]", "2013: expected all 20 source award results");
+  check(blocks[0]?.jury === "CARLOS CEACERO , DANIELA MENONI y ENRIQUE MRAK" && blocks[1]?.jury === "MATÍAS FARÍAS, GABRIEL LÓPEZ, GUZMÁN VILA" && blocks[2]?.jury === blocks[1]?.jury && blocks[3]?.jury === "", "2013: jury attribution malformed");
+  const international = blocks[0]?.awards ?? [];
+  check(international[0]?.film === "EL COSMONAUTA" && international[0]?.country === "España / Letonia / Rusia" && international[0]?.director === "Nicolás Alcalá", "2013: best feature fields shifted");
+  check(international[1]?.film === "SIN SEÑAL" && international[1]?.recipient === "David León Sofía" && international[1]?.country === "Argentina", "2013: best director fields shifted");
+  check(international[2]?.film === "EL COSMONAUTA" && international[2]?.recipient === "Nicolás Alcalá", "2013: screenplay recipient/title fields shifted");
+  check(international[3]?.film === "WHEN TIME BECOMES A WOMAN" && international[3]?.recipient === "Zaid Baqaeen" && international[3]?.country === "Jordania/Jordan" && international[3]?.director === "Ahmad Alyaseer", "2013: actor fields shifted");
+  check(international[4]?.film === "QUIMERAS (Chimères)" && international[4]?.recipient === "Jasna Kohoutova" && international[4]?.country === "Suiza/Switzerland" && international[4]?.director === "Olivier Beguin", "2013: actress fields shifted");
+  check(international[5]?.film === "WHEN TIME BECOMES A WOMAN" && international[6]?.film === "SIN SEÑAL" && international[6]?.recipient === "Al elenco", "2013: international special mentions missing");
+  check(blocks[1]?.awards[2]?.film === "ZOMBIO 2: CHIMARRAO ZOMBIES" && blocks[1]?.awards[2]?.director === "Petter Baiestorf", "2013: Ibero-American special mention missing");
+  check(blocks[2]?.awards[0]?.film === "VIENNA WAITS FOR YOU! (¡Viena te espera!)" && blocks[2]?.awards[0]?.country === "Austria", "2013: Vienna alternate title displaced into country");
+  check(blocks[2]?.awards[4]?.film === "LOVBOT LOVE (El robot del amor)" && blocks[2]?.awards[4]?.recipient === "Tetsuo Lumière" && blocks[2]?.awards[4]?.director === "Gabriela C. Chirife, Tetsuo Lumière", "2013: LOVBOT LOVE special mention missing");
+  check(blocks[3]?.awards[1]?.film === "SONNO PROFONDO (Sueño profundo)" && blocks[3]?.awards[1]?.country === "Argentina" && blocks[3]?.awards[3]?.film === "VERITAS (La verdad)" && blocks[3]?.awards[3]?.country === "España/Spain", "2013: audience alternate titles displaced into country");
+  const awards = blocks.flatMap((b) => b.awards);
+  check(awards.every((a) => !a.film.includes("“") && !a.director.includes("“")), "2013: parser citation fragments remain in film/director fields");
+}
+
 // 2015: source-backed repairs for parser losses in the IX archive page.
 if (legacy[2015]) {
   const secs = sectionsOf(2015);
