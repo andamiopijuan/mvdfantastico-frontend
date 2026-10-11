@@ -125,13 +125,13 @@ const COMPAT_FILM_PAGES = compatJson.film_pages as CompatFilmPage[];
 const COMPAT_SLUG_REDIRECTS = compatJson.slug_redirects as CompatSlugRedirect[];
 const COMPAT_WORK_REDIRECTS = compatJson.work_redirects as CompatWorkRedirect[];
 
-// Short-film pages kept only for URLs that already existed (the 2013 set).
+// Explicit historical URLs, including the reclassified 2012 Lovecraft programme.
 export function getCompatFilmPage(year: number, slug: string): { film: Record<string, any>; sectionTitle: string } | null {
   const entry = COMPAT_FILM_PAGES.find((p) => p.year === year && p.slug === slug);
   const data = getLegacyEdition(year);
   if (!entry || !data || !Array.isArray(data.sections)) return null;
   for (const section of data.sections) {
-    if (section?.type !== "shorts" || !Array.isArray(section.films)) continue;
+    if (!Array.isArray(section?.films)) continue;
     const film = section.films.find((f: Record<string, any>) => f?.title === entry.title);
     if (film) return { film: { ...film, slug }, sectionTitle: section.name as string };
   }

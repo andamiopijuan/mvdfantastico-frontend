@@ -151,6 +151,32 @@ if (legacy[2009]) {
   check(legacy[2009].edition.dates === "2009" && legacy[2009].edition.venues?.[0] === "las dos salas de Cine Universitario", "2009: unproved dates or source-backed venue changed");
 }
 
+// 2012: VII source has 50 identifiable works, not the larger approximate chronicle totals.
+if (legacy[2012]) {
+  const secs = sectionsOf(2012);
+  const expected = [["LARGOMETRAJES EN COMPETENCIA / LONG FEATURE FILMS COMPETITION", "features", 10], ["COMPETENCIA IBEROAMERICANA DE LARGOMETRAJES / IBERO AMERICAN LONG FEATURE FILMS COMPETITION", "features", 6], ["NOVEDADES / NEWS", "features", 2], ["ESPECIAL: THE H. P. LOVECRAFT HISTORICAL SOCIETY / SPECIAL EXHIBITION: THE H. P. LOVECRAFT HISTORICAL SOCIETY", "special", 3], ["HOMENAJE: 25 AÑOS (Y MONEDAS) DE RICARDO ISLAS / TRIBUTE TO URUGUAYAN FILMMAKER RICARDO ISLAS", "special", 3], ["COMPETENCIA OFICIAL DE CORTOMETRAJES / SHORT FILMS COMPETITION", "shorts", 20], ["MUESTRA INFORMATIVA DE CORTOMETRAJES / SHORT FILMS INFORMATIVE SESSION", "shorts-catalog", 6]];
+  check(JSON.stringify(secs.map((s) => [s.name, s.type, filmsOf(s).length])) === JSON.stringify(expected), "2012: source section order, boundaries or counts changed");
+  const films = secs.flatMap(filmsOf);
+  check(films.length === 50 && new Set(films.map((f) => f.title)).size === 50, "2012: expected 50 distinct source works");
+  check(films.every((f) => f.director && f.country && f.year && Number.isInteger(f.duration) && f.duration > 0), "2012: source metadata missing");
+  check(secs.filter((s) => s.type !== "shorts-catalog").flatMap(filmsOf).every((f) => f.credits && f.synopsis), "2012: credits or synopsis lost");
+  check(JSON.stringify(films.filter((f) => f.slug).map((f) => f.slug).sort()) === JSON.stringify(["ballena-blanca", "carne-cruda", "cell-count", "dead-line", "dracula-0-9", "en-las-afueras-de-la-ciudad", "frankenstein-day-of-the-beast", "goretech-bienvenidos-al-planeta-hijo-de-puta", "la-llamada-de-cthulhu", "la-maldicion-de-yig", "nervio-craneal-cero", "pickmans-model", "pushin-up-daisies", "reacciones-adversas", "somos-lo-que-hay", "sonrie", "supay", "the-zombie-farm", "topos"]), "2012: historical slug set changed");
+  check(secs.filter((s) => ["shorts", "shorts-catalog"].includes(s.type)).flatMap(filmsOf).every((f) => !f.slug), "2012: restored shorts must not create routes");
+  const renderer = fs.readFileSync(path.join(APP_DIR, "archivo", "[year]", "page.tsx"), "utf8");
+  check(/\[2012, 2015, 2018\]\.includes\(year\) && isDisplayableLegacyFeatureRecord/.test(renderer), "2012: recovered features must render inline without requiring new slugs");
+  const find = (title) => films.find((f) => f.title === title);
+  check(find("FRANKENSTEIN: DAY OF THE BEAST")?.director === "Ricardo Islas" && find("FRANKENSTEIN: DAY OF THE BEAST")?.duration === 92, "2012: Frankenstein must not inherit Malditos credits");
+  check(find("¡MALDITOS SEAN!")?.duration === 119 && find("ALTERED STATES OF PLAINE")?.director === "Nick Gaglia", "2012: omitted competition features missing");
+  check(find("CELL COUNT")?.director === "Todd E. Freeman" && find("Photo")?.director === "J. Enrique Sánchez", "2012: director initials truncated");
+  check(find("NERVIO CRANEAL CERO")?.original_title === "Nervo Craniano Zero" && find("NERVIO CRANEAL CERO")?.duration === 88, "2012: Nervio metadata missing");
+  check(find("CARNE CRUDA")?.review?.startsWith("El título puede insinuar"), "2012: Carne Cruda review missing");
+  check(find("La mirada alterada")?.year === "1998-2000" && find("La mirada alterada")?.director === MIRADA_DIRECTORS && find("La mirada alterada")?.duration === 35, "2012: programme companion or literal year range lost");
+  check(find("No")?.director === "Guillermo P. Bosch" && find("V.II")?.duration === 35 && find("Cuando nieva sobre el hielo del infierno")?.country === "ESPAÑA", "2012: informative catalogue is concatenated or malformed");
+  check(JSON.stringify(legacy[2012].awards.map((b) => b.awards.length)) === "[7,5,3]", "2012: award continuations missing");
+  check(legacy[2012].awards[0].awards[0].film === "NERVIO CRANEAL CERO" && legacy[2012].awards[0].awards[3].director === "Todd E. Freeman" && legacy[2012].awards[1].awards[2].director.includes("Liliana Olga Zaworotny"), "2012: award field contamination");
+  check(legacy[2012].edition.dates === "entre los días 21 y 25 de noviembre de 2012" && legacy[2012].edition.venues[0] === "las dos salas de Cine Universitario (Canelones 1280)", "2012: source dates/venue changed");
+}
+
 // 2015: source-backed repairs for parser losses in the IX archive page.
 if (legacy[2015]) {
   const secs = sectionsOf(2015);
@@ -375,10 +401,16 @@ if (compat) {
   const redirects = Array.isArray(compat.slug_redirects) ? compat.slug_redirects : [];
   const works = Array.isArray(compat.work_redirects) ? compat.work_redirects : [];
 
-  check(pages.every((p) => p.year === 2013), "compat.film_pages must be restricted to 2013");
-  check(JSON.stringify(pages.map((p) => p.slug).sort()) === JSON.stringify([...EXPECTED_2013_PAGES].sort()), "compat.film_pages must be exactly the 30 expected 2013 slugs");
+  const pages2012 = pages.filter((p) => p.year === 2012);
+  const expected2012 = ["la-llamada-de-cthulhu", "la-maldicion-de-yig", "pickmans-model"];
+  check(pages.every((p) => [2012, 2013].includes(p.year)), "compat.film_pages must be restricted to historical 2012/2013 pages");
+  check(JSON.stringify(pages2012.map((p) => p.slug).sort()) === JSON.stringify(expected2012), "2012: preserve exactly three existing Lovecraft detail pages");
+  for (const p of pages2012) {
+    check(sectionsOf(2012).filter((s) => s.type === "special").flatMap(filmsOf).filter((f) => f.title === p.title && f.slug === p.slug).length === 1, `2012: compatibility page ${p.slug} must resolve to its reclassified source work`);
+  }
+  check(JSON.stringify(pages.filter((p) => p.year === 2013).map((p) => p.slug).sort()) === JSON.stringify([...EXPECTED_2013_PAGES].sort()), "compat.film_pages must be exactly the 30 expected 2013 slugs");
   const shorts2013 = sectionsOf(2013).filter((s) => s.type === "shorts").flatMap(filmsOf);
-  for (const p of pages) {
+  for (const p of pages.filter((p) => p.year === 2013)) {
     check(shorts2013.filter((f) => f.title === p.title).length === 1, `compat 2013 page ${p.slug}: title must match exactly one canonical short`);
     check(!featureSlugs(2013).has(p.slug), `compat 2013 page ${p.slug} must not duplicate a canonical feature slug`);
   }
@@ -399,7 +431,7 @@ if (compat) {
   for (const w of works) {
     check(legacyYears.has(w.year), `work ${w.id}: year ${w.year} is not a legacy archive year`);
     if (w.to_slug !== null) {
-      check(featureSlugs(w.year).has(w.to_slug) || (w.year === 2013 && pages.some((p) => p.slug === w.to_slug)), `work ${w.id}: to_slug ${w.to_slug} is not a generated film page`);
+      check(featureSlugs(w.year).has(w.to_slug) || pages.some((p) => p.year === w.year && p.slug === w.to_slug), `work ${w.id}: to_slug ${w.to_slug} is not a generated film page`);
     }
   }
 }
