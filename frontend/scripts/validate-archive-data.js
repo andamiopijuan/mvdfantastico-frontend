@@ -106,6 +106,51 @@ if (legacy[2005]) {
   }
 }
 
+// 2009: IV archive source has three distinct short competitions and four catalogue categories.
+if (legacy[2009]) {
+  const secs = sectionsOf(2009);
+  const expected = [
+    ["LARGOMETRAJES EN COMPETENCIA / LONG FEATURE FILMS COMPETITION", "features", 12],
+    ["MUESTRA INFORMATIVA DE LARGOMETRAJES / LONG FEATURE FILMS INFORMATIVE SESSION", "features", 6],
+    ["CORTOMETRAJES INTERNACIONALES EN COMPETENCIA / INTERNATIONAL SHORT FILMS COMPETITION", "shorts", 16],
+    ["CORTOMETRAJES LATINOAMERICANOS EN COMPETENCIA / LATIN AMERICAN SHORT FILMS COMPETITION", "shorts", 14],
+    ["CORTOMETRAJES URUGUAYOS EN COMPETENCIA / URUGUAYAN SHORT FILMS COMPETITION", "shorts", 13],
+  ];
+  check(secs.length === 7, `2009: expected seven distinct sections, got ${secs.length}`);
+  for (const [name, type, count] of expected) {
+    const section = secs.find((s) => s.name === name);
+    check(section && section.type === type && filmsOf(section).length === count, `2009: ${name} must have ${count} ${type}`);
+  }
+  const features = secs.filter((s) => s.type === "features").flatMap(filmsOf);
+  const shorts = secs.filter((s) => s.type === "shorts").flatMap(filmsOf);
+  check(features.length === 18 && shorts.length === 43, "2009: expected 18 features and 43 competition shorts");
+  check([...features, ...shorts].every((f) => f.director && f.credits && Number.isInteger(f.duration) && f.duration > 0), "2009: features and competition shorts must retain source duration and credits");
+  check(shorts.every((f) => !f.slug), "2009: recovered competition shorts must not create detail routes");
+  const expectedSlugs = ["academy-of-doom", "alien-abduction-incident-in-lake-county", "altar", "antarctic-journal", "jorge-montejo-el-hombre-detras-de-paolo", "la-balada-de-vlad-tepes", "la-granja", "mil-mascaras-resurrection-mil-mascaras-vs-the-aztec-mummy", "morgue-story-blood-blowfish-and-comics", "mud-zombies", "muneco-viviente-v", "nadie-inquieto-mas-narciso-ibanez-menta", "no-morire-sola", "on-evil-grounds", "oscuro-iluminado", "shadowland", "sonambulos", "yesterday"];
+  check(JSON.stringify(features.map((f) => f.slug).sort()) === JSON.stringify(expectedSlugs), "2009: historical feature slug set changed");
+  const onEvil = features.find((f) => f.title === "ON EVIL GROUNDS");
+  check(onEvil && onEvil.original_title === "Auf bösem Boden" && onEvil.country === "Austria" && onEvil.year === 2007, "2009: On Evil Grounds shifted fields remain");
+  const losExtranos = shorts.find((f) => f.title === "Los extraños");
+  check(losExtranos && losExtranos.director === "Sebastián Caulier" && losExtranos.duration === 15, "2009: unmarked Los extraños entry missing");
+
+  const catalog = secs.find((s) => s.name === "MUESTRA INFORMATIVA DE CORTOMETRAJES / SHORT AND MEDIUM LENGTH FILMS INFORMATIVE SESSION");
+  check(catalog && catalog.type === "shorts-catalog" && Array.isArray(catalog.categories), "2009: informative catalogue categories missing");
+  if (catalog && Array.isArray(catalog.categories)) {
+    const counts = catalog.categories.map((c) => filmsOf(c).length);
+    check(JSON.stringify(counts) === JSON.stringify([9, 7, 7, 4]), "2009: informative category counts must be 9/7/7/4");
+    const films = catalog.categories.flatMap(filmsOf);
+    check(films.length === 27 && films.every((f) => f.title && f.director && Number.isInteger(f.duration) && f.duration > 0 && !f.slug), "2009: 27 separate informative records must retain source metadata without routes");
+    check(catalog.categories[0]?.films?.[0]?.title === "Cartoon Attack" && catalog.categories[3]?.films?.at(-1)?.title === "Gólgota", "2009: informative catalogue ordering is malformed");
+    check(films.find((f) => f.title === "Visitantes")?.year === "2007-2008" && films.find((f) => f.title === "Festí de Sang")?.duration === 58, "2009: catalogue year range or duration lost");
+  }
+  const special = secs.find((s) => s.name === "EN PROGRAMA");
+  check(special?.type === "special" && filmsOf(special).length === 1 && filmsOf(special)[0]?.title === "Rojo Sangre: Diez años a puro género (Work in progress)" && !filmsOf(special)[0]?.slug, "2009: work-in-progress presentation must remain distinct and route-free");
+  const blocks = Array.isArray(legacy[2009].awards) ? legacy[2009].awards : [];
+  check(JSON.stringify(blocks.map((b) => b.awards?.length)) === JSON.stringify([5, 6, 4]), "2009: jury and audience awards must retain all 15 results");
+  check(blocks[0]?.jury?.includes("ÁLVARO BUELA") && blocks[1]?.jury?.includes("ISABEL COCOREL") && blocks[0]?.awards?.[0]?.film === "ALTAR" && blocks[1]?.awards?.[0]?.film === "DEDICADO A NADIE", "2009: jury structure or winners malformed");
+  check(legacy[2009].edition.dates === "2009" && legacy[2009].edition.venues?.[0] === "las dos salas de Cine Universitario", "2009: unproved dates or source-backed venue changed");
+}
+
 // 2015: source-backed repairs for parser losses in the IX archive page.
 if (legacy[2015]) {
   const secs = sectionsOf(2015);
