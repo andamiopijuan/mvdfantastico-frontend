@@ -1,144 +1,170 @@
 {
   "awards": [
     {
+      "section": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES / INTERNATIONAL LONG FEATURE FILMS COMPETITION",
       "jury": "CARLOS HUGO AZTARAIN (EIG Multimedia – España), FERNÁN CISNERO (Diario El País) y GONZALO SOBRAL (Radio El Espectador – 810 AM)",
       "awards": [
         {
-          "film": "DIE FARBE / EL COLOR QUE CAYÓ DEL CIELO – Alemania / Germany – Director: Huan Vu",
-          "name": "MEJOR PELÍCULA",
-          "country": "",
-          "citation": "Por el desafío de rescatar el espíritu de suspenso del relato original de Lovecraft y las logradas elecciones estéticas para llevarlo adelante.",
-          "director": "Huan Vu “Por el desafío de rescatar el espíritu de suspenso del relato original de Lovecraft y las logradas elecciones estéticas para llevarlo adelante",
-          "recipient": ""
+          "name": "MEJOR PELÍCULA / BEST FEATURE FILM",
+          "film": "DIE FARBE / EL COLOR QUE CAYÓ DEL CIELO",
+          "country": "Alemania / Germany",
+          "director": "Huan Vu",
+          "recipient": "",
+          "citation": "Por el desafío de rescatar el espíritu de suspenso del relato original de Lovecraft y las logradas elecciones estéticas para llevarlo adelante."
         },
         {
-          "film": "HUAN VU",
-          "name": "MEJOR DIRECTOR",
-          "country": "",
-          "citation": "Por su pulso narrativo a la hora de generar climas, y su atmósfera cargada de suspenso.",
-          "director": "",
-          "recipient": ""
+          "name": "MEJOR DIRECTOR / BEST DIRECTOR",
+          "film": "DIE FARBE / EL COLOR QUE CAYÓ DEL CIELO",
+          "country": "Alemania / Germany",
+          "director": "Huan Vu",
+          "recipient": "HUAN VU",
+          "citation": "Por su pulso narrativo a la hora de generar climas, y su atmósfera cargada de suspenso."
         },
         {
+          "name": "MEJOR GUIÓN / BEST SCREENPLAY",
           "film": "DE DÍA Y DE NOCHE",
-          "name": "MEJOR GUIÓN",
-          "country": "México)",
-          "citation": "Lograda realización que desde lo cotidiano ayuda a explorar posibles mundos futuros, no tan lejanos.",
+          "country": "México",
           "director": "Alejandro Molina",
-          "recipient": ""
+          "recipient": "",
+          "citation": "Lograda realización que desde lo cotidiano ayuda a explorar posibles mundos futuros, no tan lejanos."
         },
         {
-          "film": "FABIÁN FORTE por ALAS – Director: Ariel Martínez Herrera",
-          "name": "MEJOR ACTOR",
-          "country": "",
-          "citation": "Por su convincente representación del hombre común sometido a una serie de situaciones complejas.",
-          "director": "Ariel Martínez Herrera (Argentina) “Por su convincente representación del hombre común sometido a una serie de situaciones complejas",
-          "recipient": ""
+          "name": "MEJOR ACTOR / BEST ACTOR",
+          "film": "ALAS",
+          "country": "Argentina",
+          "director": "Ariel Martínez Herrera",
+          "recipient": "FABIÁN FORTE",
+          "citation": "Por su convincente representación del hombre común sometido a una serie de situaciones complejas."
         },
         {
-          "film": "MARIANNE PORTER por TRUE NATURE – Director: Patrick Steele",
-          "name": "MEJOR ACTRIZ",
-          "country": "Estados Unidos",
-          "citation": "",
-          "director": "Patrick Steele (Estados Unidos / USA)",
-          "recipient": ""
+          "name": "MEJOR ACTRIZ / BEST ACTRESS",
+          "film": "TRUE NATURE",
+          "country": "Estados Unidos / USA",
+          "director": "Patrick Steele",
+          "recipient": "MARIANNE PORTER",
+          "citation": ""
         },
         {
-          "film": "1 – Director: Pater Sparrow",
-          "name": "MENCIONES ESPECIALES",
-          "country": "",
-          "citation": "Por su rescate del perfil filosófico de la obra de ciencia ficción de Stalislaw Lem y la capacidad de concretar en pantalla la atmósfera opresiva y misteriosa que la historia requería.",
-          "director": "Pater Sparrow (Hungría / Hungary) “Por su rescate del perfil filosófico de la obra de ciencia ficción de Stalislaw Lem y la capacidad de concretar en pantalla la atmósfera opresiva y misteriosa que la historia requería",
-          "recipient": ""
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "1",
+          "country": "Hungría / Hungary",
+          "director": "Pater Sparrow",
+          "recipient": "",
+          "citation": "Por su rescate del perfil filosófico de la obra de ciencia ficción de Stalislaw Lem y la capacidad de concretar en pantalla la atmósfera opresiva y misteriosa que la historia requería."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "VILLA ESTRELLA",
+          "country": "Filipinas / Philippines",
+          "director": "Rico María Ilarde",
+          "recipient": "",
+          "citation": "Una historia de terror tradicional, apegada a las convenciones del género y sin golpes bajos."
         }
-      ],
-      "section": "COMPETENCIA INTERNACIONAL DE LARGOMETRAJES"
+      ]
     },
     {
+      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES Y DE LARGOS LATINOAMERICANOS / SHORT FILMS AND LATIN AMERICAN FILMS COMPETITION",
       "jury": "los realizadores uruguayos MARCELO DI PAOLO, DARÍO NÚÑEZ y PABLO PRAINO",
       "awards": [
         {
-          "film": "ALUCARDOS: RETRATO DE UN VAMPIRO – Director: Ulises Guzmán",
-          "name": "MEJOR PELÍCULA LATINOAMERICANA",
-          "country": "",
-          "citation": "Por ser una pieza sólida y entretenida, que trae a la luz una película perdida y un director con una vida tan interesante como sus películas. Y que deja con las ganas de seguir investigando.",
-          "director": "Ulises Guzmán (México) “Por ser una pieza sólida y entretenida",
-          "recipient": ""
+          "name": "MEJOR PELÍCULA LATINOAMERICANA / BEST LATIN AMERICAN FEATURE FILM",
+          "film": "ALUCARDOS: RETRATO DE UN VAMPIRO",
+          "country": "México",
+          "director": "Ulises Guzmán",
+          "recipient": "",
+          "citation": "Por ser una pieza sólida y entretenida, que trae a la luz una película perdida y un director con una vida tan interesante como sus películas. Y que deja con las ganas de seguir investigando."
         },
         {
+          "name": "MEJOR CORTOMETRAJE / BEST SHORT FILM",
           "film": "ALL MEN ARE CALLED ROBERT",
-          "name": "MEJOR CORTOMETRAJE",
-          "country": "Tous les Hommes s´appellent Robert)",
-          "citation": "Un corto con la habilidad de cambiar los climas con naturalidad y justificación.",
-          "director": "Marc-Henri Boulier (Francia / France",
-          "recipient": ""
+          "country": "Francia / France",
+          "director": "Marc-Henri Boulier",
+          "recipient": "",
+          "citation": "Un corto con la habilidad de cambiar los climas con naturalidad y justificación."
         },
         {
-          "film": "LA MINA DE ORO – Director: Jacques Bonnavent",
-          "name": "MEJOR CORTOMETRAJE LATINOAMERICANO",
-          "country": "",
-          "citation": "Un guión muy inteligente y una historia muy bien ejecutada.",
-          "director": "Jacques Bonnavent (México) “Un guión muy inteligente y una historia muy bien ejecutada",
-          "recipient": ""
+          "name": "MEJOR CORTOMETRAJE LATINOAMERICANO / BEST LATIN AMERICAN SHORT FILM",
+          "film": "LA MINA DE ORO",
+          "country": "México",
+          "director": "Jacques Bonnavent",
+          "recipient": "",
+          "citation": "Un guión muy inteligente y una historia muy bien ejecutada."
         },
         {
-          "film": "LAS GEMELAS DE LA CALLE PONIENTE – Mejor Animación – Directores: Marc Riba, Anna Solanas",
-          "name": "MENCIONES ESPECIALES",
-          "country": "",
-          "citation": "Sin diálogos logra una atmósfera macabra y una historia sólida.",
-          "director": "",
-          "recipient": ""
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "LAS GEMELAS DE LA CALLE PONIENTE",
+          "country": "España / Spain",
+          "director": "Marc Riba, Anna Solanas",
+          "recipient": "",
+          "citation": "Sin diálogos logra una atmósfera macabra y una historia sólida."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "AVERIGUACION POLICIAL 0521/09",
+          "country": "Brasil / Brazil",
+          "director": "Vinicius Casimiro",
+          "recipient": "",
+          "citation": "Por aportar algo nuevo a un género muy explotado recientemente."
+        },
+        {
+          "name": "MENCIONES ESPECIALES / SPECIAL MENTIONS",
+          "film": "BRUTAL RELÁX",
+          "country": "España / Spain",
+          "director": "Adrián Cardona, Rafa Dengrá, David Muñóz",
+          "recipient": "",
+          "citation": "Por un agradecido exceso excelentemente ejecutado."
         }
-      ],
-      "section": "COMPETENCIA OFICIAL DE CORTOMETRAJES Y DE LARGOS LATINOAMERICANOS"
+      ]
     },
     {
+      "section": "PREMIOS DEL PÚBLICO / AUDIENCE CHOICE AWARDS",
       "jury": "",
       "awards": [
         {
-          "film": "TOQUE DE QUEDA – Directores: Elías Jiménez, Ray Figueroa",
-          "name": "MEJOR PELÍCULA",
+          "name": "MEJOR PELÍCULA / BEST FEATURE FILM",
+          "film": "TOQUE DE QUEDA",
           "country": "Guatemala",
-          "citation": "",
-          "director": "",
-          "recipient": ""
+          "director": "Elías Jiménez, Ray Figueroa",
+          "recipient": "",
+          "citation": ""
         },
         {
-          "film": "LLUVIA DE LUNA – Directora: Maryse Sistach",
-          "name": "MEJOR PELÍCULA LATINOAMERICANA",
+          "name": "MEJOR PELÍCULA LATINOAMERICANA / BEST LATIN AMERICAN FEATURE FILM",
+          "film": "LLUVIA DE LUNA",
           "country": "México",
-          "citation": "",
-          "director": "",
-          "recipient": ""
+          "director": "Maryse Sistach",
+          "recipient": "",
+          "citation": ""
         },
         {
-          "film": "LA TRAGEDIA DEL HOMBRE HUECO – Director: Jorge De Guillae",
-          "name": "MEJOR CORTOMETRAJE",
-          "country": "España",
-          "citation": "",
-          "director": "Jorge De Guillae (España / Spain)",
-          "recipient": ""
+          "name": "MEJOR CORTOMETRAJE / BEST SHORT FILM",
+          "film": "LA TRAGEDIA DEL HOMBRE HUECO",
+          "country": "España / Spain",
+          "director": "Jorge De Guillae",
+          "recipient": "",
+          "citation": ""
         },
         {
-          "film": "EL PEQUEÑO AUGUSTO – Director: Marco Bentancor",
-          "name": "MEJOR CORTOMETRAJE LATINOAMERICANO",
+          "name": "MEJOR CORTOMETRAJE LATINOAMERICANO / BEST LATIN AMERICAN SHORT FILM",
+          "film": "EL PEQUEÑO AUGUSTO",
           "country": "Uruguay",
-          "citation": "",
-          "director": "Marco Bentancor (Uruguay)",
-          "recipient": ""
+          "director": "Marco Bentancor",
+          "recipient": "",
+          "citation": ""
         }
-      ],
-      "section": "BRUTAL RELÁX"
+      ]
     }
   ],
   "edition": {
     "year": 2011,
-    "dates": "2011",
+    "dates": "entre los días 12 y 18 de octubre de 2011",
     "roman": "VI",
     "title": "Montevideo Fantástico VI",
     "number": 6,
     "poster": null,
-    "venues": []
+    "venues": [
+      "las dos salas de Cine Universitario (Canelones 1280)"
+    ]
   },
   "sections": [
     {
@@ -150,9 +176,9 @@
           "year": 2009,
           "title": "1",
           "poster": "/media/archive/VI/films/1.jpg",
-          "review": null,
+          "review": "Adaptación del ensayo “Un minuto humano” del ya fallecido escritor ucraniano Stanislaw Lem (autor de Solaris, llevada al cine por Andrei Tarkovsky), donde el comportamiento de la raza humana en la sociedad contemporánea es abordado científica y filosóficamente. Un film de corte algo experimental, que se centra en todo lo que pasa durante sesenta segundos en la Tierra y que analiza con ironía y algo de pesimismo el verdadero significado de nuestra propia existencia en el planeta. Premiada en Fantasporto.",
           "country": "Hungría",
-          "credits": "",
+          "credits": "Dirección: Pater Sparrow. Guión: PS, Judit Góczán. Con Zoltán Mucsi, László Sinkó, Vica Kerekes, Pál Mácsai, Balázs Czukor. Duración: 90 minutos",
           "director": "Pater Sparrow",
           "duration": 90,
           "synopsis": "Todo el stock de una prestigiosa librería, conocida por vender obras extrañas y difíciles de conseguir, es sustituido misteriosamente por cientos de ejemplares de un libro llamado “1”. Nadie sabe quién lo escribió ni tampoco quién lo editó. Lo cierto es que la gente que lo lee comienza a mostrar trastornos psicológicos cada vez más preocupantes, a medida que va descubriendo los significados, y eso hace que un Centro de Investigación gubernamental termine confinando en su sede a los afectados trabajadores de la librería para estudiar la causa, a la vez que se inicia un riguroso operativo policial para saber quién fue el responsable de ese libro.",
@@ -165,7 +191,7 @@
           "poster": "/media/archive/VI/films/alas.jpg",
           "review": "Notable ópera prima del joven Ariel Martínez Herrera, con una puesta en escena volcada más bien a lo teatral, a filmaciones en crudo, y con pantallas de fondo cuyas imágenes ofician de contexto para la acción que se va desarrollando, en ese progresivo camino del protagonista hacia lo impensado, entre el humor, el delirio y en especial con el ingenio y la imaginación de su realizador como principal motor y en extrema sintonía con la intensidad de su personaje principal.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Ariel Martínez Herrera. Con Fabián Forte, Roberto Romano, Lorena Vega, Nahuel Pérez Bizcayart, Inés Efron. Duración: 67 minutos",
           "director": "Ariel Martínez Herrera",
           "duration": 67,
           "synopsis": "Jiménez es un oficinista dócil, trabajador, conformista, hábil para su trabajo, que nos cuenta el peor día de su vida. En un sistema que está preparado para que alguna cosa salga mal, basado en la realidad de que curar es más barato que prevenir, y en la especulación de que no todo saldrá mal al mismo tiempo, Jiménez sufre una larguísima serie de contratiempos menores, que se acumulan hasta el ridículo para convertirse en una verdadera pesadilla. Este viaje lo enfrenta a su soledad, a la incomprensión, y por sobre todo a sus sueños, que finalmente componen el único lugar hacia el que escapar, cuando la realidad ya no tiene puertas de salida.",
@@ -178,9 +204,9 @@
           "poster": "/media/archive/VI/films/de-dia-y-de-noche.jpg",
           "review": "Impecable en sus rubros técnicos, por más que no apunte precisamente a deslumbrar sino a hacer reflexionar sobre una sociedad (“La Cúpula”) que busca la perfección a través del orden y la disciplina, en base a seres humanos programados para no sentir emociones, esta cautivante ópera prima de Alejandro Molina presenta una historia no exenta de puntería e inteligencia, rescata valores humanos básicos, prácticamente extinguidos, que se imponen, al principio casi inconscientemente, como la principal arma de rebelión en un contexto de extrema frialdad. Una confirmación más de la talentosa nueva corriente de cineastas mexicanos de género fantástico, y también de un estilo de ciencia ficción que se torna cada vez más necesario.",
           "country": "México",
-          "credits": "",
+          "credits": "Dirección: Alejandro Molina. Guión: AM, Roberto Garza Angulo. Con Sandra Echeverría, Manuel Balbi, Gala Montes, Fernando Becerril, Juan Carlos Colombo. Duración: 96 minu",
           "director": "Alejandro Molina",
-          "duration": null,
+          "duration": 96,
           "synopsis": "Cuando la superpoblación del planeta imposibilitó la convivencia, el Gobierno decidió dividir a la ciudadanía a través de una enzima implantada en el ADN de las personas, para que sus cuerpos fueran regulados por la luz solar y la oscuridad de la noche, convirtiéndolos en habitantes del día a unos y de la noche a otros.",
           "trailer_url": null
         },
@@ -191,7 +217,7 @@
           "poster": "/media/archive/VI/films/die-farbe-el-color-que-cayo-del-cielo.jpg",
           "review": "Basado en el célebre cuento homónimo de Lovecraft, esta meritoria adaptación se toma, sin embargo, algunas libertades respecto a la obra original, yendo un poco más allá, aprovechando esos elementos librados a la imaginación del espectador para plasmarlos en pantalla a través de situaciones de suspenso inquietante, con un terror sutil, que no cae en excesos, y con una esmerada fotografía en blanco y negro, además de escenarios creados a partir de filmaciones fusionadas con pinturas y efectos digitales.",
           "country": "Alemania",
-          "credits": "",
+          "credits": "Guión y Dirección: Huan Vu. Con Michael Kausch, Marco Leibnitz, Erik Rastetter, Olaf Krätke, Marah Schneider. Duración: 85 minutos",
           "director": "Huan Vu",
           "duration": 85,
           "synopsis": "Arkham, 1975: el protagonista busca a su padre desaparecido. Las pistas lo llevan a una zona rural de Alemania, cercana a Francia, al bosque donde se lo había visto por última vez, luego de la Segunda Guerra Mundial. La esperanza de encontrarlo aún vivo y llevarlo a su hogar está latente, aunque en esa zona boscosa descubrirá un oscuro misterio del pasado. Basado en el célebre cuento homónimo de Lovecraft.",
@@ -203,8 +229,8 @@
           "title": "EL ÚLTIMO FIN DE SEMANA",
           "poster": "/media/archive/VI/films/el-ultimo-fin-de-semana.jpg",
           "review": "Thriller fantástico, con un desenlace inesperado, sorprendente, que también se detiene en cómo ese grupo de conocidos reacciona ante situaciones límite, en esos lazos de sangre y relaciones amistosas que comienzan a tambalear no solo a partir de los hechos que se van dando, sino también porque entra a pesar el trágico y oscuro pasado con el que cargan algunos de ellos, tornando el clima cada vez más denso. La película fue coescrita, producida, fotografiada y editada por el propio realizador, declarado admirador de algunos autores (Carpenter, Peter Weir, entre otros) del cine de terror y ciencia ficción de los ´70 y ´80.",
-          "country": "España",
-          "credits": "",
+          "country": "España / Suecia",
+          "credits": "Dirección: Norberto Ramos del Val. Guión: NRdV, Javier Sánchez Donate. Con Irene Rubio, Marián Aguilera, Alba Messa, Nacho Rubio, Silma López. Duración: 82 minuto",
           "director": "Norberto Ramos del Val",
           "duration": 82,
           "synopsis": "Diana quiere celebrar su próximo ascenso y dejar atrás un terrible accidente. Así que invita a la casa de su abuela a Lisi, Leo y Roque; sus compañeros de trabajo. El pueblo parece abandonado y, aunque los jóvenes lo ignoren, esconde un gran secreto. Ellos se dedican a pasar tres días de fiesta, sol, playa y alcohol. El ambiente perfecto para que afloren todo tipo de sentimientos, rencores, atracciones y tensiones… Pero no están solos como creen y puede que, para más de uno, éste sea su último fin de semana.",
@@ -215,12 +241,12 @@
           "year": 2010,
           "title": "KROKODYLE",
           "poster": "/media/archive/VI/films/krokodyle.jpg",
-          "review": "Una película diferente, donde su realizador propone un creativo, desafiante y muy honesto planteo, cuestionando ideas, personajes y estructuras narrativas, a través de una realidad compuesta por diferentes capas, donde no faltan animatronics , efectos especiales y animación cuadro a cuadro.",
+          "review": "Una película diferente, donde su realizador propone un creativo, desafiante y muy honesto planteo, cuestionando ideas, personajes y estructuras narrativas, a través de una realidad compuesta por diferentes capas, donde no faltan animatronics, efectos especiales y animación cuadro a cuadro.",
           "country": "Italia",
-          "credits": "",
+          "credits": "Guión y Dirección: Stéfano Bessoni. Con Lorenzo Pedrotti, Jun Ichikawa, Franco Pistoni, Francesco Martino, Orfeo Orlando. Duración: 78 min",
           "director": "Stéfano Bessoni",
-          "duration": null,
-          "synopsis": "Un joven cineasta polaco, siempre a la espera de respuestas por sus proyectos, pasa el tiempo dibujando, escribiendo y creando su mundo imaginario. Comparte amistad con una fotógrafa de la cual está secretamente enamorado, habla con un obsesionado fabricante de muñecos, y también es amigo de otro",
+          "duration": 78,
+          "synopsis": "Un joven cineasta polaco, siempre a la espera de respuestas por sus proyectos, pasa el tiempo dibujando, escribiendo y creando su mundo imaginario. Comparte amistad con una fotógrafa de la cual está secretamente enamorado, habla con un obsesionado fabricante de muñecos, y también es amigo de otro director que no puede superar el fracaso de su primera película. Finalmente decide filmar todo eso, hacer una película sobre su vida, una especie de diario de filmación compuesto por pinturas, dibujos, cortos, sonidos, palabras, música, fantasías y pesadillas. Pero el realizador se va alejando cada vez más del mundo real, hasta dudar de sí mismo, en el sentido de que él también podría ser producto de su propia imaginación.",
           "trailer_url": null
         },
         {
@@ -230,11 +256,12 @@
           "poster": "/media/archive/VI/films/la-noche-del-chupacabras.jpg",
           "review": "El director de Mud Zombies regresa a la más pura naturaleza norteña, ahora con la mítica figura del Chupacabras, aunque no tanto como eje central de la historia. El monstruo en realidad se materializa a partir del odio histórico que hay entre las dos familias, lo que le permite a su realizador desatar violentas dosis de acción, otras tantas de comedia, crear sus climas épicos, y por supuesto un gran despliegue de efectos de maquillaje que acentúan el costado gore de la película. Imposible no recordar los clásicos monstruos con traje de goma y cierre e nn la espalda; uno de los más famosos (el de Laguna Negra, de Jack Arnold) curiosamente también había salido de Brasil.",
           "country": "Brasil",
-          "credits": "",
-          "director": null,
-          "duration": null,
+          "credits": "Guión y Dirección: Rodrigo Aragão. Con Joel Caetano, Mayra Alarcón, Walderrama dos Santos, Kika Oliveira, Markus Konká. Duración: 107 minuto",
+          "director": "Rodrigo Aragão",
+          "duration": 107,
           "synopsis": "El protagonista vuelve junto a su esposa al viejo hogar que lo vio nacer, en el interior de Brasil; a un ambiente rodeado de bosques, montañas y demás bellezas naturales. Al llegar, su padre le dice que varios animales han muerto en la granja misteriosamente y que para él hay algo siniestro que se esconde en los alrededores. Por si fuera poco, su familia está enfrentada a muerte con los Carvalho, otra batalla paralela que también deberán afrontar.",
-          "trailer_url": null
+          "trailer_url": null,
+          "original_title": "A Noite do Chupacabras"
         },
         {
           "slug": "the-whisperer-in-darkness",
@@ -243,7 +270,7 @@
           "poster": "/media/archive/VI/films/the-whisperer-in-darkness.jpg",
           "review": "Filmada en blanco y negro, siendo no tan fiel quizás a la novela corta original pero sí al espíritu del célebre escritor, el cineasta Sean Branney logra un dignísimo trabajo encuadrado dentro de un esquema de terror clásico (al estilo de las de los años ´30), con sensibles limitaciones de presupuesto (el dinero salió del colectivo aportado por la H. P. Lovecraft Historical Society, de Estados Unidos) que, sin embargo, no impidieron crear notables atmósferas y un pulso narrativo típico del cine de suspenso y terror de las viejas épocas. La pasión por Lovecraft es en realidad el verdadero motor de toda la película.",
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Dirección: Sean Branney. Guión: SB, Andrew Leman, basado en el cuento de H. P. Lovecraft. Con Matt Foyer, Barry Lynch, Daniel Kaemon, Matt Lagan, Caspar March. Duración: 103 minutos",
           "director": "Sean Branney",
           "duration": 103,
           "synopsis": "Adaptación cinematográfica del cuento corto de H.P. Lovecraft sobre un escéptico docente universitario, experto en folklore, desafiado por un erudito colega nativo de Vermont a comprobar la existencia de seres sobrenaturales en las montañas de la zona.",
@@ -256,7 +283,7 @@
           "poster": "/media/archive/VI/films/toque-de-queda.jpg",
           "review": "Toda una revelación dentro del festival, no sólo por el país de procedencia del film sino por la visión que la obra plantea; los zombies apenas asoman y en sentido netamente figurado, producto de una sociedad guatemalteca con marcadas cicatrices y un sistema actual que lleva a algunos integrantes de clase media a pensar que no hay diferencias entre pobres y zombies; ambos (“los de atrás de la montaña”) están en la misma bolsa.",
           "country": "Guatemala",
-          "credits": "",
+          "credits": "Dirección: Elias Jiménez, Ray Figueroa. Guión: Ray Figueroa. Con Juan Pablo Olyslager, Julio Serrano, Roberto Díaz Gomar, Kunti Shaw, Flora Méndez. Duración: 96 minuto",
           "director": "Elias Jiménez, Ray Figueroa",
           "duration": 96,
           "synopsis": "Los vecinos del barrio privado «Villas de la Esperanza», acechados por la eventual intromisión de individuos violentos que viven en las afueras, deciden armarse y patrullar por las noches, dispuestos a defender sus hogares y familias con sus propias vidas. Pero enfrentar la violencia con más violencia sólo prolifera el contagio. Y los vecinos se darán cuenta que el peligro más grande no es lo que está fuera de sus casas, murallas y garitas de control de acceso, sino dentro de ellos mismos.",
@@ -269,9 +296,9 @@
           "poster": "/media/archive/VI/films/true-nature.jpg",
           "review": "Thriller fantástico que en realidad termina siendo un verdadero drama, y que toma como excusa sus buenos sobresaltos para revelar la cara oculta, las mentiras y debilidades que yacen debajo de una familia cuya imagen siempre había sido perfecta. Ganadora de 13 premios.",
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: Patrick Steele. Con Carolyn McCormick, Marianne Porter, Reg Land, David Darlow, John Woodruff. Duración: 91 min",
           "director": "Patrick Steele",
-          "duration": null,
+          "duration": 91,
           "synopsis": "Una joven atleta desaparece misteriosamente al salir a correr una noche. Un año más tarde vuelve, pero sin recordar qué fue lo que pasó, ante la alegría y a la vez el desconcierto de sus padres. De ahí en más, y mientras trata de reacomodarse a su vida normal, comienza a padecer pesadillas y extrañas visiones que la enloquecen progresivamente. Hay una razón detrás de todo esto, sin embargo, que echará a la luz datos quizás más atemorizantes que los propios hechos sobrenaturales.",
           "trailer_url": null
         },
@@ -280,11 +307,11 @@
           "year": 2011,
           "title": "UN OVNI SOBRE MI CAMA",
           "poster": "/media/archive/VI/films/un-ovni-sobre-mi-cama.jpg",
-          "review": null,
+          "review": "Cine ultraindependiente de ciencia ficción, improvisado, experimental, con sólo dos personas para el rodaje y escasísimos recursos (se usó basura para el diseño de producción), al punto tal que el propio director Pablo Oliverio, aquí en su cuarto largometraje, fue el que financió toda la película. Una historia original, audaz, sumamente creativa desde lo estético, que mezcla acción real con historietas y videojuegos, todo dentro de un estilo retro que se proyecta conceptualmente hacia nuestros días, con marcadas señales de denuncia social.",
           "country": "Argentina",
-          "credits": "",
-          "director": null,
-          "duration": null,
+          "credits": "Guión y Dirección: Pablo Oliverio. Con Javier Santa Cruz, Martín Córdoba, Eric Calzado, Eduardo Jaime, Adrián Sett. Duración: 120 minutos",
+          "director": "Pablo Oliverio",
+          "duration": 120,
           "synopsis": "En el futuro, la Tierra, y en particular Buenos Aires, se ha deshumanizado. En ella conviven extraterrestres y terrícolas. Los primeros son perseguidos por un gobierno totalitario que también expulsa de la ciudad a aquellos humanos que se han quedado sin trabajo. El sistema de control vigila las calles. Rex es un cartógrafo que al quedar desempleado decide trabajar como espía gubernamental. Pero las cosas cambian cuando conoce a Ian, un extraterrestre en fuga. En las cloacas de la ciudad comienza a gestarse la revolución.",
           "trailer_url": null
         },
@@ -293,9 +320,9 @@
           "year": 2009,
           "title": "VILLA ESTRELLA",
           "poster": "/media/archive/VI/films/villa-estrella.jpg",
-          "review": "El más reciente trabajo del filipino Rico María Ilarde, viejo conocido del festival ( B eneath the Cogon ; la premiada Altar ) nos muestra otra típica historia de terror clásico pero con su ya tradicional y refinado estilo, donde tradiciones y simbolismos se mezclan con lo sobrenatural, más precisamente con espíritus que desde el más allá irrumpen en el mundo real, a veces para intentar saldar cuentas del pasado y en otras para volcar toda su maldad.",
+          "review": "El más reciente trabajo del filipino Rico María Ilarde, viejo conocido del festival (Beneath the Cogon; la premiada Altar) nos muestra otra típica historia de terror clásico pero con su ya tradicional y refinado estilo, donde tradiciones y simbolismos se mezclan con lo sobrenatural, más precisamente con espíritus que desde el más allá irrumpen en el mundo real, a veces para intentar saldar cuentas del pasado y en otras para volcar toda su maldad.",
           "country": "Filipinas",
-          "credits": "",
+          "credits": "Dirección: Rico María Ilarde. Guión: Joel Mercado, RMI, Adolfo B. Alix Jr., John Paul E. Abellera, sobre historia de JM. Con Shaina Magdayao, Maja Salvador, Jake Cuenca, Geoff Eigenmann, John Estrada. Duración: 97 minutos",
           "director": "Rico María Ilarde",
           "duration": 97,
           "synopsis": "Una joven comienza a tener extrañas pesadillas, que se hacen aún más intensas cuando va de visita al complejo turístico del título, un lugar en remodelación al que acude con su ex novio, uno de los principales encargados del proyecto, y prácticamente obligada por un padre alcohólico y golpeador que desea que su hija vuelva a retomar esa relación. Allí conoce a distintas personas a las que ella nunca vio pero que les resultan conocidas de algún lado, especialmente una joven que dice recordarla de pequeña. Repentinamente comienzan las misteriosas desapariciones, llevando la historia a revelaciones sorprendentes.",
@@ -312,12 +339,12 @@
           "year": 2010,
           "title": "ALUCARDOS: RETRATO DE UN VAMPIRO",
           "poster": "/media/archive/VI/films/alucardos-retrato-de-un-vampiro.jpg",
-          "review": "Todo esto sucedió en la vida real, y esta mezcla de ficción y básicamente documental, lo cuenta, recreando algunos hechos que giraron alrededor de la vida de Juan López Moctezuma (coproductor de El topo , de Alejandro Jodorowsky, de quien fuera amigo y colaborador), a través de valiosísimas imágenes de archivo y distintos testimonios de familiares, conocidos, críticos, técnicos y actores que trabajaron con él (algunos terminaron seriamente heridos, otros casi mueren durante las filmaciones). Un trabajo revelador sobre este polémico, transgresor, y especialmente hacedor de una película de culto eterno.",
+          "review": "Todo esto sucedió en la vida real, y esta mezcla de ficción y básicamente documental, lo cuenta, recreando algunos hechos que giraron alrededor de la vida de Juan López Moctezuma (coproductor de El topo, de Alejandro Jodorowsky, de quien fuera amigo y colaborador), a través de valiosísimas imágenes de archivo y distintos testimonios de familiares, conocidos, críticos, técnicos y actores que trabajaron con él (algunos terminaron seriamente heridos, otros casi mueren durante las filmaciones). Un trabajo revelador sobre este polémico, transgresor, y especialmente hacedor de una película de culto eterno.",
           "country": "México",
-          "credits": "",
+          "credits": "Dirección: Ulises Guzmán. Guión: UG, Edna Campos. Con Manuel Santillán Durán, Gerardo Eduardo Mondragón Cazares. Duración: 89 minuto",
           "director": "Ulises Guzmán",
           "duration": 89,
-          "synopsis": "1992. Manolo y Lalo, obsesionados con la película de culto Alucarda: La hija de las tinieblas (1978), la cual afirman, es una representación de su vida, tratan vanamente de conseguir una copia. Llegan hasta el",
+          "synopsis": "1992. Manolo y Lalo, obsesionados con la película de culto Alucarda: La hija de las tinieblas (1978), la cual afirman, es una representación de su vida, tratan vanamente de conseguir una copia. Llegan hasta el director del film, Juan López Moctezuma (1932–1995), a quien localizan internado en un hospital psiquiátrico padeciendo amnesia. Lo raptan durante tres días. Le muestran sus películas y lo llevan a locaciones de las mismas, logrando así que el director recupere su lucidez. En pago a ellos los convierte en herederos de su obra.",
           "trailer_url": null
         },
         {
@@ -325,11 +352,11 @@
           "year": 2011,
           "title": "DETRÁS DEL HORROR",
           "poster": "/media/archive/VI/films/detras-del-horror.jpg",
-          "review": "Mockumentary (falso documental) con influencias que recuerdan a El Proyecto Blair Witch , que logra sus momentos de escalofríos en su segunda mitad, se las ingenia para meter algunos toques de humor al comienzo (durante la filmación de un corto de terror), y hasta posee un original desenlace, que lo distancia de caer en el típico trabajo de un subgénero terrorífico cada vez más frecuentado, tanto por el cine industrial como independiente.",
+          "review": "Mockumentary (falso documental) con influencias que recuerdan a El Proyecto Blair Witch, que logra sus momentos de escalofríos en su segunda mitad, se las ingenia para meter algunos toques de humor al comienzo (durante la filmación de un corto de terror), y hasta posee un original desenlace, que lo distancia de caer en el típico trabajo de un subgénero terrorífico cada vez más frecuentado, tanto por el cine industrial como independiente.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Diego Adrián de Llano. Con Pablo Silveira, Julieta Paladino, Sebastián Costa, Mariana Antonini, Miguel Ángel Moreira. Duración: 91 minu",
           "director": "Diego Adrián de Llano",
-          "duration": null,
+          "duration": 91,
           "synopsis": "Hace algunos meses, en la ciudad de Mar del Plata – Argentina, un grupo de estudiantes de cine y cuatro actores desaparecieron sin dejar rastros, mientras rodaban un cortometraje de terror. Desde ese entonces la policía manejó distintas hipótesis sobre el caso. Sin embargo, esta semana se difundió un video anónimo que alteró el curso de la investigación.",
           "trailer_url": null
         },
@@ -340,7 +367,7 @@
           "poster": "/media/archive/VI/films/incidente.jpg",
           "review": "Otro mockumentary pero que tiene la particularidad de haber sido filmado en primera persona y en un plano único de 65 minutos, que crea situaciones tensas en ambientes herméticos, jugando con lo que pasa fuera de cuadro, y con el terror apareciendo en ocasiones con cierta intensidad y en los momentos menos pensados.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Mariano Cattaneo. Con Ezio Massa, Daniel de la Vega, Andrés Borghi, Galit Gurovich, Melisa Fernández. Duración: 71 minuto",
           "director": "Mariano Cattaneo",
           "duration": 71,
           "synopsis": "Una documentalista, un equipo de investigadores en lenguas muertas y ritos, un cura y un camarógrafo se adentran en una fábrica abandonada desde 2001, cuando un empleado asesinó a 16 compañeros de trabajo y luego, ante la persecución policial, se quitó la vida. La policía ocultó evidencia y cerró el caso como asesinato en masa, pero varios testimonios, las fotos forenses y otros estudios, demostraban que el asesino había practicado la magia Enochiana.",
@@ -353,7 +380,7 @@
           "poster": "/media/archive/VI/films/lluvia-de-luna.jpg",
           "review": "Lo que acontece luego no es tanto el padecimiento de una tragedia sino una fantasía poética, una road movie con tintes sobrenaturales, que termina centrándose en un paradisíaco y solitario lugar junto al mar. Por encima de las referencias a Alicia en el País de las Maravillas, las atmósferas muy bien logradas y el destacado aspecto visual de la película, que incluye fotografía submarina, hay también una buena cuota de creatividad y sensibilidad por parte de la experimentada cineasta Maryse Sistach, que perdió a su hija en un accidente años atrás y que aquí apunta a esos milagros que en la vida real no se dan.",
           "country": "México",
-          "credits": "",
+          "credits": "Dirección: Maryse Sistach. Guión: MS, Consuelo Garrido. Con María Filippini, Naian González, Alan Estrada, Luisa Pardo, Maricela Peñalosa. Duración: 91 minutos",
           "director": "Maryse Sistach",
           "duration": 91,
           "synopsis": "Algunas veces, cuando la luna es propicia y una madre es arrastrada por un profundo deseo, ésta pronuncia las palabras indicadas para hacer posible que el alma de su hija salga del limbo y ronde sobre la tierra, como cuando estaba viva. El conjuro es inmediato y, en cuestión de segundos, se da la magia; de entre las olas surge la joven que ha revivido para cumplir su mayor deseo y, después, regresar complacida al mundo de los muertos y acabar con la pena de los sueños rotos que dejó su muerte. Esta es la historia de una cantante que pierde a su joven hija adolescente, quien luego vuelve algo desconcertada desde el más allá y que vivirá algo que le había quedado pendiente, uno de los principales anhelos de su madre.",
@@ -366,7 +393,7 @@
           "poster": "/media/archive/VI/films/marihuana-radioactiva-interplanetaria.jpg",
           "review": "Comedia bizarra ultraindependiente, donde no faltan números musicales, didácticos, piquetes, cacerolas, un seguidor del Pro y hasta un fanático de Uruguay. El resultado es gracioso y el pulso, en general, se mantiene.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: Marcelo Leguiza. Guión: ML, Martín Bello. Con María Laura Esteban, Juan Pablo Santucho, ML, Darío Esterlich, Enzo Giordano. Duración: 82 minutos",
           "director": "Marcelo Leguiza",
           "duration": 82,
           "synopsis": "Un extraterrestre decide viajar a Buenos Aires y tomar muestras de un humano. En su búsqueda, se encuentra con Pablo, un joven vendedor de marihuana al cual abduce. Pero cuando menos lo espera, el joven le roba su marihuana. En ese mismo momento se inicia una aventura en la cual Pablo, junto a sus amigos, trata de escapar con vida del extraterrestre y su sed de venganza. A lo largo de la aventura se encontrarán con extraños personajes, acompañados de situaciones cómicas y delirantes.",
@@ -379,8 +406,8 @@
           "poster": "/media/archive/VI/films/muerte-ciega.jpg",
           "review": "Una película de zombies que mezcla western con cine bélico es el que nos plantean los realizadores Lucio Rojas (de quien pudo verse el corto Fascinum en la pasada edición del MF) y Cristian Toledo en este film hecho con apenas 2.000 dólares, que también va cuestionando al propio ser humano dentro de un duro contexto (un Chile devastado por el accionar de una trasnacional minera), planteando dilemas y situaciones límite en donde sólo los más fuertes sobreviven.",
           "country": "Chile",
-          "credits": "",
-          "director": "Lucio A",
+          "credits": "Guión y Dirección: Lucio A. Rojas, Cristian Toledo. Con Cristian Ramos Allaga, Guillermo Alfaro, Pamela Rojas, Pablo Tornelle, Felipe Lobos. Duración: 82 minutos",
+          "director": "Lucio A. Rojas, Cristian Toledo",
           "duration": 82,
           "synopsis": "Una infección viral se lo ha llevado todo. En el Chile del futuro, una epidemia originada a partir de una catástrofe ha acabado con la mayor parte de la población. Un grupo de soldados y científicos debe ir a la “zona cero”, cerrada hace varios años, para tratar de hallar la cura. Pero en el camino, se encuentran con infectados, bandidos y un secreto que les revelará que los monstruos están mucho más cerca de lo que ellos creen.",
           "trailer_url": null
@@ -392,10 +419,10 @@
           "poster": "/media/archive/VI/films/post-la-aventura-completa.jpg",
           "review": "La obra parodia a la famosa serie Lost, en clave de comedia fantástica, enfrentando a sus personajes a una paradoja espacio temporal, y vuelve a reunir al equipo de Farsa Producciones (Filmatrón, que recibió el premio del jurado a Mejor Película Latinoamericana en la edición 2008 del MF), pieza clave para la nueva corriente de cine fantástico ultraindependiente argentino, que comenzara a gestarse en la década del ´90. Una tarea que llevó su tiempo; todo un desafío en realidad, que termina brindando un gracioso ejercicio de ciencia ficción, con la creatividad de sus realizadores como el arma más importante de todas. La película sigue luego de los créditos finales.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Pablo Parés, Esteban Rojas. Con Walter Cornás, Berta Muñiz, Hernán Sáez, PP, ER. Duración: 88 minutos",
           "director": "Pablo Parés, Esteban Rojas",
           "duration": 88,
-          "synopsis": "Esteban es un editor que consigue trabajo en una isla de postproducción, algo que parece tentador a primera vista pero que esconde cosas muy peligrosas. Junto con Esteban, estarán dos editores más que tienen bajo su responsabilidad editar el futuro cada 108 minutos. Post, el fenómeno que revolucionó YouTube , pionero en Argentina de una nueva modalidad de difusión, llega a su fin, transformándose ahora en un largometraje que termina reuniendo las dos temporadas de la exitosa serie web y un nuevo episodio final de 25 minutos de duración, aparte de material nunca antes visto.",
+          "synopsis": "Esteban es un editor que consigue trabajo en una isla de postproducción, algo que parece tentador a primera vista pero que esconde cosas muy peligrosas. Junto con Esteban, estarán dos editores más que tienen bajo su responsabilidad editar el futuro cada 108 minutos. Post, el fenómeno que revolucionó YouTube, pionero en Argentina de una nueva modalidad de difusión, llega a su fin, transformándose ahora en un largometraje que termina reuniendo las dos temporadas de la exitosa serie web y un nuevo episodio final de 25 minutos de duración, aparte de material nunca antes visto.",
           "trailer_url": null
         },
         {
@@ -403,22 +430,28 @@
           "year": 2010,
           "title": "TRASH",
           "poster": "/media/archive/VI/films/trash.jpg",
-          "review": "Esta carrera contra el tiempo para el protagonista, que a su vez trata de luchar segundo a segundo contra la agorafobia que padece, se tiñe de humor, locura, transgresión y por supuesto algo de tensión, suspenso y gore . Ópera prima de Alejo Rébora, de quien ya se viera en el festival su corto Muertos de carnaval (2008).",
+          "review": "Esta carrera contra el tiempo para el protagonista, que a su vez trata de luchar segundo a segundo contra la agorafobia que padece, se tiñe de humor, locura, transgresión y por supuesto algo de tensión, suspenso y gore. Ópera prima de Alejo Rébora, de quien ya se viera en el festival su corto Muertos de carnaval (2008).",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: Alejo Rébora. Guión: Maxi Carrasco, AR, sobre ideas de SARNA y Marcelo Leguiza. Con Nacho Bruno, Davina Reynoso, Agustín Aguirre, Juan «Elvis» Pereyra, Rodrigo Lico Lorente. Duración: 68 minutos",
           "director": "Alejo Rébora",
           "duration": 68,
           "synopsis": "Un experimento secreto de agentes del gobierno serbio; un gas tóxico para ser utilizado con fines bélicos termina expandiéndose accidentalmente en un pequeño pueblo industrial de Pancevo, convirtiendo a los habitantes del lugar en muertos vivientes. Dos agentes de Interpol que deben escoltar a un misterioso prisionero, una novata oficial de policía y tres amigos que salían de una discoteca, deberán unirse para sobrevivir en medio de un panorama devastador.",
           "trailer_url": null
-        },
+        }
+      ]
+    },
+    {
+      "name": "NOVEDADES / NEWS",
+      "type": "features",
+      "films": [
         {
           "slug": "the-american-astronaut",
           "year": 2001,
           "title": "THE AMERICAN ASTRONAUT",
           "poster": "/media/archive/VI/films/the-american-astronaut.jpg",
-          "review": "Se trata de otro western musical de ciencia ficción, ópera prima del realizador de Stingray Sam (2009; ganadora de dos premios en la pasada edición del festival), Cory McAbee, realizada hace diez años y donde ya se daba a conocer todo ese universo surrealista con aroma a viejas matinée, delirantes números musicales a cargo de la banda del director, The Bill Nayer Show, y algo de humor stand up . Un trabajo experimental sumamente original, nominado al Gran Premio del Jurado en Sundance y a los Independent Spirit Awards.",
+          "review": "Se trata de otro western musical de ciencia ficción, ópera prima del realizador de Stingray Sam (2009; ganadora de dos premios en la pasada edición del festival), Cory McAbee, realizada hace diez años y donde ya se daba a conocer todo ese universo surrealista con aroma a viejas matinée, delirantes números musicales a cargo de la banda del director, The Bill Nayer Show, y algo de humor stand up. Un trabajo experimental sumamente original, nominado al Gran Premio del Jurado en Sundance y a los Independent Spirit Awards.",
           "country": "Estados Unidos",
-          "credits": "",
+          "credits": "Guión y Dirección: Cory McAbee. Con CMA, Rocco Sisto, Gregory Russell Cook, Annie Golden, Joshua Taylor. Duración: 93 minutos",
           "director": "Cory McAbee",
           "duration": 93,
           "synopsis": "La acción toma lugar en un futuro no tan lejano. El hombre del título es un traficante interplanetario, proveniente de la Tierra, que viaja a un bar situado en un cinturón de asteroides cercano a Marte, para llevarle un preciado gato a su viejo camarada, el pirata Blueberry. Pero su misión no termina ahí; también deberá trasladar el clon en proceso de una mujer al planeta Júpiter, solamente habitado por hombres, y llevar luego a un joven a Venus, planeta solamente habitado por mujeres. En medio de todo esto hay un asesino serial que está buscando incesantemente al protagonista.",
@@ -431,11 +464,12 @@
           "poster": "/media/archive/VI/films/nevermore-tres-pesadillas-y-un-delirio-de-edgar-allan-poe.jpg",
           "review": "Esmerada y sutil visión del director brasilero Paulo Biscaia Filho, autor teatral, dibujante de comics, docente de cine, que logra crear climas realmente tenebrosos, a través de una cuidadosa fotografía más una notable puesta en escena, donde no faltan efectos especiales, animación y por supuesto algunos escalofríos.",
           "country": "Brasil",
-          "credits": "",
-          "director": null,
-          "duration": null,
+          "credits": "Guión y Dirección: Paulo Biscaia Filho. Con Carolina Fauquemont, Rafaella Marques, Sheylli Caleffi, Michelle Pucci, Andrew Knoll. Duración: 47 minutos",
+          "director": "Paulo Biscaia Filho",
+          "duration": 47,
           "synopsis": "De los mismos realizadores de Morgue Story (Mención del Jurado en el MF IV, 2009) llega esta adaptación de tres cuentos y un poema de Edgar Allan Poe, rescatando el horror, la poesía y la fuerza de uno de los más grandes escritores norteamericanos. En «Berenice» un hombre está por casarse con su prima, quien comienza a deteriorarse debido a una extraña enfermedad. Solamente sus dientes se mantienen intactos, y ésa es la obsesión del protagonista para con su amada. «Morella» cuenta, a través de retratos, la historia de una mujer estudiosa del misticismo, y el miedo que despierta en su marido, que empieza a desearle la muerte. Para ella el fin es tan sólo el comienzo. En «El cuervo» un hombre que no puede olvidar a su amada recibe la misteriosa visita del ave del título. Y en «Ligeia» vemos la fuerza que una desaparecida mujer ejerce en la memoria de su enviciado enamorado.",
-          "trailer_url": null
+          "trailer_url": null,
+          "original_title": "Nevermore: Três pesadelos e um delirio de Edgar Allan Poe"
         },
         {
           "slug": "rojo-sangre-10-anos-a-puro-genero",
@@ -444,7 +478,7 @@
           "poster": "/media/archive/VI/films/rojo-sangre-10-anos-a-puro-genero.jpg",
           "review": "El trabajo no sólo se detiene en lo que ha significado nuestro festival hermano, sino que también aprovecha a los distintos entrevistados (directores, distribuidores, críticos, productores, técnicos, entre otros) para que den una perspectiva de lo que ha sido el cine fantástico argentino en los últimos años y de los desafíos a seguir enfrentando. Todo matizado con permanentes dosis de humor, como para romper con la rutina de cabezas parlantes. En 2009 se presentó un adelanto en el MF 4 y ahora llegó el momento de su estreno en Uruguay.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: Elián Aguilar. Guión: EA, sobre idea de EA, Ariana Bouzón, Jorge «Jotar» Taruella. Duración: 93 minutos",
           "director": "Elián Aguilar",
           "duration": 93,
           "synopsis": "El documental de los diez años del festival de cine independiente de género “Buenos Aires Rojo Sangre” surge en relación a dos variables. La primera de ellas a título de honrar la permanencia y constancia de un festival de neto corte independiente a través de una década; además de una inquietud de revisitar la evolución de un género que va creciendo junto con el festival: el del género fantástico, bizarro y de terror en Argentina. «Rojo Sangre» (titulo tentativo) viene a llenar un espacio que se encontraba vacío: el espacio de documentar la movida de cine independiente de género en la Argentina. El circuito comercial nacional relega estas producciones, pero los realizadores y productores argentinos reciben positivas críticas en el exterior y ven sus productos distribuidos allí. A su vez, el festival de cine independiente «Buenos Aires Rojo Sangre» actúa de vidriera y exhibición de este tipo de materiales, permitiendo a quien quiera mostrar su trabajo, una pantalla.",
@@ -463,7 +497,7 @@
           "poster": "/media/archive/VI/films/m-y-m-matilde-y-malena.jpg",
           "review": "Entre el terror, lo experimental y lo sugestivo, el considerado primer largometraje independiente de género realizado en Córdoba (Argentina) presenta una estructura compleja, original, arriesgada, un tanto provocadora, pero que mantiene su cohesión interna, en una historia que explora, por momentos frontalmente, las fantasías y realidades de sus protagonistas. Toda una curiosidad dentro del festival.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Guión y Dirección: Víctor Curay Fernández. Con Melisa Gil Bölke, Martina Faux, Christian Vélez, Alejandro Wagner. Duración: 64 minutos",
           "director": "Víctor Curay Fernández",
           "duration": 64,
           "synopsis": "Matilde y Malena viven juntas pero representan dos polos opuestos. Matilde es amante de la pornografía, el morbo, las películas de terror y vive con el constante deseo de suicidarse. Malena es alegre, le encantan los animales, y tiene un novio del cual vive enamorada. Una noche Malena va a una fiesta de disfraces con el objetivo de encontrarse con su novio en ese lugar. El novio de Malena no llega y Malena comienza a sentir decepción, no sólo con su novio sino con la vida en general. A partir de ese momento inexplicablemente Malena decide encerrarse en su habitación y aislarse de todo contacto humano. La decepción de Malena, que en un principio la llevó a la soledad, deriva en la más extrema locura.",
@@ -476,7 +510,7 @@
           "poster": "/media/archive/VI/films/mala-praxis.jpg",
           "review": "Ópera prima (rodada en tan solo cuatro días) del joven Gonzalo López, que transcurre íntegramente entre cuatro paredes y con las conversaciones que el personaje principal siente del exterior, además de otros elementos en la habitación, como únicas señales de lo que le está pasando, lo que ha pasado con otros y lo que le podría ocurrir a él. Una propuesta arriesgada, por cierto, que igual logra sacar su provecho dentro del esquema que plantea.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: Gonzalo López. Guión: GL, Alejandro Dajil, Jorge L. Corsi. Con Matias Marmorato, Alejandro Fiore, Juan Pablo Fluger, Germán Bua. Duración: 75 minutos",
           "director": "Gonzalo López",
           "duration": 75,
           "synopsis": "Mirko es un joven internado en coma por un accidente de tránsito. Un día, despierta en una angustiosa situación: por las características de su cuerpo, un gran laboratorio internacional lo ha seleccionado como conejillo de indias de un experimento clandestino. El objetivo es probar el antídoto a un violento virus que será propagado mundialmente para posicionar al laboratorio como líder en ventas. Le quedan sólo 75 minutos antes de que su cuerpo sea tomado por completo y pierda toda capacidad de razonamiento. Su única posibilidad es idear un plan que le permita escapar e inyectarse el antídoto, pero deberá concretarlo rápidamente y no existe margen para el error, ya que de fallar será él quien inicie una epidemia.",
@@ -489,7 +523,7 @@
           "poster": null,
           "review": "Otra propuesta un tanto experimental, dividida en varios capítulos (a partir de las leyes que rigen en el mundo de los amigos imaginarios), filmada básicamente con cámara de mano, y de carácter ultraindependiente, que se centra en la conflictiva relación de una madre separada y su pequeño hijo. La fantasía del niño, a la que se aferra cada vez con más intensidad, choca con la dura realidad que pretende hacerle ver una madre visiblemente afectada por el divorcio y que a veces se descarga injustamente con el pequeño, generándose diversas situaciones, algunas codeándose lisa y llanamente con la locura, y otras que dejan paso a la reflexión, a pesar de todo…",
           "country": "España",
-          "credits": "",
+          "credits": "Dirección: Adrián Torres. Guión: AT, Irene Martín, Laia Amezcua. Con Alejandro Torres, IM, Roberto Dunninghan, Javi Martín, Rafael Calvo. Duración: 63 minutos",
           "director": "Adrián Torres",
           "duration": 63,
           "synopsis": "Una madre y su hijo viven una realidad extraña. El niño tiene un amigo imaginario, que le acompaña desde que nació. La madre, sin embargo, vive en un mundo de mentiras donde la ausencia de su marido la destruye poco a poco.",
@@ -502,7 +536,7 @@
           "poster": "/media/archive/VI/films/sadomaster-locura-general.jpg",
           "review": "Germán Magariños es un cineasta ultraindependiente, provocador, transgresor, pero, a diferencia de lo que uno podría imaginar en una película de bajísimo presupuesto, extrema crudeza y que se ha convertido instantáneamente en obra de culto, hay una cabeza pensante que por encima de excesos varios hace espacio para la crítica social, especialmente hacia la autoridad y el papel de algunos medios masivos de comunicación. Un film polémico, por cierto, sazonado con varias dosis de sarcasmo, sexo, truculencia, humor negro, en ocasiones bizarro, además de efectos especiales y de maquillaje, que puede despertar tanto las risas como el rechazo del espectador. Para los seguidores de Troma Producciones, Lloyd Kaufman aparece en un papel especial como periodista norteamericano.",
           "country": "Argentina",
-          "credits": "",
+          "credits": "Dirección: Germán Magariños. Guión: GM, Vic Cicuta, Maxi Molina. Con Ezequiel Hansen, VC, Paul Divano, Francisco Pérez Laguna, Ramón Cordero. Duración: 70 minutos",
           "director": "Germán Magariños",
           "duration": 70,
           "synopsis": "Argentina: futuro cercano. Un régimen ultra nazi, que masacra a los que considera escorias sociales, ha construido un muro separando a las clases poderosas de los “indeseables”. Pero del otro lado se está gestando una violenta revolución; una vieja leyenda enmascarada y justiciera viene del infierno para destruir de manera aún más violenta a los dictadores.",
@@ -515,99 +549,465 @@
       "type": "shorts",
       "films": [
         {
-          "year": 2010,
           "title": "All Men Are Called Robert / Tous les Hommes s´appellent Robert",
-          "poster": null,
-          "review": null,
+          "year": 2010,
           "country": "Francia",
-          "credits": "",
           "director": "Marc-Henri Boulier",
-          "duration": null,
+          "duration": 6,
           "synopsis": "Un hombre desnudo y con su cuerpo embarrado va corriendo desesperadamente por el bosque, mientras escucha a lo lejos los gritos de una mujer que clama por ayuda. ¿Quiénes son los que lo persiguen tratando de atraparlo? Premiado en Francia, Canadá y Grecia.",
-          "trailer_url": null
+          "credits": "Guión y Dirección: Marc-Henri Boulier. Con Gwenaël Pzrydatek, Jean-François Picotin, Thomas Baelde. Duración: 6 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null,
+          "original_title": "Tous les Hommes s´appellent Robert"
         },
         {
-          "year": 2011,
           "title": "Averiguación Policial No. 0521/09 / Inquérito Policial no. 0521/09",
-          "poster": null,
-          "review": null,
+          "year": 2011,
           "country": "Brasil",
-          "credits": "",
           "director": "Vinicius Casimiro",
-          "duration": null,
+          "duration": 13,
           "synopsis": "Por medio de evidencias en video, policías intentan develar un misterioso caso de secuestro y asesinato.",
-          "trailer_url": null
+          "credits": "Dirección: Vinicius Casimiro. Guión: Roger Franchini, VC. Con Elder Fraga, Ricardo Puccetti, Rafaela Clemente. Duración: 13 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null,
+          "original_title": "Inquérito Policial no. 0521/09"
         },
         {
-          "year": 2011,
-          "title": "Ciclo",
-          "poster": null,
-          "review": null,
+          "title": "Biombo terror!",
+          "year": 2010,
           "country": "Uruguay",
-          "credits": "",
-          "director": "Santiago Reyes",
-          "duration": null,
-          "synopsis": "Jorge Mítico (26) quiere dejar de vivir. Pero falla en sus intentos de suicidio. Esto lo lleva a creer que por alguna razón (¿el destino?) debe seguir viviendo.",
+          "director": "Marianela López",
+          "duration": 4,
+          "synopsis": "El biombo vivía tranquilo y feliz en su apartamento, hasta que un intruso con problemas existenciales decidió irrumpirle la paz y la tranquilidad.",
+          "credits": "Guión y Dirección: Marianela López. Con Benjamín Silva. Duración: 4 minutos",
+          "review": null,
+          "poster": null,
           "trailer_url": null
         },
         {
+          "title": "Brutal Reláx",
           "year": 2010,
-          "title": "De Contemptu Mundi",
-          "poster": null,
+          "country": "España",
+          "director": "Adrián Cardona, Rafa Dengrá, David Muñóz",
+          "duration": 15,
+          "synopsis": "El señor Olivares ya está recuperado; lo único que necesita son unas vacaciones. Ir a un lugar paradisíaco donde pueda relajarse y disfrutar alegremente.",
+          "credits": "Dirección: Adrián Cardona, Rafa Dengrá, David Muñóz. Guión: DM. Con José María Angorrilla, Pep Sais, Mayka Dengrá. Duración: 15 minutos",
           "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Camino al cementerio",
+          "year": 2011,
           "country": "Chile",
-          "credits": "",
-          "director": "Lucio A",
-          "duration": null,
+          "director": "Mijael Milies",
+          "duration": 9,
+          "synopsis": "En una aislada zona desértica dos hombres caminan en busca de la recompensa de sus vidas. Poco saben de lo que realmente les depara el futuro…",
+          "credits": "Guión y Dirección: Mijael Milies. Con Alejandro Núñez, Edmundo Alarcón, Marcos Ramos. Duración: 9 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Cenizas",
+          "year": 2011,
+          "country": "México",
+          "director": "Ernesto Martínez Bucio",
+          "duration": 14,
+          "synopsis": "Abril no desea desprenderse de las cenizas de su madre. No entiende por qué ella le ha pedido que arroje sus restos al mar.",
+          "credits": "Guión y Dirección: Ernesto Martínez Bucio. Con Aitziber Garmendia, Belén Cruz, Pilar Guerra. Duración: 14 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Ciclo",
+          "year": 2011,
+          "country": "Uruguay",
+          "director": "Santiago Reyes",
+          "duration": 3,
+          "synopsis": "Jorge Mítico (26) quiere dejar de vivir. Pero falla en sus intentos de suicidio. Esto lo lleva a creer que por alguna razón (¿el destino?) debe seguir viviendo.",
+          "credits": "Guión y Dirección: Santiago Reyes. Con Rafael Di Candia, Javier Silveira. Duración: 3 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "De Contemptu Mundi",
+          "year": 2010,
+          "country": "Chile",
+          "director": "Lucio A. Rojas",
+          "duration": 16,
           "synopsis": "Una serie de homicidios a mujeres en diversos sectores de la ciudad lleva a la policía tras la pista de un asesino que parece haberse ensañado con víctimas que se realizaron abortos avanzados en distintas etapas de sus vidas.",
-          "trailer_url": null
-        },
-        {
-          "year": 2010,
-          "title": "Juan con miedo",
-          "poster": null,
+          "credits": "Guión y Dirección: Lucio A. Rojas. Con Gastón Salgado, Cristian Wilson, Natalia Bravo. Duración: 16 minutos",
           "review": null,
-          "country": "España",
-          "credits": "",
-          "director": "Daniel Romero",
-          "duration": null,
-          "synopsis": "Durante las vacaciones en el pueblo de sus abuelos, Juan conoce a María, una niña misteriosa que le narra la terrorífica leyenda que rodea a la vieja casa del campesino. Juan, a diferencia del personaje del cuento, tiene miedo. María no. Premiado en Estados Unidos, Portugal, Eslovenia y España.",
-          "trailer_url": null
-        },
-        {
-          "year": 2010,
-          "title": "Las gemelas de la Calle Poniente",
           "poster": null,
-          "review": null,
-          "country": "España",
-          "credits": "",
-          "director": "Marc Riba",
-          "duration": null,
-          "synopsis": "Ungüentos, elixires, cataplasmas. Enriqueta y Ramoneta les atenderán con discreción, reserva y trato agradable en la Calle Poniente número 17 bis, Barcelona. No se venden en droguerías ni farmacias.",
           "trailer_url": null
         },
         {
+          "title": "Desierto",
+          "year": 2010,
+          "country": "México",
+          "director": "Christian Rivera",
+          "duration": 16,
+          "synopsis": "Un novio busca a su novia en un desierto mágico. Ahí descubrirá que el camino directo no siempre es el más corto.",
+          "credits": "Dirección: Christian Rivera. Guión: CR, basado en un cuento corto de Michael Ende. Duración: 16 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "El creyente",
           "year": 2011,
-          "title": "Tonrar Yuralria",
-          "poster": null,
+          "country": "Argentina",
+          "director": "Willy Burrut",
+          "duration": 7,
+          "synopsis": "Tres personajes se encuentran en una galería de arte. Uno de ellos es un fantasma.",
+          "credits": "Dirección: Willy Burrut. Guión: Diego Amoedo. Con Roberto Barile, Gerardo Acastello, Mariana Campione. Duración: 7 minutos",
           "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "El pequeño Augusto",
+          "year": 2011,
+          "country": "Uruguay",
+          "director": "Marco Bentancor",
+          "duration": 21,
+          "synopsis": "Augusto es un pequeño niño que vive junto a su familia en el campo. Un día, tras jugar con avión en la pradera, llega a su casa y se encuentra con un extraño panorama. Su padre está encerrado en una habitación, su hermano se ha ido y su madre se comporta de forma muy extraña. Augusto intentará descubrir el peculiar secreto que su familia esconde.",
+          "credits": "Guión y Dirección: Marco Bentancor. Con Santiago Cabrera, Isabel Romano, David Roizner. Duración: 21 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "El pescador",
+          "year": 2011,
+          "country": "México",
+          "director": "Samantha Pineda Sierra",
+          "duration": 11,
+          "synopsis": "En el día de los muertos, Leni, un viejo pescador, se embarca al mar en un viaje donde, a través de viejas fotografías, pesca sus mejores recuerdos.",
+          "credits": "Dirección: Samantha Pineda Sierra. Guión: SPS, Davy Giorgi. Con Rubén Pablos, Cassandra Cianguerotti. Duración: 11 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "El último día / O ultimo dia",
+          "year": 2010,
           "country": "Brasil",
-          "credits": "",
-          "director": "Laísa Ramthun",
-          "duration": null,
-          "synopsis": "En el Polo Norte existe una leyenda: cada 3027 lunas aparece el horrible monstruo del título, que secuestra niños para convertirlos en esclavos. La historia se desarrolla el día en que Tonrar Yuralria aparece. Y dos esquimales preparan un plan de defensa refugiándose en un iglú.",
+          "director": "Elder Fraga",
+          "duration": 20,
+          "synopsis": "Dos policías buscan a los asesinos de un temible escuadrón de la muerte, en medio de una gran metrópolis en la que se cruzarán con un playboy, una prostituta y un mendigo que también forman parte de ese mundo de placeres, miseria y desesperación. La vida se vive al límite en ese apocalipsis urbano, donde no parece haber escape ni salvación. Premio a Mejor Fotografía, Efectos Especiales y Dirección Artística, en San Pablo.",
+          "credits": "Guión y Dirección: Elder Fraga. Con José Roberto Jardim, Rafael Losso, Julio Machado. Duración: 20 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null,
+          "original_title": "O ultimo dia"
+        },
+        {
+          "title": "El último canto del pájaro Cú",
+          "year": 2010,
+          "country": "México",
+          "director": "Alonso Ruizpalacios",
+          "duration": 15,
+          "synopsis": "Minutos antes de morir en la sala general de un hospital urbano, Ulises, un enfermo terminal en sus cincuentas, reconstruye los fragmentos de su vida. Lauro, un paciente vecino, joven y risueño, es el único que lo acompaña en su agonía final, en la que revive todas las oportunidades que dejó pasar. Así, al cruzar la frontera de la muerte, Ulises se da cuenta de que éste es el momento más importante de su vida. Premiado en Irlanda.",
+          "credits": "Guión y Dirección: Alonso Ruizpalacios. Con Mario Balandra Oliver, Tenoch Huerta, Karina Gidi. Duración: 15 minutos",
+          "review": null,
+          "poster": null,
           "trailer_url": null
         },
         {
-          "year": 2011,
-          "title": "Wilt",
-          "poster": null,
+          "title": "Entre paredes de agua",
+          "year": 2010,
+          "country": "México",
+          "director": "Rosamarta Fernández, Claudia Lavista",
+          "duration": 30,
+          "synopsis": "Flavio pertenece a una familia de anfibios que viven en las profundidades del mar. Tras un inesperado y drástico cambio evolutivo, sus familiares van perdiendo las branquias con las que extraer oxígeno del agua, viéndose obligados a huir a tierra firme. Las branquias de Flavio permanecen intactas, por lo que se niega a acompañar a su familia y elige quedarse en la sociedad del océano, donde vive aislado, incomprendido, temeroso del cambio inevitable de sus células.",
+          "credits": "Guión y Dirección: Rosamarta Fernández, Claudia Lavista. Con Omar Carrum, Johnny Millán, Víctor Manuel Ruíz. Duración: 30 minutos",
           "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Envy the Dead / Hassad Al Möta",
+          "year": 2011,
+          "country": "Bahréin",
+          "director": "Isa Swain",
+          "duration": 10,
+          "synopsis": "Un solitario superviviente deambula por el caos de una ciudad árabe, en pleno despertar de una plaga zombie.",
+          "credits": "Guión y Dirección: Isa Swain. Con Ahmed Elbendary, Fatima Al Taei, May El Calamay. Duración: 10 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null,
+          "original_title": "Hassad Al Möta"
+        },
+        {
+          "title": "Extraña / Estranha",
+          "year": 2011,
+          "country": "Brasil",
+          "director": "Joel Caetano",
+          "duration": 12,
+          "synopsis": "Dos mujeres en una historia extraña y sensual sobre el amor, la venganza, la violencia y la psicodelia.",
+          "credits": "Guión y Dirección: Joel Caetano. Con Mariana Zani, Kika Oliveira, Walderrama dos Santos. Duración: 12 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null,
+          "original_title": "Estranha"
+        },
+        {
+          "title": "Fábrica de muñecas",
+          "year": 2010,
+          "country": "España",
+          "director": "Ainoha Menéndez Goyoaga",
+          "duration": 11,
+          "synopsis": "Ana trabaja en el lugar del título. Una, otra y otra vez más coloca ojos en cabezas de muñecas. Toda su vida gira en torno a los movimientos mecánicos que realiza en la fábrica. Pero un pequeño cambio en su trabajo modificará su vida para siempre. Premiado en España, Austria, Portugal y Luxemburgo.",
+          "credits": "Guión y Dirección: Ainoha Menéndez Goyoaga. Con Leticia Dolera, Iván Lamas, Paco Maestre. Duración: 11 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Juan con miedo",
+          "year": 2010,
+          "country": "España",
+          "director": "Daniel Romero",
+          "duration": 11,
+          "synopsis": "Durante las vacaciones en el pueblo de sus abuelos, Juan conoce a María, una niña misteriosa que le narra la terrorífica leyenda que rodea a la vieja casa del campesino. Juan, a diferencia del personaje del cuento, tiene miedo. María no. Premiado en Estados Unidos, Portugal, Eslovenia y España.",
+          "credits": "Guión y Dirección: Daniel Romero. Con Iván Martín, Sonia Lázaro, Fernando Ustárroz. Duración: 11 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "La mina de oro",
+          "year": 2010,
+          "country": "México",
+          "director": "Jacques Bonnavent",
+          "duration": 11,
+          "synopsis": "A sus cincuenta y tantos, Betina conoce el amor a través de Internet. Deja su monótona vida citadina para encontrarse con su prometido virtual, al otro lado del país. Premiado en Irlanda, Francia y Argentina.",
+          "credits": "Guión y Dirección: Jacques Bonnavent. Con Paloma Woolrich, Alfonso Dosal, Cristina Michaus. Duración: 11 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "La tragedia del hombre hueco",
+          "year": 2011,
+          "country": "España",
+          "director": "Jorge De Guillae",
+          "duration": 17,
+          "synopsis": "Gonzalo es un hombre de mirada intensa y limpia. Su barbilla ancha y sus hoyuelos nos presentan a un hombre pacífico y bondadoso, con un gran corazón… He aquí la contradicción; Gonzalo no tiene corazón. Premio del Público en España.",
+          "credits": "Guión y Direc200ción: Jorge De Guillae. Con Gabriel Pascual, Joan María Pascual, Baiana Plana. Duración: 17 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Las gemelas de la Calle Poniente",
+          "year": 2010,
+          "country": "España",
+          "director": "Marc Riba, Anna Solanas",
+          "duration": 12,
+          "synopsis": "Ungüentos, elixires, cataplasmas. Enriqueta y Ramoneta les atenderán con discreción, reserva y trato agradable en la Calle Poniente número 17 bis, Barcelona. No se venden en droguerías ni farmacias.",
+          "credits": "Guión y Dirección: Marc Riba, Anna Solanas. Duración: 12 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Luna",
+          "year": 2010,
+          "country": "México",
+          "director": "Raúl Cárdenas, Rafael Cárdenas",
+          "duration": 9,
+          "synopsis": "En una caótica metrópoli transitada por extraños seres esclavos del tiempo, una niña descubrirá una brillante luna en el cielo e intentará atraparla, pues parece ser lo único hermoso en esta ciudad muerta. Premiado en Irlanda.",
+          "credits": "Guión y Dirección: Raúl Cárdenas, Rafael Cárdenas. Duración: 9 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Martyris",
+          "year": 2010,
+          "country": "México",
+          "director": "Luis Felipe Hernández Alanis",
+          "duration": 8,
+          "synopsis": "En un mundo lúgubre y decadente, un pequeño Santo cuida de distintos seres que padecen de instintos suicidas. Para mantenerlos con vida los tiene cautivos en una Iglesia abandonada. Una extraña visita sugerirá al Santito no interferir con el orden supremo, donde la ley natural de los mártires se superpone a la bondad y al cariño. Premiado en Irlanda y Estados Unidos.",
+          "credits": "Guión y Dirección: Luis Felipe Hernández Alanis. Duración: 8 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Missing",
+          "year": 2011,
           "country": "Alemania",
-          "credits": "",
-          "director": "Daniel Vogelmann",
+          "director": "Cristian Wiesenfeld",
+          "duration": 3,
+          "synopsis": "Desapariciones de vacas y extrañas luces desde el cielo rompen la tranquilidad de un minúsculo pueblo.",
+          "credits": "Dirección: Cristian Wiesenfeld. Duración: 3 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "MM",
+          "year": 2011,
+          "country": "Uruguay",
+          "director": "Guzmán Vila",
+          "duration": 2,
+          "synopsis": "Un hombre está por descubrir que su mujer lo engaña.",
+          "credits": "Guión y Dirección: Guzmán Vila. Con Luis Gallo, Adriana Suárez, Ricardo Pardiñas. Duración: 2 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Monarca",
+          "year": 2011,
+          "country": "México",
+          "director": "Víctor René Ramírez Madrigal",
+          "duration": 8,
+          "synopsis": "Un niño se encuentra con un misterioso viejo, mientras pesca en el río. Al seguir al anciano, descubre en él no sólo a un viejo, sino a un ser mágico, el cual guía a las mariposas monarca en su incansable ciclo de la vida.",
+          "credits": "Dirección: Víctor René Ramírez Madrigal. Guión: Arturo Tornero Aceves, Christian Alain Vázquez Carrasco, Leopoldo Aguilar. Duración: 8 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Mutatio",
+          "year": 2011,
+          "country": "México",
+          "director": "León Fernández",
+          "duration": 10,
+          "synopsis": "Un extraño humanoide despierta abandonado sobre una gran roca, en medio del mar. Sin refugio ni alimento, enfrentará al objeto mismo de su existencia y al gran misterio que sostiene su especie…",
+          "credits": "Dirección: León Fernández. Guión: Salvador Delgadillo. Duración: 10 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Otro lugar",
+          "year": 2011,
+          "country": "Uruguay",
+          "director": "Zulma Saadoun",
+          "duration": 5,
+          "synopsis": "El protagonista, después de escuchar historias sobre seres sobrenaturales que vienen a buscar humanos para llevárselos a otro lado, se obsesiona esperando que vengan a llevárselo a él.",
+          "credits": "Guión y Dirección: Zulma Saadoun. Con Santiago Reyes, Angie Saadoun, Helen Saadoun. Duración: 5 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Papercut from Hell",
+          "year": 2011,
+          "country": "Uruguay",
+          "director": "Benjamin Silva",
+          "duration": 4,
+          "synopsis": "Un investigador paranormal llega a la casa de una vieja señora a sanar su cama, que parece poseída. Pero la maldición va mucho más allá de lo que él creía.",
+          "credits": "Guión y Dirección: Benjamin Silva. Con Marianela López, Joaquín Tomé. Duración: 4 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "R.O.A.C.H.",
+          "year": 2011,
+          "country": "España/Italia",
+          "director": "Sergio Luca Loreni",
+          "duration": 31,
+          "synopsis": "Una corporación que controla la sociedad, obsesionada por el perfeccionismo en los seres humanos, realiza experimentos genéticos con huérfanos que luego son convertidos en soldados de elite. Pero uno de ellos, enamorado de una colega, se rebela y fuga, siendo perseguido a muerte, por la valiosa información que puede hacer llegar a los enemigos del sistema.",
+          "credits": "Dirección: Sergio Luca Loreni. Guión: SLL, Walter Perrone. Con WP, Silvia Musso, Diego Casale. Duración: 31 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Slasher Pizza",
+          "year": 2010,
+          "country": "Uruguay",
+          "director": "Joaquín Tomé",
+          "duration": 9,
+          "synopsis": "Mane está sola en su apartamento, preparando una pizza para ella y su amiga, que está por llegar. Lo que no nota es que hay alguien afuera, observándola, esperando para entrar.",
+          "credits": "Dirección: Joaquín Tomé. Guión: JT, Marianela López. Con ML, Benjamín Silva, JT. Duración: 9 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Tonrar Yuralria",
+          "year": 2011,
+          "country": "Brasil",
+          "director": "Laísa Ramthun",
+          "duration": 6,
+          "synopsis": "En el Polo Norte existe una leyenda: cada 3027 lunas aparece el horrible monstruo del título, que secuestra niños para convertirlos en esclavos. La historia se desarrolla el día en que Tonrar Yuralria aparece. Y dos esquimales preparan un plan de defensa refugiándose en un iglú.",
+          "credits": "Dirección: Laísa Ramthun. Guión: LR, Rodrigo Gazzano. Con Alex Hecht, Eiki Sasaki, Ken Kaneko. Duración: 6 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Trapalanda",
+          "year": 2011,
+          "country": "Chile",
+          "director": "Rodrigo Meza Piñones",
+          "duration": 15,
+          "synopsis": "Un marino holandés del siglo XVII jura vengar la muerte de su amada y persigue al asesino, el Caballero Negro, hasta una Isla de la Patagonia. Allí, con la ayuda de un cura y una indígena, enfrenta al Caballero y lo vence, pero sólo para descubrir que su juramento de venganza ha desatado una extraña maldición.",
+          "credits": "Dirección: Rodrigo Meza Piñones. Guión: Paulo Meyer Balenzuela. Duración: 15 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Víctima en las sombras",
+          "year": 2011,
+          "country": "Argentina",
+          "director": "Juan Pablo Mazzini, Edison E. Ávila",
           "duration": null,
-          "synopsis": "Una casa en el bosque. Él pasea recolectando plantas. Ella se queda en casa. Día tras día la misma rutina. Pero no están solos. Algo vive ahí. Algo que de pronto entra en sus vidas, atractivo y amenazante, bello y peligroso. Algo que lo cambiará todo. Premiado en Alemania. (Welk)",
+          "synopsis": "Buenos Aires, en la actualidad. Se producen una serie de cruentos homicidios de características rituales. Ajenos a esta situación, dos jóvenes concretan una idílica primera cita, sin saber que el asesino se dispone a atacar nuevamente.",
+          "credits": "Guión y Dirección: Juan Pablo Mazzini, Edison E. Ávila. Con Ezequiel de Almeida, Carla Giurastante, Alfredo Zubieta.",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Visitante nocturno",
+          "year": 2010,
+          "country": "Argentina",
+          "director": "Alejandro Ianni",
+          "duration": 7,
+          "synopsis": "Una pareja recibe una visita inesperada que cambiará sus vidas para siempre. Premio del Público en Argentina.",
+          "credits": "Guión y Dirección: Alejandro Ianni. Con Juan José Lorenzo, María Julia Lardone, Juan Pablo Ianni. Duración: 7 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null
+        },
+        {
+          "title": "Wilt",
+          "year": 2011,
+          "country": "Alemania",
+          "director": "Daniel Vogelmann",
+          "duration": 21,
+          "synopsis": "Una casa en el bosque. Él pasea recolectando plantas. Ella se queda en casa. Día tras día la misma rutina. Pero no están solos. Algo vive ahí. Algo que de pronto entra en sus vidas, atractivo y amenazante, bello y peligroso. Algo que lo cambiará todo. Premiado en Alemania.",
+          "credits": "Dirección: Daniel Vogelmann. Guión: Lukas Becker. Con Rudolf Waldemar Brem, Léonie Thelen, María Pletz. Duración: 21 minutos",
+          "review": null,
+          "poster": null,
+          "trailer_url": null,
+          "original_title": "Welk"
+        },
+        {
+          "title": "Y volveré…",
+          "year": 2010,
+          "country": "México",
+          "director": "Edgar Nito",
+          "duration": 22,
+          "synopsis": "El marido de Aurora la ha mandado matar por traerle al mundo un primogénito deforme y muerto. Pero los encargados de eliminarla lo han hecho mal. Ella logra sobrevivir, encontrando luego a un misterioso hombre que la ayuda a recuperarse y que la anima a volver por su camino. Aurora decide regresar, utilizando la venganza como un acto de redención, para continuar su vida en absoluta paz.",
+          "credits": "Dirección: Edgar Nito. Guión: EG, Alfredo Mendoza. Con Yaride Rizk, Inti Aldasoro, Luz María Rodríguez. Duración: 22 minutos",
+          "review": null,
+          "poster": null,
           "trailer_url": null
         }
       ]
@@ -617,16 +1017,81 @@
       "type": "shorts-catalog",
       "films": [
         {
-          "year": 2011,
           "title": "Antítesis",
-          "poster": null,
-          "review": null,
-          "country": "Natalia de la Vega",
-          "credits": "",
-          "director": null,
+          "director": "Natalia de la Vega",
+          "year": 2011,
+          "duration": 12,
+          "country": "ARGENTINA"
+        },
+        {
+          "title": "Black Suite",
+          "director": "Evdokia Kalamitsi",
+          "year": 2011,
+          "duration": 7,
+          "country": "GRECIA"
+        },
+        {
+          "title": "El libro de los nombres muertos",
+          "director": "Juan Pablo Mazzini",
+          "year": 2010,
+          "duration": 29,
+          "country": "ARGENTINA"
+        },
+        {
+          "title": "La elegida",
+          "director": "Juan Carlos Clemente",
+          "year": 2010,
+          "duration": 12,
+          "country": "ARGENTINA"
+        },
+        {
+          "title": "La niña y el bicho",
+          "director": "Carla María Gratti",
+          "year": 2010,
+          "duration": 4,
+          "country": "ARGENTINA"
+        },
+        {
+          "title": "Lesbos",
+          "director": "Héctor Daniel Pérez Aguilera",
+          "year": 2010,
+          "duration": 25,
+          "country": "MÉXICO"
+        },
+        {
+          "title": "Miramelinda",
+          "director": "Jesús Pimentel Melo",
+          "year": 2009,
+          "duration": 13,
+          "country": "MÉXICO"
+        },
+        {
+          "title": "Miss Mishima",
+          "director": "Pedro Rocha",
+          "year": 2011,
+          "duration": 14,
+          "country": "PORTUGAL"
+        },
+        {
+          "title": "Moyana",
+          "director": "Emiliano González Alcocer",
+          "year": 2009,
+          "duration": 10,
+          "country": "MÉXICO"
+        },
+        {
+          "title": "Profesor Brofman",
+          "director": "David Macián",
+          "year": 2011,
+          "duration": 15,
+          "country": "ESPAÑA"
+        },
+        {
+          "title": "The Soul Detective",
+          "director": "Davi de Oliveira Pinheiro",
+          "year": 2009,
           "duration": null,
-          "synopsis": "12´- ARGENTINA Black Suite (Evdokia Kalamitsi, 2011) – 7´- GRECIA El libro de los nombres muertos (Juan Pablo Mazzini, 2010) – 29´- ARGENTINA La elegida (Juan Carlos Clemente, 2010) – 12´ – ARGENTINA La niña y el bicho (Carla María Gratti, 2010) – 4´- ARGENTINA Lesbos (Héctor Daniel Pérez Aguilera, 2010) – 25´- MÉXICO Miramelinda (Jesús Pimentel Melo, 2009) – 13´- MÉXICO Miss Mishima (Pedro Rocha, 2011) – 14´- PORTUGAL Moyana (Emiliano González Alcocer, 2009) – 10´ – MÉXICO Profesor Brofman (David Macián, 2011) – 15´- ESPAÑA The Soul Detective (Davi de Oliveira Pinheiro, 2009) – BRASIL",
-          "trailer_url": null
+          "country": "BRASIL"
         }
       ]
     }
@@ -635,8 +1100,14 @@
     "title": "Crónica de la edición VI",
     "author": "Alejandro Yamgotchian",
     "content": [
-      "Varios artistas argentinos, entre directores, productores, actores y técnicos, llegaron al festival para presentar sus respectivos trabajos, como Alejo Rébora (realizador de Trash ), Marcelo Leguiza (director de Marihuana Radioactiva Interplanetaria ), Ramón Cordero y Ezequiel Hansen (actores y productores de Sadomaster: Locura general ), y Alejandro Ianni (responsable del cortometraje Visitante nocturno ).",
-      "El Festival, además, contó con la presencia del reconocido periodista Carlos Hugo Aztarain en el Jurado, quien también participó de una mesa redonda recorriendo de manera vasta y profunda la historia del cine de terror español, acompañado del colega Sergio Moreira. También hubo presentaciones previas para los homenajes a los fallecidos realizadores Robert Mulligan e Irvin Kershner, además de a la productora Laura Ziskin, y para clásicos del género, a cargo de periodistas especializados y nuevamente con muy buena respuesta del público presente."
+      "Superando levemente en número de espectadores al pasado festival, culminó la sexta edición de Montevideo Fantástico, el festival internacional cinematográfico de terror, fantasía y ciencia ficción de Uruguay, que tuvo lugar entre los días 12 y 18 de octubre de 2011, en las dos salas de Cine Universitario (Canelones 1280). Cine independiente y ultraindependiente de unos 20 países dieron forma a un evento que contó con más de 30 largometrajes (20 de ellos en competencia) y casi 50 trabajos entre cortos y mediometrajes (con casi 40 compitiendo), en tan solo 6 días.",
+      "Varios artistas argentinos, entre directores, productores, actores y técnicos, llegaron al festival para presentar sus respectivos trabajos, como Alejo Rébora (realizador de Trash), Marcelo Leguiza (director de Marihuana Radioactiva Interplanetaria), Ramón Cordero y Ezequiel Hansen (actores y productores de Sadomaster: Locura general), y Alejandro Ianni (responsable del cortometraje Visitante nocturno).",
+      "El Festival, además, contó con la presencia del reconocido periodista Carlos Hugo Aztarain en el Jurado, quien también participó de una mesa redonda recorriendo de manera vasta y profunda la historia del cine de terror español, acompañado del colega Sergio Moreira. También hubo presentaciones previas para los homenajes a los fallecidos realizadores Robert Mulligan e Irvin Kershner, además de a la productora Laura Ziskin, y para clásicos del género, a cargo de periodistas especializados y nuevamente con muy buena respuesta del público presente.",
+      "El Jurado de la Competencia Internacional de Largometrajes terminó eligiendo a la interesantísima adaptación alemana de la novela corta de H. P. Lovecraft, Die Farbe / El color que cayó del cielo, como Mejor Película, y también a su realizador, Huan Vu, como Mejor Director. Por su parte, el cautivante film mexicano de ciencia ficción De día y de noche, de Alejandro Molina, se llevó el premio a Mejor Guión (el propio Molina, junto a Roberto Garza Angulo).",
+      "El premio a Mejor Actor fue para Fabián Forte, por su notable actuación en Alas, comedia de tono fantástico y surrealista a cargo del argentino Ariel Martínez Herrera, mientras que el de Mejor Actriz fue para la estadounidense Marianne Porter, por su destacada labor en el multipremiado thriller sobrenatural True Nature, de Patrick Steele.",
+      "Las menciones del Jurado fueron para otro thriller fantástico, la película filipina Villa Estrella, de Rico María Ilarde (cuyo film Altar ganara el principal premio en Montevideo Fantástico IV – 2009) y para la ciencia ficción húngara de 1, adaptación del ensayo «Un minuto humano» del escritor ucraniano Stanislaw Lem, dirigida por Pater Sparrow.",
+      "El premio a Mejor Largo Latinoamericano fue para la mexicana Alucardos: Retrato de un vampiro, de Ulises Guzmán y sobre la vida de Juan López Moctezuma, responsable del film de culto Alucarda: La hija de las tinieblas (1978). El Premio del Público, a su vez, fue para el elogiado film guatemalteco Toque de queda, de Elías Jiménez y Ray Figueroa, y, dentro del rubro de Largos Latinoamericanos, para Lluvia de luna, de la mexicana Maryse Sistach.",
+      "Muchas gracias a todos los que se acercaron al festival y a los medios que lo difundieron."
     ]
   }
 }

@@ -151,6 +151,40 @@ if (legacy[2009]) {
   check(legacy[2009].edition.dates === "2009" && legacy[2009].edition.venues?.[0] === "las dos salas de Cine Universitario", "2009: unproved dates or source-backed venue changed");
 }
 
+// 2011: the VI source lists 27 features, 38 official shorts, and 11 informative shorts.
+if (legacy[2011]) {
+  const secs = sectionsOf(2011);
+  const expected = [
+    ["LARGOMETRAJES EN COMPETENCIA / LONG FEATURE FILMS COMPETITION", "features", 12],
+    ["COMPETENCIA LATINOAMERICANA DE LARGOMETRAJES / LATIN AMERICAN LONG FEATURE FILMS COMPETITION", "features", 8],
+    ["NOVEDADES / NEWS", "features", 3],
+    ["MUESTRA INFORMATIVA DE LARGOMETRAJES / LONG FEATURE FILMS INFORMATIVE SESSION", "features", 4],
+    ["COMPETENCIA OFICIAL DE CORTOMETRAJES / SHORT FILMS COMPETITION", "shorts", 38],
+    ["MUESTRA INFORMATIVA DE CORTOMETRAJES / SHORT FILMS INFORMATIVE SESSION", "shorts-catalog", 11],
+  ];
+  check(JSON.stringify(secs.map((s) => [s.name, s.type, filmsOf(s).length])) === JSON.stringify(expected), "2011: source section order, boundaries, or counts changed");
+  const works = secs.flatMap(filmsOf);
+  const features = secs.filter((s) => s.type === "features").flatMap(filmsOf);
+  const shorts = secs.find((s) => s.type === "shorts")?.films ?? [];
+  const catalog = secs.find((s) => s.type === "shorts-catalog")?.films ?? [];
+  check(works.length === 76 && new Set(works.map((f) => f.title)).size === 76, "2011: expected 76 distinct works explicitly listed in source");
+  const slugs = ["1", "alas", "alucardos-retrato-de-un-vampiro", "de-dia-y-de-noche", "detras-del-horror", "die-farbe-el-color-que-cayo-del-cielo", "el-ultimo-fin-de-semana", "incidente", "krokodyle", "la-noche-del-chupacabras", "lluvia-de-luna", "m-y-m-matilde-y-malena", "mala-praxis", "marihuana-radioactiva-interplanetaria", "muerte-ciega", "nevermore-tres-pesadillas-y-un-delirio-de-edgar-allan-poe", "ovejas-en-el-cielo", "post-la-aventura-completa", "rojo-sangre-10-anos-a-puro-genero", "sadomaster-locura-general", "the-american-astronaut", "the-whisperer-in-darkness", "toque-de-queda", "trash", "true-nature", "un-ovni-sobre-mi-cama", "villa-estrella"];
+  check(JSON.stringify(features.map((f) => f.slug).sort()) === JSON.stringify(slugs), "2011: historical feature detail slugs changed");
+  check(shorts.every((f) => !f.slug) && catalog.every((f) => !f.slug), "2011: restored shorts or catalogue must not create public detail routes");
+  check(features.every((f) => f.synopsis && f.review && f.director && f.credits && Number.isInteger(f.duration) && f.duration > 0), "2011: feature synopsis, review, director, credits, or duration lost");
+  check(shorts.every((f) => f.synopsis && f.credits && f.director && f.country && f.year) && shorts.filter((f) => f.duration === null).map((f) => f.title).join() === "Víctima en las sombras", "2011: official shorts or source-absent duration altered");
+  check(catalog.every((f) => f.title && f.director && f.year && f.country) && catalog.filter((f) => f.duration === null).map((f) => f.title).join() === "The Soul Detective", "2011: informative catalogue or source-absent duration altered");
+  const find = (title) => works.find((f) => f.title === title);
+  check(secs[2]?.films.map((f) => f.title).join("|") === "THE AMERICAN ASTRONAUT|NEVERMORE: TRES PESADILLAS Y UN DELIRIO DE EDGAR ALLAN POE|ROJO SANGRE: 10 AÑOS A PURO GÉNERO", "2011: NOVEDADES boundary malformed");
+  check(find("DE DÍA Y DE NOCHE")?.duration === 96 && find("LA NOCHE DEL CHUPACABRAS")?.original_title === "A Noite do Chupacabras" && find("UN OVNI SOBRE MI CAMA")?.director === "Pablo Oliverio", "2011: feature metadata still shifted or missing");
+  check(find("MUERTE CIEGA")?.director === "Lucio A. Rojas, Cristian Toledo" && find("NEVERMORE: TRES PESADILLAS Y UN DELIRIO DE EDGAR ALLAN POE")?.duration === 47, "2011: source credits or duration missing");
+  check(shorts.find((f) => f.title === "Biombo terror!")?.director === "Marianela López" && shorts.find((f) => f.title === "La mina de oro")?.duration === 11 && shorts.find((f) => f.title === "Y volveré…")?.duration === 22, "2011: official shorts lost from combined paragraphs");
+  check(catalog[0]?.title === "Antítesis" && catalog[0]?.director === "Natalia de la Vega" && catalog[10]?.title === "The Soul Detective" && catalog[10]?.country === "BRASIL", "2011: informative shorts still concatenated");
+  check(JSON.stringify(legacy[2011].awards.map((b) => b.awards?.length)) === "[7,6,4]" && legacy[2011].awards[2]?.section === "PREMIOS DEL PÚBLICO / AUDIENCE CHOICE AWARDS", "2011: award continuations or audience category missing");
+  check(legacy[2011].awards[0]?.awards[0]?.film === "DIE FARBE / EL COLOR QUE CAYÓ DEL CIELO" && legacy[2011].awards[1]?.awards[5]?.film === "BRUTAL RELÁX" && legacy[2011].awards[1]?.jury?.includes("PABLO PRAINO"), "2011: jury or awards still parser-contaminated");
+  check(legacy[2011].edition.dates === "entre los días 12 y 18 de octubre de 2011" && legacy[2011].edition.venues?.[0] === "las dos salas de Cine Universitario (Canelones 1280)", "2011: source dates or venue changed");
+}
+
 // 2012: VII source has 50 identifiable works, not the larger approximate chronicle totals.
 if (legacy[2012]) {
   const secs = sectionsOf(2012);
