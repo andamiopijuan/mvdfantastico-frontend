@@ -14,6 +14,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { absoluteUrl, seoMetadata, SITE_URL } from "@/lib/seo";
 
 const STATIC_LOCALES = ["es", "en", "pt"] as const;
 
@@ -88,6 +89,13 @@ function findFilmInLegacyJson(year: number, legacyJson: Record<string, any>, slu
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const year = parseInt(params.year, 10);
+  if (year === 2026) {
+    return { title: "Montevideo Fantástico XVI", robots: { index: false, follow: true }, alternates: { canonical: absoluteUrl(params.locale, `/film/${params.slug}/`) } };
+  }
+  const redirectPath = getArchiveSlugRedirectPath(params.locale, year, params.slug);
+  if (redirectPath) {
+    return { robots: { index: false, follow: true }, alternates: { canonical: `${SITE_URL}${redirectPath}/` } };
+  }
   const edition = getArchiveEdition(year);
   const legacyJson = getLegacyEdition(year);
   if (!edition || !legacyJson) {
@@ -100,10 +108,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: `${t("fallback_title")} — Montevideo Fantástico` };
   }
   const { film } = result;
-  return {
-    title: `${film.title} — Montevideo Fantástico ${edition.number ?? ""}`.trim(),
-    description: film.synopsis ?? undefined,
-  };
+  const isCompat = !getLegacyFeatureSlugs(year).includes(params.slug);
+  const label = params.locale === "en" ? "Film in the archive of" : params.locale === "pt" ? "Filme no arquivo de" : "Película en el archivo de";
+  const metadata = seoMetadata({
+    locale: params.locale,
+    path: () => `/archivo/${year}/${params.slug}/`,
+    title: `${film.title} — ${edition.name}`,
+    description: `${film.title}. ${label} ${edition.name} (${year}).`,
+  });
+  if (isCompat) {
+    metadata.robots = { index: false, follow: true };
+    metadata.alternates = { canonical: absoluteUrl(params.locale, `/archivo/${year}/`) };
+  }
+  return metadata;
 }
 
 export default async function FilmDetailPage({ params }: PageProps) {

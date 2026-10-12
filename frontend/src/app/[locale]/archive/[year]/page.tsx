@@ -1,5 +1,10 @@
 import { ARCHIVE_EDITIONS } from "@/lib/archive";
 import { redirect } from "next/navigation";
+import { compatibilityMetadata } from "@/lib/seo";
+
+export function generateMetadata({ params }: { params: { locale: string; year: string } }) {
+  return compatibilityMetadata(params.locale, `/archivo/${params.year}/`);
+}
 
 const STATIC_LOCALES = ["es", "en", "pt"] as const;
 

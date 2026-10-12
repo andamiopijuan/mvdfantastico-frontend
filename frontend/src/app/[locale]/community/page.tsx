@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { seoMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
   return [
@@ -15,7 +16,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const t = await getTranslations({ locale: params.locale, namespace: "community" });
-  return { title: t("title") };
+  return seoMetadata({ locale: params.locale, path: () => "/community/", title: `${t("title")} — Montevideo Fantástico`, description: t("coming_soon") });
 }
 
 export default async function CommunityPage({ params }: PageProps) {

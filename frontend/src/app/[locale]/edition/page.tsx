@@ -1,27 +1,8 @@
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import Link from "next/link";
+import { editionPath, seoMetadata } from "@/lib/seo";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://montevideofan.com";
-
-export const metadata: Metadata = {
-  title: "Convocatoria XVII — Montevideo Fantástico",
-  description: "Inscripciones abiertas para Montevideo Fantástico XVII. Cortometrajes, mediometrajes y largometrajes de terror, fantasía y ciencia ficción. Producciones independientes de cualquier país.",
-  openGraph: {
-    title: "Montevideo Fantástico XVII — Convocatoria abierta",
-    description: "Inscripciones abiertas para Montevideo Fantástico XVII. Terror, fantasía y ciencia ficción. Producciones independientes de cualquier país.",
-    type: "website",
-    url: `${SITE_URL}/es/edicion`,
-    images: [{ url: `${SITE_URL}/media/og/xvi-og.jpg`, width: 1200, height: 630, alt: "Montevideo Fantástico" }],
-    siteName: "Montevideo Fantástico",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Montevideo Fantástico XVII — Convocatoria abierta",
-    description: "Inscripciones abiertas. Terror, fantasía y ciencia ficción. Cualquier país.",
-    images: [`${SITE_URL}/media/og/xvi-og.jpg`],
-  },
-};
 
 const COPY: Record<string, {
   editionBadge: string;
@@ -94,6 +75,18 @@ const COPY: Record<string, {
     archiveLink: "Ver o arquivo completo →",
   },
 };
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const { locale } = params;
+  const copy = COPY[locale] ?? COPY.es;
+  const metadata = seoMetadata({
+    locale, path: editionPath,
+    title: `${copy.editionBadge} — ${copy.heading}`,
+    description: `${copy.subheading}. ${copy.descLines.join(" ")}`,
+  });
+  if (locale === "es") metadata.robots = { index: false, follow: true };
+  return metadata;
+}
 
 
 

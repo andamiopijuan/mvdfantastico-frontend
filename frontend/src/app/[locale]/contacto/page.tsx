@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import SocialLinks from "@/components/home/SocialLinks";
+import { seoMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Contacto — Montevideo Fantástico",
-};
 
 export function generateStaticParams() {
   return [{ locale: "es" }, { locale: "en" }, { locale: "pt" }];
@@ -51,6 +49,11 @@ const COPY: Record<string, {
     festhome: "Festhome",
   },
 };
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const copy = COPY[params.locale] ?? COPY.es;
+  return seoMetadata({ locale: params.locale, path: () => "/contacto/", title: `${copy.eyebrow} — Montevideo Fantástico`, description: copy.desc });
+}
 
 export default async function ContactoPage({ params }: { params: { locale: string } }) {
   setRequestLocale(params.locale);

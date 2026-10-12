@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { seoMetadata } from "@/lib/seo";
 import {
   getArchiveEdition,
   getLegacyArchiveYears,
@@ -22,7 +23,12 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const edition = getArchiveEdition(parseInt(params.year, 10));
-  return { title: edition ? `${edition.name} — Montevideo Fantástico` : "Edición — Montevideo Fantástico" };
+  const label = params.locale === "en" ? "Archive edition" : params.locale === "pt" ? "Edição do arquivo" : "Edición del archivo";
+  return seoMetadata({
+    locale: params.locale, path: () => `/archivo/${params.year}/`,
+    title: edition ? `${edition.name} (${edition.year})` : `${label} — Montevideo Fantástico`,
+    description: edition ? `${label}: ${edition.name} (${edition.year}).` : `${label} — Montevideo Fantástico.`,
+  });
 }
 
 

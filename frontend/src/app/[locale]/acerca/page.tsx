@@ -1,8 +1,13 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { seoMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Acerca del Festival — Montevideo Fantástico" };
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const t = await getTranslations({ locale: params.locale, namespace: "acerca" });
+  const title = params.locale === "en" ? "About Montevideo Fantástico" : params.locale === "pt" ? "Sobre Montevideo Fantástico" : "Acerca de Montevideo Fantástico";
+  return seoMetadata({ locale: params.locale, path: () => "/acerca/", title, description: t("subtitle") });
+}
 
 export function generateStaticParams() {
   return [

@@ -3,8 +3,8 @@ import { setRequestLocale } from "next-intl/server";
 import SocialLinks from "@/components/home/SocialLinks";
 import Link from "next/link";
 import Image from "next/image";
+import { seoMetadata } from "@/lib/seo";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://montevideofan.com";
 
 const LOCALE_DESCRIPTIONS: Record<string, string> = {
   es: "Festival internacional de cine de terror, fantasía y ciencia ficción independiente. Montevideo y el Interior de Uruguay.",
@@ -15,26 +15,7 @@ const LOCALE_DESCRIPTIONS: Record<string, string> = {
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale;
   const description = LOCALE_DESCRIPTIONS[locale] ?? LOCALE_DESCRIPTIONS.es;
-  const pageUrl = `${SITE_URL}/${locale}/`;
-  const ogImage = `${SITE_URL}/media/og/xvi-og.jpg`;
-  return {
-    title: "Montevideo Fantástico",
-    description,
-    openGraph: {
-      title: "Montevideo Fantástico",
-      description,
-      type: "website",
-      url: pageUrl,
-      siteName: "Montevideo Fantástico",
-      images: [{ url: ogImage, width: 1200, height: 630, alt: "Montevideo Fantástico" }],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Montevideo Fantástico",
-      description,
-      images: [ogImage],
-    },
-  };
+  return seoMetadata({ locale, path: () => "/", title: "Montevideo Fantástico", description });
 }
 
 // Curated XVI gallery — 8 images for home preview

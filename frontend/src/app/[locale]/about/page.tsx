@@ -1,3 +1,9 @@
+import { compatibilityMetadata } from "@/lib/seo";
+
+export function generateMetadata({ params }: { params: { locale: string } }) {
+  return compatibilityMetadata(params.locale, "/acerca/");
+}
+
 export function generateStaticParams() {
   return [
     { locale: "es" },

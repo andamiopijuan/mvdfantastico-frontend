@@ -5,8 +5,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { FILMS_2026, CATEGORY_LABELS, getCategoryLabel, getFilmSynopsis, getFilmFestivalNote, getFilmBySlug } from "@/data/films-2026";
 import { notFound } from "next/navigation";
 import ShareButtons from "@/components/film/ShareButtons";
+import { SITE_URL, seoMetadata } from "@/lib/seo";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://montevideofan.com";
 
 // Slugs that have a dedicated 1200×630 OG crop under /media/og/films/
 const OG_FILM_CROPS = new Set([
@@ -54,25 +54,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     : film.poster
     ? `${SITE_URL}${film.poster}`
     : `${SITE_URL}/media/og/xvi-og.jpg`;
-  const pageUrl = `${SITE_URL}/${params.locale}/film/${film.slug}`;
-  return {
-    title: `${film.title} — Montevideo Fantástico XVI`,
-    description,
-    openGraph: {
-      title: `${film.title} — Montevideo Fantástico XVI`,
-      description,
-      type: "video.movie",
-      url: pageUrl,
-      images: [{ url: ogImageUrl, width: 1200, height: 630, alt: film.title }],
-      siteName: "Montevideo Fantástico",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: `${film.title} — Montevideo Fantástico XVI`,
-      description,
-      images: [ogImageUrl],
-    },
-  };
+  return seoMetadata({ locale: params.locale, path: () => `/film/${film.slug}/`, title: `${film.title} — Montevideo Fantástico XVI`, description, image: ogImageUrl, type: "video.movie" });
 }
 
 export default function FilmDetailPage({ params }: PageProps) {

@@ -2,6 +2,7 @@
 import { FILMS_2026 } from "@/data/films-2026";
 import { getArchiveSlugRedirectPath, getCompatSlugParams, getLegacyArchiveYears, getLegacyFeatureSlugs } from "@/lib/archive";
 import { redirect } from "next/navigation";
+import { compatibilityMetadata } from "@/lib/seo";
 
 const STATIC_LOCALES = ["es", "en", "pt"] as const;
 
@@ -45,6 +46,12 @@ export async function generateStaticParams() {
 
 interface PageProps {
   params: { locale: string; year: string; slug: string };
+}
+
+export function generateMetadata({ params }: PageProps) {
+  const target = getArchiveSlugRedirectPath(params.locale, Number(params.year), params.slug);
+  const path = target ? target.replace(`/${params.locale}`, "") : params.year === "2026" ? `/film/${params.slug}/` : `/archivo/${params.year}/${params.slug}/`;
+  return compatibilityMetadata(params.locale, path.endsWith("/") ? path : `${path}/`);
 }
 
 export default function ArchiveSlugRedirectPage({ params }: PageProps) {

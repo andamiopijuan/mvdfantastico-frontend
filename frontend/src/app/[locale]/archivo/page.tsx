@@ -2,10 +2,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ARCHIVE_EDITIONS, type ArchiveEdition } from "@/lib/archive";
+import { seoMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Ediciones anteriores — Montevideo Fantástico",
-};
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const t = await getTranslations({ locale: params.locale, namespace: "archive" });
+  return seoMetadata({ locale: params.locale, path: () => "/archivo/", title: `${t("title")} — Montevideo Fantástico`, description: t("subtitle") });
+}
 
 function EditionCard({ edition, locale }: { edition: ArchiveEdition; locale: string }) {
   return (

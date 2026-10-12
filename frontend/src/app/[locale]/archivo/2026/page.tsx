@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FILMS_2026, CATEGORY_LABELS, getFilmsByCategory, getCategoryLabel, getFilmTitle } from "@/data/films-2026";
 import { SCREENINGS_2026 } from "@/data/screenings-2026";
+import { SITE_URL, seoMetadata } from "@/lib/seo";
 
 // ── Venue photo mapping ────────────────────────────────────────────────────────
 const VENUE_PHOTO_MAP: Record<string, string> = {
@@ -157,20 +158,16 @@ function getScreeningsByVenue(): Array<{ venue: string; location?: string; scree
   return entries;
 }
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://montevideofan.com";
-
-export const metadata: Metadata = {
-  title: "Montevideo Fantástico XVI (2026) — Archivo",
-  description: "Archivo completo de la decimosexta edición del Festival Montevideo Fantástico: 52 días, 22 sedes, 138 películas, programación, premios, galería y equipo.",
-  openGraph: {
-    title: "Montevideo Fantástico XVI — Archivo 2026",
-    description: "Archivo completo de la decimosexta edición: programación, películas seleccionadas, sedes, premios y galería.",
-    type: "website",
-    url: `${SITE_URL}/es/archivo/2026`,
-    images: [{ url: `${SITE_URL}/media/archive/XVI/poster.jpg`, width: 640, height: 900, alt: "Poster Montevideo Fantástico XVI" }],
-    siteName: "Montevideo Fantástico",
-  },
+const ARCHIVE_META = {
+  es: { title: "Archivo Montevideo Fantástico XVI (2026)", description: "Archivo de Montevideo Fantástico XVI: 52 días, 22 sedes, 138 películas, programación, premios y galería." },
+  en: { title: "Montevideo Fantástico XVI (2026) Archive", description: "Archive of Montevideo Fantástico XVI: 52 days, 22 venues, 138 films, programme, awards and gallery." },
+  pt: { title: "Arquivo Montevideo Fantástico XVI (2026)", description: "Arquivo do Montevideo Fantástico XVI: 52 dias, 22 sedes, 138 filmes, programação, prêmios e galeria." },
 };
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const copy = ARCHIVE_META[params.locale as keyof typeof ARCHIVE_META] ?? ARCHIVE_META.es;
+  return seoMetadata({ locale: params.locale, path: () => "/archivo/2026/", ...copy, image: `${SITE_URL}/media/archive/XVI/poster.jpg`, imageSize: { width: 640, height: 900 } });
+}
 
 export function generateStaticParams() {
   return [{ locale: "es" }, { locale: "en" }, { locale: "pt" }];

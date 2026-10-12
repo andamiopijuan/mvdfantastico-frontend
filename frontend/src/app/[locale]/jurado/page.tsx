@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { JURY_SECTIONS_2026 } from "@/data/jury-2026";
 import type { JuryMember } from "@/data/jury-2026";
+import { juryPath, seoMetadata } from "@/lib/seo";
 
 // ── Localized page content ─────────────────────────────────────────────────
 
@@ -49,10 +50,9 @@ export async function generateMetadata({
   params: { locale: string };
 }): Promise<Metadata> {
   const c = getContent(params.locale);
-  return {
-    title: c.metaTitle,
-    description: c.metaDesc,
-  };
+  const metadata = seoMetadata({ locale: params.locale, path: juryPath, title: c.metaTitle, description: c.metaDesc });
+  if (params.locale !== "es") metadata.robots = { index: false, follow: true };
+  return metadata;
 }
 
 // ── Jury card ──────────────────────────────────────────────────────────────

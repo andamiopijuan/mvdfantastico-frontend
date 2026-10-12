@@ -1,4 +1,9 @@
 ﻿import { redirect } from "next/navigation";
+import { compatibilityMetadata } from "@/lib/seo";
+
+export function generateMetadata({ params }: { params: { locale: string } }) {
+  return compatibilityMetadata(params.locale, "/archivo/");
+}
 
 interface PageProps {
   params: { locale: string };
