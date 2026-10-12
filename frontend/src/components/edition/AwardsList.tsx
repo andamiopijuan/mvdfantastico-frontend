@@ -1,12 +1,14 @@
 import type { AwardWinner } from "@/lib/types";
+import { useTranslations } from "next-intl";
 
 interface AwardsListProps {
   awards: AwardWinner[];
 }
 
 export default function AwardsList({ awards }: AwardsListProps) {
+  const t = useTranslations("edition_widgets");
   if (awards.length === 0) {
-    return <p className="text-text-muted text-center py-12">No hay premios registrados.</p>;
+    return <p className="text-text-muted text-center py-12">{t("empty_awards")}</p>;
   }
 
   return (
@@ -23,7 +25,7 @@ export default function AwardsList({ awards }: AwardsListProps) {
                 <p className="text-text-secondary text-sm mt-1 italic">{award.work_director}</p>
               )}
               {award.is_special_mention && (
-                <p className="text-text-muted text-xs mt-1">Mención especial</p>
+                <p className="text-text-muted text-xs mt-1">{t("special_mention")}</p>
               )}
             </div>
           </div>

@@ -6,6 +6,7 @@ import { useTranslations, useLocale } from "next-intl";
 
 export default function Footer() {
   const t = useTranslations("nav");
+  const footerT = useTranslations("footer");
   const locale = useLocale();
 
   return (
@@ -25,7 +26,7 @@ export default function Footer() {
               />
             </Link>
             <p className="font-sans text-[9px] tracking-[0.2em] uppercase text-white/60 font-light">
-              Festival Internacional de Cine Fantástico · Uruguay
+              {footerT("tagline")}
             </p>
           </div>
 

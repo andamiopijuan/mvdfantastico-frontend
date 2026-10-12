@@ -183,7 +183,7 @@ function JsonFeatureCard({ film, locale, year = 2017 }: { film: FeatureFilm; loc
 // ── Legacy Edition Renderer ──────────────────────────────────────────────────
 // Renders an edition page from the versioned legacy archive JSON.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-function LegacyEditionRenderer({ data, locale, year, backHref, backLabel, featuresLabel, competitionShortsLabel, venuesLabel }: { data: Record<string, any>; locale: string; year: number; backHref: string; backLabel: string; featuresLabel: string; competitionShortsLabel: string; venuesLabel: string }) {
+function LegacyEditionRenderer({ data, locale, year, backHref, backLabel, featuresLabel, competitionShortsLabel, venuesLabel, uiLabels }: { data: Record<string, any>; locale: string; year: number; backHref: string; backLabel: string; featuresLabel: string; competitionShortsLabel: string; venuesLabel: string; uiLabels: { by: string; awards: string; jury: string } }) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const ed = data.edition ?? {} as Record<string, any>;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -292,7 +292,7 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel, featur
       {editorial && Array.isArray(editorial.content) && editorial.content.length > 0 && (
         <section className="mb-16 p-8 md:p-12" style={{ border: "1px solid rgba(0,212,255,0.10)", background: "rgba(0,212,255,0.02)" }}>
           <h2 className="font-display text-3xl text-white mb-1">{editorial.title}</h2>
-          <p className="text-[11px] uppercase tracking-widest text-plasma mb-8">Por {editorial.author}</p>
+          <p className="text-[11px] uppercase tracking-widest text-plasma mb-8">{uiLabels.by} {editorial.author}</p>
           <div className="space-y-5 max-w-prose">
             {editorial.content.map((p, i) => <p key={i} className="text-text-secondary leading-relaxed">{p}</p>)}
           </div>
@@ -302,7 +302,7 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel, featur
       {/* Awards */}
       {awards.length > 0 && (
         <section className="mb-16">
-          <h2 className="font-display text-3xl text-white mb-8 border-b border-white/20 pb-4">Premios</h2>
+          <h2 className="font-display text-3xl text-white mb-8 border-b border-white/20 pb-4">{uiLabels.awards}</h2>
           <div className="space-y-12">
             {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
             {awards.map((block: any, bi: number) => {
@@ -321,7 +321,7 @@ function LegacyEditionRenderer({ data, locale, year, backHref, backLabel, featur
                   {blockTitle && <h3 className="font-display text-xl sm:text-2xl text-white mb-3">{blockTitle}</h3>}
                   {block.jury && (
                     <p className="text-sm text-text-secondary mb-6">
-                      <span className="text-text-muted text-sm uppercase tracking-[0.18em] mr-2">Jurado:</span>{block.jury}
+                      <span className="text-text-muted text-sm uppercase tracking-[0.18em] mr-2">{uiLabels.jury}</span>{block.jury}
                     </p>
                   )}
                   <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -479,6 +479,7 @@ export default async function EditionArchivePage({ params }: PageProps) {
   setRequestLocale(params.locale);
   const t = await getTranslations("archive");
   const te = await getTranslations("edition");
+  const ui = await getTranslations("legacy_ui");
 
   return (
     <LegacyEditionRenderer
@@ -490,6 +491,7 @@ export default async function EditionArchivePage({ params }: PageProps) {
       featuresLabel={te("features_count")}
       competitionShortsLabel={te("competition_shorts_count")}
       venuesLabel={te("venues_heading")}
+      uiLabels={{ by: ui("by"), awards: ui("awards"), jury: ui("jury") }}
     />
   );
 }

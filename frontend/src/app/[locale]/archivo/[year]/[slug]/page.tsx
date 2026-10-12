@@ -90,9 +90,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const year = parseInt(params.year, 10);
   const edition = getArchiveEdition(year);
   const legacyJson = getLegacyEdition(year);
-  if (!edition || !legacyJson) return { title: "Película — Montevideo Fantástico" };
+  if (!edition || !legacyJson) {
+    const t = await getTranslations({ locale: params.locale, namespace: "film_ui" });
+    return { title: `${t("fallback_title")} — Montevideo Fantástico` };
+  }
   const result = findFilmInLegacyJson(year, legacyJson, params.slug);
-  if (!result) return { title: "Película — Montevideo Fantástico" };
+  if (!result) {
+    const t = await getTranslations({ locale: params.locale, namespace: "film_ui" });
+    return { title: `${t("fallback_title")} — Montevideo Fantástico` };
+  }
   const { film } = result;
   return {
     title: `${film.title} — Montevideo Fantástico ${edition.number ?? ""}`.trim(),
@@ -104,6 +110,7 @@ export default async function FilmDetailPage({ params }: PageProps) {
   const { locale, year, slug } = params;
   setRequestLocale(locale);
   const t = await getTranslations("archive");
+  const ui = await getTranslations("legacy_ui");
   const yearInt = parseInt(year, 10);
 
   const aliasPath = getArchiveSlugRedirectPath(locale, yearInt, slug);
@@ -173,25 +180,25 @@ export default async function FilmDetailPage({ params }: PageProps) {
           <dl className="grid grid-cols-[auto_1fr] gap-x-10 gap-y-4 mb-10 max-w-lg">
             {film.director && (
               <>
-                <dt className="text-text-muted uppercase tracking-widest text-[11px] self-start pt-0.5">Dirección</dt>
+                <dt className="text-text-muted uppercase tracking-widest text-[11px] self-start pt-0.5">{ui("director")}</dt>
                 <dd className="text-white text-base">{film.director}</dd>
               </>
             )}
             {film.country && (
               <>
-                <dt className="text-text-muted uppercase tracking-widest text-[11px] self-start pt-0.5">País</dt>
+                <dt className="text-text-muted uppercase tracking-widest text-[11px] self-start pt-0.5">{ui("country")}</dt>
                 <dd className="text-white text-base">{film.country}</dd>
               </>
             )}
             {film.year && (
               <>
-                <dt className="text-text-muted uppercase tracking-widest text-[11px] self-start pt-0.5">Año</dt>
+                <dt className="text-text-muted uppercase tracking-widest text-[11px] self-start pt-0.5">{ui("year")}</dt>
                 <dd className="text-white text-base">{film.year}</dd>
               </>
             )}
             {film.duration && (
               <>
-                <dt className="text-text-muted uppercase tracking-widest text-[11px] self-start pt-0.5">Duración</dt>
+                <dt className="text-text-muted uppercase tracking-widest text-[11px] self-start pt-0.5">{ui("duration")}</dt>
                 <dd className="text-white text-base">{film.duration} min</dd>
               </>
             )}
@@ -200,7 +207,7 @@ export default async function FilmDetailPage({ params }: PageProps) {
           {/* Synopsis */}
           {film.synopsis && (
             <div className="mb-10 max-w-prose">
-              <p className="text-xs uppercase tracking-widest text-plasma mb-4">Sinopsis</p>
+              <p className="text-xs uppercase tracking-widest text-plasma mb-4">{ui("synopsis")}</p>
               <p className="text-text-secondary text-base leading-loose">{film.synopsis}</p>
             </div>
           )}
@@ -209,10 +216,10 @@ export default async function FilmDetailPage({ params }: PageProps) {
           {film.review && (
             <div className="max-w-prose border-l-2 pl-6" style={{ borderColor: "rgba(0,212,255,0.30)" }}>
               <p className="text-xs uppercase tracking-widest text-plasma mb-1">
-                Nota del festival
+                {ui("festival_note")}
               </p>
               <p className="text-[11px] text-text-muted mb-4 uppercase tracking-widest">
-                Texto: Alejandro Yamgotchian
+                {ui("text_by")} Alejandro Yamgotchian
               </p>
               <p className="text-text-secondary text-base leading-loose italic">{film.review}</p>
             </div>
@@ -230,11 +237,11 @@ export default async function FilmDetailPage({ params }: PageProps) {
       {/* Trailer */}
       {film.trailer_url && (
         <div className="mt-20">
-          <p className="text-xs uppercase tracking-widest text-plasma mb-5">Tráiler</p>
+          <p className="text-xs uppercase tracking-widest text-plasma mb-5">{ui("trailer")}</p>
           <div className="relative w-full max-w-3xl" style={{ aspectRatio: "16/9" }}>
             <iframe
               src={film.trailer_url}
-              title={`Tráiler — ${film.title}`}
+              title={`${ui("trailer")} — ${film.title}`}
               className="absolute inset-0 w-full h-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

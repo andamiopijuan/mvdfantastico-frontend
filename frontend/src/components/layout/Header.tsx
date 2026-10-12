@@ -10,6 +10,7 @@ import { useState, useEffect, useRef } from "react";
 
 export default function Header() {
   const t = useTranslations("nav");
+  const heroT = useTranslations("home.hero");
   const locale = useLocale();
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -218,7 +219,7 @@ export default function Header() {
           {/* Footer tagline */}
           <div className="px-4 sm:px-6 pb-8 mt-4 flex-shrink-0">
             <p className="font-sans text-[9px] tracking-[0.25em] text-text-muted uppercase">
-              Festival Internacional de Cine Fantástico · Montevideo, Uruguay
+              {heroT("eyebrow")}
             </p>
           </div>
         </div>

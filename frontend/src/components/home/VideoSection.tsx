@@ -5,105 +5,105 @@ import { useTranslations, useLocale } from "next-intl";
 
 type SlideLabel = { es: string; en: string; pt: string };
 
-const SLIDES: Array<{ src: string; alt: string; labels: SlideLabel }> = [
+const SLIDES: Array<{ src: string; alt: SlideLabel; labels: SlideLabel }> = [
   {
     src: "/media/home/featured/awards-02.jpg",
-    alt: "Festival awards ceremony",
+    alt: { es: "Ceremonia de premios del festival", en: "Festival awards ceremony", pt: "Cerimônia de premiação do festival" },
     labels: { es: "Ceremonia de Premios", en: "Awards Ceremony", pt: "Cerimônia de Prêmios" },
   },
   {
     src: "/media/home/preprocessed/M18.jpg",
-    alt: "Festival presenter",
+    alt: { es: "Presentador del festival", en: "Festival presenter", pt: "Apresentador do festival" },
     labels: { es: "El Festival", en: "The Festival", pt: "O Festival" },
   },
   {
     src: "/media/home/preprocessed/M6.jpg",
-    alt: "Festival guests and performers",
+    alt: { es: "Invitados y artistas del festival", en: "Festival guests and performers", pt: "Convidados e artistas do festival" },
     labels: { es: "Invitados", en: "Festival Guests", pt: "Convidados" },
   },
   {
     src: "/media/home/featured/awards-03.jpg",
-    alt: "Festival on stage",
+    alt: { es: "Festival en el escenario", en: "Festival on stage", pt: "Festival no palco" },
     labels: { es: "En Escena", en: "On Stage", pt: "Em Cena" },
   },
   {
     src: "/media/home/preprocessed/Insta-2.jpg",
-    alt: "Festival behind the scenes",
+    alt: { es: "Detrás de escena del festival", en: "Festival behind the scenes", pt: "Bastidores do festival" },
     labels: { es: "Detrás de Escena", en: "Behind the Scenes", pt: "Bastidores" },
   },
   {
     src: "/media/home/preprocessed/M9.jpg",
-    alt: "Festival talk",
+    alt: { es: "Charla del festival", en: "Festival talk", pt: "Palestra do festival" },
     labels: { es: "Charlas", en: "Talks", pt: "Palestras" },
   },
   {
     src: "/media/home/preprocessed/M4.jpg",
-    alt: "Film competition",
+    alt: { es: "Competencia de cine", en: "Film competition", pt: "Competição de cinema" },
     labels: { es: "Competencia", en: "Competition", pt: "Competição" },
   },
   {
     src: "/media/home/preprocessed/Insta-3.jpg",
-    alt: "Festival audience and atmosphere",
+    alt: { es: "Público y ambiente del festival", en: "Festival audience and atmosphere", pt: "Público e ambiente do festival" },
     labels: { es: "El Público", en: "The Audience", pt: "O Público" },
   },
   {
     src: "/media/home/preprocessed/M44.jpg",
-    alt: "Festival activities",
+    alt: { es: "Actividades del festival", en: "Festival activities", pt: "Atividades do festival" },
     labels: { es: "Actividades", en: "Activities", pt: "Atividades" },
   },
   {
     src: "/media/home/preprocessed/M7.jpg",
-    alt: "Festival guests",
+    alt: { es: "Invitados del festival", en: "Festival guests", pt: "Convidados do festival" },
     labels: { es: "Invitados", en: "Guests", pt: "Convidados" },
   },
   {
     src: "/media/home/preprocessed/Insta-5.jpg",
-    alt: "Genre cinema culture",
+    alt: { es: "Cultura del cine de género", en: "Genre cinema culture", pt: "Cultura do cinema de gênero" },
     labels: { es: "Cine de Género", en: "Genre Cinema", pt: "Cinema de Gênero" },
   },
   {
     src: "/media/home/featured/awards-01.jpg",
-    alt: "Talks and panels",
+    alt: { es: "Charlas y paneles", en: "Talks and panels", pt: "Palestras e debates" },
     labels: { es: "Encuentros y Debate", en: "Talks & Panels", pt: "Encontros e Debates" },
   },
   {
     src: "/media/home/preprocessed/M2.jpg",
-    alt: "Festival atmosphere",
+    alt: { es: "Ambiente del festival", en: "Festival atmosphere", pt: "Ambiente do festival" },
     labels: { es: "Atmósfera", en: "Atmosphere", pt: "Atmosfera" },
   },
   {
     src: "/media/home/preprocessed/Insta-7.jpg",
-    alt: "Festival community",
+    alt: { es: "Comunidad del festival", en: "Festival community", pt: "Comunidade do festival" },
     labels: { es: "Comunidad", en: "Community", pt: "Comunidade" },
   },
   {
     src: "/media/home/preprocessed/M12.jpg",
-    alt: "Festival award winners",
+    alt: { es: "Ganadores de premios del festival", en: "Festival award winners", pt: "Vencedores dos prêmios do festival" },
     labels: { es: "Premiados", en: "Award Winners", pt: "Premiados" },
   },
   {
     src: "/media/home/preprocessed/M11.jpg",
-    alt: "Festival screenings",
+    alt: { es: "Proyecciones del festival", en: "Festival screenings", pt: "Sessões do festival" },
     labels: { es: "Proyecciones", en: "Screenings", pt: "Sessões" },
   },
   {
     src: "/media/home/preprocessed/Insta-8.jpg",
-    alt: "Festival night out",
+    alt: { es: "Noche de festival", en: "Festival night out", pt: "Noite de festival" },
     labels: { es: "Noche de Festival", en: "Festival Night", pt: "Noite de Festival" },
   },
   {
     src: "/media/home/preprocessed/M15.jpg",
-    alt: "Festival programme",
+    alt: { es: "Programación del festival", en: "Festival programme", pt: "Programação do festival" },
     labels: { es: "Programación", en: "Programme", pt: "Programação" },
   },
   {
     src: "/media/home/preprocessed/Insta-4.jpg",
-    alt: "Festival theatrical performance",
+    alt: { es: "Presentación teatral del festival", en: "Festival theatrical performance", pt: "Apresentação teatral do festival" },
     labels: { es: "En Escena", en: "On Stage", pt: "Em Cena" },
   },
   {
     src: "/media/home/preprocessed/M3.jpg",
-    alt: "Festival venue",
+    alt: { es: "Sede del festival", en: "Festival venue", pt: "Local do festival" },
     labels: { es: "Las Sedes", en: "Venues", pt: "Os Locais" },
   },
 ];
@@ -143,7 +143,7 @@ export default function VideoSection() {
               >
                 <Image
                   src={slide.src}
-                  alt={slide.alt}
+                  alt={slide.alt[locale]}
                   fill
                   className="object-contain"
                   loading={i === 0 ? "eager" : "lazy"}
@@ -171,7 +171,7 @@ export default function VideoSection() {
             {/* Navigation arrows */}
             <button
               onClick={prev}
-              aria-label="Previous image"
+              aria-label={t("previous_image")}
               className="absolute left-3 top-1/2 -translate-y-1/2 flex items-center justify-center w-9 h-9 transition-colors"
               style={{ background: "rgba(7,11,20,0.55)", border: "1px solid rgba(0,212,255,0.25)" }}
             >
@@ -181,7 +181,7 @@ export default function VideoSection() {
             </button>
             <button
               onClick={next}
-              aria-label="Next image"
+              aria-label={t("next_image")}
               className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center justify-center w-9 h-9 transition-colors"
               style={{ background: "rgba(7,11,20,0.55)", border: "1px solid rgba(0,212,255,0.25)" }}
             >
@@ -196,7 +196,7 @@ export default function VideoSection() {
                 <button
                   key={i}
                   onClick={() => setActive(i)}
-                  aria-label={`Image ${i + 1}`}
+                  aria-label={t("image_number", { number: i + 1 })}
                   className="transition-all duration-300"
                   style={{
                     width: i === active ? "1.5rem" : "0.375rem",

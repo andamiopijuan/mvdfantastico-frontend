@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { clsx } from "clsx";
 import type { Screening } from "@/lib/types";
 
@@ -21,12 +21,13 @@ function groupByDate(events: Screening[]): Map<string, Screening[]> {
 
 export default function ScheduleList({ events }: ScheduleListProps) {
   const locale = useLocale();
+  const t = useTranslations("edition_widgets");
   const grouped = groupByDate([...events].sort((a, b) => a.date.localeCompare(b.date)));
   const dates = Array.from(grouped.keys());
   const [activeDate, setActiveDate] = useState<string>(dates[0] ?? "");
 
   if (dates.length === 0) {
-    return <p className="text-text-muted text-center py-12">Sin programación registrada.</p>;
+    return <p className="text-text-muted text-center py-12">{t("empty_schedule")}</p>;
   }
 
   const dayEvents = (grouped.get(activeDate) ?? []).sort((a, b) =>

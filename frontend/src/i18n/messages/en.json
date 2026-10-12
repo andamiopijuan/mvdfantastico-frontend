@@ -12,6 +12,40 @@
     "close_menu_label": "Close menu",
     "menu_dialog_label": "Navigation menu"
   },
+  "community": {
+    "eyebrow": "Network",
+    "title": "Community",
+    "coming_soon": "Coming soon."
+  },
+  "share": {
+    "label": "Share",
+    "copy_link": "Copy link",
+    "link_copied": "Link copied"
+  },
+  "footer": {
+    "tagline": "International Fantastic Film Festival · Uruguay"
+  },
+  "film_ui": {
+    "fallback_title": "Film"
+  },
+  "legacy_ui": {
+    "by": "By",
+    "awards": "Awards",
+    "jury": "Jury:",
+    "director": "Direction",
+    "country": "Country",
+    "year": "Year",
+    "duration": "Duration",
+    "synopsis": "Synopsis",
+    "festival_note": "Festival note",
+    "text_by": "Text by:",
+    "trailer": "Trailer"
+  },
+  "edition_widgets": {
+    "empty_schedule": "No screenings scheduled.",
+    "empty_awards": "No awards recorded.",
+    "special_mention": "Special mention"
+  },
   "home": {
     "hero": {
       "eyebrow": "International Fantastic Film Festival · Montevideo, Uruguay",
@@ -151,6 +185,9 @@
     "heading": "GALLERY — AWARDS CEREMONY",
     "label": "Video",
     "eyebrow": "Gallery",
-    "description": "Images from past festival editions. Documentation continues to grow with each new edition."
+    "description": "Images from past festival editions. Documentation continues to grow with each new edition.",
+    "previous_image": "Previous image",
+    "next_image": "Next image",
+    "image_number": "Image {number}"
   }
 }

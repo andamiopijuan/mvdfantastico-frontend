@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { FILMS_2026, CATEGORY_LABELS, getCategoryLabel, getFilmSynopsis, getFilmFestivalNote, getFilmBySlug } from "@/data/films-2026";
 import { notFound } from "next/navigation";
 import ShareButtons from "@/components/film/ShareButtons";
@@ -43,7 +43,10 @@ export const dynamicParams = false;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const film = getFilmBySlug(params.slug);
-  if (!film) return { title: "Película — Montevideo Fantástico" };
+  if (!film) {
+    const t = await getTranslations({ locale: params.locale, namespace: "film_ui" });
+    return { title: `${t("fallback_title")} — Montevideo Fantástico` };
+  }
   const description = (params.locale === "en" ? film.synopsis_en : params.locale === "pt" ? film.synopsis_pt : undefined) || film.synopsis;
   // Use dedicated 1200×630 OG crop if available, otherwise fall back to poster (absolute URL), then edition default
   const ogImageUrl = OG_FILM_CROPS.has(film.slug)

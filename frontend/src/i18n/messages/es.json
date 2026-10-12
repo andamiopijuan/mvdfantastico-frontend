@@ -12,6 +12,40 @@
     "close_menu_label": "Cerrar menú",
     "menu_dialog_label": "Menú de navegación"
   },
+  "community": {
+    "eyebrow": "Red",
+    "title": "Comunidad",
+    "coming_soon": "Próximamente."
+  },
+  "share": {
+    "label": "Compartir",
+    "copy_link": "Copiar enlace",
+    "link_copied": "Enlace copiado"
+  },
+  "footer": {
+    "tagline": "Festival Internacional de Cine Fantástico · Uruguay"
+  },
+  "film_ui": {
+    "fallback_title": "Película"
+  },
+  "legacy_ui": {
+    "by": "Por",
+    "awards": "Premios",
+    "jury": "Jurado:",
+    "director": "Dirección",
+    "country": "País",
+    "year": "Año",
+    "duration": "Duración",
+    "synopsis": "Sinopsis",
+    "festival_note": "Nota del festival",
+    "text_by": "Texto:",
+    "trailer": "Tráiler"
+  },
+  "edition_widgets": {
+    "empty_schedule": "Sin programación registrada.",
+    "empty_awards": "No hay premios registrados.",
+    "special_mention": "Mención especial"
+  },
   "home": {
     "hero": {
       "eyebrow": "Festival Internacional de Cine Fantástico · Montevideo, Uruguay",
@@ -151,6 +185,9 @@
     "heading": "GALERÍA — ENTREGA DE PREMIOS",
     "label": "Video",
     "eyebrow": "Galería",
-    "description": "Imágenes de ediciones del festival. La documentación continúa creciendo con cada nueva edición."
+    "description": "Imágenes de ediciones del festival. La documentación continúa creciendo con cada nueva edición.",
+    "previous_image": "Imagen anterior",
+    "next_image": "Imagen siguiente",
+    "image_number": "Imagen {number}"
   }
 }

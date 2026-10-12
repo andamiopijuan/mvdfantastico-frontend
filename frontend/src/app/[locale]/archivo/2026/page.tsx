@@ -585,6 +585,9 @@ function AwardCard({ prize, film, detail, country, slug, locale = "es" }: {
 // ── UI translations for locale-aware rendering ───────────────────────────────
 const ARCHIVE_UI: Record<string, {
   breadcrumbArchive: string;
+  breadcrumbLabel: string;
+  sectionsNavigationLabel: string;
+  posterAlt: string;
   heroBadge: string;
   heroDate: string;
   heroDesc: (n: number) => string;
@@ -630,6 +633,9 @@ const ARCHIVE_UI: Record<string, {
 }> = {
   es: {
     breadcrumbArchive: "Archivo",
+    breadcrumbLabel: "Ruta de navegación",
+    sectionsNavigationLabel: "Secciones del archivo",
+    posterAlt: "Afiche de Montevideo Fantástico XVI",
     heroBadge: "EDICIÓN XVI · ARCHIVO",
     heroDate: "8 de mayo al 28 de junio de 2026",
     heroDesc: (n) => `La decimosexta edición del Festival Montevideo Fantástico se extendió del 8 de mayo al 28 de junio de 2026, con funciones gratuitas en 14 sedes de Montevideo y 8 del interior del país. Una selección de ${n} películas de más de 30 países en competencia, más novedades y funciones especiales.`,
@@ -690,6 +696,9 @@ const ARCHIVE_UI: Record<string, {
   },
   en: {
     breadcrumbArchive: "Archive",
+    breadcrumbLabel: "Breadcrumb",
+    sectionsNavigationLabel: "Archive sections",
+    posterAlt: "Montevideo Fantástico XVI poster",
     heroBadge: "EDITION XVI · ARCHIVE",
     heroDate: "8 May to 28 June 2026",
     heroDesc: (n) => `The sixteenth edition of Montevideo Fantástico ran from 8 May to 28 June 2026, with free screenings across 14 venues in Montevideo and 8 venues in the rest of Uruguay. It featured ${n} films from more than 30 countries, in competition sections, new programmes and special screenings.`,
@@ -758,6 +767,9 @@ const ARCHIVE_UI: Record<string, {
   },
   pt: {
     breadcrumbArchive: "Arquivo",
+    breadcrumbLabel: "Trilha de navegação",
+    sectionsNavigationLabel: "Seções do arquivo",
+    posterAlt: "Cartaz do Montevideo Fantástico XVI",
     heroBadge: "EDIÇÃO XVI · ARQUIVO",
     heroDate: "8 de maio a 28 de junho de 2026",
     heroDesc: (n) => `A décima sexta edição do Montevideo Fantástico aconteceu de 8 de maio a 28 de junho de 2026, com sessões gratuitas em 14 sedes de Montevidéu e 8 sedes no interior do Uruguai. A seleção reuniu ${n} filmes de mais de 30 países, entre mostras competitivas, novas seções e sessões especiais.`,
@@ -845,7 +857,7 @@ export default function Archive2026Page({ params }: { params: { locale: string }
           <div style={{ border: "1px solid rgba(0,212,255,0.15)" }}>
             <Image
               src="/media/archive/XVI/poster.jpg"
-              alt="Poster Montevideo Fantástico XVI"
+              alt={ui.posterAlt}
               width={520}
               height={740}
               className="w-full h-auto block"
@@ -856,7 +868,7 @@ export default function Archive2026Page({ params }: { params: { locale: string }
         {/* Info */}
         <div>
           {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 mb-5 text-xs text-text-muted" aria-label="Breadcrumb">
+          <nav className="flex items-center gap-2 mb-5 text-xs text-text-muted" aria-label={ui.breadcrumbLabel}>
             <Link href={`/${locale}/archivo`} className="hover:text-plasma transition-colors">{ui.breadcrumbArchive}</Link>
             <span>/</span>
             <span className="text-text-secondary">2026</span>
@@ -900,7 +912,7 @@ export default function Archive2026Page({ params }: { params: { locale: string }
           </p>
 
           {/* Quick navigation */}
-          <nav aria-label="Secciones del archivo" className="flex flex-wrap gap-2">
+          <nav aria-label={ui.sectionsNavigationLabel} className="flex flex-wrap gap-2">
             {ANCHORS.map(({ id, label }) => (
               <a
                 key={id}

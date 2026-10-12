@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface ShareButtonsProps {
   url: string;
@@ -9,6 +10,7 @@ interface ShareButtonsProps {
 
 export default function ShareButtons({ url, title }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
+  const t = useTranslations("share");
 
   const encodedUrl = encodeURIComponent(url);
   const encodedText = encodeURIComponent(title + " — Montevideo Fantástico XVI");
@@ -69,7 +71,7 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
   return (
     <div className="flex items-center gap-2 flex-wrap">
       <span className="font-sans text-[10px] uppercase tracking-[0.2em] text-text-muted mr-1">
-        Compartir
+        {t("label")}
       </span>
 
       {links.map(({ key, label, href, icon }) => (
@@ -89,7 +91,7 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
       {/* Copy link */}
       <button
         onClick={handleCopy}
-        aria-label="Copiar enlace"
+        aria-label={t("copy_link")}
         className="flex items-center justify-center w-8 h-8 transition-colors text-text-muted hover:text-plasma"
         style={{ border: "1px solid rgba(255,255,255,0.10)", background: "rgba(255,255,255,0.03)" }}
       >
@@ -107,7 +109,7 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
 
       {copied && (
         <span className="font-sans text-[10px] text-plasma tracking-wide ml-1 transition-opacity">
-          Enlace copiado
+          {t("link_copied")}
         </span>
       )}
     </div>
