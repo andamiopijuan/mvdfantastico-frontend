@@ -21,6 +21,11 @@
     overflow-x: hidden;
   }
 
+  :where(a[href], button, input, select, textarea, summary, [tabindex]:not([tabindex="-1"])):focus-visible {
+    outline: 2px solid #00d4ff;
+    outline-offset: 3px;
+  }
+
   /* Mobile — slightly smaller base, more open line-height for readability */
   @media (max-width: 640px) {
     body {
@@ -54,6 +59,19 @@
   h4, h5, h6 {
     font-family: var(--font-sans);
     @apply text-text-primary font-semibold leading-tight;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 

@@ -6,23 +6,63 @@ import { useTranslations, useLocale } from "next-intl";
 import { usePathname } from "next/navigation";
 import { clsx } from "clsx";
 import LanguageSwitcher from "./LanguageSwitcher";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export default function Header() {
   const t = useTranslations("nav");
   const locale = useLocale();
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+  const menuTriggerRef = useRef<HTMLButtonElement>(null);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const dialogRef = useRef<HTMLDivElement>(null);
 
-  // Lock body scroll while mobile menu is open
   useEffect(() => {
-    if (menuOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => { document.body.style.overflow = ""; };
+    if (!menuOpen || !dialogRef.current) return;
+
+    const dialog = dialogRef.current;
+    const previousOverflow = document.body.style.overflow;
+    const background = Array.from(document.body.children)
+      .filter((element): element is HTMLElement => element instanceof HTMLElement && element !== dialog && !element.contains(dialog))
+      .map((element) => ({ element, wasInert: element.inert }));
+
+    document.body.style.overflow = "hidden";
+    background.forEach(({ element }) => { element.inert = true; });
+    closeButtonRef.current?.focus();
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      background.forEach(({ element, wasInert }) => { element.inert = wasInert; });
+      menuTriggerRef.current?.focus();
+    };
   }, [menuOpen]);
+
+  const handleDialogKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
+    if (event.key === "Escape") {
+      event.preventDefault();
+      setMenuOpen(false);
+      return;
+    }
+    if (event.key !== "Tab" || !dialogRef.current) return;
+
+    const focusable = Array.from(dialogRef.current.querySelectorAll<HTMLElement>(
+      'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    )).filter((element) => element.getClientRects().length > 0 && !element.closest("[inert]"));
+    if (!focusable.length) {
+      event.preventDefault();
+      dialogRef.current.focus();
+      return;
+    }
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (event.shiftKey && (document.activeElement === first || !dialogRef.current.contains(document.activeElement))) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && (document.activeElement === last || !dialogRef.current.contains(document.activeElement))) {
+      event.preventDefault();
+      first.focus();
+    }
+  };
 
   const isActive = (href: string) => pathname === href;
 
@@ -47,7 +87,7 @@ export default function Header() {
           <Link
             href={`/${locale}`}
             className="flex items-center flex-shrink-0 min-w-0"
-            aria-label="Montevideo Fantástico — Inicio"
+            aria-label={t("home_label")}
           >
             <Image
               src="/logos/logo-main.png.png"
@@ -60,7 +100,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation — hidden on mobile */}
-          <nav className="hidden md:flex items-center gap-5 flex-1 justify-center" aria-label="Main navigation">
+          <nav className="hidden md:flex items-center gap-5 flex-1 justify-center" aria-label={t("main_navigation_label")}>
             {links.map(({ href, label }) => (
               <Link
                 key={href}
@@ -77,9 +117,10 @@ export default function Header() {
             <LanguageSwitcher />
             {/* MENU button — mobile only */}
             <button
+              ref={menuTriggerRef}
               className="md:hidden flex items-center justify-center h-8 px-2 text-text-secondary hover:text-text-primary transition-colors"
               onClick={() => setMenuOpen(true)}
-              aria-label="Abrir menú"
+              aria-label={t("open_menu_label")}
               aria-expanded={menuOpen}
               aria-controls="mobile-nav"
             >
@@ -100,12 +141,15 @@ export default function Header() {
       ──────────────────────────────────────────────────────────────── */}
       {menuOpen && (
         <div
+          ref={dialogRef}
           id="mobile-nav"
           className="fixed inset-0 z-[60] bg-void flex flex-col animate-fade-in"
           style={{ animationDuration: '0.18s', animationTimingFunction: 'ease-out' }}
           role="dialog"
           aria-modal="true"
-          aria-label="Menú de navegación"
+          aria-label={t("menu_dialog_label")}
+          tabIndex={-1}
+          onKeyDown={handleDialogKeyDown}
         >
           {/* Top gradient strip */}
           <div
@@ -119,7 +163,7 @@ export default function Header() {
               href={`/${locale}`}
               onClick={() => setMenuOpen(false)}
               className="flex items-center flex-shrink-0"
-              aria-label="Montevideo Fantástico — Inicio"
+              aria-label={t("home_label")}
             >
               <Image
                 src="/logos/logo-main.png.png"
@@ -133,9 +177,10 @@ export default function Header() {
             <div className="flex items-center gap-2">
               <LanguageSwitcher />
               <button
+                ref={closeButtonRef}
                 onClick={() => setMenuOpen(false)}
                 className="flex items-center justify-center w-8 h-8 text-text-secondary hover:text-text-primary transition-colors"
-                aria-label="Cerrar menú"
+                aria-label={t("close_menu_label")}
               >
                 <svg viewBox="0 0 14 14" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true">
                   <line x1="1" y1="1" x2="13" y2="13" />
@@ -146,7 +191,7 @@ export default function Header() {
           </div>
 
           {/* Nav links — balanced size, not oversized */}
-          <nav className="px-4 sm:px-6 flex flex-col mt-6 flex-1 overflow-y-auto" aria-label="Navegación principal">
+          <nav className="px-4 sm:px-6 flex flex-col mt-6 flex-1 overflow-y-auto" aria-label={t("main_navigation_label")}>
             {links.map(({ href, label }, i) => (
               <Link
                 key={href}

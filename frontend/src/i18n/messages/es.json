@@ -5,7 +5,12 @@
     "jury": "Jurado",
     "archive": "Archivo",
     "about": "Acerca de",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "home_label": "Montevideo Fantástico — Inicio",
+    "main_navigation_label": "Navegación principal",
+    "open_menu_label": "Abrir menú",
+    "close_menu_label": "Cerrar menú",
+    "menu_dialog_label": "Menú de navegación"
   },
   "home": {
     "hero": {

@@ -17,8 +17,8 @@ const config: Config = {
         // Text
         "text-primary": "#e8edf5",
         "text-secondary": "#7a8aa0",
-        "text-muted": "#3d4f63",
-        "text-tertiary": "#3d4f63",
+        "text-muted": "#75889f",
+        "text-tertiary": "#75889f",
         // Primary accent — plasma cyan
         plasma: {
           DEFAULT: "#00d4ff",
