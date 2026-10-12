@@ -552,6 +552,7 @@ function AwardCard({ prize, film, detail, country, slug, locale = "es" }: {
           <img
             src={poster}
             alt={film}
+            loading="lazy"
             className="w-full h-auto block"
             style={{ display: "block" }}
           />

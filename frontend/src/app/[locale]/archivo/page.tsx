@@ -22,6 +22,7 @@ function EditionCard({ edition, locale }: { edition: ArchiveEdition; locale: str
           <img
             src={edition.poster}
             alt={edition.name}
+            loading="lazy"
             className="absolute inset-0 w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
